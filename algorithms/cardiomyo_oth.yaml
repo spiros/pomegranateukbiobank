@@ -1,0 +1,302 @@
+metadata:
+  phenotype: Other Cardiomyopathy
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: cardiomyo_oth
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 4c74ee14-5ca8-41db-b7c9-b72bb6be621b
+  ontologies:
+    DOID: DOID_0050700
+    GWAS: EFO_0000318
+    MESH: D009202
+    SNOMED-CT: 85898001
+    FINNGEN: I9_CARDMYO
+  short_desc: A disease of the heart muscle or myocardium proper.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I25.5
+      value: Ischaemic cardiomyopathy
+      type: any
+    - code: I42.3
+      value: Endomyocardial (eosinophilic) disease
+      type: any
+    - code: I42.5
+      value: Other restrictive cardiomyopathy
+      type: any
+    - code: I42.7
+      value: Cardiomyopathy due to drugs and other external agents
+      type: any
+    - code: I42.8
+      value: Other cardiomyopathies
+      type: any
+    - code: I42.9
+      value: Cardiomyopathy, unspecified
+      type: any
+    - code: I43
+      value: Cardiomyopathy in diseases classified elsewhere
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I25.5
+      value: Ischaemic cardiomyopathy
+      type: any
+    - code: I42.3
+      value: Endomyocardial (eosinophilic) disease
+      type: any
+    - code: I42.5
+      value: Other restrictive cardiomyopathy
+      type: any
+    - code: I42.7
+      value: Cardiomyopathy due to drugs and other external agents
+      type: any
+    - code: I42.8
+      value: Other cardiomyopathies
+      type: any
+    - code: I42.9
+      value: Cardiomyopathy, unspecified
+      type: any
+    - code: I43
+      value: Cardiomyopathy in diseases classified elsewhere
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I25.5
+      value: Ischaemic cardiomyopathy
+      type: any
+    - code: I42.3
+      value: Endomyocardial (eosinophilic) disease
+      type: any
+    - code: I42.5
+      value: Other restrictive cardiomyopathy
+      type: any
+    - code: I42.7
+      value: Cardiomyopathy due to drugs and other external agents
+      type: any
+    - code: I42.8
+      value: Other cardiomyopathies
+      type: any
+    - code: I42.9
+      value: Cardiomyopathy, unspecified
+      type: any
+    - code: I43
+      value: Cardiomyopathy in diseases classified elsewhere
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I25.5
+      value: Ischaemic cardiomyopathy
+      type: any
+    - code: I42.3
+      value: Endomyocardial (eosinophilic) disease
+      type: any
+    - code: I42.5
+      value: Other restrictive cardiomyopathy
+      type: any
+    - code: I42.7
+      value: Cardiomyopathy due to drugs and other external agents
+      type: any
+    - code: I42.8
+      value: Other cardiomyopathies
+      type: any
+    - code: I42.9
+      value: Cardiomyopathy, unspecified
+      type: any
+    - code: I43
+      value: Cardiomyopathy in diseases classified elsewhere
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: C373300
+      value: Familial cardiac amyloid
+      type: any
+    - code: C373G00
+      value: Senile cardiac amyloidosis
+      type: any
+    - code: F391B00
+      value: Cardiomyopathy in Duchenne muscular dystrophy
+      type: any
+    - code: G343.00
+      value: Ischaemic cardiomyopathy
+      type: any
+    - code: G550.00
+      value: Endomyocardial fibrosis
+      type: any
+    - code: G552.00
+      value: Obscure African cardiomyopathy
+      type: any
+    - code: G554100
+      value: Constrictive cardiomyopathy
+      type: any
+    - code: G554200
+      value: Familial cardiomyopathy
+      type: any
+    - code: G554500
+      value: Takotsubo cardiomyopathy
+      type: any
+    - code: G554511
+      value: Stress cardiomyopathy
+      type: any
+    - code: G554.00
+      value: Other primary cardiomyopathies
+      type: any
+    - code: G554z00
+      value: Other primary cardiomyopathy NOS
+      type: any
+    - code: G557000
+      value: Amyloid heart disease
+      type: any
+    - code: G557011
+      value: Cardiac amyloidosis
+      type: any
+    - code: G557100
+      value: Beriberi heart disease
+      type: any
+    - code: G557500
+      value: Thyrotoxic heart disease
+      type: any
+    - code: G557.00
+      value: Nutritional and metabolic cardiomyopathies
+      type: any
+    - code: G557z00
+      value: Nutritional and metabolic cardiomyopathy NOS
+      type: any
+    - code: G558000
+      value: Cardiomyopathy in Friedreich's ataxia
+      type: any
+    - code: G558100
+      value: Cardiomyopathy in myotonic dystrophy
+      type: any
+    - code: G558200
+      value: Dystrophic cardiomyopathy
+      type: any
+    - code: G558400
+      value: Amyloid cardiomyopathy
+      type: any
+    - code: G558.00
+      value: Cardiomyopathy in disease EC
+      type: any
+    - code: G558z00
+      value: Cardiomyopathy in diseases EC, NOS
+      type: any
+    - code: G559.00
+      value: Arrhythmogenic right ventricular cardiomyopathy
+      type: any
+    - code: G55A.00
+      value: Tachycardiomyopathy
+      type: any
+    - code: G55A.11
+      value: Tachycardia-induced cardiomyopathy
+      type: any
+    - code: G55..00
+      value: Cardiomyopathy
+      type: any
+    - code: G55y000
+      value: Cardiomyopathy due to drugs and other external agents
+      type: any
+    - code: G55y.00
+      value: Secondary cardiomyopathy NOS
+      type: any
+    - code: G55z.00
+      value: Cardiomyopathy NOS
+      type: any
+    - code: Gyu5N00
+      value: '[X]Other restrictive cardiomyopathy'
+      type: any
+    - code: Gyu5P00
+      value: '[X]Other cardiomyopathies'
+      type: any
+    - code: Gyu5R00
+      value: '[X]Cardiomyopathy in metabolic diseases CE'
+      type: any
+    - code: XE0V1
+      value: Secondary cardiomyopathy NOS
+      type: any
+    - code: Xa1fq
+      value: Arrhythmogenic right ventricular cardiomyopathy
+      type: any
+    - code: XaZSw
+      value: Senile cardiac amyloidosis
+      type: any
+    - code: XaZcx
+      value: Amyloid cardiomyopathy
+      type: any
+    - code: XaI9b
+      value: Cardiomyopathy in Duchenne muscular dystrophy
+      type: any
+    - code: XE0V0
+      value: Nutritional and metabolic cardiomyopathy NOS
+      type: any
+    - code: XaWye
+      value: Takotsubo cardiomyopathy
+      type: any
+    - code: XE0Uy
+      value: Obscure African cardiomyopathy
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

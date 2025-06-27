@@ -1,0 +1,172 @@
+metadata:
+  phenotype: Alzheimer's disease
+  group: Psychiatric
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: alzheimer
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 43a6b12f-72ea-46f3-a025-3c82247cc707
+  priority: 1
+  ontologies:
+    DOID: DOID_10652
+    GWAS: MONDO_0004975
+    MESH: D000544
+    SNOMED-CT: 26929004
+    FINNGEN: G6_ALZHEIMER
+  short_desc: A degenerative disease of the brain characterized by the insidious onset
+    of dementia. Impairment of memory, judgment, attention span, and problem solving
+    skills are followed by severe apraxias and a global loss of cognitive abilities.
+  long_desc: null
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: F00
+      value: Dementia in Alzheimer's disease
+      type: any
+    - code: G30
+      value: Alzheimer's disease
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: F00
+      value: Dementia in Alzheimer's disease
+      type: any
+    - code: G30
+      value: Alzheimer's disease
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F00
+      value: Dementia in Alzheimer's disease
+      type: any
+    - code: G30
+      value: Alzheimer's disease
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F00
+      value: Dementia in Alzheimer's disease
+      type: any
+    - code: G30
+      value: Alzheimer's disease
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: Eu00000
+      value: '[X]Dementia in Alzheimer''s disease with early onset'
+      type: any
+    - code: Eu00011
+      value: '[X]Presenile dementia,Alzheimer''s type'
+      type: any
+    - code: Eu00012
+      value: '[X]Primary degen dementia, Alzheimer''s type, presenile onset'
+      type: any
+    - code: Eu00013
+      value: '[X]Alzheimer''s disease type 2'
+      type: any
+    - code: Eu00100
+      value: '[X]Dementia in Alzheimer''s disease with late onset'
+      type: any
+    - code: Eu00111
+      value: '[X]Alzheimer''s disease type 1'
+      type: any
+    - code: Eu00112
+      value: '[X]Senile dementia,Alzheimer''s type'
+      type: any
+    - code: Eu00113
+      value: '[X]Primary degen dementia of Alzheimer''s type, senile onset'
+      type: any
+    - code: Eu00200
+      value: '[X]Dementia in Alzheimer''s dis, atypical or mixed type'
+      type: any
+    - code: Eu00.00
+      value: '[X]Dementia in Alzheimer''s disease'
+      type: any
+    - code: Eu00z00
+      value: '[X]Dementia in Alzheimer''s disease, unspecified'
+      type: any
+    - code: Eu00z11
+      value: '[X]Alzheimer''s dementia unspec'
+      type: any
+    - code: F110000
+      value: Alzheimer's disease with early onset
+      type: any
+    - code: F110100
+      value: Alzheimer's disease with late onset
+      type: any
+    - code: F110.00
+      value: Alzheimer's disease
+      type: any
+    - code: Fyu3000
+      value: '[X]Other Alzheimer''s disease'
+      type: any
+    - code: XaIKB
+      value: Alzheimer's disease with early onset
+      type: any
+    - code: XaIKC
+      value: Alzheimer's disease with late onset
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

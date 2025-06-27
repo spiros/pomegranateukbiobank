@@ -1,0 +1,156 @@
+metadata:
+  phenotype: Nonrheumatic mitral valve disorders
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: nonRh_mitral
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: b7b5dd9a-c9e9-4ecd-ae5a-84097d70381c
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: null
+    SNOMED-CT: 708121009
+    FINNGEN: null
+  short_desc: Abnormalities of a valve in the heart that are not caused by or related
+    to rheumatism and affect the way that the blood flows from the heart.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1488'
+      value: mitral valve prolapse
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I34
+      value: Nonrheumatic mitral valve disorders
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I34
+      value: Nonrheumatic mitral valve disorders
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I34
+      value: Nonrheumatic mitral valve disorders
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I34
+      value: Nonrheumatic mitral valve disorders
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: G114.00
+      value: Ruptured mitral valve cusp
+      type: any
+    - code: G11..00
+      value: Mitral valve diseases
+      type: any
+    - code: G11z.00
+      value: Mitral valve disease NOS
+      type: any
+    - code: G540000
+      value: Mitral incompetence, non-rheumatic
+      type: any
+    - code: G540100
+      value: Mitral incompetence, cause unspecified
+      type: any
+    - code: G540200
+      value: Mitral valve prolapse
+      type: any
+    - code: G540300
+      value: Mitral valve leaf prolapse
+      type: any
+    - code: G540.00
+      value: Mitral valve incompetence
+      type: any
+    - code: G540.12
+      value: Mitral valve insufficiency
+      type: any
+    - code: G540.14
+      value: Mitral valve regurgitation
+      type: any
+    - code: G540.15
+      value: Mitral valve prolapse
+      type: any
+    - code: G540.16
+      value: Mitral regurgitation
+      type: any
+    - code: G540z00
+      value: Mitral valve disorders NOS
+      type: any
+    - code: Gyu1000
+      value: '[X]Other mitral valve diseases'
+      type: any
+    - code: Gyu5500
+      value: '[X]Other nonrheumatic mitral valve disorders'
+      type: any
+    - code: X200u
+      value: Mitral valve prolapse
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,267 @@
+metadata:
+  phenotype: Benign neoplasm of colon, rectum, anus and anal canal
+  group: Benign neoplasm or Carcinoma in situ
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: benign_colon
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 0c435921-7347-45a5-89d9-f7641c71a89b
+  ontologies:
+    DOID: DOID_235
+    GWAS: MONDO_0002278
+    MESH: null
+    SNOMED-CT: 92170008
+    FINNGEN: CD2_BENIGN_COLORECANI
+  short_desc: An intestinal benign neoplasm that is located in the colon, rectum,
+    anus or anal canal
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1460'
+      value: rectal or colon adenoma/polyps
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D12
+      value: Benign neoplasm of colon, rectum, anus and anal canal
+      type: any
+    - code: K62.0
+      value: Anal polyp
+      type: any
+    - code: K62.1
+      value: Rectal polyp
+      type: any
+    - code: K63.5
+      value: Polyp of colon
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D12
+      value: Benign neoplasm of colon, rectum, anus and anal canal
+      type: any
+    - code: K62.0
+      value: Anal polyp
+      type: any
+    - code: K62.1
+      value: Rectal polyp
+      type: any
+    - code: K63.5
+      value: Polyp of colon
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D12
+      value: Benign neoplasm of colon, rectum, anus and anal canal
+      type: any
+    - code: K62.0
+      value: Anal polyp
+      type: any
+    - code: K62.1
+      value: Rectal polyp
+      type: any
+    - code: K63.5
+      value: Polyp of colon
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D12
+      value: Benign neoplasm of colon, rectum, anus and anal canal
+      type: any
+    - code: K62.0
+      value: Anal polyp
+      type: any
+    - code: K62.1
+      value: Rectal polyp
+      type: any
+    - code: K63.5
+      value: Polyp of colon
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 771G400
+      value: Colonoscopic polypectomy
+      type: any
+    - code: '7722.11'
+      value: Open operation on rectal polyp
+      type: any
+    - code: '7722.12'
+      value: Open polypectomy of rectum
+      type: any
+    - code: '7726111.0'
+      value: Peranal excision of rectal polyp
+      type: any
+    - code: '7726112.0'
+      value: Peranal polypectomy of rectum
+      type: any
+    - code: '7726212.0'
+      value: Peranal destruction of rectal polyp
+      type: any
+    - code: '7731200.0'
+      value: Excision of anal polyp
+      type: any
+    - code: B713000
+      value: Benign neoplasm of hepatic flexure of colon
+      type: any
+    - code: B713100
+      value: Benign neoplasm of transverse colon
+      type: any
+    - code: B713200
+      value: Benign neoplasm of descending colon
+      type: any
+    - code: B713300
+      value: Benign neoplasm of sigmoid colon
+      type: any
+    - code: B713400
+      value: Benign neoplasm of caecum
+      type: any
+    - code: B713500
+      value: Benign neoplasm of appendix
+      type: any
+    - code: B713600
+      value: Benign neoplasm of ascending colon
+      type: any
+    - code: B713700
+      value: Benign neoplasm of splenic flexure of colon
+      type: any
+    - code: B713900
+      value: Benign neoplasm of ileocaecal valve
+      type: any
+    - code: B713.00
+      value: Benign neoplasm of colon
+      type: any
+    - code: B713.11
+      value: Colon polyp
+      type: any
+    - code: B713z00
+      value: Benign neoplasm of colon NOS
+      type: any
+    - code: B714000
+      value: Benign neoplasm of rectosigmoid junction
+      type: any
+    - code: B714100
+      value: Benign neoplasm of rectum
+      type: any
+    - code: B714111
+      value: Benign papilloma rectum
+      type: any
+    - code: B714200
+      value: Benign neoplasm of anal canal
+      type: any
+    - code: B714300
+      value: Benign neoplasm of anus NOS
+      type: any
+    - code: B714.00
+      value: Benign neoplasm of rectum and anal canal
+      type: any
+    - code: B714z00
+      value: Benign neoplasm of rectum or anal canal NOS
+      type: any
+    - code: J570000
+      value: Anal polyp
+      type: any
+    - code: J570100
+      value: Rectal polyp
+      type: any
+    - code: J570.00
+      value: Anal and rectal polyp
+      type: any
+    - code: J570z00
+      value: Anal and rectal polyp NOS
+      type: any
+    - code: J578.00
+      value: Colonic polyp
+      type: any
+    - code: J578.11
+      value: Polyp of colon
+      type: any
+    - code: X78o7
+      value: Benign neoplasm of ileocaecal valve
+      type: any
+    - code: X78Oa
+      value: Colonic polyp
+      type: any
+    - code: XE0Do
+      value: Peranal destruction of lesion of rectum
+      type: any
+    - code: XE0Dn
+      value: Peranal excision of lesion of rectum
+      type: any
+    - code: XaD2M
+      value: Colonoscopic polypectomy
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: D12
+      value: Benign neoplasm of colon, rectum, anus and anal canal
+      type: any
+    - code: K62.0
+      value: Anal polyp
+      type: any
+    - code: K62.1
+      value: Rectal polyp
+      type: any
+    - code: K63.5
+      value: Polyp of colon
+      type: any

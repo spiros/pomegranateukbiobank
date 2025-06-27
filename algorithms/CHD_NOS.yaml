@@ -1,0 +1,319 @@
+metadata:
+  phenotype: Coronary heart disease not otherwise specified
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: CHD_NOS
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 9afda18f-4c1b-4613-b4af-119bec29ff1a
+  ontologies:
+    DOID: DOID_3393
+    GWAS: EFO_0001645
+    MESH: D003324
+    SNOMED-CT: 53741008
+    FINNGEN: I9_CHD
+  short_desc: An artery disease that is characterized by plaque building up along
+    the inner walls of the arteries of the heart resulting in a narrowing of the arteries
+    and a reduced blood supply to the cardiac muscles.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1066'
+      value: heart/cardiac problem
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I25.0
+      value: Atherosclerotic cardiovascular disease, so described
+      type: any
+    - code: I25.1
+      value: Atherosclerotic heart disease
+      type: any
+    - code: I25.3
+      value: Aneurysm of heart
+      type: any
+    - code: I25.4
+      value: Coronary artery aneurysm
+      type: any
+    - code: I25.5
+      value: Ischaemic cardiomyopathy
+      type: any
+    - code: I25.6
+      value: Silent myocardial ischaemia
+      type: any
+    - code: I25.8
+      value: Other forms of chronic ischaemic heart disease
+      type: any
+    - code: I25.9
+      value: Chronic ischaemic heart disease, unspecified
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I25.0
+      value: Atherosclerotic cardiovascular disease, so described
+      type: any
+    - code: I25.1
+      value: Atherosclerotic heart disease
+      type: any
+    - code: I25.3
+      value: Aneurysm of heart
+      type: any
+    - code: I25.4
+      value: Coronary artery aneurysm
+      type: any
+    - code: I25.5
+      value: Ischaemic cardiomyopathy
+      type: any
+    - code: I25.6
+      value: Silent myocardial ischaemia
+      type: any
+    - code: I25.8
+      value: Other forms of chronic ischaemic heart disease
+      type: any
+    - code: I25.9
+      value: Chronic ischaemic heart disease, unspecified
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I25.0
+      value: Atherosclerotic cardiovascular disease, so described
+      type: any
+    - code: I25.1
+      value: Atherosclerotic heart disease
+      type: any
+    - code: I25.3
+      value: Aneurysm of heart
+      type: any
+    - code: I25.4
+      value: Coronary artery aneurysm
+      type: any
+    - code: I25.5
+      value: Ischaemic cardiomyopathy
+      type: any
+    - code: I25.6
+      value: Silent myocardial ischaemia
+      type: any
+    - code: I25.8
+      value: Other forms of chronic ischaemic heart disease
+      type: any
+    - code: I25.9
+      value: Chronic ischaemic heart disease, unspecified
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I25.0
+      value: Atherosclerotic cardiovascular disease, so described
+      type: any
+    - code: I25.1
+      value: Atherosclerotic heart disease
+      type: any
+    - code: I25.3
+      value: Aneurysm of heart
+      type: any
+    - code: I25.4
+      value: Coronary artery aneurysm
+      type: any
+    - code: I25.5
+      value: Ischaemic cardiomyopathy
+      type: any
+    - code: I25.6
+      value: Silent myocardial ischaemia
+      type: any
+    - code: I25.8
+      value: Other forms of chronic ischaemic heart disease
+      type: any
+    - code: I25.9
+      value: Chronic ischaemic heart disease, unspecified
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14AL.00
+      value: 'H/O: Treatment for ischaemic heart disease'
+      type: prevalent
+    - code: 6A2..00
+      value: Coronary heart disease annual review
+      type: prevalent
+    - code: 6A4..00
+      value: Coronary heart disease review
+      type: prevalent
+    - code: 8B3k.00
+      value: Coronary heart disease medication review
+      type: prevalent
+    - code: 8H2V.00
+      value: Admit ischaemic heart disease emergency
+      type: any
+    - code: G3...00
+      value: Ischaemic heart disease
+      type: any
+    - code: G3...11
+      value: Arteriosclerotic heart disease
+      type: any
+    - code: G3...12
+      value: Atherosclerotic heart disease
+      type: any
+    - code: G3...13
+      value: IHD - Ischaemic heart disease
+      type: any
+    - code: G31..00
+      value: Other acute and subacute ischaemic heart disease
+      type: any
+    - code: G311000
+      value: Myocardial infarction aborted
+      type: any
+    - code: G311011
+      value: MI - myocardial infarction aborted
+      type: any
+    - code: G31y.00
+      value: Other acute and subacute ischaemic heart disease
+      type: any
+    - code: G31y200
+      value: Subendocardial ischaemia
+      type: any
+    - code: G31y300
+      value: Transient myocardial ischaemia
+      type: any
+    - code: G31yz00
+      value: Other acute and subacute ischaemic heart disease NOS
+      type: any
+    - code: G34..00
+      value: Other chronic ischaemic heart disease
+      type: any
+    - code: G340.00
+      value: Coronary atherosclerosis
+      type: any
+    - code: G340.12
+      value: Coronary artery disease
+      type: any
+    - code: G343.00
+      value: Ischaemic cardiomyopathy
+      type: any
+    - code: G344.00
+      value: Silent myocardial ischaemia
+      type: any
+    - code: G34y.00
+      value: Other specified chronic ischaemic heart disease
+      type: any
+    - code: G34y100
+      value: Chronic myocardial ischaemia
+      type: any
+    - code: G34yz00
+      value: Other specified chronic ischaemic heart disease NOS
+      type: any
+    - code: G34z.00
+      value: Other chronic ischaemic heart disease NOS
+      type: any
+    - code: G34z000
+      value: Asymptomatic coronary heart disease
+      type: any
+    - code: G3y..00
+      value: Other specified ischaemic heart disease
+      type: any
+    - code: G3z..00
+      value: Ischaemic heart disease NOS
+      type: any
+    - code: Gyu3.00
+      value: '[X]Ischaemic heart diseases'
+      type: any
+    - code: Gyu3200
+      value: '[X]Other forms of acute ischaemic heart disease'
+      type: any
+    - code: Gyu3300
+      value: '[X]Other forms of chronic ischaemic heart disease'
+      type: any
+    - code: XaIfL
+      value: Coronary heart disease medication review
+      type: prevalent
+    - code: XaFsH
+      value: Transient myocardial ischaemia
+      type: any
+    - code: XE2uV
+      value: Ischaemic heart disease
+      type: any
+    - code: XaIOW
+      value: Coronary heart disease review
+      type: prevalent
+    - code: X200D
+      value: Silent myocardial ischaemia
+      type: any
+    - code: XM0rN
+      value: Coronary atherosclerosis
+      type: any
+    - code: XaBL4
+      value: 'H/O: Treatment for ischaemic heart disease'
+      type: prevalent
+    - code: XaNxN
+      value: Admit ischaemic heart disease emergency
+      type: any
+    - code: G31..
+      value: Other acute and subacute ischaemic heart disease
+      type: any
+    - code: XaG1Q
+      value: Asymptomatic coronary heart disease
+      type: any
+    - code: XaI9h
+      value: Coronary heart disease annual review
+      type: prevalent
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

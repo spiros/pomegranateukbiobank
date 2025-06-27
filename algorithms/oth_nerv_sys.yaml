@@ -1,0 +1,474 @@
+metadata:
+  phenotype: Other nervous system infections
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: oth_nerv_sys
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 37d58e59-0d1e-488c-9157-7cd25f413bd8
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: null
+    SNOMED-CT: null
+    FINNGEN: null
+  short_desc: Other nervous system infections
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1245'
+      value: brain abscess/intracranial abscess
+      type: any
+    - code: '1248'
+      value: spinal abscess
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: A06.6
+      value: Amoebic brain abscess
+      type: any
+    - code: A17.8
+      value: Other tuberculosis of nervous system
+      type: any
+    - code: A17.9
+      value: Tuberculosis of nervous system, unspecified
+      type: any
+    - code: A52.1
+      value: Symptomatic neurosyphilis
+      type: any
+    - code: A52.2
+      value: Asymptomatic neurosyphilis
+      type: any
+    - code: A52.3
+      value: Neurosyphilis, unspecified
+      type: any
+    - code: A80
+      value: Acute poliomyelitis
+      type: any
+    - code: A81
+      value: Atypical virus infections of central nervous system
+      type: any
+    - code: A82
+      value: Rabies
+      type: any
+    - code: A88
+      value: Other viral infections of central nervous system, not elsewhere classified
+      type: any
+    - code: A89
+      value: Unspecified viral infection of central nervous system
+      type: any
+    - code: B02.2
+      value: Zoster with other nervous system involvement
+      type: any
+    - code: B06.0
+      value: Rubella with neurological complications
+      type: any
+    - code: B43.1
+      value: Phaeomycotic brain abscess
+      type: any
+    - code: B45.1
+      value: Cerebral cryptococcosis
+      type: any
+    - code: B50.0
+      value: Plasmodium falciparum malaria with cerebral complications
+      type: any
+    - code: B58.2
+      value: Toxoplasma meningoencephalitis
+      type: any
+    - code: B69.0
+      value: Cysticercosis of central nervous system
+      type: any
+    - code: B90.0
+      value: Sequelae of central nervous system tuberculosis
+      type: any
+    - code: B91
+      value: Sequelae of poliomyelitis
+      type: any
+    - code: G04.2
+      value: Bacterial meningoencephalitis and meningomyelitis, not elsewhere classified
+      type: any
+    - code: G04.8
+      value: Other encephalitis, myelitis and encephalomyelitis
+      type: any
+    - code: G04.9
+      value: Encephalitis, myelitis and encephalomyelitis, unspecified
+      type: any
+    - code: G05.0
+      value: Encephalitis, myelitis and encephalomyelitis in bacterial diseases classified
+        elsewhere
+      type: any
+    - code: G05.1
+      value: Encephalitis, myelitis and encephalomyelitis in viral diseases classified
+        elsewhere
+      type: any
+    - code: G05.2
+      value: Encephalitis, myelitis and encephalomyelitis in other infectious and
+        parasitic diseases classified elsewhere
+      type: any
+    - code: G06
+      value: Intracranial and intraspinal abscess and granuloma
+      type: any
+    - code: G07
+      value: Intracranial and intraspinal abscess and granuloma in diseases classified
+        elsewhere
+      type: any
+    - code: G08
+      value: Intracranial and intraspinal phlebitis and thrombophlebitis
+      type: any
+    - code: M89.6
+      value: Osteopathy after poliomyelitis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: A06.6
+      value: Amoebic brain abscess
+      type: any
+    - code: A17.8
+      value: Other tuberculosis of nervous system
+      type: any
+    - code: A17.9
+      value: Tuberculosis of nervous system, unspecified
+      type: any
+    - code: A52.1
+      value: Symptomatic neurosyphilis
+      type: any
+    - code: A52.2
+      value: Asymptomatic neurosyphilis
+      type: any
+    - code: A52.3
+      value: Neurosyphilis, unspecified
+      type: any
+    - code: A80
+      value: Acute poliomyelitis
+      type: any
+    - code: A81
+      value: Atypical virus infections of central nervous system
+      type: any
+    - code: A82
+      value: Rabies
+      type: any
+    - code: A88
+      value: Other viral infections of central nervous system, not elsewhere classified
+      type: any
+    - code: A89
+      value: Unspecified viral infection of central nervous system
+      type: any
+    - code: B02.2
+      value: Zoster with other nervous system involvement
+      type: any
+    - code: B06.0
+      value: Rubella with neurological complications
+      type: any
+    - code: B43.1
+      value: Phaeomycotic brain abscess
+      type: any
+    - code: B45.1
+      value: Cerebral cryptococcosis
+      type: any
+    - code: B50.0
+      value: Plasmodium falciparum malaria with cerebral complications
+      type: any
+    - code: B58.2
+      value: Toxoplasma meningoencephalitis
+      type: any
+    - code: B69.0
+      value: Cysticercosis of central nervous system
+      type: any
+    - code: B90.0
+      value: Sequelae of central nervous system tuberculosis
+      type: any
+    - code: B91
+      value: Sequelae of poliomyelitis
+      type: any
+    - code: G04.2
+      value: Bacterial meningoencephalitis and meningomyelitis, not elsewhere classified
+      type: any
+    - code: G04.8
+      value: Other encephalitis, myelitis and encephalomyelitis
+      type: any
+    - code: G04.9
+      value: Encephalitis, myelitis and encephalomyelitis, unspecified
+      type: any
+    - code: G05.0
+      value: Encephalitis, myelitis and encephalomyelitis in bacterial diseases classified
+        elsewhere
+      type: any
+    - code: G05.1
+      value: Encephalitis, myelitis and encephalomyelitis in viral diseases classified
+        elsewhere
+      type: any
+    - code: G05.2
+      value: Encephalitis, myelitis and encephalomyelitis in other infectious and
+        parasitic diseases classified elsewhere
+      type: any
+    - code: G06
+      value: Intracranial and intraspinal abscess and granuloma
+      type: any
+    - code: G07
+      value: Intracranial and intraspinal abscess and granuloma in diseases classified
+        elsewhere
+      type: any
+    - code: G08
+      value: Intracranial and intraspinal phlebitis and thrombophlebitis
+      type: any
+    - code: M89.6
+      value: Osteopathy after poliomyelitis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A06.6
+      value: Amoebic brain abscess
+      type: any
+    - code: A17.8
+      value: Other tuberculosis of nervous system
+      type: any
+    - code: A17.9
+      value: Tuberculosis of nervous system, unspecified
+      type: any
+    - code: A52.1
+      value: Symptomatic neurosyphilis
+      type: any
+    - code: A52.2
+      value: Asymptomatic neurosyphilis
+      type: any
+    - code: A52.3
+      value: Neurosyphilis, unspecified
+      type: any
+    - code: A80
+      value: Acute poliomyelitis
+      type: any
+    - code: A81
+      value: Atypical virus infections of central nervous system
+      type: any
+    - code: A82
+      value: Rabies
+      type: any
+    - code: A88
+      value: Other viral infections of central nervous system, not elsewhere classified
+      type: any
+    - code: A89
+      value: Unspecified viral infection of central nervous system
+      type: any
+    - code: B02.2
+      value: Zoster with other nervous system involvement
+      type: any
+    - code: B06.0
+      value: Rubella with neurological complications
+      type: any
+    - code: B43.1
+      value: Phaeomycotic brain abscess
+      type: any
+    - code: B45.1
+      value: Cerebral cryptococcosis
+      type: any
+    - code: B50.0
+      value: Plasmodium falciparum malaria with cerebral complications
+      type: any
+    - code: B58.2
+      value: Toxoplasma meningoencephalitis
+      type: any
+    - code: B69.0
+      value: Cysticercosis of central nervous system
+      type: any
+    - code: B90.0
+      value: Sequelae of central nervous system tuberculosis
+      type: any
+    - code: B91
+      value: Sequelae of poliomyelitis
+      type: any
+    - code: G04.2
+      value: Bacterial meningoencephalitis and meningomyelitis, not elsewhere classified
+      type: any
+    - code: G04.8
+      value: Other encephalitis, myelitis and encephalomyelitis
+      type: any
+    - code: G04.9
+      value: Encephalitis, myelitis and encephalomyelitis, unspecified
+      type: any
+    - code: G05.0
+      value: Encephalitis, myelitis and encephalomyelitis in bacterial diseases classified
+        elsewhere
+      type: any
+    - code: G05.1
+      value: Encephalitis, myelitis and encephalomyelitis in viral diseases classified
+        elsewhere
+      type: any
+    - code: G05.2
+      value: Encephalitis, myelitis and encephalomyelitis in other infectious and
+        parasitic diseases classified elsewhere
+      type: any
+    - code: G06
+      value: Intracranial and intraspinal abscess and granuloma
+      type: any
+    - code: G07
+      value: Intracranial and intraspinal abscess and granuloma in diseases classified
+        elsewhere
+      type: any
+    - code: G08
+      value: Intracranial and intraspinal phlebitis and thrombophlebitis
+      type: any
+    - code: M89.6
+      value: Osteopathy after poliomyelitis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A06.6
+      value: Amoebic brain abscess
+      type: any
+    - code: A17.8
+      value: Other tuberculosis of nervous system
+      type: any
+    - code: A17.9
+      value: Tuberculosis of nervous system, unspecified
+      type: any
+    - code: A52.1
+      value: Symptomatic neurosyphilis
+      type: any
+    - code: A52.2
+      value: Asymptomatic neurosyphilis
+      type: any
+    - code: A52.3
+      value: Neurosyphilis, unspecified
+      type: any
+    - code: A80
+      value: Acute poliomyelitis
+      type: any
+    - code: A81
+      value: Atypical virus infections of central nervous system
+      type: any
+    - code: A82
+      value: Rabies
+      type: any
+    - code: A88
+      value: Other viral infections of central nervous system, not elsewhere classified
+      type: any
+    - code: A89
+      value: Unspecified viral infection of central nervous system
+      type: any
+    - code: B02.2
+      value: Zoster with other nervous system involvement
+      type: any
+    - code: B06.0
+      value: Rubella with neurological complications
+      type: any
+    - code: B43.1
+      value: Phaeomycotic brain abscess
+      type: any
+    - code: B45.1
+      value: Cerebral cryptococcosis
+      type: any
+    - code: B50.0
+      value: Plasmodium falciparum malaria with cerebral complications
+      type: any
+    - code: B58.2
+      value: Toxoplasma meningoencephalitis
+      type: any
+    - code: B69.0
+      value: Cysticercosis of central nervous system
+      type: any
+    - code: B90.0
+      value: Sequelae of central nervous system tuberculosis
+      type: any
+    - code: B91
+      value: Sequelae of poliomyelitis
+      type: any
+    - code: G04.2
+      value: Bacterial meningoencephalitis and meningomyelitis, not elsewhere classified
+      type: any
+    - code: G04.8
+      value: Other encephalitis, myelitis and encephalomyelitis
+      type: any
+    - code: G04.9
+      value: Encephalitis, myelitis and encephalomyelitis, unspecified
+      type: any
+    - code: G05.0
+      value: Encephalitis, myelitis and encephalomyelitis in bacterial diseases classified
+        elsewhere
+      type: any
+    - code: G05.1
+      value: Encephalitis, myelitis and encephalomyelitis in viral diseases classified
+        elsewhere
+      type: any
+    - code: G05.2
+      value: Encephalitis, myelitis and encephalomyelitis in other infectious and
+        parasitic diseases classified elsewhere
+      type: any
+    - code: G06
+      value: Intracranial and intraspinal abscess and granuloma
+      type: any
+    - code: G07
+      value: Intracranial and intraspinal abscess and granuloma in diseases classified
+        elsewhere
+      type: any
+    - code: G08
+      value: Intracranial and intraspinal phlebitis and thrombophlebitis
+      type: any
+    - code: M89.6
+      value: Osteopathy after poliomyelitis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

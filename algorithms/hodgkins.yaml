@@ -1,0 +1,346 @@
+metadata:
+  phenotype: Hodgkin Lymphoma
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: hodgkins
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: f5d1cc7f-b61a-433a-8b3d-303b6e17c503
+  ontologies:
+    DOID: DOID_8567
+    GWAS: EFO_0000183
+    MESH: D006689
+    SNOMED-CT: 14537002
+    FINNGEN: C_HODGKIN_LYMPHOMA
+  short_desc: A viral infectious disease that results in destruction of immune system,
+    leading to life-threatening opportunistic infections and cancers, has_material_basis_in
+    Human immunodeficiency virus 1 or has_material_basis_in Human immunodeficiency
+    virus 2, which are transmitted by sexual contact, transmitted by transfer of blood,
+    semen, vaginal fluid, pre-ejaculate, or breast milk, transmitted by congenital
+    method, and transmitted by contaminated needles.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1052'
+      value: hodgkins lymphoma / hodgkins disease
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C81
+      value: Hodgkin lymphoma
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C81
+      value: Hodgkin lymphoma
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C81
+      value: Hodgkin lymphoma
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C81
+      value: Hodgkin lymphoma
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B610100
+      value: Hodgkin's paragranuloma of lymph nodes of head, face, neck
+      type: any
+    - code: B610300
+      value: Hodgkin's paragranuloma of intra-abdominal lymph nodes
+      type: any
+    - code: B610.00
+      value: Hodgkin's paragranuloma
+      type: any
+    - code: B611100
+      value: Hodgkin's granuloma of lymph nodes of head, face and neck
+      type: any
+    - code: B611.00
+      value: Hodgkin's granuloma
+      type: any
+    - code: B612400
+      value: Hodgkin's sarcoma of lymph nodes of axilla and upper limb
+      type: any
+    - code: B612.00
+      value: Hodgkin's sarcoma
+      type: any
+    - code: B613000
+      value: Hodgkin's, lymphocytic-histiocytic predominance unspec site
+      type: any
+    - code: B613100
+      value: Hodgkin's, lymphocytic-histiocytic pred of head, face, neck
+      type: any
+    - code: B613200
+      value: Hodgkin's, lymphocytic-histiocytic pred intrathoracic nodes
+      type: any
+    - code: B613300
+      value: Hodgkin's, lymphocytic-histiocytic pred intra-abdominal node
+      type: any
+    - code: B613500
+      value: Hodgkin's, lymphocytic-histiocytic pred inguinal and leg
+      type: any
+    - code: B613600
+      value: Hodgkin's, lymphocytic-histiocytic pred intrapelvic nodes
+      type: any
+    - code: B613700
+      value: Hodgkin's, lymphocytic-histiocytic predominance of spleen
+      type: any
+    - code: B613800
+      value: Hodgkin's, lymphocytic-histiocytic pred of multiple sites
+      type: any
+    - code: B613.00
+      value: Hodgkin's disease, lymphocytic-histiocytic predominance
+      type: any
+    - code: B613z00
+      value: Hodgkin's, lymphocytic-histiocytic predominance NOS
+      type: any
+    - code: B614000
+      value: Hodgkin's disease, nodular sclerosis of unspecified site
+      type: any
+    - code: B614100
+      value: Hodgkin's nodular sclerosis of head, face and neck
+      type: any
+    - code: B614200
+      value: Hodgkin's nodular sclerosis of intrathoracic lymph nodes
+      type: any
+    - code: B614300
+      value: Hodgkin's nodular sclerosis of intra-abdominal lymph nodes
+      type: any
+    - code: B614400
+      value: Hodgkin's nodular sclerosis of lymph nodes of axilla and arm
+      type: any
+    - code: B614700
+      value: Hodgkin's disease, nodular sclerosis of spleen
+      type: any
+    - code: B614800
+      value: Hodgkin's nodular sclerosis of lymph nodes of multiple sites
+      type: any
+    - code: B614.00
+      value: Hodgkin's disease, nodular sclerosis
+      type: any
+    - code: B614z00
+      value: Hodgkin's disease, nodular sclerosis NOS
+      type: any
+    - code: B615000
+      value: Hodgkin's disease, mixed cellularity of unspecified site
+      type: any
+    - code: B615100
+      value: Hodgkin's mixed cellularity of lymph nodes head, face, neck
+      type: any
+    - code: B615200
+      value: Hodgkin's mixed cellularity of intrathoracic lymph nodes
+      type: any
+    - code: B615500
+      value: Hodgkin's mixed cellularity of lymph nodes inguinal and leg
+      type: any
+    - code: B615.00
+      value: Hodgkin's disease, mixed cellularity
+      type: any
+    - code: B615z00
+      value: Hodgkin's disease, mixed cellularity NOS
+      type: any
+    - code: B616000
+      value: Hodgkin's lymphocytic depletion of unspecified site
+      type: any
+    - code: B616400
+      value: Hodgkin's lymphocytic depletion lymph nodes axilla and arm
+      type: any
+    - code: B616500
+      value: Hodgkin's lymphocytic depletion lymph nodes inguinal and leg
+      type: any
+    - code: B616700
+      value: Hodgkin's disease, lymphocytic depletion of spleen
+      type: any
+    - code: B616800
+      value: Hodgkin's lymphocytic depletion lymph nodes multiple sites
+      type: any
+    - code: B616.00
+      value: Hodgkin's disease, lymphocytic depletion
+      type: any
+    - code: B616z00
+      value: Hodgkin's disease, lymphocytic depletion NOS
+      type: any
+    - code: B617.00
+      value: Nodular lymphocyte predominant Hodgkin lymphoma
+      type: any
+    - code: B618.00
+      value: Nodular sclerosis classical Hodgkin lymphoma
+      type: any
+    - code: B619.00
+      value: Mixed cellularity classical Hodgkin lymphoma
+      type: any
+    - code: B61..00
+      value: Hodgkin's disease
+      type: any
+    - code: B61..11
+      value: Hodgkin lymphoma
+      type: any
+    - code: B61B.00
+      value: Lymphocyte-rich classical Hodgkin lymphoma
+      type: any
+    - code: B61C.00
+      value: Other classical Hodgkin lymphoma
+      type: any
+    - code: B61z000
+      value: Hodgkin's disease NOS, unspecified site
+      type: any
+    - code: B61z100
+      value: Hodgkin's disease NOS of lymph nodes of head, face and neck
+      type: any
+    - code: B61z200
+      value: Hodgkin's disease NOS of intrathoracic lymph nodes
+      type: any
+    - code: B61z300
+      value: Hodgkin's disease NOS of intra-abdominal lymph nodes
+      type: any
+    - code: B61z400
+      value: Hodgkin's disease NOS of lymph nodes of axilla and arm
+      type: any
+    - code: B61z500
+      value: Hodgkin's disease NOS of lymph nodes inguinal region and leg
+      type: any
+    - code: B61z700
+      value: Hodgkin's disease NOS of spleen
+      type: any
+    - code: B61z800
+      value: Hodgkin's disease NOS of lymph nodes of multiple sites
+      type: any
+    - code: B61z.00
+      value: Hodgkin's disease NOS
+      type: any
+    - code: B61z.11
+      value: Hodgkin lymphoma NOS
+      type: any
+    - code: B61zz00
+      value: Hodgkin's disease NOS
+      type: any
+    - code: BBj0.00
+      value: '[M]Hodgkin''s disease NOS'
+      type: any
+    - code: BBj1000
+      value: '[M]Hodgkin,s disease, lymphocytic predominance, diffuse'
+      type: any
+    - code: BBj1100
+      value: '[M]Hodgkin,s disease, lymphocytic predominance, nodular'
+      type: any
+    - code: BBj1.00
+      value: '[M]Hodgkin''s disease, lymphocytic predominance'
+      type: any
+    - code: BBj2.00
+      value: '[M]Hodgkin''s disease, mixed cellularity'
+      type: any
+    - code: BBj4.00
+      value: '[M]Hodgkin''s disease,lymphocytic depletion,diffuse fibrosis'
+      type: any
+    - code: BBj6000
+      value: '[M]Hodgkin,s disease, nodular sclerosis, lymphocytic predom'
+      type: any
+    - code: BBj6100
+      value: '[M]Hodgkin,s disease, nodular sclerosis, mixed cellularity'
+      type: any
+    - code: BBj6200
+      value: '[M]Hodgkin,s disease, nodular sclerosis, lymphocytic deplet'
+      type: any
+    - code: BBj6.00
+      value: '[M]Hodgkin''s disease, nodular sclerosis NOS'
+      type: any
+    - code: BBj7.00
+      value: '[M]Hodgkin''s disease, nodular sclerosis, cellular phase'
+      type: any
+    - code: BBj9.00
+      value: '[M]Hodgkin''s granuloma'
+      type: any
+    - code: BBj..00
+      value: '[M]Hodgkin''s disease'
+      type: any
+    - code: BBjz.00
+      value: '[M]Hodgkin''s disease NOS'
+      type: any
+    - code: ByuD000
+      value: '[X]Other Hodgkin''s disease'
+      type: any
+    - code: ZV10711
+      value: '[V]Personal history of Hodgkin''s disease'
+      type: prevalent
+    - code: B61z.
+      value: Hodgkin's disease NOS
+      type: any
+    - code: B613.
+      value: Lymphocyte-rich classical Hodgkin lymphoma
+      type: any
+    - code: XaC2n
+      value: '[M]Hodgkin''s disease NOS'
+      type: any
+    - code: XaC2n
+      value: '[M]Hodgkin''s disease NOS'
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C81
+      value: Hodgkin lymphoma
+      type: any

@@ -1,0 +1,129 @@
+metadata:
+  phenotype: Trigeminal neuralgia
+  group: Neurological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: trigem_neur
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: df68df61-c02f-4a74-93bf-e4f6f28938b3
+  ontologies:
+    DOID: DOID_12098
+    GWAS: EFO_1001219
+    MESH: D014277
+    SNOMED-CT: 31681005
+    FINNGEN: G6_TRINEU
+  short_desc: A nerve disorder that causes a stabbing or electric-shock-like pain
+    in parts of the face, which may result from a blood vessel pressing against the
+    trigeminal nerve (the nerve that carries pain, feeling, and other sensations from
+    the brain to the skin of theface), as a complication of multiple sclerosis, or
+    due to compression of the nerve by a tumor or cyst.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1523'
+      value: trigemminal neuralgia
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: G50.0
+      value: Trigeminal neuralgia
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: G50.0
+      value: Trigeminal neuralgia
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G50.0
+      value: Trigeminal neuralgia
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G50.0
+      value: Trigeminal neuralgia
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1475.00'
+      value: 'H/O: trigeminal neuralgia'
+      type: prevalent
+    - code: A531200
+      value: Postherpetic trigeminal neuralgia
+      type: any
+    - code: F300.00
+      value: Post-herpetic trigeminal neuralgia
+      type: any
+    - code: F301000
+      value: Tic douloureux
+      type: any
+    - code: F301.00
+      value: Other specified trigeminal neuralgia
+      type: any
+    - code: F301z00
+      value: Trigeminal neuralgia NOS
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

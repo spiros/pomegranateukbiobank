@@ -1,0 +1,176 @@
+metadata:
+  phenotype: Psoriatic arthropathy
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: PSA
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: a3b717a5-bdbc-4ed5-9b10-f80b10fff1e6
+  ontologies:
+    DOID: DOID_9008
+    GWAS: EFO_0003778
+    MESH: D015535
+    SNOMED-CT: 156370009
+    FINNGEN: M13_PSORIARTH
+  short_desc: Joint inflammation associated with psoriasis.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1477'
+      value: psoriatic arthropathy
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: M07.0
+      value: Distal interphalangeal psoriatic arthropathy
+      type: any
+    - code: M07.1
+      value: Arthritis mutilans
+      type: any
+    - code: M07.2
+      value: Psoriatic spondylitis
+      type: any
+    - code: M07.3
+      value: Other psoriatic arthropathies
+      type: any
+    - code: L40.5
+      value: Arthropathic psoriasis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: M07.0
+      value: Distal interphalangeal psoriatic arthropathy
+      type: any
+    - code: M07.1
+      value: Arthritis mutilans
+      type: any
+    - code: M07.2
+      value: Psoriatic spondylitis
+      type: any
+    - code: M07.3
+      value: Other psoriatic arthropathies
+      type: any
+    - code: L40.5
+      value: Arthropathic psoriasis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M07.0
+      value: Distal interphalangeal psoriatic arthropathy
+      type: any
+    - code: M07.1
+      value: Arthritis mutilans
+      type: any
+    - code: M07.2
+      value: Psoriatic spondylitis
+      type: any
+    - code: M07.3
+      value: Other psoriatic arthropathies
+      type: any
+    - code: L40.5
+      value: Arthropathic psoriasis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M07.0
+      value: Distal interphalangeal psoriatic arthropathy
+      type: any
+    - code: M07.1
+      value: Arthritis mutilans
+      type: any
+    - code: M07.2
+      value: Psoriatic spondylitis
+      type: any
+    - code: M07.3
+      value: Other psoriatic arthropathies
+      type: any
+    - code: L40.5
+      value: Arthropathic psoriasis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: M160000
+      value: Psoriasis spondylitica
+      type: any
+    - code: M160100
+      value: Distal interphalangeal psoriatic arthropathy
+      type: any
+    - code: M160200
+      value: Arthritis mutilans
+      type: any
+    - code: M160.00
+      value: Psoriatic arthropathy
+      type: any
+    - code: M160.11
+      value: Psoriatic arthritis
+      type: any
+    - code: M160z00
+      value: Psoriatic arthropathy NOS
+      type: any
+    - code: Nyu1300
+      value: '[X]Other psoriatic arthropathies'
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

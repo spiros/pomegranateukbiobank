@@ -1,0 +1,132 @@
+metadata:
+  phenotype: Alopecia areata
+  group: Skin
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: alopecia_areata
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 483ef0ba-73a6-462c-b1d2-941b32b41a86
+  ontologies:
+    DOID: DOID_986
+    GWAS: EFO_0004192
+    MESH: D000506
+    SNOMED-CT: 68225006
+    FINNGEN: L12_ALOPECAREATA
+  short_desc: Alopecia areata is a common autoimmune disorder that often results in
+    unpredictable hair loss.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1667'
+      value: alopecia
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: L63
+      value: Alopecia areata
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: L63
+      value: Alopecia areata
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: L63
+      value: Alopecia areata
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: L63
+      value: Alopecia areata
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: M240100
+      value: Alopecia areata
+      type: any
+    - code: M240111
+      value: Ophiasis
+      type: any
+    - code: M240B00
+      value: Alopecia totalis
+      type: any
+    - code: M240K00
+      value: Alopecia universalis
+      type: any
+    - code: M240U00
+      value: Ophiasis
+      type: any
+    - code: Myu6200
+      value: '[X]Other alopecia areata'
+      type: any
+    - code: X509h
+      value: Alopecia universalis
+      type: any
+    - code: XE1BH
+      value: Alopecia areata
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

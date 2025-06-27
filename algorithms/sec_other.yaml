@@ -1,0 +1,443 @@
+metadata:
+  phenotype: Secondary Malignancy_Other organs
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: sec_other
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 21ff5cc6-e967-4391-8f37-d00e292d342d
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: null
+    SNOMED-CT: null
+    FINNGEN: null
+  short_desc: Secondary malignancy of other specified and nonspecified organs and
+    sites
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C78.1
+      value: Secondary malignant neoplasm of mediastinum
+      type: any
+    - code: C78.3
+      value: Secondary malignant neoplasm of other and unspecified respiratory organs
+      type: any
+    - code: C78.8
+      value: Secondary malignant neoplasm of other and unspecified digestive organs
+      type: any
+    - code: C79.0
+      value: Secondary malignant neoplasm of kidney and renal pelvis
+      type: any
+    - code: C79.1
+      value: Secondary malignant neoplasm of bladder and other and unspecified urinary
+        organs
+      type: any
+    - code: C79.2
+      value: Secondary malignant neoplasm of skin
+      type: any
+    - code: C79.6
+      value: Secondary malignant neoplasm of ovary
+      type: any
+    - code: C79.8
+      value: Secondary malignant neoplasm of other specified sites
+      type: any
+    - code: C79.9
+      value: Secondary malignant neoplasm, unspecified site
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C78.1
+      value: Secondary malignant neoplasm of mediastinum
+      type: any
+    - code: C78.3
+      value: Secondary malignant neoplasm of other and unspecified respiratory organs
+      type: any
+    - code: C78.8
+      value: Secondary malignant neoplasm of other and unspecified digestive organs
+      type: any
+    - code: C79.0
+      value: Secondary malignant neoplasm of kidney and renal pelvis
+      type: any
+    - code: C79.1
+      value: Secondary malignant neoplasm of bladder and other and unspecified urinary
+        organs
+      type: any
+    - code: C79.2
+      value: Secondary malignant neoplasm of skin
+      type: any
+    - code: C79.6
+      value: Secondary malignant neoplasm of ovary
+      type: any
+    - code: C79.8
+      value: Secondary malignant neoplasm of other specified sites
+      type: any
+    - code: C79.9
+      value: Secondary malignant neoplasm, unspecified site
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C78.1
+      value: Secondary malignant neoplasm of mediastinum
+      type: any
+    - code: C78.3
+      value: Secondary malignant neoplasm of other and unspecified respiratory organs
+      type: any
+    - code: C78.8
+      value: Secondary malignant neoplasm of other and unspecified digestive organs
+      type: any
+    - code: C79.0
+      value: Secondary malignant neoplasm of kidney and renal pelvis
+      type: any
+    - code: C79.1
+      value: Secondary malignant neoplasm of bladder and other and unspecified urinary
+        organs
+      type: any
+    - code: C79.2
+      value: Secondary malignant neoplasm of skin
+      type: any
+    - code: C79.6
+      value: Secondary malignant neoplasm of ovary
+      type: any
+    - code: C79.8
+      value: Secondary malignant neoplasm of other specified sites
+      type: any
+    - code: C79.9
+      value: Secondary malignant neoplasm, unspecified site
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C78.1
+      value: Secondary malignant neoplasm of mediastinum
+      type: any
+    - code: C78.3
+      value: Secondary malignant neoplasm of other and unspecified respiratory organs
+      type: any
+    - code: C78.8
+      value: Secondary malignant neoplasm of other and unspecified digestive organs
+      type: any
+    - code: C79.0
+      value: Secondary malignant neoplasm of kidney and renal pelvis
+      type: any
+    - code: C79.1
+      value: Secondary malignant neoplasm of bladder and other and unspecified urinary
+        organs
+      type: any
+    - code: C79.2
+      value: Secondary malignant neoplasm of skin
+      type: any
+    - code: C79.6
+      value: Secondary malignant neoplasm of ovary
+      type: any
+    - code: C79.8
+      value: Secondary malignant neoplasm of other specified sites
+      type: any
+    - code: C79.9
+      value: Secondary malignant neoplasm, unspecified site
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 1D18.00
+      value: Pain from metastases
+      type: any
+    - code: '5136.00'
+      value: X-ray metastasis control
+      type: any
+    - code: B571.00
+      value: Secondary malignant neoplasm of mediastinum
+      type: any
+    - code: B573.00
+      value: Secondary malignant neoplasm of other respiratory organs
+      type: any
+    - code: B57..00
+      value: Secondary malig neop of respiratory and digestive systems
+      type: any
+    - code: B57..11
+      value: Metastases of respiratory and/or digestive systems
+      type: any
+    - code: B57..12
+      value: Secondary carcinoma of respiratory and/or digestive systems
+      type: any
+    - code: B57y.00
+      value: Secondary malignant neoplasm of other digestive organ
+      type: any
+    - code: B57z.00
+      value: Secondary malig neop of respiratory or digestive system NOS
+      type: any
+    - code: B580.00
+      value: Secondary malignant neoplasm of kidney
+      type: any
+    - code: B581000
+      value: Secondary malignant neoplasm of ureter
+      type: any
+    - code: B581100
+      value: Secondary malignant neoplasm of bladder
+      type: any
+    - code: B581200
+      value: Secondary malignant neoplasm of urethra
+      type: any
+    - code: B581.00
+      value: Secondary malignant neoplasm of other urinary organs
+      type: any
+    - code: B581z00
+      value: Secondary malignant neoplasm of other urinary organ NOS
+      type: any
+    - code: B582000
+      value: Secondary malignant neoplasm of skin of head
+      type: any
+    - code: B582100
+      value: Secondary malignant neoplasm of skin of face
+      type: any
+    - code: B582200
+      value: Secondary malignant neoplasm of skin of neck
+      type: any
+    - code: B582300
+      value: Secondary malignant neoplasm of skin of trunk
+      type: any
+    - code: B582400
+      value: Secondary malignant neoplasm of skin of shoulder and arm
+      type: any
+    - code: B582500
+      value: Secondary malignant neoplasm of skin of hip and leg
+      type: any
+    - code: B582600
+      value: Secondary malignant neoplasm of skin of breast
+      type: any
+    - code: B582.00
+      value: Secondary malignant neoplasm of skin
+      type: any
+    - code: B582z00
+      value: Secondary malignant neoplasm of skin NOS
+      type: any
+    - code: B584.00
+      value: Secondary malignant neoplasm of other part of nervous system
+      type: any
+    - code: B586.00
+      value: Secondary malignant neoplasm of ovary
+      type: any
+    - code: B58..00
+      value: Secondary malignant neoplasm of other specified sites
+      type: any
+    - code: B58..11
+      value: Secondary carcinoma of other specified sites
+      type: any
+    - code: B58y000
+      value: Secondary malignant neoplasm of breast
+      type: any
+    - code: B58y100
+      value: Secondary malignant neoplasm of uterus
+      type: any
+    - code: B58y200
+      value: Secondary malignant neoplasm of cervix uteri
+      type: any
+    - code: B58y211
+      value: Secondary cancer of the cervix
+      type: any
+    - code: B58y300
+      value: Secondary malignant neoplasm of vagina
+      type: any
+    - code: B58y400
+      value: Secondary malignant neoplasm of vulva
+      type: any
+    - code: B58y411
+      value: Secondary cancer of the vulva
+      type: any
+    - code: B58y500
+      value: Secondary malignant neoplasm of prostate
+      type: any
+    - code: B58y600
+      value: Secondary malignant neoplasm of testis
+      type: any
+    - code: B58y700
+      value: Secondary malignant neoplasm of penis
+      type: any
+    - code: B58y800
+      value: Secondary malignant neoplasm of epididymis and vas deferens
+      type: any
+    - code: B58y900
+      value: Secondary malignant neoplasm of tongue
+      type: any
+    - code: B58y.00
+      value: Secondary malignant neoplasm of other specified sites
+      type: any
+    - code: B58yz00
+      value: Secondary malignant neoplasm of other specified site NOS
+      type: any
+    - code: B58z.00
+      value: Secondary malignant neoplasm of other specified site NOS
+      type: any
+    - code: B590.00
+      value: Disseminated malignancy NOS
+      type: any
+    - code: B590.11
+      value: Carcinomatosis
+      type: any
+    - code: B594.00
+      value: Secondary malignant neoplasm of unknown site
+      type: any
+    - code: BB03.00
+      value: '[M]Neoplasm, metastatic'
+      type: any
+    - code: BB03.11
+      value: '[M]Secondary neoplasm'
+      type: any
+    - code: BB13.00
+      value: '[M]Carcinoma, metastatic, NOS'
+      type: any
+    - code: BB13.11
+      value: '[M]Secondary carcinoma'
+      type: any
+    - code: BB2B.00
+      value: '[M]Squamous cell carcinoma, metastatic NOS'
+      type: any
+    - code: BB53.00
+      value: '[M]Adenocarcinoma, metastatic, NOS'
+      type: any
+    - code: BB85100
+      value: '[M]Metastatic signet ring cell carcinoma'
+      type: any
+    - code: BBy2.00
+      value: '[M]No microscopic confirmation tumour, clinically metastatic'
+      type: any
+    - code: ByuC300
+      value: '[X]Secondary malignant neoplasm/oth+unspc respiratory organs'
+      type: any
+    - code: ByuC400
+      value: '[X]Secondary malignant neoplasm/oth+unspcfd digestive organs'
+      type: any
+    - code: ByuC500
+      value: '[X]2ndry malignant neoplasm/bladder+oth+unsp urinary organs'
+      type: any
+    - code: ByuC600
+      value: '[X]2ndry malignant neoplasm/oth+unspec parts/nervous system'
+      type: any
+    - code: ByuC700
+      value: '[X]Secondary malignant neoplasm of other specified sites'
+      type: any
+    - code: XM0pv
+      value: Secondary malignant neoplasm of unknown site
+      type: any
+    - code: XaC0y
+      value: Secondary malignant neoplasm of tongue
+      type: any
+    - code: XE1vn
+      value: Disseminated malignancy NOS
+      type: any
+    - code: XaFwL
+      value: Pain from metastases
+      type: any
+    - code: XE1wR
+      value: '[M]Neoplasm, metastatic'
+      type: any
+    - code: XE1wR
+      value: '[M]Neoplasm, metastatic'
+      type: any
+    - code: XE1vm
+      value: Secondary malignant neoplasm of respiratory and digestive systems
+      type: any
+    - code: XE1vm
+      value: Secondary malignant neoplasm of respiratory and digestive systems
+      type: any
+    - code: XE2vT
+      value: Secondary malignant neoplasm of other specified sites
+      type: any
+    - code: B58yz
+      value: Secondary malignant neoplasm of other specified site NOS
+      type: any
+    - code: XE2vT
+      value: Secondary malignant neoplasm of other specified sites
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C78.1
+      value: Secondary malignant neoplasm of mediastinum
+      type: any
+    - code: C78.3
+      value: Secondary malignant neoplasm of other and unspecified respiratory organs
+      type: any
+    - code: C78.8
+      value: Secondary malignant neoplasm of other and unspecified digestive organs
+      type: any
+    - code: C79.0
+      value: Secondary malignant neoplasm of kidney and renal pelvis
+      type: any
+    - code: C79.1
+      value: Secondary malignant neoplasm of bladder and other and unspecified urinary
+        organs
+      type: any
+    - code: C79.2
+      value: Secondary malignant neoplasm of skin
+      type: any
+    - code: C79.6
+      value: Secondary malignant neoplasm of ovary
+      type: any
+    - code: C79.8
+      value: Secondary malignant neoplasm of other specified sites
+      type: any
+    - code: C79.9
+      value: Secondary malignant neoplasm, unspecified site
+      type: any

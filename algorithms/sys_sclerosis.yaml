@@ -1,0 +1,158 @@
+metadata:
+  phenotype: Systemic sclerosis
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: sys_sclerosis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 25564610-ad77-440c-a8f1-f2d1e9b19d6a
+  ontologies:
+    DOID: DOID_0111258
+    GWAS: EFO_0000717
+    MESH: D012595
+    SNOMED-CT: 89155008
+    FINNGEN: M13_SYSTSLCE
+  short_desc: A chronic disorder, possibly autoimmune, marked by excessive production
+    of collagen which results in hardening and thickening of body tissues. The two
+    types of systemic scleroderma, limited cutaneous and diffuse cutaneous are classified
+    with focus on the extent of affected skin. A relationship exists between the extent
+    of skin area affected and degree of internal organ/system involvement. Systemic
+    scleroderma can manifest itself in pulmonary fibrosis, Raynaud's syndrome, digestive
+    system telangiectasias, renal hypertension and/or pulmonary hypertension.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1384'
+      value: scleroderma/systemic sclerosis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: M34
+      value: Systemic sclerosis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: M34
+      value: Systemic sclerosis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M34
+      value: Systemic sclerosis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M34
+      value: Systemic sclerosis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: F396600
+      value: Myopathy due to scleroderma
+      type: any
+    - code: H572.00
+      value: Lung disease with systemic sclerosis
+      type: any
+    - code: K0H..00
+      value: Acute scleroderma renal crisis
+      type: any
+    - code: K0J0.00
+      value: Renal involvement in scleroderma
+      type: any
+    - code: N001000
+      value: Progressive systemic sclerosis
+      type: any
+    - code: N001100
+      value: CREST syndrome
+      type: any
+    - code: N001200
+      value: Systemic sclerosis induced by drugs and chemicals
+      type: any
+    - code: N001.00
+      value: Scleroderma
+      type: any
+    - code: N001.11
+      value: Acrosclerosis
+      type: any
+    - code: N001.12
+      value: Systemic sclerosis
+      type: any
+    - code: Nyu4500
+      value: '[X]Other forms of systemic sclerosis'
+      type: any
+    - code: X30Ku
+      value: Acute scleroderma renal crisis
+      type: any
+    - code: XE1DF
+      value: Scleroderma
+      type: any
+    - code: X30Kt
+      value: Renal involvement in scleroderma
+      type: any
+    - code: XaQbV
+      value: Progressive systemic sclerosis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

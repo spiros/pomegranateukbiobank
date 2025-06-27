@@ -1,0 +1,267 @@
+metadata:
+  phenotype: Posterior Uveitis
+  group: Eye
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: post_uveitis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 9fb1754f-0d72-494a-9fdd-f0336239956e
+  ontologies:
+    DOID: DOID_12574
+    GWAS: null
+    MESH: D015866
+    SNOMED-CT: 43363007
+    FINNGEN: null
+  short_desc: Inflammation of the choroid as well as the retina and vitreous body.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: H30.0
+      value: Focal chorioretinal inflammation
+      type: any
+    - code: H30.1
+      value: Disseminated chorioretinal inflammation
+      type: any
+    - code: H30.8
+      value: Other chorioretinal inflammations
+      type: any
+    - code: H30.9
+      value: Chorioretinal inflammation, unspecified
+      type: any
+    - code: H32.0
+      value: Chorioretinal inflammation in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: H30.0
+      value: Focal chorioretinal inflammation
+      type: any
+    - code: H30.1
+      value: Disseminated chorioretinal inflammation
+      type: any
+    - code: H30.8
+      value: Other chorioretinal inflammations
+      type: any
+    - code: H30.9
+      value: Chorioretinal inflammation, unspecified
+      type: any
+    - code: H32.0
+      value: Chorioretinal inflammation in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H30.0
+      value: Focal chorioretinal inflammation
+      type: any
+    - code: H30.1
+      value: Disseminated chorioretinal inflammation
+      type: any
+    - code: H30.8
+      value: Other chorioretinal inflammations
+      type: any
+    - code: H30.9
+      value: Chorioretinal inflammation, unspecified
+      type: any
+    - code: H32.0
+      value: Chorioretinal inflammation in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H30.0
+      value: Focal chorioretinal inflammation
+      type: any
+    - code: H30.1
+      value: Disseminated chorioretinal inflammation
+      type: any
+    - code: H30.8
+      value: Other chorioretinal inflammations
+      type: any
+    - code: H30.9
+      value: Chorioretinal inflammation, unspecified
+      type: any
+    - code: H32.0
+      value: Chorioretinal inflammation in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: A173000
+      value: Tuberculous chorioretinitis
+      type: any
+    - code: A900.12
+      value: Congenital syphilitic choroiditis
+      type: any
+    - code: A915100
+      value: Secondary syphilitic chorioretinitis
+      type: any
+    - code: A94y200
+      value: Syphilitic disseminated retinochoroiditis
+      type: any
+    - code: AD02.00
+      value: Toxoplasma chorioretinitis
+      type: any
+    - code: F401000
+      value: Sympathetic uveitis
+      type: any
+    - code: F401100
+      value: Panuveitis
+      type: any
+    - code: F430000
+      value: Unspecified focal chorioretinitis
+      type: any
+    - code: F430100
+      value: Focal juxtapapillary choroiditis
+      type: any
+    - code: F430200
+      value: Other posterior pole focal chorioretinitis
+      type: any
+    - code: F430300
+      value: Peripheral focal chorioretinitis
+      type: any
+    - code: F430400
+      value: Focal juxtapapillary retinitis
+      type: any
+    - code: F430500
+      value: Focal macular retinochoroiditis
+      type: any
+    - code: F430600
+      value: Other posterior pole focal retinitis
+      type: any
+    - code: F430700
+      value: Peripheral focal retinochoroiditis
+      type: any
+    - code: F430800
+      value: Multifocal choroiditis
+      type: any
+    - code: F430.00
+      value: Focal chorioretinitis and retinochoroiditis
+      type: any
+    - code: F430.11
+      value: Retinitis and chorioretinitis
+      type: any
+    - code: F430z00
+      value: Focal chorioretinitis or retinochoroiditis NOS
+      type: any
+    - code: F431000
+      value: Unspecified disseminated chorioretinitis
+      type: any
+    - code: F431300
+      value: General disseminated chorioretinitis
+      type: any
+    - code: F431400
+      value: Metastatic disseminated retinitis
+      type: any
+    - code: F431500
+      value: Pigmented epithelial disseminated retinitis
+      type: any
+    - code: F431600
+      value: Punctate inner choroidopathy
+      type: any
+    - code: F431.00
+      value: Disseminated chorioretinitis and retinochoroiditis
+      type: any
+    - code: F431z00
+      value: Disseminated chorioretinitis and retinochoroiditis NOS
+      type: any
+    - code: F432000
+      value: Choroiditis NOS
+      type: any
+    - code: F432100
+      value: Retinitis NOS
+      type: any
+    - code: F432200
+      value: Posterior uveitis NOS
+      type: any
+    - code: F432400
+      value: Harada's disease
+      type: any
+    - code: F432.00
+      value: Other chorioretinitis and retinochoroiditis
+      type: any
+    - code: F432z00
+      value: Other chorioretinitis or retinochoroiditis NOS
+      type: any
+    - code: F442300
+      value: Vogt-Koyanagi syndrome
+      type: any
+    - code: FyuF000
+      value: '[X]Other chorioretinal inflammations'
+      type: any
+    - code: XE0Ri
+      value: Early congenital syphilis with symptoms
+      type: any
+    - code: XaE6M
+      value: Punctate inner choroidopathy
+      type: any
+    - code: XaQIm
+      value: Multifocal choroiditis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

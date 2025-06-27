@@ -1,0 +1,349 @@
+metadata:
+  phenotype: Appendicitis
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: appendicitis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 15b62403-cdb4-4d54-ad22-4d0077db6b5c
+  ontologies:
+    DOID: DOID_8337
+    GWAS: EFO_0007149
+    MESH: D001064
+    SNOMED-CT: '74400008'
+    FINNGEN: K11_APPENDIX
+  short_desc: A gastrointestinal system infectious disease that involves inflammation
+    and infection of the appendix caused by the blockage of the lumen with a small,
+    hard piece of stool, a foreign body or worms. Mucus backs up in the appendiceal
+    lumen, causing bacteria that live inside the appendix to multiply. The infection
+    has_symptom pain, in the upper abdomen initially and later in the lower abdomen,
+    has_symptom nausea, has_symptom vomiting and has_symptom fever.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1502'
+      value: appendicitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K35
+      value: Acute appendicitis
+      type: any
+    - code: K36
+      value: Other appendicitis
+      type: any
+    - code: K37
+      value: Unspecified appendicitis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K35
+      value: Acute appendicitis
+      type: any
+    - code: K36
+      value: Other appendicitis
+      type: any
+    - code: K37
+      value: Unspecified appendicitis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: H01
+      value: Emergency excision of appendix
+      type: any
+    - code: H01.1
+      value: Emergency excision of abnormal appendix and drainage HFQ
+      type: any
+    - code: H01.2
+      value: Emergency excision of abnormal appendix NEC
+      type: any
+    - code: H01.8
+      value: Other specified emergency excision of appendix
+      type: any
+    - code: H01.9
+      value: Unspecified emergency excision of appendix
+      type: any
+    - code: H02
+      value: Other excision of appendix
+      type: any
+    - code: H02.1
+      value: Interval appendicectomy
+      type: any
+    - code: H02.2
+      value: Planned delayed appendicectomy NEC
+      type: any
+    - code: H02.3
+      value: Prophylactic appendicectomy NEC
+      type: any
+    - code: H02.8
+      value: Other specified other excision of appendix
+      type: any
+    - code: H02.9
+      value: Unspecified other excision of appendix
+      type: any
+    - code: H03
+      value: Other operations on appendix
+      type: any
+    - code: H03.1
+      value: Drainage of abscess of appendix
+      type: any
+    - code: H03.2
+      value: Drainage of appendix NEC
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: H01
+      value: H01
+      type: any
+    - code: H01.1
+      value: H01.1
+      type: any
+    - code: H01.2
+      value: H01.2
+      type: any
+    - code: H01.8
+      value: H01.8
+      type: any
+    - code: H01.9
+      value: H01.9
+      type: any
+    - code: H02
+      value: H02
+      type: any
+    - code: H02.1
+      value: H02.1
+      type: any
+    - code: H02.2
+      value: H02.2
+      type: any
+    - code: H02.3
+      value: H02.3
+      type: any
+    - code: H02.8
+      value: H02.8
+      type: any
+    - code: H02.9
+      value: H02.9
+      type: any
+    - code: H03
+      value: H03
+      type: any
+    - code: H03.1
+      value: H03.1
+      type: any
+    - code: H03.2
+      value: H03.2
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K35
+      value: Acute appendicitis
+      type: any
+    - code: K36
+      value: Other appendicitis
+      type: any
+    - code: K37
+      value: Unspecified appendicitis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K35
+      value: Acute appendicitis
+      type: any
+    - code: K36
+      value: Other appendicitis
+      type: any
+    - code: K37
+      value: Unspecified appendicitis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14C2.00
+      value: 'H/O: appendicitis'
+      type: prevalent
+    - code: 25J6.00
+      value: Appendix mass
+      type: any
+    - code: '7700000.0'
+      value: Emergency excision of abnormal appendix and drainage HFQ
+      type: any
+    - code: '7700100.0'
+      value: Emergency excision of abnormal appendix NEC
+      type: any
+    - code: '7700300.0'
+      value: Emergency appendicectomy NEC
+      type: any
+    - code: '7700400.0'
+      value: Endoscopic emergency appendicectomy
+      type: any
+    - code: '7700.00'
+      value: Emergency excision of appendix
+      type: any
+    - code: '7700.11'
+      value: Emergency appendicectomy
+      type: any
+    - code: 7700y00
+      value: Other specified emergency excision of appendix
+      type: any
+    - code: 7700z00
+      value: Emergency excision of appendix NOS
+      type: any
+    - code: '7701000.0'
+      value: Interval appendicectomy
+      type: any
+    - code: '7701300.0'
+      value: Planned delayed appendicectomy NEC
+      type: any
+    - code: '7701400.0'
+      value: Endoscopic appendicectomy NEC
+      type: any
+    - code: '7701.00'
+      value: Other excision of appendix
+      type: any
+    - code: '7701.11'
+      value: Non emergency appendicectomy
+      type: any
+    - code: 7701y00
+      value: Other specified other excision of appendix
+      type: any
+    - code: 7701z00
+      value: Other excision of appendix NOS
+      type: any
+    - code: 7701z11
+      value: Appendicectomy NEC
+      type: any
+    - code: '7702000.0'
+      value: Drainage of abscess of appendix
+      type: any
+    - code: '7702100.0'
+      value: Drainage of appendix NEC
+      type: any
+    - code: J200.00
+      value: Acute appendicitis with peritonitis
+      type: any
+    - code: J201.00
+      value: Acute appendicitis with appendix abscess
+      type: any
+    - code: J201.11
+      value: Abscess of appendix
+      type: any
+    - code: J201.12
+      value: Appendix abscess
+      type: any
+    - code: J202.00
+      value: Acute appendicitis without peritonitis
+      type: any
+    - code: J203.00
+      value: Acute appendicitis with generalised peritonitis
+      type: any
+    - code: J204.00
+      value: Acute appendicitis with localised peritonitis
+      type: any
+    - code: J20..00
+      value: Acute appendicitis
+      type: any
+    - code: J20z100
+      value: Acute gangrenous appendicitis
+      type: any
+    - code: J20z.00
+      value: Acute appendicitis NOS
+      type: any
+    - code: J21..00
+      value: Appendicitis, unqualified
+      type: any
+    - code: J220.00
+      value: Subacute appendicitis
+      type: any
+    - code: J221.00
+      value: Chronic appendicitis
+      type: any
+    - code: J222.00
+      value: Relapsing appendicitis
+      type: any
+    - code: J223.00
+      value: Recurrent appendicitis
+      type: any
+    - code: J22..00
+      value: Other appendicitis
+      type: any
+    - code: J22z.00
+      value: Other appendicitis NOS
+      type: any
+    - code: Jyu2000
+      value: '[X]Other appendicitis'
+      type: any
+    - code: XaYaL
+      value: Acute appendicitis with generalised peritonitis
+      type: any
+    - code: X304O
+      value: Appendix mass
+      type: any
+    - code: XE0aV
+      value: Acute appendicitis with appendix abscess
+      type: any
+    - code: XE0D8
+      value: Other excision of appendix NOS
+      type: any
+    - code: XaYaN
+      value: Acute appendicitis with localised peritonitis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

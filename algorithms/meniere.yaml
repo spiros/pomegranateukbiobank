@@ -1,0 +1,138 @@
+metadata:
+  phenotype: Meniere disease
+  group: Ear
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: meniere
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 67dc1fe3-3091-4215-ac9b-9a04f080f5ab
+  ontologies:
+    DOID: DOID_9849
+    GWAS: EFO_0006862
+    MESH: D008575
+    SNOMED-CT: 13445001
+    FINNGEN: H8_MENIERE
+  short_desc: A disease of the inner ear (LABYRINTH) that is characterized by fluctuating
+    SENSORINEURAL HEARING LOSS; TINNITUS; episodic VERTIGO; and aural fullness.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1421'
+      value: meniere's disease
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: H81.0
+      value: Meniere's disease
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: H81.0
+      value: Meniere's disease
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H81.0
+      value: Meniere's disease
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H81.0
+      value: Meniere's disease
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1491.11'
+      value: 'H/O: Meniere''s disease'
+      type: prevalent
+    - code: F560000
+      value: Unspecified Meniere's disease
+      type: any
+    - code: F560100
+      value: Active cochleovestibular Meniere's disease
+      type: any
+    - code: F560200
+      value: Active cochlear Meniere's disease
+      type: any
+    - code: F560300
+      value: Active vestibular Meniere's disease
+      type: any
+    - code: F560400
+      value: Inactive Meniere's disease
+      type: any
+    - code: F560.00
+      value: Meniere's disease
+      type: any
+    - code: F560.11
+      value: Endolymphatic hydrops
+      type: any
+    - code: F560.12
+      value: Lermoyez's syndrome
+      type: any
+    - code: F560z00
+      value: Meniere's disease NOS
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

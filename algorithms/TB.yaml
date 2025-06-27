@@ -1,0 +1,1071 @@
+metadata:
+  phenotype: Tuberculosis
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: TB
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: e8661c9b-6a53-421e-a0e9-924a7fbea188
+  ontologies:
+    DOID: DOID_399
+    GWAS: Orphanet_3389
+    MESH: D014376
+    SNOMED-CT: 56717001
+    FINNGEN: TUBERCULOSIS
+  short_desc: A primary bacterial infectious disease that is located_in lungs, located_in
+    lymph nodes, located_in pericardium, located_in brain, located_in pleura or located_in
+    gastrointestinal tract, has_material_basis_in Mycobacterium tuberculosis, which
+    is transmitted_by droplets released into the air when an infected person coughs
+    or sneezes.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1440'
+      value: tuberculosis (tb)
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: A15
+      value: Respiratory tuberculosis, bacteriologically and histologically confirmed
+      type: any
+    - code: A16
+      value: Respiratory tuberculosis, not confirmed bacteriologically or histologically
+      type: any
+    - code: A17
+      value: Tuberculosis of nervous system
+      type: any
+    - code: A18
+      value: Tuberculosis of other organs
+      type: any
+    - code: A19
+      value: Miliary tuberculosis
+      type: any
+    - code: B20.0
+      value: HIV disease resulting in mycobacterial infection
+      type: any
+    - code: B90
+      value: Sequelae of tuberculosis
+      type: any
+    - code: J65
+      value: Pneumoconiosis associated with tuberculosis
+      type: any
+    - code: K23.0
+      value: Tuberculous oesophagitis
+      type: any
+    - code: K67.3
+      value: Tuberculous peritonitis
+      type: any
+    - code: K93.0
+      value: Tuberculous disorders of intestines, peritoneum and mesenteric glands
+      type: any
+    - code: M01.1
+      value: Tuberculous arthritis
+      type: any
+    - code: M49.0
+      value: Tuberculosis of spine
+      type: any
+    - code: M90.0
+      value: Tuberculosis of bone
+      type: any
+    - code: N33.0
+      value: Tuberculous cystitis
+      type: any
+    - code: N74.0
+      value: Tuberculous infection of cervix uteri
+      type: any
+    - code: N74.1
+      value: Female tuberculous pelvic inflammatory disease
+      type: any
+    - code: P37.0
+      value: Congenital tuberculosis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: A15
+      value: Respiratory tuberculosis, bacteriologically and histologically confirmed
+      type: any
+    - code: A16
+      value: Respiratory tuberculosis, not confirmed bacteriologically or histologically
+      type: any
+    - code: A17
+      value: Tuberculosis of nervous system
+      type: any
+    - code: A18
+      value: Tuberculosis of other organs
+      type: any
+    - code: A19
+      value: Miliary tuberculosis
+      type: any
+    - code: B20.0
+      value: HIV disease resulting in mycobacterial infection
+      type: any
+    - code: B90
+      value: Sequelae of tuberculosis
+      type: any
+    - code: J65
+      value: Pneumoconiosis associated with tuberculosis
+      type: any
+    - code: K23.0
+      value: Tuberculous oesophagitis
+      type: any
+    - code: K67.3
+      value: Tuberculous peritonitis
+      type: any
+    - code: K93.0
+      value: Tuberculous disorders of intestines, peritoneum and mesenteric glands
+      type: any
+    - code: M01.1
+      value: Tuberculous arthritis
+      type: any
+    - code: M49.0
+      value: Tuberculosis of spine
+      type: any
+    - code: M90.0
+      value: Tuberculosis of bone
+      type: any
+    - code: N33.0
+      value: Tuberculous cystitis
+      type: any
+    - code: N74.0
+      value: Tuberculous infection of cervix uteri
+      type: any
+    - code: N74.1
+      value: Female tuberculous pelvic inflammatory disease
+      type: any
+    - code: P37.0
+      value: Congenital tuberculosis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A15
+      value: Respiratory tuberculosis, bacteriologically and histologically confirmed
+      type: any
+    - code: A16
+      value: Respiratory tuberculosis, not confirmed bacteriologically or histologically
+      type: any
+    - code: A17
+      value: Tuberculosis of nervous system
+      type: any
+    - code: A18
+      value: Tuberculosis of other organs
+      type: any
+    - code: A19
+      value: Miliary tuberculosis
+      type: any
+    - code: B20.0
+      value: HIV disease resulting in mycobacterial infection
+      type: any
+    - code: B90
+      value: Sequelae of tuberculosis
+      type: any
+    - code: J65
+      value: Pneumoconiosis associated with tuberculosis
+      type: any
+    - code: K23.0
+      value: Tuberculous oesophagitis
+      type: any
+    - code: K67.3
+      value: Tuberculous peritonitis
+      type: any
+    - code: K93.0
+      value: Tuberculous disorders of intestines, peritoneum and mesenteric glands
+      type: any
+    - code: M01.1
+      value: Tuberculous arthritis
+      type: any
+    - code: M49.0
+      value: Tuberculosis of spine
+      type: any
+    - code: M90.0
+      value: Tuberculosis of bone
+      type: any
+    - code: N33.0
+      value: Tuberculous cystitis
+      type: any
+    - code: N74.0
+      value: Tuberculous infection of cervix uteri
+      type: any
+    - code: N74.1
+      value: Female tuberculous pelvic inflammatory disease
+      type: any
+    - code: P37.0
+      value: Congenital tuberculosis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A15
+      value: Respiratory tuberculosis, bacteriologically and histologically confirmed
+      type: any
+    - code: A16
+      value: Respiratory tuberculosis, not confirmed bacteriologically or histologically
+      type: any
+    - code: A17
+      value: Tuberculosis of nervous system
+      type: any
+    - code: A18
+      value: Tuberculosis of other organs
+      type: any
+    - code: A19
+      value: Miliary tuberculosis
+      type: any
+    - code: B20.0
+      value: HIV disease resulting in mycobacterial infection
+      type: any
+    - code: B90
+      value: Sequelae of tuberculosis
+      type: any
+    - code: J65
+      value: Pneumoconiosis associated with tuberculosis
+      type: any
+    - code: K23.0
+      value: Tuberculous oesophagitis
+      type: any
+    - code: K67.3
+      value: Tuberculous peritonitis
+      type: any
+    - code: K93.0
+      value: Tuberculous disorders of intestines, peritoneum and mesenteric glands
+      type: any
+    - code: M01.1
+      value: Tuberculous arthritis
+      type: any
+    - code: M49.0
+      value: Tuberculosis of spine
+      type: any
+    - code: M90.0
+      value: Tuberculosis of bone
+      type: any
+    - code: N33.0
+      value: Tuberculous cystitis
+      type: any
+    - code: N74.0
+      value: Tuberculous infection of cervix uteri
+      type: any
+    - code: N74.1
+      value: Female tuberculous pelvic inflammatory disease
+      type: any
+    - code: P37.0
+      value: Congenital tuberculosis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1411.00'
+      value: 'H/O: tuberculosis'
+      type: prevalent
+    - code: 14P9.00
+      value: History of tuberculosis drug therapy
+      type: prevalent
+    - code: 65V9.00
+      value: Notification of tuberculosis
+      type: any
+    - code: 65V9.11
+      value: TB - tuberculosis notification
+      type: any
+    - code: 65Y1.00
+      value: On tuberculosis chemoprophylaxis
+      type: any
+    - code: 65Y2.00
+      value: Streptomycin resistant tuberculosis
+      type: any
+    - code: 65Y5.00
+      value: Isoniazid resistant tuberculosis
+      type: any
+    - code: 65Y8.00
+      value: Ciprofloxacin resistant tuberculosis
+      type: any
+    - code: 65Y9.00
+      value: Inactive tuberculosis
+      type: any
+    - code: 65Y9.11
+      value: Latent tuberculosis
+      type: any
+    - code: 8BAD100
+      value: TB chemotherapy
+      type: any
+    - code: A100.00
+      value: Primary tuberculous complex
+      type: any
+    - code: A101.00
+      value: Tuberculous pleurisy in primary progressive tuberculosis
+      type: any
+    - code: A10..00
+      value: Primary tuberculous infection
+      type: any
+    - code: A10y.00
+      value: Other primary progressive tuberculosis
+      type: any
+    - code: A10z.00
+      value: Primary tuberculous infection NOS
+      type: any
+    - code: A110.00
+      value: Infiltrative lung tuberculosis
+      type: any
+    - code: A111.00
+      value: Nodular lung tuberculosis
+      type: any
+    - code: A112.00
+      value: Tuberculosis of lung with cavitation
+      type: any
+    - code: A113.00
+      value: Tuberculosis of bronchus
+      type: any
+    - code: A114.00
+      value: Tuberculous fibrosis of lung
+      type: any
+    - code: A115.00
+      value: Tuberculous bronchiectasis
+      type: any
+    - code: A116.00
+      value: Tuberculous pneumonia
+      type: any
+    - code: A117.00
+      value: Tuberculous pneumothorax
+      type: any
+    - code: A11..00
+      value: Pulmonary tuberculosis
+      type: any
+    - code: A11..11
+      value: Lung tuberculosis
+      type: any
+    - code: A11y.00
+      value: Other specified pulmonary tuberculosis
+      type: any
+    - code: A11z.00
+      value: Pulmonary tuberculosis NOS
+      type: any
+    - code: A120000
+      value: Tuberculosis of pleura
+      type: any
+    - code: A120100
+      value: Tuberculous empyema
+      type: any
+    - code: A120200
+      value: Tuberculous hydrothorax
+      type: any
+    - code: A120.00
+      value: Tuberculous pleurisy
+      type: any
+    - code: A120z00
+      value: Tuberculous pleurisy NOS
+      type: any
+    - code: A121000
+      value: Tuberculosis of hilar lymph nodes
+      type: any
+    - code: A121100
+      value: Tuberculosis of mediastinal lymph nodes
+      type: any
+    - code: A121200
+      value: Tuberculosis of tracheobronchial lymph nodes
+      type: any
+    - code: A121.00
+      value: Tuberculosis of intrathoracic lymph nodes
+      type: any
+    - code: A121z00
+      value: Tuberculosis of intrathoracic lymph nodes NOS
+      type: any
+    - code: A122000
+      value: Isolated tracheal tuberculosis
+      type: any
+    - code: A122100
+      value: Isolated bronchial tuberculosis
+      type: any
+    - code: A122.00
+      value: Isolated tracheal or bronchial tuberculosis
+      type: any
+    - code: A122z00
+      value: Isolated tracheal or bronchial tuberculosis NOS
+      type: any
+    - code: A123.00
+      value: Tuberculous laryngitis
+      type: any
+    - code: A124000
+      value: TB lung confirm sputum microscopy with or without culture
+      type: any
+    - code: A124100
+      value: Tuberculosis of lung, confirmed by culture only
+      type: any
+    - code: A124200
+      value: Tuberculosis of lung, confirmed histologically
+      type: any
+    - code: A124300
+      value: Tuberculosis of lung, confirmed by unspecified means
+      type: any
+    - code: A124400
+      value: TB intrathoracic lymph nodes confirm bact histologically
+      type: any
+    - code: A124500
+      value: Tuberculosis of larynx, trachea & bronchus conf bact/hist'y
+      type: any
+    - code: A124600
+      value: Tuberculous pleurisy, conf bacteriologically/histologically
+      type: any
+    - code: A124700
+      value: Primary respiratory TB confirm bact and histologically
+      type: any
+    - code: A124.00
+      value: Resp TB bacteriologically and histologically confirmed
+      type: any
+    - code: A125000
+      value: Tuberculosis of lung, bacteriologically & histolog'y neg
+      type: any
+    - code: A125100
+      value: Tuberculosis lung bact and histological examin not done
+      type: any
+    - code: A125200
+      value: Prim respiratory TB without mention of bact or hist confirm
+      type: any
+    - code: A125.00
+      value: Respiratory TB not confirmed bact or histologically
+      type: any
+    - code: A125X00
+      value: Resp TB unspcf,w'out mention/bacterial or histol confrmtn
+      type: any
+    - code: A12..00
+      value: Other respiratory tuberculosis
+      type: any
+    - code: A12y000
+      value: Tuberculosis of mediastinum
+      type: any
+    - code: A12y100
+      value: Tuberculosis of nasopharynx
+      type: any
+    - code: A12y200
+      value: Tuberculosis of nasal septum
+      type: any
+    - code: A12y300
+      value: Tuberculosis of nasal sinus
+      type: any
+    - code: A12y.00
+      value: Other specified respiratory tuberculosis
+      type: any
+    - code: A12yz00
+      value: Other specified respiratory tuberculosis NOS
+      type: any
+    - code: A130000
+      value: Tuberculosis of cerebral meninges
+      type: any
+    - code: A130100
+      value: Tuberculosis of spinal meninges
+      type: any
+    - code: A130300
+      value: Tuberculous meningoencephalitis
+      type: any
+    - code: A130.00
+      value: Tuberculous meningitis
+      type: any
+    - code: A130z00
+      value: Tuberculous meningitis NOS
+      type: any
+    - code: A131.00
+      value: Tuberculoma of meninges
+      type: any
+    - code: A132.00
+      value: Tuberculoma of brain
+      type: any
+    - code: A133.00
+      value: Tuberculous abscess of brain
+      type: any
+    - code: A134.00
+      value: Tuberculoma of spinal cord
+      type: any
+    - code: A135.00
+      value: Tuberculous abscess of spinal cord
+      type: any
+    - code: A136000
+      value: Tuberculous encephalitis
+      type: any
+    - code: A136100
+      value: Tuberculous myelitis
+      type: any
+    - code: A136.00
+      value: Tuberculous encephalitis or myelitis
+      type: any
+    - code: A136z00
+      value: Tuberculous encephalitis or myelitis NOS
+      type: any
+    - code: A13..00
+      value: Tuberculosis of meninges and central nervous system
+      type: any
+    - code: A13y.00
+      value: Other specified tuberculosis of central nervous system
+      type: any
+    - code: A13z.00
+      value: Tuberculosis of central nervous system NOS
+      type: any
+    - code: A140.00
+      value: Tuberculous peritonitis
+      type: any
+    - code: A14..00
+      value: Tuberculosis of intestines, peritoneum and mesenteric glands
+      type: any
+    - code: A14y100
+      value: Tuberculosis of large intestine
+      type: any
+    - code: A14y200
+      value: Tuberculosis of small intestine
+      type: any
+    - code: A14y300
+      value: Tuberculosis of mesenteric lymph glands
+      type: any
+    - code: A14y400
+      value: Tuberculosis of rectum
+      type: any
+    - code: A14y500
+      value: Tuberculosis of retroperitoneal lymph nodes
+      type: any
+    - code: A14y.00
+      value: Other gastrointestinal tract tuberculosis
+      type: any
+    - code: A14yz00
+      value: Other gastrointestinal tract tuberculosis NOS
+      type: any
+    - code: A14z.00
+      value: Tuberculosis of gastrointestinal tract NOS
+      type: any
+    - code: A150.00
+      value: Tuberculosis of vertebral column - Pott's
+      type: any
+    - code: A151.00
+      value: Tuberculosis of hip
+      type: any
+    - code: A152.00
+      value: Tuberculosis of knee
+      type: any
+    - code: A153.00
+      value: Tuberculosis limb bones - Tuberculous dactylitis
+      type: any
+    - code: A154.00
+      value: Tuberculous mastoiditis
+      type: any
+    - code: A15..00
+      value: Tuberculosis of bones and joints
+      type: any
+    - code: A15..11
+      value: Tuberculous osteomylelytis
+      type: any
+    - code: A15..12
+      value: Tuberculous arthritis
+      type: any
+    - code: A15..13
+      value: Tuberculous synovitis
+      type: any
+    - code: A15x.00
+      value: Tuberculosis of other specified bones
+      type: any
+    - code: A15y.00
+      value: Tuberculosis of other specified joint
+      type: any
+    - code: A15z.00
+      value: Tuberculosis of bones or joints NOS
+      type: any
+    - code: A160000
+      value: Tuberculous nephropathy
+      type: any
+    - code: A160100
+      value: Tuberculous pyelitis
+      type: any
+    - code: A160200
+      value: Tuberculous pyelonephritis
+      type: any
+    - code: A160.00
+      value: Tuberculosis of kidney
+      type: any
+    - code: A160.11
+      value: Renal tuberculosis
+      type: any
+    - code: A160z00
+      value: Tuberculosis of kidney NOS
+      type: any
+    - code: A161.00
+      value: Tuberculosis of bladder
+      type: any
+    - code: A162.00
+      value: Tuberculosis of ureter
+      type: any
+    - code: A163.00
+      value: Tuberculosis of other urinary organs
+      type: any
+    - code: A164.00
+      value: Tuberculosis of epididymis
+      type: any
+    - code: A165000
+      value: Tuberculosis of prostate
+      type: any
+    - code: A165100
+      value: Tuberculosis seminal vesicle
+      type: any
+    - code: A165200
+      value: Tuberculosis of testis
+      type: any
+    - code: A165.00
+      value: Tuberculosis of other male genital organs
+      type: any
+    - code: A165z00
+      value: Tuberculosis of other male genital organs NOS
+      type: any
+    - code: A166000
+      value: Tuberculous oophoritis
+      type: any
+    - code: A166100
+      value: Tuberculous salpingitis
+      type: any
+    - code: A166111
+      value: Fallopian tube tuberculosis
+      type: any
+    - code: A166.00
+      value: Tuberculous oophoritis or salpingitis
+      type: any
+    - code: A166z00
+      value: Tuberculous oophoritis or salpingitis NOS
+      type: any
+    - code: A167000
+      value: Tuberculous cervicitis
+      type: any
+    - code: A167100
+      value: Tuberculous endometritis
+      type: any
+    - code: A167.00
+      value: Tuberculosis of other female genital organs
+      type: any
+    - code: A167z00
+      value: Tuberculosis of other female genital organs NOS
+      type: any
+    - code: A168.00
+      value: Tuberculosis of urinary tract
+      type: any
+    - code: A16..00
+      value: Tuberculosis of genitourinary system
+      type: any
+    - code: A16z.00
+      value: Genitourinary tuberculosis NOS
+      type: any
+    - code: A170000
+      value: Tuberculosis - lupus exedens
+      type: any
+    - code: A170100
+      value: Tuberculosis - lupus vulgaris
+      type: any
+    - code: A170200
+      value: Tuberculosis - scrofuloderma
+      type: any
+    - code: A170300
+      value: Tuberculosis - lupus NOS
+      type: any
+    - code: A170500
+      value: Tuberculosis cutis
+      type: any
+    - code: A170600
+      value: Tuberculosis lichenoides
+      type: any
+    - code: A170700
+      value: Tuberculosis papulonecrotica
+      type: any
+    - code: A170800
+      value: Tuberculosis verrucosa cutis
+      type: any
+    - code: A170.00
+      value: Tuberculosis of skin and subcutaneous tissue
+      type: any
+    - code: A170.11
+      value: Lupus - tuberculous
+      type: any
+    - code: A170z00
+      value: Tuberculosis of skin and subcutaneous tissue NOS
+      type: any
+    - code: A171000
+      value: Bazin's disease - erythema induratum - TB hypersensitivity
+      type: any
+    - code: A171100
+      value: Tuberculous erythema nodosum
+      type: any
+    - code: A171.00
+      value: Tuberculosis with erythema nodosum hypersensitivity reaction
+      type: any
+    - code: A171z00
+      value: Erythema nodosum with tuberculosis NOS
+      type: any
+    - code: A172000
+      value: Tuberculous - cervical lymphadenitis
+      type: any
+    - code: A172011
+      value: Scrofula - tuberculous cervical lymph nodes
+      type: any
+    - code: A172100
+      value: Scrofulous tuberculous abscess
+      type: any
+    - code: A172200
+      value: Tuberculous adenitis
+      type: any
+    - code: A172.00
+      value: Tuberculosis of peripheral lymph nodes
+      type: any
+    - code: A172z00
+      value: Tuberculosis of peripheral lymph nodes NOS
+      type: any
+    - code: A173000
+      value: Tuberculous chorioretinitis
+      type: any
+    - code: A173100
+      value: Tuberculous episcleritis
+      type: any
+    - code: A173200
+      value: Tuberculous interstitial keratitis
+      type: any
+    - code: A173300
+      value: Tuberculous chronic iridocyclitis
+      type: any
+    - code: A173400
+      value: Tuberculous keratoconjunctivitis
+      type: any
+    - code: A173.00
+      value: Tuberculosis of eye
+      type: any
+    - code: A173z00
+      value: Tuberculosis of eye NOS
+      type: any
+    - code: A174.00
+      value: Tuberculosis of ear
+      type: any
+    - code: A175.00
+      value: Tuberculosis of thyroid gland
+      type: any
+    - code: A176.00
+      value: Tuberculosis of adrenal glands - Addison's disease
+      type: any
+    - code: A177.00
+      value: Tuberculosis spleen
+      type: any
+    - code: A178.00
+      value: Tuberculosis oesophagus
+      type: any
+    - code: A17..00
+      value: Tuberculosis of other organs
+      type: any
+    - code: A17y000
+      value: Tuberculosis endocardium
+      type: any
+    - code: A17y100
+      value: Tuberculosis myocardium
+      type: any
+    - code: A17y200
+      value: Tuberculosis pericardium
+      type: any
+    - code: A17y300
+      value: Tuberculosis of stomach
+      type: any
+    - code: A17y400
+      value: Tuberculosis of liver
+      type: any
+    - code: A17y.00
+      value: Tuberculosis of other specified organs
+      type: any
+    - code: A17yz00
+      value: Tuberculosis of other specified organs NOS
+      type: any
+    - code: A17z.00
+      value: Tuberculosis of other organs NOS
+      type: any
+    - code: A180000
+      value: Acute miliary tuberculosis of a single specified site
+      type: any
+    - code: A180100
+      value: Acute miliary tuberculosis of multiple sites
+      type: any
+    - code: A180.00
+      value: Acute miliary tuberculosis
+      type: any
+    - code: A18..00
+      value: Miliary tuberculosis
+      type: any
+    - code: A18y.00
+      value: Other specified miliary tuberculosis
+      type: any
+    - code: A18z.00
+      value: Miliary tuberculosis NOS
+      type: any
+    - code: A1...00
+      value: Tuberculosis
+      type: any
+    - code: A1y..00
+      value: Other specified tuberculosis
+      type: any
+    - code: A1z..00
+      value: Tuberculosis NOS
+      type: any
+    - code: AE00.00
+      value: Late effects of respiratory tuberculosis
+      type: any
+    - code: AE01.00
+      value: Late effects of central nervous system tuberculosis
+      type: any
+    - code: AE02.00
+      value: Late effects of genitourinary system tuberculosis
+      type: any
+    - code: AE03.00
+      value: Late effects of tuberculosis of bones and joints
+      type: any
+    - code: AE04.00
+      value: Late effects of tuberculosis of other specified organs
+      type: any
+    - code: AE0..00
+      value: Late effects of tuberculosis
+      type: any
+    - code: AE0z.00
+      value: Late effects of tuberculosis NOS
+      type: any
+    - code: Ayu1000
+      value: '[X]Other resp tubercul,confirmd bacteriologicly+histologicly'
+      type: any
+    - code: Ayu1100
+      value: '[X]Resp tuberculos unspcfd,confirmd bacteriolog+histologicly'
+      type: any
+    - code: Ayu1300
+      value: '[X]Resp TB unspcf,w''out mention/bacterial or histol confrmtn'
+      type: any
+    - code: Ayu1400
+      value: '[X]Other tuberculosis of nervous system'
+      type: any
+    - code: Ayu1600
+      value: '[X]Tuberculosis of other specified organs'
+      type: any
+    - code: Ayu1800
+      value: '[X]Other miliary tuberculosis'
+      type: any
+    - code: Ayu1900
+      value: '[X]Miliary tuberculosis, unspecified'
+      type: any
+    - code: Ayu1.00
+      value: '[X]Tuberculosis'
+      type: any
+    - code: AyuJ200
+      value: '[X]Sequelae of tuberculosis of bones and joints'
+      type: any
+    - code: AyuJ400
+      value: '[X]Sequelae of respiratory and unspecified tuberculosis'
+      type: any
+    - code: F004.00
+      value: Meningitis - tuberculous
+      type: any
+    - code: F033300
+      value: Encephalitis due to tuberculosis
+      type: any
+    - code: F033311
+      value: Tuberculous encephalitis
+      type: any
+    - code: F040600
+      value: Tuberculous intracranial abscess
+      type: any
+    - code: F041300
+      value: Tuberculous intraspinal abscess
+      type: any
+    - code: F4A5500
+      value: Keratitis due to tuberculosis
+      type: any
+    - code: G500300
+      value: Acute pericarditis - tuberculous
+      type: any
+    - code: G500311
+      value: TB - acute pericarditis
+      type: any
+    - code: G520600
+      value: Acute myocarditis - tuberculous
+      type: any
+    - code: H450.00
+      value: Pneumoconiosis associated with tuberculosis
+      type: any
+    - code: J550200
+      value: Peritonitis - tuberculous
+      type: any
+    - code: K154800
+      value: Cystitis in tuberculosis
+      type: any
+    - code: K214300
+      value: Prostatitis in tuberculosis
+      type: any
+    - code: K43..00
+      value: Female tuberculous pelvic inflammatory disease
+      type: any
+    - code: N018.00
+      value: Tuberculous arthritis
+      type: any
+    - code: N304000
+      value: Tuberculosis of cervical spine
+      type: any
+    - code: N304100
+      value: Tuberculosis of thoracic spine
+      type: any
+    - code: N304200
+      value: Tuberculosis of lumbar spine
+      type: any
+    - code: N304300
+      value: Tuberculosis of sacrum/coccyx
+      type: any
+    - code: N304.00
+      value: Tuberculosis of spine (Pott's)
+      type: any
+    - code: N304.11
+      value: Tuberculosis of spine
+      type: any
+    - code: N305000
+      value: Tuberculosis of unspecified limb bone
+      type: any
+    - code: N305100
+      value: Tuberculosis of the upper arm bone
+      type: any
+    - code: N305200
+      value: Tuberculosis of the forearm bone
+      type: any
+    - code: N305300
+      value: Tuberculosis of the pelvic and thigh bones
+      type: any
+    - code: N305400
+      value: Tuberculosis of the lower leg bone
+      type: any
+    - code: N305500
+      value: Tuberculosis of other limb bones
+      type: any
+    - code: N305.00
+      value: Tuberculosis of limb bones
+      type: any
+    - code: N306000
+      value: Tuberculosis of bone, site unspecified
+      type: any
+    - code: N306100
+      value: Tuberculosis of the bones of the shoulder region
+      type: any
+    - code: N306200
+      value: Tuberculosis of the bones of the hand
+      type: any
+    - code: N306300
+      value: Tuberculosis of the bones of the ankle and foot
+      type: any
+    - code: N306400
+      value: Tuberculosis of the bones of other sites
+      type: any
+    - code: N306500
+      value: Tuberculosis of the bones of multiple sites
+      type: any
+    - code: N306.00
+      value: Tuberculosis of other bones
+      type: any
+    - code: N306z00
+      value: Tuberculosis of bone NOS
+      type: any
+    - code: Q402400
+      value: Congenital tuberculosis
+      type: any
+    - code: ZV12A00
+      value: '[V] Personal history of pulmonary tuberculosis'
+      type: prevalent
+    - code: ZV12B00
+      value: '[V] Personal history of tuberculosis'
+      type: prevalent
+    - code: XaQk2
+      value: History of tuberculosis drug therapy
+      type: prevalent
+    - code: XaKB9
+      value: Isoniazid resistant tuberculosis
+      type: any
+    - code: XSCGJ
+      value: Inactive tuberculosis
+      type: any
+    - code: XaBE4
+      value: '[V] Personal history of pulmonary tuberculosis'
+      type: prevalent
+    - code: XE0Qr
+      value: Tuberculosis of bones and joints
+      type: any
+    - code: XE2uC
+      value: Tuberculosis of skin and subcutaneous tissue
+      type: any
+    - code: XE2aj
+      value: Tuberculosis of peripheral lymph nodes
+      type: any
+    - code: F0333
+      value: Tuberculous encephalitis
+      type: any
+    - code: XaKB6
+      value: Streptomycin resistant tuberculosis
+      type: any
+    - code: XaCL6
+      value: '[V] Personal history of tuberculosis'
+      type: prevalent
+    - code: A171.
+      value: Tuberculous erythema nodosum
+      type: any
+    - code: XaK3y
+      value: On tuberculosis chemoprophylaxis
+      type: any
+    - code: A120.
+      value: Tuberculosis of pleura
+      type: any
+    - code: XaKBC
+      value: Ciprofloxacin resistant tuberculosis
+      type: any
+    - code: F004.
+      value: Tuberculous meningitis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

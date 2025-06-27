@@ -1,0 +1,272 @@
+metadata:
+  phenotype: Acne
+  group: Skin
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: acne
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 75a07fdf-d99b-44e6-8f67-94f0d1e73bd2
+  ontologies:
+    DOID: DOID_6543
+    GWAS: EFO_0003894
+    MESH: D000152
+    SNOMED-CT: 11381005
+    FINNGEN: L12_ACNE
+  short_desc: Acne is a common skin condition that causes spots and oily skin.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1548'
+      value: acne/acne vulgaris
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: L70.0
+      value: Acne vulgaris
+      type: any
+    - code: L70.1
+      value: Acne conglobata
+      type: any
+    - code: L70.2
+      value: Acne varioliformis
+      type: any
+    - code: L70.3
+      value: Acne tropica
+      type: any
+    - code: L70.8
+      value: Other acne
+      type: any
+    - code: L70.9
+      value: Acne, unspecified
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: L70.0
+      value: Acne vulgaris
+      type: any
+    - code: L70.1
+      value: Acne conglobata
+      type: any
+    - code: L70.2
+      value: Acne varioliformis
+      type: any
+    - code: L70.3
+      value: Acne tropica
+      type: any
+    - code: L70.8
+      value: Other acne
+      type: any
+    - code: L70.9
+      value: Acne, unspecified
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: L70.0
+      value: Acne vulgaris
+      type: any
+    - code: L70.1
+      value: Acne conglobata
+      type: any
+    - code: L70.2
+      value: Acne varioliformis
+      type: any
+    - code: L70.3
+      value: Acne tropica
+      type: any
+    - code: L70.8
+      value: Other acne
+      type: any
+    - code: L70.9
+      value: Acne, unspecified
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: L70.0
+      value: Acne vulgaris
+      type: any
+    - code: L70.1
+      value: Acne conglobata
+      type: any
+    - code: L70.2
+      value: Acne varioliformis
+      type: any
+    - code: L70.3
+      value: Acne tropica
+      type: any
+    - code: L70.8
+      value: Other acne
+      type: any
+    - code: L70.9
+      value: Acne, unspecified
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 2FG5.00
+      value: Acne scar
+      type: any
+    - code: M260000
+      value: Acne frontalis
+      type: any
+    - code: M260.00
+      value: Acne varioliformis
+      type: any
+    - code: M260z00
+      value: Acne varioliformis NOS
+      type: any
+    - code: M260z11
+      value: Acne necrotica
+      type: any
+    - code: M261000
+      value: Acne vulgaris
+      type: any
+    - code: M261011
+      value: Blackhead
+      type: any
+    - code: M261012
+      value: Comedo
+      type: any
+    - code: M261100
+      value: Acne conglobata
+      type: any
+    - code: M261200
+      value: Bromine acne
+      type: any
+    - code: M261300
+      value: Chlorine acne
+      type: any
+    - code: M261400
+      value: Iodine acne
+      type: any
+    - code: M261500
+      value: Colloid acne
+      type: any
+    - code: M261600
+      value: Cystic acne
+      type: any
+    - code: M261900
+      value: Occupational acne
+      type: any
+    - code: M261A00
+      value: Pustular acne
+      type: any
+    - code: M261B00
+      value: Steroid acne
+      type: any
+    - code: M261C00
+      value: Tropical acne
+      type: any
+    - code: M261F00
+      value: Acne fulminans
+      type: any
+    - code: M261G00
+      value: Acne agminata
+      type: any
+    - code: M261J00
+      value: Acne necrotica
+      type: any
+    - code: M261.00
+      value: Other acne
+      type: any
+    - code: M261X00
+      value: Acne, unspecified
+      type: any
+    - code: M261z00
+      value: Other acne NOS
+      type: any
+    - code: M26y200
+      value: Giant comedo
+      type: any
+    - code: Myu6800
+      value: '[X]Other acne'
+      type: any
+    - code: Myu6F00
+      value: '[X]Acne, unspecified'
+      type: any
+    - code: N25..00
+      value: SAPHO syndrome Synov, Acne, Pustul, Hyperost, Osteomyelitis
+      type: any
+    - code: X75uJ
+      value: Acne scar
+      type: any
+    - code: X50Es
+      value: Acne necrotica
+      type: any
+    - code: XE1BN
+      value: Acne varioliformis NOS
+      type: any
+    - code: XE1BO
+      value: Acne vulgaris
+      type: any
+    - code: X50A8
+      value: Acne fulminans
+      type: any
+    - code: X50AF
+      value: Giant comedo
+      type: any
+    - code: X50AL
+      value: Acne agminata
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

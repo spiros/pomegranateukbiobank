@@ -1,0 +1,300 @@
+metadata:
+  phenotype: Psoriasis
+  group: Skin
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: psoriasis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: bfbc5ef7-0205-43ec-ab05-e6de51ab361d
+  ontologies:
+    DOID: DOID_8893
+    GWAS: EFO_0000676
+    MESH: D011565
+    SNOMED-CT: 9014002
+    FINNGEN: L12_PSORIASIS
+  short_desc: A common genetically determined, chronic, inflammatory skin disease
+    characterized by rounded erythematous, dry, scaling patches. The lesions have
+    a predilection for nails, scalp, genitalia, extensor surfaces, and the lumbosacral
+    region. Accelerated epidermopoiesis is considered to be the fundamental pathologic
+    feature in psoriasis.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1453'
+      value: psoriasis
+      type: any
+    - code: '1477'
+      value: psoriatic arthropathy
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: L40
+      value: Psoriasis
+      type: any
+    - code: M07.0
+      value: Distal interphalangeal psoriatic arthropathy
+      type: any
+    - code: M07.1
+      value: Arthritis mutilans
+      type: any
+    - code: M07.2
+      value: Psoriatic spondylitis
+      type: any
+    - code: M07.3
+      value: Other psoriatic arthropathies
+      type: any
+    - code: M09.0
+      value: Juvenile arthritis in psoriasis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: L40
+      value: Psoriasis
+      type: any
+    - code: M07.0
+      value: Distal interphalangeal psoriatic arthropathy
+      type: any
+    - code: M07.1
+      value: Arthritis mutilans
+      type: any
+    - code: M07.2
+      value: Psoriatic spondylitis
+      type: any
+    - code: M07.3
+      value: Other psoriatic arthropathies
+      type: any
+    - code: M09.0
+      value: Juvenile arthritis in psoriasis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: L40
+      value: Psoriasis
+      type: any
+    - code: M07.0
+      value: Distal interphalangeal psoriatic arthropathy
+      type: any
+    - code: M07.1
+      value: Arthritis mutilans
+      type: any
+    - code: M07.2
+      value: Psoriatic spondylitis
+      type: any
+    - code: M07.3
+      value: Other psoriatic arthropathies
+      type: any
+    - code: M09.0
+      value: Juvenile arthritis in psoriasis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: L40
+      value: Psoriasis
+      type: any
+    - code: M07.0
+      value: Distal interphalangeal psoriatic arthropathy
+      type: any
+    - code: M07.1
+      value: Arthritis mutilans
+      type: any
+    - code: M07.2
+      value: Psoriatic spondylitis
+      type: any
+    - code: M07.3
+      value: Other psoriatic arthropathies
+      type: any
+    - code: M09.0
+      value: Juvenile arthritis in psoriasis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14F2.00
+      value: 'H/O: psoriasis'
+      type: prevalent
+    - code: M160000
+      value: Psoriasis spondylitica
+      type: any
+    - code: M160100
+      value: Distal interphalangeal psoriatic arthropathy
+      type: any
+    - code: M160200
+      value: Arthritis mutilans
+      type: any
+    - code: M160.00
+      value: Psoriatic arthropathy
+      type: any
+    - code: M160.11
+      value: Psoriatic arthritis
+      type: any
+    - code: M160z00
+      value: Psoriatic arthropathy NOS
+      type: any
+    - code: M161000
+      value: Psoriasis unspecified
+      type: any
+    - code: M161100
+      value: Psoriasis annularis
+      type: any
+    - code: M161200
+      value: Psoriasis circinata
+      type: any
+    - code: M161300
+      value: Psoriasis diffusa
+      type: any
+    - code: M161400
+      value: Psoriasis discoidea
+      type: any
+    - code: M161500
+      value: Psoriasis geographica
+      type: any
+    - code: M161600
+      value: Guttate psoriasis
+      type: any
+    - code: M161700
+      value: Psoriasis gyrata
+      type: any
+    - code: M161800
+      value: Psoriasis inveterata
+      type: any
+    - code: M161900
+      value: Psoriasis ostracea
+      type: any
+    - code: M161A00
+      value: Psoriasis palmaris
+      type: any
+    - code: M161B00
+      value: Psoriasis plantaris
+      type: any
+    - code: M161C00
+      value: Psoriasis punctata
+      type: any
+    - code: M161D00
+      value: Pustular psoriasis
+      type: any
+    - code: M161E00
+      value: Psoriasis universalis
+      type: any
+    - code: M161F00
+      value: Psoriasis vulgaris
+      type: any
+    - code: M161F11
+      value: Chronic large plaque psoriasis
+      type: any
+    - code: M161H00
+      value: Erythrodermic psoriasis
+      type: any
+    - code: M161J00
+      value: Flexural psoriasis
+      type: any
+    - code: M161.00
+      value: Other psoriasis
+      type: any
+    - code: M161z00
+      value: Psoriasis NOS
+      type: any
+    - code: M166.00
+      value: Palmoplantar pustular psoriasis
+      type: any
+    - code: M16..00
+      value: Psoriasis and similar disorders
+      type: any
+    - code: M16y000
+      value: Scalp psoriasis
+      type: any
+    - code: M16y.00
+      value: Other psoriasis and similar disorders
+      type: any
+    - code: M16z.00
+      value: Psoriasis and similar disorders NOS
+      type: any
+    - code: Myu3000
+      value: '[X]Other psoriasis'
+      type: any
+    - code: N045200
+      value: Juvenile arthritis in psoriasis
+      type: any
+    - code: Nyu1300
+      value: '[X]Other psoriatic arthropathies'
+      type: any
+    - code: X506Z
+      value: Flexural psoriasis
+      type: any
+    - code: X506m
+      value: Palmoplantar pustular psoriasis
+      type: any
+    - code: X506b
+      value: Erythrodermic psoriasis
+      type: any
+    - code: XaNXt
+      value: Psoriasis vulgaris
+      type: any
+    - code: XaYOx
+      value: Pustular psoriasis
+      type: any
+    - code: X506i
+      value: Scalp psoriasis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

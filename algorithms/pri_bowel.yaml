@@ -1,0 +1,257 @@
+metadata:
+  phenotype: Primary Malignancy_colorectal and anus
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: pri_bowel
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 76e391ad-1d01-49d1-8994-e01ec55c6093
+  ontologies:
+    DOID: null
+    GWAS: EFO_0005842
+    MESH: null
+    SNOMED-CT: null
+    FINNGEN: null
+  short_desc: null
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1020'
+      value: large bowel cancer/colorectal cancer
+      type: any
+    - code: '1022'
+      value: colon cancer/sigmoid cancer
+      type: any
+    - code: '1023'
+      value: rectal cancer
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C18
+      value: Malignant neoplasm of colon
+      type: any
+    - code: C19
+      value: Malignant neoplasm of rectosigmoid junction
+      type: any
+    - code: C20
+      value: Malignant neoplasm of rectum
+      type: any
+    - code: C21
+      value: Malignant neoplasm of anus and anal canal
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C18
+      value: Malignant neoplasm of colon
+      type: any
+    - code: C19
+      value: Malignant neoplasm of rectosigmoid junction
+      type: any
+    - code: C20
+      value: Malignant neoplasm of rectum
+      type: any
+    - code: C21
+      value: Malignant neoplasm of anus and anal canal
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C18
+      value: Malignant neoplasm of colon
+      type: any
+    - code: C19
+      value: Malignant neoplasm of rectosigmoid junction
+      type: any
+    - code: C20
+      value: Malignant neoplasm of rectum
+      type: any
+    - code: C21
+      value: Malignant neoplasm of anus and anal canal
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C18
+      value: Malignant neoplasm of colon
+      type: any
+    - code: C19
+      value: Malignant neoplasm of rectosigmoid junction
+      type: any
+    - code: C20
+      value: Malignant neoplasm of rectum
+      type: any
+    - code: C21
+      value: Malignant neoplasm of anus and anal canal
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B130.00
+      value: Malignant neoplasm of hepatic flexure of colon
+      type: any
+    - code: B131.00
+      value: Malignant neoplasm of transverse colon
+      type: any
+    - code: B132.00
+      value: Malignant neoplasm of descending colon
+      type: any
+    - code: B133.00
+      value: Malignant neoplasm of sigmoid colon
+      type: any
+    - code: B134.00
+      value: Malignant neoplasm of caecum
+      type: any
+    - code: B134.11
+      value: Carcinoma of caecum
+      type: any
+    - code: B135.00
+      value: Malignant neoplasm of appendix
+      type: any
+    - code: B136.00
+      value: Malignant neoplasm of ascending colon
+      type: any
+    - code: B137.00
+      value: Malignant neoplasm of splenic flexure of colon
+      type: any
+    - code: B138.00
+      value: Malignant neoplasm, overlapping lesion of colon
+      type: any
+    - code: B139.00
+      value: Hereditary nonpolyposis colon cancer
+      type: any
+    - code: B13..00
+      value: Malignant neoplasm of colon
+      type: any
+    - code: B13y.00
+      value: Malignant neoplasm of other specified sites of colon
+      type: any
+    - code: B13z.00
+      value: Malignant neoplasm of colon NOS
+      type: any
+    - code: B13z.11
+      value: Colonic cancer
+      type: any
+    - code: B140.00
+      value: Malignant neoplasm of rectosigmoid junction
+      type: any
+    - code: B141.00
+      value: Malignant neoplasm of rectum
+      type: any
+    - code: B141.11
+      value: Carcinoma of rectum
+      type: any
+    - code: B141.12
+      value: Rectal carcinoma
+      type: any
+    - code: B142000
+      value: Malignant neoplasm of cloacogenic zone
+      type: any
+    - code: B142.00
+      value: Malignant neoplasm of anal canal
+      type: any
+    - code: B142.11
+      value: Anal carcinoma
+      type: any
+    - code: B143.00
+      value: Malignant neoplasm of anus unspecified
+      type: any
+    - code: B14..00
+      value: Malignant neoplasm of rectum, rectosigmoid junction and anus
+      type: any
+    - code: B14y.00
+      value: Malig neop other site rectum, rectosigmoid junction and anus
+      type: any
+    - code: B14z.00
+      value: Malignant neoplasm rectum,rectosigmoid junction and anus NOS
+      type: any
+    - code: B1z0.11
+      value: Cancer of bowel
+      type: any
+    - code: ZV10011
+      value: '[V]Personal history of malignant neoplasm of anus'
+      type: prevalent
+    - code: ZV10014
+      value: '[V]Personal history of malignant neoplasm of large intestine'
+      type: prevalent
+    - code: ZV10017
+      value: '[V]Personal history of malignant neoplasm of rectum'
+      type: prevalent
+    - code: XE1vV
+      value: Malignant neoplasm of colon NOS
+      type: any
+    - code: XaFsw
+      value: Hereditary nonpolyposis colon cancer
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C18
+      value: Malignant neoplasm of colon
+      type: any
+    - code: C19
+      value: Malignant neoplasm of rectosigmoid junction
+      type: any
+    - code: C20
+      value: Malignant neoplasm of rectum
+      type: any
+    - code: C21
+      value: Malignant neoplasm of anus and anal canal
+      type: any

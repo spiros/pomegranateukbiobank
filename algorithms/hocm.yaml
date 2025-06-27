@@ -1,0 +1,129 @@
+metadata:
+  phenotype: Hypertrophic Cardiomyopathy
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: hocm
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 7dbbc676-2c2a-4c9a-9063-16a4f5ac35a3
+  ontologies:
+    DOID: DOID_11984
+    GWAS: EFO_0000538
+    MESH: D002312
+    SNOMED-CT: 233873004
+    FINNGEN: I9_HYPERTROCARDMYOP
+  short_desc: Hypertrophic cardiomyopathy (HCM) is an inherited disease of tje heart
+    muscle, where the muscle wall of the heart becomes thickened.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1588'
+      value: hypertrophic cardiomyopathy (hcm / hocm)
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I42.1
+      value: Obstructive hypertrophic cardiomyopathy
+      type: any
+    - code: I42.2
+      value: Other hypertrophic cardiomyopathy
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I42.1
+      value: Obstructive hypertrophic cardiomyopathy
+      type: any
+    - code: I42.2
+      value: Other hypertrophic cardiomyopathy
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I42.1
+      value: Obstructive hypertrophic cardiomyopathy
+      type: any
+    - code: I42.2
+      value: Other hypertrophic cardiomyopathy
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I42.1
+      value: Obstructive hypertrophic cardiomyopathy
+      type: any
+    - code: I42.2
+      value: Other hypertrophic cardiomyopathy
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: G551.00
+      value: Hypertrophic obstructive cardiomyopathy
+      type: any
+    - code: G554300
+      value: Hypertrophic non-obstructive cardiomyopathy
+      type: any
+    - code: Gyu5M00
+      value: '[X]Other hypertrophic cardiomyopathy'
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,852 @@
+metadata:
+  phenotype: Peripheral neuropathies (excl. cranial nerve, carpal tunnel syndromes)
+  group: Neurological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: periph_neuro
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: cc164a30-04e3-4bb8-bd2d-d4fb028d3632
+  ontologies:
+    DOID: DOID_5213
+    GWAS: EFO_1000868
+    MESH: D011115
+    SNOMED-CT: 128209004
+    FINNGEN: G6_POLYOTHUNS
+  short_desc: A slowly progressive autoimmune demyelinating disease of peripheral
+    nerves and nerve roots.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1256'
+      value: acute infective polyneuritis/guillain-barre syndrome
+      type: any
+    - code: '1254'
+      value: peripheral nerve disorder
+      type: any
+    - code: '1255'
+      value: peripheral neuropathy
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: G56.1
+      value: Other lesions of median nerve
+      type: any
+    - code: G56.2
+      value: Lesion of ulnar nerve
+      type: any
+    - code: G56.3
+      value: Lesion of radial nerve
+      type: any
+    - code: G56.4
+      value: Causalgia
+      type: any
+    - code: G56.8
+      value: Other mononeuropathies of upper limb
+      type: any
+    - code: G56.9
+      value: Mononeuropathy of upper limb, unspecified
+      type: any
+    - code: G57
+      value: Mononeuropathies of lower limb
+      type: any
+    - code: G58
+      value: Other mononeuropathies
+      type: any
+    - code: G59
+      value: Mononeuropathy in diseases classified elsewhere
+      type: any
+    - code: G60
+      value: Hereditary and idiopathic neuropathy
+      type: any
+    - code: G61
+      value: Inflammatory polyneuropathy
+      type: any
+    - code: G62
+      value: Other polyneuropathies
+      type: any
+    - code: G63
+      value: Polyneuropathy in diseases classified elsewhere
+      type: any
+    - code: G64
+      value: Other disorders of peripheral nervous system
+      type: any
+    - code: M14.6
+      value: Neuropathic arthropathy
+      type: any
+    - code: M49.4
+      value: Neuropathic spondylopathy
+      type: any
+    - code: E85.1
+      value: Neuropathic heredofamilial amyloidosis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: G56.1
+      value: Other lesions of median nerve
+      type: any
+    - code: G56.2
+      value: Lesion of ulnar nerve
+      type: any
+    - code: G56.3
+      value: Lesion of radial nerve
+      type: any
+    - code: G56.4
+      value: Causalgia
+      type: any
+    - code: G56.8
+      value: Other mononeuropathies of upper limb
+      type: any
+    - code: G56.9
+      value: Mononeuropathy of upper limb, unspecified
+      type: any
+    - code: G57
+      value: Mononeuropathies of lower limb
+      type: any
+    - code: G58
+      value: Other mononeuropathies
+      type: any
+    - code: G59
+      value: Mononeuropathy in diseases classified elsewhere
+      type: any
+    - code: G60
+      value: Hereditary and idiopathic neuropathy
+      type: any
+    - code: G61
+      value: Inflammatory polyneuropathy
+      type: any
+    - code: G62
+      value: Other polyneuropathies
+      type: any
+    - code: G63
+      value: Polyneuropathy in diseases classified elsewhere
+      type: any
+    - code: G64
+      value: Other disorders of peripheral nervous system
+      type: any
+    - code: M14.6
+      value: Neuropathic arthropathy
+      type: any
+    - code: M49.4
+      value: Neuropathic spondylopathy
+      type: any
+    - code: E85.1
+      value: Neuropathic heredofamilial amyloidosis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G56.1
+      value: Other lesions of median nerve
+      type: any
+    - code: G56.2
+      value: Lesion of ulnar nerve
+      type: any
+    - code: G56.3
+      value: Lesion of radial nerve
+      type: any
+    - code: G56.4
+      value: Causalgia
+      type: any
+    - code: G56.8
+      value: Other mononeuropathies of upper limb
+      type: any
+    - code: G56.9
+      value: Mononeuropathy of upper limb, unspecified
+      type: any
+    - code: G57
+      value: Mononeuropathies of lower limb
+      type: any
+    - code: G58
+      value: Other mononeuropathies
+      type: any
+    - code: G59
+      value: Mononeuropathy in diseases classified elsewhere
+      type: any
+    - code: G60
+      value: Hereditary and idiopathic neuropathy
+      type: any
+    - code: G61
+      value: Inflammatory polyneuropathy
+      type: any
+    - code: G62
+      value: Other polyneuropathies
+      type: any
+    - code: G63
+      value: Polyneuropathy in diseases classified elsewhere
+      type: any
+    - code: G64
+      value: Other disorders of peripheral nervous system
+      type: any
+    - code: M14.6
+      value: Neuropathic arthropathy
+      type: any
+    - code: M49.4
+      value: Neuropathic spondylopathy
+      type: any
+    - code: E85.1
+      value: Neuropathic heredofamilial amyloidosis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G56.1
+      value: Other lesions of median nerve
+      type: any
+    - code: G56.2
+      value: Lesion of ulnar nerve
+      type: any
+    - code: G56.3
+      value: Lesion of radial nerve
+      type: any
+    - code: G56.4
+      value: Causalgia
+      type: any
+    - code: G56.8
+      value: Other mononeuropathies of upper limb
+      type: any
+    - code: G56.9
+      value: Mononeuropathy of upper limb, unspecified
+      type: any
+    - code: G57
+      value: Mononeuropathies of lower limb
+      type: any
+    - code: G58
+      value: Other mononeuropathies
+      type: any
+    - code: G59
+      value: Mononeuropathy in diseases classified elsewhere
+      type: any
+    - code: G60
+      value: Hereditary and idiopathic neuropathy
+      type: any
+    - code: G61
+      value: Inflammatory polyneuropathy
+      type: any
+    - code: G62
+      value: Other polyneuropathies
+      type: any
+    - code: G63
+      value: Polyneuropathy in diseases classified elsewhere
+      type: any
+    - code: G64
+      value: Other disorders of peripheral nervous system
+      type: any
+    - code: M14.6
+      value: Neuropathic arthropathy
+      type: any
+    - code: M49.4
+      value: Neuropathic spondylopathy
+      type: any
+    - code: E85.1
+      value: Neuropathic heredofamilial amyloidosis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: A531300
+      value: Postherpetic polyneuropathy
+      type: any
+    - code: A72x100
+      value: Mumps polyneuropathy
+      type: any
+    - code: C106.12
+      value: Diabetes mellitus with neuropathy
+      type: any
+    - code: C106.13
+      value: Diabetes mellitus with polyneuropathy
+      type: any
+    - code: C108B00
+      value: Insulin dependent diabetes mellitus with mononeuropathy
+      type: any
+    - code: C108B11
+      value: Type I diabetes mellitus with mononeuropathy
+      type: any
+    - code: C108C00
+      value: Insulin dependent diabetes mellitus with polyneuropathy
+      type: any
+    - code: C108J00
+      value: Insulin dependent diab mell with neuropathic arthropathy
+      type: any
+    - code: C108J11
+      value: Type I diabetes mellitus with neuropathic arthropathy
+      type: any
+    - code: C108J12
+      value: Type 1 diabetes mellitus with neuropathic arthropathy
+      type: any
+    - code: C109A00
+      value: Non-insulin dependent diabetes mellitus with mononeuropathy
+      type: any
+    - code: C109A11
+      value: Type II diabetes mellitus with mononeuropathy
+      type: any
+    - code: C109B00
+      value: Non-insulin dependent diabetes mellitus with polyneuropathy
+      type: any
+    - code: C109B11
+      value: Type II diabetes mellitus with polyneuropathy
+      type: any
+    - code: C109B12
+      value: Type 2 diabetes mellitus with polyneuropathy
+      type: any
+    - code: C109H00
+      value: Non-insulin dependent d m with neuropathic arthropathy
+      type: any
+    - code: C109H11
+      value: Type II diabetes mellitus with neuropathic arthropathy
+      type: any
+    - code: C109H12
+      value: Type 2 diabetes mellitus with neuropathic arthropathy
+      type: any
+    - code: C10EB00
+      value: Type 1 diabetes mellitus with mononeuropathy
+      type: any
+    - code: C10EC00
+      value: Type 1 diabetes mellitus with polyneuropathy
+      type: any
+    - code: C10EC11
+      value: Type I diabetes mellitus with polyneuropathy
+      type: any
+    - code: C10EC12
+      value: Insulin dependent diabetes mellitus with polyneuropathy
+      type: any
+    - code: C10EJ00
+      value: Type 1 diabetes mellitus with neuropathic arthropathy
+      type: any
+    - code: C10FA00
+      value: Type 2 diabetes mellitus with mononeuropathy
+      type: any
+    - code: C10FA11
+      value: Type II diabetes mellitus with mononeuropathy
+      type: any
+    - code: C10FB00
+      value: Type 2 diabetes mellitus with polyneuropathy
+      type: any
+    - code: C10FB11
+      value: Type II diabetes mellitus with polyneuropathy
+      type: any
+    - code: C10FH00
+      value: Type 2 diabetes mellitus with neuropathic arthropathy
+      type: any
+    - code: C10FH11
+      value: Type II diabetes mellitus with neuropathic arthropathy
+      type: any
+    - code: C34y400
+      value: Gouty neuritis
+      type: any
+    - code: C373200
+      value: Familial neuropathic amyloid
+      type: any
+    - code: C373K13
+      value: Familial amyloid polyneuropathy type III
+      type: any
+    - code: E011100
+      value: Korsakov's alcoholic psychosis with peripheral neuritis
+      type: any
+    - code: F341000
+      value: Median nerve neuritis
+      type: any
+    - code: F341100
+      value: Median nerve compression in forearm
+      type: any
+    - code: F341.00
+      value: Other median nerve lesions
+      type: any
+    - code: F341z00
+      value: Median nerve lesions NOS
+      type: any
+    - code: F342000
+      value: Cubital tunnel syndrome
+      type: any
+    - code: F342100
+      value: Tardy ulnar nerve palsy
+      type: any
+    - code: F342200
+      value: Canal of Guyon compression
+      type: any
+    - code: F342300
+      value: Ulnar nerve entrapment
+      type: any
+    - code: F342400
+      value: Ulnar neuropathy
+      type: any
+    - code: F342.00
+      value: Ulnar nerve lesions
+      type: any
+    - code: F342.11
+      value: Neuritis ulnar nerve
+      type: any
+    - code: F342z00
+      value: Ulnar nerve lesion NOS
+      type: any
+    - code: F343000
+      value: Acute radial nerve palsy
+      type: any
+    - code: F343100
+      value: Sensory branch of radial nerve lesion
+      type: any
+    - code: F343200
+      value: Posterior interosseous nerve lesion
+      type: any
+    - code: F343.00
+      value: Radial nerve lesions
+      type: any
+    - code: F343z00
+      value: Radial nerve lesion NOS
+      type: any
+    - code: F344.00
+      value: Causalgia
+      type: any
+    - code: F345000
+      value: Diabetic mononeuritis multiplex
+      type: any
+    - code: F345.00
+      value: Mononeuritis multiplex
+      type: any
+    - code: F346.00
+      value: Median nerve entrapment
+      type: any
+    - code: F34..00
+      value: Mononeuritis of upper limb and mononeuritis multiplex
+      type: any
+    - code: F34y.00
+      value: Other upper limb mononeuritis
+      type: any
+    - code: F34z.00
+      value: Mononeuritis upper limb NOS
+      type: any
+    - code: F350.00
+      value: Sciatic nerve lesion
+      type: any
+    - code: F351.00
+      value: Meralgia paraesthetica
+      type: any
+    - code: F352.00
+      value: Femoral nerve lesions
+      type: any
+    - code: F353.00
+      value: Common peroneal nerve lesion
+      type: any
+    - code: F353.11
+      value: Lateral popliteal nerve lesion
+      type: any
+    - code: F354.00
+      value: Tibial nerve lesion
+      type: any
+    - code: F354.11
+      value: Medial popliteal nerve lesion
+      type: any
+    - code: F355.00
+      value: Tarsal tunnel syndrome
+      type: any
+    - code: F356000
+      value: Morton's metatarsalgia
+      type: any
+    - code: F356100
+      value: Morton's neuralgia
+      type: any
+    - code: F356.00
+      value: Plantar nerve lesion
+      type: any
+    - code: F356z00
+      value: Plantar nerve lesion NOS
+      type: any
+    - code: F357.00
+      value: Superficial peroneal nerve lesion
+      type: any
+    - code: F358.00
+      value: Deep peroneal nerve lesion
+      type: any
+    - code: F35..00
+      value: Mononeuritis lower limb
+      type: any
+    - code: F35x.00
+      value: Other mononeuritis lower limb
+      type: any
+    - code: F35y.00
+      value: Unspecified mononeuritis lower limb
+      type: any
+    - code: F35z000
+      value: Diabetic mononeuritis NOS
+      type: any
+    - code: F35z.00
+      value: Mononeuritis of unspecified site NOS
+      type: any
+    - code: F35z.11
+      value: Peripheral neuropathy - hereditary or idiopathic
+      type: any
+    - code: F360000
+      value: Dejerine-Sottas disease
+      type: any
+    - code: F360.00
+      value: Hereditary peripheral neuropathy
+      type: any
+    - code: F360z00
+      value: Hereditary peripheral neuropathy NOS
+      type: any
+    - code: F361000
+      value: Charcot-Marie-Tooth disease
+      type: any
+    - code: F361011
+      value: Charcot's atrophy
+      type: any
+    - code: F361012
+      value: Charcot-Marie-Tooth syndrome
+      type: any
+    - code: F361.00
+      value: Peroneal muscular atrophy
+      type: any
+    - code: F361z00
+      value: Peroneal muscular atrophy NOS
+      type: any
+    - code: F362.00
+      value: Hereditary sensory neuropathy
+      type: any
+    - code: F363.00
+      value: Refsum's disease
+      type: any
+    - code: F364.00
+      value: Idiopathic progressive polyneuropathy
+      type: any
+    - code: F365.00
+      value: Neuropathy in association with hereditary ataxia
+      type: any
+    - code: F366.00
+      value: Polyneuropathy
+      type: any
+    - code: F367.00
+      value: Peripheral neuropathy
+      type: any
+    - code: F368000
+      value: Hereditary motor and sensory neuropathy type I
+      type: any
+    - code: F368100
+      value: Hereditary motor and sensory neuropathy type II
+      type: any
+    - code: F368200
+      value: Hereditary motor and sensory neuropathy type III
+      type: any
+    - code: F368.00
+      value: Hereditary motor and sensory neuropathy
+      type: any
+    - code: F36..00
+      value: Hereditary and idiopathic peripheral neuropathy
+      type: any
+    - code: F36y.00
+      value: Other idiopathic peripheral neuropathy
+      type: any
+    - code: F36yz00
+      value: Other idiopathic peripheral neuropathy NOS
+      type: any
+    - code: F36z.00
+      value: Hereditary or idiopathic peripheral neuropathy NOS
+      type: any
+    - code: F370000
+      value: Guillain-Barre syndrome
+      type: any
+    - code: F370100
+      value: Postinfectious polyneuritis
+      type: any
+    - code: F370200
+      value: Miller-Fisher syndrome
+      type: any
+    - code: F370.00
+      value: Acute infective polyneuritis
+      type: any
+    - code: F370z00
+      value: Acute infective polyneuritis NOS
+      type: any
+    - code: F371000
+      value: Polyneuropathy in disseminated lupus erythematosus
+      type: any
+    - code: F371100
+      value: Polyneuropathy in polyarteritis nodosa
+      type: any
+    - code: F371200
+      value: Polyneuropathy in rheumatoid arthritis
+      type: any
+    - code: F371.00
+      value: Polyneuropathy in collagen vascular disease
+      type: any
+    - code: F371z00
+      value: Polyneuropathy in collagen vascular disease NOS
+      type: any
+    - code: F372000
+      value: Acute painful diabetic neuropathy
+      type: any
+    - code: F372100
+      value: Chronic painful diabetic neuropathy
+      type: any
+    - code: F372200
+      value: Asymptomatic diabetic neuropathy
+      type: any
+    - code: F372.00
+      value: Polyneuropathy in diabetes
+      type: any
+    - code: F372.11
+      value: Diabetic polyneuropathy
+      type: any
+    - code: F372.12
+      value: Diabetic neuropathy
+      type: any
+    - code: F373.00
+      value: Polyneuropathy in malignant disease
+      type: any
+    - code: F374000
+      value: Polyneuropathy in amyloidosis
+      type: any
+    - code: F374100
+      value: Polyneuropathy in beriberi
+      type: any
+    - code: F374200
+      value: Polyneuropathy in vitamin B deficiency
+      type: any
+    - code: F374300
+      value: Polyneuropathy in diphtheria
+      type: any
+    - code: F374400
+      value: Polyneuropathy in herpes zoster
+      type: any
+    - code: F374500
+      value: Polyneuropathy in hypoglycaemia
+      type: any
+    - code: F374600
+      value: Polyneuropathy in mumps
+      type: any
+    - code: F374800
+      value: Polyneuropathy in porphyria
+      type: any
+    - code: F374900
+      value: Polyneuropathy in sarcoidosis
+      type: any
+    - code: F374A00
+      value: Polyneuropathy in uraemia
+      type: any
+    - code: F374.00
+      value: Polyneuropathy in disease EC
+      type: any
+    - code: F374z00
+      value: Polyneuropathy in disease NOS
+      type: any
+    - code: F375.00
+      value: Alcoholic polyneuropathy
+      type: any
+    - code: F376.00
+      value: Polyneuropathy due to drugs
+      type: any
+    - code: F377.00
+      value: Other toxic agent polyneuropathy
+      type: any
+    - code: F378.00
+      value: Intercostal neuropathy
+      type: any
+    - code: F37..00
+      value: Inflammatory and toxic neuropathy
+      type: any
+    - code: F37..11
+      value: Toxic neuropathy
+      type: any
+    - code: F37X.00
+      value: Inflammatory polyneuropathy, unspecified
+      type: any
+    - code: F37y000
+      value: Serum neuropathy
+      type: any
+    - code: F37y100
+      value: Axonal sensorimotor neuropathy
+      type: any
+    - code: F37y.00
+      value: Other toxic or inflammatory neuropathy
+      type: any
+    - code: F37z.00
+      value: Toxic or inflammatory neuropathy NOS
+      type: any
+    - code: F37z.11
+      value: Polyneuropathy unspecified
+      type: any
+    - code: F3y0.00
+      value: Diabetic mononeuropathy
+      type: any
+    - code: F3y..00
+      value: Other specified disorders of peripheral nervous system
+      type: any
+    - code: F3z..00
+      value: Peripheral nervous system disorder NOS
+      type: any
+    - code: Fyu1300
+      value: '[X]Paraneoplastic neuromyopathy and neuropathy'
+      type: any
+    - code: Fyu6900
+      value: '[X]Other lesions of median nerve'
+      type: any
+    - code: Fyu6A00
+      value: '[X]Other mononeuropathies of upper limb'
+      type: any
+    - code: Fyu6B00
+      value: '[X]Other mononeuropathies of lower limb'
+      type: any
+    - code: Fyu6C00
+      value: '[X]Other specified mononeuropathies'
+      type: any
+    - code: Fyu6D00
+      value: '[X]Other mononeuropathies in diseases classified elsewhere'
+      type: any
+    - code: Fyu7000
+      value: '[X]Other hereditary and idiopathic neuropathies'
+      type: any
+    - code: Fyu7100
+      value: '[X]Other inflammatory polyneuropathies'
+      type: any
+    - code: Fyu7200
+      value: '[X]Other specified polyneuropathies'
+      type: any
+    - code: Fyu7500
+      value: '[X]Polyneuropathy/other endocrine+metabolic diseases CE'
+      type: any
+    - code: Fyu7800
+      value: '[X]Polyneuropathy/other musculoskeletal disorders CE'
+      type: any
+    - code: Fyu7B00
+      value: '[X]Inflammatory polyneuropathy, unspecified'
+      type: any
+    - code: Fyu7C00
+      value: '[X] Polyneuropathy, unspecified'
+      type: any
+    - code: Fyu7.00
+      value: '[X]Polyneuropathies & other disord of peripheral nerv syst'
+      type: any
+    - code: M271100
+      value: Neuropathic diabetic ulcer - foot
+      type: any
+    - code: M271700
+      value: Neuropathic foot ulcer
+      type: any
+    - code: N035.00
+      value: Neuropathic arthropathy
+      type: any
+    - code: N035.12
+      value: Neuropathic arthritis
+      type: any
+    - code: N11y200
+      value: Neuropathic spondylopathy
+      type: any
+    - code: N134.14
+      value: Ulnar neuritis
+      type: any
+    - code: SD72200
+      value: Neuropathic foot blister
+      type: any
+    - code: X00C5
+      value: Intercostal neuropathy
+      type: any
+    - code: X00AA
+      value: Hereditary motor and sensory neuropathy type II
+      type: any
+    - code: F3600
+      value: Hereditary motor and sensory neuropathy type III
+      type: any
+    - code: X00A9
+      value: Hereditary motor and sensory neuropathy type I
+      type: any
+    - code: X00CH
+      value: Axonal sensorimotor neuropathy
+      type: any
+    - code: X00Al
+      value: Diabetic mononeuropathy
+      type: any
+    - code: XE15h
+      value: Ulnar nerve lesions
+      type: any
+    - code: XE10H
+      value: Diabetes mellitus with neurological manifestation
+      type: any
+    - code: F3610
+      value: Hereditary motor and sensory neuropathy
+      type: any
+    - code: X75at
+      value: Median nerve entrapment
+      type: any
+    - code: XE2sp
+      value: Neuropathic arthropathy
+      type: any
+    - code: Xa0Ks
+      value: Ulnar nerve entrapment
+      type: any
+    - code: XE15i
+      value: Mononeuritis of unspecified site NOS
+      type: any
+    - code: XaIrg
+      value: Ulnar neuropathy
+      type: any
+    - code: XE15j
+      value: Inflammatory and toxic neuropathy
+      type: any
+    - code: XE15m
+      value: Toxic or inflammatory neuropathy NOS
+      type: any
+    - code: XE1F5
+      value: Brachial (cervical) neuritis
+      type: any
+    - code: X50Bj
+      value: Neuropathic foot ulcer
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,470 @@
+metadata:
+  phenotype: Primary Malignancy_Bone and articular cartilage
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: pri_bone
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 56ee92ef-b6a6-4954-bf3d-1da0c27e16e7
+  ontologies:
+    DOID: DOID_184
+    GWAS: EFO_0003820
+    MESH: D001859
+    SNOMED-CT: 428281000
+    FINNGEN: C3_BONE_CARTILAGE_LIMBS
+  short_desc: A benign, intermediate, or malignant neoplasm involving the bone or
+    articular cartilage.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1063'
+      value: primary bone cancer
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C40
+      value: Malignant neoplasm of bone and articular cartilage of limbs
+      type: any
+    - code: C41
+      value: Malignant neoplasm of bone and articular cartilage of other and unspecified
+        sites
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C40
+      value: Malignant neoplasm of bone and articular cartilage of limbs
+      type: any
+    - code: C41
+      value: Malignant neoplasm of bone and articular cartilage of other and unspecified
+        sites
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C40
+      value: Malignant neoplasm of bone and articular cartilage of limbs
+      type: any
+    - code: C41
+      value: Malignant neoplasm of bone and articular cartilage of other and unspecified
+        sites
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C40
+      value: Malignant neoplasm of bone and articular cartilage of limbs
+      type: any
+    - code: C41
+      value: Malignant neoplasm of bone and articular cartilage of other and unspecified
+        sites
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B300000
+      value: Malignant neoplasm of ethmoid bone
+      type: any
+    - code: B300100
+      value: Malignant neoplasm of frontal bone
+      type: any
+    - code: B300200
+      value: Malignant neoplasm of malar bone
+      type: any
+    - code: B300300
+      value: Malignant neoplasm of nasal bone
+      type: any
+    - code: B300400
+      value: Malignant neoplasm of occipital bone
+      type: any
+    - code: B300500
+      value: Malignant neoplasm of orbital bone
+      type: any
+    - code: B300600
+      value: Malignant neoplasm of parietal bone
+      type: any
+    - code: B300700
+      value: Malignant neoplasm of sphenoid bone
+      type: any
+    - code: B300800
+      value: Malignant neoplasm of temporal bone
+      type: any
+    - code: B300900
+      value: Malignant neoplasm of zygomatic bone
+      type: any
+    - code: B300A00
+      value: Malignant neoplasm of maxilla
+      type: any
+    - code: B300.00
+      value: Malignant neoplasm of bones of skull and face
+      type: any
+    - code: B300B00
+      value: Malignant neoplasm of turbinate
+      type: any
+    - code: B300C00
+      value: Malignant neoplasm of vomer
+      type: any
+    - code: B300z00
+      value: Malignant neoplasm of bones of skull and face NOS
+      type: any
+    - code: B301.00
+      value: Malignant neoplasm of mandible
+      type: any
+    - code: B302000
+      value: Malignant neoplasm of cervical vertebra
+      type: any
+    - code: B302100
+      value: Malignant neoplasm of thoracic vertebra
+      type: any
+    - code: B302200
+      value: Malignant neoplasm of lumbar vertebra
+      type: any
+    - code: B302.00
+      value: Malignant neoplasm of vertebral column
+      type: any
+    - code: B302z00
+      value: Malignant neoplasm of vertebral column NOS
+      type: any
+    - code: B303000
+      value: Malignant neoplasm of rib
+      type: any
+    - code: B303100
+      value: Malignant neoplasm of sternum
+      type: any
+    - code: B303200
+      value: Malignant neoplasm of clavicle
+      type: any
+    - code: B303300
+      value: Malignant neoplasm of costal cartilage
+      type: any
+    - code: B303400
+      value: Malignant neoplasm of costo-vertebral joint
+      type: any
+    - code: B303500
+      value: Malignant neoplasm of xiphoid process
+      type: any
+    - code: B303.00
+      value: Malignant neoplasm of ribs, sternum and clavicle
+      type: any
+    - code: B303z00
+      value: Malignant neoplasm of rib, sternum and clavicle NOS
+      type: any
+    - code: B304000
+      value: Malignant neoplasm of scapula
+      type: any
+    - code: B304100
+      value: Malignant neoplasm of acromion
+      type: any
+    - code: B304200
+      value: Malignant neoplasm of humerus
+      type: any
+    - code: B304300
+      value: Malignant neoplasm of radius
+      type: any
+    - code: B304400
+      value: Malignant neoplasm of ulna
+      type: any
+    - code: B304.00
+      value: Malignant neoplasm of scapula and long bones of upper arm
+      type: any
+    - code: B304z00
+      value: Malig neop of scapula and long bones of upper arm NOS
+      type: any
+    - code: B305000
+      value: Malignant neoplasm of carpal bone - scaphoid
+      type: any
+    - code: B305100
+      value: Malignant neoplasm of carpal bone - lunate
+      type: any
+    - code: B305A00
+      value: Malignant neoplasm of third metacarpal bone
+      type: any
+    - code: B305.00
+      value: Malignant neoplasm of hand bones
+      type: any
+    - code: B305.11
+      value: Malignant neoplasm of carpal bones
+      type: any
+    - code: B305.12
+      value: Malignant neoplasm of metacarpal bones
+      type: any
+    - code: B305C00
+      value: Malignant neoplasm of fifth metacarpal bone
+      type: any
+    - code: B305D00
+      value: Malignant neoplasm of phalanges of hand
+      type: any
+    - code: B305z00
+      value: Malignant neoplasm of hand bones NOS
+      type: any
+    - code: B306000
+      value: Malignant neoplasm of ilium
+      type: any
+    - code: B306100
+      value: Malignant neoplasm of ischium
+      type: any
+    - code: B306200
+      value: Malignant neoplasm of pubis
+      type: any
+    - code: B306300
+      value: Malignant neoplasm of sacral vertebra
+      type: any
+    - code: B306400
+      value: Malignant neoplasm of coccygeal vertebra
+      type: any
+    - code: B306500
+      value: Malignant sacral teratoma
+      type: any
+    - code: B306.00
+      value: Malignant neoplasm of pelvic bones, sacrum and coccyx
+      type: any
+    - code: B306z00
+      value: Malignant neoplasm of pelvis, sacrum or coccyx NOS
+      type: any
+    - code: B307000
+      value: Malignant neoplasm of femur
+      type: any
+    - code: B307100
+      value: Malignant neoplasm of fibula
+      type: any
+    - code: B307200
+      value: Malignant neoplasm of tibia
+      type: any
+    - code: B307.00
+      value: Malignant neoplasm of long bones of leg
+      type: any
+    - code: B307z00
+      value: Malignant neoplasm of long bones of leg NOS
+      type: any
+    - code: B308100
+      value: Malignant neoplasm of talus
+      type: any
+    - code: B308200
+      value: Malignant neoplasm of calcaneum
+      type: any
+    - code: B308300
+      value: Malignant neoplasm of medial cuneiform
+      type: any
+    - code: B308800
+      value: Malignant neoplasm of first metatarsal bone
+      type: any
+    - code: B308.00
+      value: Malignant neoplasm of short bones of leg
+      type: any
+    - code: B308B00
+      value: Malignant neoplasm of fourth metatarsal bone
+      type: any
+    - code: B308D00
+      value: Malignant neoplasm of phalanges of foot
+      type: any
+    - code: B308z00
+      value: Malignant neoplasm of short bones of leg NOS
+      type: any
+    - code: B30..00
+      value: Malignant neoplasm of bone and articular cartilage
+      type: any
+    - code: B30W.00
+      value: Malignant neoplasm/overlap lesion/bone+articulr cartilage
+      type: any
+    - code: B30X.00
+      value: Malignant neoplasm/bones+articular cartilage/limb,unspfd
+      type: any
+    - code: B30z000
+      value: Osteosarcoma
+      type: any
+    - code: B30z.00
+      value: Malignant neoplasm of bone and articular cartilage NOS
+      type: any
+    - code: BBV1.00
+      value: '[M]Osteosarcoma NOS'
+      type: any
+    - code: BBV1.11
+      value: '[M]Osteoblastic sarcoma'
+      type: any
+    - code: BBV1.12
+      value: '[M]Osteochondrosarcoma'
+      type: any
+    - code: BBV1.13
+      value: '[M]Osteogenic sarcoma NOS'
+      type: any
+    - code: BBV2.00
+      value: '[M]Chondroblastic osteosarcoma'
+      type: any
+    - code: BBV3.00
+      value: '[M]Fibroblastic osteosarcoma'
+      type: any
+    - code: BBV4.00
+      value: '[M]Telangiectatic osteosarcoma'
+      type: any
+    - code: BBV5.00
+      value: '[M]Osteosarcoma in Paget''s disease of bone'
+      type: any
+    - code: BBV9.00
+      value: '[M]Myxoid chondrosarcoma'
+      type: any
+    - code: BBVA.00
+      value: '[M] Small cell osteosarcoma'
+      type: any
+    - code: BBV..11
+      value: '[M]Juxtacortical osteogenic sarcoma'
+      type: any
+    - code: BBV..12
+      value: '[M]Parosteal osteosarcoma'
+      type: any
+    - code: BBV..13
+      value: '[M]Periosteal osteogenic sarcoma'
+      type: any
+    - code: BBW4.00
+      value: '[M]Chondrosarcoma NOS'
+      type: any
+    - code: BBW4.11
+      value: '[M]Fibrochondrosarcoma'
+      type: any
+    - code: BBW6.00
+      value: '[M]Juxtacortical chondrosarcoma'
+      type: any
+    - code: BBW8.00
+      value: '[M]Chondroblastoma, malignant'
+      type: any
+    - code: BBW9.00
+      value: '[M]Mesenchymal chondrosarcoma'
+      type: any
+    - code: BBX1.00
+      value: '[M]Giant cell tumour of bone, malignant'
+      type: any
+    - code: BBX1.11
+      value: '[M]Giant cell bone sarcoma'
+      type: any
+    - code: BBX1.12
+      value: '[M]Osteoclastoma, malignant'
+      type: any
+    - code: BBY0.00
+      value: '[M]Ewing''s sarcoma'
+      type: any
+    - code: BBY0.11
+      value: '[M]Endothelial bone sarcoma'
+      type: any
+    - code: BBY1.00
+      value: '[M]Adamantinoma of long bones'
+      type: any
+    - code: BBY1.11
+      value: '[M]Tibial adamantinoma'
+      type: any
+    - code: BBZ2.00
+      value: '[M]Odontogenic tumour, malignant'
+      type: any
+    - code: BBZ2.11
+      value: '[M]Intraosseous carcinoma'
+      type: any
+    - code: BBZC.00
+      value: '[M]Ameloblastic odontosarcoma'
+      type: any
+    - code: BBZG.00
+      value: '[M]Ameloblastoma, malignant'
+      type: any
+    - code: BBZG.11
+      value: '[M]Adamantinoma, malignant'
+      type: any
+    - code: BBZN.00
+      value: '[M]Ameloblastic fibrosarcoma'
+      type: any
+    - code: BBZN.11
+      value: '[M]Odontogenic fibrosarcoma'
+      type: any
+    - code: Byu3100
+      value: '[X]Malignant neoplasm/bones+articular cartilage/limb,unspfd'
+      type: any
+    - code: Byu3200
+      value: '[X]Malignant neoplasm/overlap lesion/bone+articulr cartilage'
+      type: any
+    - code: Byu3300
+      value: '[X]Malignant neoplasm/bone+articular cartilage, unspecified'
+      type: any
+    - code: Byu3.00
+      value: '[X]Malignant neoplasm of bone and articular cartilage'
+      type: any
+    - code: ZV10y11
+      value: '[V]Personal history of malignant neoplasm of bone'
+      type: prevalent
+    - code: XE1ve
+      value: Malignant neoplasm of hand bones
+      type: any
+    - code: XE1wY
+      value: '[M]Osteomas and osteosarcomas'
+      type: any
+    - code: XE1wZ
+      value: '[M]Adamantinoma of long bones'
+      type: any
+    - code: XE1vf
+      value: Malignant neoplasm of short bones of leg
+      type: any
+    - code: XaKWz
+      value: Malignant sacral teratoma
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C40
+      value: Malignant neoplasm of bone and articular cartilage of limbs
+      type: any
+    - code: C41
+      value: Malignant neoplasm of bone and articular cartilage of other and unspecified
+        sites
+      type: any

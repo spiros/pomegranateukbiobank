@@ -1,0 +1,155 @@
+metadata:
+  phenotype: Primary Malignancy_Bladder
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: pri_bladder
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 73b5a329-4748-4325-99fb-2e86ea8a985c
+  ontologies:
+    DOID: DOID_11054
+    GWAS: EFO_0000292
+    MESH: D001749
+    SNOMED-CT: 399326009
+    FINNGEN: C3_BLADDER
+  short_desc: Malignant neoplasm of bladder.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1035'
+      value: bladder cancer
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C67
+      value: Malignant neoplasm of bladder
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C67
+      value: Malignant neoplasm of bladder
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C67
+      value: Malignant neoplasm of bladder
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C67
+      value: Malignant neoplasm of bladder
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B490.00
+      value: Malignant neoplasm of trigone of urinary bladder
+      type: any
+    - code: B491.00
+      value: Malignant neoplasm of dome of urinary bladder
+      type: any
+    - code: B492.00
+      value: Malignant neoplasm of lateral wall of urinary bladder
+      type: any
+    - code: B493.00
+      value: Malignant neoplasm of anterior wall of urinary bladder
+      type: any
+    - code: B494.00
+      value: Malignant neoplasm of posterior wall of urinary bladder
+      type: any
+    - code: B495.00
+      value: Malignant neoplasm of bladder neck
+      type: any
+    - code: B496.00
+      value: Malignant neoplasm of ureteric orifice
+      type: any
+    - code: B497.00
+      value: Malignant neoplasm of urachus
+      type: any
+    - code: B498.00
+      value: Local recurrence of malignant tumour of urinary bladder
+      type: any
+    - code: B49..00
+      value: Malignant neoplasm of urinary bladder
+      type: any
+    - code: B49y000
+      value: Malignant neoplasm, overlapping lesion of bladder
+      type: any
+    - code: B49y.00
+      value: Malignant neoplasm of other site of urinary bladder
+      type: any
+    - code: B49z.00
+      value: Malignant neoplasm of urinary bladder NOS
+      type: any
+    - code: ZV10511
+      value: '[V]Personal history of malignant neoplasm of bladder'
+      type: prevalent
+    - code: XaFrL
+      value: Local recurrence of malignant tumour of urinary bladder
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C67
+      value: Malignant neoplasm of bladder
+      type: any

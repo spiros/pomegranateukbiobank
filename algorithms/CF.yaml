@@ -1,0 +1,211 @@
+metadata:
+  phenotype: Cystic Fibrosis
+  group: Endocrine
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: CF
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 79519b36-40bb-499b-b763-053236badf75
+  ontologies:
+    DOID: DOID_1485
+    GWAS: Orphanet_586
+    MESH: D003550
+    SNOMED-CT: 190905008
+    FINNGEN: E4_CYSTFIBRO
+  short_desc: Cystic fibrosis is an inherited condition that causes sticky mucus to
+    build up in the lungs and digestive system. This causes lung infections and problems
+    with digesting food.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: E84
+      value: Cystic fibrosis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: E84
+      value: Cystic fibrosis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: E84
+      value: Cystic fibrosis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: E84
+      value: Cystic fibrosis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 66k0.00
+      value: Cystic fibrosis annual review
+      type: prevalent
+    - code: 66k..00
+      value: Cystic fibrosis monitoring
+      type: prevalent
+    - code: C10N100
+      value: Cystic fibrosis related diabetes mellitus
+      type: any
+    - code: C370000
+      value: Cystic fibrosis with no meconium ileus
+      type: any
+    - code: C370100
+      value: Cystic fibrosis with meconium ileus
+      type: any
+    - code: C370111
+      value: Meconium ileus in cystic fibrosis
+      type: any
+    - code: C370200
+      value: Cystic fibrosis with pulmonary manifestations
+      type: any
+    - code: C370300
+      value: Cystic fibrosis with intestinal manifestations
+      type: any
+    - code: C370400
+      value: Arthropathy in cystic fibrosis
+      type: any
+    - code: C370500
+      value: Cystic fibrosis with distal intestinal obstruction syndrome
+      type: any
+    - code: C370700
+      value: Liver disease due to cystic fibrosis
+      type: any
+    - code: C370800
+      value: Cystic fibrosis related cirrhosis
+      type: any
+    - code: C370900
+      value: Exacerbation of cystic fibrosis
+      type: any
+    - code: C370.00
+      value: Cystic fibrosis
+      type: any
+    - code: C370.11
+      value: Fibrocystic disease
+      type: any
+    - code: C370.12
+      value: Mucoviscidosis
+      type: any
+    - code: C370y00
+      value: Cystic fibrosis with other manifestations
+      type: any
+    - code: C370z00
+      value: Cystic fibrosis NOS
+      type: any
+    - code: XaXi9
+      value: Cystic fibrosis related cirrhosis
+      type: any
+    - code: XaMzI
+      value: Cystic fibrosis related diabetes mellitus
+      type: any
+    - code: XaBDb
+      value: Cystic fibrosis with other manifestations
+      type: any
+    - code: XaQvd
+      value: Cystic fibrosis annual review
+      type: prevalent
+    - code: XaREX
+      value: Arthropathy in cystic fibrosis
+      type: any
+    - code: XaREZ
+      value: Cystic fibrosis with distal intestinal obstruction syndrome
+      type: any
+    - code: XaZr7
+      value: Exacerbation of cystic fibrosis
+      type: any
+    - code: XaREa
+      value: Liver disease due to cystic fibrosis
+      type: any
+    - code: XaQvc
+      value: Cystic fibrosis monitoring
+      type: prevalent
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []
+  22151:
+    metadata:
+      desc: Age cystic fibrosis diagnosed by doctor
+      time_qualifier:
+        type: baseline
+    values: []
+  22131:
+    metadata:
+      desc: Doctor diagnosed cystic fibrosis
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: true
+      type: any
+  22171:
+    metadata:
+      desc: Recent medication for cystic fibrosis
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: true
+      type: any

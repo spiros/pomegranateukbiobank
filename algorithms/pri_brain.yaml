@@ -1,0 +1,493 @@
+metadata:
+  phenotype: Primary Malignancy_Brain, Other CNS and Intracranial
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: pri_brain
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 66a38f33-7f86-4196-ab8e-b9b5da698db4
+  ontologies:
+    DOID: DOID_1319
+    GWAS: EFO_0005543
+    MESH: D001932
+    SNOMED-CT: 126952004
+    FINNGEN: C3_BRAIN
+  short_desc: A neoplasm (disease) that involves the brain.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1032'
+      value: brain cancer / primary malignant brain tumour
+      type: any
+    - code: '1033'
+      value: spinal cord or cranial nerve cancer
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C70
+      value: Malignant neoplasm of meninges
+      type: any
+    - code: C71
+      value: Malignant neoplasm of brain
+      type: any
+    - code: C72
+      value: Malignant neoplasm of spinal cord, cranial nerves and other parts of
+        central nervous system
+      type: any
+    - code: C75.1
+      value: 'Malignant neoplasm: Pituitary gland'
+      type: any
+    - code: C75.2
+      value: 'Malignant neoplasm: Craniopharyngeal duct'
+      type: any
+    - code: C75.3
+      value: 'Malignant neoplasm: Pineal gland'
+      type: any
+    - code: C75.4
+      value: 'Malignant neoplasm: Carotid body'
+      type: any
+    - code: C75.5
+      value: 'Malignant neoplasm: Aortic body and other paraganglia'
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C70
+      value: Malignant neoplasm of meninges
+      type: any
+    - code: C71
+      value: Malignant neoplasm of brain
+      type: any
+    - code: C72
+      value: Malignant neoplasm of spinal cord, cranial nerves and other parts of
+        central nervous system
+      type: any
+    - code: C75.1
+      value: 'Malignant neoplasm: Pituitary gland'
+      type: any
+    - code: C75.2
+      value: 'Malignant neoplasm: Craniopharyngeal duct'
+      type: any
+    - code: C75.3
+      value: 'Malignant neoplasm: Pineal gland'
+      type: any
+    - code: C75.4
+      value: 'Malignant neoplasm: Carotid body'
+      type: any
+    - code: C75.5
+      value: 'Malignant neoplasm: Aortic body and other paraganglia'
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C70
+      value: Malignant neoplasm of meninges
+      type: any
+    - code: C71
+      value: Malignant neoplasm of brain
+      type: any
+    - code: C72
+      value: Malignant neoplasm of spinal cord, cranial nerves and other parts of
+        central nervous system
+      type: any
+    - code: C75.1
+      value: 'Malignant neoplasm: Pituitary gland'
+      type: any
+    - code: C75.2
+      value: 'Malignant neoplasm: Craniopharyngeal duct'
+      type: any
+    - code: C75.3
+      value: 'Malignant neoplasm: Pineal gland'
+      type: any
+    - code: C75.4
+      value: 'Malignant neoplasm: Carotid body'
+      type: any
+    - code: C75.5
+      value: 'Malignant neoplasm: Aortic body and other paraganglia'
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C70
+      value: Malignant neoplasm of meninges
+      type: any
+    - code: C71
+      value: Malignant neoplasm of brain
+      type: any
+    - code: C72
+      value: Malignant neoplasm of spinal cord, cranial nerves and other parts of
+        central nervous system
+      type: any
+    - code: C75.1
+      value: 'Malignant neoplasm: Pituitary gland'
+      type: any
+    - code: C75.2
+      value: 'Malignant neoplasm: Craniopharyngeal duct'
+      type: any
+    - code: C75.3
+      value: 'Malignant neoplasm: Pineal gland'
+      type: any
+    - code: C75.4
+      value: 'Malignant neoplasm: Carotid body'
+      type: any
+    - code: C75.5
+      value: 'Malignant neoplasm: Aortic body and other paraganglia'
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B510000
+      value: Malignant neoplasm of basal ganglia
+      type: any
+    - code: B510100
+      value: Malignant neoplasm of cerebral cortex
+      type: any
+    - code: B510300
+      value: Malignant neoplasm of globus pallidus
+      type: any
+    - code: B510400
+      value: Malignant neoplasm of hypothalamus
+      type: any
+    - code: B510500
+      value: Malignant neoplasm of thalamus
+      type: any
+    - code: B510.00
+      value: Malignant neoplasm cerebrum (excluding lobes and ventricles)
+      type: any
+    - code: B510z00
+      value: Malignant neoplasm of cerebrum NOS
+      type: any
+    - code: B511.00
+      value: Malignant neoplasm of frontal lobe
+      type: any
+    - code: B512000
+      value: Malignant neoplasm of hippocampus
+      type: any
+    - code: B512.00
+      value: Malignant neoplasm of temporal lobe
+      type: any
+    - code: B512z00
+      value: Malignant neoplasm of temporal lobe NOS
+      type: any
+    - code: B513.00
+      value: Malignant neoplasm of parietal lobe
+      type: any
+    - code: B514.00
+      value: Malignant neoplasm of occipital lobe
+      type: any
+    - code: B515000
+      value: Malignant neoplasm of choroid plexus
+      type: any
+    - code: B515.00
+      value: Malignant neoplasm of cerebral ventricles
+      type: any
+    - code: B516.00
+      value: Malignant neoplasm of cerebellum
+      type: any
+    - code: B517000
+      value: Malignant neoplasm of cerebral peduncle
+      type: any
+    - code: B517100
+      value: Malignant neoplasm of medulla oblongata
+      type: any
+    - code: B517200
+      value: Malignant neoplasm of midbrain
+      type: any
+    - code: B517300
+      value: Malignant neoplasm of pons
+      type: any
+    - code: B517.00
+      value: Malignant neoplasm of brain stem
+      type: any
+    - code: B517z00
+      value: Malignant neoplasm of brain stem NOS
+      type: any
+    - code: B51..00
+      value: Malignant neoplasm of brain
+      type: any
+    - code: B51..11
+      value: Cerebral tumour - malignant
+      type: any
+    - code: B51y000
+      value: Malignant neoplasm of corpus callosum
+      type: any
+    - code: B51y200
+      value: Malignant neoplasm, overlapping lesion of brain
+      type: any
+    - code: B51y.00
+      value: Malignant neoplasm of other parts of brain
+      type: any
+    - code: B51yz00
+      value: Malignant neoplasm of other part of brain NOS
+      type: any
+    - code: B51z.00
+      value: Malignant neoplasm of brain NOS
+      type: any
+    - code: B520000
+      value: Malignant neoplasm of olfactory bulb
+      type: any
+    - code: B520100
+      value: Malignant neoplasm of optic nerve
+      type: any
+    - code: B520200
+      value: Malignant neoplasm of acoustic nerve
+      type: any
+    - code: B520.00
+      value: Malignant neoplasm of cranial nerves
+      type: any
+    - code: B520z00
+      value: Malignant neoplasm of cranial nerves NOS
+      type: any
+    - code: B521200
+      value: Malignant neoplasm of cerebral pia mater
+      type: any
+    - code: B521.00
+      value: Malignant neoplasm of cerebral meninges
+      type: any
+    - code: B521z00
+      value: Malignant neoplasm of cerebral meninges NOS
+      type: any
+    - code: B522.00
+      value: Malignant neoplasm of spinal cord
+      type: any
+    - code: B523.00
+      value: Malignant neoplasm of spinal meninges
+      type: any
+    - code: B523z00
+      value: Malignant neoplasm of spinal meninges NOS
+      type: any
+    - code: B525.00
+      value: Malignant neoplasm of cauda equina
+      type: any
+    - code: B52W.00
+      value: Malig neopl, overlap lesion brain & other part of CNS
+      type: any
+    - code: B52X.00
+      value: Malignant neoplasm of meninges, unspecified
+      type: any
+    - code: B542000
+      value: Malignant neoplasm of pituitary gland
+      type: any
+    - code: B542100
+      value: Malignant neoplasm of craniopharyngeal duct
+      type: any
+    - code: B542.00
+      value: Malignant neoplasm pituitary gland and craniopharyngeal duct
+      type: any
+    - code: B542z00
+      value: Malig neop pituitary gland or craniopharyngeal duct NOS
+      type: any
+    - code: B543.00
+      value: Malignant neoplasm of pineal gland
+      type: any
+    - code: B544.00
+      value: Malignant neoplasm of carotid body
+      type: any
+    - code: B545000
+      value: Malignant neoplasm of glomus jugulare
+      type: any
+    - code: B545100
+      value: Malignant neoplasm of aortic body
+      type: any
+    - code: B545200
+      value: Malignant neoplasm of coccygeal body
+      type: any
+    - code: B545.00
+      value: Malignant neoplasm of aortic body and other paraganglia
+      type: any
+    - code: B545z00
+      value: Malignant neoplasm of aortic body or paraganglia NOS
+      type: any
+    - code: BBbB.00
+      value: '[M]Astrocytoma NOS'
+      type: any
+    - code: BBbB.11
+      value: '[M]Astrocytic glioma'
+      type: any
+    - code: BBbC.00
+      value: '[M]Astrocytoma, anaplastic type'
+      type: any
+    - code: BBbE.00
+      value: '[M]Gemistocytic astrocytoma'
+      type: any
+    - code: BBbF.00
+      value: '[M]Fibrillary astrocytoma'
+      type: any
+    - code: BBbG.00
+      value: '[M]Pilocytic astrocytoma'
+      type: any
+    - code: BBbG.11
+      value: '[M]Juvenile astrocytoma'
+      type: any
+    - code: BBbG.12
+      value: '[M]Piloid astrocytoma'
+      type: any
+    - code: BBbH.00
+      value: '[M]Spongioblastoma NOS'
+      type: any
+    - code: BBbK.00
+      value: '[M]Astroblastoma'
+      type: any
+    - code: BBbL.00
+      value: '[M]Glioblastoma NOS'
+      type: any
+    - code: BBbL.11
+      value: '[M]Glioblastoma multiforme'
+      type: any
+    - code: BBbM.00
+      value: '[M]Giant cell glioblastoma'
+      type: any
+    - code: BBbQ.00
+      value: '[M]Oligodendroglioma NOS'
+      type: any
+    - code: BBbR.00
+      value: '[M]Oligodendroglioma, anaplastic type'
+      type: any
+    - code: BBbS.00
+      value: '[M]Oligodendroblastoma'
+      type: any
+    - code: BBbT.00
+      value: '[M]Medulloblastoma NOS'
+      type: any
+    - code: BBbU.00
+      value: '[M]Desmoplastic medulloblastoma'
+      type: any
+    - code: BBbV.00
+      value: '[M]Medullomyoblastoma'
+      type: any
+    - code: BBbW.00
+      value: '[M]Cerebellar sarcoma NOS'
+      type: any
+    - code: BBbz.00
+      value: '[M]Glioma NOS'
+      type: any
+    - code: BBbZ.00
+      value: '[M]Pleomorphic xanthoastrocytoma'
+      type: any
+    - code: BBc2.00
+      value: '[M]Medulloepithelioma NOS'
+      type: any
+    - code: BBc6.11
+      value: '[M]Glioneuroma'
+      type: any
+    - code: BBc7.11
+      value: '[M]Neuroastrocytoma'
+      type: any
+    - code: BBcA.00
+      value: '[M]Olfactory neurogenic tumour'
+      type: any
+    - code: BBd2.00
+      value: '[M]Meningioma, malignant'
+      type: any
+    - code: BBd2.12
+      value: '[M]Meningothelial sarcoma'
+      type: any
+    - code: BBdA.00
+      value: '[M]Papillary meningioma'
+      type: any
+    - code: ByuA000
+      value: '[X]Malignant neoplasm/other and unspecified cranial nerves'
+      type: any
+    - code: ByuA100
+      value: '[X]Malignant neoplasm/central nervous system, unspecified'
+      type: any
+    - code: ByuA200
+      value: '[X]Malignant neoplasm of meninges, unspecified'
+      type: any
+    - code: ByuA300
+      value: '[X]Malig neopl, overlap lesion brain & other part of CNS'
+      type: any
+    - code: ZV10y12
+      value: '[V]Personal history of malignant neoplasm of brain'
+      type: prevalent
+    - code: XE1wb
+      value: '[M]Glioblastoma NOS'
+      type: any
+    - code: XaC1Q
+      value: Malignant neoplasm, overlapping lesion of brain
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C70
+      value: Malignant neoplasm of meninges
+      type: any
+    - code: C71
+      value: Malignant neoplasm of brain
+      type: any
+    - code: C72
+      value: Malignant neoplasm of spinal cord, cranial nerves and other parts of
+        central nervous system
+      type: any
+    - code: C75.1
+      value: 'Malignant neoplasm: Pituitary gland'
+      type: any
+    - code: C75.2
+      value: 'Malignant neoplasm: Craniopharyngeal duct'
+      type: any
+    - code: C75.3
+      value: 'Malignant neoplasm: Pineal gland'
+      type: any
+    - code: C75.4
+      value: 'Malignant neoplasm: Carotid body'
+      type: any
+    - code: C75.5
+      value: 'Malignant neoplasm: Aortic body and other paraganglia'
+      type: any

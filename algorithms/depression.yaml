@@ -1,0 +1,623 @@
+metadata:
+  phenotype: Depression
+  group: Psychiatric
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: depression
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 51c4d3d1-321e-4d3d-b548-11aabebfa977
+  ontologies:
+    DOID: DOID_1596
+    GWAS: EFO_0003761
+    MESH: D003863
+    SNOMED-CT: 35489007
+    FINNGEN: F5_DEPRESSIO
+  short_desc: A mood disorder having a clinical course involving one or more episodes
+    of serious psychological depression that last two or more weeks each, do not have
+    intervening episodes of mania or hypomania, and are characterized by a loss of
+    interest or pleasure in almost all activities and by some or all of disturbances
+    of appetite, sleep, or psychomotor functioning, a decrease in energy, difficulties
+    in thinking or making decisions, loss of self-esteem or feelings of guilt, and
+    suicidal thoughts or attempts.
+  long_desc: null
+  priority: 2
+definitions:
+  21063:
+    metadata:
+      desc: Ever been offered/sought treatment for depression
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: 'Yes'
+      type: any
+  20126:
+    metadata:
+      desc: Bipolar and major depression status
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '3'
+      value: Probable Recurrent major depression (severe)
+      type: any
+    - code: '4'
+      value: Probable Recurrent major depression (moderate)
+      type: any
+    - code: '5'
+      value: Single Probable major depression episode
+      type: any
+  20446:
+    metadata:
+      desc: Ever had prolonged feelings of sadness or depression
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: 'Yes'
+      type: any
+  20544:
+    metadata:
+      desc: Mental health problems ever diagnosed by a professional
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '11'
+      value: Depression
+      type: any
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1286'
+      value: depression
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: F32
+      value: Depressive episode
+      type: any
+    - code: F33
+      value: Recurrent depressive disorder
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: F32
+      value: Depressive episode
+      type: any
+    - code: F33
+      value: Recurrent depressive disorder
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F32
+      value: Depressive episode
+      type: any
+    - code: F33
+      value: Recurrent depressive disorder
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F32
+      value: Depressive episode
+      type: any
+    - code: F33
+      value: Recurrent depressive disorder
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1465.00'
+      value: 'H/O: depression'
+      type: prevalent
+    - code: 212S.00
+      value: Depression resolved
+      type: any
+    - code: 8BK0.00
+      value: Depression management programme
+      type: any
+    - code: 8CAa.00
+      value: Patient given advice about management of depression
+      type: any
+    - code: 8HHq.00
+      value: Referral for guided self-help for depression
+      type: any
+    - code: 9H90.00
+      value: Depression annual review
+      type: prevalent
+    - code: 9H91.00
+      value: Depression medication review
+      type: prevalent
+    - code: 9H92.00
+      value: Depression interim review
+      type: prevalent
+    - code: 9HA0.00
+      value: On depression register
+      type: any
+    - code: 9k40.00
+      value: Depression - enhanced service completed
+      type: any
+    - code: 9k4..00
+      value: Depression - enhanced services administration
+      type: any
+    - code: 9kQ..00
+      value: On full dose long term treatment depression - enh serv admin
+      type: any
+    - code: 9Ov0.00
+      value: Depression monitoring first letter
+      type: prevalent
+    - code: 9Ov1.00
+      value: Depression monitoring second letter
+      type: prevalent
+    - code: 9Ov2.00
+      value: Depression monitoring third letter
+      type: prevalent
+    - code: 9Ov3.00
+      value: Depression monitoring verbal invite
+      type: prevalent
+    - code: 9Ov4.00
+      value: Depression monitoring telephone invite
+      type: prevalent
+    - code: 9Ov..00
+      value: Depression monitoring administration
+      type: prevalent
+    - code: E001300
+      value: Presenile dementia with depression
+      type: any
+    - code: E002100
+      value: Senile dementia with depression
+      type: any
+    - code: E004300
+      value: Arteriosclerotic dementia with depression
+      type: any
+    - code: E112000
+      value: Single major depressive episode, unspecified
+      type: any
+    - code: E112100
+      value: Single major depressive episode, mild
+      type: any
+    - code: E112200
+      value: Single major depressive episode, moderate
+      type: any
+    - code: E112300
+      value: Single major depressive episode, severe, without psychosis
+      type: any
+    - code: E112400
+      value: Single major depressive episode, severe, with psychosis
+      type: any
+    - code: E112500
+      value: Single major depressive episode, partial or unspec remission
+      type: any
+    - code: E112600
+      value: Single major depressive episode, in full remission
+      type: any
+    - code: E112.00
+      value: Single major depressive episode
+      type: any
+    - code: E112.11
+      value: Agitated depression
+      type: any
+    - code: E112.12
+      value: Endogenous depression first episode
+      type: any
+    - code: E112.13
+      value: Endogenous depression first episode
+      type: any
+    - code: E112.14
+      value: Endogenous depression
+      type: any
+    - code: E112z00
+      value: Single major depressive episode NOS
+      type: any
+    - code: E113000
+      value: Recurrent major depressive episodes, unspecified
+      type: any
+    - code: E113100
+      value: Recurrent major depressive episodes, mild
+      type: any
+    - code: E113200
+      value: Recurrent major depressive episodes, moderate
+      type: any
+    - code: E113300
+      value: Recurrent major depressive episodes, severe, no psychosis
+      type: any
+    - code: E113400
+      value: Recurrent major depressive episodes, severe, with psychosis
+      type: any
+    - code: E113500
+      value: Recurrent major depressive episodes,partial/unspec remission
+      type: any
+    - code: E113600
+      value: Recurrent major depressive episodes, in full remission
+      type: any
+    - code: E113700
+      value: Recurrent depression
+      type: any
+    - code: E113.00
+      value: Recurrent major depressive episode
+      type: any
+    - code: E113.11
+      value: Endogenous depression - recurrent
+      type: any
+    - code: E113z00
+      value: Recurrent major depressive episode NOS
+      type: any
+    - code: E118.00
+      value: Seasonal affective disorder
+      type: any
+    - code: E11..12
+      value: Depressive psychoses
+      type: any
+    - code: E11y200
+      value: Atypical depressive disorder
+      type: any
+    - code: E11z200
+      value: Masked depression
+      type: any
+    - code: E130.00
+      value: Reactive depressive psychosis
+      type: any
+    - code: E130.11
+      value: Psychotic reactive depression
+      type: any
+    - code: E135.00
+      value: Agitated depression
+      type: any
+    - code: E200300
+      value: Anxiety with depression
+      type: any
+    - code: E291.00
+      value: Prolonged depressive reaction
+      type: any
+    - code: E2B1.00
+      value: Chronic depression
+      type: any
+    - code: E2B..00
+      value: Depressive disorder NEC
+      type: any
+    - code: Eu20400
+      value: '[X]Post-schizophrenic depression'
+      type: any
+    - code: Eu25100
+      value: '[X]Schizoaffective disorder, depressive type'
+      type: any
+    - code: Eu25111
+      value: '[X]Schizoaffective psychosis, depressive type'
+      type: any
+    - code: Eu25112
+      value: '[X]Schizophreniform psychosis, depressive type'
+      type: any
+    - code: Eu32000
+      value: '[X]Mild depressive episode'
+      type: any
+    - code: Eu32100
+      value: '[X]Moderate depressive episode'
+      type: any
+    - code: Eu32200
+      value: '[X]Severe depressive episode without psychotic symptoms'
+      type: any
+    - code: Eu32211
+      value: '[X]Single episode agitated depressn w''out psychotic symptoms'
+      type: any
+    - code: Eu32212
+      value: '[X]Single episode major depression w''out psychotic symptoms'
+      type: any
+    - code: Eu32213
+      value: '[X]Single episode vital depression w''out psychotic symptoms'
+      type: any
+    - code: Eu32300
+      value: '[X]Severe depressive episode with psychotic symptoms'
+      type: any
+    - code: Eu32311
+      value: '[X]Single episode of major depression and psychotic symptoms'
+      type: any
+    - code: Eu32312
+      value: '[X]Single episode of psychogenic depressive psychosis'
+      type: any
+    - code: Eu32313
+      value: '[X]Single episode of psychotic depression'
+      type: any
+    - code: Eu32314
+      value: '[X]Single episode of reactive depressive psychosis'
+      type: any
+    - code: Eu32400
+      value: '[X]Mild depression'
+      type: any
+    - code: Eu32500
+      value: '[X]Major depression, mild'
+      type: any
+    - code: Eu32600
+      value: '[X]Major depression, moderately severe'
+      type: any
+    - code: Eu32700
+      value: '[X]Major depression, severe without psychotic symptoms'
+      type: any
+    - code: Eu32800
+      value: '[X]Major depression, severe with psychotic symptoms'
+      type: any
+    - code: Eu32900
+      value: '[X]Single major depr ep, severe with psych, psych in remiss'
+      type: any
+    - code: Eu32A00
+      value: '[X]Recurr major depr ep, severe with psych, psych in remiss'
+      type: any
+    - code: Eu32.00
+      value: '[X]Depressive episode'
+      type: any
+    - code: Eu32.11
+      value: '[X]Single episode of depressive reaction'
+      type: any
+    - code: Eu32.12
+      value: '[X]Single episode of psychogenic depression'
+      type: any
+    - code: Eu32.13
+      value: '[X]Single episode of reactive depression'
+      type: any
+    - code: Eu32y00
+      value: '[X]Other depressive episodes'
+      type: any
+    - code: Eu32y11
+      value: '[X]Atypical depression'
+      type: any
+    - code: Eu32y12
+      value: '[X]Single episode of masked depression NOS'
+      type: any
+    - code: Eu32z00
+      value: '[X]Depressive episode, unspecified'
+      type: any
+    - code: Eu32z11
+      value: '[X]Depression NOS'
+      type: any
+    - code: Eu32z12
+      value: '[X]Depressive disorder NOS'
+      type: any
+    - code: Eu32z13
+      value: '[X]Prolonged single episode of reactive depression'
+      type: any
+    - code: Eu32z14
+      value: '[X] Reactive depression NOS'
+      type: any
+    - code: Eu33000
+      value: '[X]Recurrent depressive disorder, current episode mild'
+      type: any
+    - code: Eu33100
+      value: '[X]Recurrent depressive disorder, current episode moderate'
+      type: any
+    - code: Eu33200
+      value: '[X]Recurr depress disorder cur epi severe without psyc sympt'
+      type: any
+    - code: Eu33211
+      value: '[X]Endogenous depression without psychotic symptoms'
+      type: any
+    - code: Eu33212
+      value: '[X]Major depression, recurrent without psychotic symptoms'
+      type: any
+    - code: Eu33213
+      value: '[X]Manic-depress psychosis,depressd,no psychotic symptoms'
+      type: any
+    - code: Eu33214
+      value: '[X]Vital depression, recurrent without psychotic symptoms'
+      type: any
+    - code: Eu33300
+      value: '[X]Recurrent depress disorder cur epi severe with psyc symp'
+      type: any
+    - code: Eu33311
+      value: '[X]Endogenous depression with psychotic symptoms'
+      type: any
+    - code: Eu33312
+      value: '[X]Manic-depress psychosis,depressed type+psychotic symptoms'
+      type: any
+    - code: Eu33313
+      value: '[X]Recurr severe episodes/major depression+psychotic symptom'
+      type: any
+    - code: Eu33314
+      value: '[X]Recurr severe episodes/psychogenic depressive psychosis'
+      type: any
+    - code: Eu33315
+      value: '[X]Recurrent severe episodes of psychotic depression'
+      type: any
+    - code: Eu33316
+      value: '[X]Recurrent severe episodes/reactive depressive psychosis'
+      type: any
+    - code: Eu33400
+      value: '[X]Recurrent depressive disorder, currently in remission'
+      type: any
+    - code: Eu33.00
+      value: '[X]Recurrent depressive disorder'
+      type: any
+    - code: Eu33.11
+      value: '[X]Recurrent episodes of depressive reaction'
+      type: any
+    - code: Eu33.12
+      value: '[X]Recurrent episodes of psychogenic depression'
+      type: any
+    - code: Eu33.13
+      value: '[X]Recurrent episodes of reactive depression'
+      type: any
+    - code: Eu33.14
+      value: '[X]Seasonal depressive disorder'
+      type: any
+    - code: Eu33.15
+      value: '[X]SAD - Seasonal affective disorder'
+      type: any
+    - code: Eu33y00
+      value: '[X]Other recurrent depressive disorders'
+      type: any
+    - code: Eu33z00
+      value: '[X]Recurrent depressive disorder, unspecified'
+      type: any
+    - code: Eu33z11
+      value: '[X]Monopolar depression NOS'
+      type: any
+    - code: Eu34100
+      value: '[X]Dysthymia'
+      type: any
+    - code: Eu34111
+      value: '[X]Depressive neurosis'
+      type: any
+    - code: Eu34112
+      value: '[X]Depressive personality disorder'
+      type: any
+    - code: Eu34113
+      value: '[X]Neurotic depression'
+      type: any
+    - code: Eu34114
+      value: '[X]Persistant anxiety depression'
+      type: any
+    - code: Eu41200
+      value: '[X]Mixed anxiety and depressive disorder'
+      type: any
+    - code: Eu41211
+      value: '[X]Mild anxiety depression'
+      type: any
+    - code: X00SU
+      value: Masked depression
+      type: any
+    - code: XE1Zf
+      value: '[X]Recurrent depressive disorder, unspecified'
+      type: any
+    - code: XaK6f
+      value: Depression interim review
+      type: prevalent
+    - code: XaMGR
+      value: Depression monitoring telephone invite
+      type: prevalent
+    - code: XaK6d
+      value: Depression annual review
+      type: prevalent
+    - code: XE1Y0
+      value: Single major depressive episode
+      type: any
+    - code: XE1Ze
+      value: '[X]Recurrent depressive disorder, current episode severe with psychotic
+        symptoms'
+      type: any
+    - code: XE1Zc
+      value: '[X]Recurrent depressive disorder'
+      type: any
+    - code: XE1Zc
+      value: '[X]Recurrent depressive disorder'
+      type: any
+    - code: XE1Zc
+      value: '[X]Recurrent depressive disorder'
+      type: any
+    - code: XE1ZY
+      value: '[X]Severe depressive episode without psychotic symptoms'
+      type: any
+    - code: XE1Za
+      value: '[X]Other depressive episodes'
+      type: any
+    - code: XaMGO
+      value: Depression monitoring second letter
+      type: prevalent
+    - code: XaMGQ
+      value: Depression monitoring verbal invite
+      type: prevalent
+    - code: XaItx
+      value: Depression management programme
+      type: any
+    - code: XaMGN
+      value: Depression monitoring first letter
+      type: prevalent
+    - code: X00SQ
+      value: Agitated depression
+      type: any
+    - code: XaK6e
+      value: Depression medication review
+      type: prevalent
+    - code: X761L
+      value: Seasonal affective disorder
+      type: any
+    - code: XE1ZZ
+      value: '[X]Severe depressive episode with psychotic symptoms'
+      type: any
+    - code: XE1Zb
+      value: '[X]Depressive episode, unspecified'
+      type: any
+    - code: XE1Zb
+      value: '[X]Depressive episode, unspecified'
+      type: any
+    - code: XaLG0
+      value: Depression resolved
+      type: any
+    - code: XaKEz
+      value: Patient given advice about management of depression
+      type: any
+    - code: XaJWh
+      value: On depression register
+      type: any
+    - code: XaMGL
+      value: Depression monitoring administration
+      type: prevalent
+    - code: XE1Zd
+      value: '[X]Recurrent depressive disorder, current episode severe without psychotic
+        symptoms'
+      type: any
+    - code: XE1Zd
+      value: '[X]Recurrent depressive disorder, current episode severe without psychotic
+        symptoms'
+      type: any
+    - code: XaMGP
+      value: Depression monitoring third letter
+      type: prevalent
+    - code: XaL0r
+      value: Referral for guided self-help for depression
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

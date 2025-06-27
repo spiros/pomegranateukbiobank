@@ -1,0 +1,213 @@
+metadata:
+  phenotype: Cholecystitis
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: cholecystitis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 6cca4686-7d8d-4471-9200-aebc35c526ab
+  ontologies:
+    DOID: DOID_1949
+    GWAS: EFO_1001289
+    MESH: D002764
+    SNOMED-CT: 76581006
+    FINNGEN: K11_CHOLECYST
+  short_desc: A cholangitis that is characterized by an inflammation that is located
+    in the gallbladder.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1163'
+      value: cholecystitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K80.0
+      value: Calculus of gallbladder with acute cholecystitis
+      type: any
+    - code: K80.1
+      value: Calculus of gallbladder with other cholecystitis
+      type: any
+    - code: K80.4
+      value: Calculus of bile duct with cholecystitis
+      type: any
+    - code: K81
+      value: Cholecystitis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K80.0
+      value: Calculus of gallbladder with acute cholecystitis
+      type: any
+    - code: K80.1
+      value: Calculus of gallbladder with other cholecystitis
+      type: any
+    - code: K80.4
+      value: Calculus of bile duct with cholecystitis
+      type: any
+    - code: K81
+      value: Cholecystitis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K80.0
+      value: Calculus of gallbladder with acute cholecystitis
+      type: any
+    - code: K80.1
+      value: Calculus of gallbladder with other cholecystitis
+      type: any
+    - code: K80.4
+      value: Calculus of bile duct with cholecystitis
+      type: any
+    - code: K81
+      value: Cholecystitis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K80.0
+      value: Calculus of gallbladder with acute cholecystitis
+      type: any
+    - code: K80.1
+      value: Calculus of gallbladder with other cholecystitis
+      type: any
+    - code: K80.4
+      value: Calculus of bile duct with cholecystitis
+      type: any
+    - code: K81
+      value: Cholecystitis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: J643000
+      value: Bile duct calculus + acute cholecystitis and no obstruction
+      type: any
+    - code: J643100
+      value: Bile duct calculus + acute cholecystitis and obstruction
+      type: any
+    - code: J643.00
+      value: Bile duct calculus with acute cholecystitis
+      type: any
+    - code: J643z00
+      value: Bile duct calculus + acute cholecystitis - obstruct NOS
+      type: any
+    - code: J644000
+      value: Bile duct calculus + other cholecystitis and no obstruction
+      type: any
+    - code: J644100
+      value: Bile duct calculus + other cholecystitis and obstruction
+      type: any
+    - code: J644.00
+      value: Bile duct calculus with other cholecystitis
+      type: any
+    - code: J644z00
+      value: Bile duct calculus + other cholecystitis - obstruction NOS
+      type: any
+    - code: J650000
+      value: Acute cholecystitis unspecified
+      type: any
+    - code: J650100
+      value: Acute angiocholecystitis
+      type: any
+    - code: J650200
+      value: Acute emphysematous cholecystitis
+      type: any
+    - code: J650300
+      value: Acute suppurative cholecystitis
+      type: any
+    - code: J650400
+      value: Acute gangrenous cholecystitis
+      type: any
+    - code: J650.00
+      value: Acute cholecystitis
+      type: any
+    - code: J650.11
+      value: Abscess of gallbladder
+      type: any
+    - code: J650.12
+      value: Empyema of gallbladder
+      type: any
+    - code: J650z00
+      value: Acute cholecystitis NOS
+      type: any
+    - code: J651000
+      value: Chronic cholecystitis
+      type: any
+    - code: J651.00
+      value: Other cholecystitis
+      type: any
+    - code: J651y00
+      value: Other cholecystitis OS
+      type: any
+    - code: J651z00
+      value: Cholecystitis NOS
+      type: any
+    - code: Jyu8100
+      value: '[X]Other cholecystitis'
+      type: any
+    - code: XE0bF
+      value: Acute cholecystitis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

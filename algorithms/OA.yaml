@@ -1,0 +1,590 @@
+metadata:
+  phenotype: Osteoarthritis (excl spine)
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: OA
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 7fdc22a0-b334-4190-8dfa-63ae41e5aad4
+  priority: 1
+  ontologies:
+    DOID: DOID_8398
+    GWAS: EFO_0002506
+    MESH: D010003
+    SNOMED-CT: 396275006
+    FINNGEN: M13_ARTHROSIS
+  short_desc: A progressive, degenerative joint disease, the most common form of arthritis,
+    especially in older persons. The disease is thought to result not from the aging
+    process but from biochemical changes and biomechanical stresses affecting articular
+    cartilage. In the foreign literature it is often called osteoarthrosis deformans.
+  long_desc: null
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1465'
+      value: osteoarthritis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values:
+    - code: '1318'
+      value: hip replacement/revision
+      type: any
+    - code: '1319'
+      value: knee replacement/revision
+      type: any
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: M15
+      value: Polyarthrosis
+      type: any
+    - code: M16
+      value: Coxarthrosis [arthrosis of hip]
+      type: any
+    - code: M17
+      value: Gonarthrosis [arthrosis of knee]
+      type: any
+    - code: M18
+      value: Arthrosis of first carpometacarpal joint
+      type: any
+    - code: M19
+      value: Other arthrosis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: M15
+      value: Polyarthrosis
+      type: any
+    - code: M16
+      value: Coxarthrosis [arthrosis of hip]
+      type: any
+    - code: M17
+      value: Gonarthrosis [arthrosis of knee]
+      type: any
+    - code: M18
+      value: Arthrosis of first carpometacarpal joint
+      type: any
+    - code: M19
+      value: Other arthrosis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M15
+      value: Polyarthrosis
+      type: any
+    - code: M16
+      value: Coxarthrosis [arthrosis of hip]
+      type: any
+    - code: M17
+      value: Gonarthrosis [arthrosis of knee]
+      type: any
+    - code: M18
+      value: Arthrosis of first carpometacarpal joint
+      type: any
+    - code: M19
+      value: Other arthrosis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M15
+      value: Polyarthrosis
+      type: any
+    - code: M16
+      value: Coxarthrosis [arthrosis of hip]
+      type: any
+    - code: M17
+      value: Gonarthrosis [arthrosis of knee]
+      type: any
+    - code: M18
+      value: Arthrosis of first carpometacarpal joint
+      type: any
+    - code: M19
+      value: Other arthrosis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14G2.00
+      value: 'H/O: osteoarthritis'
+      type: prevalent
+    - code: 2G26.00
+      value: O/E - hands - Heberden's nodes
+      type: any
+    - code: 7P20400
+      value: Delivery of rehabilitation for osteoarthritis
+      type: any
+    - code: N050000
+      value: Generalised osteoarthritis of unspecified site
+      type: any
+    - code: N050100
+      value: Generalised osteoarthritis of the hand
+      type: any
+    - code: N050111
+      value: Heberdens' nodes
+      type: any
+    - code: N050112
+      value: Bouchards' nodes
+      type: any
+    - code: N050200
+      value: Generalised osteoarthritis of multiple sites
+      type: any
+    - code: N050300
+      value: Bouchard's nodes with arthropathy
+      type: any
+    - code: N050400
+      value: Primary generalized osteoarthrosis
+      type: any
+    - code: N050500
+      value: Secondary multiple arthrosis
+      type: any
+    - code: N050600
+      value: Erosive osteoarthrosis
+      type: any
+    - code: N050700
+      value: Heberden's nodes with arthropathy
+      type: any
+    - code: N050.00
+      value: Generalised osteoarthritis - OA
+      type: any
+    - code: N050z00
+      value: Generalised osteoarthritis NOS
+      type: any
+    - code: N051000
+      value: Localised, primary osteoarthritis of unspecified site
+      type: any
+    - code: N051100
+      value: Localised, primary osteoarthritis of the shoulder region
+      type: any
+    - code: N051200
+      value: Localised, primary osteoarthritis of the upper arm
+      type: any
+    - code: N051300
+      value: Localised, primary osteoarthritis of the forearm
+      type: any
+    - code: N051400
+      value: Localised, primary osteoarthritis of the hand
+      type: any
+    - code: N051500
+      value: Localised, primary osteoarthritis of the pelvic region/thigh
+      type: any
+    - code: N051600
+      value: Localised, primary osteoarthritis of the lower leg
+      type: any
+    - code: N051700
+      value: Localised, primary osteoarthritis of the ankle and foot
+      type: any
+    - code: N051800
+      value: Localised, primary osteoarthritis of other specified site
+      type: any
+    - code: N051900
+      value: Primary coxarthrosis, bilateral
+      type: any
+    - code: N051A00
+      value: Coxarthrosis resulting from dysplasia, bilateral
+      type: any
+    - code: N051B00
+      value: Primary gonarthrosis, bilateral
+      type: any
+    - code: N051C00
+      value: Primary arthrosis of first carpometacarpal joints, bilateral
+      type: any
+    - code: N051D00
+      value: Localised, primary osteoarthritis of the wrist
+      type: any
+    - code: N051E00
+      value: Localised, primary osteoarthritis of toe
+      type: any
+    - code: N051F00
+      value: Localised, primary osteoarthritis of elbow
+      type: any
+    - code: N051G00
+      value: Osteoarthritis of spinal facet joint
+      type: any
+    - code: N051.00
+      value: Localised, primary osteoarthritis
+      type: any
+    - code: N051z00
+      value: Localised, primary osteoarthritis NOS
+      type: any
+    - code: N052000
+      value: Localised, secondary osteoarthritis of unspecified site
+      type: any
+    - code: N052100
+      value: Localised, secondary osteoarthritis of the shoulder region
+      type: any
+    - code: N052200
+      value: Localised, secondary osteoarthritis of the upper arm
+      type: any
+    - code: N052300
+      value: Localised, secondary osteoarthritis of the forearm
+      type: any
+    - code: N052400
+      value: Localised, secondary osteoarthritis of the hand
+      type: any
+    - code: N052500
+      value: Localised, secondary osteoarthritis of pelvic region/thigh
+      type: any
+    - code: N052511
+      value: Coxae malum senilis
+      type: any
+    - code: N052600
+      value: Localised, secondary osteoarthritis of the lower leg
+      type: any
+    - code: N052700
+      value: Localised, secondary osteoarthritis of the ankle and foot
+      type: any
+    - code: N052800
+      value: Localised, secondary osteoarthritis of other specified site
+      type: any
+    - code: N052.00
+      value: Localised, secondary osteoarthritis
+      type: any
+    - code: N052z00
+      value: Localised, secondary osteoarthritis NOS
+      type: any
+    - code: N053000
+      value: Localised osteoarthritis, unspecified, of unspecified site
+      type: any
+    - code: N053100
+      value: Localised osteoarthritis, unspecified, of shoulder region
+      type: any
+    - code: N053200
+      value: Localised osteoarthritis, unspecified, of the upper arm
+      type: any
+    - code: N053300
+      value: Localised osteoarthritis, unspecified, of the forearm
+      type: any
+    - code: N053400
+      value: Localised osteoarthritis, unspecified, of the hand
+      type: any
+    - code: N053500
+      value: Localised osteoarthritis, unspecified, pelvic region/thigh
+      type: any
+    - code: N053512
+      value: Hip osteoarthitis NOS
+      type: any
+    - code: N053600
+      value: Localised osteoarthritis, unspecified, of the lower leg
+      type: any
+    - code: N053611
+      value: Patellofemoral osteoarthritis
+      type: any
+    - code: N053700
+      value: Localised osteoarthritis, unspecified, of the ankle and foot
+      type: any
+    - code: N053800
+      value: Localised osteoarthritis, unspecified, of other spec site
+      type: any
+    - code: N053900
+      value: Arthrosis of first carpometacarpal joint, unspecified
+      type: any
+    - code: N053.00
+      value: Localised osteoarthritis, unspecified
+      type: any
+    - code: N053z00
+      value: Localised osteoarthritis, unspecified, NOS
+      type: any
+    - code: N054000
+      value: Oligoarticular osteoarthritis, unspec, of unspecified sites
+      type: any
+    - code: N054100
+      value: Oligoarticular osteoarthritis, unspecified, of shoulder
+      type: any
+    - code: N054200
+      value: Oligoarticular osteoarthritis, unspecified, of upper arm
+      type: any
+    - code: N054400
+      value: Oligoarticular osteoarthritis, unspecified, of hand
+      type: any
+    - code: N054500
+      value: Oligoarticular osteoarthritis, unspecified, of pelvis/thigh
+      type: any
+    - code: N054600
+      value: Oligoarticular osteoarthritis, unspecified, of lower leg
+      type: any
+    - code: N054700
+      value: Oligoarticular osteoarthritis, unspecified, of ankle/foot
+      type: any
+    - code: N054800
+      value: Oligoarticular osteoarthritis, unspecified, other spec sites
+      type: any
+    - code: N054900
+      value: Oligoarticular osteoarthritis, unspecified, multiple sites
+      type: any
+    - code: N054.00
+      value: Oligoarticular osteoarthritis, unspecified
+      type: any
+    - code: N054z00
+      value: Osteoarthritis of more than one site, unspecified, NOS
+      type: any
+    - code: N05..00
+      value: Osteoarthritis and allied disorders
+      type: any
+    - code: N05..11
+      value: Osteoarthritis
+      type: any
+    - code: N05z000
+      value: Osteoarthritis NOS, of unspecified site
+      type: any
+    - code: N05z100
+      value: Osteoarthritis NOS, of shoulder region
+      type: any
+    - code: N05z400
+      value: Osteoarthritis NOS, of the hand
+      type: any
+    - code: N05z411
+      value: Finger osteoarthritis NOS
+      type: any
+    - code: N05z412
+      value: Thumb osteoarthritis NOS
+      type: any
+    - code: N05z500
+      value: Osteoarthritis NOS, pelvic region/thigh
+      type: any
+    - code: N05z511
+      value: Hip osteoarthritis NOS
+      type: any
+    - code: N05z600
+      value: Osteoarthritis NOS, of the lower leg
+      type: any
+    - code: N05z611
+      value: Knee osteoarthritis NOS
+      type: any
+    - code: N05z700
+      value: Osteoarthritis NOS, of ankle and foot
+      type: any
+    - code: N05z711
+      value: Ankle osteoarthritis NOS
+      type: any
+    - code: N05z712
+      value: Foot osteoarthritis NOS
+      type: any
+    - code: N05z713
+      value: Toe osteoarthritis NOS
+      type: any
+    - code: N05z800
+      value: Osteoarthritis NOS, other specified site
+      type: any
+    - code: N05z900
+      value: Osteoarthritis NOS, of shoulder
+      type: any
+    - code: N05zA00
+      value: Osteoarthritis NOS, of sternoclavicular joint
+      type: any
+    - code: N05zB00
+      value: Osteoarthritis NOS, of acromioclavicular joint
+      type: any
+    - code: N05zC00
+      value: Osteoarthritis NOS, of elbow
+      type: any
+    - code: N05zD00
+      value: Osteoarthritis NOS, of distal radio-ulnar joint
+      type: any
+    - code: N05zE00
+      value: Osteoarthritis NOS, of wrist
+      type: any
+    - code: N05zF00
+      value: Osteoarthritis NOS, of MCP joint
+      type: any
+    - code: N05zG00
+      value: Osteoarthritis NOS, of PIP joint of finger
+      type: any
+    - code: N05zH00
+      value: Osteoarthritis NOS, of DIP joint of finger
+      type: any
+    - code: N05zJ00
+      value: Osteoarthritis NOS, of hip
+      type: any
+    - code: N05zK00
+      value: Osteoarthritis NOS, of sacro-iliac joint
+      type: any
+    - code: N05zL00
+      value: Osteoarthritis NOS, of knee
+      type: any
+    - code: N05zM00
+      value: Osteoarthritis NOS, of tibio-fibular joint
+      type: any
+    - code: N05z.00
+      value: Osteoarthritis NOS
+      type: any
+    - code: N05z.11
+      value: Joint degeneration
+      type: any
+    - code: N05zN00
+      value: Osteoarthritis NOS, of ankle
+      type: any
+    - code: N05zP00
+      value: Osteoarthritis NOS, of subtalar joint
+      type: any
+    - code: N05zQ00
+      value: Osteoarthritis NOS, of talonavicular joint
+      type: any
+    - code: N05zR00
+      value: Osteoarthritis NOS, of other tarsal joint
+      type: any
+    - code: N05zS00
+      value: Osteoarthritis NOS, of 1st MTP joint
+      type: any
+    - code: N05zT00
+      value: Osteoarthritis NOS, of lesser MTP joint
+      type: any
+    - code: N05zU00
+      value: Osteoarthritis NOS, of IP joint of toe
+      type: any
+    - code: N05zz00
+      value: Osteoarthritis NOS
+      type: any
+    - code: Nyu2000
+      value: '[X]Other polyarthrosis'
+      type: any
+    - code: Nyu2100
+      value: '[X]Other primary coxarthrosis'
+      type: any
+    - code: Nyu2200
+      value: '[X]Other dysplastic coxarthrosis'
+      type: any
+    - code: Nyu2400
+      value: '[X]Other secondary coxarthrosis, bilateral'
+      type: any
+    - code: Nyu2500
+      value: '[X]Other primary gonarthrosis'
+      type: any
+    - code: Nyu2511
+      value: '[X] Unilateral primary gonarthrosis'
+      type: any
+    - code: Nyu2700
+      value: '[X]Other secondary gonarthrosis, bilateral'
+      type: any
+    - code: Nyu2800
+      value: '[X]Other secondary gonarthrosis'
+      type: any
+    - code: Nyu2811
+      value: '[X] Unilateral secondary gonarthrosis'
+      type: any
+    - code: Nyu2900
+      value: '[X]Other primary arthrosis of first carpometacarpal joint'
+      type: any
+    - code: Nyu2D00
+      value: '[X]Other specified arthrosis'
+      type: any
+    - code: Nyu2E00
+      value: '[X]Other secondary coxarthrosis'
+      type: any
+    - code: Nyu2E11
+      value: '[X] Unilateral secondary coxarthrosis'
+      type: any
+    - code: Nyu2.00
+      value: '[X]Arthrosis'
+      type: any
+    - code: XE1DW
+      value: Generalised osteoarthritis of the hand
+      type: any
+    - code: XE1GU
+      value: '[X]Other secondary gonarthrosis'
+      type: any
+    - code: XE1Dd
+      value: Osteoarthritis NOS, of the hand
+      type: any
+    - code: XE1Da
+      value: Osteoarthritis NOS
+      type: any
+    - code: XaLsk
+      value: Delivery of rehabilitation for osteoarthritis
+      type: any
+    - code: X703A
+      value: Osteoarthritis of spinal facet joint
+      type: any
+    - code: XaEGf
+      value: Localised, primary osteoarthritis of elbow
+      type: any
+    - code: XE1De
+      value: Osteoarthritis NOS, pelvic region/thigh
+      type: any
+    - code: XE1DX
+      value: Localised, secondary osteoarthritis of the pelvic region and thigh
+      type: any
+    - code: XE1Dg
+      value: Osteoarthritis NOS, of ankle and foot
+      type: any
+    - code: XE1GT
+      value: '[X]Other primary gonarthrosis'
+      type: any
+    - code: XaEGd
+      value: Localised, primary osteoarthritis of the wrist
+      type: any
+    - code: XaEGe
+      value: Localised, primary osteoarthritis of toe
+      type: any
+    - code: XE1Df
+      value: Osteoarthritis NOS, of the lower leg
+      type: any
+    - code: XE1DY
+      value: Localised osteoarthritis, unspecified, of the pelvic region and thigh
+      type: any
+    - code: XE1DZ
+      value: Localised osteoarthritis, unspecified, of the lower leg
+      type: any
+    - code: XE1Da
+      value: Osteoarthritis NOS
+      type: any
+    - code: XE1GV
+      value: '[X]Other secondary coxarthrosis'
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

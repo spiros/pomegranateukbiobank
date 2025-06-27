@@ -1,0 +1,198 @@
+metadata:
+  phenotype: Nasal polyp
+  group: Respiratory
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: nasal_polyp
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: e8c6d09a-f23b-4172-a220-14f4fb682998
+  ontologies:
+    DOID: null
+    GWAS: EFO_1000391
+    MESH: D009298
+    SNOMED-CT: 32307003
+    FINNGEN: J10_NASALPOLYP
+  short_desc: Nasal polyps are soft, painless, noncancerous growths on the lining
+    of the nasal passages or sinuses
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1417'
+      value: nasal polyps
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values:
+    - code: '1559'
+      value: nasal polyp surgery / nasal polypectomy
+      type: any
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: J33
+      value: Nasal polyp
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: J33
+      value: Nasal polyp
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: E08.1
+      value: Polypectomy of internal nose
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: E08.1
+      value: Polypectomy of internal nose
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J33
+      value: Nasal polyp
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J33
+      value: Nasal polyp
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 2D33.00
+      value: O/E - nasal polyp present
+      type: any
+    - code: '7402900.0'
+      value: Excision of polyp of nasal septum
+      type: any
+    - code: '7402911.0'
+      value: Nasal septum polypectomy
+      type: any
+    - code: '7406000.0'
+      value: Nasal polypectomy
+      type: any
+    - code: '7406700.0'
+      value: Nasal polypectomy using auto-debrider
+      type: any
+    - code: 7416F00
+      value: Functional endoscopic sinus surg - polypectomy nasal sinus
+      type: any
+    - code: H110000
+      value: Choanal polyp
+      type: any
+    - code: H110100
+      value: Nasopharyngeal polyp
+      type: any
+    - code: H110.00
+      value: Polyp of nasal cavity
+      type: any
+    - code: H110z00
+      value: Polyp of nasal cavity NOS
+      type: any
+    - code: H111000
+      value: Woakes' ethmoiditis
+      type: any
+    - code: H111.00
+      value: Polypoid sinus degeneration
+      type: any
+    - code: H111z00
+      value: Polypoid sinus degeneration NOS
+      type: any
+    - code: H11..00
+      value: Nasal polyps
+      type: any
+    - code: H11y000
+      value: Polyp of frontal sinus
+      type: any
+    - code: H11y100
+      value: Polyp of ethmoidal sinus
+      type: any
+    - code: H11y200
+      value: Polyp of maxillary sinus
+      type: any
+    - code: H11y211
+      value: Antral (maxillary) polyp
+      type: any
+    - code: H11y300
+      value: Polyp of sphenoidal sinus
+      type: any
+    - code: H11y.00
+      value: Other polyp of sinus
+      type: any
+    - code: H11y.11
+      value: Nasal sinus polyps
+      type: any
+    - code: H11yz00
+      value: Other polyp of sinus NOS
+      type: any
+    - code: H11z.00
+      value: Nasal polyp NOS
+      type: any
+    - code: Hyu2300
+      value: '[X]Other polyp of sinus'
+      type: any
+    - code: XE0Xv
+      value: Other polyp of sinus
+      type: any
+    - code: XaDyR
+      value: Nasal polypectomy using auto-debrider
+      type: any
+    - code: XaIwR
+      value: Functional endoscopic sinus surgery - polypectomy of nasal sinus
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

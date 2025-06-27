@@ -1,0 +1,170 @@
+metadata:
+  phenotype: Bacterial sepsis of newborn
+  group: Perinatal
+  is_cancer: '0'
+  is_adult: '0'
+  variable_name: sepsis_newborn
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: d93d0d48-7f16-49a9-859f-f6ff5d804f63
+  ontologies:
+    DOID: null
+    GWAS: HP_0040187
+    MESH: D000071074
+    SNOMED-CT: 276669000
+    FINNGEN: P16_BACTERIAL_SEPSIS_NEWBO
+  short_desc: Blood infection that occurs in an infant younger than 90 days old.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: P36
+      value: Bacterial sepsis of newborn
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: P36
+      value: Bacterial sepsis of newborn
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: P36
+      value: Bacterial sepsis of newborn
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: P36
+      value: Bacterial sepsis of newborn
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: Q408200
+      value: Eschericha coli intra-amniotic fetal infection
+      type: any
+    - code: Q408400
+      value: Group A haemolytic streptococcal intra-amniotic infect. NEC
+      type: any
+    - code: Q408500
+      value: Group B haemolytic streptococcal intra-amniotic infect. NEC
+      type: any
+    - code: Q408600
+      value: Pseudomonas pyocyaneus congenital infection
+      type: any
+    - code: Q40A000
+      value: Sepsis of newborn due to Staphylococcus aureus
+      type: any
+    - code: Q40A100
+      value: Sepsis of newborn due to Escherichia coli
+      type: any
+    - code: Q40A200
+      value: Sepsis of newborn due to anaerobes
+      type: any
+    - code: Q40A300
+      value: Perinatal coagulase negative staphylococcus
+      type: any
+    - code: Q40A.00
+      value: Sepsis of the newborn
+      type: any
+    - code: Q40W.00
+      value: Sepsis of newborn due to other+unspecified streptococci
+      type: any
+    - code: Q40y000
+      value: Intrauterine fetal sepsis, unspecified
+      type: any
+    - code: Q40y011
+      value: Congenital sepsis NOS
+      type: any
+    - code: Q40y012
+      value: Congenital septicaemia
+      type: any
+    - code: Q40y100
+      value: Neonatal urinary tract infection
+      type: any
+    - code: Q40y200
+      value: Septicaemia of newborn
+      type: any
+    - code: Q40y.00
+      value: Other specified perinatal infection
+      type: any
+    - code: Q40yz00
+      value: Other specified perinatal infection NOS
+      type: any
+    - code: Q40z.00
+      value: Perinatal infections NOS
+      type: any
+    - code: Qyu4100
+      value: '[X]Sepsis/newborn due to other+unspecified staphylococcus'
+      type: any
+    - code: Qyu4200
+      value: '[X]Other bacterial sepsis of newborn'
+      type: any
+    - code: Qyu4800
+      value: '[X]Sepsis of newborn due to other+unspecified streptococci'
+      type: any
+    - code: XE1f1
+      value: Intrauterine fetal sepsis, unspecified
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

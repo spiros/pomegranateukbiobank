@@ -1,0 +1,206 @@
+metadata:
+  phenotype: Prematurity
+  group: Perinatal
+  is_cancer: '0'
+  is_adult: '0'
+  variable_name: prematurity
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 4d871012-693a-4916-9842-c6a6a68bc1b5
+  ontologies:
+    DOID: null
+    GWAS: EFO_0003917
+    MESH: D007234
+    SNOMED-CT: '771299009'
+    FINNGEN: O15_PRETERM
+  short_desc: An infant born before 37 weeks of gestation.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: P07.2
+      value: Extreme immaturity
+      type: any
+    - code: P07.3
+      value: Other preterm infants
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: P07.2
+      value: Extreme immaturity
+      type: any
+    - code: P07.3
+      value: Other preterm infants
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: P07.2
+      value: Extreme immaturity
+      type: any
+    - code: P07.3
+      value: Other preterm infants
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: P07.2
+      value: Extreme immaturity
+      type: any
+    - code: P07.3
+      value: Other preterm infants
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1546.00'
+      value: 'H/O: premature delivery'
+      type: prevalent
+    - code: '6351.00'
+      value: Baby premature 36-38 weeks
+      type: any
+    - code: '6352.00'
+      value: Baby v. premature 32-36 weeks
+      type: any
+    - code: '6353.00'
+      value: Baby extremely prem.28-32 week
+      type: any
+    - code: 635..13
+      value: Premature baby
+      type: any
+    - code: '6356.00'
+      value: Baby premature 26-28 weeks
+      type: any
+    - code: '6357.00'
+      value: Baby premature 24-26 weeks
+      type: any
+    - code: 635A.00
+      value: Baby premature 37 weeks
+      type: any
+    - code: 635B.00
+      value: Baby premature 36 weeks
+      type: any
+    - code: 635C.00
+      value: Preterm infant status
+      type: any
+    - code: 635C.11
+      value: Preterm
+      type: any
+    - code: Q110.00
+      value: Very premature - less than 1000g or less than 28 weeks
+      type: any
+    - code: Q110.11
+      value: Immature baby
+      type: any
+    - code: Q111.00
+      value: Premature - weight 1000g-2499g or gestation of 28-37weeks
+      type: any
+    - code: Q112.00
+      value: Extreme immaturity
+      type: any
+    - code: Q112.11
+      value: Extreme prematurity - less than 28 weeks
+      type: any
+    - code: Q116.00
+      value: Premature infant 28-37 weeks
+      type: any
+    - code: Q11..11
+      value: Baby born premature
+      type: any
+    - code: Q11z.00
+      value: Born premature NOS
+      type: any
+    - code: Q317100
+      value: Prematurity with interstitial pulmonary fibrosis
+      type: any
+    - code: Q432.00
+      value: Preterm delivery associated jaundice
+      type: any
+    - code: Q456.00
+      value: Anaemia of prematurity
+      type: any
+    - code: Qyu1100
+      value: '[X]Other preterm infants'
+      type: any
+    - code: XaCJY
+      value: Baby premature 36 weeks
+      type: any
+    - code: XaCJX
+      value: Baby premature 37 weeks
+      type: any
+    - code: XE1eX
+      value: Very premature - less than 1000g or less than 28 weeks
+      type: any
+    - code: XaQ25
+      value: Preterm infant status
+      type: any
+    - code: XaCMV
+      value: Premature infant 28-37 weeks
+      type: any
+    - code: Xa0AU
+      value: Extreme immaturity
+      type: any
+    - code: Xa0AU
+      value: Extreme immaturity
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

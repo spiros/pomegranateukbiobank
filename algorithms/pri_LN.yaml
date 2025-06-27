@@ -1,0 +1,165 @@
+metadata:
+  phenotype: Primary Malignancy_Lymph Nodes
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: pri_LN
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: fbc751e5-0c9f-47b5-bee6-50fd199fc6a0
+  ontologies:
+    DOID: DOID_10619
+    GWAS: MONDO_0024339
+    MESH: null
+    SNOMED-CT: '127232002'
+    FINNGEN: null
+  short_desc: A primary or metastatic malignant neoplasm that affects the lymph nodes.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1070'
+      value: malignant lymph node, unspecified
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C96.9
+      value: Malignant neoplasm of lymphoid, haematopoietic and related tissue, unspecified
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C96.9
+      value: Malignant neoplasm of lymphoid, haematopoietic and related tissue, unspecified
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C96.9
+      value: Malignant neoplasm of lymphoid, haematopoietic and related tissue, unspecified
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C96.9
+      value: Malignant neoplasm of lymphoid, haematopoietic and related tissue, unspecified
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B62x3
+      value: Malignant reticuloendotheliosis
+      type: any
+    - code: B62y8
+      value: Malignant lymphoma NOS of lymph nodes of multiple sites
+      type: any
+    - code: B62z.
+      value: Malignant neoplasms of lymphoid and histiocytic tissue NOS
+      type: any
+    - code: B62z0
+      value: Unspecified malignant neoplasm of lymphoid and histiocytic tissue of
+        unspecified site
+      type: any
+    - code: B62z1
+      value: Unspecified malignant neoplasm of lymphoid and histiocytic tissue of
+        lymph nodes of head, face and neck
+      type: any
+    - code: B62z2
+      value: Unspecified malignant neoplasm of lymphoid and histiocytic tissue of
+        intrathoracic lymph nodes
+      type: any
+    - code: B62z3
+      value: Unspecified malignant neoplasm of lymphoid and histiocytic tissue of
+        intra-abdominal lymph nodes
+      type: any
+    - code: B62z4
+      value: Unspecified malignant neoplasm of lymphoid and histiocytic tissue of
+        lymph nodes of axilla and upper limb
+      type: any
+    - code: B62z5
+      value: Unspecified malignant neoplasm of lymphoid and histiocytic tissue of
+        lymph nodes of inguinal region and lower limb
+      type: any
+    - code: B62z6
+      value: Unspecified malignant neoplasm of lymphoid and histiocytic tissue of
+        intrapelvic lymph nodes
+      type: any
+    - code: B62z7
+      value: Unspecified malignant neoplasm of lymphoid and histiocytic tissue of
+        spleen
+      type: any
+    - code: B62z8
+      value: Unspecified malignant neoplasm of lymphoid and histiocytic tissue of
+        lymph nodes of multiple sites
+      type: any
+    - code: B62zz
+      value: Immunoproliferative neoplasm
+      type: any
+    - code: B6z..
+      value: Malignant neoplasm lymphatic or haematopoietic tissue NOS
+      type: any
+    - code: ByuDB
+      value: '[X]Malignant neoplasm of lymphoid, haematopoietic and related tissue,
+        unspecified'
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C96.9
+      value: Malignant neoplasm of lymphoid, haematopoietic and related tissue, unspecified
+      type: any

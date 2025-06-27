@@ -1,0 +1,164 @@
+metadata:
+  phenotype: Nonrheumatic aortic valve disorders
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: nonRh_aortic
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 12786fed-3ba5-4af3-8cbf-daa0c79c4d6e
+  ontologies:
+    DOID: DOID_62
+    GWAS: EFO_0009531
+    MESH: D000082862
+    SNOMED-CT: '8722008'
+    FINNGEN: null
+  short_desc: Nonrheumatic aortic valve disorders
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I35
+      value: Nonrheumatic aortic valve disorders
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I35
+      value: Nonrheumatic aortic valve disorders
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I35
+      value: Nonrheumatic aortic valve disorders
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I35
+      value: Nonrheumatic aortic valve disorders
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: G541000
+      value: Aortic incompetence, non-rheumatic
+      type: any
+    - code: G541011
+      value: Aortic insufficiency, non-rheumatic
+      type: any
+    - code: G541012
+      value: Aortic regurgitation, non-rheumatic
+      type: any
+    - code: G541100
+      value: Aortic stenosis, non-rheumatic
+      type: any
+    - code: G541200
+      value: Aortic incompetence alone, cause unspecified
+      type: any
+    - code: G541211
+      value: Aortic insufficiency alone, cause unspecified
+      type: any
+    - code: G541212
+      value: Aortic regurgitation alone, cause unspecified
+      type: any
+    - code: G541300
+      value: Aortic stenosis alone, cause unspecified
+      type: any
+    - code: G541400
+      value: Aortic valve stenosis with insufficiency
+      type: any
+    - code: G541500
+      value: Aortic stenosis
+      type: any
+    - code: G541600
+      value: Aortic valve sclerosis
+      type: any
+    - code: G541700
+      value: Aortic valve calcification
+      type: any
+    - code: G541.00
+      value: Aortic valve disorders
+      type: any
+    - code: G541z00
+      value: Aortic valve disorders NOS
+      type: any
+    - code: Gyu1100
+      value: '[X]Other rheumatic aortic valve diseases'
+      type: any
+    - code: Gyu5600
+      value: '[X]Other aortic valve disorders'
+      type: any
+    - code: Gyu5A00
+      value: '[X]Aortic valve disorders in diseases classified elsewhere'
+      type: any
+    - code: XSDVN
+      value: Aortic valve sclerosis
+      type: any
+    - code: X2011
+      value: Aortic stenosis
+      type: any
+    - code: X777c
+      value: Aortic valve calcification
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

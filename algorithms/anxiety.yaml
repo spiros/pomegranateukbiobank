@@ -1,0 +1,456 @@
+metadata:
+  phenotype: Anxiety disorders
+  group: Psychiatric
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: anxiety
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 486d9653-9ee7-42e5-ae4e-cd61ae826d92
+  ontologies:
+    DOID: DOID_2030
+    GWAS: EFO_0006788
+    MESH: D001008
+    SNOMED-CT: 197480006
+    FINNGEN: F5_ALLANXIOUS
+  short_desc: A cognitive disorder that involves an excessive, irrational dread of
+    everyday situations.
+  long_desc: null
+  priority: 2
+definitions:
+  20544:
+    metadata:
+      desc: Mental health problems ever diagnosed by a professional
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '15'
+      value: Anxiety, nerves or generalized anxiety disorder
+      type: any
+  20428:
+    metadata:
+      desc: Professional informed about anxiety
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: 'yes'
+      type: any
+  21062:
+    metadata:
+      desc: Ever been offered/sought treatment for anxiety
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: 'yes'
+      type: any
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1287'
+      value: anxiety/panic attacks
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: F40
+      value: Phobic anxiety disorders
+      type: any
+    - code: F41
+      value: Other anxiety disorders
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: F40
+      value: Phobic anxiety disorders
+      type: any
+    - code: F41
+      value: Other anxiety disorders
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F40
+      value: Phobic anxiety disorders
+      type: any
+    - code: F41
+      value: Other anxiety disorders
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F40
+      value: Phobic anxiety disorders
+      type: any
+    - code: F41
+      value: Other anxiety disorders
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1466.00'
+      value: 'H/O: anxiety state'
+      type: prevalent
+    - code: 146G.00
+      value: 'H/O: agoraphobia'
+      type: prevalent
+    - code: 1B1H.11
+      value: Fear
+      type: any
+    - code: 1B1V.00
+      value: C/O - panic attack
+      type: any
+    - code: 1Bb..00
+      value: Specific fear
+      type: any
+    - code: 225J.00
+      value: O/E - panic attack
+      type: any
+    - code: 225K.00
+      value: O/E - fearful mood
+      type: any
+    - code: 285..00
+      value: Neurotic condition, insight present
+      type: any
+    - code: 286..00
+      value: Poor insight into neurotic condition
+      type: any
+    - code: 8G52.00
+      value: Antiphobic therapy
+      type: any
+    - code: 8G94.00
+      value: Anxiety management training
+      type: any
+    - code: 8HHp.00
+      value: Referral for guided self-help for anxiety
+      type: any
+    - code: 9N54.00
+      value: Encounter for fear
+      type: any
+    - code: E200000
+      value: Anxiety state unspecified
+      type: any
+    - code: E200100
+      value: Panic disorder
+      type: any
+    - code: E200111
+      value: Panic attack
+      type: any
+    - code: E200200
+      value: Generalised anxiety disorder
+      type: any
+    - code: E200300
+      value: Anxiety with depression
+      type: any
+    - code: E200400
+      value: Chronic anxiety
+      type: any
+    - code: E200500
+      value: Recurrent anxiety
+      type: any
+    - code: E200.00
+      value: Anxiety states
+      type: any
+    - code: E200z00
+      value: Anxiety state NOS
+      type: any
+    - code: E201B00
+      value: Compensation neurosis
+      type: any
+    - code: E202000
+      value: Phobia unspecified
+      type: any
+    - code: E202100
+      value: Agoraphobia with panic attacks
+      type: any
+    - code: E202200
+      value: Agoraphobia without mention of panic attacks
+      type: any
+    - code: E202300
+      value: Social phobia, fear of eating in public
+      type: any
+    - code: E202400
+      value: Social phobia, fear of public speaking
+      type: any
+    - code: E202500
+      value: Social phobia, fear of public washing
+      type: any
+    - code: E202600
+      value: Acrophobia
+      type: any
+    - code: E202700
+      value: Animal phobia
+      type: any
+    - code: E202800
+      value: Claustrophobia
+      type: any
+    - code: E202900
+      value: Fear of crowds
+      type: any
+    - code: E202A00
+      value: Fear of flying
+      type: any
+    - code: E202B00
+      value: Cancer phobia
+      type: any
+    - code: E202C00
+      value: Dental phobia
+      type: any
+    - code: E202D00
+      value: Fear of death
+      type: any
+    - code: E202.00
+      value: Phobic disorders
+      type: any
+    - code: E202.11
+      value: Social phobic disorders
+      type: any
+    - code: E202.12
+      value: Phobic anxiety
+      type: any
+    - code: E202E00
+      value: Fear of pregnancy
+      type: any
+    - code: E202z00
+      value: Phobic disorder NOS
+      type: any
+    - code: E20..00
+      value: Neurotic disorders
+      type: any
+    - code: E20y100
+      value: Writer's cramp neurosis
+      type: any
+    - code: E20y200
+      value: Other occupational neurosis
+      type: any
+    - code: E20y300
+      value: Psychasthenic neurosis
+      type: any
+    - code: E20y.00
+      value: Other neurotic disorders
+      type: any
+    - code: E20yz00
+      value: Other neurotic disorder NOS
+      type: any
+    - code: E20z.00
+      value: Neurotic disorder NOS
+      type: any
+    - code: Eu34111
+      value: '[X]Depressive neurosis'
+      type: any
+    - code: Eu34113
+      value: '[X]Neurotic depression'
+      type: any
+    - code: Eu34114
+      value: '[X]Persistant anxiety depression'
+      type: any
+    - code: Eu40000
+      value: '[X]Agoraphobia'
+      type: any
+    - code: Eu40011
+      value: '[X]Agoraphobia without history of panic disorder'
+      type: any
+    - code: Eu40012
+      value: '[X]Panic disorder with agoraphobia'
+      type: any
+    - code: Eu40100
+      value: '[X]Social phobias'
+      type: any
+    - code: Eu40112
+      value: '[X]Social neurosis'
+      type: any
+    - code: Eu40200
+      value: '[X]Specific (isolated) phobias'
+      type: any
+    - code: Eu40211
+      value: '[X]Acrophobia'
+      type: any
+    - code: Eu40212
+      value: '[X]Animal phobias'
+      type: any
+    - code: Eu40213
+      value: '[X]Claustrophobia'
+      type: any
+    - code: Eu40214
+      value: '[X]Simple phobia'
+      type: any
+    - code: Eu40300
+      value: '[X]Needle phobia'
+      type: any
+    - code: Eu40.00
+      value: '[X]Phobic anxiety disorders'
+      type: any
+    - code: Eu40y00
+      value: '[X]Other phobic anxiety disorders'
+      type: any
+    - code: Eu40z00
+      value: '[X]Phobic anxiety disorder, unspecified'
+      type: any
+    - code: Eu40z11
+      value: '[X]Phobia NOS'
+      type: any
+    - code: Eu40z12
+      value: '[X]Phobic state NOS'
+      type: any
+    - code: Eu41000
+      value: '[X]Panic disorder [episodic paroxysmal anxiety]'
+      type: any
+    - code: Eu41011
+      value: '[X]Panic attack'
+      type: any
+    - code: Eu41012
+      value: '[X]Panic state'
+      type: any
+    - code: Eu41100
+      value: '[X]Generalized anxiety disorder'
+      type: any
+    - code: Eu41111
+      value: '[X]Anxiety neurosis'
+      type: any
+    - code: Eu41112
+      value: '[X]Anxiety reaction'
+      type: any
+    - code: Eu41113
+      value: '[X]Anxiety state'
+      type: any
+    - code: Eu41200
+      value: '[X]Mixed anxiety and depressive disorder'
+      type: any
+    - code: Eu41211
+      value: '[X]Mild anxiety depression'
+      type: any
+    - code: Eu41300
+      value: '[X]Other mixed anxiety disorders'
+      type: any
+    - code: Eu41.00
+      value: '[X]Other anxiety disorders'
+      type: any
+    - code: Eu41y00
+      value: '[X]Other specified anxiety disorders'
+      type: any
+    - code: Eu41y11
+      value: '[X]Anxiety hysteria'
+      type: any
+    - code: Eu41z00
+      value: '[X]Anxiety disorder, unspecified'
+      type: any
+    - code: Eu41z11
+      value: '[X]Anxiety NOS'
+      type: any
+    - code: Z481.00
+      value: Phobia counselling
+      type: any
+    - code: Z4L1.00
+      value: Anxiety counselling
+      type: any
+    - code: ZV11200
+      value: '[V]Personal history of neurosis'
+      type: prevalent
+    - code: XE1hk
+      value: Neurotic condition, insight present
+      type: any
+    - code: XE1YB
+      value: Phobic disorder NOS
+      type: any
+    - code: Xa7lj
+      value: Cancer phobia
+      type: any
+    - code: XE1hl
+      value: Poor insight into neurotic condition
+      type: any
+    - code: XE1Zj
+      value: '[X]Other specified anxiety disorders'
+      type: any
+    - code: XaIo7
+      value: C/O - panic attack
+      type: any
+    - code: XaL0q
+      value: Referral for guided self-help for anxiety
+      type: any
+    - code: XE1YE
+      value: Neurotic disorder NOS
+      type: any
+    - code: XE1YE
+      value: Neurotic disorder NOS
+      type: any
+    - code: XaK2c
+      value: 'H/O: agoraphobia'
+      type: prevalent
+    - code: X7627
+      value: Specific fear
+      type: any
+    - code: X762G
+      value: Fear of flying
+      type: any
+    - code: XaKVA
+      value: O/E - panic attack
+      type: any
+    - code: X762T
+      value: Fear of death
+      type: any
+    - code: XaKVN
+      value: O/E - fearful mood
+      type: any
+    - code: XE1Y7
+      value: Panic disorder
+      type: any
+    - code: Ub0qs
+      value: Anxiety management training
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,354 @@
+metadata:
+  phenotype: Stroke NOS
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: Stroke_NOS
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: c3bad7c9-ab38-4245-a449-cc103911ce5d
+  ontologies:
+    DOID: DOID_6713
+    GWAS: EFO_0000712
+    MESH: D020521
+    SNOMED-CT: '230690007'
+    FINNGEN: C_STROKE
+  short_desc: A group of pathological conditions characterized by sudden, non-convulsive
+    loss of neurological function due to brain ischemia or intracranial hemorrhages.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: G46.3
+      value: Brain stem stroke syndrome
+      type: any
+    - code: G46.4
+      value: Cerebellar stroke syndrome
+      type: any
+    - code: G46.5
+      value: Pure motor lacunar syndrome
+      type: any
+    - code: G46.6
+      value: Pure sensory lacunar syndrome
+      type: any
+    - code: G46.7
+      value: Other lacunar syndromes
+      type: any
+    - code: G46.8
+      value: Other vascular syndromes of brain in cerebrovascular diseases
+      type: any
+    - code: I64
+      value: Stroke, not specified as haemorrhage or infarction
+      type: any
+    - code: I69.4
+      value: Sequelae of stroke, not specified as haemorrhage or infarction
+      type: prevalent
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: G46.3
+      value: Brain stem stroke syndrome
+      type: any
+    - code: G46.4
+      value: Cerebellar stroke syndrome
+      type: any
+    - code: G46.5
+      value: Pure motor lacunar syndrome
+      type: any
+    - code: G46.6
+      value: Pure sensory lacunar syndrome
+      type: any
+    - code: G46.7
+      value: Other lacunar syndromes
+      type: any
+    - code: G46.8
+      value: Other vascular syndromes of brain in cerebrovascular diseases
+      type: any
+    - code: I64
+      value: Stroke, not specified as haemorrhage or infarction
+      type: any
+    - code: I69.4
+      value: Sequelae of stroke, not specified as haemorrhage or infarction
+      type: prevalent
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G46.3
+      value: Brain stem stroke syndrome
+      type: any
+    - code: G46.4
+      value: Cerebellar stroke syndrome
+      type: any
+    - code: G46.5
+      value: Pure motor lacunar syndrome
+      type: any
+    - code: G46.6
+      value: Pure sensory lacunar syndrome
+      type: any
+    - code: G46.7
+      value: Other lacunar syndromes
+      type: any
+    - code: G46.8
+      value: Other vascular syndromes of brain in cerebrovascular diseases
+      type: any
+    - code: I64
+      value: Stroke, not specified as haemorrhage or infarction
+      type: any
+    - code: I69.4
+      value: Sequelae of stroke, not specified as haemorrhage or infarction
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G46.3
+      value: Brain stem stroke syndrome
+      type: any
+    - code: G46.4
+      value: Cerebellar stroke syndrome
+      type: any
+    - code: G46.5
+      value: Pure motor lacunar syndrome
+      type: any
+    - code: G46.6
+      value: Pure sensory lacunar syndrome
+      type: any
+    - code: G46.7
+      value: Other lacunar syndromes
+      type: any
+    - code: G46.8
+      value: Other vascular syndromes of brain in cerebrovascular diseases
+      type: any
+    - code: I64
+      value: Stroke, not specified as haemorrhage or infarction
+      type: any
+    - code: I69.4
+      value: Sequelae of stroke, not specified as haemorrhage or infarction
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14A7.00
+      value: 'H/O: CVA/stroke'
+      type: prevalent
+    - code: 14A7.11
+      value: 'H/O: CVA'
+      type: prevalent
+    - code: 14A7.12
+      value: 'H/O: stroke'
+      type: prevalent
+    - code: 14AK.00
+      value: 'H/O: Stroke in last year'
+      type: prevalent
+    - code: 1M4..00
+      value: Central post-stroke pain
+      type: any
+    - code: 661M700
+      value: Stroke self-management plan agreed
+      type: any
+    - code: 661N700
+      value: Stroke self-management plan review
+      type: prevalent
+    - code: 662e.00
+      value: Stroke/CVA annual review
+      type: prevalent
+    - code: 662e.11
+      value: Stroke annual review
+      type: prevalent
+    - code: 662M100
+      value: Stroke 6 month review
+      type: prevalent
+    - code: 662M200
+      value: Stroke initial post discharge review
+      type: prevalent
+    - code: 662M.00
+      value: Stroke monitoring
+      type: prevalent
+    - code: 7P24200
+      value: Delivery of rehabilitation for stroke
+      type: any
+    - code: 8HHM.00
+      value: Ref to multidisciplinary stroke function improvement service
+      type: any
+    - code: 8IEC.00
+      value: Ref multidisciplinary stroke function improvement declined
+      type: any
+    - code: 9h21.00
+      value: 'Excepted from stroke quality indicators: Patient unsuitable'
+      type: prevalent
+    - code: 9h22.00
+      value: 'Excepted from stroke quality indicators: Informed dissent'
+      type: prevalent
+    - code: 9h2..00
+      value: 'Exception reporting: stroke quality indicators'
+      type: prevalent
+    - code: Fyu5600
+      value: '[X]Other lacunar syndromes'
+      type: any
+    - code: G663.00
+      value: Brain stem stroke syndrome
+      type: any
+    - code: G664.00
+      value: Cerebellar stroke syndrome
+      type: any
+    - code: G665.00
+      value: Pure motor lacunar syndrome
+      type: any
+    - code: G666.00
+      value: Pure sensory lacunar syndrome
+      type: any
+    - code: G667.00
+      value: Left sided CVA
+      type: any
+    - code: G668.00
+      value: Right sided CVA
+      type: any
+    - code: G66..00
+      value: Stroke and cerebrovascular accident unspecified
+      type: any
+    - code: G66..11
+      value: CVA unspecified
+      type: any
+    - code: G66..12
+      value: Stroke unspecified
+      type: any
+    - code: G66..13
+      value: CVA - Cerebrovascular accident unspecified
+      type: any
+    - code: G68X.00
+      value: Sequelae of stroke,not specfd as h'morrhage or infarction
+      type: prevalent
+    - code: Gyu6C00
+      value: '[X]Sequelae of stroke,not specfd as h''morrhage or infarction'
+      type: prevalent
+    - code: L440.11
+      value: CVA - cerebrovascular accident in the puerperium
+      type: any
+    - code: L440.12
+      value: Stroke in the puerperium
+      type: any
+    - code: ZV12511
+      value: '[V]Personal history of stroke'
+      type: prevalent
+    - code: ZV12512
+      value: '[V]Personal history of cerebrovascular accident (CVA)'
+      type: prevalent
+    - code: XaJ4O
+      value: 'Exception reporting: stroke quality indicators'
+      type: prevalent
+    - code: XE2te
+      value: 'H/O: CVA/stroke'
+      type: prevalent
+    - code: XaYbE
+      value: Stroke self-management plan agreed
+      type: any
+    - code: XaJ4b
+      value: 'Excepted from stroke quality indicators: Patient unsuitable'
+      type: prevalent
+    - code: XaJi5
+      value: Referral to multidisciplinary stroke function improvement service
+      type: any
+    - code: XE2aB
+      value: Stroke and cerebrovascular accident unspecified
+      type: any
+    - code: XE2aB
+      value: Stroke and cerebrovascular accident unspecified
+      type: any
+    - code: XE2aB
+      value: Stroke and cerebrovascular accident unspecified
+      type: any
+    - code: XaBL3
+      value: 'H/O: Stroke in last year'
+      type: prevalent
+    - code: XE2sl
+      value: Cerebrovascular disorders in the puerperium
+      type: any
+    - code: XaJ4c
+      value: 'Excepted from stroke quality indicators: Informed dissent'
+      type: prevalent
+    - code: XaIzF
+      value: Stroke/CVA annual review
+      type: prevalent
+    - code: Xa0Ml
+      value: Central post-stroke pain
+      type: any
+    - code: XaR68
+      value: Stroke 6 month review
+      type: prevalent
+    - code: XaYm4
+      value: Stroke initial post discharge review
+      type: prevalent
+    - code: XaXlL
+      value: Referral for multidisciplinary stroke function improvement declined
+      type: any
+    - code: XaQbM
+      value: Pure sensory lacunar syndrome
+      type: any
+    - code: XaYZQ
+      value: Stroke self-management plan review
+      type: prevalent
+    - code: XaLtA
+      value: Delivery of rehabilitation for stroke
+      type: any
+    - code: XaQbK
+      value: Pure motor lacunar syndrome
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

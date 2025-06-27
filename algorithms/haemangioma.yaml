@@ -1,0 +1,243 @@
+metadata:
+  phenotype: Haemangioma, any site
+  group: Benign neoplasm or Carcinoma in situ
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: haemangioma
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 5d13053f-d2ff-41cb-91c0-1920b22456db
+  ontologies:
+    DOID: DOID_255
+    GWAS: EFO_1000635
+    MESH: D006391
+    SNOMED-CT: '400210000'
+    FINNGEN: CD2_BENIGN_HEMANGIOMA
+  short_desc: A benign vascular lesion characterized by the formation of capillary-sized
+    or cavernous vascular channels.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D18.0
+      value: Haemangioma, any site
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D18.0
+      value: Haemangioma, any site
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D18.0
+      value: Haemangioma, any site
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D18.0
+      value: Haemangioma, any site
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 2F25.00
+      value: O/E - capilliary naevi present
+      type: any
+    - code: 7A6G600
+      value: Excision of haemangioma
+      type: any
+    - code: B7J0000
+      value: Haemangioma of unspecified site
+      type: any
+    - code: B7J0100
+      value: Haemangioma of skin and subcutaneous tissue
+      type: any
+    - code: B7J0111
+      value: Skin haemangioma
+      type: any
+    - code: B7J0112
+      value: Subcutaneous haemangioma
+      type: any
+    - code: B7J0200
+      value: Haemangioma of intracranial structures
+      type: any
+    - code: B7J0300
+      value: Haemangioma of retina
+      type: any
+    - code: B7J0400
+      value: Haemangioma of intra-abdominal structures
+      type: any
+    - code: B7J0.00
+      value: Haemangioma
+      type: any
+    - code: B7J0.11
+      value: Glomus tumour
+      type: any
+    - code: B7J0z00
+      value: Haemangioma NOS
+      type: any
+    - code: B7J..00
+      value: Haemangiomas and lymphangiomas of any site
+      type: any
+    - code: B7Jz.00
+      value: Haemangioma or lymphangioma NOS
+      type: any
+    - code: BBd7.00
+      value: '[M]Haemangioblastic meningioma'
+      type: any
+    - code: BBd8.00
+      value: '[M]Haemangiopericytic meningioma'
+      type: any
+    - code: BBDC.00
+      value: '[M]Glomus tumour'
+      type: any
+    - code: BBGK.13
+      value: '[M]Sclerosing haemangioma'
+      type: any
+    - code: BBT0.00
+      value: '[M]Haemangioma NOS'
+      type: any
+    - code: BBT2.00
+      value: '[M]Cavernous haemangioma'
+      type: any
+    - code: BBT3.00
+      value: '[M]Venous haemangioma'
+      type: any
+    - code: BBT4.00
+      value: '[M]Racemose haemangioma'
+      type: any
+    - code: BBT4.11
+      value: '[M]Arteriovenous haemangioma'
+      type: any
+    - code: BBT7000
+      value: '[M]Haemangioendothelioma, benign'
+      type: any
+    - code: BBT8.00
+      value: '[M]Capillary haemangioma'
+      type: any
+    - code: BBT8.11
+      value: '[M]Haemangioma simplex'
+      type: any
+    - code: BBT8.12
+      value: '[M]Infantile haemangioma'
+      type: any
+    - code: BBT8.13
+      value: '[M]Juvenile haemangioma'
+      type: any
+    - code: BBT8.14
+      value: '[M]Plexiform haemangioma'
+      type: any
+    - code: BBT9.00
+      value: '[M]Intramuscular haemangioma'
+      type: any
+    - code: BBT..11
+      value: '[M]Haemangiomatous tumours'
+      type: any
+    - code: BBTC.00
+      value: '[M]Verrucous keratotic haemangioma'
+      type: any
+    - code: BBTD000
+      value: '[M]Haemangiopericytoma, benign'
+      type: any
+    - code: BBTF.00
+      value: '[M]Haemangioblastoma'
+      type: any
+    - code: BBTG.00
+      value: '[M]Epithelioid haemangioma'
+      type: any
+    - code: BBTH.00
+      value: '[M]Histiocytoid haemangioma'
+      type: any
+    - code: G771200
+      value: Campbell de Morgan's spots
+      type: any
+    - code: PG42000
+      value: Multiple enchondromata with haemangioma
+      type: any
+    - code: PG42011
+      value: Kast's syndrome
+      type: any
+    - code: PG42012
+      value: Maffuci's syndrome
+      type: any
+    - code: PH31200
+      value: Strawberry naevus
+      type: any
+    - code: XaC0g
+      value: Excision of haemangioma
+      type: any
+    - code: XE2vc
+      value: Haemangiomas and lymphangiomas of any site
+      type: any
+    - code: XE2vd
+      value: Haemangioma of skin and subcutaneous tissue
+      type: any
+    - code: XE1wE
+      value: Haemangioma
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: D18.0
+      value: Haemangioma, any site
+      type: any

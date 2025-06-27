@@ -1,0 +1,164 @@
+metadata:
+  phenotype: Retinal vascular occlusions
+  group: Eye
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: retinal_vasc_occl
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 35f55084-0c1c-4688-aab1-1e900819461e
+  ontologies:
+    DOID: DOID_1729
+    GWAS: EFO_1001157
+    MESH: D012170
+    SNOMED-CT: 73757007
+    FINNGEN: H7_RETIVASCOCCLUSION
+  short_desc: Blockage of the RETINAL VEIN.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1282'
+      value: retinal artery/vein occlusion
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: H34
+      value: Retinal vascular occlusions
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: H34
+      value: Retinal vascular occlusions
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H34
+      value: Retinal vascular occlusions
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H34
+      value: Retinal vascular occlusions
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: F423000
+      value: Unspecified retinal vascular occlusion
+      type: any
+    - code: F423100
+      value: Central retinal artery occlusion
+      type: any
+    - code: F423200
+      value: Retinal arterial branch occlusion
+      type: any
+    - code: F423211
+      value: Branch retinal artery occlusion
+      type: any
+    - code: F423300
+      value: Retinal microembolism
+      type: any
+    - code: F423400
+      value: Hollenhorst plaque
+      type: any
+    - code: F423500
+      value: Retinal partial arterial occlusion NOS
+      type: any
+    - code: F423700
+      value: Retinal transient arterial occlusion NOS
+      type: any
+    - code: F423800
+      value: Central retinal vein occlusion
+      type: any
+    - code: F423811
+      value: Retinal vein thrombosis
+      type: any
+    - code: F423900
+      value: Retinal venous branch occlusion
+      type: any
+    - code: F423911
+      value: Branch retinal vein occlusion
+      type: any
+    - code: F423A00
+      value: Retinal venous engorgement
+      type: any
+    - code: F423.00
+      value: Retinal vascular occlusion
+      type: any
+    - code: F423z00
+      value: Retinal vascular occlusion NOS
+      type: any
+    - code: F42y700
+      value: Retinal cotton wool spots
+      type: any
+    - code: FyuF500
+      value: '[X]Other retinal artery occlusions'
+      type: any
+    - code: FyuF600
+      value: '[X]Other retinal vascular occlusions'
+      type: any
+    - code: XE15w
+      value: Central retinal vein occlusion
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

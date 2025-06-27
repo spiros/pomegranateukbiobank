@@ -1,0 +1,227 @@
+metadata:
+  phenotype: Abdominal aortic aneurysm
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: AAA
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: be024cd4-f3a3-4ea7-a039-b15235bd1b19
+  ontologies:
+    DOID: DOID_50602
+    GWAS: EFO_0004214
+    MESH: D017544
+    SNOMED-CT: 233985008
+    FINNGEN: I9_ABAORTANEUR
+  short_desc: An abdominal aortic aneurysm (AAA) is a bulge or swelling in the aorta,
+    the main blood vessel that runs from the heart down through the chest and stomach.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values:
+    - code: '1104'
+      value: aortic aneurysm/repair or stent
+      type: any
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I71.4
+      value: Abdominal aortic aneurysm, without mention of rupture
+      type: any
+    - code: I71.6
+      value: Thoracoabdominal aortic aneurysm, without mention of rupture
+      type: any
+    - code: I71.9
+      value: Aortic aneurysm of unspecified site, without mention of rupture
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I71.4
+      value: Abdominal aortic aneurysm, without mention of rupture
+      type: any
+    - code: I71.6
+      value: Thoracoabdominal aortic aneurysm, without mention of rupture
+      type: any
+    - code: I71.9
+      value: Aortic aneurysm of unspecified site, without mention of rupture
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: L18
+      value: Emergency replacement of aneurysmal segment of aorta
+      type: any
+    - code: L19
+      value: Other replacement of aneurysmal segment of aorta
+      type: any
+    - code: L20
+      value: Other emergency bypass of segment of aorta
+      type: any
+    - code: L27
+      value: Transluminal insertion of stent graft for aneurysmal segment of aorta
+      type: any
+    - code: L28
+      value: Transluminal operations on aneurysmal segment of aorta
+      type: any
+    - code: L254
+      value: Operations on aneurysm of aorta NEC
+      type: any
+    - code: L209
+      value: Unspecified other emergency bypass of segment of aorta
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: L18
+      value: Emergency replacement of aneurysmal segment of aorta
+      type: any
+    - code: L19
+      value: Other replacement of aneurysmal segment of aorta
+      type: any
+    - code: L20
+      value: Other emergency bypass of segment of aorta
+      type: any
+    - code: L27
+      value: Transluminal insertion of stent graft for aneurysmal segment of aorta
+      type: any
+    - code: L28
+      value: Transluminal operations on aneurysmal segment of aorta
+      type: any
+    - code: L254
+      value: Operations on aneurysm of aorta NEC
+      type: any
+    - code: L209
+      value: Unspecified other emergency bypass of segment of aorta
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I71.4
+      value: Abdominal aortic aneurysm, without mention of rupture
+      type: any
+    - code: I71.6
+      value: Thoracoabdominal aortic aneurysm, without mention of rupture
+      type: any
+    - code: I71.9
+      value: Aortic aneurysm of unspecified site, without mention of rupture
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I71.4
+      value: Abdominal aortic aneurysm, without mention of rupture
+      type: any
+    - code: I71.6
+      value: Thoracoabdominal aortic aneurysm, without mention of rupture
+      type: any
+    - code: I71.9
+      value: Aortic aneurysm of unspecified site, without mention of rupture
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 7A11000
+      value: Emerg repl aneurysm bifurc aorta by anast aorta to fem art
+      type: any
+    - code: 7A11200
+      value: Emerg repl aneurysm bifurc aorta by anast aorta to iliac a
+      type: any
+    - code: 7A11211
+      value: Y graft of abdominal Aortic aneurysm (emergency)
+      type: any
+    - code: 7A13.00
+      value: Emergency replacement of aneurysmal segment of aorta
+      type: any
+    - code: 7A13.11
+      value: Emergency repair of aortic aneurysm
+      type: any
+    - code: 7A13300
+      value: Emerg replace aneurysm infrarenal aorta by anast aorta/aorta
+      type: any
+    - code: 7A13400
+      value: Emerg replace aneurysm abdom aorta by anast aorta/aorta NEC
+      type: any
+    - code: 7A13411
+      value: Tube graft abdominal Aortic aneurysm (emergency)
+      type: any
+    - code: 7A13y00
+      value: Emergency replacement of aneurysmal segment of aorta OS
+      type: any
+    - code: 7A13z00
+      value: Emergency replacement of aneurysmal segment of aorta NOS
+      type: any
+    - code: G714.00
+      value: Abdominal aortic aneurysm without mention of rupture
+      type: any
+    - code: G714.11
+      value: AAA - Abdominal aortic aneurysm without mention of rupture
+      type: any
+    - code: G716.00
+      value: Aortic aneurysm without mention of rupture NOS
+      type: any
+    - code: G716000
+      value: Thoracoabdominal aortic aneurysm, without mention of rupture
+      type: any
+    - code: 14AE.00
+      value: 'H/O: aortic aneurysm'
+      type: prevalent
+    - code: XE0F2
+      value: Emergency replacement of aneurysmal segment of abdominal aorta by anastomosis
+        of aorta to aorta NEC
+      type: any
+    - code: XE0Ey
+      value: Emergency replacement of aneurysmal bifurcation of aorta by anastomosis
+        of aorta to iliac artery
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

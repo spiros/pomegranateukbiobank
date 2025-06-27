@@ -1,0 +1,158 @@
+metadata:
+  phenotype: Primary Malignancy_Pancreatic
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: pri_pancr
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: d90aca1e-72e8-4f3f-9969-637373cecabd
+  ontologies:
+    DOID: DOID_1793
+    GWAS: EFO_0002618
+    MESH: D010190
+    SNOMED-CT: 235890007
+    FINNGEN: C3_PANCREAS
+  short_desc: A primary or metastatic malignant tumor involving the pancreas.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1026'
+      value: pancreas cancer
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C25
+      value: Malignant neoplasm of pancreas
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C25
+      value: Malignant neoplasm of pancreas
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C25
+      value: Malignant neoplasm of pancreas
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C25
+      value: Malignant neoplasm of pancreas
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B170.00
+      value: Malignant neoplasm of head of pancreas
+      type: any
+    - code: B171.00
+      value: Malignant neoplasm of body of pancreas
+      type: any
+    - code: B172.00
+      value: Malignant neoplasm of tail of pancreas
+      type: any
+    - code: B173.00
+      value: Malignant neoplasm of pancreatic duct
+      type: any
+    - code: B174.00
+      value: Malignant neoplasm of Islets of Langerhans
+      type: any
+    - code: B175.00
+      value: Malignant neoplasm, overlapping lesion of pancreas
+      type: any
+    - code: B17..00
+      value: Malignant neoplasm of pancreas
+      type: any
+    - code: B17y000
+      value: Malignant neoplasm of ectopic pancreatic tissue
+      type: any
+    - code: B17y.00
+      value: Malignant neoplasm of other specified sites of pancreas
+      type: any
+    - code: B17yz00
+      value: Malignant neoplasm of specified site of pancreas NOS
+      type: any
+    - code: B17z.00
+      value: Malignant neoplasm of pancreas NOS
+      type: any
+    - code: BB5B100
+      value: '[M]Islet cell carcinoma'
+      type: any
+    - code: BB5B300
+      value: '[M]Insulinoma, malignant'
+      type: any
+    - code: BB5B500
+      value: '[M]Glucagonoma, malignant'
+      type: any
+    - code: BB5B600
+      value: '[M]Mixed islet cell and exocrine adenocarcinoma'
+      type: any
+    - code: BB5C100
+      value: '[M]Gastrinoma, malignant'
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C25
+      value: Malignant neoplasm of pancreas
+      type: any

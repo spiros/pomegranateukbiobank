@@ -1,0 +1,174 @@
+metadata:
+  phenotype: Anorexia and bulimia nervosa
+  group: Psychiatric
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: eating_dz
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: ffc208d4-641b-41fb-97b7-c03309c03ac7
+  ontologies:
+    DOID: DOID_8670
+    GWAS: EFO_0005203
+    MESH: D001068
+    SNOMED-CT: '72366004'
+    FINNGEN: F5_EATING
+  short_desc: 'Mental disorders defined by abnormal eating behaviors that negatively
+    affect a person''s physical or mental health. Anorexia nervosa: the afflicted
+    individual has an intense fear of gaining weight and restrict food or overexercise
+    to manage this fear. Bulimia nervosa: the afflicted individual eats a lot (binging)
+    then tries to rid themselves of the food (purging).'
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1470'
+      value: anorexia/bulimia/other eating disorder
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: F50.0
+      value: Anorexia nervosa
+      type: any
+    - code: F50.1
+      value: Atypical anorexia nervosa
+      type: any
+    - code: F50.2
+      value: Bulimia nervosa
+      type: any
+    - code: F50.3
+      value: Atypical bulimia nervosa
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: F50.0
+      value: Anorexia nervosa
+      type: any
+    - code: F50.1
+      value: Atypical anorexia nervosa
+      type: any
+    - code: F50.2
+      value: Bulimia nervosa
+      type: any
+    - code: F50.3
+      value: Atypical bulimia nervosa
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F50.0
+      value: Anorexia nervosa
+      type: any
+    - code: F50.1
+      value: Atypical anorexia nervosa
+      type: any
+    - code: F50.2
+      value: Bulimia nervosa
+      type: any
+    - code: F50.3
+      value: Atypical bulimia nervosa
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F50.0
+      value: Anorexia nervosa
+      type: any
+    - code: F50.1
+      value: Atypical anorexia nervosa
+      type: any
+    - code: F50.2
+      value: Bulimia nervosa
+      type: any
+    - code: F50.3
+      value: Atypical bulimia nervosa
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1467.00'
+      value: 'H/O: anorexia nervosa'
+      type: prevalent
+    - code: E271.00
+      value: Anorexia nervosa
+      type: any
+    - code: E275100
+      value: Bulimia (non-organic overeating)
+      type: any
+    - code: Eu50000
+      value: '[X]Anorexia nervosa'
+      type: any
+    - code: Eu50100
+      value: '[X]Atypical anorexia nervosa'
+      type: any
+    - code: Eu50200
+      value: '[X]Bulimia nervosa'
+      type: any
+    - code: Eu50211
+      value: '[X]Bulimia NOS'
+      type: any
+    - code: Eu50300
+      value: '[X]Atypical bulimia nervosa'
+      type: any
+    - code: R036011
+      value: '[D]Bulimia NOS'
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

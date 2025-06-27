@@ -1,0 +1,182 @@
+metadata:
+  phenotype: Thyroiditis unspecified
+  group: Endocrine
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: thyroid_nos
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: dd7caba8-4df6-43dd-928e-2aec36585cd6
+  ontologies:
+    DOID: DOID_7166
+    GWAS: EFO_1000627
+    MESH: D013966
+    SNOMED-CT: 82119001
+    FINNGEN: THYROIDITIS
+  short_desc: null
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1428'
+      value: thyroiditis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: E06.3
+      value: Autoimmune thyroiditis
+      type: any
+    - code: E06.5
+      value: Other chronic thyroiditis
+      type: any
+    - code: E06.9
+      value: Thyroiditis, unspecified
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: E06.3
+      value: Autoimmune thyroiditis
+      type: any
+    - code: E06.5
+      value: Other chronic thyroiditis
+      type: any
+    - code: E06.9
+      value: Thyroiditis, unspecified
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: E06.3
+      value: Autoimmune thyroiditis
+      type: any
+    - code: E06.5
+      value: Other chronic thyroiditis
+      type: any
+    - code: E06.9
+      value: Thyroiditis, unspecified
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: E06.3
+      value: Autoimmune thyroiditis
+      type: any
+    - code: E06.5
+      value: Other chronic thyroiditis
+      type: any
+    - code: E06.9
+      value: Thyroiditis, unspecified
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 143..11
+      value: 'H/O: thyroid disorder'
+      type: prevalent
+    - code: '1433.00'
+      value: 'H/O: thyroid disorder NOS'
+      type: prevalent
+    - code: 66B4.00
+      value: Thyroid eye disease
+      type: any
+    - code: 66B..00
+      value: Thyroid disease monitoring
+      type: prevalent
+    - code: 66BZ.00
+      value: Thyroid disease monitoring NOS
+      type: prevalent
+    - code: C052.00
+      value: Chronic lymphocytic thyroiditis
+      type: any
+    - code: C052.11
+      value: Autoimmune thyroiditis
+      type: any
+    - code: C053.00
+      value: Chronic fibrous thyroiditis
+      type: any
+    - code: C05..00
+      value: Thyroiditis
+      type: any
+    - code: C05y400
+      value: Chronic thyroiditis with transient thyrotoxicosis
+      type: any
+    - code: C05y.00
+      value: Other and unspecified chronic thyroiditis
+      type: any
+    - code: C05z.00
+      value: Thyroiditis NOS
+      type: any
+    - code: Cyu1400
+      value: '[X]Other chronic thyroiditis'
+      type: any
+    - code: XE10D
+      value: Chronic fibrous thyroiditis
+      type: any
+    - code: XS29G
+      value: Thyroid eye disease
+      type: any
+    - code: XE0q3
+      value: 'H/O: endocrine disorder'
+      type: prevalent
+    - code: X40OO
+      value: Thyroid-associated dermopathy
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

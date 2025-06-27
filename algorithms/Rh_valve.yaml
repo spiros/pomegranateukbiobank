@@ -1,0 +1,232 @@
+metadata:
+  phenotype: Rheumatic valve dz
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: Rh_valve
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 6c8b726f-7f44-4a10-95ed-db981999e94c
+  ontologies:
+    DOID: DOID_0050827
+    GWAS: EFO_1001161
+    MESH: D012214
+    SNOMED-CT: '16063004'
+    FINNGEN: I9_RHEUVALV
+  short_desc: A heart valve disease that is characterized by repeated inflammation
+    with fibrinous repair caused by an autoimmune reaction to Group A beta-hemolytic
+    streptococci (GAS) that results in valvular damage.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1489'
+      value: mitral stenosis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I05
+      value: Rheumatic mitral valve diseases
+      type: any
+    - code: I06
+      value: Rheumatic aortic valve diseases
+      type: any
+    - code: I07
+      value: Rheumatic tricuspid valve diseases
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I05
+      value: Rheumatic mitral valve diseases
+      type: any
+    - code: I06
+      value: Rheumatic aortic valve diseases
+      type: any
+    - code: I07
+      value: Rheumatic tricuspid valve diseases
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I05
+      value: Rheumatic mitral valve diseases
+      type: any
+    - code: I06
+      value: Rheumatic aortic valve diseases
+      type: any
+    - code: I07
+      value: Rheumatic tricuspid valve diseases
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I05
+      value: Rheumatic mitral valve diseases
+      type: any
+    - code: I06
+      value: Rheumatic aortic valve diseases
+      type: any
+    - code: I07
+      value: Rheumatic tricuspid valve diseases
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: G110.00
+      value: Mitral stenosis
+      type: any
+    - code: G110.11
+      value: Rheumatic mitral stenosis
+      type: any
+    - code: G111.00
+      value: Rheumatic mitral insufficiency
+      type: any
+    - code: G111.11
+      value: Mitral incompetence - rheumatic
+      type: any
+    - code: G111.12
+      value: Mitral regurgitation - rheumatic
+      type: any
+    - code: G112.00
+      value: Mitral stenosis with insufficiency
+      type: any
+    - code: G112.12
+      value: Mitral stenosis with incompetence
+      type: any
+    - code: G112.13
+      value: Mitral stenosis with regurgitation
+      type: any
+    - code: G11..11
+      value: Rheumatic mitral valve disease
+      type: any
+    - code: G120.00
+      value: Rheumatic aortic stenosis
+      type: any
+    - code: G121.00
+      value: Rheumatic aortic insufficiency
+      type: any
+    - code: G121.11
+      value: Aortic incompetence - rheumatic
+      type: any
+    - code: G121.12
+      value: Aortic regurgitation - rheumatic
+      type: any
+    - code: G122.00
+      value: Rheumatic aortic stenosis with insufficiency
+      type: any
+    - code: G12..00
+      value: Rheumatic aortic valve disease
+      type: any
+    - code: G12z.00
+      value: Rheumatic aortic valve disease NOS
+      type: any
+    - code: G140000
+      value: Rheumatic tricuspid stenosis
+      type: any
+    - code: G140100
+      value: Rheumatic tricuspid insufficiency
+      type: any
+    - code: G140111
+      value: Tricuspid regurgitation - rheumatic
+      type: any
+    - code: G140112
+      value: Tricuspid incompetence - rheumatic
+      type: any
+    - code: G140200
+      value: Rheumatic tricuspid stenosis and insufficiency
+      type: any
+    - code: G14021X
+      value: Rheumatic tricuspid stenosis and regurgitation
+      type: any
+    - code: G14021Y
+      value: Rheumatic tricuspid stenosis and incompetence
+      type: any
+    - code: G140z00
+      value: Rheumatic tricuspid valve disease NOS
+      type: any
+    - code: G141000
+      value: Rheumatic pulmonary stenosis
+      type: any
+    - code: G141100
+      value: Rheumatic pulmonary insufficiency
+      type: any
+    - code: G141200
+      value: Rheumatic pulmonary stenosis and insufficiency
+      type: any
+    - code: G141.00
+      value: Rheumatic pulmonary valve disease
+      type: any
+    - code: G141z00
+      value: Rheumatic pulmonary valve disease NOS
+      type: any
+    - code: G14z.11
+      value: Rheumatic valvulitis, chronic NOS
+      type: any
+    - code: Gyu1100
+      value: '[X]Other rheumatic aortic valve diseases'
+      type: any
+    - code: XE0Ua
+      value: Rheumatic endocarditis NOS
+      type: any
+    - code: XE0UZ
+      value: Mitral stenosis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

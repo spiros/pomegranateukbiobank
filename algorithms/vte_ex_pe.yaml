@@ -1,0 +1,422 @@
+metadata:
+  phenotype: Venous thromboembolic disease (Excl PE)
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: vte_ex_pe
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: a039e301-690c-42cc-8771-4487bbae3f26
+  ontologies:
+    DOID: null
+    GWAS: EFO_0004286
+    MESH: D054556
+    SNOMED-CT: 429098002
+    FINNGEN: I9_VTE
+  short_desc: Obstruction of a vein or veins by a blood clot in the blood stream.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1068'
+      value: venous thromboembolic disease
+      type: any
+    - code: '1094'
+      value: deep venous thrombosis (dvt)
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I80.1
+      value: Phlebitis and thrombophlebitis of femoral vein
+      type: any
+    - code: I80.2
+      value: Phlebitis and thrombophlebitis of other deep vessels of lower extremities
+      type: any
+    - code: I63.6
+      value: Cerebral infarction due to cerebral venous thrombosis, nonpyogenic
+      type: any
+    - code: I67.6
+      value: Nonpyogenic thrombosis of intracranial venous system
+      type: any
+    - code: I81
+      value: Portal vein thrombosis
+      type: any
+    - code: I82.0
+      value: Budd-Chiari syndrome
+      type: any
+    - code: I82.2
+      value: Embolism and thrombosis of vena cava
+      type: any
+    - code: I82.3
+      value: Embolism and thrombosis of renal vein
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I80.1
+      value: Phlebitis and thrombophlebitis of femoral vein
+      type: any
+    - code: I80.2
+      value: Phlebitis and thrombophlebitis of other deep vessels of lower extremities
+      type: any
+    - code: I63.6
+      value: Cerebral infarction due to cerebral venous thrombosis, nonpyogenic
+      type: any
+    - code: I67.6
+      value: Nonpyogenic thrombosis of intracranial venous system
+      type: any
+    - code: I81
+      value: Portal vein thrombosis
+      type: any
+    - code: I82.0
+      value: Budd-Chiari syndrome
+      type: any
+    - code: I82.2
+      value: Embolism and thrombosis of vena cava
+      type: any
+    - code: I82.3
+      value: Embolism and thrombosis of renal vein
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I80.1
+      value: Phlebitis and thrombophlebitis of femoral vein
+      type: any
+    - code: I80.2
+      value: Phlebitis and thrombophlebitis of other deep vessels of lower extremities
+      type: any
+    - code: I63.6
+      value: Cerebral infarction due to cerebral venous thrombosis, nonpyogenic
+      type: any
+    - code: I67.6
+      value: Nonpyogenic thrombosis of intracranial venous system
+      type: any
+    - code: I81
+      value: Portal vein thrombosis
+      type: any
+    - code: I82.0
+      value: Budd-Chiari syndrome
+      type: any
+    - code: I82.2
+      value: Embolism and thrombosis of vena cava
+      type: any
+    - code: I82.3
+      value: Embolism and thrombosis of renal vein
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I80.1
+      value: Phlebitis and thrombophlebitis of femoral vein
+      type: any
+    - code: I80.2
+      value: Phlebitis and thrombophlebitis of other deep vessels of lower extremities
+      type: any
+    - code: I63.6
+      value: Cerebral infarction due to cerebral venous thrombosis, nonpyogenic
+      type: any
+    - code: I67.6
+      value: Nonpyogenic thrombosis of intracranial venous system
+      type: any
+    - code: I81
+      value: Portal vein thrombosis
+      type: any
+    - code: I82.0
+      value: Budd-Chiari syndrome
+      type: any
+    - code: I82.2
+      value: Embolism and thrombosis of vena cava
+      type: any
+    - code: I82.3
+      value: Embolism and thrombosis of renal vein
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14A8100
+      value: 'H/O: Deep Vein Thrombosis'
+      type: prevalent
+    - code: 8CMWA00
+      value: On deep vein thrombosis care pathway
+      type: any
+    - code: 9kg0.00
+      value: DVT stage 1 service level - enhanced services administration
+      type: any
+    - code: 9kg..00
+      value: Deep vein thrombosis - enhanced services administration
+      type: any
+    - code: 9kg0.11
+      value: DVT enhanced services administration stage 1 service level
+      type: any
+    - code: 9kg1.00
+      value: DVT stage 2 service level - enhanced services administration
+      type: any
+    - code: 9kg2.00
+      value: DVT stage 3 service level - enhanced services administration
+      type: any
+    - code: F050000
+      value: Embolism cavernous sinus
+      type: any
+    - code: F050.00
+      value: Embolism of central nervous system venous sinus
+      type: any
+    - code: F05..00
+      value: Phlebitis and thrombophlebitis of intracranial sinuses
+      type: any
+    - code: F050100
+      value: Embolism superior longitudinal sinus
+      type: any
+    - code: F050300
+      value: Embolism transverse sinus
+      type: any
+    - code: F051000
+      value: Thrombosis cavernous sinus
+      type: any
+    - code: F051.00
+      value: Thrombosis of central nervous system venous sinuses
+      type: any
+    - code: F051100
+      value: Thrombosis of superior longitudinal sinus
+      type: any
+    - code: F051200
+      value: Thrombosis lateral sinus
+      type: any
+    - code: F051300
+      value: Thrombosis transverse sinus
+      type: any
+    - code: F051z00
+      value: Thrombosis of central nervous system venous sinus NOS
+      type: any
+    - code: F053000
+      value: Thrombophlebitis of cavernous sinus
+      type: any
+    - code: F053.00
+      value: Thrombophlebitis of central nervous system venous sinuses
+      type: any
+    - code: F053100
+      value: Thrombophlebitis of superior longitudinal venous sinus
+      type: any
+    - code: F05z.00
+      value: Phlebitis or thrombophlebitis of CNS venous sinus NOS
+      type: any
+    - code: G676000
+      value: Cereb infarct due cerebral venous thrombosis, nonpyogenic
+      type: any
+    - code: G676.00
+      value: Nonpyogenic venous sinus thrombosis
+      type: any
+    - code: G67A.00
+      value: Cerebral vein thrombosis
+      type: any
+    - code: G801.00
+      value: Deep vein phlebitis and thrombophlebitis of the leg
+      type: any
+    - code: G801.11
+      value: Deep vein thrombosis
+      type: any
+    - code: G801.12
+      value: Deep vein thrombosis, leg
+      type: any
+    - code: G801.13
+      value: DVT - Deep vein thrombosis
+      type: any
+    - code: G801600
+      value: Thrombophlebitis of the femoral vein
+      type: any
+    - code: G801700
+      value: Thrombophlebitis of the popliteal vein
+      type: any
+    - code: G801800
+      value: Thrombophlebitis of the anterior tibial vein
+      type: any
+    - code: G801900
+      value: Thrombophlebitis of the dorsalis pedis vein
+      type: any
+    - code: G801A00
+      value: Thrombophlebitis of the posterior tibial vein
+      type: any
+    - code: G801B00
+      value: Deep vein thrombophlebitis of the leg unspecified
+      type: any
+    - code: G801C00
+      value: Deep vein thrombosis of leg related to air travel
+      type: any
+    - code: G801D00
+      value: Deep vein thrombosis of lower limb
+      type: any
+    - code: G801E00
+      value: Deep vein thrombosis of leg related to intravenous drug use
+      type: any
+    - code: G801F00
+      value: Deep vein thrombosis of peroneal vein
+      type: any
+    - code: G801G00
+      value: Recurrent deep vein thrombosis
+      type: any
+    - code: G801z00
+      value: Deep vein phlebitis and thrombophlebitis of the leg NOS
+      type: any
+    - code: G80y.11
+      value: Phlebitis and/or thrombophlebitis of iliac vein
+      type: any
+    - code: G80y400
+      value: Thrombophlebitis of the common iliac vein
+      type: any
+    - code: G80y500
+      value: Thrombophlebitis of the internal iliac vein
+      type: any
+    - code: G80y600
+      value: Thrombophlebitis of the external iliac vein
+      type: any
+    - code: G80y700
+      value: Thrombophlebitis of the iliac vein unspecified
+      type: any
+    - code: G80y800
+      value: Phlebitis and thrombophlebitis of the iliac vein NOS
+      type: any
+    - code: G81..00
+      value: Portal vein thrombosis
+      type: any
+    - code: G820.00
+      value: Budd - Chiari syndrome (hepatic vein thrombosis)
+      type: any
+    - code: G820.11
+      value: Hepatic vein thrombosis
+      type: any
+    - code: G822000
+      value: Thrombosis of inferior vena cava
+      type: any
+    - code: G822.00
+      value: Embolism and thrombosis of the vena cava
+      type: any
+    - code: G823.00
+      value: Embolism and thrombosis of the renal vein
+      type: any
+    - code: G824.00
+      value: Axillary vein thrombosis
+      type: any
+    - code: G825.00
+      value: Thrombosis of subclavian vein
+      type: any
+    - code: G826.00
+      value: Thrombosis of internal jugular vein
+      type: any
+    - code: G827.00
+      value: Thrombosis of external jugular vein
+      type: any
+    - code: Gyu8000
+      value: '[X]Phlebitis+thrombophlebitis/oth deep vessls/low extremites'
+      type: any
+    - code: J420200
+      value: Thrombus of the superior mesenteric veins
+      type: any
+    - code: SP12200
+      value: Post operative deep vein thrombosis
+      type: any
+    - code: ZV12800
+      value: '[V] Personal history deep vein thrombosis'
+      type: prevalent
+    - code: ZV12811
+      value: '[V] Personal history DVT- deep vein thrombosis'
+      type: prevalent
+    - code: XaIIo
+      value: Deep vein thrombosis of leg related to air travel
+      type: any
+    - code: Xa9Bs
+      value: Deep vein thrombosis of lower limb
+      type: any
+    - code: XaZht
+      value: Thrombosis of subclavian vein
+      type: any
+    - code: XaaBG
+      value: On deep vein thrombosis care pathway
+      type: any
+    - code: Xa6Yt
+      value: Cerebral vein thrombosis
+      type: any
+    - code: Xaa2L
+      value: Thrombosis of external jugular vein
+      type: any
+    - code: XaBMc
+      value: '[V] Personal history deep vein thrombosis'
+      type: prevalent
+    - code: XE0VZ
+      value: Other phlebitis and thrombophlebitis
+      type: any
+    - code: Xa1oU
+      value: Thrombosis of inferior vena cava
+      type: any
+    - code: XaZ43
+      value: Recurrent deep vein thrombosis
+      type: any
+    - code: Xa6Yr
+      value: Axillary vein thrombosis
+      type: any
+    - code: XaJxo
+      value: Deep vein thrombosis of leg related to intravenous drug use
+      type: any
+    - code: XE0VY
+      value: Deep vein phlebitis and thrombophlebitis of the leg
+      type: any
+    - code: Xaa2K
+      value: Thrombosis of internal jugular vein
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

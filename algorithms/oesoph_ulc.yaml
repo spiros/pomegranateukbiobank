@@ -1,0 +1,195 @@
+metadata:
+  phenotype: Oesophagitis and oesophageal ulcer
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: oesoph_ulc
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 515f0924-1cc7-4fe9-b389-6970a2dddfbd
+  ontologies:
+    DOID: DOID_11963
+    GWAS: HP_0100633
+    MESH: D004941
+    SNOMED-CT: '16761005'
+    FINNGEN: K11_OESITIS
+  short_desc: Inflammation, acute or chronic, of the esophagus caused by bacteria,
+    chemicals, or trauma.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K20
+      value: Oesophagitis
+      type: any
+    - code: K21.0
+      value: Gastro-oesophageal reflux disease with oesophagitis
+      type: any
+    - code: K22.1
+      value: Ulcer of oesophagus
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K20
+      value: Oesophagitis
+      type: any
+    - code: K21.0
+      value: Gastro-oesophageal reflux disease with oesophagitis
+      type: any
+    - code: K22.1
+      value: Ulcer of oesophagus
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K20
+      value: Oesophagitis
+      type: any
+    - code: K21.0
+      value: Gastro-oesophageal reflux disease with oesophagitis
+      type: any
+    - code: K22.1
+      value: Ulcer of oesophagus
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K20
+      value: Oesophagitis
+      type: any
+    - code: K21.0
+      value: Gastro-oesophageal reflux disease with oesophagitis
+      type: any
+    - code: K22.1
+      value: Ulcer of oesophagus
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: J101000
+      value: Abscess of oesophagus
+      type: any
+    - code: J101.00
+      value: Oesophagitis
+      type: any
+    - code: J101100
+      value: Reflux oesophagitis
+      type: any
+    - code: J101112
+      value: Gastro-oesophageal reflux with oesophagitis
+      type: any
+    - code: J101113
+      value: Oesophageal reflux with oesophagitis
+      type: any
+    - code: J101114
+      value: Peptic oesophagitis
+      type: any
+    - code: J101115
+      value: Regurgitant oesophagitis
+      type: any
+    - code: J101200
+      value: Chemical oesophagitis
+      type: any
+    - code: J101300
+      value: Postoperative oesophagitis
+      type: any
+    - code: J101400
+      value: Gangrenous oesophagitis
+      type: any
+    - code: J101500
+      value: Phlegmonous oesophagitis
+      type: any
+    - code: J101600
+      value: Ulcerative oesophagitis
+      type: any
+    - code: J101y00
+      value: Other specified oesophagitis
+      type: any
+    - code: J101z00
+      value: Oesophagitis NOS
+      type: any
+    - code: J102000
+      value: Peptic ulcer of oesophagus
+      type: any
+    - code: J102.00
+      value: Ulcer of oesophagus
+      type: any
+    - code: J102100
+      value: Fungal ulcer of oesophagus
+      type: any
+    - code: J102200
+      value: Oesophageal ulcer due to aspirin
+      type: any
+    - code: J102300
+      value: Oesophageal ulcer due to chemicals
+      type: any
+    - code: J102400
+      value: Oesophageal ulcer due to medicines
+      type: any
+    - code: J102z00
+      value: Ulcer of oesophagus NOS
+      type: any
+    - code: J10y300
+      value: Oesophageal erosions
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

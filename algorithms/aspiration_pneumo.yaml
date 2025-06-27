@@ -1,0 +1,192 @@
+metadata:
+  phenotype: Aspiration pneumonitis
+  group: Respiratory
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: aspiration_pneumo
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 0b8ffb1c-f4b0-4118-8729-3e0fcfbc84e9
+  ontologies:
+    DOID: DOID_3240
+    GWAS: null
+    MESH: D011015
+    SNOMED-CT: 155597006
+    FINNGEN: null
+  short_desc: A type of lung inflammation resulting from the aspiration of food, liquid,
+    or gastric contents into the upper RESPIRATORY TRACT.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: J69.0
+      value: Pneumonitis due to food and vomit
+      type: any
+    - code: J69.1
+      value: Pneumonitis due to oils and essences
+      type: any
+    - code: J69.8
+      value: Pneumonitis due to other solids and liquids
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: J69.0
+      value: Pneumonitis due to food and vomit
+      type: any
+    - code: J69.1
+      value: Pneumonitis due to oils and essences
+      type: any
+    - code: J69.8
+      value: Pneumonitis due to other solids and liquids
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J69.0
+      value: Pneumonitis due to food and vomit
+      type: any
+    - code: J69.1
+      value: Pneumonitis due to oils and essences
+      type: any
+    - code: J69.8
+      value: Pneumonitis due to other solids and liquids
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J69.0
+      value: Pneumonitis due to food and vomit
+      type: any
+    - code: J69.1
+      value: Pneumonitis due to oils and essences
+      type: any
+    - code: J69.8
+      value: Pneumonitis due to other solids and liquids
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: H470000
+      value: Pneumonitis due to inhalation of regurgitated food
+      type: any
+    - code: H470100
+      value: Pneumonitis due to inhalation of gastric secretions
+      type: any
+    - code: H470200
+      value: Pneumonitis due to inhalation of milk
+      type: any
+    - code: H470211
+      value: Milk inhalation pneumonitis
+      type: any
+    - code: H470300
+      value: Pneumonitis due to inhalation of vomitus
+      type: any
+    - code: H470311
+      value: Vomit inhalation pneumonitis
+      type: any
+    - code: H470312
+      value: Aspiration pneumonia due to vomit
+      type: any
+    - code: H470.00
+      value: Pneumonitis due to inhalation of food or vomitus
+      type: any
+    - code: H470.11
+      value: Aspiration pneumonia
+      type: any
+    - code: H470z00
+      value: Pneumonitis due to inhalation of food or vomitus NOS
+      type: any
+    - code: H471000
+      value: Lipoid pneumonia (exogenous)
+      type: any
+    - code: H471.00
+      value: Pneumonitis due to inhalation of oil or essence
+      type: any
+    - code: H471z00
+      value: Pneumonitis due to inhalation of oil or essence NOS
+      type: any
+    - code: H47..00
+      value: Pneumonitis due to inhalation of solids or liquids
+      type: any
+    - code: H47..11
+      value: Aspiration pneumonitis
+      type: any
+    - code: H47y.00
+      value: Pneumonitis due to inhalation of other solid or liquid
+      type: any
+    - code: H47yz00
+      value: Pneumonitis due to inhalation of solid or liquid NOS
+      type: any
+    - code: H47z.00
+      value: Pneumonitis due to inhalation of solid or liquid NOS
+      type: any
+    - code: Hyu4700
+      value: '[X]Pneumonitis due to inhalation of other solids and liquids'
+      type: any
+    - code: SP13100
+      value: Other aspiration pneumonia as a complication of care
+      type: any
+    - code: H47yz
+      value: Pneumonitis due to inhalation of solid or liquid NOS
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

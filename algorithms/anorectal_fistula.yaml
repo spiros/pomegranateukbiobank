@@ -1,0 +1,229 @@
+metadata:
+  phenotype: Anorectal fistula
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: anorectal_fistula
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 9562f212-7362-403f-9023-06f1537a0ece
+  ontologies:
+    DOID: DOID_0060328
+    GWAS: HP_0010447
+    MESH: D012003
+    SNOMED-CT: '72779005'
+    FINNGEN: K11_FISSANAL
+  short_desc: An abnormal anatomical passage connecting the RECTUM to the outside,
+    with an orifice at the site of drainage.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K60.3
+      value: Anal fistula
+      type: any
+    - code: K60.4
+      value: Rectal fistula
+      type: any
+    - code: K60.5
+      value: Anorectal fistula
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K60.3
+      value: Anal fistula
+      type: any
+    - code: K60.4
+      value: Rectal fistula
+      type: any
+    - code: K60.5
+      value: Anorectal fistula
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: H55.1
+      value: Laying open of low anal fistula
+      type: any
+    - code: H55.2
+      value: Laying open of high anal fistula
+      type: any
+    - code: H55.3
+      value: Laying open of anal fistula NEC
+      type: any
+    - code: H55.4
+      value: Insertion of seton into high anal fistula and partial laying open of
+        track HFQ
+      type: any
+    - code: H55.5
+      value: Fistulography of anal fistula
+      type: any
+    - code: H55.6
+      value: Probing of perineal fistula
+      type: any
+    - code: H55.7
+      value: Repair of anal fistula using plug
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: H55.1
+      value: H55.1
+      type: any
+    - code: H55.2
+      value: H55.2
+      type: any
+    - code: H55.3
+      value: H55.3
+      type: any
+    - code: H55.4
+      value: H55.4
+      type: any
+    - code: H55.5
+      value: H55.5
+      type: any
+    - code: H55.6
+      value: H55.6
+      type: any
+    - code: H55.7
+      value: H55.7
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K60.3
+      value: Anal fistula
+      type: any
+    - code: K60.4
+      value: Rectal fistula
+      type: any
+    - code: K60.5
+      value: Anorectal fistula
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K60.3
+      value: Anal fistula
+      type: any
+    - code: K60.4
+      value: Rectal fistula
+      type: any
+    - code: K60.5
+      value: Anorectal fistula
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '7729700.0'
+      value: Closure of rectal fistula
+      type: any
+    - code: '7738000.0'
+      value: Laying open of low anal fistula
+      type: any
+    - code: '7738100.0'
+      value: Laying open of high anal fistula
+      type: any
+    - code: '7738200.0'
+      value: Laying open of anal fistula NEC
+      type: any
+    - code: '7738300.0'
+      value: Insertion seton in high anal fistula+part lay open track HFQ
+      type: any
+    - code: '7738400.0'
+      value: Fistulography of anal fistula
+      type: any
+    - code: '7738600.0'
+      value: Excision of fistula in ano
+      type: any
+    - code: '7738611.0'
+      value: Excision of anal fistula
+      type: any
+    - code: '7738.11'
+      value: Anal fistula operations
+      type: any
+    - code: '7738900.0'
+      value: Repair of anal fistula using plug
+      type: any
+    - code: J531000
+      value: Sub-mucosal anal fistula
+      type: any
+    - code: J531100
+      value: Inter-muscular anal fistula
+      type: any
+    - code: J531200
+      value: Ano-rectal fistula
+      type: any
+    - code: J531300
+      value: Rectal fistula
+      type: any
+    - code: J531.00
+      value: Fistula-in-ano
+      type: any
+    - code: J531z00
+      value: Fistula-in-ano NOS
+      type: any
+    - code: J53..00
+      value: Anal fissure and fistula
+      type: any
+    - code: J53z.00
+      value: Anal fissure and fistula NOS
+      type: any
+    - code: XaPpU
+      value: Repair of anal fistula using plug
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

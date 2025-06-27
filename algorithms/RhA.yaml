@@ -1,0 +1,369 @@
+metadata:
+  phenotype: Rheumatoid Arthritis
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: RhA
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: bee64bab-15f0-4c68-a786-aa7048d45cbe
+  priority: 1
+  ontologies:
+    DOID: DOID_7148
+    GWAS: EFO_0000685
+    MESH: D001172
+    SNOMED-CT: 69896004
+    FINNGEN: M13_RHEUMA
+  short_desc: An arthritis that is an autoimmune disease which attacks healthy cells
+    and tissue located_in joint.
+  long_desc: null
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1464'
+      value: rheumatoid arthritis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: J99.0
+      value: Rheumatoid lung disease
+      type: any
+    - code: M05
+      value: Seropositive rheumatoid arthritis
+      type: any
+    - code: M06
+      value: Other rheumatoid arthritis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: J99.0
+      value: Rheumatoid lung disease
+      type: any
+    - code: M05
+      value: Seropositive rheumatoid arthritis
+      type: any
+    - code: M06
+      value: Other rheumatoid arthritis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J99.0
+      value: Rheumatoid lung disease
+      type: any
+    - code: M05
+      value: Seropositive rheumatoid arthritis
+      type: any
+    - code: M06
+      value: Other rheumatoid arthritis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J99.0
+      value: Rheumatoid lung disease
+      type: any
+    - code: M05
+      value: Seropositive rheumatoid arthritis
+      type: any
+    - code: M06
+      value: Other rheumatoid arthritis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14G1.00
+      value: 'H/O: rheumatoid arthritis'
+      type: prevalent
+    - code: 2G25.00
+      value: O/E - hands - ulnar deviation
+      type: any
+    - code: 2G25.11
+      value: O/E - ulnar deviation
+      type: any
+    - code: 2G27.00
+      value: O/E-hands-rheumatoid spindling
+      type: any
+    - code: 66H..13
+      value: Rheumatoid arthrit. monitoring
+      type: prevalent
+    - code: 7P20300
+      value: Delivery of rehabilitation for rheumatoid arthritis
+      type: any
+    - code: 9mM0.00
+      value: Rheumatoid arthritis monitoring invitation first letter
+      type: prevalent
+    - code: 9mM1.00
+      value: Rheumatoid arthritis monitoring invitation second letter
+      type: prevalent
+    - code: 9mM2.00
+      value: Rheumatoid arthritis monitoring invitation third letter
+      type: prevalent
+    - code: 9mM3.00
+      value: Rheumatoid arthritis monitoring verbal invitation
+      type: prevalent
+    - code: 9mM4.00
+      value: Rheumatoid arthritis monitoring telephone invitation
+      type: prevalent
+    - code: 9mM..00
+      value: Rheumatoid arthritis monitoring invitation
+      type: prevalent
+    - code: F371200
+      value: Polyneuropathy in rheumatoid arthritis
+      type: any
+    - code: F396400
+      value: Myopathy due to rheumatoid arthritis
+      type: any
+    - code: G5y8.00
+      value: Rheumatoid myocarditis
+      type: any
+    - code: G5yA.00
+      value: Rheumatoid carditis
+      type: any
+    - code: H570.00
+      value: Rheumatoid lung
+      type: any
+    - code: N362200
+      value: Swan-neck finger deformity
+      type: any
+    - code: N040000
+      value: Rheumatoid arthritis of cervical spine
+      type: any
+    - code: N040100
+      value: Other rheumatoid arthritis of spine
+      type: any
+    - code: N040200
+      value: Rheumatoid arthritis of shoulder
+      type: any
+    - code: N040300
+      value: Rheumatoid arthritis of sternoclavicular joint
+      type: any
+    - code: N040400
+      value: Rheumatoid arthritis of acromioclavicular joint
+      type: any
+    - code: N040500
+      value: Rheumatoid arthritis of elbow
+      type: any
+    - code: N040600
+      value: Rheumatoid arthritis of distal radio-ulnar joint
+      type: any
+    - code: N040700
+      value: Rheumatoid arthritis of wrist
+      type: any
+    - code: N040800
+      value: Rheumatoid arthritis of MCP joint
+      type: any
+    - code: N040900
+      value: Rheumatoid arthritis of PIP joint of finger
+      type: any
+    - code: N040A00
+      value: Rheumatoid arthritis of DIP joint of finger
+      type: any
+    - code: N040B00
+      value: Rheumatoid arthritis of hip
+      type: any
+    - code: N040C00
+      value: Rheumatoid arthritis of sacro-iliac joint
+      type: any
+    - code: N040D00
+      value: Rheumatoid arthritis of knee
+      type: any
+    - code: N040E00
+      value: Rheumatoid arthritis of tibio-fibular joint
+      type: any
+    - code: N040F00
+      value: Rheumatoid arthritis of ankle
+      type: any
+    - code: N040G00
+      value: Rheumatoid arthritis of subtalar joint
+      type: any
+    - code: N040H00
+      value: Rheumatoid arthritis of talonavicular joint
+      type: any
+    - code: N040J00
+      value: Rheumatoid arthritis of other tarsal joint
+      type: any
+    - code: N040K00
+      value: Rheumatoid arthritis of 1st MTP joint
+      type: any
+    - code: N040L00
+      value: Rheumatoid arthritis of lesser MTP joint
+      type: any
+    - code: N040M00
+      value: Rheumatoid arthritis of IP joint of toe
+      type: any
+    - code: N040.00
+      value: Rheumatoid arthritis
+      type: any
+    - code: N040N00
+      value: Rheumatoid vasculitis
+      type: any
+    - code: N040P00
+      value: Seronegative rheumatoid arthritis
+      type: any
+    - code: N040Q00
+      value: Rheumatoid bursitis
+      type: any
+    - code: N040R00
+      value: Rheumatoid nodule
+      type: any
+    - code: N040S00
+      value: Rheumatoid arthritis - multiple joint
+      type: any
+    - code: N040T00
+      value: Flare of rheumatoid arthritis
+      type: any
+    - code: N041.00
+      value: Felty's syndrome
+      type: any
+    - code: N042100
+      value: Rheumatoid lung disease
+      type: any
+    - code: N042200
+      value: Rheumatoid nodule
+      type: any
+    - code: N042.00
+      value: Other rheumatoid arthropathy + visceral/systemic involvement
+      type: any
+    - code: N042z00
+      value: Rheumatoid arthropathy + visceral/systemic involvement NOS
+      type: any
+    - code: N047.00
+      value: Seropositive errosive rheumatoid arthritis
+      type: any
+    - code: N04..00
+      value: Rheumatoid arthritis and other inflammatory polyarthropathy
+      type: any
+    - code: N04X.00
+      value: Seropositive rheumatoid arthritis
+      type: any
+    - code: N04y000
+      value: Rheumatoid lung
+      type: any
+    - code: N04y011
+      value: Caplan's syndrome
+      type: any
+    - code: N04y012
+      value: Fibrosing alveolitis associated with rheumatoid arthritis
+      type: any
+    - code: N04y200
+      value: Adult-onset Still's disease
+      type: any
+    - code: N005.00
+      value: Adult Still's Disease
+      type: any
+    - code: Nyu1000
+      value: '[X]Rheumatoid arthritis+involvement/other organs or systems'
+      type: any
+    - code: Nyu1100
+      value: '[X]Other seropositive rheumatoid arthritis'
+      type: any
+    - code: Nyu1200
+      value: '[X]Other specified rheumatoid arthritis'
+      type: any
+    - code: Nyu1G00
+      value: '[X]Seropositive rheumatoid arthritis unspecified'
+      type: any
+    - code: XaaWt
+      value: Rheumatoid arthritis monitoring invitation first letter
+      type: prevalent
+    - code: X701i
+      value: Seronegative rheumatoid arthritis
+      type: any
+    - code: XE1DU
+      value: Rheumatoid arthritis and other inflammatory polyarthropathies
+      type: any
+    - code: XaaWw
+      value: Rheumatoid arthritis monitoring verbal invitation
+      type: prevalent
+    - code: X701l
+      value: Rheumatoid vasculitis
+      type: any
+    - code: Xa3gL
+      value: Rheumatoid arthritis - multiple joint
+      type: any
+    - code: XaaWu
+      value: Rheumatoid arthritis monitoring invitation second letter
+      type: prevalent
+    - code: XaaWv
+      value: Rheumatoid arthritis monitoring invitation third letter
+      type: prevalent
+    - code: XaaWx
+      value: Rheumatoid arthritis monitoring telephone invitation
+      type: prevalent
+    - code: N0422
+      value: Rheumatoid nodule
+      type: any
+    - code: XaBMO
+      value: Seropositive errosive rheumatoid arthritis
+      type: any
+    - code: XaaWW
+      value: Rheumatoid arthritis monitoring invitation
+      type: prevalent
+    - code: N0421
+      value: Rheumatoid lung
+      type: any
+    - code: XaLsj
+      value: Delivery of rehabilitation for rheumatoid arthritis
+      type: any
+    - code: N0421
+      value: Rheumatoid lung
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

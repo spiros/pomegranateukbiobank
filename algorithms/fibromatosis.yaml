@@ -1,0 +1,227 @@
+metadata:
+  phenotype: Fibromatoses
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: fibromatosis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 08a93441-a07c-4e67-9f33-86371c3846bd
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: D005350
+    SNOMED-CT: '19928005'
+    FINNGEN: null
+  short_desc: A group of soft tissue tumors which have certain characteristics in
+    common, including absence of cytologic and clinical malignant features, a histology
+    consistent with proliferation of well-differentiated fibroblasts, an infiltrative
+    growth pattern, and aggressive clinical behavior with frequent local recurrence.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1540'
+      value: plantar fascitis
+      type: any
+    - code: '1544'
+      value: dupuytren's contracture
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: M72.0
+      value: Palmar fascial fibromatosis [Dupuytren]
+      type: any
+    - code: M72.1
+      value: Knuckle pads
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: M72.0
+      value: Palmar fascial fibromatosis [Dupuytren]
+      type: any
+    - code: M72.1
+      value: Knuckle pads
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: T52.1
+      value: Palmar fasciectomy
+      type: any
+    - code: T52.2
+      value: Revision of palmar fasciectomy
+      type: any
+    - code: T54.1
+      value: Division of palmar fascia
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: T52.1
+      value: T52.1
+      type: any
+    - code: T52.2
+      value: T52.2
+      type: any
+    - code: T54.1
+      value: T54.1
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M72.0
+      value: Palmar fascial fibromatosis [Dupuytren]
+      type: any
+    - code: M72.1
+      value: Knuckle pads
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M72.0
+      value: Palmar fascial fibromatosis [Dupuytren]
+      type: any
+    - code: M72.1
+      value: Knuckle pads
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 7H32000
+      value: Palmar fasciectomy unspecified
+      type: any
+    - code: 7H32011
+      value: Dupuytren hand fasciectomy
+      type: any
+    - code: 7H32013
+      value: McIndoe radical palmar fasciectomy
+      type: any
+    - code: 7H32100
+      value: Revision of palmar fasciectomy
+      type: any
+    - code: 7H32400
+      value: Limited palmar fasciectomy
+      type: any
+    - code: 7H32500
+      value: Radical palmar fasciectomy
+      type: any
+    - code: 7H32700
+      value: Palmar fasciectomy using open palm technique
+      type: any
+    - code: 7H34000
+      value: Division of palmar fascia
+      type: any
+    - code: 7H34011
+      value: Division of hand fascia
+      type: any
+    - code: 7H34012
+      value: Dupuytren hand fasciotomy
+      type: any
+    - code: 7H34300
+      value: Needle fasciotomy of hand
+      type: any
+    - code: 7H35700
+      value: Fasciotomy hand
+      type: any
+    - code: N236000
+      value: Dupuytren's disease of palm
+      type: any
+    - code: N236100
+      value: Dupuytren's disease of palm, nodules with no contracture
+      type: any
+    - code: N236200
+      value: Dupuytren's disease of palm, with contracture
+      type: any
+    - code: N236300
+      value: Dupuytren's disease of finger(s)
+      type: any
+    - code: N236400
+      value: Dupuytren's disease - finger(s), nodules with no contracture
+      type: any
+    - code: N236500
+      value: Dupuytren's disease of finger(s), with contracture
+      type: any
+    - code: N236600
+      value: Dupuytren's disease of palm and finger(s)
+      type: any
+    - code: N236700
+      value: Dupuytren's dis, palm and finger(s), nodules, no contracture
+      type: any
+    - code: N236800
+      value: Dupuytren's disease of palm and finger(s), with contracture
+      type: any
+    - code: N236.00
+      value: Dupuytren's contracture
+      type: any
+    - code: N236.11
+      value: Palmar fascia contracture
+      type: any
+    - code: N237100
+      value: Knuckle pads
+      type: any
+    - code: XaXYd
+      value: Needle fasciotomy of hand
+      type: any
+    - code: XM0ug
+      value: Dupuytren's contracture
+      type: any
+    - code: XE04t
+      value: Division of palmar fascia
+      type: any
+    - code: XE04s
+      value: Palmar fasciectomy unspecified
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

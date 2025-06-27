@@ -1,0 +1,398 @@
+metadata:
+  phenotype: Primary Malignancy_Malignant Melanoma
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: pri_melanoma
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: a534cbbb-0b04-4347-8bf1-6eeeed899652
+  ontologies:
+    DOID: DOID_6846
+    GWAS: EFO_0000756
+    MESH: D008545
+    SNOMED-CT: 2092003
+    FINNGEN: C3_MELANOMA_SKIN
+  short_desc: A malignant neoplasm derived from cells that are capable of forming
+    melanin, which may occur in the skin of any part of the body, in the eye, or,
+    rarely, in the mucous membranes of the genitalia, anus, oral cavity, or other
+    sites.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1003'
+      value: skin cancer
+      type: any
+    - code: '1059'
+      value: malignant melanoma
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C43
+      value: Malignant melanoma of skin
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C43
+      value: Malignant melanoma of skin
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C43
+      value: Malignant melanoma of skin
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C43
+      value: Malignant melanoma of skin
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1425000.0'
+      value: H/O Malignant melanoma
+      type: prevalent
+    - code: 4M3..00
+      value: Breslow depth staging for melanoma
+      type: any
+    - code: 4M70.00
+      value: Clark melanoma level 1
+      type: any
+    - code: 4M71.00
+      value: Clark melanoma level 2
+      type: any
+    - code: 4M72.00
+      value: Clark melanoma level 3
+      type: any
+    - code: 4M73.00
+      value: Clark melanoma level 4
+      type: any
+    - code: 4M74.00
+      value: Clark melanoma level 5
+      type: any
+    - code: 7G03J00
+      value: Excision of melanoma
+      type: any
+    - code: B320.00
+      value: Malignant melanoma of lip
+      type: any
+    - code: B321.00
+      value: Malignant melanoma of eyelid including canthus
+      type: any
+    - code: B322000
+      value: Malignant melanoma of auricle (ear)
+      type: any
+    - code: B322100
+      value: Malignant melanoma of external auditory meatus
+      type: any
+    - code: B322.00
+      value: Malignant melanoma of ear and external auricular canal
+      type: any
+    - code: B322z00
+      value: Malignant melanoma of ear and external auricular canal NOS
+      type: any
+    - code: B323000
+      value: Malignant melanoma of external surface of cheek
+      type: any
+    - code: B323100
+      value: Malignant melanoma of chin
+      type: any
+    - code: B323200
+      value: Malignant melanoma of eyebrow
+      type: any
+    - code: B323300
+      value: Malignant melanoma of forehead
+      type: any
+    - code: B323400
+      value: Malignant melanoma of external surface of nose
+      type: any
+    - code: B323500
+      value: Malignant melanoma of temple
+      type: any
+    - code: B323.00
+      value: Malignant melanoma of other and unspecified parts of face
+      type: any
+    - code: B323z00
+      value: Malignant melanoma of face NOS
+      type: any
+    - code: B324000
+      value: Malignant melanoma of scalp
+      type: any
+    - code: B324100
+      value: Malignant melanoma of neck
+      type: any
+    - code: B324.00
+      value: Malignant melanoma of scalp and neck
+      type: any
+    - code: B324z00
+      value: Malignant melanoma of scalp and neck NOS
+      type: any
+    - code: B325000
+      value: Malignant melanoma of axilla
+      type: any
+    - code: B325100
+      value: Malignant melanoma of breast
+      type: any
+    - code: B325200
+      value: Malignant melanoma of buttock
+      type: any
+    - code: B325300
+      value: Malignant melanoma of groin
+      type: any
+    - code: B325400
+      value: Malignant melanoma of perianal skin
+      type: any
+    - code: B325500
+      value: Malignant melanoma of perineum
+      type: any
+    - code: B325600
+      value: Malignant melanoma of umbilicus
+      type: any
+    - code: B325700
+      value: Malignant melanoma of back
+      type: any
+    - code: B325800
+      value: Malignant melanoma of chest wall
+      type: any
+    - code: B325.00
+      value: Malignant melanoma of trunk (excluding scrotum)
+      type: any
+    - code: B325z00
+      value: Malignant melanoma of trunk, excluding scrotum, NOS
+      type: any
+    - code: B326000
+      value: Malignant melanoma of shoulder
+      type: any
+    - code: B326100
+      value: Malignant melanoma of upper arm
+      type: any
+    - code: B326200
+      value: Malignant melanoma of fore-arm
+      type: any
+    - code: B326300
+      value: Malignant melanoma of hand
+      type: any
+    - code: B326400
+      value: Malignant melanoma of finger
+      type: any
+    - code: B326500
+      value: Malignant melanoma of thumb
+      type: any
+    - code: B326.00
+      value: Malignant melanoma of upper limb and shoulder
+      type: any
+    - code: B326z00
+      value: Malignant melanoma of upper limb or shoulder NOS
+      type: any
+    - code: B327000
+      value: Malignant melanoma of hip
+      type: any
+    - code: B327100
+      value: Malignant melanoma of thigh
+      type: any
+    - code: B327200
+      value: Malignant melanoma of knee
+      type: any
+    - code: B327300
+      value: Malignant melanoma of popliteal fossa area
+      type: any
+    - code: B327400
+      value: Malignant melanoma of lower leg
+      type: any
+    - code: B327500
+      value: Malignant melanoma of ankle
+      type: any
+    - code: B327600
+      value: Malignant melanoma of heel
+      type: any
+    - code: B327700
+      value: Malignant melanoma of foot
+      type: any
+    - code: B327800
+      value: Malignant melanoma of toe
+      type: any
+    - code: B327900
+      value: Malignant melanoma of great toe
+      type: any
+    - code: B327.00
+      value: Malignant melanoma of lower limb and hip
+      type: any
+    - code: B327z00
+      value: Malignant melanoma of lower limb or hip NOS
+      type: any
+    - code: B32..00
+      value: Malignant melanoma of skin
+      type: any
+    - code: B32y000
+      value: Overlapping malignant melanoma of skin
+      type: any
+    - code: B32y.00
+      value: Malignant melanoma of other specified skin site
+      type: any
+    - code: B32z.00
+      value: Malignant melanoma of skin NOS
+      type: any
+    - code: BBE1000
+      value: '[M]Malignant melanoma, regressing'
+      type: any
+    - code: BBE1100
+      value: '[M]Desmoplastic melanoma, malignant'
+      type: any
+    - code: BBE1.00
+      value: '[M]Malignant melanoma NOS'
+      type: any
+    - code: BBE1.11
+      value: '[M]Melanocarcinoma'
+      type: any
+    - code: BBE1.12
+      value: '[M]Melanoma NOS'
+      type: any
+    - code: BBE1.13
+      value: '[M]Melanosarcoma NOS'
+      type: any
+    - code: BBE2.00
+      value: '[M]Nodular melanoma'
+      type: any
+    - code: BBE4.00
+      value: '[M]Balloon cell melanoma'
+      type: any
+    - code: BBEA.00
+      value: '[M]Amelanotic melanoma'
+      type: any
+    - code: BBEC.00
+      value: '[M]Malignant melanoma in junctional naevus'
+      type: any
+    - code: BBEF.00
+      value: '[M]Hutchinson''s melanotic freckle'
+      type: any
+    - code: BBEF.11
+      value: '[M]Lentigo maligna'
+      type: any
+    - code: BBEG000
+      value: '[M]Acral lentiginous melanoma, malignant'
+      type: any
+    - code: BBEG.00
+      value: '[M]Malignant melanoma in Hutchinson''s melanotic freckle'
+      type: any
+    - code: BBEG.11
+      value: '[M]Lentigo maligna melanoma'
+      type: any
+    - code: BBEH.00
+      value: '[M]Superficial spreading melanoma'
+      type: any
+    - code: BBEM.00
+      value: '[M]Malignant melanoma in giant pigmented naevus'
+      type: any
+    - code: BBEN.11
+      value: '[M]Juvenila melanoma'
+      type: any
+    - code: BBEP.00
+      value: '[M]Epithelioid cell melanoma'
+      type: any
+    - code: BBEQ.00
+      value: '[M]Spindle cell melanoma NOS'
+      type: any
+    - code: BBES.00
+      value: '[M]Spindle cell melanoma, type B'
+      type: any
+    - code: BBET.00
+      value: '[M]Mixed epithelioid and spindle melanoma'
+      type: any
+    - code: Byu4000
+      value: '[X]Malignant melanoma of other+unspecified parts of face'
+      type: any
+    - code: Byu4100
+      value: '[X]Malignant melanoma of skin, unspecified'
+      type: any
+    - code: XSNL7
+      value: Breslow depth staging for melanoma
+      type: any
+    - code: XSHw6
+      value: Clark melanoma level 3
+      type: any
+    - code: XSHw4
+      value: Clark melanoma level 1
+      type: any
+    - code: XSHw7
+      value: Clark melanoma level 4
+      type: any
+    - code: XaEGU
+      value: Malignant melanoma of chest wall
+      type: any
+    - code: XaCIv
+      value: Malignant melanoma of back
+      type: any
+    - code: XSHw8
+      value: Clark melanoma level 5
+      type: any
+    - code: XSHw5
+      value: Clark melanoma level 2
+      type: any
+    - code: XE1wX
+      value: '[M]Malignant melanoma NOS'
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C43
+      value: Malignant melanoma of skin
+      type: any

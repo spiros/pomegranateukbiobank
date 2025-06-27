@@ -1,0 +1,200 @@
+metadata:
+  phenotype: Erectile dysfunction
+  group: Genitourinary
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: ED
+  gender:
+  - male
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 0fedde63-0820-4dcb-9568-45e765f54efc
+  ontologies:
+    DOID: DOID_1875
+    GWAS: EFO_0004234
+    MESH: D007172
+    SNOMED-CT: 397803000
+    FINNGEN: ERECTILE_DYSFUNCTION
+  short_desc: Persistent or recurrent inability to achieve or to maintain an erection
+    during sexual activity.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1518'
+      value: erectile dysfunction / impotence
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: F52.2
+      value: Failure of genital response
+      type: any
+    - code: N48.4
+      value: Impotence of organic origin
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: F52.2
+      value: Failure of genital response
+      type: any
+    - code: N48.4
+      value: Impotence of organic origin
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F52.2
+      value: Failure of genital response
+      type: any
+    - code: N48.4
+      value: Impotence of organic origin
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F52.2
+      value: Failure of genital response
+      type: any
+    - code: N48.4
+      value: Impotence of organic origin
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 1ABB.00
+      value: Cannot get an erection
+      type: any
+    - code: 1ABC.00
+      value: Cannot sustain an erection
+      type: any
+    - code: 1D1B.00
+      value: C/O erectile dysfunction
+      type: any
+    - code: 7A6G000
+      value: Revascularisation for impotence
+      type: any
+    - code: 7A6G500
+      value: Ligation of penile veins for impotence
+      type: any
+    - code: 7C25B00
+      value: Penile injection to produce erection
+      type: any
+    - code: 7C25E00
+      value: Treatment of erectile dysfunction NEC
+      type: any
+    - code: 7C25F00
+      value: Operations on penis for erectile dysfunction NEC
+      type: any
+    - code: 8BB4.00
+      value: Erect dysf unresponsiv to phosphodiesterase-5 inhibitor
+      type: any
+    - code: 8HTj.00
+      value: Referral to erectile dysfunction clinic
+      type: any
+    - code: E227300
+      value: Impotence
+      type: any
+    - code: E227311
+      value: Erectile dysfunction
+      type: any
+    - code: Eu52200
+      value: '[X]Failure of genital response'
+      type: any
+    - code: Eu52212
+      value: '[X]Male erectile disorder'
+      type: any
+    - code: Eu52213
+      value: '[X]Psychogenic impotence'
+      type: any
+    - code: K27y100
+      value: Impotence of organic origin
+      type: any
+    - code: K27y700
+      value: Erectile dysfunction due to diabetes mellitus
+      type: any
+    - code: Z9E9.00
+      value: Provision of device for impotence
+      type: any
+    - code: ZG43600
+      value: Advice on technique for impotence
+      type: any
+    - code: XaXgw
+      value: C/O erectile dysfunction
+      type: any
+    - code: XaMsd
+      value: Operations on penis for erectile dysfunction NEC
+      type: any
+    - code: X76MO
+      value: Cannot sustain an erection
+      type: any
+    - code: XaXgy
+      value: Erectile dysfunction unresponsive to phosphodiesterase-5 inhibitor
+      type: any
+    - code: XaMBP
+      value: Treatment of erectile dysfunction NEC
+      type: any
+    - code: Xaa8r
+      value: Erectile dysfunction due to diabetes mellitus
+      type: any
+    - code: XaL47
+      value: Referral to erectile dysfunction clinic
+      type: any
+    - code: X76ME
+      value: Cannot get an erection
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,342 @@
+metadata:
+  phenotype: Other haemolytic anaemias
+  group: Haematological or immunological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: oth_haem_anaemia
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 01450425-9cac-4f65-bfe8-51c35a1f1566
+  ontologies:
+    DOID: DOID_718
+    GWAS: null
+    MESH: D000745
+    SNOMED-CT: 61261009
+    FINNGEN: D3_HEREDHAEMOLYTICANAEMIAOTHERNAS
+  short_desc: An autoimmune disease of blood that is characterized by deficient red
+    blood cells caused by auto-antibodies.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D55
+      value: Anaemia due to enzyme disorders
+      type: any
+    - code: D58
+      value: Other hereditary haemolytic anaemias
+      type: any
+    - code: D59
+      value: Acquired haemolytic anaemia
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D55
+      value: Anaemia due to enzyme disorders
+      type: any
+    - code: D58
+      value: Other hereditary haemolytic anaemias
+      type: any
+    - code: D59
+      value: Acquired haemolytic anaemia
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D55
+      value: Anaemia due to enzyme disorders
+      type: any
+    - code: D58
+      value: Other hereditary haemolytic anaemias
+      type: any
+    - code: D59
+      value: Acquired haemolytic anaemia
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D55
+      value: Anaemia due to enzyme disorders
+      type: any
+    - code: D58
+      value: Other hereditary haemolytic anaemias
+      type: any
+    - code: D59
+      value: Acquired haemolytic anaemia
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1453.00'
+      value: 'H/O: haemolytic anaemia'
+      type: prevalent
+    - code: D100.00
+      value: Hereditary spherocytosis
+      type: any
+    - code: D100.11
+      value: Acholuric familial jaundice
+      type: any
+    - code: D100.12
+      value: Minkowski - Chauffard syndrome
+      type: any
+    - code: D101.00
+      value: Hereditary elliptocytosis
+      type: any
+    - code: D101.11
+      value: Ovalocytosis - hereditary
+      type: any
+    - code: D102000
+      value: Glucose-6-phosphate dehydrogenase deficiency anaemia
+      type: any
+    - code: D102100
+      value: Favism
+      type: any
+    - code: D102200
+      value: Drug-induced enzyme deficiency anaemia
+      type: any
+    - code: D102.00
+      value: Haemolytic anaemia due to glutathione metabolism disorder
+      type: any
+    - code: D103000
+      value: Haemolytic anaemia due to hexokinase deficiency
+      type: any
+    - code: D103100
+      value: Haemolytic anaemia due to pyruvate kinase deficiency
+      type: any
+    - code: D103300
+      value: Anaemia due to disorders of nucleotide metabolism
+      type: any
+    - code: D103z00
+      value: Enzyme deficiency haemolytic anaemia NOS
+      type: any
+    - code: D107000
+      value: Congenital Heinz-body anaemia
+      type: any
+    - code: D107100
+      value: Hereditary persistence of fetal haemoglobin [HPFH]
+      type: any
+    - code: D107111
+      value: Hb F disease
+      type: any
+    - code: D107200
+      value: Haemoglobin Bart's disease
+      type: any
+    - code: D107300
+      value: Haemoglobin-C disease
+      type: any
+    - code: D107400
+      value: Haemoglobin-D disease
+      type: any
+    - code: D107500
+      value: Haemoglobin-E disease
+      type: any
+    - code: D107600
+      value: Haemoglobin Zurich disease
+      type: any
+    - code: D107700
+      value: Haemoglobin-H disease
+      type: any
+    - code: D107.00
+      value: Other haemoglobinopathies
+      type: any
+    - code: D107y00
+      value: Other specified other haemoglobinopathy
+      type: any
+    - code: D107z00
+      value: Other haemoglobinopathy NOS
+      type: any
+    - code: D10..00
+      value: Hereditary haemolytic anaemias
+      type: any
+    - code: D10y000
+      value: Stomatocytosis
+      type: any
+    - code: D10y.00
+      value: Other specified hereditary haemolytic anaemias
+      type: any
+    - code: D10yz00
+      value: Other specified hereditary haemolytic anaemia NOS
+      type: any
+    - code: D10z.00
+      value: Hereditary haemolytic anaemia NOS
+      type: any
+    - code: D110000
+      value: Primary cold-type haemolytic anaemia
+      type: any
+    - code: D110100
+      value: Primary warm-type haemolytic anaemia
+      type: any
+    - code: D110200
+      value: Secondary cold-type haemolytic anaemia
+      type: any
+    - code: D110400
+      value: Drug-induced autoimmune haemolytic anaemia
+      type: any
+    - code: D110.00
+      value: Autoimmune haemolytic anaemias
+      type: any
+    - code: D110.11
+      value: Coombs positive haemolysis
+      type: any
+    - code: D110z00
+      value: Autoimmune haemolytic anaemia NOS
+      type: any
+    - code: D111000
+      value: Mechanical haemolytic anaemia
+      type: any
+    - code: D111100
+      value: Microangiopathic haemolytic anaemia
+      type: any
+    - code: D111300
+      value: Haemolytic-uraemic syndrome
+      type: any
+    - code: D111400
+      value: Drug-induced haemolytic anaemia
+      type: any
+    - code: D111500
+      value: Infective haemolytic anaemia
+      type: any
+    - code: D111.00
+      value: Non-autoimmune haemolytic anaemia
+      type: any
+    - code: D111y00
+      value: Other specified non-autoimmune haemolytic anaemia
+      type: any
+    - code: D111z00
+      value: Non-autoimmune haemolytic anaemia NOS
+      type: any
+    - code: D112000
+      value: Haemoglobinuria from exertion
+      type: any
+    - code: D112011
+      value: March haemoglobinuria
+      type: any
+    - code: D112012
+      value: Marchiafava - Micheli syndrome
+      type: any
+    - code: D112100
+      value: Paroxysmal nocturnal haemoglobinuria
+      type: any
+    - code: D112200
+      value: Paroxysmal cold haemoglobinuria
+      type: any
+    - code: D112.00
+      value: Haemoglobinuria due to haemolysis from external causes
+      type: any
+    - code: D112z00
+      value: Haemoglobinuria due to haemolysis from external cause NOS
+      type: any
+    - code: D112z11
+      value: Cold haemoglobinuria
+      type: any
+    - code: D112z12
+      value: Acquired haemolytic anaemia with haemoglobinuria NEC
+      type: any
+    - code: D112z13
+      value: Paroxysmal haemoglobinuria NOS
+      type: any
+    - code: D11..00
+      value: Acquired haemolytic anaemias
+      type: any
+    - code: D11z000
+      value: Acquired spherocytosis
+      type: any
+    - code: D11z100
+      value: Pyknocytosis, infantile
+      type: any
+    - code: D11z.00
+      value: Acquired haemolytic anaemia NOS
+      type: any
+    - code: D1...00
+      value: Haemolytic anaemias
+      type: any
+    - code: D1y..00
+      value: Other specified haemolytic anaemias
+      type: any
+    - code: D1z..00
+      value: Haemolytic anaemias NOS
+      type: any
+    - code: Dyu1300
+      value: '[X]Other haemoglobinopathies'
+      type: any
+    - code: Dyu1500
+      value: '[X]Other autoimmune haemolytic anaemias'
+      type: any
+    - code: Dyu1.00
+      value: '[X]Haemolytic anaemias'
+      type: any
+    - code: Q430000
+      value: Neonatal jaundice + glucose-6-phosphate dehydrogenase defic.
+      type: any
+    - code: Q430.00
+      value: Perinatal jaundice from hereditary haemolytic anaemias
+      type: any
+    - code: Q430z00
+      value: Perinatal jaundice from hereditary haemolytic anaemia NOS
+      type: any
+    - code: XaC0z
+      value: Drug-induced autoimmune haemolytic anaemia
+      type: any
+    - code: XE13p
+      value: Haemoglobinuria due to haemolysis from external cause NOS
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

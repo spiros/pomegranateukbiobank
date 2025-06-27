@@ -1,0 +1,144 @@
+metadata:
+  phenotype: Parkinson's disease
+  group: Neurological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: Parkinsons
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 5d4b14a2-c7aa-411c-a29c-a455f133acbc
+  priority: 1
+  ontologies:
+    DOID: DOID_14330
+    GWAS: EFO_0002508
+    MESH: D010300
+    SNOMED-CT: 49049000
+    FINNGEN: G6_PARKINSON
+  short_desc: A synucleinopathy that has_material_basis_in degeneration of the central
+    nervous system that often impairs motor skills, speech, and other functions.
+  long_desc: null
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1262'
+      value: parkinsons disease
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: F02.3
+      value: Dementia in Parkinson's disease
+      type: any
+    - code: G20
+      value: Parkinson's disease
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: F02.3
+      value: Dementia in Parkinson's disease
+      type: any
+    - code: G20
+      value: Parkinson's disease
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F02.3
+      value: Dementia in Parkinson's disease
+      type: any
+    - code: G20
+      value: Parkinson's disease
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F02.3
+      value: Dementia in Parkinson's disease
+      type: any
+    - code: G20
+      value: Parkinson's disease
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 147F.00
+      value: History of Parkinson's disease
+      type: prevalent
+    - code: Eu02300
+      value: '[X]Dementia in Parkinson''s disease'
+      type: any
+    - code: F11x900
+      value: Cerebral degeneration in Parkinson's disease
+      type: any
+    - code: F120.00
+      value: Paralysis agitans
+      type: any
+    - code: F12..00
+      value: Parkinson's disease
+      type: any
+    - code: F12z.00
+      value: Parkinson's disease NOS
+      type: any
+    - code: XaQwf
+      value: History of Parkinson's disease
+      type: prevalent
+    - code: XaOfZ
+      value: Cerebral degeneration in Parkinson's disease
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

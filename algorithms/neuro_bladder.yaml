@@ -1,0 +1,198 @@
+metadata:
+  phenotype: Neuromuscular dysfunction of bladder
+  group: Genitourinary
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: neuro_bladder
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: a6a981ea-3ca1-4a54-aed7-7068bc812d8a
+  ontologies:
+    DOID: DOID_12143
+    GWAS: null
+    MESH: D001750
+    SNOMED-CT: 397732007
+    FINNGEN: N14_NEUROMUSCDYSBLADD
+  short_desc: Dysfunction of the URINARY BLADDER due to disease of the central or
+    peripheral nervous system pathways involved in the control of URINATION.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: N31
+      value: Neuromuscular dysfunction of bladder, not elsewhere classified
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: N31
+      value: Neuromuscular dysfunction of bladder, not elsewhere classified
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N31
+      value: Neuromuscular dysfunction of bladder, not elsewhere classified
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N31
+      value: Neuromuscular dysfunction of bladder, not elsewhere classified
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: F246111
+      value: Atonic bladder
+      type: any
+    - code: F246112
+      value: Neurogenic bladder
+      type: any
+    - code: F246113
+      value: Neuropathic bladder
+      type: any
+    - code: K164000
+      value: Hypotonic bladder
+      type: any
+    - code: K164100
+      value: Bladder inertia
+      type: any
+    - code: K164.00
+      value: Atony of bladder
+      type: any
+    - code: K164.11
+      value: Atonic bladder
+      type: any
+    - code: K164z00
+      value: Atony of bladder NOS
+      type: any
+    - code: K165000
+      value: Hypertonic bladder sphincter
+      type: any
+    - code: K165100
+      value: Bladder sphincter paralysis
+      type: any
+    - code: K165300
+      value: Detrusor instability
+      type: any
+    - code: K165400
+      value: Unstable bladder
+      type: any
+    - code: K165.00
+      value: Other functional disorder of bladder
+      type: any
+    - code: K165z00
+      value: Other bladder function disorder NOS
+      type: any
+    - code: K16V000
+      value: Neuropathic bladder
+      type: any
+    - code: K16V011
+      value: Neurogenic bladder
+      type: any
+    - code: K16V100
+      value: Overactive bladder
+      type: any
+    - code: K16V.00
+      value: Neuromuscular dysfunction of bladder, unspecified
+      type: any
+    - code: K16W.00
+      value: Reflex neuropathic bladder, not elsewhere classified
+      type: any
+    - code: K16X.00
+      value: Uninhibited neuropathic bladder, NEC
+      type: any
+    - code: K16y400
+      value: Irritable bladder
+      type: any
+    - code: K16y411
+      value: Detrusor instability
+      type: any
+    - code: K16y412
+      value: Unstable bladder
+      type: any
+    - code: K16y800
+      value: Functional disorder of bladder
+      type: any
+    - code: K16y811
+      value: Functional voiding disorder
+      type: any
+    - code: Kyu5200
+      value: '[X]Other neuromuscular dysfunction of bladder'
+      type: any
+    - code: Kyu5E00
+      value: '[X]Neuromuscular dysfunction of bladder, unspecified'
+      type: any
+    - code: X30Nj
+      value: Neuropathic bladder
+      type: any
+    - code: X30Ni
+      value: Functional disorder of bladder
+      type: any
+    - code: K16y4
+      value: Detrusor instability
+      type: any
+    - code: XE15W
+      value: Cauda equina syndrome with cord bladder
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

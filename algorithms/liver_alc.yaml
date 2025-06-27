@@ -1,0 +1,157 @@
+metadata:
+  phenotype: Alcoholic liver disease
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: liver_alc
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: e7b00392-7c19-4193-87d5-1bb6f53d4068
+  ontologies:
+    DOID: DOID_12351
+    GWAS: EFO_1001345
+    MESH: D008108
+    SNOMED-CT: 41309000
+    FINNGEN: ALCOLIVER
+  short_desc: Liver diseases associated with ALCOHOLISM. It usually refers to the
+    coexistence of two or more subentities, i.e., ALCOHOLIC FATTY LIVER; ALCOHOLIC
+    HEPATITIS; and ALCOHOLIC CIRRHOSIS.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1604'
+      value: alcoholic liver disease / alcoholic cirrhosis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K70
+      value: Alcoholic liver disease
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K70
+      value: Alcoholic liver disease
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K70
+      value: Alcoholic liver disease
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K70
+      value: Alcoholic liver disease
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: G852300
+      value: Oesophageal varices in alcoholic cirrhosis of the liver
+      type: any
+    - code: J610.00
+      value: Alcoholic fatty liver
+      type: any
+    - code: J611.00
+      value: Acute alcoholic hepatitis
+      type: any
+    - code: J612000
+      value: Alcoholic fibrosis and sclerosis of liver
+      type: any
+    - code: J612.00
+      value: Alcoholic cirrhosis of liver
+      type: any
+    - code: J612.12
+      value: Laennec's cirrhosis
+      type: any
+    - code: J613000
+      value: Alcoholic hepatic failure
+      type: any
+    - code: J613.00
+      value: Alcoholic liver damage unspecified
+      type: any
+    - code: J617000
+      value: Chronic alcoholic hepatitis
+      type: any
+    - code: J617.00
+      value: Alcoholic hepatitis
+      type: any
+    - code: XaBE3
+      value: Chronic alcoholic hepatitis
+      type: any
+    - code: XE0b4
+      value: Alcoholic cirrhosis of liver
+      type: any
+    - code: X3072
+      value: Alcoholic fibrosis and sclerosis of liver
+      type: any
+    - code: X306r
+      value: Alcoholic hepatitis
+      type: any
+    - code: X3073
+      value: Alcoholic hepatic failure
+      type: any
+    - code: XaC1d
+      value: Oesophageal varices in alcoholic cirrhosis of the liver
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

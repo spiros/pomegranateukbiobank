@@ -1,0 +1,309 @@
+metadata:
+  phenotype: Hepatic failure
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: liver_fail
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 1f49dfc5-f2cd-414e-98f5-d0c041587c36
+  ontologies:
+    DOID: DOID_13413
+    GWAS: HP_0001399
+    MESH: D017093
+    SNOMED-CT: 59927004
+    FINNGEN: K11_HEPFAIL
+  short_desc: Liver failure is the inability of the liver to perform its normal synthetic
+    and metabolic functions as part of normal physiology.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1158'
+      value: liver failure/cirrhosis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: B15.0
+      value: Hepatitis A with hepatic coma
+      type: any
+    - code: B16.0
+      value: Acute hepatitis B with delta-agent (coinfection) with hepatic coma
+      type: any
+    - code: B19.0
+      value: Unspecified viral hepatitis with hepatic coma
+      type: any
+    - code: K70.4
+      value: Alcoholic hepatic failure
+      type: any
+    - code: K71.1
+      value: Toxic liver disease with hepatic necrosis
+      type: any
+    - code: K72
+      value: Hepatic failure, not elsewhere classified
+      type: any
+    - code: K76.2
+      value: Central haemorrhagic necrosis of liver
+      type: any
+    - code: K76.3
+      value: Infarction of liver
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: B15.0
+      value: Hepatitis A with hepatic coma
+      type: any
+    - code: B16.0
+      value: Acute hepatitis B with delta-agent (coinfection) with hepatic coma
+      type: any
+    - code: B19.0
+      value: Unspecified viral hepatitis with hepatic coma
+      type: any
+    - code: K70.4
+      value: Alcoholic hepatic failure
+      type: any
+    - code: K71.1
+      value: Toxic liver disease with hepatic necrosis
+      type: any
+    - code: K72
+      value: Hepatic failure, not elsewhere classified
+      type: any
+    - code: K76.2
+      value: Central haemorrhagic necrosis of liver
+      type: any
+    - code: K76.3
+      value: Infarction of liver
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: B15.0
+      value: Hepatitis A with hepatic coma
+      type: any
+    - code: B16.0
+      value: Acute hepatitis B with delta-agent (coinfection) with hepatic coma
+      type: any
+    - code: B19.0
+      value: Unspecified viral hepatitis with hepatic coma
+      type: any
+    - code: K70.4
+      value: Alcoholic hepatic failure
+      type: any
+    - code: K71.1
+      value: Toxic liver disease with hepatic necrosis
+      type: any
+    - code: K72
+      value: Hepatic failure, not elsewhere classified
+      type: any
+    - code: K76.2
+      value: Central haemorrhagic necrosis of liver
+      type: any
+    - code: K76.3
+      value: Infarction of liver
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: B15.0
+      value: Hepatitis A with hepatic coma
+      type: any
+    - code: B16.0
+      value: Acute hepatitis B with delta-agent (coinfection) with hepatic coma
+      type: any
+    - code: B19.0
+      value: Unspecified viral hepatitis with hepatic coma
+      type: any
+    - code: K70.4
+      value: Alcoholic hepatic failure
+      type: any
+    - code: K71.1
+      value: Toxic liver disease with hepatic necrosis
+      type: any
+    - code: K72
+      value: Hepatic failure, not elsewhere classified
+      type: any
+    - code: K76.2
+      value: Central haemorrhagic necrosis of liver
+      type: any
+    - code: K76.3
+      value: Infarction of liver
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 7L1f.00
+      value: Compensation for liver failure
+      type: any
+    - code: 7L1fz00
+      value: Compensation for liver failure NOS
+      type: any
+    - code: A700.00
+      value: Viral hepatitis A with coma
+      type: any
+    - code: A702.00
+      value: Viral hepatitis B with coma
+      type: any
+    - code: A704000
+      value: Viral hepatitis C with coma
+      type: any
+    - code: A704.00
+      value: Other specified viral hepatitis with coma
+      type: any
+    - code: A704z00
+      value: Other specified viral hepatitis with hepatic coma NOS
+      type: any
+    - code: J600000
+      value: Acute hepatic failure
+      type: any
+    - code: J600011
+      value: Acute liver failure
+      type: any
+    - code: J600200
+      value: Acute yellow atrophy
+      type: any
+    - code: J600.00
+      value: Acute necrosis of liver
+      type: any
+    - code: J600z00
+      value: Acute necrosis of liver NOS
+      type: any
+    - code: J601000
+      value: Subacute hepatic failure
+      type: any
+    - code: J601200
+      value: Subacute yellow atrophy
+      type: any
+    - code: J601.00
+      value: Subacute necrosis of liver
+      type: any
+    - code: J601z00
+      value: Subacute necrosis of liver NOS
+      type: any
+    - code: J60..00
+      value: Acute and subacute liver necrosis
+      type: any
+    - code: J60z.00
+      value: Acute and subacute liver necrosis NOS
+      type: any
+    - code: J613000
+      value: Alcoholic hepatic failure
+      type: any
+    - code: J622.00
+      value: Hepatic coma
+      type: any
+    - code: J622.11
+      value: Encephalopathy - hepatic
+      type: any
+    - code: J625.00
+      value: '[X] Hepatic failure'
+      type: any
+    - code: J625.11
+      value: '[X] Liver failure'
+      type: any
+    - code: J62y.11
+      value: Hepatic failure NOS
+      type: any
+    - code: J62y.12
+      value: Liver failure NOS
+      type: any
+    - code: J62y.13
+      value: Hepatic failure
+      type: any
+    - code: J634.00
+      value: Hepatic infarction
+      type: any
+    - code: J635100
+      value: Toxic liver disease with hepatic necrosis
+      type: any
+    - code: J635700
+      value: Acute hepatic failure due to drugs
+      type: any
+    - code: J636.00
+      value: Central haemorrhagic necrosis of liver
+      type: any
+    - code: SP08600
+      value: Liver transplant failure and rejection
+      type: any
+    - code: SP14200
+      value: Hepatic failure as a complication of care
+      type: any
+    - code: SP14211
+      value: Liver failure as a complication of care
+      type: any
+    - code: X3073
+      value: Alcoholic hepatic failure
+      type: any
+    - code: XE0bC
+      value: Other sequelae of chronic liver disease
+      type: any
+    - code: XaMuG
+      value: Compensation for liver failure
+      type: any
+    - code: XaMuI
+      value: Compensation for liver failure NOS
+      type: any
+    - code: XaJxp
+      value: Acute hepatic failure due to drugs
+      type: any
+    - code: XE0bB
+      value: Hepatic coma
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

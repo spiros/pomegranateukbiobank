@@ -1,0 +1,359 @@
+metadata:
+  phenotype: Diabetic neurological complications
+  group: Neurological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: dm_neuro
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 440bc327-4f70-425f-bad3-28071056391b
+  ontologies:
+    DOID: DOID_9743
+    GWAS: EFO_1000783
+    MESH: D003929
+    SNOMED-CT: 230572002
+    FINNGEN: DM_NEUROPATHY
+  short_desc: A chronic, pathological complication associated with diabetes mellitus,
+    where nerve damages are incurred due to diabetic microvascular injury involving
+    small blood vessels that supply these nerves, resulting in peripheral and/or autonomic
+    nerve dysfunction.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1468'
+      value: diabetic neuropathy/ulcers
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: E10.4
+      value: Insulin-dependent diabetes mellitus - With neurological complications
+      type: any
+    - code: E11.4
+      value: Non-insulin-dependent diabetes mellitus - With neurological complications
+      type: any
+    - code: E12.4
+      value: Malnutrition-related diabetes mellitus - With neurological complications
+      type: any
+    - code: E13.4
+      value: Other specified diabetes mellitus - With neurological complications
+      type: any
+    - code: E14.4
+      value: Unspecified diabetes mellitus - With neurological complications
+      type: any
+    - code: G59.0
+      value: Diabetic mononeuropathy
+      type: any
+    - code: G63.2
+      value: Diabetic polyneuropathy
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: E10.4
+      value: Insulin-dependent diabetes mellitus - With neurological complications
+      type: any
+    - code: E11.4
+      value: Non-insulin-dependent diabetes mellitus - With neurological complications
+      type: any
+    - code: E12.4
+      value: Malnutrition-related diabetes mellitus - With neurological complications
+      type: any
+    - code: E13.4
+      value: Other specified diabetes mellitus - With neurological complications
+      type: any
+    - code: E14.4
+      value: Unspecified diabetes mellitus - With neurological complications
+      type: any
+    - code: G59.0
+      value: Diabetic mononeuropathy
+      type: any
+    - code: G63.2
+      value: Diabetic polyneuropathy
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: E10.4
+      value: Insulin-dependent diabetes mellitus - With neurological complications
+      type: any
+    - code: E11.4
+      value: Non-insulin-dependent diabetes mellitus - With neurological complications
+      type: any
+    - code: E12.4
+      value: Malnutrition-related diabetes mellitus - With neurological complications
+      type: any
+    - code: E13.4
+      value: Other specified diabetes mellitus - With neurological complications
+      type: any
+    - code: E14.4
+      value: Unspecified diabetes mellitus - With neurological complications
+      type: any
+    - code: G59.0
+      value: Diabetic mononeuropathy
+      type: any
+    - code: G63.2
+      value: Diabetic polyneuropathy
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: E10.4
+      value: Insulin-dependent diabetes mellitus - With neurological complications
+      type: any
+    - code: E11.4
+      value: Non-insulin-dependent diabetes mellitus - With neurological complications
+      type: any
+    - code: E12.4
+      value: Malnutrition-related diabetes mellitus - With neurological complications
+      type: any
+    - code: E13.4
+      value: Other specified diabetes mellitus - With neurological complications
+      type: any
+    - code: E14.4
+      value: Unspecified diabetes mellitus - With neurological complications
+      type: any
+    - code: G59.0
+      value: Diabetic mononeuropathy
+      type: any
+    - code: G63.2
+      value: Diabetic polyneuropathy
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: C106000
+      value: Diabetes mellitus, juvenile, + neurological manifestation
+      type: any
+    - code: C106100
+      value: Diabetes mellitus, adult onset, + neurological manifestation
+      type: any
+    - code: C106.00
+      value: Diabetes mellitus with neurological manifestation
+      type: any
+    - code: C106.11
+      value: Diabetic amyotrophy
+      type: any
+    - code: C106.12
+      value: Diabetes mellitus with neuropathy
+      type: any
+    - code: C106.13
+      value: Diabetes mellitus with polyneuropathy
+      type: any
+    - code: C106y00
+      value: Other specified diabetes mellitus with neurological comps
+      type: any
+    - code: C106z00
+      value: Diabetes mellitus NOS with neurological manifestation
+      type: any
+    - code: C108200
+      value: Insulin-dependent diabetes mellitus with neurological comps
+      type: any
+    - code: C108211
+      value: Type I diabetes mellitus with neurological complications
+      type: any
+    - code: C108212
+      value: Type 1 diabetes mellitus with neurological complications
+      type: any
+    - code: C108B00
+      value: Insulin dependent diabetes mellitus with mononeuropathy
+      type: any
+    - code: C108B11
+      value: Type I diabetes mellitus with mononeuropathy
+      type: any
+    - code: C108C00
+      value: Insulin dependent diabetes mellitus with polyneuropathy
+      type: any
+    - code: C108J00
+      value: Insulin dependent diab mell with neuropathic arthropathy
+      type: any
+    - code: C108J11
+      value: Type I diabetes mellitus with neuropathic arthropathy
+      type: any
+    - code: C108J12
+      value: Type 1 diabetes mellitus with neuropathic arthropathy
+      type: any
+    - code: C109200
+      value: Non-insulin-dependent diabetes mellitus with neuro comps
+      type: any
+    - code: C109211
+      value: Type II diabetes mellitus with neurological complications
+      type: any
+    - code: C109212
+      value: Type 2 diabetes mellitus with neurological complications
+      type: any
+    - code: C109A00
+      value: Non-insulin dependent diabetes mellitus with mononeuropathy
+      type: any
+    - code: C109A11
+      value: Type II diabetes mellitus with mononeuropathy
+      type: any
+    - code: C109B00
+      value: Non-insulin dependent diabetes mellitus with polyneuropathy
+      type: any
+    - code: C109B11
+      value: Type II diabetes mellitus with polyneuropathy
+      type: any
+    - code: C109B12
+      value: Type 2 diabetes mellitus with polyneuropathy
+      type: any
+    - code: C109H00
+      value: Non-insulin dependent d m with neuropathic arthropathy
+      type: any
+    - code: C109H11
+      value: Type II diabetes mellitus with neuropathic arthropathy
+      type: any
+    - code: C109H12
+      value: Type 2 diabetes mellitus with neuropathic arthropathy
+      type: any
+    - code: C10E200
+      value: Type 1 diabetes mellitus with neurological complications
+      type: any
+    - code: C10E212
+      value: Insulin-dependent diabetes mellitus with neurological comps
+      type: any
+    - code: C10EB00
+      value: Type 1 diabetes mellitus with mononeuropathy
+      type: any
+    - code: C10EC00
+      value: Type 1 diabetes mellitus with polyneuropathy
+      type: any
+    - code: C10EC11
+      value: Type I diabetes mellitus with polyneuropathy
+      type: any
+    - code: C10EC12
+      value: Insulin dependent diabetes mellitus with polyneuropathy
+      type: any
+    - code: C10EJ00
+      value: Type 1 diabetes mellitus with neuropathic arthropathy
+      type: any
+    - code: C10F200
+      value: Type 2 diabetes mellitus with neurological complications
+      type: any
+    - code: C10F211
+      value: Type II diabetes mellitus with neurological complications
+      type: any
+    - code: C10FA00
+      value: Type 2 diabetes mellitus with mononeuropathy
+      type: any
+    - code: C10FA11
+      value: Type II diabetes mellitus with mononeuropathy
+      type: any
+    - code: C10FB00
+      value: Type 2 diabetes mellitus with polyneuropathy
+      type: any
+    - code: C10FB11
+      value: Type II diabetes mellitus with polyneuropathy
+      type: any
+    - code: C10FH00
+      value: Type 2 diabetes mellitus with neuropathic arthropathy
+      type: any
+    - code: C10FH11
+      value: Type II diabetes mellitus with neuropathic arthropathy
+      type: any
+    - code: F171100
+      value: Autonomic neuropathy due to diabetes
+      type: any
+    - code: F345000
+      value: Diabetic mononeuritis multiplex
+      type: any
+    - code: F35z000
+      value: Diabetic mononeuritis NOS
+      type: any
+    - code: F372000
+      value: Acute painful diabetic neuropathy
+      type: any
+    - code: F372100
+      value: Chronic painful diabetic neuropathy
+      type: any
+    - code: F372200
+      value: Asymptomatic diabetic neuropathy
+      type: any
+    - code: F372.00
+      value: Polyneuropathy in diabetes
+      type: any
+    - code: F372.11
+      value: Diabetic polyneuropathy
+      type: any
+    - code: F372.12
+      value: Diabetic neuropathy
+      type: any
+    - code: F381300
+      value: Myasthenic syndrome due to diabetic amyotrophy
+      type: any
+    - code: F381311
+      value: Diabetic amyotrophy
+      type: any
+    - code: F3y0.00
+      value: Diabetic mononeuropathy
+      type: any
+    - code: M271100
+      value: Neuropathic diabetic ulcer - foot
+      type: any
+    - code: X00Al
+      value: Diabetic mononeuropathy
+      type: any
+    - code: XE15n
+      value: Myasthenic syndrome due to diabetic amyotrophy
+      type: any
+    - code: XE10H
+      value: Diabetes mellitus with neurological manifestation
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

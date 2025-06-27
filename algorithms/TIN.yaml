@@ -1,0 +1,336 @@
+metadata:
+  phenotype: Tubulo-interstitial nephritis
+  group: Genitourinary
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: TIN
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 60176c5a-7cf6-4676-a048-263fa47d4c33
+  ontologies:
+    DOID: DOID_1063
+    GWAS: null
+    MESH: D009395
+    SNOMED-CT: '428255004'
+    FINNGEN: N14_TUBULOINTNEPHRNAS
+  short_desc: Primary inflammation of tubules in the interstitial tissue of the kidney.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1515'
+      value: pyelonephritis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: N12
+      value: Tubulo-interstitial nephritis, not specified as acute or chronic
+      type: any
+    - code: N14.0
+      value: Analgesic nephropathy
+      type: any
+    - code: N14.1
+      value: Nephropathy induced by other drugs, medicaments and biological substances
+      type: any
+    - code: N14.2
+      value: Nephropathy induced by unspecified drug, medicament or biological substance
+      type: any
+    - code: N14.3
+      value: Nephropathy induced by heavy metals
+      type: any
+    - code: N14.4
+      value: Toxic nephropathy, not elsewhere classified
+      type: any
+    - code: N15.8
+      value: Other specified renal tubulo-interstitial diseases
+      type: any
+    - code: N15.9
+      value: Renal tubulo-interstitial disease, unspecified
+      type: any
+    - code: N16.1
+      value: Renal tubulo-interstitial disorders in neoplastic diseases
+      type: any
+    - code: N16.2
+      value: Renal tubulo-interstitial disorders in blood diseases and disorders involving
+        the immune mechanism
+      type: any
+    - code: N16.3
+      value: Renal tubulo-interstitial disorders in metabolic diseases
+      type: any
+    - code: N16.4
+      value: Renal tubulo-interstitial disorders in systemic connective tissue disorders
+      type: any
+    - code: N16.5
+      value: Renal tubulo-interstitial disorders in transplant rejection
+      type: any
+    - code: N16.8
+      value: Renal tubulo-interstitial disorders in other diseases classified elsewhere
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: N12
+      value: Tubulo-interstitial nephritis, not specified as acute or chronic
+      type: any
+    - code: N14.0
+      value: Analgesic nephropathy
+      type: any
+    - code: N14.1
+      value: Nephropathy induced by other drugs, medicaments and biological substances
+      type: any
+    - code: N14.2
+      value: Nephropathy induced by unspecified drug, medicament or biological substance
+      type: any
+    - code: N14.3
+      value: Nephropathy induced by heavy metals
+      type: any
+    - code: N14.4
+      value: Toxic nephropathy, not elsewhere classified
+      type: any
+    - code: N15.8
+      value: Other specified renal tubulo-interstitial diseases
+      type: any
+    - code: N15.9
+      value: Renal tubulo-interstitial disease, unspecified
+      type: any
+    - code: N16.1
+      value: Renal tubulo-interstitial disorders in neoplastic diseases
+      type: any
+    - code: N16.2
+      value: Renal tubulo-interstitial disorders in blood diseases and disorders involving
+        the immune mechanism
+      type: any
+    - code: N16.3
+      value: Renal tubulo-interstitial disorders in metabolic diseases
+      type: any
+    - code: N16.4
+      value: Renal tubulo-interstitial disorders in systemic connective tissue disorders
+      type: any
+    - code: N16.5
+      value: Renal tubulo-interstitial disorders in transplant rejection
+      type: any
+    - code: N16.8
+      value: Renal tubulo-interstitial disorders in other diseases classified elsewhere
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N12
+      value: Tubulo-interstitial nephritis, not specified as acute or chronic
+      type: any
+    - code: N14.0
+      value: Analgesic nephropathy
+      type: any
+    - code: N14.1
+      value: Nephropathy induced by other drugs, medicaments and biological substances
+      type: any
+    - code: N14.2
+      value: Nephropathy induced by unspecified drug, medicament or biological substance
+      type: any
+    - code: N14.3
+      value: Nephropathy induced by heavy metals
+      type: any
+    - code: N14.4
+      value: Toxic nephropathy, not elsewhere classified
+      type: any
+    - code: N15.8
+      value: Other specified renal tubulo-interstitial diseases
+      type: any
+    - code: N15.9
+      value: Renal tubulo-interstitial disease, unspecified
+      type: any
+    - code: N16.1
+      value: Renal tubulo-interstitial disorders in neoplastic diseases
+      type: any
+    - code: N16.2
+      value: Renal tubulo-interstitial disorders in blood diseases and disorders involving
+        the immune mechanism
+      type: any
+    - code: N16.3
+      value: Renal tubulo-interstitial disorders in metabolic diseases
+      type: any
+    - code: N16.4
+      value: Renal tubulo-interstitial disorders in systemic connective tissue disorders
+      type: any
+    - code: N16.5
+      value: Renal tubulo-interstitial disorders in transplant rejection
+      type: any
+    - code: N16.8
+      value: Renal tubulo-interstitial disorders in other diseases classified elsewhere
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N12
+      value: Tubulo-interstitial nephritis, not specified as acute or chronic
+      type: any
+    - code: N14.0
+      value: Analgesic nephropathy
+      type: any
+    - code: N14.1
+      value: Nephropathy induced by other drugs, medicaments and biological substances
+      type: any
+    - code: N14.2
+      value: Nephropathy induced by unspecified drug, medicament or biological substance
+      type: any
+    - code: N14.3
+      value: Nephropathy induced by heavy metals
+      type: any
+    - code: N14.4
+      value: Toxic nephropathy, not elsewhere classified
+      type: any
+    - code: N15.8
+      value: Other specified renal tubulo-interstitial diseases
+      type: any
+    - code: N15.9
+      value: Renal tubulo-interstitial disease, unspecified
+      type: any
+    - code: N16.1
+      value: Renal tubulo-interstitial disorders in neoplastic diseases
+      type: any
+    - code: N16.2
+      value: Renal tubulo-interstitial disorders in blood diseases and disorders involving
+        the immune mechanism
+      type: any
+    - code: N16.3
+      value: Renal tubulo-interstitial disorders in metabolic diseases
+      type: any
+    - code: N16.4
+      value: Renal tubulo-interstitial disorders in systemic connective tissue disorders
+      type: any
+    - code: N16.5
+      value: Renal tubulo-interstitial disorders in transplant rejection
+      type: any
+    - code: N16.8
+      value: Renal tubulo-interstitial disorders in other diseases classified elsewhere
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: K03T.00
+      value: Tubulo-interstit nephritis, not specif as acute or chron
+      type: any
+    - code: K03y200
+      value: Other interstitial nephritis
+      type: any
+    - code: K0B1.00
+      value: Renal tubulo-interstitial disorder/ neoplastic diseases
+      type: any
+    - code: K0B2.00
+      value: Ren tub-interst disordr/blood dis+disordr inv immune mech
+      type: any
+    - code: K0B4000
+      value: Renal tubulo-interstitial disorder in SLE
+      type: any
+    - code: K0B4.00
+      value: Ren tub-interstitl disordr/systemc connectv tiss disorder
+      type: any
+    - code: K0B5.00
+      value: Renal tubulo-interstitial disordrs in transplant rejectn
+      type: any
+    - code: K0B..00
+      value: Renal tubulo-interstitial disorders in diseases EC
+      type: any
+    - code: K0C0.00
+      value: Analgesic nephropathy
+      type: any
+    - code: K0C1.00
+      value: Nephropathy induced by other drugs meds and biologl substncs
+      type: any
+    - code: K0C2.00
+      value: Nephropathy induced by unspec drug medicament or biol subs
+      type: any
+    - code: K0C4.00
+      value: Toxic nephropathy, not elsewhere classified
+      type: any
+    - code: K0C5.00
+      value: Acute drug-induced interstitial nephritis
+      type: any
+    - code: K0C6.00
+      value: Chronic lithium nephrotoxicity
+      type: any
+    - code: K0C..00
+      value: Drug/heavy-metal-induced tubulo-interstitial and tub conditn
+      type: any
+    - code: Kyu1000
+      value: '[X]Other chronic tubulo-interstitial nephritis'
+      type: any
+    - code: Kyu1400
+      value: '[X]Nephropathy induced by other drugs+biological substances'
+      type: any
+    - code: Kyu1E00
+      value: '[X]Tubulo-interstit nephritis, not specif as acute or chron'
+      type: any
+    - code: Kyu1.00
+      value: '[X]Renal tubulo-interstitial diseases'
+      type: any
+    - code: X30JM
+      value: Acute drug-induced interstitial nephritis
+      type: any
+    - code: XaBE1
+      value: Renal tubulo-interstitial disorder in systemic lupus erythematosus
+      type: any
+    - code: X30LN
+      value: Chronic lithium nephrotoxicity
+      type: any
+    - code: X30JS
+      value: Analgesic nephropathy
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

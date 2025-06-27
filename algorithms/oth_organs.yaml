@@ -1,0 +1,2792 @@
+metadata:
+  phenotype: Infections of Other or unspecified organs
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: oth_organs
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 6bead58a-299c-4a6a-a6b6-677f56e50ba7
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: null
+    SNOMED-CT: null
+    FINNGEN: null
+  short_desc: Infections of Other or unspecified organs
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: A02.2
+      value: Localized salmonella infections
+      type: any
+    - code: A02.8
+      value: Other specified salmonella infections
+      type: any
+    - code: A02.9
+      value: Salmonella infection, unspecified
+      type: any
+    - code: A06.8
+      value: Amoebic infection of other sites
+      type: any
+    - code: A06.9
+      value: Amoebiasis, unspecified
+      type: any
+    - code: A18.7
+      value: Tuberculosis of adrenal glands
+      type: any
+    - code: A18.8
+      value: Tuberculosis of other specified organs
+      type: any
+    - code: A19
+      value: Miliary tuberculosis
+      type: any
+    - code: A20.8
+      value: Other forms of plague
+      type: any
+    - code: A20.9
+      value: Plague, unspecified
+      type: any
+    - code: A21.7
+      value: Generalised tularaemia
+      type: any
+    - code: A21.8
+      value: Other forms of tularaemia
+      type: any
+    - code: A21.9
+      value: Tularaemia, unspecified
+      type: any
+    - code: A22.8
+      value: Other forms of anthrax
+      type: any
+    - code: A22.9
+      value: Anthrax, unspecified
+      type: any
+    - code: A23
+      value: Brucellosis
+      type: any
+    - code: A24
+      value: Glanders and melioidosis
+      type: any
+    - code: A25
+      value: Rat-bite fevers
+      type: any
+    - code: A26.8
+      value: Other forms of erysipeloid
+      type: any
+    - code: A26.9
+      value: Erysipeloid, unspecified
+      type: any
+    - code: A27
+      value: Leptospirosis
+      type: any
+    - code: A28
+      value: Other zoonotic bacterial diseases, not elsewhere classified
+      type: any
+    - code: A30
+      value: Leprosy [Hansen's disease]
+      type: any
+    - code: A31.8
+      value: Other mycobacterial infections
+      type: any
+    - code: A31.9
+      value: Mycobacterial infection, unspecified
+      type: any
+    - code: A32.8
+      value: Other forms of listeriosis
+      type: any
+    - code: A32.9
+      value: Listeriosis, unspecified
+      type: any
+    - code: A35
+      value: Other tetanus
+      type: any
+    - code: A36.8
+      value: Other diphtheria
+      type: any
+    - code: A36.9
+      value: Diphtheria, unspecified
+      type: any
+    - code: A38
+      value: Scarlet fever
+      type: any
+    - code: A39.8
+      value: Other meningococcal infections
+      type: any
+    - code: A39.9
+      value: Meningococcal infection, unspecified
+      type: any
+    - code: A42.1
+      value: Abdominal actinomycosis
+      type: any
+    - code: A42.2
+      value: Cervicofacial actinomycosis
+      type: any
+    - code: A42.8
+      value: Other forms of actinomycosis
+      type: any
+    - code: A42.9
+      value: Actinomycosis, unspecified
+      type: any
+    - code: A43.8
+      value: Other forms of nocardiosis
+      type: any
+    - code: A43.9
+      value: Nocardiosis, unspecified
+      type: any
+    - code: A44
+      value: Bartonellosis
+      type: any
+    - code: A48
+      value: Other bacterial diseases, not elsewhere classified
+      type: any
+    - code: A49
+      value: Bacterial infection of unspecified site
+      type: any
+    - code: A50
+      value: Congenital syphilis
+      type: any
+    - code: A51.2
+      value: Primary syphilis of other sites
+      type: any
+    - code: A51.4
+      value: Other secondary syphilis
+      type: any
+    - code: A51.5
+      value: Early syphilis, latent
+      type: any
+    - code: A51.9
+      value: Early syphilis, unspecified
+      type: any
+    - code: A52.7
+      value: Other symptomatic late syphilis
+      type: any
+    - code: A52.8
+      value: Late syphilis, latent
+      type: any
+    - code: A52.9
+      value: Late syphilis, unspecified
+      type: any
+    - code: A53
+      value: Other and unspecified syphilis
+      type: any
+    - code: A54.8
+      value: Other gonococcal infections
+      type: any
+    - code: A54.9
+      value: Gonococcal infection, unspecified
+      type: any
+    - code: A56.8
+      value: Sexually transmitted chlamydial infection of other sites
+      type: any
+    - code: A59.8
+      value: Trichomoniasis of other sites
+      type: any
+    - code: A59.9
+      value: Trichomoniasis, unspecified
+      type: any
+    - code: A63.8
+      value: Other specified predominantly sexually transmitted diseases
+      type: any
+    - code: A64
+      value: Unspecified sexually transmitted disease
+      type: any
+    - code: A65
+      value: Nonvenereal syphilis
+      type: any
+    - code: A66
+      value: Yaws
+      type: any
+    - code: A67
+      value: Pinta [carate]
+      type: any
+    - code: A68
+      value: Relapsing fevers
+      type: any
+    - code: A69
+      value: Other spirochaetal infections
+      type: any
+    - code: A70
+      value: Chlamydia psittaci infection
+      type: any
+    - code: A74.8
+      value: Other chlamydial diseases
+      type: any
+    - code: A74.9
+      value: Chlamydial infection, unspecified
+      type: any
+    - code: A75
+      value: Typhus fever
+      type: any
+    - code: A77
+      value: Spotted fever [tick-borne rickettsioses]
+      type: any
+    - code: A78
+      value: Q fever
+      type: any
+    - code: A79
+      value: Other rickettsioses
+      type: any
+    - code: A90
+      value: Dengue fever [classical dengue]
+      type: any
+    - code: A91
+      value: Dengue haemorrhagic fever
+      type: any
+    - code: A92
+      value: Other mosquito-borne viral fevers
+      type: any
+    - code: A93
+      value: Other arthropod-borne viral fevers, not elsewhere classified
+      type: any
+    - code: A94
+      value: Unspecified arthropod-borne viral fever
+      type: any
+    - code: A95
+      value: Yellow fever
+      type: any
+    - code: A96
+      value: Arenaviral haemorrhagic fever
+      type: any
+    - code: A98
+      value: Other viral haemorrhagic fevers, not elsewhere classified
+      type: any
+    - code: A99
+      value: Unspecified viral haemorrhagic fever
+      type: any
+    - code: B00.2
+      value: Herpesviral gingivostomatitis and pharyngotonsillitis
+      type: any
+    - code: B00.7
+      value: Disseminated herpesviral disease
+      type: any
+    - code: B00.8
+      value: Other forms of herpesviral infection
+      type: any
+    - code: B00.9
+      value: Herpesviral infection, unspecified
+      type: any
+    - code: B01.8
+      value: Varicella with other complications
+      type: any
+    - code: B01.9
+      value: Varicella without complication
+      type: any
+    - code: B02.7
+      value: Disseminated zoster
+      type: any
+    - code: B02.8
+      value: Zoster with other complications
+      type: any
+    - code: B02.9
+      value: Zoster without complication
+      type: any
+    - code: B05.8
+      value: Measles with other complications
+      type: any
+    - code: B05.9
+      value: Measles without complication
+      type: any
+    - code: B06.8
+      value: Rubella with other complications
+      type: any
+    - code: B06.9
+      value: Rubella without complication
+      type: any
+    - code: B20
+      value: Human immunodeficiency virus [HIV] disease resulting in infectious and
+        parasitic diseases
+      type: any
+    - code: B21
+      value: Human immunodeficiency virus [HIV] disease resulting in malignant neoplasms
+      type: any
+    - code: B22
+      value: Human immunodeficiency virus [HIV] disease resulting in other specified
+        diseases
+      type: any
+    - code: B23
+      value: Human immunodeficiency virus [HIV] disease resulting in other conditions
+      type: any
+    - code: B24
+      value: Unspecified human immunodeficiency virus [HIV] disease
+      type: any
+    - code: B25.2
+      value: Cytomegaloviral pancreatitis
+      type: any
+    - code: B25.8
+      value: Other cytomegaloviral diseases
+      type: any
+    - code: B25.9
+      value: Cytomegaloviral disease, unspecified
+      type: any
+    - code: B26.8
+      value: Mumps with other complications
+      type: any
+    - code: B26.9
+      value: Mumps without complication
+      type: any
+    - code: B33.0
+      value: Epidemic myalgia
+      type: any
+    - code: B33.1
+      value: Ross River disease
+      type: any
+    - code: B33.3
+      value: Retrovirus infections, not elsewhere classified
+      type: any
+    - code: B33.4
+      value: Hantavirus (cardio-)pulmonary syndrome
+      type: any
+    - code: B33.8
+      value: Other specified viral diseases
+      type: any
+    - code: B34
+      value: Viral infection of unspecified site
+      type: any
+    - code: B37.0
+      value: Candidal stomatitis
+      type: any
+    - code: B37.8
+      value: Candidiasis of other sites
+      type: any
+    - code: B37.9
+      value: Candidiasis, unspecified
+      type: any
+    - code: B38.7
+      value: Disseminated coccidioidomycosis
+      type: any
+    - code: B38.8
+      value: Other forms of coccidioidomycosis
+      type: any
+    - code: B38.9
+      value: Coccidioidomycosis, unspecified
+      type: any
+    - code: B39.3
+      value: Disseminated histoplasmosis capsulati
+      type: any
+    - code: B39.4
+      value: Histoplasmosis capsulati, unspecified
+      type: any
+    - code: B39.5
+      value: Histoplasmosis duboisii
+      type: any
+    - code: B39.9
+      value: Histoplasmosis, unspecified
+      type: any
+    - code: B40.7
+      value: Disseminated blastomycosis
+      type: any
+    - code: B40.8
+      value: Other forms of blastomycosis
+      type: any
+    - code: B40.9
+      value: Blastomycosis, unspecified
+      type: any
+    - code: B41.7
+      value: Disseminated paracoccidioidomycosis
+      type: any
+    - code: B41.8
+      value: Other forms of paracoccidioidomycosis
+      type: any
+    - code: B41.9
+      value: Paracoccidioidomycosis, unspecified
+      type: any
+    - code: B42.7
+      value: Disseminated sporotrichosis
+      type: any
+    - code: B42.8
+      value: Other forms of sporotrichosis
+      type: any
+    - code: B42.9
+      value: Sporotrichosis, unspecified
+      type: any
+    - code: B43.8
+      value: Other forms of chromomycosis
+      type: any
+    - code: B43.9
+      value: Chromomycosis, unspecified
+      type: any
+    - code: B44.7
+      value: Disseminated aspergillosis
+      type: any
+    - code: B44.8
+      value: Other forms of aspergillosis
+      type: any
+    - code: B44.9
+      value: Aspergillosis, unspecified
+      type: any
+    - code: B45.7
+      value: Disseminated cryptococcosis
+      type: any
+    - code: B45.8
+      value: Other forms of cryptococcosis
+      type: any
+    - code: B45.9
+      value: Cryptococcosis, unspecified
+      type: any
+    - code: B46.1
+      value: Rhinocerebral mucormycosis
+      type: any
+    - code: B46.4
+      value: Disseminated mucormycosis
+      type: any
+    - code: B46.5
+      value: Mucormycosis, unspecified
+      type: any
+    - code: B46.8
+      value: Other zygomycoses
+      type: any
+    - code: B46.9
+      value: Zygomycosis, unspecified
+      type: any
+    - code: B47.0
+      value: Eumycetoma
+      type: any
+    - code: B47.1
+      value: Actinomycetoma
+      type: any
+    - code: B47.9
+      value: Mycetoma, unspecified
+      type: any
+    - code: B48
+      value: Other mycoses, not elsewhere classified
+      type: any
+    - code: B49
+      value: Unspecified mycosis
+      type: any
+    - code: B50.8
+      value: Other severe and complicated Plasmodium falciparum malaria
+      type: any
+    - code: B50.9
+      value: Plasmodium falciparum malaria, unspecified
+      type: any
+    - code: B51
+      value: Plasmodium vivax malaria
+      type: any
+    - code: B52
+      value: Plasmodium malariae malaria
+      type: any
+    - code: B53
+      value: Other parasitologically confirmed malaria
+      type: any
+    - code: B54
+      value: Unspecified malaria
+      type: any
+    - code: B55.0
+      value: Visceral leishmaniasis
+      type: any
+    - code: B55.2
+      value: Mucocutaneous leishmaniasis
+      type: any
+    - code: B55.9
+      value: Leishmaniasis, unspecified
+      type: any
+    - code: B57
+      value: Chagas' disease
+      type: any
+    - code: B58.8
+      value: Toxoplasmosis with other organ involvement
+      type: any
+    - code: B58.9
+      value: Toxoplasmosis, unspecified
+      type: any
+    - code: B60
+      value: Other protozoal diseases, not elsewhere classified
+      type: any
+    - code: B64
+      value: Unspecified protozoal disease
+      type: any
+    - code: B65
+      value: Schistosomiasis [bilharziasis]
+      type: any
+    - code: B66
+      value: Other fluke infections
+      type: any
+    - code: B67.3
+      value: Echinococcus granulosus infection, other and multiple sites
+      type: any
+    - code: B67.4
+      value: Echinococcus granulosus infection, unspecified
+      type: any
+    - code: B67.6
+      value: Echinococcus multilocularis infection, other and multiple sites
+      type: any
+    - code: B67.7
+      value: Echinococcus multilocularis infection, unspecified
+      type: any
+    - code: B67.9
+      value: Echinococcosis, other and unspecified
+      type: any
+    - code: B68
+      value: Taeniasis
+      type: any
+    - code: B69.8
+      value: Cysticercosis of other sites
+      type: any
+    - code: B69.9
+      value: Cysticercosis, unspecified
+      type: any
+    - code: B70
+      value: Diphyllobothriasis and sparganosis
+      type: any
+    - code: B71
+      value: Other cestode infections
+      type: any
+    - code: B72
+      value: Dracunculiasis
+      type: any
+    - code: B73
+      value: Onchocerciasis
+      type: any
+    - code: B74
+      value: Filariasis
+      type: any
+    - code: B75
+      value: Trichinellosis
+      type: any
+    - code: B76
+      value: Hookworm diseases
+      type: any
+    - code: B77
+      value: Ascariasis
+      type: any
+    - code: B78.7
+      value: Disseminated strongyloidiasis
+      type: any
+    - code: B78.9
+      value: Strongyloidiasis, unspecified
+      type: any
+    - code: B79
+      value: Trichuriasis
+      type: any
+    - code: B80
+      value: Enterobiasis
+      type: any
+    - code: B83
+      value: Other helminthiases
+      type: any
+    - code: B87.8
+      value: Myiasis of other sites
+      type: any
+    - code: B87.9
+      value: Myiasis, unspecified
+      type: any
+    - code: B89
+      value: Unspecified parasitic disease
+      type: any
+    - code: B90.8
+      value: Sequelae of tuberculosis of other organs
+      type: any
+    - code: B90.9
+      value: Sequelae of respiratory and unspecified tuberculosis
+      type: any
+    - code: B92
+      value: Sequelae of leprosy
+      type: any
+    - code: B94.8
+      value: Sequelae of other specified infectious and parasitic diseases
+      type: any
+    - code: B94.9
+      value: Sequelae of unspecified infectious or parasitic disease
+      type: any
+    - code: B95
+      value: Streptococcus and staphylococcus as the cause of diseases classified
+        to other chapters
+      type: any
+    - code: B96
+      value: Other specified bacterial agents as the cause of diseases classified
+        to other chapters
+      type: any
+    - code: B97
+      value: Viral agents as the cause of diseases classified to other chapters
+      type: any
+    - code: B98.1
+      value: Vibrio vulnificus as the cause of diseases classified to other chapters
+      type: any
+    - code: B99
+      value: Other and unspecified infectious diseases
+      type: any
+    - code: G04.1
+      value: Tropical spastic paraplegia
+      type: any
+    - code: G53.0
+      value: Postzoster neuralgia
+      type: any
+    - code: G53.1
+      value: Multiple cranial nerve palsies in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: G63.0
+      value: Polyneuropathy in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: G94.0
+      value: Hydrocephalus in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: J09
+      value: Influenza due to identified avian influenza virus
+      type: any
+    - code: J10.1
+      value: Influenza with other respiratory manifestations, other influenza virus
+        identified
+      type: any
+    - code: J10.8
+      value: Influenza with other manifestations, other influenza virus identified
+      type: any
+    - code: J11.1
+      value: Influenza with other respiratory manifestations, virus not identified
+      type: any
+    - code: J11.8
+      value: Influenza with other manifestations, virus not identified
+      type: any
+    - code: J37
+      value: Chronic laryngitis and laryngotracheitis
+      type: any
+    - code: J85.3
+      value: Abscess of mediastinum
+      type: any
+    - code: M60.0
+      value: Infective myositis
+      type: any
+    - code: M63.0
+      value: Myositis in bacterial diseases classified elsewhere
+      type: any
+    - code: M63.2
+      value: Myositis in other infectious diseases classified elsewhere
+      type: any
+    - code: M65.0
+      value: Abscess of tendon sheath
+      type: any
+    - code: M65.1
+      value: Other infective (teno)synovitis
+      type: any
+    - code: M68.0
+      value: Synovitis and tenosynovitis in bacterial diseases classified elsewhere
+      type: any
+    - code: M71.0
+      value: Abscess of bursa
+      type: any
+    - code: M71.1
+      value: Other infective bursitis
+      type: any
+    - code: M72.6
+      value: Necrotizing fasciitis
+      type: any
+    - code: M73.1
+      value: Syphilitic bursitis
+      type: any
+    - code: P35
+      value: Congenital viral diseases
+      type: any
+    - code: P37
+      value: Other congenital infectious and parasitic diseases
+      type: any
+    - code: P39.0
+      value: Neonatal infective mastitis
+      type: any
+    - code: P39.2
+      value: Intra-amniotic infection of fetus, not elsewhere classified
+      type: any
+    - code: P39.8
+      value: Other specified infections specific to the perinatal period
+      type: any
+    - code: P39.9
+      value: Infection specific to the perinatal period, unspecified
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: A02.2
+      value: Localized salmonella infections
+      type: any
+    - code: A02.8
+      value: Other specified salmonella infections
+      type: any
+    - code: A02.9
+      value: Salmonella infection, unspecified
+      type: any
+    - code: A06.8
+      value: Amoebic infection of other sites
+      type: any
+    - code: A06.9
+      value: Amoebiasis, unspecified
+      type: any
+    - code: A18.7
+      value: Tuberculosis of adrenal glands
+      type: any
+    - code: A18.8
+      value: Tuberculosis of other specified organs
+      type: any
+    - code: A19
+      value: Miliary tuberculosis
+      type: any
+    - code: A20.8
+      value: Other forms of plague
+      type: any
+    - code: A20.9
+      value: Plague, unspecified
+      type: any
+    - code: A21.7
+      value: Generalised tularaemia
+      type: any
+    - code: A21.8
+      value: Other forms of tularaemia
+      type: any
+    - code: A21.9
+      value: Tularaemia, unspecified
+      type: any
+    - code: A22.8
+      value: Other forms of anthrax
+      type: any
+    - code: A22.9
+      value: Anthrax, unspecified
+      type: any
+    - code: A23
+      value: Brucellosis
+      type: any
+    - code: A24
+      value: Glanders and melioidosis
+      type: any
+    - code: A25
+      value: Rat-bite fevers
+      type: any
+    - code: A26.8
+      value: Other forms of erysipeloid
+      type: any
+    - code: A26.9
+      value: Erysipeloid, unspecified
+      type: any
+    - code: A27
+      value: Leptospirosis
+      type: any
+    - code: A28
+      value: Other zoonotic bacterial diseases, not elsewhere classified
+      type: any
+    - code: A30
+      value: Leprosy [Hansen's disease]
+      type: any
+    - code: A31.8
+      value: Other mycobacterial infections
+      type: any
+    - code: A31.9
+      value: Mycobacterial infection, unspecified
+      type: any
+    - code: A32.8
+      value: Other forms of listeriosis
+      type: any
+    - code: A32.9
+      value: Listeriosis, unspecified
+      type: any
+    - code: A35
+      value: Other tetanus
+      type: any
+    - code: A36.8
+      value: Other diphtheria
+      type: any
+    - code: A36.9
+      value: Diphtheria, unspecified
+      type: any
+    - code: A38
+      value: Scarlet fever
+      type: any
+    - code: A39.8
+      value: Other meningococcal infections
+      type: any
+    - code: A39.9
+      value: Meningococcal infection, unspecified
+      type: any
+    - code: A42.1
+      value: Abdominal actinomycosis
+      type: any
+    - code: A42.2
+      value: Cervicofacial actinomycosis
+      type: any
+    - code: A42.8
+      value: Other forms of actinomycosis
+      type: any
+    - code: A42.9
+      value: Actinomycosis, unspecified
+      type: any
+    - code: A43.8
+      value: Other forms of nocardiosis
+      type: any
+    - code: A43.9
+      value: Nocardiosis, unspecified
+      type: any
+    - code: A44
+      value: Bartonellosis
+      type: any
+    - code: A48
+      value: Other bacterial diseases, not elsewhere classified
+      type: any
+    - code: A49
+      value: Bacterial infection of unspecified site
+      type: any
+    - code: A50
+      value: Congenital syphilis
+      type: any
+    - code: A51.2
+      value: Primary syphilis of other sites
+      type: any
+    - code: A51.4
+      value: Other secondary syphilis
+      type: any
+    - code: A51.5
+      value: Early syphilis, latent
+      type: any
+    - code: A51.9
+      value: Early syphilis, unspecified
+      type: any
+    - code: A52.7
+      value: Other symptomatic late syphilis
+      type: any
+    - code: A52.8
+      value: Late syphilis, latent
+      type: any
+    - code: A52.9
+      value: Late syphilis, unspecified
+      type: any
+    - code: A53
+      value: Other and unspecified syphilis
+      type: any
+    - code: A54.8
+      value: Other gonococcal infections
+      type: any
+    - code: A54.9
+      value: Gonococcal infection, unspecified
+      type: any
+    - code: A56.8
+      value: Sexually transmitted chlamydial infection of other sites
+      type: any
+    - code: A59.8
+      value: Trichomoniasis of other sites
+      type: any
+    - code: A59.9
+      value: Trichomoniasis, unspecified
+      type: any
+    - code: A63.8
+      value: Other specified predominantly sexually transmitted diseases
+      type: any
+    - code: A64
+      value: Unspecified sexually transmitted disease
+      type: any
+    - code: A65
+      value: Nonvenereal syphilis
+      type: any
+    - code: A66
+      value: Yaws
+      type: any
+    - code: A67
+      value: Pinta [carate]
+      type: any
+    - code: A68
+      value: Relapsing fevers
+      type: any
+    - code: A69
+      value: Other spirochaetal infections
+      type: any
+    - code: A70
+      value: Chlamydia psittaci infection
+      type: any
+    - code: A74.8
+      value: Other chlamydial diseases
+      type: any
+    - code: A74.9
+      value: Chlamydial infection, unspecified
+      type: any
+    - code: A75
+      value: Typhus fever
+      type: any
+    - code: A77
+      value: Spotted fever [tick-borne rickettsioses]
+      type: any
+    - code: A78
+      value: Q fever
+      type: any
+    - code: A79
+      value: Other rickettsioses
+      type: any
+    - code: A90
+      value: Dengue fever [classical dengue]
+      type: any
+    - code: A91
+      value: Dengue haemorrhagic fever
+      type: any
+    - code: A92
+      value: Other mosquito-borne viral fevers
+      type: any
+    - code: A93
+      value: Other arthropod-borne viral fevers, not elsewhere classified
+      type: any
+    - code: A94
+      value: Unspecified arthropod-borne viral fever
+      type: any
+    - code: A95
+      value: Yellow fever
+      type: any
+    - code: A96
+      value: Arenaviral haemorrhagic fever
+      type: any
+    - code: A98
+      value: Other viral haemorrhagic fevers, not elsewhere classified
+      type: any
+    - code: A99
+      value: Unspecified viral haemorrhagic fever
+      type: any
+    - code: B00.2
+      value: Herpesviral gingivostomatitis and pharyngotonsillitis
+      type: any
+    - code: B00.7
+      value: Disseminated herpesviral disease
+      type: any
+    - code: B00.8
+      value: Other forms of herpesviral infection
+      type: any
+    - code: B00.9
+      value: Herpesviral infection, unspecified
+      type: any
+    - code: B01.8
+      value: Varicella with other complications
+      type: any
+    - code: B01.9
+      value: Varicella without complication
+      type: any
+    - code: B02.7
+      value: Disseminated zoster
+      type: any
+    - code: B02.8
+      value: Zoster with other complications
+      type: any
+    - code: B02.9
+      value: Zoster without complication
+      type: any
+    - code: B05.8
+      value: Measles with other complications
+      type: any
+    - code: B05.9
+      value: Measles without complication
+      type: any
+    - code: B06.8
+      value: Rubella with other complications
+      type: any
+    - code: B06.9
+      value: Rubella without complication
+      type: any
+    - code: B20
+      value: Human immunodeficiency virus [HIV] disease resulting in infectious and
+        parasitic diseases
+      type: any
+    - code: B21
+      value: Human immunodeficiency virus [HIV] disease resulting in malignant neoplasms
+      type: any
+    - code: B22
+      value: Human immunodeficiency virus [HIV] disease resulting in other specified
+        diseases
+      type: any
+    - code: B23
+      value: Human immunodeficiency virus [HIV] disease resulting in other conditions
+      type: any
+    - code: B24
+      value: Unspecified human immunodeficiency virus [HIV] disease
+      type: any
+    - code: B25.2
+      value: Cytomegaloviral pancreatitis
+      type: any
+    - code: B25.8
+      value: Other cytomegaloviral diseases
+      type: any
+    - code: B25.9
+      value: Cytomegaloviral disease, unspecified
+      type: any
+    - code: B26.8
+      value: Mumps with other complications
+      type: any
+    - code: B26.9
+      value: Mumps without complication
+      type: any
+    - code: B33.0
+      value: Epidemic myalgia
+      type: any
+    - code: B33.1
+      value: Ross River disease
+      type: any
+    - code: B33.3
+      value: Retrovirus infections, not elsewhere classified
+      type: any
+    - code: B33.4
+      value: Hantavirus (cardio-)pulmonary syndrome
+      type: any
+    - code: B33.8
+      value: Other specified viral diseases
+      type: any
+    - code: B34
+      value: Viral infection of unspecified site
+      type: any
+    - code: B37.0
+      value: Candidal stomatitis
+      type: any
+    - code: B37.8
+      value: Candidiasis of other sites
+      type: any
+    - code: B37.9
+      value: Candidiasis, unspecified
+      type: any
+    - code: B38.7
+      value: Disseminated coccidioidomycosis
+      type: any
+    - code: B38.8
+      value: Other forms of coccidioidomycosis
+      type: any
+    - code: B38.9
+      value: Coccidioidomycosis, unspecified
+      type: any
+    - code: B39.3
+      value: Disseminated histoplasmosis capsulati
+      type: any
+    - code: B39.4
+      value: Histoplasmosis capsulati, unspecified
+      type: any
+    - code: B39.5
+      value: Histoplasmosis duboisii
+      type: any
+    - code: B39.9
+      value: Histoplasmosis, unspecified
+      type: any
+    - code: B40.7
+      value: Disseminated blastomycosis
+      type: any
+    - code: B40.8
+      value: Other forms of blastomycosis
+      type: any
+    - code: B40.9
+      value: Blastomycosis, unspecified
+      type: any
+    - code: B41.7
+      value: Disseminated paracoccidioidomycosis
+      type: any
+    - code: B41.8
+      value: Other forms of paracoccidioidomycosis
+      type: any
+    - code: B41.9
+      value: Paracoccidioidomycosis, unspecified
+      type: any
+    - code: B42.7
+      value: Disseminated sporotrichosis
+      type: any
+    - code: B42.8
+      value: Other forms of sporotrichosis
+      type: any
+    - code: B42.9
+      value: Sporotrichosis, unspecified
+      type: any
+    - code: B43.8
+      value: Other forms of chromomycosis
+      type: any
+    - code: B43.9
+      value: Chromomycosis, unspecified
+      type: any
+    - code: B44.7
+      value: Disseminated aspergillosis
+      type: any
+    - code: B44.8
+      value: Other forms of aspergillosis
+      type: any
+    - code: B44.9
+      value: Aspergillosis, unspecified
+      type: any
+    - code: B45.7
+      value: Disseminated cryptococcosis
+      type: any
+    - code: B45.8
+      value: Other forms of cryptococcosis
+      type: any
+    - code: B45.9
+      value: Cryptococcosis, unspecified
+      type: any
+    - code: B46.1
+      value: Rhinocerebral mucormycosis
+      type: any
+    - code: B46.4
+      value: Disseminated mucormycosis
+      type: any
+    - code: B46.5
+      value: Mucormycosis, unspecified
+      type: any
+    - code: B46.8
+      value: Other zygomycoses
+      type: any
+    - code: B46.9
+      value: Zygomycosis, unspecified
+      type: any
+    - code: B47.0
+      value: Eumycetoma
+      type: any
+    - code: B47.1
+      value: Actinomycetoma
+      type: any
+    - code: B47.9
+      value: Mycetoma, unspecified
+      type: any
+    - code: B48
+      value: Other mycoses, not elsewhere classified
+      type: any
+    - code: B49
+      value: Unspecified mycosis
+      type: any
+    - code: B50.8
+      value: Other severe and complicated Plasmodium falciparum malaria
+      type: any
+    - code: B50.9
+      value: Plasmodium falciparum malaria, unspecified
+      type: any
+    - code: B51
+      value: Plasmodium vivax malaria
+      type: any
+    - code: B52
+      value: Plasmodium malariae malaria
+      type: any
+    - code: B53
+      value: Other parasitologically confirmed malaria
+      type: any
+    - code: B54
+      value: Unspecified malaria
+      type: any
+    - code: B55.0
+      value: Visceral leishmaniasis
+      type: any
+    - code: B55.2
+      value: Mucocutaneous leishmaniasis
+      type: any
+    - code: B55.9
+      value: Leishmaniasis, unspecified
+      type: any
+    - code: B57
+      value: Chagas' disease
+      type: any
+    - code: B58.8
+      value: Toxoplasmosis with other organ involvement
+      type: any
+    - code: B58.9
+      value: Toxoplasmosis, unspecified
+      type: any
+    - code: B60
+      value: Other protozoal diseases, not elsewhere classified
+      type: any
+    - code: B64
+      value: Unspecified protozoal disease
+      type: any
+    - code: B65
+      value: Schistosomiasis [bilharziasis]
+      type: any
+    - code: B66
+      value: Other fluke infections
+      type: any
+    - code: B67.3
+      value: Echinococcus granulosus infection, other and multiple sites
+      type: any
+    - code: B67.4
+      value: Echinococcus granulosus infection, unspecified
+      type: any
+    - code: B67.6
+      value: Echinococcus multilocularis infection, other and multiple sites
+      type: any
+    - code: B67.7
+      value: Echinococcus multilocularis infection, unspecified
+      type: any
+    - code: B67.9
+      value: Echinococcosis, other and unspecified
+      type: any
+    - code: B68
+      value: Taeniasis
+      type: any
+    - code: B69.8
+      value: Cysticercosis of other sites
+      type: any
+    - code: B69.9
+      value: Cysticercosis, unspecified
+      type: any
+    - code: B70
+      value: Diphyllobothriasis and sparganosis
+      type: any
+    - code: B71
+      value: Other cestode infections
+      type: any
+    - code: B72
+      value: Dracunculiasis
+      type: any
+    - code: B73
+      value: Onchocerciasis
+      type: any
+    - code: B74
+      value: Filariasis
+      type: any
+    - code: B75
+      value: Trichinellosis
+      type: any
+    - code: B76
+      value: Hookworm diseases
+      type: any
+    - code: B77
+      value: Ascariasis
+      type: any
+    - code: B78.7
+      value: Disseminated strongyloidiasis
+      type: any
+    - code: B78.9
+      value: Strongyloidiasis, unspecified
+      type: any
+    - code: B79
+      value: Trichuriasis
+      type: any
+    - code: B80
+      value: Enterobiasis
+      type: any
+    - code: B83
+      value: Other helminthiases
+      type: any
+    - code: B87.8
+      value: Myiasis of other sites
+      type: any
+    - code: B87.9
+      value: Myiasis, unspecified
+      type: any
+    - code: B89
+      value: Unspecified parasitic disease
+      type: any
+    - code: B90.8
+      value: Sequelae of tuberculosis of other organs
+      type: any
+    - code: B90.9
+      value: Sequelae of respiratory and unspecified tuberculosis
+      type: any
+    - code: B92
+      value: Sequelae of leprosy
+      type: any
+    - code: B94.8
+      value: Sequelae of other specified infectious and parasitic diseases
+      type: any
+    - code: B94.9
+      value: Sequelae of unspecified infectious or parasitic disease
+      type: any
+    - code: B95
+      value: Streptococcus and staphylococcus as the cause of diseases classified
+        to other chapters
+      type: any
+    - code: B96
+      value: Other specified bacterial agents as the cause of diseases classified
+        to other chapters
+      type: any
+    - code: B97
+      value: Viral agents as the cause of diseases classified to other chapters
+      type: any
+    - code: B98.1
+      value: Vibrio vulnificus as the cause of diseases classified to other chapters
+      type: any
+    - code: B99
+      value: Other and unspecified infectious diseases
+      type: any
+    - code: G04.1
+      value: Tropical spastic paraplegia
+      type: any
+    - code: G53.0
+      value: Postzoster neuralgia
+      type: any
+    - code: G53.1
+      value: Multiple cranial nerve palsies in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: G63.0
+      value: Polyneuropathy in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: G94.0
+      value: Hydrocephalus in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: J09
+      value: Influenza due to identified avian influenza virus
+      type: any
+    - code: J10.1
+      value: Influenza with other respiratory manifestations, other influenza virus
+        identified
+      type: any
+    - code: J10.8
+      value: Influenza with other manifestations, other influenza virus identified
+      type: any
+    - code: J11.1
+      value: Influenza with other respiratory manifestations, virus not identified
+      type: any
+    - code: J11.8
+      value: Influenza with other manifestations, virus not identified
+      type: any
+    - code: J37
+      value: Chronic laryngitis and laryngotracheitis
+      type: any
+    - code: J85.3
+      value: Abscess of mediastinum
+      type: any
+    - code: M60.0
+      value: Infective myositis
+      type: any
+    - code: M63.0
+      value: Myositis in bacterial diseases classified elsewhere
+      type: any
+    - code: M63.2
+      value: Myositis in other infectious diseases classified elsewhere
+      type: any
+    - code: M65.0
+      value: Abscess of tendon sheath
+      type: any
+    - code: M65.1
+      value: Other infective (teno)synovitis
+      type: any
+    - code: M68.0
+      value: Synovitis and tenosynovitis in bacterial diseases classified elsewhere
+      type: any
+    - code: M71.0
+      value: Abscess of bursa
+      type: any
+    - code: M71.1
+      value: Other infective bursitis
+      type: any
+    - code: M72.6
+      value: Necrotizing fasciitis
+      type: any
+    - code: M73.1
+      value: Syphilitic bursitis
+      type: any
+    - code: P35
+      value: Congenital viral diseases
+      type: any
+    - code: P37
+      value: Other congenital infectious and parasitic diseases
+      type: any
+    - code: P39.0
+      value: Neonatal infective mastitis
+      type: any
+    - code: P39.2
+      value: Intra-amniotic infection of fetus, not elsewhere classified
+      type: any
+    - code: P39.8
+      value: Other specified infections specific to the perinatal period
+      type: any
+    - code: P39.9
+      value: Infection specific to the perinatal period, unspecified
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A02.2
+      value: Localized salmonella infections
+      type: any
+    - code: A02.8
+      value: Other specified salmonella infections
+      type: any
+    - code: A02.9
+      value: Salmonella infection, unspecified
+      type: any
+    - code: A06.8
+      value: Amoebic infection of other sites
+      type: any
+    - code: A06.9
+      value: Amoebiasis, unspecified
+      type: any
+    - code: A18.7
+      value: Tuberculosis of adrenal glands
+      type: any
+    - code: A18.8
+      value: Tuberculosis of other specified organs
+      type: any
+    - code: A19
+      value: Miliary tuberculosis
+      type: any
+    - code: A20.8
+      value: Other forms of plague
+      type: any
+    - code: A20.9
+      value: Plague, unspecified
+      type: any
+    - code: A21.7
+      value: Generalised tularaemia
+      type: any
+    - code: A21.8
+      value: Other forms of tularaemia
+      type: any
+    - code: A21.9
+      value: Tularaemia, unspecified
+      type: any
+    - code: A22.8
+      value: Other forms of anthrax
+      type: any
+    - code: A22.9
+      value: Anthrax, unspecified
+      type: any
+    - code: A23
+      value: Brucellosis
+      type: any
+    - code: A24
+      value: Glanders and melioidosis
+      type: any
+    - code: A25
+      value: Rat-bite fevers
+      type: any
+    - code: A26.8
+      value: Other forms of erysipeloid
+      type: any
+    - code: A26.9
+      value: Erysipeloid, unspecified
+      type: any
+    - code: A27
+      value: Leptospirosis
+      type: any
+    - code: A28
+      value: Other zoonotic bacterial diseases, not elsewhere classified
+      type: any
+    - code: A30
+      value: Leprosy [Hansen's disease]
+      type: any
+    - code: A31.8
+      value: Other mycobacterial infections
+      type: any
+    - code: A31.9
+      value: Mycobacterial infection, unspecified
+      type: any
+    - code: A32.8
+      value: Other forms of listeriosis
+      type: any
+    - code: A32.9
+      value: Listeriosis, unspecified
+      type: any
+    - code: A35
+      value: Other tetanus
+      type: any
+    - code: A36.8
+      value: Other diphtheria
+      type: any
+    - code: A36.9
+      value: Diphtheria, unspecified
+      type: any
+    - code: A38
+      value: Scarlet fever
+      type: any
+    - code: A39.8
+      value: Other meningococcal infections
+      type: any
+    - code: A39.9
+      value: Meningococcal infection, unspecified
+      type: any
+    - code: A42.1
+      value: Abdominal actinomycosis
+      type: any
+    - code: A42.2
+      value: Cervicofacial actinomycosis
+      type: any
+    - code: A42.8
+      value: Other forms of actinomycosis
+      type: any
+    - code: A42.9
+      value: Actinomycosis, unspecified
+      type: any
+    - code: A43.8
+      value: Other forms of nocardiosis
+      type: any
+    - code: A43.9
+      value: Nocardiosis, unspecified
+      type: any
+    - code: A44
+      value: Bartonellosis
+      type: any
+    - code: A48
+      value: Other bacterial diseases, not elsewhere classified
+      type: any
+    - code: A49
+      value: Bacterial infection of unspecified site
+      type: any
+    - code: A50
+      value: Congenital syphilis
+      type: any
+    - code: A51.2
+      value: Primary syphilis of other sites
+      type: any
+    - code: A51.4
+      value: Other secondary syphilis
+      type: any
+    - code: A51.5
+      value: Early syphilis, latent
+      type: any
+    - code: A51.9
+      value: Early syphilis, unspecified
+      type: any
+    - code: A52.7
+      value: Other symptomatic late syphilis
+      type: any
+    - code: A52.8
+      value: Late syphilis, latent
+      type: any
+    - code: A52.9
+      value: Late syphilis, unspecified
+      type: any
+    - code: A53
+      value: Other and unspecified syphilis
+      type: any
+    - code: A54.8
+      value: Other gonococcal infections
+      type: any
+    - code: A54.9
+      value: Gonococcal infection, unspecified
+      type: any
+    - code: A56.8
+      value: Sexually transmitted chlamydial infection of other sites
+      type: any
+    - code: A59.8
+      value: Trichomoniasis of other sites
+      type: any
+    - code: A59.9
+      value: Trichomoniasis, unspecified
+      type: any
+    - code: A63.8
+      value: Other specified predominantly sexually transmitted diseases
+      type: any
+    - code: A64
+      value: Unspecified sexually transmitted disease
+      type: any
+    - code: A65
+      value: Nonvenereal syphilis
+      type: any
+    - code: A66
+      value: Yaws
+      type: any
+    - code: A67
+      value: Pinta [carate]
+      type: any
+    - code: A68
+      value: Relapsing fevers
+      type: any
+    - code: A69
+      value: Other spirochaetal infections
+      type: any
+    - code: A70
+      value: Chlamydia psittaci infection
+      type: any
+    - code: A74.8
+      value: Other chlamydial diseases
+      type: any
+    - code: A74.9
+      value: Chlamydial infection, unspecified
+      type: any
+    - code: A75
+      value: Typhus fever
+      type: any
+    - code: A77
+      value: Spotted fever [tick-borne rickettsioses]
+      type: any
+    - code: A78
+      value: Q fever
+      type: any
+    - code: A79
+      value: Other rickettsioses
+      type: any
+    - code: A90
+      value: Dengue fever [classical dengue]
+      type: any
+    - code: A91
+      value: Dengue haemorrhagic fever
+      type: any
+    - code: A92
+      value: Other mosquito-borne viral fevers
+      type: any
+    - code: A93
+      value: Other arthropod-borne viral fevers, not elsewhere classified
+      type: any
+    - code: A94
+      value: Unspecified arthropod-borne viral fever
+      type: any
+    - code: A95
+      value: Yellow fever
+      type: any
+    - code: A96
+      value: Arenaviral haemorrhagic fever
+      type: any
+    - code: A98
+      value: Other viral haemorrhagic fevers, not elsewhere classified
+      type: any
+    - code: A99
+      value: Unspecified viral haemorrhagic fever
+      type: any
+    - code: B00.2
+      value: Herpesviral gingivostomatitis and pharyngotonsillitis
+      type: any
+    - code: B00.7
+      value: Disseminated herpesviral disease
+      type: any
+    - code: B00.8
+      value: Other forms of herpesviral infection
+      type: any
+    - code: B00.9
+      value: Herpesviral infection, unspecified
+      type: any
+    - code: B01.8
+      value: Varicella with other complications
+      type: any
+    - code: B01.9
+      value: Varicella without complication
+      type: any
+    - code: B02.7
+      value: Disseminated zoster
+      type: any
+    - code: B02.8
+      value: Zoster with other complications
+      type: any
+    - code: B02.9
+      value: Zoster without complication
+      type: any
+    - code: B05.8
+      value: Measles with other complications
+      type: any
+    - code: B05.9
+      value: Measles without complication
+      type: any
+    - code: B06.8
+      value: Rubella with other complications
+      type: any
+    - code: B06.9
+      value: Rubella without complication
+      type: any
+    - code: B20
+      value: Human immunodeficiency virus [HIV] disease resulting in infectious and
+        parasitic diseases
+      type: any
+    - code: B21
+      value: Human immunodeficiency virus [HIV] disease resulting in malignant neoplasms
+      type: any
+    - code: B22
+      value: Human immunodeficiency virus [HIV] disease resulting in other specified
+        diseases
+      type: any
+    - code: B23
+      value: Human immunodeficiency virus [HIV] disease resulting in other conditions
+      type: any
+    - code: B24
+      value: Unspecified human immunodeficiency virus [HIV] disease
+      type: any
+    - code: B25.2
+      value: Cytomegaloviral pancreatitis
+      type: any
+    - code: B25.8
+      value: Other cytomegaloviral diseases
+      type: any
+    - code: B25.9
+      value: Cytomegaloviral disease, unspecified
+      type: any
+    - code: B26.8
+      value: Mumps with other complications
+      type: any
+    - code: B26.9
+      value: Mumps without complication
+      type: any
+    - code: B33.0
+      value: Epidemic myalgia
+      type: any
+    - code: B33.1
+      value: Ross River disease
+      type: any
+    - code: B33.3
+      value: Retrovirus infections, not elsewhere classified
+      type: any
+    - code: B33.4
+      value: Hantavirus (cardio-)pulmonary syndrome
+      type: any
+    - code: B33.8
+      value: Other specified viral diseases
+      type: any
+    - code: B34
+      value: Viral infection of unspecified site
+      type: any
+    - code: B37.0
+      value: Candidal stomatitis
+      type: any
+    - code: B37.8
+      value: Candidiasis of other sites
+      type: any
+    - code: B37.9
+      value: Candidiasis, unspecified
+      type: any
+    - code: B38.7
+      value: Disseminated coccidioidomycosis
+      type: any
+    - code: B38.8
+      value: Other forms of coccidioidomycosis
+      type: any
+    - code: B38.9
+      value: Coccidioidomycosis, unspecified
+      type: any
+    - code: B39.3
+      value: Disseminated histoplasmosis capsulati
+      type: any
+    - code: B39.4
+      value: Histoplasmosis capsulati, unspecified
+      type: any
+    - code: B39.5
+      value: Histoplasmosis duboisii
+      type: any
+    - code: B39.9
+      value: Histoplasmosis, unspecified
+      type: any
+    - code: B40.7
+      value: Disseminated blastomycosis
+      type: any
+    - code: B40.8
+      value: Other forms of blastomycosis
+      type: any
+    - code: B40.9
+      value: Blastomycosis, unspecified
+      type: any
+    - code: B41.7
+      value: Disseminated paracoccidioidomycosis
+      type: any
+    - code: B41.8
+      value: Other forms of paracoccidioidomycosis
+      type: any
+    - code: B41.9
+      value: Paracoccidioidomycosis, unspecified
+      type: any
+    - code: B42.7
+      value: Disseminated sporotrichosis
+      type: any
+    - code: B42.8
+      value: Other forms of sporotrichosis
+      type: any
+    - code: B42.9
+      value: Sporotrichosis, unspecified
+      type: any
+    - code: B43.8
+      value: Other forms of chromomycosis
+      type: any
+    - code: B43.9
+      value: Chromomycosis, unspecified
+      type: any
+    - code: B44.7
+      value: Disseminated aspergillosis
+      type: any
+    - code: B44.8
+      value: Other forms of aspergillosis
+      type: any
+    - code: B44.9
+      value: Aspergillosis, unspecified
+      type: any
+    - code: B45.7
+      value: Disseminated cryptococcosis
+      type: any
+    - code: B45.8
+      value: Other forms of cryptococcosis
+      type: any
+    - code: B45.9
+      value: Cryptococcosis, unspecified
+      type: any
+    - code: B46.1
+      value: Rhinocerebral mucormycosis
+      type: any
+    - code: B46.4
+      value: Disseminated mucormycosis
+      type: any
+    - code: B46.5
+      value: Mucormycosis, unspecified
+      type: any
+    - code: B46.8
+      value: Other zygomycoses
+      type: any
+    - code: B46.9
+      value: Zygomycosis, unspecified
+      type: any
+    - code: B47.0
+      value: Eumycetoma
+      type: any
+    - code: B47.1
+      value: Actinomycetoma
+      type: any
+    - code: B47.9
+      value: Mycetoma, unspecified
+      type: any
+    - code: B48
+      value: Other mycoses, not elsewhere classified
+      type: any
+    - code: B49
+      value: Unspecified mycosis
+      type: any
+    - code: B50.8
+      value: Other severe and complicated Plasmodium falciparum malaria
+      type: any
+    - code: B50.9
+      value: Plasmodium falciparum malaria, unspecified
+      type: any
+    - code: B51
+      value: Plasmodium vivax malaria
+      type: any
+    - code: B52
+      value: Plasmodium malariae malaria
+      type: any
+    - code: B53
+      value: Other parasitologically confirmed malaria
+      type: any
+    - code: B54
+      value: Unspecified malaria
+      type: any
+    - code: B55.0
+      value: Visceral leishmaniasis
+      type: any
+    - code: B55.2
+      value: Mucocutaneous leishmaniasis
+      type: any
+    - code: B55.9
+      value: Leishmaniasis, unspecified
+      type: any
+    - code: B57
+      value: Chagas' disease
+      type: any
+    - code: B58.8
+      value: Toxoplasmosis with other organ involvement
+      type: any
+    - code: B58.9
+      value: Toxoplasmosis, unspecified
+      type: any
+    - code: B60
+      value: Other protozoal diseases, not elsewhere classified
+      type: any
+    - code: B64
+      value: Unspecified protozoal disease
+      type: any
+    - code: B65
+      value: Schistosomiasis [bilharziasis]
+      type: any
+    - code: B66
+      value: Other fluke infections
+      type: any
+    - code: B67.3
+      value: Echinococcus granulosus infection, other and multiple sites
+      type: any
+    - code: B67.4
+      value: Echinococcus granulosus infection, unspecified
+      type: any
+    - code: B67.6
+      value: Echinococcus multilocularis infection, other and multiple sites
+      type: any
+    - code: B67.7
+      value: Echinococcus multilocularis infection, unspecified
+      type: any
+    - code: B67.9
+      value: Echinococcosis, other and unspecified
+      type: any
+    - code: B68
+      value: Taeniasis
+      type: any
+    - code: B69.8
+      value: Cysticercosis of other sites
+      type: any
+    - code: B69.9
+      value: Cysticercosis, unspecified
+      type: any
+    - code: B70
+      value: Diphyllobothriasis and sparganosis
+      type: any
+    - code: B71
+      value: Other cestode infections
+      type: any
+    - code: B72
+      value: Dracunculiasis
+      type: any
+    - code: B73
+      value: Onchocerciasis
+      type: any
+    - code: B74
+      value: Filariasis
+      type: any
+    - code: B75
+      value: Trichinellosis
+      type: any
+    - code: B76
+      value: Hookworm diseases
+      type: any
+    - code: B77
+      value: Ascariasis
+      type: any
+    - code: B78.7
+      value: Disseminated strongyloidiasis
+      type: any
+    - code: B78.9
+      value: Strongyloidiasis, unspecified
+      type: any
+    - code: B79
+      value: Trichuriasis
+      type: any
+    - code: B80
+      value: Enterobiasis
+      type: any
+    - code: B83
+      value: Other helminthiases
+      type: any
+    - code: B87.8
+      value: Myiasis of other sites
+      type: any
+    - code: B87.9
+      value: Myiasis, unspecified
+      type: any
+    - code: B89
+      value: Unspecified parasitic disease
+      type: any
+    - code: B90.8
+      value: Sequelae of tuberculosis of other organs
+      type: any
+    - code: B90.9
+      value: Sequelae of respiratory and unspecified tuberculosis
+      type: any
+    - code: B92
+      value: Sequelae of leprosy
+      type: any
+    - code: B94.8
+      value: Sequelae of other specified infectious and parasitic diseases
+      type: any
+    - code: B94.9
+      value: Sequelae of unspecified infectious or parasitic disease
+      type: any
+    - code: B95
+      value: Streptococcus and staphylococcus as the cause of diseases classified
+        to other chapters
+      type: any
+    - code: B96
+      value: Other specified bacterial agents as the cause of diseases classified
+        to other chapters
+      type: any
+    - code: B97
+      value: Viral agents as the cause of diseases classified to other chapters
+      type: any
+    - code: B98.1
+      value: Vibrio vulnificus as the cause of diseases classified to other chapters
+      type: any
+    - code: B99
+      value: Other and unspecified infectious diseases
+      type: any
+    - code: G04.1
+      value: Tropical spastic paraplegia
+      type: any
+    - code: G53.0
+      value: Postzoster neuralgia
+      type: any
+    - code: G53.1
+      value: Multiple cranial nerve palsies in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: G63.0
+      value: Polyneuropathy in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: G94.0
+      value: Hydrocephalus in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: J09
+      value: Influenza due to identified avian influenza virus
+      type: any
+    - code: J10.1
+      value: Influenza with other respiratory manifestations, other influenza virus
+        identified
+      type: any
+    - code: J10.8
+      value: Influenza with other manifestations, other influenza virus identified
+      type: any
+    - code: J11.1
+      value: Influenza with other respiratory manifestations, virus not identified
+      type: any
+    - code: J11.8
+      value: Influenza with other manifestations, virus not identified
+      type: any
+    - code: J37
+      value: Chronic laryngitis and laryngotracheitis
+      type: any
+    - code: J85.3
+      value: Abscess of mediastinum
+      type: any
+    - code: M60.0
+      value: Infective myositis
+      type: any
+    - code: M63.0
+      value: Myositis in bacterial diseases classified elsewhere
+      type: any
+    - code: M63.2
+      value: Myositis in other infectious diseases classified elsewhere
+      type: any
+    - code: M65.0
+      value: Abscess of tendon sheath
+      type: any
+    - code: M65.1
+      value: Other infective (teno)synovitis
+      type: any
+    - code: M68.0
+      value: Synovitis and tenosynovitis in bacterial diseases classified elsewhere
+      type: any
+    - code: M71.0
+      value: Abscess of bursa
+      type: any
+    - code: M71.1
+      value: Other infective bursitis
+      type: any
+    - code: M72.6
+      value: Necrotizing fasciitis
+      type: any
+    - code: M73.1
+      value: Syphilitic bursitis
+      type: any
+    - code: P35
+      value: Congenital viral diseases
+      type: any
+    - code: P37
+      value: Other congenital infectious and parasitic diseases
+      type: any
+    - code: P39.0
+      value: Neonatal infective mastitis
+      type: any
+    - code: P39.2
+      value: Intra-amniotic infection of fetus, not elsewhere classified
+      type: any
+    - code: P39.8
+      value: Other specified infections specific to the perinatal period
+      type: any
+    - code: P39.9
+      value: Infection specific to the perinatal period, unspecified
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A02.2
+      value: Localized salmonella infections
+      type: any
+    - code: A02.8
+      value: Other specified salmonella infections
+      type: any
+    - code: A02.9
+      value: Salmonella infection, unspecified
+      type: any
+    - code: A06.8
+      value: Amoebic infection of other sites
+      type: any
+    - code: A06.9
+      value: Amoebiasis, unspecified
+      type: any
+    - code: A18.7
+      value: Tuberculosis of adrenal glands
+      type: any
+    - code: A18.8
+      value: Tuberculosis of other specified organs
+      type: any
+    - code: A19
+      value: Miliary tuberculosis
+      type: any
+    - code: A20.8
+      value: Other forms of plague
+      type: any
+    - code: A20.9
+      value: Plague, unspecified
+      type: any
+    - code: A21.7
+      value: Generalised tularaemia
+      type: any
+    - code: A21.8
+      value: Other forms of tularaemia
+      type: any
+    - code: A21.9
+      value: Tularaemia, unspecified
+      type: any
+    - code: A22.8
+      value: Other forms of anthrax
+      type: any
+    - code: A22.9
+      value: Anthrax, unspecified
+      type: any
+    - code: A23
+      value: Brucellosis
+      type: any
+    - code: A24
+      value: Glanders and melioidosis
+      type: any
+    - code: A25
+      value: Rat-bite fevers
+      type: any
+    - code: A26.8
+      value: Other forms of erysipeloid
+      type: any
+    - code: A26.9
+      value: Erysipeloid, unspecified
+      type: any
+    - code: A27
+      value: Leptospirosis
+      type: any
+    - code: A28
+      value: Other zoonotic bacterial diseases, not elsewhere classified
+      type: any
+    - code: A30
+      value: Leprosy [Hansen's disease]
+      type: any
+    - code: A31.8
+      value: Other mycobacterial infections
+      type: any
+    - code: A31.9
+      value: Mycobacterial infection, unspecified
+      type: any
+    - code: A32.8
+      value: Other forms of listeriosis
+      type: any
+    - code: A32.9
+      value: Listeriosis, unspecified
+      type: any
+    - code: A35
+      value: Other tetanus
+      type: any
+    - code: A36.8
+      value: Other diphtheria
+      type: any
+    - code: A36.9
+      value: Diphtheria, unspecified
+      type: any
+    - code: A38
+      value: Scarlet fever
+      type: any
+    - code: A39.8
+      value: Other meningococcal infections
+      type: any
+    - code: A39.9
+      value: Meningococcal infection, unspecified
+      type: any
+    - code: A42.1
+      value: Abdominal actinomycosis
+      type: any
+    - code: A42.2
+      value: Cervicofacial actinomycosis
+      type: any
+    - code: A42.8
+      value: Other forms of actinomycosis
+      type: any
+    - code: A42.9
+      value: Actinomycosis, unspecified
+      type: any
+    - code: A43.8
+      value: Other forms of nocardiosis
+      type: any
+    - code: A43.9
+      value: Nocardiosis, unspecified
+      type: any
+    - code: A44
+      value: Bartonellosis
+      type: any
+    - code: A48
+      value: Other bacterial diseases, not elsewhere classified
+      type: any
+    - code: A49
+      value: Bacterial infection of unspecified site
+      type: any
+    - code: A50
+      value: Congenital syphilis
+      type: any
+    - code: A51.2
+      value: Primary syphilis of other sites
+      type: any
+    - code: A51.4
+      value: Other secondary syphilis
+      type: any
+    - code: A51.5
+      value: Early syphilis, latent
+      type: any
+    - code: A51.9
+      value: Early syphilis, unspecified
+      type: any
+    - code: A52.7
+      value: Other symptomatic late syphilis
+      type: any
+    - code: A52.8
+      value: Late syphilis, latent
+      type: any
+    - code: A52.9
+      value: Late syphilis, unspecified
+      type: any
+    - code: A53
+      value: Other and unspecified syphilis
+      type: any
+    - code: A54.8
+      value: Other gonococcal infections
+      type: any
+    - code: A54.9
+      value: Gonococcal infection, unspecified
+      type: any
+    - code: A56.8
+      value: Sexually transmitted chlamydial infection of other sites
+      type: any
+    - code: A59.8
+      value: Trichomoniasis of other sites
+      type: any
+    - code: A59.9
+      value: Trichomoniasis, unspecified
+      type: any
+    - code: A63.8
+      value: Other specified predominantly sexually transmitted diseases
+      type: any
+    - code: A64
+      value: Unspecified sexually transmitted disease
+      type: any
+    - code: A65
+      value: Nonvenereal syphilis
+      type: any
+    - code: A66
+      value: Yaws
+      type: any
+    - code: A67
+      value: Pinta [carate]
+      type: any
+    - code: A68
+      value: Relapsing fevers
+      type: any
+    - code: A69
+      value: Other spirochaetal infections
+      type: any
+    - code: A70
+      value: Chlamydia psittaci infection
+      type: any
+    - code: A74.8
+      value: Other chlamydial diseases
+      type: any
+    - code: A74.9
+      value: Chlamydial infection, unspecified
+      type: any
+    - code: A75
+      value: Typhus fever
+      type: any
+    - code: A77
+      value: Spotted fever [tick-borne rickettsioses]
+      type: any
+    - code: A78
+      value: Q fever
+      type: any
+    - code: A79
+      value: Other rickettsioses
+      type: any
+    - code: A90
+      value: Dengue fever [classical dengue]
+      type: any
+    - code: A91
+      value: Dengue haemorrhagic fever
+      type: any
+    - code: A92
+      value: Other mosquito-borne viral fevers
+      type: any
+    - code: A93
+      value: Other arthropod-borne viral fevers, not elsewhere classified
+      type: any
+    - code: A94
+      value: Unspecified arthropod-borne viral fever
+      type: any
+    - code: A95
+      value: Yellow fever
+      type: any
+    - code: A96
+      value: Arenaviral haemorrhagic fever
+      type: any
+    - code: A98
+      value: Other viral haemorrhagic fevers, not elsewhere classified
+      type: any
+    - code: A99
+      value: Unspecified viral haemorrhagic fever
+      type: any
+    - code: B00.2
+      value: Herpesviral gingivostomatitis and pharyngotonsillitis
+      type: any
+    - code: B00.7
+      value: Disseminated herpesviral disease
+      type: any
+    - code: B00.8
+      value: Other forms of herpesviral infection
+      type: any
+    - code: B00.9
+      value: Herpesviral infection, unspecified
+      type: any
+    - code: B01.8
+      value: Varicella with other complications
+      type: any
+    - code: B01.9
+      value: Varicella without complication
+      type: any
+    - code: B02.7
+      value: Disseminated zoster
+      type: any
+    - code: B02.8
+      value: Zoster with other complications
+      type: any
+    - code: B02.9
+      value: Zoster without complication
+      type: any
+    - code: B05.8
+      value: Measles with other complications
+      type: any
+    - code: B05.9
+      value: Measles without complication
+      type: any
+    - code: B06.8
+      value: Rubella with other complications
+      type: any
+    - code: B06.9
+      value: Rubella without complication
+      type: any
+    - code: B20
+      value: Human immunodeficiency virus [HIV] disease resulting in infectious and
+        parasitic diseases
+      type: any
+    - code: B21
+      value: Human immunodeficiency virus [HIV] disease resulting in malignant neoplasms
+      type: any
+    - code: B22
+      value: Human immunodeficiency virus [HIV] disease resulting in other specified
+        diseases
+      type: any
+    - code: B23
+      value: Human immunodeficiency virus [HIV] disease resulting in other conditions
+      type: any
+    - code: B24
+      value: Unspecified human immunodeficiency virus [HIV] disease
+      type: any
+    - code: B25.2
+      value: Cytomegaloviral pancreatitis
+      type: any
+    - code: B25.8
+      value: Other cytomegaloviral diseases
+      type: any
+    - code: B25.9
+      value: Cytomegaloviral disease, unspecified
+      type: any
+    - code: B26.8
+      value: Mumps with other complications
+      type: any
+    - code: B26.9
+      value: Mumps without complication
+      type: any
+    - code: B33.0
+      value: Epidemic myalgia
+      type: any
+    - code: B33.1
+      value: Ross River disease
+      type: any
+    - code: B33.3
+      value: Retrovirus infections, not elsewhere classified
+      type: any
+    - code: B33.4
+      value: Hantavirus (cardio-)pulmonary syndrome
+      type: any
+    - code: B33.8
+      value: Other specified viral diseases
+      type: any
+    - code: B34
+      value: Viral infection of unspecified site
+      type: any
+    - code: B37.0
+      value: Candidal stomatitis
+      type: any
+    - code: B37.8
+      value: Candidiasis of other sites
+      type: any
+    - code: B37.9
+      value: Candidiasis, unspecified
+      type: any
+    - code: B38.7
+      value: Disseminated coccidioidomycosis
+      type: any
+    - code: B38.8
+      value: Other forms of coccidioidomycosis
+      type: any
+    - code: B38.9
+      value: Coccidioidomycosis, unspecified
+      type: any
+    - code: B39.3
+      value: Disseminated histoplasmosis capsulati
+      type: any
+    - code: B39.4
+      value: Histoplasmosis capsulati, unspecified
+      type: any
+    - code: B39.5
+      value: Histoplasmosis duboisii
+      type: any
+    - code: B39.9
+      value: Histoplasmosis, unspecified
+      type: any
+    - code: B40.7
+      value: Disseminated blastomycosis
+      type: any
+    - code: B40.8
+      value: Other forms of blastomycosis
+      type: any
+    - code: B40.9
+      value: Blastomycosis, unspecified
+      type: any
+    - code: B41.7
+      value: Disseminated paracoccidioidomycosis
+      type: any
+    - code: B41.8
+      value: Other forms of paracoccidioidomycosis
+      type: any
+    - code: B41.9
+      value: Paracoccidioidomycosis, unspecified
+      type: any
+    - code: B42.7
+      value: Disseminated sporotrichosis
+      type: any
+    - code: B42.8
+      value: Other forms of sporotrichosis
+      type: any
+    - code: B42.9
+      value: Sporotrichosis, unspecified
+      type: any
+    - code: B43.8
+      value: Other forms of chromomycosis
+      type: any
+    - code: B43.9
+      value: Chromomycosis, unspecified
+      type: any
+    - code: B44.7
+      value: Disseminated aspergillosis
+      type: any
+    - code: B44.8
+      value: Other forms of aspergillosis
+      type: any
+    - code: B44.9
+      value: Aspergillosis, unspecified
+      type: any
+    - code: B45.7
+      value: Disseminated cryptococcosis
+      type: any
+    - code: B45.8
+      value: Other forms of cryptococcosis
+      type: any
+    - code: B45.9
+      value: Cryptococcosis, unspecified
+      type: any
+    - code: B46.1
+      value: Rhinocerebral mucormycosis
+      type: any
+    - code: B46.4
+      value: Disseminated mucormycosis
+      type: any
+    - code: B46.5
+      value: Mucormycosis, unspecified
+      type: any
+    - code: B46.8
+      value: Other zygomycoses
+      type: any
+    - code: B46.9
+      value: Zygomycosis, unspecified
+      type: any
+    - code: B47.0
+      value: Eumycetoma
+      type: any
+    - code: B47.1
+      value: Actinomycetoma
+      type: any
+    - code: B47.9
+      value: Mycetoma, unspecified
+      type: any
+    - code: B48
+      value: Other mycoses, not elsewhere classified
+      type: any
+    - code: B49
+      value: Unspecified mycosis
+      type: any
+    - code: B50.8
+      value: Other severe and complicated Plasmodium falciparum malaria
+      type: any
+    - code: B50.9
+      value: Plasmodium falciparum malaria, unspecified
+      type: any
+    - code: B51
+      value: Plasmodium vivax malaria
+      type: any
+    - code: B52
+      value: Plasmodium malariae malaria
+      type: any
+    - code: B53
+      value: Other parasitologically confirmed malaria
+      type: any
+    - code: B54
+      value: Unspecified malaria
+      type: any
+    - code: B55.0
+      value: Visceral leishmaniasis
+      type: any
+    - code: B55.2
+      value: Mucocutaneous leishmaniasis
+      type: any
+    - code: B55.9
+      value: Leishmaniasis, unspecified
+      type: any
+    - code: B57
+      value: Chagas' disease
+      type: any
+    - code: B58.8
+      value: Toxoplasmosis with other organ involvement
+      type: any
+    - code: B58.9
+      value: Toxoplasmosis, unspecified
+      type: any
+    - code: B60
+      value: Other protozoal diseases, not elsewhere classified
+      type: any
+    - code: B64
+      value: Unspecified protozoal disease
+      type: any
+    - code: B65
+      value: Schistosomiasis [bilharziasis]
+      type: any
+    - code: B66
+      value: Other fluke infections
+      type: any
+    - code: B67.3
+      value: Echinococcus granulosus infection, other and multiple sites
+      type: any
+    - code: B67.4
+      value: Echinococcus granulosus infection, unspecified
+      type: any
+    - code: B67.6
+      value: Echinococcus multilocularis infection, other and multiple sites
+      type: any
+    - code: B67.7
+      value: Echinococcus multilocularis infection, unspecified
+      type: any
+    - code: B67.9
+      value: Echinococcosis, other and unspecified
+      type: any
+    - code: B68
+      value: Taeniasis
+      type: any
+    - code: B69.8
+      value: Cysticercosis of other sites
+      type: any
+    - code: B69.9
+      value: Cysticercosis, unspecified
+      type: any
+    - code: B70
+      value: Diphyllobothriasis and sparganosis
+      type: any
+    - code: B71
+      value: Other cestode infections
+      type: any
+    - code: B72
+      value: Dracunculiasis
+      type: any
+    - code: B73
+      value: Onchocerciasis
+      type: any
+    - code: B74
+      value: Filariasis
+      type: any
+    - code: B75
+      value: Trichinellosis
+      type: any
+    - code: B76
+      value: Hookworm diseases
+      type: any
+    - code: B77
+      value: Ascariasis
+      type: any
+    - code: B78.7
+      value: Disseminated strongyloidiasis
+      type: any
+    - code: B78.9
+      value: Strongyloidiasis, unspecified
+      type: any
+    - code: B79
+      value: Trichuriasis
+      type: any
+    - code: B80
+      value: Enterobiasis
+      type: any
+    - code: B83
+      value: Other helminthiases
+      type: any
+    - code: B87.8
+      value: Myiasis of other sites
+      type: any
+    - code: B87.9
+      value: Myiasis, unspecified
+      type: any
+    - code: B89
+      value: Unspecified parasitic disease
+      type: any
+    - code: B90.8
+      value: Sequelae of tuberculosis of other organs
+      type: any
+    - code: B90.9
+      value: Sequelae of respiratory and unspecified tuberculosis
+      type: any
+    - code: B92
+      value: Sequelae of leprosy
+      type: any
+    - code: B94.8
+      value: Sequelae of other specified infectious and parasitic diseases
+      type: any
+    - code: B94.9
+      value: Sequelae of unspecified infectious or parasitic disease
+      type: any
+    - code: B95
+      value: Streptococcus and staphylococcus as the cause of diseases classified
+        to other chapters
+      type: any
+    - code: B96
+      value: Other specified bacterial agents as the cause of diseases classified
+        to other chapters
+      type: any
+    - code: B97
+      value: Viral agents as the cause of diseases classified to other chapters
+      type: any
+    - code: B98.1
+      value: Vibrio vulnificus as the cause of diseases classified to other chapters
+      type: any
+    - code: B99
+      value: Other and unspecified infectious diseases
+      type: any
+    - code: G04.1
+      value: Tropical spastic paraplegia
+      type: any
+    - code: G53.0
+      value: Postzoster neuralgia
+      type: any
+    - code: G53.1
+      value: Multiple cranial nerve palsies in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: G63.0
+      value: Polyneuropathy in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: G94.0
+      value: Hydrocephalus in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: J09
+      value: Influenza due to identified avian influenza virus
+      type: any
+    - code: J10.1
+      value: Influenza with other respiratory manifestations, other influenza virus
+        identified
+      type: any
+    - code: J10.8
+      value: Influenza with other manifestations, other influenza virus identified
+      type: any
+    - code: J11.1
+      value: Influenza with other respiratory manifestations, virus not identified
+      type: any
+    - code: J11.8
+      value: Influenza with other manifestations, virus not identified
+      type: any
+    - code: J37
+      value: Chronic laryngitis and laryngotracheitis
+      type: any
+    - code: J85.3
+      value: Abscess of mediastinum
+      type: any
+    - code: M60.0
+      value: Infective myositis
+      type: any
+    - code: M63.0
+      value: Myositis in bacterial diseases classified elsewhere
+      type: any
+    - code: M63.2
+      value: Myositis in other infectious diseases classified elsewhere
+      type: any
+    - code: M65.0
+      value: Abscess of tendon sheath
+      type: any
+    - code: M65.1
+      value: Other infective (teno)synovitis
+      type: any
+    - code: M68.0
+      value: Synovitis and tenosynovitis in bacterial diseases classified elsewhere
+      type: any
+    - code: M71.0
+      value: Abscess of bursa
+      type: any
+    - code: M71.1
+      value: Other infective bursitis
+      type: any
+    - code: M72.6
+      value: Necrotizing fasciitis
+      type: any
+    - code: M73.1
+      value: Syphilitic bursitis
+      type: any
+    - code: P35
+      value: Congenital viral diseases
+      type: any
+    - code: P37
+      value: Other congenital infectious and parasitic diseases
+      type: any
+    - code: P39.0
+      value: Neonatal infective mastitis
+      type: any
+    - code: P39.2
+      value: Intra-amniotic infection of fetus, not elsewhere classified
+      type: any
+    - code: P39.8
+      value: Other specified infections specific to the perinatal period
+      type: any
+    - code: P39.9
+      value: Infection specific to the perinatal period, unspecified
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

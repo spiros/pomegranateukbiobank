@@ -1,0 +1,268 @@
+metadata:
+  phenotype: Multiple myeloma and malignant plasma cell neoplasms
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: plasmacell
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 700e8625-0ac0-4408-9151-95264c2b4b18
+  ontologies:
+    DOID: DOID_9538
+    GWAS: EFO_0001378
+    MESH: D009101
+    SNOMED-CT: 55921005
+    FINNGEN: CD2_MULTIPLE_MYELOMA_PLASMA_CELL
+  short_desc: A bone marrow-based plasma cell neoplasm characterized by a serum monoclonal
+    protein and skeletal destruction with osteolytic lesions, pathological fractures,
+    bone pain, hypercalcemia, and anemia.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1050'
+      value: Multiple myeloma
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C88.0
+      value: Waldenstrom macroglobulinaemia
+      type: any
+    - code: C88.2
+      value: Other heavy chain disease
+      type: any
+    - code: C90
+      value: Multiple myeloma and malignant plasma cell neoplasms
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C88.0
+      value: Waldenstrom macroglobulinaemia
+      type: any
+    - code: C88.2
+      value: Other heavy chain disease
+      type: any
+    - code: C90
+      value: Multiple myeloma and malignant plasma cell neoplasms
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C88.0
+      value: Waldenstrom macroglobulinaemia
+      type: any
+    - code: C88.2
+      value: Other heavy chain disease
+      type: any
+    - code: C90
+      value: Multiple myeloma and malignant plasma cell neoplasms
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C88.0
+      value: Waldenstrom macroglobulinaemia
+      type: any
+    - code: C88.2
+      value: Other heavy chain disease
+      type: any
+    - code: C90
+      value: Multiple myeloma and malignant plasma cell neoplasms
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B630000
+      value: Malignant plasma cell neoplasm, extramedullary plasmacytoma
+      type: any
+    - code: B630100
+      value: Solitary myeloma
+      type: any
+    - code: B630200
+      value: Plasmacytoma NOS
+      type: any
+    - code: B630300
+      value: Lambda light chain myeloma
+      type: any
+    - code: B630400
+      value: Solitary plasmacytoma
+      type: any
+    - code: B630.00
+      value: Multiple myeloma
+      type: any
+    - code: B630.11
+      value: Kahler's disease
+      type: any
+    - code: B630.12
+      value: Myelomatosis
+      type: any
+    - code: B631.00
+      value: Plasma cell leukaemia
+      type: any
+    - code: B63..00
+      value: Multiple myeloma and immunoproliferative neoplasms
+      type: any
+    - code: B63z.00
+      value: Immunoproliferative neoplasm or myeloma NOS
+      type: any
+    - code: B936.11
+      value: Myeloma - solitary
+      type: any
+    - code: B936.12
+      value: Plasmacytoma NOS
+      type: any
+    - code: BBm6.00
+      value: '[M] Alpha heavy chain disease'
+      type: any
+    - code: BBmE.00
+      value: '[M] Gamma heavy chain disease'
+      type: any
+    - code: BBmK.00
+      value: '[M]Waldenstrom''s macroglobulinaemia'
+      type: any
+    - code: BBn0.00
+      value: '[M]Plasma cell myeloma'
+      type: any
+    - code: BBn0.11
+      value: '[M]Multiple myeloma'
+      type: any
+    - code: BBn0.12
+      value: '[M]Myeloma NOS'
+      type: any
+    - code: BBn0.13
+      value: '[M]Myelomatosis'
+      type: any
+    - code: BBn0.14
+      value: '[M]Plasmacytic myeloma'
+      type: any
+    - code: BBn2.00
+      value: '[M]Plasmacytoma NOS'
+      type: any
+    - code: BBn2.11
+      value: '[M]Monostotic myeloma'
+      type: any
+    - code: BBn2.12
+      value: '[M]Solitary myeloma'
+      type: any
+    - code: BBn3.00
+      value: '[M]Plasma cell tumour, malignant'
+      type: any
+    - code: BBn..00
+      value: '[M]Plasma cell tumours'
+      type: any
+    - code: BBnz.00
+      value: '[M]Plasma cell tumour NOS'
+      type: any
+    - code: BBr3.00
+      value: '[M]Plasma cell leukaemias'
+      type: any
+    - code: BBr3z00
+      value: '[M]Plasma cell leukaemia NOS'
+      type: any
+    - code: C333000
+      value: Waldenstrom's macroglobulinaemia
+      type: any
+    - code: C333011
+      value: Waldenstrom macroglobulinaemia
+      type: any
+    - code: C333100
+      value: Alpha heavy chain disease
+      type: any
+    - code: C333200
+      value: Gamma heavy chain disease
+      type: any
+    - code: C333300
+      value: Heavy chain disease
+      type: any
+    - code: C333.00
+      value: Macroglobulinaemia
+      type: any
+    - code: C333z00
+      value: Macroglobulinaemia NOS
+      type: any
+    - code: XaBLx
+      value: Plasmacytoma NOS
+      type: any
+    - code: XE1wP
+      value: Neoplasm of uncertain behaviour of plasma cells
+      type: any
+    - code: Xa0SM
+      value: Heavy chain disease
+      type: any
+    - code: XaBLz
+      value: '[M]Waldenstrom''s macroglobulinaemia'
+      type: any
+    - code: XaBB3
+      value: Plasma cell leukaemia
+      type: any
+    - code: XaELI
+      value: Lambda light chain myeloma
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C88.0
+      value: Waldenstrom macroglobulinaemia
+      type: any
+    - code: C88.2
+      value: Other heavy chain disease
+      type: any
+    - code: C90
+      value: Multiple myeloma and malignant plasma cell neoplasms
+      type: any

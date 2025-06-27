@@ -1,0 +1,255 @@
+metadata:
+  phenotype: Diverticular disease of intestine (acute and chronic)
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: diverticuli
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 0c23587d-1421-4183-a54c-22adc26bd8d7
+  ontologies:
+    DOID: DOID_7475
+    GWAS: EFO_0009959
+    MESH: D000076385
+    SNOMED-CT: 397881000
+    FINNGEN: K11_DIVERTIC
+  short_desc: An intestinal disease characterized by the formation and inflammation
+    of diverticula within the bowel wall.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1458'
+      value: diverticular disease/diverticulitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K38.2
+      value: Diverticulum of appendix
+      type: any
+    - code: K57
+      value: Diverticular disease of intestine
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K38.2
+      value: Diverticulum of appendix
+      type: any
+    - code: K57
+      value: Diverticular disease of intestine
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: H12.1
+      value: Excision of diverticulum of colon
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: H12.1
+      value: H12.1
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K38.2
+      value: Diverticulum of appendix
+      type: any
+    - code: K57
+      value: Diverticular disease of intestine
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K38.2
+      value: Diverticulum of appendix
+      type: any
+    - code: K57
+      value: Diverticular disease of intestine
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '7718000.0'
+      value: Excision of diverticulum of colon
+      type: any
+    - code: J23z300
+      value: Appendicular diverticulum
+      type: any
+    - code: J510000
+      value: Diverticulosis of the duodenum
+      type: any
+    - code: J510100
+      value: Diverticulosis of the jejunum
+      type: any
+    - code: J510200
+      value: Diverticulosis of the ileum
+      type: any
+    - code: J510300
+      value: Diverticulosis of the small intestine unspecified
+      type: any
+    - code: J510400
+      value: Diverticulosis of the small intestine NOS
+      type: any
+    - code: J510500
+      value: Diverticulosis of the colon
+      type: any
+    - code: J510600
+      value: Diverticulosis of the large intestine unspecified
+      type: any
+    - code: J510700
+      value: Diverticulosis of the large intestine NOS
+      type: any
+    - code: J510800
+      value: Divertic dis/both sml+lge intestin without perfor or abscess
+      type: any
+    - code: J510900
+      value: Bleeding diverticulosis
+      type: any
+    - code: J510.00
+      value: Diverticulosis
+      type: any
+    - code: J510y00
+      value: Diverticulosis unspecified
+      type: any
+    - code: J510z00
+      value: Diverticulosis NOS
+      type: any
+    - code: J511000
+      value: Diverticulitis of the duodenum
+      type: any
+    - code: J511100
+      value: Diverticulitis of the jejunum
+      type: any
+    - code: J511200
+      value: Diverticulitis of the ileum
+      type: any
+    - code: J511300
+      value: Diverticulitis of the small intestine unspecified
+      type: any
+    - code: J511400
+      value: Diverticulitis of the small intestine NOS
+      type: any
+    - code: J511500
+      value: Diverticulitis of the colon
+      type: any
+    - code: J511600
+      value: Diverticulitis of the large intestine unspecified
+      type: any
+    - code: J511700
+      value: Diverticulitis of the large intestine NOS
+      type: any
+    - code: J511.00
+      value: Diverticulitis
+      type: any
+    - code: J511y00
+      value: Diverticulitis unspecified
+      type: any
+    - code: J511z00
+      value: Diverticulitis NOS
+      type: any
+    - code: J512000
+      value: Perforated diverticulum of duodenum
+      type: any
+    - code: J512100
+      value: Perforated diverticulum of jejunum
+      type: any
+    - code: J512200
+      value: Perforated diverticulum of ileum
+      type: any
+    - code: J512300
+      value: Perforated diverticulum of small intestine unspecified
+      type: any
+    - code: J512400
+      value: Perforated diverticulum of small intestine NOS
+      type: any
+    - code: J512500
+      value: Perforated diverticulum of colon
+      type: any
+    - code: J512600
+      value: Perforated diverticulum of large intestine unspecified
+      type: any
+    - code: J512700
+      value: Perforated diverticulum of large intestine NOS
+      type: any
+    - code: J512800
+      value: Divertic disease/both sml+lge intestin with perforat+abscess
+      type: any
+    - code: J512.00
+      value: Perforated diverticulum
+      type: any
+    - code: J512y00
+      value: Perforated diverticulum unspecified
+      type: any
+    - code: J512z00
+      value: Perforated diverticulum of intestine NOS
+      type: any
+    - code: J513.00
+      value: Diverticular abscess
+      type: any
+    - code: J51..00
+      value: Diverticula of intestine
+      type: any
+    - code: J51..11
+      value: Diverticular disease
+      type: any
+    - code: J51z.00
+      value: Diverticula of the intestine NOS
+      type: any
+    - code: XaB8Z
+      value: Diverticulitis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

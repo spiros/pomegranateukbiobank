@@ -1,0 +1,488 @@
+metadata:
+  phenotype: Diabetic ophthalmic complications
+  group: Eye
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: diab_eye
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: e7e4b350-adc5-4b71-ac0c-dc08d92c4aff
+  ontologies:
+    DOID: DOID_13207
+    GWAS: EFO_0003770
+    MESH: D003930
+    SNOMED-CT: 25093002
+    FINNGEN: H7_RETINOPATHYDIAB_ADVANC
+  short_desc: Disease of the RETINA as a complication of DIABETES MELLITUS. It is
+    characterized by the progressive microvascular complications, such as ANEURYSM,
+    interretinal EDEMA, and intraocular PATHOLOGIC NEOVASCULARIZATION.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1276'
+      value: diabetic eye disease
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: H35.0
+      value: Background retinopathy and retinal vascular changes
+      type: any
+    - code: H35.2
+      value: Other proliferative retinopathy
+      type: any
+    - code: E10.3
+      value: Insulin-dependent diabetes mellitus - With ophthalmic complications
+      type: any
+    - code: E11.3
+      value: Non-insulin-dependent diabetes mellitus - With ophthalmic complications
+      type: any
+    - code: E12.3
+      value: Malnutrition-related diabetes mellitus - With ophthalmic complications
+      type: any
+    - code: E13.3
+      value: Other specified diabetes mellitus - With ophthalmic complications
+      type: any
+    - code: E14.3
+      value: Unspecified diabetes mellitus - With ophthalmic complications
+      type: any
+    - code: H28.0
+      value: Diabetic cataract
+      type: any
+    - code: H36.0
+      value: Diabetic retinopathy
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: H35.0
+      value: Background retinopathy and retinal vascular changes
+      type: any
+    - code: H35.2
+      value: Other proliferative retinopathy
+      type: any
+    - code: E10.3
+      value: Insulin-dependent diabetes mellitus - With ophthalmic complications
+      type: any
+    - code: E11.3
+      value: Non-insulin-dependent diabetes mellitus - With ophthalmic complications
+      type: any
+    - code: E12.3
+      value: Malnutrition-related diabetes mellitus - With ophthalmic complications
+      type: any
+    - code: E13.3
+      value: Other specified diabetes mellitus - With ophthalmic complications
+      type: any
+    - code: E14.3
+      value: Unspecified diabetes mellitus - With ophthalmic complications
+      type: any
+    - code: H28.0
+      value: Diabetic cataract
+      type: any
+    - code: H36.0
+      value: Diabetic retinopathy
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H35.0
+      value: Background retinopathy and retinal vascular changes
+      type: any
+    - code: H35.2
+      value: Other proliferative retinopathy
+      type: any
+    - code: E10.3
+      value: Insulin-dependent diabetes mellitus - With ophthalmic complications
+      type: any
+    - code: E11.3
+      value: Non-insulin-dependent diabetes mellitus - With ophthalmic complications
+      type: any
+    - code: E12.3
+      value: Malnutrition-related diabetes mellitus - With ophthalmic complications
+      type: any
+    - code: E13.3
+      value: Other specified diabetes mellitus - With ophthalmic complications
+      type: any
+    - code: E14.3
+      value: Unspecified diabetes mellitus - With ophthalmic complications
+      type: any
+    - code: H28.0
+      value: Diabetic cataract
+      type: any
+    - code: H36.0
+      value: Diabetic retinopathy
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H35.0
+      value: Background retinopathy and retinal vascular changes
+      type: any
+    - code: H35.2
+      value: Other proliferative retinopathy
+      type: any
+    - code: E10.3
+      value: Insulin-dependent diabetes mellitus - With ophthalmic complications
+      type: any
+    - code: E11.3
+      value: Non-insulin-dependent diabetes mellitus - With ophthalmic complications
+      type: any
+    - code: E12.3
+      value: Malnutrition-related diabetes mellitus - With ophthalmic complications
+      type: any
+    - code: E13.3
+      value: Other specified diabetes mellitus - With ophthalmic complications
+      type: any
+    - code: E14.3
+      value: Unspecified diabetes mellitus - With ophthalmic complications
+      type: any
+    - code: H28.0
+      value: Diabetic cataract
+      type: any
+    - code: H36.0
+      value: Diabetic retinopathy
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 2BBk.00
+      value: O/E - right eye stable treated prolif diabetic retinopathy
+      type: any
+    - code: 2BBl.00
+      value: O/E - left eye stable treated prolif diabetic retinopathy
+      type: any
+    - code: 2BBL.00
+      value: O/E - diabetic maculopathy present both eyes
+      type: any
+    - code: 2BBM.00
+      value: O/E - diabetic maculopathy absent both eyes
+      type: any
+    - code: 2BBo.00
+      value: O/E - sight threatening diabetic retinopathy
+      type: any
+    - code: 2BBP.00
+      value: O/E - right eye background diabetic retinopathy
+      type: any
+    - code: 2BBQ.00
+      value: O/E - left eye background diabetic retinopathy
+      type: any
+    - code: 2BBr.00
+      value: Impaired vision due to diabetic retinopathy
+      type: any
+    - code: 2BBR.00
+      value: O/E - right eye preproliferative diabetic retinopathy
+      type: any
+    - code: 2BBS.00
+      value: O/E - left eye preproliferative diabetic retinopathy
+      type: any
+    - code: 2BBT.00
+      value: O/E - right eye proliferative diabetic retinopathy
+      type: any
+    - code: 2BBV.00
+      value: O/E - left eye proliferative diabetic retinopathy
+      type: any
+    - code: 2BBW.00
+      value: O/E - right eye diabetic maculopathy
+      type: any
+    - code: 2BBX.00
+      value: O/E - left eye diabetic maculopathy
+      type: any
+    - code: '7276.00'
+      value: Pan retinal photocoagulation for diabetes
+      type: any
+    - code: C105000
+      value: Diabetes mellitus, juvenile type, + ophthalmic manifestation
+      type: any
+    - code: C105100
+      value: Diabetes mellitus, adult onset, + ophthalmic manifestation
+      type: any
+    - code: C105.00
+      value: Diabetes mellitus with ophthalmic manifestation
+      type: any
+    - code: C105y00
+      value: Other specified diabetes mellitus with ophthalmic complicatn
+      type: any
+    - code: C105z00
+      value: Diabetes mellitus NOS with ophthalmic manifestation
+      type: any
+    - code: C108100
+      value: Insulin-dependent diabetes mellitus with ophthalmic comps
+      type: any
+    - code: C108112
+      value: Type 1 diabetes mellitus with ophthalmic complications
+      type: any
+    - code: C108700
+      value: Insulin dependent diabetes mellitus with retinopathy
+      type: any
+    - code: C108711
+      value: Type I diabetes mellitus with retinopathy
+      type: any
+    - code: C108712
+      value: Type 1 diabetes mellitus with retinopathy
+      type: any
+    - code: C108F00
+      value: Insulin dependent diabetes mellitus with diabetic cataract
+      type: any
+    - code: C108F11
+      value: Type I diabetes mellitus with diabetic cataract
+      type: any
+    - code: C108F12
+      value: Type 1 diabetes mellitus with diabetic cataract
+      type: any
+    - code: C109100
+      value: Non-insulin-dependent diabetes mellitus with ophthalm comps
+      type: any
+    - code: C109111
+      value: Type II diabetes mellitus with ophthalmic complications
+      type: any
+    - code: C109112
+      value: Type 2 diabetes mellitus with ophthalmic complications
+      type: any
+    - code: C109600
+      value: Non-insulin-dependent diabetes mellitus with retinopathy
+      type: any
+    - code: C109611
+      value: Type II diabetes mellitus with retinopathy
+      type: any
+    - code: C109612
+      value: Type 2 diabetes mellitus with retinopathy
+      type: any
+    - code: C109E00
+      value: Non-insulin depend diabetes mellitus with diabetic cataract
+      type: any
+    - code: C109E11
+      value: Type II diabetes mellitus with diabetic cataract
+      type: any
+    - code: C109E12
+      value: Type 2 diabetes mellitus with diabetic cataract
+      type: any
+    - code: C10E100
+      value: Type 1 diabetes mellitus with ophthalmic complications
+      type: any
+    - code: C10E111
+      value: Type I diabetes mellitus with ophthalmic complications
+      type: any
+    - code: C10E112
+      value: Insulin-dependent diabetes mellitus with ophthalmic comps
+      type: any
+    - code: C10E700
+      value: Type 1 diabetes mellitus with retinopathy
+      type: any
+    - code: C10E711
+      value: Type I diabetes mellitus with retinopathy
+      type: any
+    - code: C10E712
+      value: Insulin dependent diabetes mellitus with retinopathy
+      type: any
+    - code: C10EF00
+      value: Type 1 diabetes mellitus with diabetic cataract
+      type: any
+    - code: C10EF12
+      value: Insulin dependent diabetes mellitus with diabetic cataract
+      type: any
+    - code: C10EP00
+      value: Type 1 diabetes mellitus with exudative maculopathy
+      type: any
+    - code: C10EP11
+      value: Type I diabetes mellitus with exudative maculopathy
+      type: any
+    - code: C10F100
+      value: Type 2 diabetes mellitus with ophthalmic complications
+      type: any
+    - code: C10F111
+      value: Type II diabetes mellitus with ophthalmic complications
+      type: any
+    - code: C10F600
+      value: Type 2 diabetes mellitus with retinopathy
+      type: any
+    - code: C10F611
+      value: Type II diabetes mellitus with retinopathy
+      type: any
+    - code: C10FE00
+      value: Type 2 diabetes mellitus with diabetic cataract
+      type: any
+    - code: C10FE11
+      value: Type II diabetes mellitus with diabetic cataract
+      type: any
+    - code: C10FQ00
+      value: Type 2 diabetes mellitus with exudative maculopathy
+      type: any
+    - code: F420000
+      value: Background diabetic retinopathy
+      type: any
+    - code: F420100
+      value: Proliferative diabetic retinopathy
+      type: any
+    - code: F420200
+      value: Preproliferative diabetic retinopathy
+      type: any
+    - code: F420300
+      value: Advanced diabetic maculopathy
+      type: any
+    - code: F420400
+      value: Diabetic maculopathy
+      type: any
+    - code: F420500
+      value: Advanced diabetic retinal disease
+      type: any
+    - code: F420600
+      value: Non proliferative diabetic retinopathy
+      type: any
+    - code: F420700
+      value: High risk proliferative diabetic retinopathy
+      type: any
+    - code: F420800
+      value: High risk non proliferative diabetic retinopathy
+      type: any
+    - code: F420.00
+      value: Diabetic retinopathy
+      type: any
+    - code: F420z00
+      value: Diabetic retinopathy NOS
+      type: any
+    - code: F440700
+      value: Diabetic iritis
+      type: any
+    - code: F464000
+      value: Diabetic cataract
+      type: any
+    - code: XaJOg
+      value: O/E - right eye background diabetic retinopathy
+      type: any
+    - code: XaJOk
+      value: O/E - right eye proliferative diabetic retinopathy
+      type: any
+    - code: XaKDG
+      value: O/E - right eye stable treated proliferative diabetic retinopathy
+      type: any
+    - code: XaD2T
+      value: Advanced diabetic retinal disease
+      type: any
+    - code: XaJOi
+      value: O/E - right eye preproliferative diabetic retinopathy
+      type: any
+    - code: XaIPk
+      value: O/E - diabetic maculopathy present both eyes
+      type: any
+    - code: XaKcS
+      value: O/E - sight threatening diabetic retinopathy
+      type: any
+    - code: XaJOj
+      value: O/E - left eye preproliferative diabetic retinopathy
+      type: any
+    - code: XaPen
+      value: Impaired vision due to diabetic retinopathy
+      type: any
+    - code: XaKDH
+      value: O/E - left eye stable treated proliferative diabetic retinopathy
+      type: any
+    - code: XaIW8
+      value: High risk non proliferative diabetic retinopathy
+      type: any
+    - code: XaJOn
+      value: O/E - right eye diabetic maculopathy
+      type: any
+    - code: XaJOo
+      value: O/E - left eye diabetic maculopathy
+      type: any
+    - code: XaIP5
+      value: Non proliferative diabetic retinopathy
+      type: any
+    - code: XaJOl
+      value: O/E - left eye proliferative diabetic retinopathy
+      type: any
+    - code: XaJOh
+      value: O/E - left eye background diabetic retinopathy
+      type: any
+    - code: XaJSr
+      value: Type 1 diabetes mellitus with exudative maculopathy
+      type: any
+    - code: XaIPl
+      value: O/E - diabetic maculopathy absent both eyes
+      type: any
+    - code: X00dG
+      value: Diabetic maculopathy
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []
+  5890:
+    metadata:
+      desc: Which eye(s) affected by diabetes-related eye disease
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: Right eye
+      type: any
+    - code: '2'
+      value: Left eye
+      type: any
+    - code: '3'
+      value: Both eyes
+      type: any
+  6148:
+    metadata:
+      desc: Eye problems/disorders
+      time_qualifier:
+        field_id: 5901
+        type: age
+    values:
+    - code: '1'
+      value: Diabetes related eye disease
+      type: any

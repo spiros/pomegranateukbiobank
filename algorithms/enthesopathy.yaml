@@ -1,0 +1,1040 @@
+metadata:
+  phenotype: Enthesopathies & synovial disorders
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: enthesopathy
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: db1c0f2c-2b72-4165-af57-5957ec4aabe0
+  ontologies:
+    DOID: DOID_204
+    GWAS: EFO_0009666
+    MESH: D000070676
+    SNOMED-CT: '23680005'
+    FINNGEN: M13_ENTESOPATHYOTH
+  short_desc: Disorders involving the attachment of a tendon or ligament to a bone.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1621'
+      value: synovitis
+      type: any
+    - code: '1624'
+      value: housemaid's knee (prepatellar bursitis)
+      type: any
+    - code: '1620'
+      value: bursitis
+      type: any
+    - code: '1623'
+      value: tennis elbow / lateral epicondylitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: M46.0
+      value: Spinal enthesopathy
+      type: any
+    - code: M65.2
+      value: Calcific tendinitis
+      type: any
+    - code: M65.3
+      value: Trigger finger
+      type: any
+    - code: M65.4
+      value: Radial styloid tenosynovitis [de Quervain]
+      type: any
+    - code: M65.8
+      value: Other synovitis and tenosynovitis
+      type: any
+    - code: M65.9
+      value: Synovitis and tenosynovitis, unspecified
+      type: any
+    - code: M66
+      value: Spontaneous rupture of synovium and tendon
+      type: any
+    - code: M70
+      value: Soft tissue disorders related to use, overuse and pressure
+      type: any
+    - code: M71.2
+      value: Synovial cyst of popliteal space [Baker]
+      type: any
+    - code: M71.3
+      value: Other bursal cyst
+      type: any
+    - code: M71.4
+      value: Calcium deposit in bursa
+      type: any
+    - code: M71.5
+      value: Other bursitis, not elsewhere classified
+      type: any
+    - code: M71.8
+      value: Other specified bursopathies
+      type: any
+    - code: M71.9
+      value: Bursopathy, unspecified
+      type: any
+    - code: M75
+      value: Shoulder lesions
+      type: any
+    - code: M76
+      value: Enthesopathies of lower limb, excluding foot
+      type: any
+    - code: M77.0
+      value: Medial epicondylitis
+      type: any
+    - code: M77.1
+      value: Lateral epicondylitis
+      type: any
+    - code: M77.2
+      value: Periarthritis of wrist
+      type: any
+    - code: M77.3
+      value: Calcaneal spur
+      type: any
+    - code: M77.5
+      value: Other enthesopathy of foot
+      type: any
+    - code: M77.8
+      value: Other enthesopathies, not elsewhere classified
+      type: any
+    - code: M77.9
+      value: Enthesopathy, unspecified
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: M46.0
+      value: Spinal enthesopathy
+      type: any
+    - code: M65.2
+      value: Calcific tendinitis
+      type: any
+    - code: M65.3
+      value: Trigger finger
+      type: any
+    - code: M65.4
+      value: Radial styloid tenosynovitis [de Quervain]
+      type: any
+    - code: M65.8
+      value: Other synovitis and tenosynovitis
+      type: any
+    - code: M65.9
+      value: Synovitis and tenosynovitis, unspecified
+      type: any
+    - code: M66
+      value: Spontaneous rupture of synovium and tendon
+      type: any
+    - code: M70
+      value: Soft tissue disorders related to use, overuse and pressure
+      type: any
+    - code: M71.2
+      value: Synovial cyst of popliteal space [Baker]
+      type: any
+    - code: M71.3
+      value: Other bursal cyst
+      type: any
+    - code: M71.4
+      value: Calcium deposit in bursa
+      type: any
+    - code: M71.5
+      value: Other bursitis, not elsewhere classified
+      type: any
+    - code: M71.8
+      value: Other specified bursopathies
+      type: any
+    - code: M71.9
+      value: Bursopathy, unspecified
+      type: any
+    - code: M75
+      value: Shoulder lesions
+      type: any
+    - code: M76
+      value: Enthesopathies of lower limb, excluding foot
+      type: any
+    - code: M77.0
+      value: Medial epicondylitis
+      type: any
+    - code: M77.1
+      value: Lateral epicondylitis
+      type: any
+    - code: M77.2
+      value: Periarthritis of wrist
+      type: any
+    - code: M77.3
+      value: Calcaneal spur
+      type: any
+    - code: M77.5
+      value: Other enthesopathy of foot
+      type: any
+    - code: M77.8
+      value: Other enthesopathies, not elsewhere classified
+      type: any
+    - code: M77.9
+      value: Enthesopathy, unspecified
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M46.0
+      value: Spinal enthesopathy
+      type: any
+    - code: M65.2
+      value: Calcific tendinitis
+      type: any
+    - code: M65.3
+      value: Trigger finger
+      type: any
+    - code: M65.4
+      value: Radial styloid tenosynovitis [de Quervain]
+      type: any
+    - code: M65.8
+      value: Other synovitis and tenosynovitis
+      type: any
+    - code: M65.9
+      value: Synovitis and tenosynovitis, unspecified
+      type: any
+    - code: M66
+      value: Spontaneous rupture of synovium and tendon
+      type: any
+    - code: M70
+      value: Soft tissue disorders related to use, overuse and pressure
+      type: any
+    - code: M71.2
+      value: Synovial cyst of popliteal space [Baker]
+      type: any
+    - code: M71.3
+      value: Other bursal cyst
+      type: any
+    - code: M71.4
+      value: Calcium deposit in bursa
+      type: any
+    - code: M71.5
+      value: Other bursitis, not elsewhere classified
+      type: any
+    - code: M71.8
+      value: Other specified bursopathies
+      type: any
+    - code: M71.9
+      value: Bursopathy, unspecified
+      type: any
+    - code: M75
+      value: Shoulder lesions
+      type: any
+    - code: M76
+      value: Enthesopathies of lower limb, excluding foot
+      type: any
+    - code: M77.0
+      value: Medial epicondylitis
+      type: any
+    - code: M77.1
+      value: Lateral epicondylitis
+      type: any
+    - code: M77.2
+      value: Periarthritis of wrist
+      type: any
+    - code: M77.3
+      value: Calcaneal spur
+      type: any
+    - code: M77.5
+      value: Other enthesopathy of foot
+      type: any
+    - code: M77.8
+      value: Other enthesopathies, not elsewhere classified
+      type: any
+    - code: M77.9
+      value: Enthesopathy, unspecified
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M46.0
+      value: Spinal enthesopathy
+      type: any
+    - code: M65.2
+      value: Calcific tendinitis
+      type: any
+    - code: M65.3
+      value: Trigger finger
+      type: any
+    - code: M65.4
+      value: Radial styloid tenosynovitis [de Quervain]
+      type: any
+    - code: M65.8
+      value: Other synovitis and tenosynovitis
+      type: any
+    - code: M65.9
+      value: Synovitis and tenosynovitis, unspecified
+      type: any
+    - code: M66
+      value: Spontaneous rupture of synovium and tendon
+      type: any
+    - code: M70
+      value: Soft tissue disorders related to use, overuse and pressure
+      type: any
+    - code: M71.2
+      value: Synovial cyst of popliteal space [Baker]
+      type: any
+    - code: M71.3
+      value: Other bursal cyst
+      type: any
+    - code: M71.4
+      value: Calcium deposit in bursa
+      type: any
+    - code: M71.5
+      value: Other bursitis, not elsewhere classified
+      type: any
+    - code: M71.8
+      value: Other specified bursopathies
+      type: any
+    - code: M71.9
+      value: Bursopathy, unspecified
+      type: any
+    - code: M75
+      value: Shoulder lesions
+      type: any
+    - code: M76
+      value: Enthesopathies of lower limb, excluding foot
+      type: any
+    - code: M77.0
+      value: Medial epicondylitis
+      type: any
+    - code: M77.1
+      value: Lateral epicondylitis
+      type: any
+    - code: M77.2
+      value: Periarthritis of wrist
+      type: any
+    - code: M77.3
+      value: Calcaneal spur
+      type: any
+    - code: M77.5
+      value: Other enthesopathy of foot
+      type: any
+    - code: M77.8
+      value: Other enthesopathies, not elsewhere classified
+      type: any
+    - code: M77.9
+      value: Enthesopathy, unspecified
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: N040Q00
+      value: Rheumatoid bursitis
+      type: any
+    - code: N04y300
+      value: Remitting seronegative symmetrical synovitis pitting oedema
+      type: any
+    - code: N101.00
+      value: Spinal enthesopathy
+      type: any
+    - code: N21..00
+      value: Peripheral enthesopathies and allied syndromes
+      type: any
+    - code: N210.00
+      value: Adhesive capsulitis of the shoulder
+      type: any
+    - code: N210.11
+      value: Bursitis - shoulder
+      type: any
+    - code: N210.12
+      value: Frozen shoulder
+      type: any
+    - code: N211.00
+      value: Rotator cuff shoulder syndrome and allied disorders
+      type: any
+    - code: N211000
+      value: Rotator cuff syndrome, unspecified
+      type: any
+    - code: N211011
+      value: Supraspinatus syndrome
+      type: any
+    - code: N211100
+      value: Calcifying tendinitis of the shoulder
+      type: any
+    - code: N211200
+      value: Bicipital tenosynovitis
+      type: any
+    - code: N211300
+      value: Supraspinatus tendinitis
+      type: any
+    - code: N211400
+      value: Partial thickness rotator cuff tear
+      type: any
+    - code: N211500
+      value: Full thickness rotator cuff tear
+      type: any
+    - code: N211600
+      value: Subacromial bursitis
+      type: any
+    - code: N211700
+      value: Subdeltoid bursitis
+      type: any
+    - code: N211800
+      value: Bursitis of shoulder
+      type: any
+    - code: N211z00
+      value: Rotator cuff syndrome NOS
+      type: any
+    - code: N211z11
+      value: Painful arc syndrome
+      type: any
+    - code: N211z12
+      value: Subacromial bursitis
+      type: any
+    - code: N212.00
+      value: Other shoulder affections NEC
+      type: any
+    - code: N212000
+      value: Periarthritis of shoulder
+      type: any
+    - code: N212100
+      value: Scapulohumeral fibrositis
+      type: any
+    - code: N212200
+      value: Subacromial impingement
+      type: any
+    - code: N212300
+      value: Coracoid impingement
+      type: any
+    - code: N212400
+      value: Impingement syndrome of shoulder
+      type: any
+    - code: N212500
+      value: Shoulder tendonitis
+      type: any
+    - code: N212z00
+      value: Other shoulder affections NEC, NOS
+      type: any
+    - code: N213.00
+      value: Enthesopathy of the elbow region
+      type: any
+    - code: N213000
+      value: Elbow enthesopathy unspecified
+      type: any
+    - code: N213100
+      value: Medial epicondylitis of the elbow
+      type: any
+    - code: N213111
+      value: Golfer's elbow
+      type: any
+    - code: N213200
+      value: Lateral epicondylitis of the elbow
+      type: any
+    - code: N213211
+      value: Tennis elbow
+      type: any
+    - code: N213300
+      value: Olecranon bursitis
+      type: any
+    - code: N213400
+      value: Biceps tendinitis
+      type: any
+    - code: N213500
+      value: Triceps tendinitis
+      type: any
+    - code: N213z00
+      value: Elbow enthesopathy NOS
+      type: any
+    - code: N214.00
+      value: Enthesopathy of the wrist and carpus
+      type: any
+    - code: N214000
+      value: Bursitis of wrist
+      type: any
+    - code: N214100
+      value: Bursitis of hand
+      type: any
+    - code: N214200
+      value: Periarthritis of wrist
+      type: any
+    - code: N214300
+      value: Carpometacarpal bossing
+      type: any
+    - code: N214z00
+      value: Wrist or carpus enthesopathy NOS
+      type: any
+    - code: N215.00
+      value: Enthesopathy of the hip region
+      type: any
+    - code: N215000
+      value: Hip enthesopathy, unspecified
+      type: any
+    - code: N215100
+      value: Bursitis of hip
+      type: any
+    - code: N215200
+      value: Gluteal tendinitis
+      type: any
+    - code: N215300
+      value: Iliac crest spur
+      type: any
+    - code: N215400
+      value: Psoas tendinitis
+      type: any
+    - code: N215500
+      value: Trochanteric tendinitis
+      type: any
+    - code: N215600
+      value: Adductor tendinitis
+      type: any
+    - code: N215700
+      value: Trochanteric bursitis
+      type: any
+    - code: N215800
+      value: Snapping hip
+      type: any
+    - code: N215900
+      value: Iliotibial band syndrome
+      type: any
+    - code: N215A00
+      value: Ischial bursitis
+      type: any
+    - code: N215z00
+      value: Hip enthesopathy NOS
+      type: any
+    - code: N216.00
+      value: Enthesopathy of the knee
+      type: any
+    - code: N216000
+      value: Bursitis of the knee NOS
+      type: any
+    - code: N216011
+      value: Semi-membranosus bursitis
+      type: any
+    - code: N216012
+      value: Popliteal bursitis
+      type: any
+    - code: N216100
+      value: Pes anserinus tendinitis and bursitis
+      type: any
+    - code: N216200
+      value: Tibial collateral ligament bursitis
+      type: any
+    - code: N216211
+      value: Pellegrini - Stieda syndrome
+      type: any
+    - code: N216300
+      value: Fibular collateral ligament bursitis
+      type: any
+    - code: N216400
+      value: Patellar tendinitis
+      type: any
+    - code: N216500
+      value: Prepatellar bursitis
+      type: any
+    - code: N216600
+      value: Infrapatellar bursitis
+      type: any
+    - code: N216700
+      value: Subpatellar bursitis
+      type: any
+    - code: N216800
+      value: Biceps femoris tendinitis
+      type: any
+    - code: N216900
+      value: Semimembranosus tendinitis
+      type: any
+    - code: N216z00
+      value: Knee enthesopathy NOS
+      type: any
+    - code: N216z11
+      value: Suprapatellar bursitis
+      type: any
+    - code: N217.00
+      value: Enthesopathy of the ankle and tarsus
+      type: any
+    - code: N217.11
+      value: Tarsus enthesopathy
+      type: any
+    - code: N217000
+      value: Enthesopathy of the ankle unspecified
+      type: any
+    - code: N217100
+      value: Enthesopathy of the tarsus unspecified
+      type: any
+    - code: N217300
+      value: Achilles bursitis
+      type: any
+    - code: N217400
+      value: Achilles tendinitis
+      type: any
+    - code: N217500
+      value: Tibialis anterior tendinitis
+      type: any
+    - code: N217600
+      value: Tibialis posterior tendinitis
+      type: any
+    - code: N217700
+      value: Calcaneal spur
+      type: any
+    - code: N217800
+      value: Peroneal tendinitis
+      type: any
+    - code: N217B00
+      value: Anterior ankle impingement
+      type: any
+    - code: N217C00
+      value: Fibular impingement
+      type: any
+    - code: N217z00
+      value: Ankle or tarsus enthesopathy NOS
+      type: any
+    - code: N21y.00
+      value: Other peripheral enthesopathies
+      type: any
+    - code: N21z.00
+      value: Enthesopathy NOS
+      type: any
+    - code: N21z000
+      value: Capsulitis NOS
+      type: any
+    - code: N21z100
+      value: Periarthritis NOS
+      type: any
+    - code: N21z200
+      value: Tendinitis NOS
+      type: any
+    - code: N21z211
+      value: Tendonitis NOS
+      type: any
+    - code: N21z212
+      value: Bicepital tendonitis
+      type: any
+    - code: N21z213
+      value: Tendonitis bicepital
+      type: any
+    - code: N21z214
+      value: Adductor tendonitis
+      type: any
+    - code: N21z215
+      value: Tendonitis adductor
+      type: any
+    - code: N21z216
+      value: Supraspinatus tendonitis
+      type: any
+    - code: N21zz00
+      value: Peripheral enthesopathy NOS
+      type: any
+    - code: N220.00
+      value: Synovitis and tenosynovitis
+      type: any
+    - code: N220000
+      value: Synovitis or tenosynovitis NOS
+      type: any
+    - code: N220100
+      value: Synovitis and tenosynovitis with disorders EC
+      type: any
+    - code: N220300
+      value: Trigger finger - acquired
+      type: any
+    - code: N220311
+      value: Trigger thumb
+      type: any
+    - code: N220312
+      value: Snapping fingers
+      type: any
+    - code: N220313
+      value: Finger trigger
+      type: any
+    - code: N220400
+      value: Radial styloid tenosynovitis
+      type: any
+    - code: N220411
+      value: De Quervain's disease
+      type: any
+    - code: N220412
+      value: Trigger thumb - acquired
+      type: any
+    - code: N220413
+      value: Thumb trigger
+      type: any
+    - code: N220500
+      value: Other tenosynovitis of hand or wrist
+      type: any
+    - code: N220511
+      value: Other tenosynovitis of the hand
+      type: any
+    - code: N220512
+      value: Other tenosynovitis of the wrist
+      type: any
+    - code: N220513
+      value: Tensynovitis of fingers
+      type: any
+    - code: N220514
+      value: Tendonitis of thumb
+      type: any
+    - code: N220600
+      value: Tenosynovitis of ankle
+      type: any
+    - code: N220700
+      value: Tenosynovitis of foot
+      type: any
+    - code: N220900
+      value: Plant thorn synovitis
+      type: any
+    - code: N220A00
+      value: Flexor tenosynovitis of wrist
+      type: any
+    - code: N220B00
+      value: Flexor tenosynovitis of finger
+      type: any
+    - code: N220C00
+      value: Flexor tenosynovitis of thumb
+      type: any
+    - code: N220D00
+      value: Extensor tenosynovitis of wrist
+      type: any
+    - code: N220E00
+      value: Extensor tenosynovitis of finger
+      type: any
+    - code: N220F00
+      value: Extensor tenosynovitis of thumb
+      type: any
+    - code: N220G00
+      value: Acquired trigger thumb
+      type: any
+    - code: N220H00
+      value: Achilles tenosynovitis
+      type: any
+    - code: N220J00
+      value: Tibialis anterior tenosynovitis
+      type: any
+    - code: N220K00
+      value: Tibialis posterior tenosynovitis
+      type: any
+    - code: N220L00
+      value: Extensor hallucis longus tenosynovitis
+      type: any
+    - code: N220M00
+      value: Extensor digitorum longus tenosynovitis
+      type: any
+    - code: N220N00
+      value: Peroneus longus tenosynovitis
+      type: any
+    - code: N220P00
+      value: Peroneus brevis tenosynovitis
+      type: any
+    - code: N220Q00
+      value: Transient synovitis
+      type: any
+    - code: N220R00
+      value: Chronic crepitant synovitis of hand and wrist
+      type: any
+    - code: N220S00
+      value: Synovitis of hip
+      type: any
+    - code: N220T00
+      value: Synovitis NOS
+      type: any
+    - code: N220V00
+      value: Synovitis of knee
+      type: any
+    - code: N220W00
+      value: Synovitis of elbow
+      type: any
+    - code: N220X00
+      value: Synovitis of shoulder
+      type: any
+    - code: N220Y00
+      value: Irritable hip
+      type: any
+    - code: N220z00
+      value: Other synovitis and tenosynovitis
+      type: any
+    - code: N220z11
+      value: Shoulder synovitis
+      type: any
+    - code: N220z12
+      value: Synovitis of knee
+      type: any
+    - code: N220z13
+      value: Synovitis of elbow
+      type: any
+    - code: N222000
+      value: Beat elbow
+      type: any
+    - code: N222100
+      value: Beat hand
+      type: any
+    - code: N222200
+      value: Beat knee
+      type: any
+    - code: N222400
+      value: Miners' knee
+      type: any
+    - code: N222z00
+      value: Specific bursitides NOS
+      type: any
+    - code: N223.00
+      value: Bursitis NOS
+      type: any
+    - code: N223.11
+      value: Postcalcaneal bursitis
+      type: any
+    - code: N224000
+      value: Synovial cyst unspecified
+      type: any
+    - code: N224400
+      value: Cyst of bursa
+      type: any
+    - code: N224A00
+      value: Synovial cyst of popliteal space
+      type: any
+    - code: N224A11
+      value: Baker's cyst
+      type: any
+    - code: N225.00
+      value: Rupture of synovium
+      type: any
+    - code: N225000
+      value: Rupture of synovium, unspecified
+      type: any
+    - code: N225100
+      value: Rupture of popliteal space synovial cyst
+      type: any
+    - code: N225111
+      value: Rupture of Baker's cyst - knee
+      type: any
+    - code: N225112
+      value: Rupture of popliteal bursa
+      type: any
+    - code: N225z00
+      value: Rupture of synovium NOS
+      type: any
+    - code: N226.00
+      value: Nontraumatic tendon rupture
+      type: any
+    - code: N226000
+      value: Nontraumatic tendon rupture, unspecified
+      type: any
+    - code: N226100
+      value: Rotator cuff complete rupture
+      type: any
+    - code: N226200
+      value: Biceps tendon rupture
+      type: any
+    - code: N226300
+      value: Hand and wrist extensor tendon rupture
+      type: any
+    - code: N226400
+      value: Hand and wrist flexor tendon rupture
+      type: any
+    - code: N226500
+      value: Quadriceps tendon rupture
+      type: any
+    - code: N226600
+      value: Nontraumatic rupture of patellar tendon
+      type: any
+    - code: N226700
+      value: Nontraumatic rupture of Achilles tendon
+      type: any
+    - code: N226800
+      value: Extensor digitorum communis rupture
+      type: any
+    - code: N226900
+      value: Extensor pollicis longus rupture
+      type: any
+    - code: N226A00
+      value: Long head of biceps rupture
+      type: any
+    - code: N226C00
+      value: Flexor digitorum sublimis tendon rupture
+      type: any
+    - code: N226D00
+      value: Flexor digitorum profundus tendon rupture
+      type: any
+    - code: N226E00
+      value: Flexor pollicis longus tendon rupture
+      type: any
+    - code: N226F00
+      value: Tibialis posterior rupture
+      type: any
+    - code: N226G00
+      value: Peroneus longus rupture
+      type: any
+    - code: N226M00
+      value: Spontaneous rupture of flexor tendons
+      type: any
+    - code: N226N00
+      value: Spontaneous rupture of extensor tendons
+      type: any
+    - code: N226y00
+      value: Other foot and ankle tendon rupture
+      type: any
+    - code: N226z00
+      value: Other nontraumatic tendon rupture
+      type: any
+    - code: N23y900
+      value: Calcific tendinitis
+      type: any
+    - code: Nyu9100
+      value: '[X]Other synovitis and tenosynovitis'
+      type: any
+    - code: Nyu9200
+      value: '[X]Spontaneous rupture of other tendons'
+      type: any
+    - code: NyuA000
+      value: '[X]Other bursitis of elbow'
+      type: any
+    - code: NyuA100
+      value: '[X]Other bursitis of knee'
+      type: any
+    - code: NyuA200
+      value: '[X]Other bursitis of hip'
+      type: any
+    - code: NyuA500
+      value: '[X]Other bursal cyst'
+      type: any
+    - code: NyuA600
+      value: '[X]Other bursitis, not elsewhere classified'
+      type: any
+    - code: NyuAC00
+      value: '[X]Other enthesopathies of lower limb, excluding foot'
+      type: any
+    - code: NyuAD00
+      value: '[X]Other enthesopathy of foot'
+      type: any
+    - code: NyuAE00
+      value: '[X]Other enthesopathies, not elsewhere classified'
+      type: any
+    - code: NyuAJ00
+      value: '[X]Enthesopathy of lower limb, unspecified'
+      type: any
+    - code: X702G
+      value: Synovitis of knee
+      type: any
+    - code: XE2aO
+      value: Rupture of popliteal space synovial cyst
+      type: any
+    - code: XE1FO
+      value: Bursitis of the knee NOS
+      type: any
+    - code: Xaa6R
+      value: Carpometacarpal bossing
+      type: any
+    - code: XE1FN
+      value: Rotator cuff syndrome NOS
+      type: any
+    - code: X706I
+      value: Bursitis of shoulder
+      type: any
+    - code: XE1FY
+      value: Bursitis NOS
+      type: any
+    - code: XE1FP
+      value: Tibial collateral ligament bursitis
+      type: any
+    - code: X702F
+      value: Synovitis of elbow
+      type: any
+    - code: XE1FX
+      value: Other synovitis and tenosynovitis
+      type: any
+    - code: XaK9B
+      value: Spontaneous rupture of extensor tendons
+      type: any
+    - code: X706q
+      value: Ischial bursitis
+      type: any
+    - code: XE1FW
+      value: Other tenosynovitis of hand or wrist
+      type: any
+    - code: XE1FW
+      value: Other tenosynovitis of hand or wrist
+      type: any
+    - code: XE1FM
+      value: Rotator cuff syndrome, unspecified
+      type: any
+    - code: N2158
+      value: Iliotibial band syndrome
+      type: any
+    - code: XE1FR
+      value: Enthesopathy of the ankle and tarsus
+      type: any
+    - code: XE1FS
+      value: Tendinitis NOS
+      type: any
+    - code: XE1FS
+      value: Tendinitis NOS
+      type: any
+    - code: XaK9A
+      value: Spontaneous rupture of flexor tendons
+      type: any
+    - code: XE1FQ
+      value: Knee enthesopathy NOS
+      type: any
+    - code: XaLSe
+      value: Synovitis NOS
+      type: any
+    - code: Xa85s
+      value: Irritable hip
+      type: any
+    - code: XE1FU
+      value: Trigger finger - acquired
+      type: any
+    - code: XE1FU
+      value: Trigger finger - acquired
+      type: any
+    - code: XaX5I
+      value: Remitting seronegative symmetrical synovitis with pitting oedema
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

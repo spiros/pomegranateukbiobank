@@ -1,0 +1,180 @@
+metadata:
+  phenotype: Thrombophilia
+  group: Haematological or immunological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: thrombophilia
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: ab65cadf-6707-4810-ae92-2aec64781bf5
+  ontologies:
+    DOID: DOID_2452
+    GWAS: null
+    MESH: D019851
+    SNOMED-CT: 234467004
+    FINNGEN: D3_PRIMTHROMBOPHILIA
+  short_desc: A blood coagulation disease that is characterized by an increased tendency
+    to form clots.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1564'
+      value: antiphospholipid syndrome
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D68.5
+      value: Primary Thrombophilia
+      type: any
+    - code: D68.6
+      value: Other Thrombophilia
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D68.5
+      value: Primary Thrombophilia
+      type: any
+    - code: D68.6
+      value: Other Thrombophilia
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D68.5
+      value: Primary Thrombophilia
+      type: any
+    - code: D68.6
+      value: Other Thrombophilia
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D68.5
+      value: Primary Thrombophilia
+      type: any
+    - code: D68.6
+      value: Other Thrombophilia
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 42jH.00
+      value: Activated protein C with factor V deficient plasma
+      type: any
+    - code: 42Qc.00
+      value: Plasma activated protein C resistance
+      type: any
+    - code: 42Qe.00
+      value: Factor V Leiden genotype
+      type: any
+    - code: 43GE100
+      value: Lupus anticoagulant positive
+      type: any
+    - code: D303700
+      value: Factor V Leiden mutation
+      type: any
+    - code: D303800
+      value: Homozygous factor V Leiden mutation
+      type: any
+    - code: D303900
+      value: Heterozygous factor V Leiden mutation
+      type: any
+    - code: D309.00
+      value: Protein S deficiency
+      type: any
+    - code: D30A000
+      value: Primary thrombophilia
+      type: any
+    - code: D30A.00
+      value: Thrombophilia
+      type: any
+    - code: D30B.00
+      value: Protein C deficiency
+      type: any
+    - code: N006.00
+      value: Antiphospholipid syndrome
+      type: any
+    - code: X704i
+      value: Antiphospholipid syndrome
+      type: any
+    - code: XaAz3
+      value: Homozygous factor V Leiden mutation
+      type: any
+    - code: X20El
+      value: Protein C deficiency
+      type: any
+    - code: XaAyb
+      value: Factor V Leiden mutation
+      type: any
+    - code: XaAz4
+      value: Heterozygous factor V Leiden mutation
+      type: any
+    - code: XaIz1
+      value: Activated protein C with factor V deficient plasma
+      type: any
+    - code: XaaPR
+      value: Lupus anticoagulant positive
+      type: any
+    - code: X20Ej
+      value: Thrombophilia
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

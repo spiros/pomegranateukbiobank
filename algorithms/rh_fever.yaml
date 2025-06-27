@@ -1,0 +1,386 @@
+metadata:
+  phenotype: Rheumatic fever
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: rh_fever
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: b5a06ac0-19ac-49dd-a229-18c7b1fb095a
+  ontologies:
+    DOID: DOID_1586
+    GWAS: EFO_1001160
+    MESH: D012213
+    SNOMED-CT: '58718002'
+    FINNGEN: null
+  short_desc: A febrile disease occurring as a delayed sequela of infections with
+    streptococcus pyogenes. It is characterized by multiple focal inflammatory lesions
+    of the connective tissue structures, such as the heart, blood vessels, joints,
+    and brain, and by the presence of Aschoff bodies in the myocardium and skin.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1479'
+      value: rheumatic fever
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I00
+      value: Rheumatic fever without mention of heart involvement
+      type: any
+    - code: I01
+      value: Rheumatic fever with heart involvement
+      type: any
+    - code: I02
+      value: Rheumatic chorea
+      type: any
+    - code: I05
+      value: Rheumatic mitral valve diseases
+      type: any
+    - code: I06
+      value: Rheumatic aortic valve diseases
+      type: any
+    - code: I07
+      value: Rheumatic tricuspid valve diseases
+      type: any
+    - code: I09
+      value: Other rheumatic heart diseases
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I00
+      value: Rheumatic fever without mention of heart involvement
+      type: any
+    - code: I01
+      value: Rheumatic fever with heart involvement
+      type: any
+    - code: I02
+      value: Rheumatic chorea
+      type: any
+    - code: I05
+      value: Rheumatic mitral valve diseases
+      type: any
+    - code: I06
+      value: Rheumatic aortic valve diseases
+      type: any
+    - code: I07
+      value: Rheumatic tricuspid valve diseases
+      type: any
+    - code: I09
+      value: Other rheumatic heart diseases
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I00
+      value: Rheumatic fever without mention of heart involvement
+      type: any
+    - code: I01
+      value: Rheumatic fever with heart involvement
+      type: any
+    - code: I02
+      value: Rheumatic chorea
+      type: any
+    - code: I05
+      value: Rheumatic mitral valve diseases
+      type: any
+    - code: I06
+      value: Rheumatic aortic valve diseases
+      type: any
+    - code: I07
+      value: Rheumatic tricuspid valve diseases
+      type: any
+    - code: I09
+      value: Other rheumatic heart diseases
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I00
+      value: Rheumatic fever without mention of heart involvement
+      type: any
+    - code: I01
+      value: Rheumatic fever with heart involvement
+      type: any
+    - code: I02
+      value: Rheumatic chorea
+      type: any
+    - code: I05
+      value: Rheumatic mitral valve diseases
+      type: any
+    - code: I06
+      value: Rheumatic aortic valve diseases
+      type: any
+    - code: I07
+      value: Rheumatic tricuspid valve diseases
+      type: any
+    - code: I09
+      value: Other rheumatic heart diseases
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14A1.00
+      value: 'H/O: rheumatic fever'
+      type: prevalent
+    - code: G00..00
+      value: Rheumatic fever without heart involvement
+      type: any
+    - code: G010.00
+      value: Acute rheumatic pericarditis
+      type: any
+    - code: G011.00
+      value: Acute rheumatic endocarditis
+      type: any
+    - code: G012.00
+      value: Acute rheumatic myocarditis
+      type: any
+    - code: G01..00
+      value: Rheumatic fever with heart involvement
+      type: any
+    - code: G01y000
+      value: Acute rheumatic pancarditis
+      type: any
+    - code: G01y.00
+      value: Other acute rheumatic heart disease
+      type: any
+    - code: G01yz00
+      value: Other acute rheumatic heart disease NOS
+      type: any
+    - code: G01z.00
+      value: Acute rheumatic heart disease NOS
+      type: any
+    - code: G020.00
+      value: Rheumatic chorea with heart involvement
+      type: any
+    - code: G021.00
+      value: Rheumatic chorea without mention of heart involvement
+      type: any
+    - code: G02..00
+      value: Rheumatic chorea
+      type: any
+    - code: G02..11
+      value: Sydenham's chorea
+      type: any
+    - code: G02z.00
+      value: Rheumatic chorea NOS
+      type: any
+    - code: G0...00
+      value: Acute rheumatic fever
+      type: any
+    - code: G0y..00
+      value: Other specified acute rheumatic fever
+      type: any
+    - code: G0z..00
+      value: Acute rheumatic fever NOS
+      type: any
+    - code: G100.00
+      value: Adherent rheumatic pericardium
+      type: any
+    - code: G102.00
+      value: Chronic rheumatic myopericarditis
+      type: any
+    - code: G10..00
+      value: Chronic rheumatic pericarditis
+      type: any
+    - code: G110.11
+      value: Rheumatic mitral stenosis
+      type: any
+    - code: G111.00
+      value: Rheumatic mitral insufficiency
+      type: any
+    - code: G111.11
+      value: Mitral incompetence - rheumatic
+      type: any
+    - code: G111.12
+      value: Mitral regurgitation - rheumatic
+      type: any
+    - code: G11..11
+      value: Rheumatic mitral valve disease
+      type: any
+    - code: G120.00
+      value: Rheumatic aortic stenosis
+      type: any
+    - code: G121.00
+      value: Rheumatic aortic insufficiency
+      type: any
+    - code: G121.11
+      value: Aortic incompetence - rheumatic
+      type: any
+    - code: G121.12
+      value: Aortic regurgitation - rheumatic
+      type: any
+    - code: G122.00
+      value: Rheumatic aortic stenosis with insufficiency
+      type: any
+    - code: G12..00
+      value: Rheumatic aortic valve disease
+      type: any
+    - code: G12z.00
+      value: Rheumatic aortic valve disease NOS
+      type: any
+    - code: G140000
+      value: Rheumatic tricuspid stenosis
+      type: any
+    - code: G140100
+      value: Rheumatic tricuspid insufficiency
+      type: any
+    - code: G140111
+      value: Tricuspid regurgitation - rheumatic
+      type: any
+    - code: G140112
+      value: Tricuspid incompetence - rheumatic
+      type: any
+    - code: G140200
+      value: Rheumatic tricuspid stenosis and insufficiency
+      type: any
+    - code: G14021X
+      value: Rheumatic tricuspid stenosis and regurgitation
+      type: any
+    - code: G14021Y
+      value: Rheumatic tricuspid stenosis and incompetence
+      type: any
+    - code: G140z00
+      value: Rheumatic tricuspid valve disease NOS
+      type: any
+    - code: G141000
+      value: Rheumatic pulmonary stenosis
+      type: any
+    - code: G141100
+      value: Rheumatic pulmonary insufficiency
+      type: any
+    - code: G141200
+      value: Rheumatic pulmonary stenosis and insufficiency
+      type: any
+    - code: G141.00
+      value: Rheumatic pulmonary valve disease
+      type: any
+    - code: G141z00
+      value: Rheumatic pulmonary valve disease NOS
+      type: any
+    - code: G14..00
+      value: Other chronic rheumatic endocardial disease
+      type: any
+    - code: G14z.00
+      value: Rheumatic endocarditis NOS
+      type: any
+    - code: G14z.11
+      value: Rheumatic valvulitis, chronic NOS
+      type: any
+    - code: G1...00
+      value: Chronic rheumatic heart disease
+      type: any
+    - code: G1y0.00
+      value: Rheumatic myocarditis
+      type: any
+    - code: G1y..00
+      value: Other specified chronic rheumatic heart disease
+      type: any
+    - code: G1yz000
+      value: Rheumatic heart disease unspecified
+      type: any
+    - code: G1yz100
+      value: Rheumatic left ventricular failure
+      type: any
+    - code: G1yz.00
+      value: Other and unspecified rheumatic heart disease
+      type: any
+    - code: G1yzz00
+      value: Other rheumatic heart disease NOS
+      type: any
+    - code: G1z..00
+      value: Chronic rheumatic heart disease NOS
+      type: any
+    - code: GA0..00
+      value: Carditis due to rheumatic fever
+      type: any
+    - code: GA...00
+      value: Rheumatic heart disease
+      type: any
+    - code: Gyu0000
+      value: '[X]Other acute rheumatic heart disease'
+      type: any
+    - code: Gyu0.00
+      value: '[X]Acute rheumatic fever'
+      type: any
+    - code: Gyu1100
+      value: '[X]Other rheumatic aortic valve diseases'
+      type: any
+    - code: H571.00
+      value: Rheumatic pneumonia
+      type: any
+    - code: M15y600
+      value: Erythema marginatum in acute rheumatic fever
+      type: any
+    - code: XaDyG
+      value: Rheumatic heart disease
+      type: any
+    - code: Xaagc
+      value: Carditis due to rheumatic fever
+      type: any
+    - code: XE0Ua
+      value: Rheumatic endocarditis NOS
+      type: any
+    - code: XE0UZ
+      value: Mitral stenosis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

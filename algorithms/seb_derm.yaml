@@ -1,0 +1,173 @@
+metadata:
+  phenotype: Seborrheic dermatitis
+  group: Skin
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: seb_derm
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: eed0ac1a-978f-4576-ac18-11766f856f2a
+  ontologies:
+    DOID: DOID_8741
+    GWAS: EFO_1000764
+    MESH: D012628
+    SNOMED-CT: 50563003
+    FINNGEN: L12_SEBORRHOEIC
+  short_desc: A dermatitis that is an inflammatory skin condition resulting in flaky,
+    white to yellowish scales on oily areas such as the scalp or inside the ear, which
+    is caused due to a combination of an over production of skin oil and irritation
+    from a yeast Malassezia furfur.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1452'
+      value: eczema/dermatitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: L21
+      value: Seborrhoeic dermatitis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: L21
+      value: Seborrhoeic dermatitis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: L21
+      value: Seborrhoeic dermatitis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: L21
+      value: Seborrhoeic dermatitis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: M100.00
+      value: Pityriasis capitis - dandruff
+      type: any
+    - code: M101.00
+      value: Seborrhoeic dermatitis
+      type: any
+    - code: M101.11
+      value: Seborrhoeic dermatitis capitis
+      type: any
+    - code: M101.12
+      value: Seborrhoeic eczema
+      type: any
+    - code: M118000
+      value: Infantile seborrhoeic dermatitis capitis
+      type: any
+    - code: M118011
+      value: Cradle cap
+      type: any
+    - code: M118.00
+      value: Infantile seborrhoeic dermatitis
+      type: any
+    - code: M118z00
+      value: Infantile seborrhoeic dermatitis NOS
+      type: any
+    - code: M15y300
+      value: Leiner's disease
+      type: any
+    - code: M165100
+      value: Pityriasis folliculorum
+      type: any
+    - code: M165200
+      value: Pityriasis streptogenes
+      type: any
+    - code: M244.11
+      value: Seborrhoea capitis
+      type: any
+    - code: M263000
+      value: Seborrhoea corporis
+      type: any
+    - code: M263100
+      value: Seborrhoea faciei
+      type: any
+    - code: M263200
+      value: Seborrhoea nasi
+      type: any
+    - code: M263300
+      value: Seborrhoea oleosa
+      type: any
+    - code: M263.00
+      value: Seborrhoea
+      type: any
+    - code: M263z00
+      value: Seborrhoea NOS
+      type: any
+    - code: Myu2000
+      value: '[X]Other seborrhoeic dermatitis'
+      type: any
+    - code: XE1Cq
+      value: Folliculitis
+      type: any
+    - code: XE1An
+      value: Seborrhoeic dermatitis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,306 @@
+metadata:
+  phenotype: Cholelithiasis
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: cholelithiasis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 11159edd-ef8a-4037-a004-04c6b8de552b
+  ontologies:
+    DOID: DOID_10211
+    GWAS: EFO_0004799
+    MESH: D002769
+    SNOMED-CT: 266474003
+    FINNGEN: K11_CHOLELITH
+  short_desc: Cholelithiasis involves the presence of gallstones (see the image below),
+    which are concretions that form in the biliary tract.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1162'
+      value: cholelithiasis/gall stones
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values:
+    - code: '1528'
+      value: gallstones removed
+      type: any
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K80
+      value: Cholelithiasis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K80
+      value: Cholelithiasis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: J18
+      value: cholecystectomy
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: J18
+      value: cholecystectomy
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K80
+      value: Cholelithiasis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K80
+      value: Cholelithiasis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14CE.00
+      value: 'H/O: gall stones'
+      type: prevalent
+    - code: '1965.00'
+      value: Biliary colic
+      type: any
+    - code: '1965.11'
+      value: Biliary colic symptom
+      type: any
+    - code: '4775.00'
+      value: 'Faeces: gall stones present'
+      type: any
+    - code: 4G21.00
+      value: 'O/E: cholesterol gall stone'
+      type: any
+    - code: 4G22.00
+      value: 'O/E: pigment gall stone'
+      type: any
+    - code: 4G2..00
+      value: 'O/E: gall stone'
+      type: any
+    - code: 4G2Z.00
+      value: 'O/E: gall stone NOS'
+      type: any
+    - code: '7648700.0'
+      value: Enterotomy and removal of gallstone
+      type: any
+    - code: 8CMWD00
+      value: On gallstone care pathway
+      type: any
+    - code: J503000
+      value: Gallstone ileus
+      type: any
+    - code: J640000
+      value: Gallbladder calculus with acute cholecystitis +no obstruct
+      type: any
+    - code: J640100
+      value: Gallbladder calculus with acute cholecystitis + obstruction
+      type: any
+    - code: J640.00
+      value: Gallbladder calculus with acute cholecystitis
+      type: any
+    - code: J640z00
+      value: Gallbladder calculus with acute cholecystitis - obst NOS
+      type: any
+    - code: J641000
+      value: Gallbladder calculus with other cholecystitis +no obstruct
+      type: any
+    - code: J641100
+      value: Gallbladder calculus with other cholecystitis + obstruct
+      type: any
+    - code: J641.00
+      value: Gallbladder calculus with other cholecystitis
+      type: any
+    - code: J641z00
+      value: Gallbladder calculus with other cholecystitis - obstruct NOS
+      type: any
+    - code: J642000
+      value: Gallbladder calculus without mention cholecystitis +no obstr
+      type: any
+    - code: J642100
+      value: Gallbladder calculus without mention cholecystitis + obstruc
+      type: any
+    - code: J642200
+      value: Biliary colic
+      type: any
+    - code: J642.00
+      value: Gallbladder calculus without mention of cholecystitis
+      type: any
+    - code: J642.11
+      value: Gallbladder calculus without mention of cholecystitis
+      type: any
+    - code: J642z00
+      value: Gallbladder calculus without cholecystitis and obstruct NOS
+      type: any
+    - code: J643000
+      value: Bile duct calculus + acute cholecystitis and no obstruction
+      type: any
+    - code: J643100
+      value: Bile duct calculus + acute cholecystitis and obstruction
+      type: any
+    - code: J643.00
+      value: Bile duct calculus with acute cholecystitis
+      type: any
+    - code: J643z00
+      value: Bile duct calculus + acute cholecystitis - obstruct NOS
+      type: any
+    - code: J644000
+      value: Bile duct calculus + other cholecystitis and no obstruction
+      type: any
+    - code: J644100
+      value: Bile duct calculus + other cholecystitis and obstruction
+      type: any
+    - code: J644.00
+      value: Bile duct calculus with other cholecystitis
+      type: any
+    - code: J644z00
+      value: Bile duct calculus + other cholecystitis - obstruction NOS
+      type: any
+    - code: J645000
+      value: Bile duct calculus without cholecystitis, no obstruction
+      type: any
+    - code: J645100
+      value: Bile duct calculus without cholecystitis with obstruction
+      type: any
+    - code: J645200
+      value: Bile duct calculus NOS
+      type: any
+    - code: J645.00
+      value: Bile duct calculus without mention of cholecystitis
+      type: any
+    - code: J645.11
+      value: Choledocholithiasis
+      type: any
+    - code: J645z00
+      value: Bile duct calculus without cholecystitis NOS
+      type: any
+    - code: J646.00
+      value: Calculus of bile duct with cholangitis
+      type: any
+    - code: J64..00
+      value: Cholelithiasis
+      type: any
+    - code: J64..11
+      value: Bile duct calculus
+      type: any
+    - code: J64..12
+      value: Calculus - biliary
+      type: any
+    - code: J64..13
+      value: Cystic duct calculus
+      type: any
+    - code: J64..14
+      value: Gallbladder calculus
+      type: any
+    - code: J64..15
+      value: Gallstones
+      type: any
+    - code: J64..16
+      value: Stone - biliary
+      type: any
+    - code: J64z000
+      value: Cholelithiasis without obstruction NOS
+      type: any
+    - code: J64z100
+      value: Cholelithiasis with obstruction NOS
+      type: any
+    - code: J64z.00
+      value: Cholelithiasis NOS
+      type: any
+    - code: J64zz00
+      value: Cholelithiasis NOS
+      type: any
+    - code: J670500
+      value: Gallstone acute pancreatitis
+      type: any
+    - code: J671100
+      value: Gallstone chronic pancreatitis
+      type: any
+    - code: Jyu8000
+      value: '[X]Other cholelithiasis'
+      type: any
+    - code: XaaBJ
+      value: On gallstone care pathway
+      type: any
+    - code: XaJCM
+      value: 'H/O: gall stones'
+      type: prevalent
+    - code: '1965.'
+      value: Biliary colic
+      type: any
+    - code: XE0bE
+      value: Bile duct calculus without mention of cholecystitis
+      type: any
+    - code: J64z.
+      value: Cholelithiasis NOS
+      type: any
+    - code: XaE6v
+      value: Bile duct calculus NOS
+      type: any
+    - code: XaB9c
+      value: Enterotomy and removal of gallstone
+      type: any
+    - code: X308i
+      value: Gallstone acute pancreatitis
+      type: any
+    - code: X308u
+      value: Gallstone chronic pancreatitis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

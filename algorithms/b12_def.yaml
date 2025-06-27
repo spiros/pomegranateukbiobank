@@ -1,0 +1,216 @@
+metadata:
+  phenotype: Vitamin B12 deficiency anaemia
+  group: Haematological or immunological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: b12_def
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 1c6a2eeb-41aa-4718-aae5-2d9961f6a167
+  ontologies:
+    DOID: DOID_13381
+    GWAS: EFO_0005576
+    MESH: D000752
+    SNOMED-CT: 49472006
+    FINNGEN: D3_ANAEMIA_B12_DEF
+  short_desc: A disease characterized by low serum levels of vitamin B12, either inherited
+    or acquired.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1331'
+      value: pernicious anaemia
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D51
+      value: Vitamin B12 deficiency anaemia
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D51
+      value: Vitamin B12 deficiency anaemia
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D51
+      value: Vitamin B12 deficiency anaemia
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D51
+      value: Vitamin B12 deficiency anaemia
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1452'
+      value: 'H/O: Anaemia vit.B12 deficient'
+      type: prevalent
+    - code: 66E1.00
+      value: B12 defic. initial assessment
+      type: any
+    - code: 66E2.00
+      value: B12 defic.follow-up assessment
+      type: prevalent
+    - code: 66E3.00
+      value: B12 injections started
+      type: any
+    - code: 66E4.00
+      value: B12 injections - at home
+      type: any
+    - code: 66E5.00
+      value: B12 injections - at surgery
+      type: any
+    - code: 66E6.00
+      value: Reticulcytosis after B12
+      type: any
+    - code: 66E..00
+      value: B12 deficiency monitoring
+      type: prevalent
+    - code: 66E7.00
+      value: B12 def.-dubious diag.criteria
+      type: any
+    - code: 66E8.00
+      value: B12 injections stopped
+      type: any
+    - code: 66EZ.00
+      value: B12 defic. monitoring NOS
+      type: prevalent
+    - code: C262100
+      value: Vitamin B12 deficiency
+      type: any
+    - code: D010.00
+      value: Pernicious anaemia
+      type: any
+    - code: D010.11
+      value: Addison's anaemia
+      type: any
+    - code: D010.12
+      value: Biermer's congenital pernicious anaemia
+      type: any
+    - code: D010.13
+      value: Congenital deficiency of intrinsic factor
+      type: any
+    - code: D011000
+      value: Vitamin B12 deficiency anaemia due to dietary causes
+      type: any
+    - code: D011011
+      value: Imerslund - Grasbeck syndrome
+      type: any
+    - code: D011013
+      value: Vegan's anaemia
+      type: any
+    - code: D011100
+      value: Vit B12 defic anaemia due to malabsorption with proteinuria
+      type: any
+    - code: D011200
+      value: Transcobalamin II deficiency
+      type: any
+    - code: D011.00
+      value: Other vitamin B12 deficiency anaemias
+      type: any
+    - code: D011.11
+      value: Vitamin B12 deficiency anaemia
+      type: any
+    - code: D011X00
+      value: Vitamin B12 deficiency anaemia, unspecified
+      type: any
+    - code: D011z00
+      value: Other vitamin B12 deficiency anaemia NOS
+      type: any
+    - code: D013000
+      value: Combined B12 and folate deficiency anaemia
+      type: any
+    - code: Dyu0100
+      value: '[X]Other dietary vitamin B12 deficiency anaemia'
+      type: any
+    - code: Dyu0200
+      value: '[X]Other vitamin B12 deficiency anaemias'
+      type: any
+    - code: Dyu0600
+      value: '[X]Vitamin B12 deficiency anaemia, unspecified'
+      type: any
+    - code: F11x600
+      value: Cerebral degeneration due to vitamin B12 deficiency
+      type: any
+    - code: F162.00
+      value: Subacute combined degeneration of spinal cord
+      type: any
+    - code: F381500
+      value: Myasthenic syndrome due to pernicious anaemia
+      type: any
+    - code: XE2ro
+      value: Pernicious anaemia
+      type: any
+    - code: XE13h
+      value: Vitamin B12 deficiency anaemia due to dietary causes
+      type: any
+    - code: XE13g
+      value: Other vitamin B12 deficiency anaemias
+      type: any
+    - code: X40SU
+      value: Transcobalamin II deficiency
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

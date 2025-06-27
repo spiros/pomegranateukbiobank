@@ -1,0 +1,317 @@
+metadata:
+  phenotype: Eye infections
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: eye
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 67c753d2-7a78-4e90-b3c2-81907b80c98e
+  ontologies:
+    DOID: null
+    GWAS: MONDO_0043885
+    MESH: D015817
+    SNOMED-CT: '128351009'
+    FINNGEN: null
+  short_desc: Infection, moderate to severe, caused by bacteria, fungi, or viruses,
+    which occurs either on the external surface of the eye or intraocularly with probable
+    inflammation, visual impairment, or blindness.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1274'
+      value: eye infection
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: A18.5
+      value: Tuberculosis of eye
+      type: any
+    - code: A21.1
+      value: Oculoglandular tularaemia
+      type: any
+    - code: A54.3
+      value: Gonococcal infection of eye
+      type: any
+    - code: A71
+      value: Trachoma
+      type: any
+    - code: A74.0
+      value: Chlamydial conjunctivitis
+      type: any
+    - code: B00.5
+      value: Herpesviral ocular disease
+      type: any
+    - code: B02.3
+      value: Zoster ocular disease
+      type: any
+    - code: B30
+      value: Viral conjunctivitis
+      type: any
+    - code: B58.0
+      value: Toxoplasma oculopathy
+      type: any
+    - code: B69.1
+      value: Cysticercosis of eye
+      type: any
+    - code: B87.2
+      value: Ocular myiasis
+      type: any
+    - code: B94.0
+      value: Sequelae of trachoma
+      type: any
+    - code: H00.0
+      value: Hordeolum and other deep inflammation of eyelid
+      type: any
+    - code: H10
+      value: Conjunctivitis
+      type: any
+    - code: H13.1
+      value: Conjunctivitis in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: H19.1
+      value: Herpesviral keratitis and keratoconjunctivitis
+      type: any
+    - code: H19.2
+      value: Keratitis and keratoconjunctivitis in other infectious and parasitic
+        diseases classified elsewhere
+      type: any
+    - code: P39.1
+      value: Neonatal conjunctivitis and dacryocystitis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: A18.5
+      value: Tuberculosis of eye
+      type: any
+    - code: A21.1
+      value: Oculoglandular tularaemia
+      type: any
+    - code: A54.3
+      value: Gonococcal infection of eye
+      type: any
+    - code: A71
+      value: Trachoma
+      type: any
+    - code: A74.0
+      value: Chlamydial conjunctivitis
+      type: any
+    - code: B00.5
+      value: Herpesviral ocular disease
+      type: any
+    - code: B02.3
+      value: Zoster ocular disease
+      type: any
+    - code: B30
+      value: Viral conjunctivitis
+      type: any
+    - code: B58.0
+      value: Toxoplasma oculopathy
+      type: any
+    - code: B69.1
+      value: Cysticercosis of eye
+      type: any
+    - code: B87.2
+      value: Ocular myiasis
+      type: any
+    - code: B94.0
+      value: Sequelae of trachoma
+      type: any
+    - code: H00.0
+      value: Hordeolum and other deep inflammation of eyelid
+      type: any
+    - code: H10
+      value: Conjunctivitis
+      type: any
+    - code: H13.1
+      value: Conjunctivitis in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: H19.1
+      value: Herpesviral keratitis and keratoconjunctivitis
+      type: any
+    - code: H19.2
+      value: Keratitis and keratoconjunctivitis in other infectious and parasitic
+        diseases classified elsewhere
+      type: any
+    - code: P39.1
+      value: Neonatal conjunctivitis and dacryocystitis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A18.5
+      value: Tuberculosis of eye
+      type: any
+    - code: A21.1
+      value: Oculoglandular tularaemia
+      type: any
+    - code: A54.3
+      value: Gonococcal infection of eye
+      type: any
+    - code: A71
+      value: Trachoma
+      type: any
+    - code: A74.0
+      value: Chlamydial conjunctivitis
+      type: any
+    - code: B00.5
+      value: Herpesviral ocular disease
+      type: any
+    - code: B02.3
+      value: Zoster ocular disease
+      type: any
+    - code: B30
+      value: Viral conjunctivitis
+      type: any
+    - code: B58.0
+      value: Toxoplasma oculopathy
+      type: any
+    - code: B69.1
+      value: Cysticercosis of eye
+      type: any
+    - code: B87.2
+      value: Ocular myiasis
+      type: any
+    - code: B94.0
+      value: Sequelae of trachoma
+      type: any
+    - code: H00.0
+      value: Hordeolum and other deep inflammation of eyelid
+      type: any
+    - code: H10
+      value: Conjunctivitis
+      type: any
+    - code: H13.1
+      value: Conjunctivitis in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: H19.1
+      value: Herpesviral keratitis and keratoconjunctivitis
+      type: any
+    - code: H19.2
+      value: Keratitis and keratoconjunctivitis in other infectious and parasitic
+        diseases classified elsewhere
+      type: any
+    - code: P39.1
+      value: Neonatal conjunctivitis and dacryocystitis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A18.5
+      value: Tuberculosis of eye
+      type: any
+    - code: A21.1
+      value: Oculoglandular tularaemia
+      type: any
+    - code: A54.3
+      value: Gonococcal infection of eye
+      type: any
+    - code: A71
+      value: Trachoma
+      type: any
+    - code: A74.0
+      value: Chlamydial conjunctivitis
+      type: any
+    - code: B00.5
+      value: Herpesviral ocular disease
+      type: any
+    - code: B02.3
+      value: Zoster ocular disease
+      type: any
+    - code: B30
+      value: Viral conjunctivitis
+      type: any
+    - code: B58.0
+      value: Toxoplasma oculopathy
+      type: any
+    - code: B69.1
+      value: Cysticercosis of eye
+      type: any
+    - code: B87.2
+      value: Ocular myiasis
+      type: any
+    - code: B94.0
+      value: Sequelae of trachoma
+      type: any
+    - code: H00.0
+      value: Hordeolum and other deep inflammation of eyelid
+      type: any
+    - code: H10
+      value: Conjunctivitis
+      type: any
+    - code: H13.1
+      value: Conjunctivitis in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: H19.1
+      value: Herpesviral keratitis and keratoconjunctivitis
+      type: any
+    - code: H19.2
+      value: Keratitis and keratoconjunctivitis in other infectious and parasitic
+        diseases classified elsewhere
+      type: any
+    - code: P39.1
+      value: Neonatal conjunctivitis and dacryocystitis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

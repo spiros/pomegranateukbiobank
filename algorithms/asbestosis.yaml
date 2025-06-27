@@ -1,0 +1,119 @@
+metadata:
+  phenotype: Asbestosis
+  group: Respiratory
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: asbestosis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: e6fa1fbb-5101-4ad5-854b-84b4d8dcd754
+  ontologies:
+    DOID: DOID_10320
+    GWAS: null
+    MESH: D001195
+    SNOMED-CT: 22607003
+    FINNGEN: J10_ASBESTPNEUMOC
+  short_desc: A pneumoconiosis caused by inhalation and retention of asbestos fibers.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1120'
+      value: asbestosis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: J61
+      value: Pneumoconiosis due to asbestos and other mineral fibres
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: J61
+      value: Pneumoconiosis due to asbestos and other mineral fibres
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J61
+      value: Pneumoconiosis due to asbestos and other mineral fibres
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J61
+      value: Pneumoconiosis due to asbestos and other mineral fibres
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: H410.00
+      value: Pleural plaque disease due to asbestosis
+      type: any
+    - code: H410.11
+      value: Asbestos-induced pleural plaque
+      type: any
+    - code: H41..00
+      value: Asbestosis
+      type: any
+    - code: H41z.00
+      value: Asbestosis NOS
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,162 @@
+metadata:
+  phenotype: Multiple valve dz
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: mult_valve
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: b17ca73f-356a-4bb3-8910-b454ba94b5ce
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: null
+    SNOMED-CT: 195002007
+    FINNGEN: null
+  short_desc: The combination of stenotic or regurgitant lesions occurring on ?2 cardiac
+    valves.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I08
+      value: Multiple valve diseases
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I08
+      value: Multiple valve diseases
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I08
+      value: Multiple valve diseases
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I08
+      value: Multiple valve diseases
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: G130.00
+      value: Mitral and aortic stenosis
+      type: any
+    - code: G131.00
+      value: Mitral stenosis and aortic insufficiency
+      type: any
+    - code: G131.13
+      value: Mitral stenosis and aortic incompetence
+      type: any
+    - code: G131.14
+      value: Mitral stenosis and aortic regurgitation
+      type: any
+    - code: G132.00
+      value: Mitral insufficiency and aortic stenosis
+      type: any
+    - code: G132.12
+      value: Mitral incompetence and aortic stenosis
+      type: any
+    - code: G132.13
+      value: Mitral regurgitation and aortic stenosis
+      type: any
+    - code: G133.00
+      value: Mitral and aortic incompetence
+      type: any
+    - code: G133.11
+      value: Mitral and aortic insufficiency
+      type: any
+    - code: G133.12
+      value: Mitral and aortic regurgitation
+      type: any
+    - code: G13..00
+      value: Diseases of mitral and aortic valves
+      type: any
+    - code: G13y.00
+      value: Multiple mitral and aortic valve involvement
+      type: any
+    - code: G13z.00
+      value: Mitral and aortic valve disease NOS
+      type: any
+    - code: G544000
+      value: Disorders of both aortic and tricuspid valves
+      type: any
+    - code: G544100
+      value: Disorders of both mitral and tricuspid valves
+      type: any
+    - code: G544200
+      value: Combined disorders of mitral, aortic and tricuspid valves
+      type: any
+    - code: G544.00
+      value: Multiple valve diseases
+      type: any
+    - code: G544X00
+      value: Multiple valve disease, unspecified
+      type: any
+    - code: Gyu5D00
+      value: '[X]Multiple valve disorders/diseases CE'
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

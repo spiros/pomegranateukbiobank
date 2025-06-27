@@ -1,0 +1,179 @@
+metadata:
+  phenotype: Scleritis and episcleritis
+  group: Eye
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: scleritis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 804d815f-3025-4e8c-9c12-fd273341dcd1
+  ontologies:
+    DOID: DOID_13452
+    GWAS: null
+    MESH: D015423
+    SNOMED-CT: 267659002
+    FINNGEN: H7_SCLERITISEPISCLERITIS
+  short_desc: Inflammation of the sclera or episclera.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: H15.0
+      value: Scleritis
+      type: any
+    - code: H15.1
+      value: Episcleritis
+      type: any
+    - code: H19.0
+      value: Scleritis and episcleritis in diseases classified elsewhere
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: H15.0
+      value: Scleritis
+      type: any
+    - code: H15.1
+      value: Episcleritis
+      type: any
+    - code: H19.0
+      value: Scleritis and episcleritis in diseases classified elsewhere
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H15.0
+      value: Scleritis
+      type: any
+    - code: H15.1
+      value: Episcleritis
+      type: any
+    - code: H19.0
+      value: Scleritis and episcleritis in diseases classified elsewhere
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H15.0
+      value: Scleritis
+      type: any
+    - code: H15.1
+      value: Episcleritis
+      type: any
+    - code: H19.0
+      value: Scleritis and episcleritis in diseases classified elsewhere
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: F4K0000
+      value: Unspecified scleritis
+      type: any
+    - code: F4K0100
+      value: Episcleritis periodica fugax
+      type: any
+    - code: F4K0200
+      value: Nodular episcleritis
+      type: any
+    - code: F4K0300
+      value: Anterior scleritis
+      type: any
+    - code: F4K0400
+      value: Scleromalacia perforans
+      type: any
+    - code: F4K0500
+      value: Sclerokeratitis
+      type: any
+    - code: F4K0600
+      value: Brawny scleritis
+      type: any
+    - code: F4K0700
+      value: Posterior scleritis
+      type: any
+    - code: F4K0711
+      value: Sclerotenonitis
+      type: any
+    - code: F4K0.00
+      value: Scleritis and episcleritis
+      type: any
+    - code: F4K0.11
+      value: Episcleritis
+      type: any
+    - code: F4K0.12
+      value: Scleritis
+      type: any
+    - code: F4K0z00
+      value: Scleritis or episcleritis NOS
+      type: any
+    - code: FyuD800
+      value: '[X]Scleritis+episcleritis in diseases CE'
+      type: any
+    - code: XE171
+      value: Posterior scleritis
+      type: any
+    - code: F4A52
+      value: Sclerokeratitis
+      type: any
+    - code: XE170
+      value: Scleritis and episcleritis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

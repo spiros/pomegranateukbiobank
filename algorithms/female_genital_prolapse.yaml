@@ -1,0 +1,453 @@
+metadata:
+  phenotype: Female genital prolapse
+  group: Genitourinary
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: female_genital_prolapse
+  gender:
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 6ccec093-4704-41d2-b7f5-c0b1a66133e5
+  ontologies:
+    DOID: DOID_1284
+    GWAS: EFO_1001864
+    MESH: D014596
+    SNOMED-CT: '73998008'
+    FINNGEN: N14_FEMGENPROL
+  short_desc: A female reproductive system disease that is characteried by the descent
+    of one or more of the pelvic structures (bladder, uterus, vagina) from the normal
+    anatomic location toward or through the vaginal opening.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1353'
+      value: vaginal prolapse/uterine prolapse
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: N81
+      value: Female genital prolapse
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: N81
+      value: Female genital prolapse
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N81
+      value: Female genital prolapse
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N81
+      value: Female genital prolapse
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1594.00'
+      value: 'H/O: genital prolapse'
+      type: prevalent
+    - code: 7D17000
+      value: Ant and post colporrhaphy and amputation of cervix uteri
+      type: any
+    - code: 7D17100
+      value: Anterior colporrhaphy and amputation of cervix uteri NEC
+      type: any
+    - code: 7D17111
+      value: Fothergill anterior colporrhaphy and amputation of cervix
+      type: any
+    - code: 7D17200
+      value: Posterior colporrhaphy and amputation of cervix uteri NEC
+      type: any
+    - code: 7D17.00
+      value: Repair of vaginal prolapse and amputation of cervix uteri
+      type: any
+    - code: 7D17.11
+      value: Colporrhaphy and amputation of cervix uteri
+      type: any
+    - code: 7D17y00
+      value: Repair of vaginal prolapse & amputation of cervix uteri OS
+      type: any
+    - code: 7D17z00
+      value: Repair of vaginal prolapse & amputation of cervix uteri NOS
+      type: any
+    - code: 7D17z11
+      value: Manchester repair
+      type: any
+    - code: 7D18000
+      value: Anterior and posterior colporrhaphy NEC
+      type: any
+    - code: 7D18011
+      value: Anterior and posterior repair
+      type: any
+    - code: 7D18100
+      value: Anterior colporrhaphy NEC
+      type: any
+    - code: 7D18111
+      value: Anterior repair
+      type: any
+    - code: 7D18200
+      value: Posterior colporrhaphy NEC
+      type: any
+    - code: 7D18211
+      value: Posterior repair
+      type: any
+    - code: 7D18300
+      value: Repair of enterocele NEC
+      type: any
+    - code: 7D18311
+      value: McCall repair of enterocele
+      type: any
+    - code: 7D18312
+      value: Moschowitz repair of enterocele
+      type: any
+    - code: 7D18400
+      value: Colporrhaphy NEC
+      type: any
+    - code: 7D18500
+      value: Anterior mesh vaginal repair
+      type: any
+    - code: 7D18600
+      value: Paravaginal repair
+      type: any
+    - code: 7D18700
+      value: Anterior colporrhaphy with mesh reinforcement
+      type: any
+    - code: 7D18.00
+      value: Other repair of vaginal prolapse
+      type: any
+    - code: 7D18.11
+      value: Colporrhaphy
+      type: any
+    - code: 7D18800
+      value: Posterior colporrhaphy with mesh reinforcement
+      type: any
+    - code: 7D18y00
+      value: Other specified other repair of vaginal prolapse
+      type: any
+    - code: 7D18z00
+      value: Other repair of vaginal prolapse NOS
+      type: any
+    - code: 7D19000
+      value: Repair vaginal vault combined abdominal & vaginal approach
+      type: any
+    - code: 7D19100
+      value: Repair of vault of vagina using abdominal approach NEC
+      type: any
+    - code: 7D19200
+      value: Repair of vault of vagina using vaginal approach NEC
+      type: any
+    - code: 7D19300
+      value: Sacrocolpopexy
+      type: any
+    - code: 7D19400
+      value: Suspension of vagina NEC
+      type: any
+    - code: 7D19500
+      value: Sacrospinous fixation of vaginal vault
+      type: any
+    - code: 7D19600
+      value: Repair of vault of vagina with mesh using abdominal approach
+      type: any
+    - code: 7D19700
+      value: Repair of vault of vagina with mesh using vaginal approach
+      type: any
+    - code: 7D19.00
+      value: Repair of vault of vagina
+      type: any
+    - code: 7D19y00
+      value: Other specified repair of vault of vagina
+      type: any
+    - code: 7D19z00
+      value: Repair of vault of vagina NOS
+      type: any
+    - code: 7D1A411
+      value: Colpoperineorrhaphy
+      type: any
+    - code: 7D1B000
+      value: Insertion of Hodge pessary into vagina
+      type: any
+    - code: 7D1B100
+      value: Insertion of ring into vagina
+      type: any
+    - code: 7D1B200
+      value: Removal of supporting pessary from vagina
+      type: any
+    - code: 7D1B300
+      value: Change of vaginal pessary
+      type: any
+    - code: 7D1B400
+      value: Removal of ring pessary from vagina
+      type: any
+    - code: 7D1B500
+      value: Renewal of supporting pessary in vagina
+      type: any
+    - code: 7D1B600
+      value: Insertion of ring pessary into vagina
+      type: any
+    - code: 7D1B.00
+      value: Introduction of supporting pessary into vagina
+      type: any
+    - code: 7D1By00
+      value: Introduction of supporting pessary into vagina OS
+      type: any
+    - code: 7D1Bz00
+      value: Introduction of supporting pessary into vagina NOS
+      type: any
+    - code: K510000
+      value: Cystocele without uterine prolapse
+      type: any
+    - code: K510100
+      value: Cystourethrocele without uterine prolapse
+      type: any
+    - code: K510200
+      value: Rectocele without uterine prolapse
+      type: any
+    - code: K510211
+      value: Proctocele without uterine prolapse
+      type: any
+    - code: K510300
+      value: Urethrocele without uterine prolapse
+      type: any
+    - code: K510400
+      value: Vaginal prolapse unspecified without uterine prolapse
+      type: any
+    - code: K510.00
+      value: Vaginal wall prolapse without uterine prolapse
+      type: any
+    - code: K510z00
+      value: Vaginal prolapse without uterine prolapse NOS
+      type: any
+    - code: K511000
+      value: First degree uterine prolapse
+      type: any
+    - code: K511100
+      value: Second degree uterine prolapse
+      type: any
+    - code: K511200
+      value: Third degree uterine prolapse
+      type: any
+    - code: K511.00
+      value: Uterine prolapse without vaginal wall prolapse
+      type: any
+    - code: K511.11
+      value: Descens uteri
+      type: any
+    - code: K511z00
+      value: Uterine prolapse without vaginal wall prolapse NOS
+      type: any
+    - code: K512000
+      value: Cystocele with first degree uterine prolapse
+      type: any
+    - code: K512100
+      value: Cystocele with second degree uterine prolapse
+      type: any
+    - code: K512.00
+      value: Uterovaginal prolapse, incomplete
+      type: any
+    - code: K513000
+      value: Cystocele with third degree uterine prolapse
+      type: any
+    - code: K513.00
+      value: Uterovaginal prolapse, complete
+      type: any
+    - code: K513.11
+      value: Procidentia - uterine
+      type: any
+    - code: K514000
+      value: Cystocele with unspecified uterine prolapse
+      type: any
+    - code: K514.00
+      value: Uterovaginal prolapse, unspecified
+      type: any
+    - code: K515.00
+      value: Post hysterectomy vaginal vault prolapse
+      type: any
+    - code: K516100
+      value: Acquired vaginal enterocele
+      type: any
+    - code: K516.00
+      value: Vaginal enterocele
+      type: any
+    - code: K516.11
+      value: Pelvic enterocele
+      type: any
+    - code: K516z00
+      value: Vaginal enterocele NOS
+      type: any
+    - code: K517.00
+      value: Old laceration of pelvic floor muscle
+      type: any
+    - code: K518.00
+      value: Female rectocele
+      type: any
+    - code: K519.00
+      value: Cystocele
+      type: any
+    - code: K51..00
+      value: Genital prolapse
+      type: any
+    - code: K51y000
+      value: Incompetence of pelvic fundus
+      type: any
+    - code: K51y100
+      value: Weakening of pelvic fundus
+      type: any
+    - code: K51y300
+      value: Relaxation of pelvis
+      type: any
+    - code: K51y.00
+      value: Other genital prolapse
+      type: any
+    - code: K51yz00
+      value: Other genital prolapse NOS
+      type: any
+    - code: K51z.00
+      value: Genital prolapse NOS
+      type: any
+    - code: Kyu9100
+      value: '[X]Other female genital prolapse'
+      type: any
+    - code: SP07900
+      value: Problem with vaginal pessary
+      type: any
+    - code: XaJzP
+      value: Cystocele with second degree uterine prolapse
+      type: any
+    - code: XE0HG
+      value: Repair of enterocele NEC
+      type: any
+    - code: XaM56
+      value: Paravaginal repair
+      type: any
+    - code: XaM53
+      value: Repair of vault of vagina with mesh using abdominal approach
+      type: any
+    - code: XE2aD
+      value: Vaginal enterocele
+      type: any
+    - code: X402n
+      value: Removal of ring pessary from vagina
+      type: any
+    - code: XE0HE
+      value: Anterior colporrhaphy NEC
+      type: any
+    - code: XE0HC
+      value: Other repair of vaginal prolapse
+      type: any
+    - code: XaF7h
+      value: Anterior mesh vaginal repair
+      type: any
+    - code: XaM54
+      value: Repair of vault of vagina with mesh using vaginal approach
+      type: any
+    - code: XaMu9
+      value: Posterior colporrhaphy with mesh reinforcement
+      type: any
+    - code: XE0HD
+      value: Anterior and posterior colporrhaphy NEC
+      type: any
+    - code: XaJzQ
+      value: Cystocele with third degree uterine prolapse
+      type: any
+    - code: XE0HH
+      value: Suture of vagina
+      type: any
+    - code: XE0HB
+      value: Repair of vaginal prolapse and amputation of cervix uteri NOS
+      type: any
+    - code: 7D1B1
+      value: Insertion of ring pessary into vagina
+      type: any
+    - code: XE0HF
+      value: Posterior colporrhaphy NEC
+      type: any
+    - code: X402i
+      value: Renewal of supporting pessary in vagina
+      type: any
+    - code: XaJzO
+      value: Cystocele with first degree uterine prolapse
+      type: any
+    - code: Xa9CL
+      value: Female rectocele
+      type: any
+    - code: XE0HA
+      value: Anterior colporrhaphy and amputation of cervix uteri NEC
+      type: any
+    - code: X402f
+      value: Sacrospinous fixation of vaginal vault
+      type: any
+    - code: XaMu8
+      value: Anterior colporrhaphy with mesh reinforcement
+      type: any
+    - code: X77Sc
+      value: Cystocele
+      type: any
+    - code: XE0eY
+      value: Uterine prolapse without vaginal wall prolapse
+      type: any
+    - code: XaJzR
+      value: Cystocele with unspecified uterine prolapse
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

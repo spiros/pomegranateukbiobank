@@ -1,0 +1,187 @@
+metadata:
+  phenotype: Myelodysplastic syndromes
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: MDS
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: d1d622aa-5b48-4749-9f05-521e7f6e04e3
+  ontologies:
+    DOID: DOID_0050908
+    GWAS: EFO_0000198
+    MESH: D009190
+    SNOMED-CT: 128623006
+    FINNGEN: null
+  short_desc: Clonal hematopoietic stem cell disorders characterized by dysplasia
+    in one or more hematopoietic cell lineages.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1051'
+      value: myelofibrosis or myelodysplasia
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D46
+      value: Myelodysplastic syndromes
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D46
+      value: Myelodysplastic syndromes
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D46
+      value: Myelodysplastic syndromes
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D46
+      value: Myelodysplastic syndromes
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 7Q09700
+      value: Myelodysplastic syndrome drugs Band 1
+      type: any
+    - code: B937000
+      value: Refractory anaemia without sideroblasts, so stated
+      type: any
+    - code: B937100
+      value: Refractory anaemia with sideroblasts
+      type: any
+    - code: B937200
+      value: Refractory anaemia with excess of blasts
+      type: any
+    - code: B937300
+      value: Refractory anaemia with excess of blasts with transformation
+      type: any
+    - code: B937600
+      value: Refractory anaemia without ring sideroblasts
+      type: any
+    - code: B937700
+      value: Refractory anaemia with ring sideroblasts
+      type: any
+    - code: B937800
+      value: Refractory anaemia with multilineage dysplasia
+      type: any
+    - code: B937900
+      value: 5Q minus syndrome
+      type: any
+    - code: B937911
+      value: Myelodysplastic syndrome isolated del(5q) chromosomal abnorm
+      type: any
+    - code: B937.14
+      value: Myelodysplasia
+      type: any
+    - code: B937W00
+      value: Myelodysplastic syndrome, unspecified
+      type: any
+    - code: B937W11
+      value: Myelodysplasia
+      type: any
+    - code: B937X00
+      value: Refractory anaemia, unspecified
+      type: any
+    - code: BBmA.00
+      value: '[M] Refractory anaemia with sideroblasts'
+      type: any
+    - code: BBmB.00
+      value: '[M]Refractory anaemia+excess of blasts with transformation'
+      type: any
+    - code: BBmL.00
+      value: '[M] Refractory anaemia with excess of blasts'
+      type: any
+    - code: BBv..00
+      value: '[M]Myelodysplastic syndrome'
+      type: any
+    - code: ByuHD00
+      value: '[X]Myelodysplastic syndrome, unspecified'
+      type: any
+    - code: D213.00
+      value: Refractory Anaemia
+      type: any
+    - code: XaBC5
+      value: '[M] Refractory anaemia with excess of blasts'
+      type: any
+    - code: XaYv2
+      value: Refractory anaemia with multilineage dysplasia
+      type: any
+    - code: Xa0Sh
+      value: 5Q minus syndrome
+      type: any
+    - code: XE1wQ
+      value: Neoplasm of uncertain behaviour of other lymphatic and haematopoietic
+        tissue
+      type: any
+    - code: XaXJF
+      value: Myelodysplastic syndrome drugs Band 1
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: D46
+      value: Myelodysplastic syndromes
+      type: any

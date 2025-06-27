@@ -1,0 +1,178 @@
+metadata:
+  phenotype: Other interstitial pulmonary diseases with fibrosis
+  group: Respiratory
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: pulm_fibrosis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: deac8362-2059-4cd9-b43f-30533d5734cb
+  ontologies:
+    DOID: DOID_0050156
+    GWAS: EFO_0000768
+    MESH: D054990
+    SNOMED-CT: 700250006
+    FINNGEN: IPF
+  short_desc: Idiopathic pulmonary fibrosis (IPF) is a nonneoplastic pulmonary disease
+    that is characterized by the formation of scar tissue within the lungs in the
+    absence of any known cause.
+  long_desc: null
+  priority: 2
+definitions:
+  22175:
+    metadata:
+      desc: Recent medication for idiopathic pulmonary fibrosis
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: 'Yes'
+      type: any
+  22135:
+    metadata:
+      desc: Doctor diagnosed idiopathic pulmonary fibrosis
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: 'Yes'
+      type: any
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1115'
+      value: interstitial lung disease
+      type: any
+    - code: '1122'
+      value: fibrosing alveolitis/unspecified alveolitis
+      type: any
+    - code: '1121'
+      value: pulmonary fibrosis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: J84.1
+      value: Other interstitial pulmonary diseases with fibrosis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: J84.1
+      value: Other interstitial pulmonary diseases with fibrosis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J84.1
+      value: Other interstitial pulmonary diseases with fibrosis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J84.1
+      value: Other interstitial pulmonary diseases with fibrosis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 23E5.00
+      value: O/E - fibrosis of lung present
+      type: any
+    - code: 23E5.11
+      value: O/E - fibrosis of lung
+      type: any
+    - code: H55..00
+      value: Postinflammatory pulmonary fibrosis
+      type: any
+    - code: H55..11
+      value: Cirrhosis of lung
+      type: any
+    - code: H563100
+      value: Diffuse pulmonary fibrosis
+      type: any
+    - code: H563200
+      value: Pulmonary fibrosis
+      type: any
+    - code: H563300
+      value: Usual interstitial pneumonitis
+      type: any
+    - code: H563.00
+      value: Idiopathic fibrosing alveolitis
+      type: any
+    - code: H563.11
+      value: Hamman - Rich syndrome
+      type: any
+    - code: H563.12
+      value: Cryptogenic fibrosing alveolitis
+      type: any
+    - code: H563.13
+      value: Idiopathic pulmonary fibrosis
+      type: any
+    - code: H563z00
+      value: Idiopathic fibrosing alveolitis NOS
+      type: any
+    - code: Hyu5000
+      value: '[X]Other interstitial pulmonary diseases with fibrosis'
+      type: any
+    - code: X102v
+      value: Usual interstitial pneumonitis
+      type: any
+    - code: X102u
+      value: Pulmonary fibrosis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

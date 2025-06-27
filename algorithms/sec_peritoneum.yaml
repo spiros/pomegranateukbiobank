@@ -1,0 +1,125 @@
+metadata:
+  phenotype: Secondary Malignancy_retroperitoneum and peritoneum
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: sec_peritoneum
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 96d99e2b-b01f-425b-bb18-b8c2fa62c287
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: null
+    SNOMED-CT: 188445006
+    FINNGEN: null
+  short_desc: Secondary Malignancy_retroperitoneum and peritoneum
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C78.6
+      value: Secondary malignant neoplasm of retroperitoneum and peritoneum
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C78.6
+      value: Secondary malignant neoplasm of retroperitoneum and peritoneum
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C78.6
+      value: Secondary malignant neoplasm of retroperitoneum and peritoneum
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C78.6
+      value: Secondary malignant neoplasm of retroperitoneum and peritoneum
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B576000
+      value: Secondary malignant neoplasm of retroperitoneum
+      type: any
+    - code: B576100
+      value: Secondary malignant neoplasm of peritoneum
+      type: any
+    - code: B576200
+      value: Malignant ascites
+      type: any
+    - code: B576.00
+      value: Secondary malig neop of retroperitoneum and peritoneum
+      type: any
+    - code: B576z00
+      value: Secondary malig neop of retroperitoneum or peritoneum NOS
+      type: any
+    - code: X30AD
+      value: Malignant ascites
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C78.6
+      value: Secondary malignant neoplasm of retroperitoneum and peritoneum
+      type: any

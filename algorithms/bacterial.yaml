@@ -1,0 +1,1983 @@
+metadata:
+  phenotype: Bacterial Diseases (excl TB)
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: bacterial
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 3806fc49-4977-4d25-b5fd-a94dc0d0ce1f
+  ontologies:
+    DOID: DOID_104
+    GWAS: EFO_0000771
+    MESH: D001424
+    SNOMED-CT: '87628006'
+    FINNGEN: AB1_OTHER_BACTERIAL
+  short_desc: Bacterial Diseases (excl TB)
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1577'
+      value: typhoid fever
+      type: any
+    - code: '1574'
+      value: diphtheria
+      type: any
+    - code: '1678'
+      value: chlamydia
+      type: any
+    - code: '1566'
+      value: mrsa / methicillin resistant staphylococcus aureus
+      type: any
+    - code: '1498'
+      value: empyema
+      type: any
+    - code: '1557'
+      value: pelvic inflammatory disease/ pid
+      type: any
+    - code: '1572'
+      value: whooping cough / pertussis
+      type: any
+    - code: '1677'
+      value: scarlet fever / scarlatina
+      type: any
+    - code: '1657'
+      value: septicaemia / sepsis
+      type: any
+    - code: '1442'
+      value: helicobacter pylori
+      type: any
+    - code: '1479'
+      value: rheumatic fever
+      type: any
+    - code: '1625'
+      value: cellulitis
+      type: any
+    - code: '1308'
+      value: osteomyelitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: A00
+      value: Cholera
+      type: any
+    - code: A01
+      value: Typhoid and paratyphoid fevers
+      type: any
+    - code: A02
+      value: Other salmonella infections
+      type: any
+    - code: A03
+      value: Shigellosis
+      type: any
+    - code: A04
+      value: Other bacterial intestinal infections
+      type: any
+    - code: A05
+      value: Other bacterial foodborne intoxications, not elsewhere classified
+      type: any
+    - code: A20
+      value: Plague
+      type: any
+    - code: A21
+      value: Tularaemia
+      type: any
+    - code: A22
+      value: Anthrax
+      type: any
+    - code: A23
+      value: Brucellosis
+      type: any
+    - code: A24
+      value: Glanders and melioidosis
+      type: any
+    - code: A25
+      value: Rat-bite fevers
+      type: any
+    - code: A26
+      value: Erysipeloid
+      type: any
+    - code: A27
+      value: Leptospirosis
+      type: any
+    - code: A28
+      value: Other zoonotic bacterial diseases, not elsewhere classified
+      type: any
+    - code: A30
+      value: Leprosy [Hansen's disease]
+      type: any
+    - code: A31
+      value: Infection due to other mycobacteria
+      type: any
+    - code: A32
+      value: Listeriosis
+      type: any
+    - code: A35
+      value: Other tetanus
+      type: any
+    - code: A36
+      value: Diphtheria
+      type: any
+    - code: A37
+      value: Whooping cough
+      type: any
+    - code: A38
+      value: Scarlet fever
+      type: any
+    - code: A39
+      value: Meningococcal infection
+      type: any
+    - code: A40
+      value: Streptococcal sepsis
+      type: any
+    - code: A41.0
+      value: Sepsis due to Staphylococcus aureus
+      type: any
+    - code: A41.1
+      value: Sepsis due to other specified staphylococcus
+      type: any
+    - code: A41.2
+      value: Sepsis due to unspecified staphylococcus
+      type: any
+    - code: A41.3
+      value: Sepsis due to Haemophilus influenzae
+      type: any
+    - code: A41.4
+      value: Sepsis due to anaerobes
+      type: any
+    - code: A41.5
+      value: Sepsis due to other Gram-negative organisms
+      type: any
+    - code: A42
+      value: Actinomycosis
+      type: any
+    - code: A43
+      value: Nocardiosis
+      type: any
+    - code: A44
+      value: Bartonellosis
+      type: any
+    - code: A46
+      value: Erysipelas
+      type: any
+    - code: A48
+      value: Other bacterial diseases, not elsewhere classified
+      type: any
+    - code: A49
+      value: Bacterial infection of unspecified site
+      type: any
+    - code: A50
+      value: Congenital syphilis
+      type: any
+    - code: A51
+      value: Early syphilis
+      type: any
+    - code: A52
+      value: Late syphilis
+      type: any
+    - code: A53
+      value: Other and unspecified syphilis
+      type: any
+    - code: A54
+      value: Gonococcal infection
+      type: any
+    - code: A55
+      value: Chlamydial lymphogranuloma (venereum)
+      type: any
+    - code: A56
+      value: Other sexually transmitted chlamydial diseases
+      type: any
+    - code: A57
+      value: Chancroid
+      type: any
+    - code: A58
+      value: Granuloma inguinale
+      type: any
+    - code: A65
+      value: Nonvenereal syphilis
+      type: any
+    - code: A66
+      value: Yaws
+      type: any
+    - code: A67
+      value: Pinta [carate]
+      type: any
+    - code: A68
+      value: Relapsing fevers
+      type: any
+    - code: A69
+      value: Other spirochaetal infections
+      type: any
+    - code: A70
+      value: Chlamydia psittaci infection
+      type: any
+    - code: A71
+      value: Trachoma
+      type: any
+    - code: A74
+      value: Other diseases caused by chlamydiae
+      type: any
+    - code: A75
+      value: Typhus fever
+      type: any
+    - code: A77
+      value: Spotted fever [tick-borne rickettsioses]
+      type: any
+    - code: A78
+      value: Q fever
+      type: any
+    - code: A79
+      value: Other rickettsioses
+      type: any
+    - code: B20.1
+      value: HIV disease resulting in other bacterial infections
+      type: any
+    - code: B92
+      value: Sequelae of leprosy
+      type: any
+    - code: B94.0
+      value: Sequelae of trachoma
+      type: any
+    - code: B95
+      value: Streptococcus and staphylococcus as the cause of diseases classified
+        to other chapters
+      type: any
+    - code: B96
+      value: Other specified bacterial agents as the cause of diseases classified
+        to other chapters
+      type: any
+    - code: B98.0
+      value: Helicobacter pylori [H.pylori] as the cause of diseases classified to
+        other chapters
+      type: any
+    - code: B98.1
+      value: Vibrio vulnificus as the cause of diseases classified to other chapters
+      type: any
+    - code: G00
+      value: Bacterial meningitis, not elsewhere classified
+      type: any
+    - code: G01
+      value: Meningitis in bacterial diseases classified elsewhere
+      type: any
+    - code: G04.2
+      value: Bacterial meningoencephalitis and meningomyelitis, not elsewhere classified
+      type: any
+    - code: G05.0
+      value: Encephalitis, myelitis and encephalomyelitis in bacterial diseases classified
+        elsewhere
+      type: any
+    - code: H62.0
+      value: Otitis externa in bacterial diseases classified elsewhere
+      type: any
+    - code: H67.0
+      value: Otitis media in bacterial diseases classified elsewhere
+      type: any
+    - code: I00
+      value: Rheumatic fever without mention of heart involvement
+      type: any
+    - code: I01
+      value: Rheumatic fever with heart involvement
+      type: any
+    - code: I02
+      value: Rheumatic chorea
+      type: any
+    - code: I05
+      value: Rheumatic mitral valve diseases
+      type: any
+    - code: I06
+      value: Rheumatic aortic valve diseases
+      type: any
+    - code: I07
+      value: Rheumatic tricuspid valve diseases
+      type: any
+    - code: I09
+      value: Other rheumatic heart diseases
+      type: any
+    - code: I32.0
+      value: Pericarditis in bacterial diseases classified elsewhere
+      type: any
+    - code: I41.0
+      value: Myocarditis in bacterial diseases classified elsewhere
+      type: any
+    - code: I98.0
+      value: Cardiovascular syphilis
+      type: any
+    - code: J02.0
+      value: Streptococcal pharyngitis
+      type: any
+    - code: J03.0
+      value: Streptococcal tonsillitis
+      type: any
+    - code: J13
+      value: Pneumonia due to Streptococcus pneumoniae
+      type: any
+    - code: J14
+      value: Pneumonia due to Haemophilus influenzae
+      type: any
+    - code: J15
+      value: Bacterial pneumonia, not elsewhere classified
+      type: any
+    - code: J16.0
+      value: Chlamydial pneumonia
+      type: any
+    - code: J17.0
+      value: Pneumonia in bacterial diseases classified elsewhere
+      type: any
+    - code: J20.0
+      value: Acute bronchitis due to Mycoplasma pneumoniae
+      type: any
+    - code: J20.1
+      value: Acute bronchitis due to Haemophilus influenzae
+      type: any
+    - code: J20.2
+      value: Acute bronchitis due to streptococcus
+      type: any
+    - code: J34.0
+      value: Abscess, furuncle and carbuncle of nose
+      type: any
+    - code: J36
+      value: Peritonsillar abscess
+      type: any
+    - code: J39.0
+      value: Retropharyngeal and parapharyngeal abscess
+      type: any
+    - code: J39.1
+      value: Other abscess of pharynx
+      type: any
+    - code: J86
+      value: Pyothorax
+      type: any
+    - code: K61
+      value: Abscess of anal and rectal regions
+      type: any
+    - code: K63.0
+      value: Abscess of intestine
+      type: any
+    - code: K67.0
+      value: Chlamydial peritonitis
+      type: any
+    - code: K67.1
+      value: Gonococcal peritonitis
+      type: any
+    - code: L00
+      value: Staphylococcal scalded skin syndrome
+      type: any
+    - code: L01
+      value: Impetigo
+      type: any
+    - code: L02
+      value: Cutaneous abscess, furuncle and carbuncle
+      type: any
+    - code: L03
+      value: Cellulitis
+      type: any
+    - code: L05.0
+      value: Pilonidal cyst with abscess
+      type: any
+    - code: L08.1
+      value: Erythrasma
+      type: any
+    - code: M00.0
+      value: Staphylococcal arthritis and polyarthritis
+      type: any
+    - code: M00.1
+      value: Pneumococcal arthritis and polyarthritis
+      type: any
+    - code: M00.2
+      value: Other streptococcal arthritis and polyarthritis
+      type: any
+    - code: M00.8
+      value: Arthritis and polyarthritis due to other specified bacterial agents
+      type: any
+    - code: M00.9
+      value: Pyogenic arthritis, unspecified
+      type: any
+    - code: M01.0
+      value: Meningococcal arthritis
+      type: any
+    - code: M01.2
+      value: Arthritis in Lyme disease
+      type: any
+    - code: M01.3
+      value: Arthritis in other bacterial diseases classified elsewhere
+      type: any
+    - code: M03.0
+      value: Postmeningococcal arthritis
+      type: any
+    - code: M03.1
+      value: Postinfective arthropathy in syphilis
+      type: any
+    - code: M49.1
+      value: Brucella spondylitis
+      type: any
+    - code: M49.2
+      value: Enterobacterial spondylitis
+      type: any
+    - code: M63.0
+      value: Myositis in bacterial diseases classified elsewhere
+      type: any
+    - code: M65.0
+      value: Abscess of tendon sheath
+      type: any
+    - code: M65.1
+      value: Other infective (teno)synovitis
+      type: any
+    - code: M68.0
+      value: Synovitis and tenosynovitis in bacterial diseases classified elsewhere
+      type: any
+    - code: M71.0
+      value: Abscess of bursa
+      type: any
+    - code: M71.1
+      value: Other infective bursitis
+      type: any
+    - code: M72.6
+      value: Necrotizing fasciitis
+      type: any
+    - code: M73.1
+      value: Syphilitic bursitis
+      type: any
+    - code: M86
+      value: Osteomyelitis
+      type: any
+    - code: M90.1
+      value: Periostitis in other infectious diseases classified elsewhere
+      type: any
+    - code: M90.2
+      value: Osteopathy in other infectious diseases classified elsewhere
+      type: any
+    - code: N13.6
+      value: Pyonephrosis
+      type: any
+    - code: N15.1
+      value: Renal and perinephric abscess
+      type: any
+    - code: N29.0
+      value: Late syphilis of kidney
+      type: any
+    - code: N39.0
+      value: Urinary tract infection, site not specified
+      type: any
+    - code: N41.0
+      value: Acute prostatitis
+      type: any
+    - code: N41.2
+      value: Abscess of prostate
+      type: any
+    - code: N41.3
+      value: Prostatocystitis
+      type: any
+    - code: N43.1
+      value: Infected hydrocele
+      type: any
+    - code: N45
+      value: Orchitis and epididymitis
+      type: any
+    - code: N70
+      value: Salpingitis and oophoritis
+      type: any
+    - code: N71
+      value: Inflammatory disease of uterus, except cervix
+      type: any
+    - code: N72
+      value: Inflammatory disease of cervix uteri
+      type: any
+    - code: N73
+      value: Other female pelvic inflammatory diseases
+      type: any
+    - code: N74.3
+      value: Female gonococcal pelvic inflammatory disease
+      type: any
+    - code: N74.4
+      value: Female chlamydial pelvic inflammatory disease
+      type: any
+    - code: N74.8
+      value: Female pelvic inflammatory disorders in other diseases classified elsewhere
+      type: any
+    - code: N75.1
+      value: Abscess of Bartholin's gland
+      type: any
+    - code: P23.1
+      value: Congenital pneumonia due to Chlamydia
+      type: any
+    - code: P23.2
+      value: Congenital pneumonia due to staphylococcus
+      type: any
+    - code: P23.3
+      value: Congenital pneumonia due to streptococcus, group B
+      type: any
+    - code: P23.4
+      value: Congenital pneumonia due to Escherichia coli
+      type: any
+    - code: P23.5
+      value: Congenital pneumonia due to Pseudomonas
+      type: any
+    - code: P23.6
+      value: Congenital pneumonia due to other bacterial agents
+      type: any
+    - code: P36
+      value: Bacterial sepsis of newborn
+      type: any
+    - code: P37.2
+      value: Neonatal (disseminated) listeriosis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: A00
+      value: Cholera
+      type: any
+    - code: A01
+      value: Typhoid and paratyphoid fevers
+      type: any
+    - code: A02
+      value: Other salmonella infections
+      type: any
+    - code: A03
+      value: Shigellosis
+      type: any
+    - code: A04
+      value: Other bacterial intestinal infections
+      type: any
+    - code: A05
+      value: Other bacterial foodborne intoxications, not elsewhere classified
+      type: any
+    - code: A20
+      value: Plague
+      type: any
+    - code: A21
+      value: Tularaemia
+      type: any
+    - code: A22
+      value: Anthrax
+      type: any
+    - code: A23
+      value: Brucellosis
+      type: any
+    - code: A24
+      value: Glanders and melioidosis
+      type: any
+    - code: A25
+      value: Rat-bite fevers
+      type: any
+    - code: A26
+      value: Erysipeloid
+      type: any
+    - code: A27
+      value: Leptospirosis
+      type: any
+    - code: A28
+      value: Other zoonotic bacterial diseases, not elsewhere classified
+      type: any
+    - code: A30
+      value: Leprosy [Hansen's disease]
+      type: any
+    - code: A31
+      value: Infection due to other mycobacteria
+      type: any
+    - code: A32
+      value: Listeriosis
+      type: any
+    - code: A35
+      value: Other tetanus
+      type: any
+    - code: A36
+      value: Diphtheria
+      type: any
+    - code: A37
+      value: Whooping cough
+      type: any
+    - code: A38
+      value: Scarlet fever
+      type: any
+    - code: A39
+      value: Meningococcal infection
+      type: any
+    - code: A40
+      value: Streptococcal sepsis
+      type: any
+    - code: A41.0
+      value: Sepsis due to Staphylococcus aureus
+      type: any
+    - code: A41.1
+      value: Sepsis due to other specified staphylococcus
+      type: any
+    - code: A41.2
+      value: Sepsis due to unspecified staphylococcus
+      type: any
+    - code: A41.3
+      value: Sepsis due to Haemophilus influenzae
+      type: any
+    - code: A41.4
+      value: Sepsis due to anaerobes
+      type: any
+    - code: A41.5
+      value: Sepsis due to other Gram-negative organisms
+      type: any
+    - code: A42
+      value: Actinomycosis
+      type: any
+    - code: A43
+      value: Nocardiosis
+      type: any
+    - code: A44
+      value: Bartonellosis
+      type: any
+    - code: A46
+      value: Erysipelas
+      type: any
+    - code: A48
+      value: Other bacterial diseases, not elsewhere classified
+      type: any
+    - code: A49
+      value: Bacterial infection of unspecified site
+      type: any
+    - code: A50
+      value: Congenital syphilis
+      type: any
+    - code: A51
+      value: Early syphilis
+      type: any
+    - code: A52
+      value: Late syphilis
+      type: any
+    - code: A53
+      value: Other and unspecified syphilis
+      type: any
+    - code: A54
+      value: Gonococcal infection
+      type: any
+    - code: A55
+      value: Chlamydial lymphogranuloma (venereum)
+      type: any
+    - code: A56
+      value: Other sexually transmitted chlamydial diseases
+      type: any
+    - code: A57
+      value: Chancroid
+      type: any
+    - code: A58
+      value: Granuloma inguinale
+      type: any
+    - code: A65
+      value: Nonvenereal syphilis
+      type: any
+    - code: A66
+      value: Yaws
+      type: any
+    - code: A67
+      value: Pinta [carate]
+      type: any
+    - code: A68
+      value: Relapsing fevers
+      type: any
+    - code: A69
+      value: Other spirochaetal infections
+      type: any
+    - code: A70
+      value: Chlamydia psittaci infection
+      type: any
+    - code: A71
+      value: Trachoma
+      type: any
+    - code: A74
+      value: Other diseases caused by chlamydiae
+      type: any
+    - code: A75
+      value: Typhus fever
+      type: any
+    - code: A77
+      value: Spotted fever [tick-borne rickettsioses]
+      type: any
+    - code: A78
+      value: Q fever
+      type: any
+    - code: A79
+      value: Other rickettsioses
+      type: any
+    - code: B20.1
+      value: HIV disease resulting in other bacterial infections
+      type: any
+    - code: B92
+      value: Sequelae of leprosy
+      type: any
+    - code: B94.0
+      value: Sequelae of trachoma
+      type: any
+    - code: B95
+      value: Streptococcus and staphylococcus as the cause of diseases classified
+        to other chapters
+      type: any
+    - code: B96
+      value: Other specified bacterial agents as the cause of diseases classified
+        to other chapters
+      type: any
+    - code: B98.0
+      value: Helicobacter pylori [H.pylori] as the cause of diseases classified to
+        other chapters
+      type: any
+    - code: B98.1
+      value: Vibrio vulnificus as the cause of diseases classified to other chapters
+      type: any
+    - code: G00
+      value: Bacterial meningitis, not elsewhere classified
+      type: any
+    - code: G01
+      value: Meningitis in bacterial diseases classified elsewhere
+      type: any
+    - code: G04.2
+      value: Bacterial meningoencephalitis and meningomyelitis, not elsewhere classified
+      type: any
+    - code: G05.0
+      value: Encephalitis, myelitis and encephalomyelitis in bacterial diseases classified
+        elsewhere
+      type: any
+    - code: H62.0
+      value: Otitis externa in bacterial diseases classified elsewhere
+      type: any
+    - code: H67.0
+      value: Otitis media in bacterial diseases classified elsewhere
+      type: any
+    - code: I00
+      value: Rheumatic fever without mention of heart involvement
+      type: any
+    - code: I01
+      value: Rheumatic fever with heart involvement
+      type: any
+    - code: I02
+      value: Rheumatic chorea
+      type: any
+    - code: I05
+      value: Rheumatic mitral valve diseases
+      type: any
+    - code: I06
+      value: Rheumatic aortic valve diseases
+      type: any
+    - code: I07
+      value: Rheumatic tricuspid valve diseases
+      type: any
+    - code: I09
+      value: Other rheumatic heart diseases
+      type: any
+    - code: I32.0
+      value: Pericarditis in bacterial diseases classified elsewhere
+      type: any
+    - code: I41.0
+      value: Myocarditis in bacterial diseases classified elsewhere
+      type: any
+    - code: I98.0
+      value: Cardiovascular syphilis
+      type: any
+    - code: J02.0
+      value: Streptococcal pharyngitis
+      type: any
+    - code: J03.0
+      value: Streptococcal tonsillitis
+      type: any
+    - code: J13
+      value: Pneumonia due to Streptococcus pneumoniae
+      type: any
+    - code: J14
+      value: Pneumonia due to Haemophilus influenzae
+      type: any
+    - code: J15
+      value: Bacterial pneumonia, not elsewhere classified
+      type: any
+    - code: J16.0
+      value: Chlamydial pneumonia
+      type: any
+    - code: J17.0
+      value: Pneumonia in bacterial diseases classified elsewhere
+      type: any
+    - code: J20.0
+      value: Acute bronchitis due to Mycoplasma pneumoniae
+      type: any
+    - code: J20.1
+      value: Acute bronchitis due to Haemophilus influenzae
+      type: any
+    - code: J20.2
+      value: Acute bronchitis due to streptococcus
+      type: any
+    - code: J34.0
+      value: Abscess, furuncle and carbuncle of nose
+      type: any
+    - code: J36
+      value: Peritonsillar abscess
+      type: any
+    - code: J39.0
+      value: Retropharyngeal and parapharyngeal abscess
+      type: any
+    - code: J39.1
+      value: Other abscess of pharynx
+      type: any
+    - code: J86
+      value: Pyothorax
+      type: any
+    - code: K61
+      value: Abscess of anal and rectal regions
+      type: any
+    - code: K63.0
+      value: Abscess of intestine
+      type: any
+    - code: K67.0
+      value: Chlamydial peritonitis
+      type: any
+    - code: K67.1
+      value: Gonococcal peritonitis
+      type: any
+    - code: L00
+      value: Staphylococcal scalded skin syndrome
+      type: any
+    - code: L01
+      value: Impetigo
+      type: any
+    - code: L02
+      value: Cutaneous abscess, furuncle and carbuncle
+      type: any
+    - code: L03
+      value: Cellulitis
+      type: any
+    - code: L05.0
+      value: Pilonidal cyst with abscess
+      type: any
+    - code: L08.1
+      value: Erythrasma
+      type: any
+    - code: M00.0
+      value: Staphylococcal arthritis and polyarthritis
+      type: any
+    - code: M00.1
+      value: Pneumococcal arthritis and polyarthritis
+      type: any
+    - code: M00.2
+      value: Other streptococcal arthritis and polyarthritis
+      type: any
+    - code: M00.8
+      value: Arthritis and polyarthritis due to other specified bacterial agents
+      type: any
+    - code: M00.9
+      value: Pyogenic arthritis, unspecified
+      type: any
+    - code: M01.0
+      value: Meningococcal arthritis
+      type: any
+    - code: M01.2
+      value: Arthritis in Lyme disease
+      type: any
+    - code: M01.3
+      value: Arthritis in other bacterial diseases classified elsewhere
+      type: any
+    - code: M03.0
+      value: Postmeningococcal arthritis
+      type: any
+    - code: M03.1
+      value: Postinfective arthropathy in syphilis
+      type: any
+    - code: M49.1
+      value: Brucella spondylitis
+      type: any
+    - code: M49.2
+      value: Enterobacterial spondylitis
+      type: any
+    - code: M63.0
+      value: Myositis in bacterial diseases classified elsewhere
+      type: any
+    - code: M65.0
+      value: Abscess of tendon sheath
+      type: any
+    - code: M65.1
+      value: Other infective (teno)synovitis
+      type: any
+    - code: M68.0
+      value: Synovitis and tenosynovitis in bacterial diseases classified elsewhere
+      type: any
+    - code: M71.0
+      value: Abscess of bursa
+      type: any
+    - code: M71.1
+      value: Other infective bursitis
+      type: any
+    - code: M72.6
+      value: Necrotizing fasciitis
+      type: any
+    - code: M73.1
+      value: Syphilitic bursitis
+      type: any
+    - code: M86
+      value: Osteomyelitis
+      type: any
+    - code: M90.1
+      value: Periostitis in other infectious diseases classified elsewhere
+      type: any
+    - code: M90.2
+      value: Osteopathy in other infectious diseases classified elsewhere
+      type: any
+    - code: N13.6
+      value: Pyonephrosis
+      type: any
+    - code: N15.1
+      value: Renal and perinephric abscess
+      type: any
+    - code: N29.0
+      value: Late syphilis of kidney
+      type: any
+    - code: N39.0
+      value: Urinary tract infection, site not specified
+      type: any
+    - code: N41.0
+      value: Acute prostatitis
+      type: any
+    - code: N41.2
+      value: Abscess of prostate
+      type: any
+    - code: N41.3
+      value: Prostatocystitis
+      type: any
+    - code: N43.1
+      value: Infected hydrocele
+      type: any
+    - code: N45
+      value: Orchitis and epididymitis
+      type: any
+    - code: N70
+      value: Salpingitis and oophoritis
+      type: any
+    - code: N71
+      value: Inflammatory disease of uterus, except cervix
+      type: any
+    - code: N72
+      value: Inflammatory disease of cervix uteri
+      type: any
+    - code: N73
+      value: Other female pelvic inflammatory diseases
+      type: any
+    - code: N74.3
+      value: Female gonococcal pelvic inflammatory disease
+      type: any
+    - code: N74.4
+      value: Female chlamydial pelvic inflammatory disease
+      type: any
+    - code: N74.8
+      value: Female pelvic inflammatory disorders in other diseases classified elsewhere
+      type: any
+    - code: N75.1
+      value: Abscess of Bartholin's gland
+      type: any
+    - code: P23.1
+      value: Congenital pneumonia due to Chlamydia
+      type: any
+    - code: P23.2
+      value: Congenital pneumonia due to staphylococcus
+      type: any
+    - code: P23.3
+      value: Congenital pneumonia due to streptococcus, group B
+      type: any
+    - code: P23.4
+      value: Congenital pneumonia due to Escherichia coli
+      type: any
+    - code: P23.5
+      value: Congenital pneumonia due to Pseudomonas
+      type: any
+    - code: P23.6
+      value: Congenital pneumonia due to other bacterial agents
+      type: any
+    - code: P36
+      value: Bacterial sepsis of newborn
+      type: any
+    - code: P37.2
+      value: Neonatal (disseminated) listeriosis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A00
+      value: Cholera
+      type: any
+    - code: A01
+      value: Typhoid and paratyphoid fevers
+      type: any
+    - code: A02
+      value: Other salmonella infections
+      type: any
+    - code: A03
+      value: Shigellosis
+      type: any
+    - code: A04
+      value: Other bacterial intestinal infections
+      type: any
+    - code: A05
+      value: Other bacterial foodborne intoxications, not elsewhere classified
+      type: any
+    - code: A20
+      value: Plague
+      type: any
+    - code: A21
+      value: Tularaemia
+      type: any
+    - code: A22
+      value: Anthrax
+      type: any
+    - code: A23
+      value: Brucellosis
+      type: any
+    - code: A24
+      value: Glanders and melioidosis
+      type: any
+    - code: A25
+      value: Rat-bite fevers
+      type: any
+    - code: A26
+      value: Erysipeloid
+      type: any
+    - code: A27
+      value: Leptospirosis
+      type: any
+    - code: A28
+      value: Other zoonotic bacterial diseases, not elsewhere classified
+      type: any
+    - code: A30
+      value: Leprosy [Hansen's disease]
+      type: any
+    - code: A31
+      value: Infection due to other mycobacteria
+      type: any
+    - code: A32
+      value: Listeriosis
+      type: any
+    - code: A35
+      value: Other tetanus
+      type: any
+    - code: A36
+      value: Diphtheria
+      type: any
+    - code: A37
+      value: Whooping cough
+      type: any
+    - code: A38
+      value: Scarlet fever
+      type: any
+    - code: A39
+      value: Meningococcal infection
+      type: any
+    - code: A40
+      value: Streptococcal sepsis
+      type: any
+    - code: A41.0
+      value: Sepsis due to Staphylococcus aureus
+      type: any
+    - code: A41.1
+      value: Sepsis due to other specified staphylococcus
+      type: any
+    - code: A41.2
+      value: Sepsis due to unspecified staphylococcus
+      type: any
+    - code: A41.3
+      value: Sepsis due to Haemophilus influenzae
+      type: any
+    - code: A41.4
+      value: Sepsis due to anaerobes
+      type: any
+    - code: A41.5
+      value: Sepsis due to other Gram-negative organisms
+      type: any
+    - code: A42
+      value: Actinomycosis
+      type: any
+    - code: A43
+      value: Nocardiosis
+      type: any
+    - code: A44
+      value: Bartonellosis
+      type: any
+    - code: A46
+      value: Erysipelas
+      type: any
+    - code: A48
+      value: Other bacterial diseases, not elsewhere classified
+      type: any
+    - code: A49
+      value: Bacterial infection of unspecified site
+      type: any
+    - code: A50
+      value: Congenital syphilis
+      type: any
+    - code: A51
+      value: Early syphilis
+      type: any
+    - code: A52
+      value: Late syphilis
+      type: any
+    - code: A53
+      value: Other and unspecified syphilis
+      type: any
+    - code: A54
+      value: Gonococcal infection
+      type: any
+    - code: A55
+      value: Chlamydial lymphogranuloma (venereum)
+      type: any
+    - code: A56
+      value: Other sexually transmitted chlamydial diseases
+      type: any
+    - code: A57
+      value: Chancroid
+      type: any
+    - code: A58
+      value: Granuloma inguinale
+      type: any
+    - code: A65
+      value: Nonvenereal syphilis
+      type: any
+    - code: A66
+      value: Yaws
+      type: any
+    - code: A67
+      value: Pinta [carate]
+      type: any
+    - code: A68
+      value: Relapsing fevers
+      type: any
+    - code: A69
+      value: Other spirochaetal infections
+      type: any
+    - code: A70
+      value: Chlamydia psittaci infection
+      type: any
+    - code: A71
+      value: Trachoma
+      type: any
+    - code: A74
+      value: Other diseases caused by chlamydiae
+      type: any
+    - code: A75
+      value: Typhus fever
+      type: any
+    - code: A77
+      value: Spotted fever [tick-borne rickettsioses]
+      type: any
+    - code: A78
+      value: Q fever
+      type: any
+    - code: A79
+      value: Other rickettsioses
+      type: any
+    - code: B20.1
+      value: HIV disease resulting in other bacterial infections
+      type: any
+    - code: B92
+      value: Sequelae of leprosy
+      type: any
+    - code: B94.0
+      value: Sequelae of trachoma
+      type: any
+    - code: B95
+      value: Streptococcus and staphylococcus as the cause of diseases classified
+        to other chapters
+      type: any
+    - code: B96
+      value: Other specified bacterial agents as the cause of diseases classified
+        to other chapters
+      type: any
+    - code: B98.0
+      value: Helicobacter pylori [H.pylori] as the cause of diseases classified to
+        other chapters
+      type: any
+    - code: B98.1
+      value: Vibrio vulnificus as the cause of diseases classified to other chapters
+      type: any
+    - code: G00
+      value: Bacterial meningitis, not elsewhere classified
+      type: any
+    - code: G01
+      value: Meningitis in bacterial diseases classified elsewhere
+      type: any
+    - code: G04.2
+      value: Bacterial meningoencephalitis and meningomyelitis, not elsewhere classified
+      type: any
+    - code: G05.0
+      value: Encephalitis, myelitis and encephalomyelitis in bacterial diseases classified
+        elsewhere
+      type: any
+    - code: H62.0
+      value: Otitis externa in bacterial diseases classified elsewhere
+      type: any
+    - code: H67.0
+      value: Otitis media in bacterial diseases classified elsewhere
+      type: any
+    - code: I00
+      value: Rheumatic fever without mention of heart involvement
+      type: any
+    - code: I01
+      value: Rheumatic fever with heart involvement
+      type: any
+    - code: I02
+      value: Rheumatic chorea
+      type: any
+    - code: I05
+      value: Rheumatic mitral valve diseases
+      type: any
+    - code: I06
+      value: Rheumatic aortic valve diseases
+      type: any
+    - code: I07
+      value: Rheumatic tricuspid valve diseases
+      type: any
+    - code: I09
+      value: Other rheumatic heart diseases
+      type: any
+    - code: I32.0
+      value: Pericarditis in bacterial diseases classified elsewhere
+      type: any
+    - code: I41.0
+      value: Myocarditis in bacterial diseases classified elsewhere
+      type: any
+    - code: I98.0
+      value: Cardiovascular syphilis
+      type: any
+    - code: J02.0
+      value: Streptococcal pharyngitis
+      type: any
+    - code: J03.0
+      value: Streptococcal tonsillitis
+      type: any
+    - code: J13
+      value: Pneumonia due to Streptococcus pneumoniae
+      type: any
+    - code: J14
+      value: Pneumonia due to Haemophilus influenzae
+      type: any
+    - code: J15
+      value: Bacterial pneumonia, not elsewhere classified
+      type: any
+    - code: J16.0
+      value: Chlamydial pneumonia
+      type: any
+    - code: J17.0
+      value: Pneumonia in bacterial diseases classified elsewhere
+      type: any
+    - code: J20.0
+      value: Acute bronchitis due to Mycoplasma pneumoniae
+      type: any
+    - code: J20.1
+      value: Acute bronchitis due to Haemophilus influenzae
+      type: any
+    - code: J20.2
+      value: Acute bronchitis due to streptococcus
+      type: any
+    - code: J34.0
+      value: Abscess, furuncle and carbuncle of nose
+      type: any
+    - code: J36
+      value: Peritonsillar abscess
+      type: any
+    - code: J39.0
+      value: Retropharyngeal and parapharyngeal abscess
+      type: any
+    - code: J39.1
+      value: Other abscess of pharynx
+      type: any
+    - code: J86
+      value: Pyothorax
+      type: any
+    - code: K61
+      value: Abscess of anal and rectal regions
+      type: any
+    - code: K63.0
+      value: Abscess of intestine
+      type: any
+    - code: K67.0
+      value: Chlamydial peritonitis
+      type: any
+    - code: K67.1
+      value: Gonococcal peritonitis
+      type: any
+    - code: L00
+      value: Staphylococcal scalded skin syndrome
+      type: any
+    - code: L01
+      value: Impetigo
+      type: any
+    - code: L02
+      value: Cutaneous abscess, furuncle and carbuncle
+      type: any
+    - code: L03
+      value: Cellulitis
+      type: any
+    - code: L05.0
+      value: Pilonidal cyst with abscess
+      type: any
+    - code: L08.1
+      value: Erythrasma
+      type: any
+    - code: M00.0
+      value: Staphylococcal arthritis and polyarthritis
+      type: any
+    - code: M00.1
+      value: Pneumococcal arthritis and polyarthritis
+      type: any
+    - code: M00.2
+      value: Other streptococcal arthritis and polyarthritis
+      type: any
+    - code: M00.8
+      value: Arthritis and polyarthritis due to other specified bacterial agents
+      type: any
+    - code: M00.9
+      value: Pyogenic arthritis, unspecified
+      type: any
+    - code: M01.0
+      value: Meningococcal arthritis
+      type: any
+    - code: M01.2
+      value: Arthritis in Lyme disease
+      type: any
+    - code: M01.3
+      value: Arthritis in other bacterial diseases classified elsewhere
+      type: any
+    - code: M03.0
+      value: Postmeningococcal arthritis
+      type: any
+    - code: M03.1
+      value: Postinfective arthropathy in syphilis
+      type: any
+    - code: M49.1
+      value: Brucella spondylitis
+      type: any
+    - code: M49.2
+      value: Enterobacterial spondylitis
+      type: any
+    - code: M63.0
+      value: Myositis in bacterial diseases classified elsewhere
+      type: any
+    - code: M65.0
+      value: Abscess of tendon sheath
+      type: any
+    - code: M65.1
+      value: Other infective (teno)synovitis
+      type: any
+    - code: M68.0
+      value: Synovitis and tenosynovitis in bacterial diseases classified elsewhere
+      type: any
+    - code: M71.0
+      value: Abscess of bursa
+      type: any
+    - code: M71.1
+      value: Other infective bursitis
+      type: any
+    - code: M72.6
+      value: Necrotizing fasciitis
+      type: any
+    - code: M73.1
+      value: Syphilitic bursitis
+      type: any
+    - code: M86
+      value: Osteomyelitis
+      type: any
+    - code: M90.1
+      value: Periostitis in other infectious diseases classified elsewhere
+      type: any
+    - code: M90.2
+      value: Osteopathy in other infectious diseases classified elsewhere
+      type: any
+    - code: N13.6
+      value: Pyonephrosis
+      type: any
+    - code: N15.1
+      value: Renal and perinephric abscess
+      type: any
+    - code: N29.0
+      value: Late syphilis of kidney
+      type: any
+    - code: N39.0
+      value: Urinary tract infection, site not specified
+      type: any
+    - code: N41.0
+      value: Acute prostatitis
+      type: any
+    - code: N41.2
+      value: Abscess of prostate
+      type: any
+    - code: N41.3
+      value: Prostatocystitis
+      type: any
+    - code: N43.1
+      value: Infected hydrocele
+      type: any
+    - code: N45
+      value: Orchitis and epididymitis
+      type: any
+    - code: N70
+      value: Salpingitis and oophoritis
+      type: any
+    - code: N71
+      value: Inflammatory disease of uterus, except cervix
+      type: any
+    - code: N72
+      value: Inflammatory disease of cervix uteri
+      type: any
+    - code: N73
+      value: Other female pelvic inflammatory diseases
+      type: any
+    - code: N74.3
+      value: Female gonococcal pelvic inflammatory disease
+      type: any
+    - code: N74.4
+      value: Female chlamydial pelvic inflammatory disease
+      type: any
+    - code: N74.8
+      value: Female pelvic inflammatory disorders in other diseases classified elsewhere
+      type: any
+    - code: N75.1
+      value: Abscess of Bartholin's gland
+      type: any
+    - code: P23.1
+      value: Congenital pneumonia due to Chlamydia
+      type: any
+    - code: P23.2
+      value: Congenital pneumonia due to staphylococcus
+      type: any
+    - code: P23.3
+      value: Congenital pneumonia due to streptococcus, group B
+      type: any
+    - code: P23.4
+      value: Congenital pneumonia due to Escherichia coli
+      type: any
+    - code: P23.5
+      value: Congenital pneumonia due to Pseudomonas
+      type: any
+    - code: P23.6
+      value: Congenital pneumonia due to other bacterial agents
+      type: any
+    - code: P36
+      value: Bacterial sepsis of newborn
+      type: any
+    - code: P37.2
+      value: Neonatal (disseminated) listeriosis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A00
+      value: Cholera
+      type: any
+    - code: A01
+      value: Typhoid and paratyphoid fevers
+      type: any
+    - code: A02
+      value: Other salmonella infections
+      type: any
+    - code: A03
+      value: Shigellosis
+      type: any
+    - code: A04
+      value: Other bacterial intestinal infections
+      type: any
+    - code: A05
+      value: Other bacterial foodborne intoxications, not elsewhere classified
+      type: any
+    - code: A20
+      value: Plague
+      type: any
+    - code: A21
+      value: Tularaemia
+      type: any
+    - code: A22
+      value: Anthrax
+      type: any
+    - code: A23
+      value: Brucellosis
+      type: any
+    - code: A24
+      value: Glanders and melioidosis
+      type: any
+    - code: A25
+      value: Rat-bite fevers
+      type: any
+    - code: A26
+      value: Erysipeloid
+      type: any
+    - code: A27
+      value: Leptospirosis
+      type: any
+    - code: A28
+      value: Other zoonotic bacterial diseases, not elsewhere classified
+      type: any
+    - code: A30
+      value: Leprosy [Hansen's disease]
+      type: any
+    - code: A31
+      value: Infection due to other mycobacteria
+      type: any
+    - code: A32
+      value: Listeriosis
+      type: any
+    - code: A35
+      value: Other tetanus
+      type: any
+    - code: A36
+      value: Diphtheria
+      type: any
+    - code: A37
+      value: Whooping cough
+      type: any
+    - code: A38
+      value: Scarlet fever
+      type: any
+    - code: A39
+      value: Meningococcal infection
+      type: any
+    - code: A40
+      value: Streptococcal sepsis
+      type: any
+    - code: A41.0
+      value: Sepsis due to Staphylococcus aureus
+      type: any
+    - code: A41.1
+      value: Sepsis due to other specified staphylococcus
+      type: any
+    - code: A41.2
+      value: Sepsis due to unspecified staphylococcus
+      type: any
+    - code: A41.3
+      value: Sepsis due to Haemophilus influenzae
+      type: any
+    - code: A41.4
+      value: Sepsis due to anaerobes
+      type: any
+    - code: A41.5
+      value: Sepsis due to other Gram-negative organisms
+      type: any
+    - code: A42
+      value: Actinomycosis
+      type: any
+    - code: A43
+      value: Nocardiosis
+      type: any
+    - code: A44
+      value: Bartonellosis
+      type: any
+    - code: A46
+      value: Erysipelas
+      type: any
+    - code: A48
+      value: Other bacterial diseases, not elsewhere classified
+      type: any
+    - code: A49
+      value: Bacterial infection of unspecified site
+      type: any
+    - code: A50
+      value: Congenital syphilis
+      type: any
+    - code: A51
+      value: Early syphilis
+      type: any
+    - code: A52
+      value: Late syphilis
+      type: any
+    - code: A53
+      value: Other and unspecified syphilis
+      type: any
+    - code: A54
+      value: Gonococcal infection
+      type: any
+    - code: A55
+      value: Chlamydial lymphogranuloma (venereum)
+      type: any
+    - code: A56
+      value: Other sexually transmitted chlamydial diseases
+      type: any
+    - code: A57
+      value: Chancroid
+      type: any
+    - code: A58
+      value: Granuloma inguinale
+      type: any
+    - code: A65
+      value: Nonvenereal syphilis
+      type: any
+    - code: A66
+      value: Yaws
+      type: any
+    - code: A67
+      value: Pinta [carate]
+      type: any
+    - code: A68
+      value: Relapsing fevers
+      type: any
+    - code: A69
+      value: Other spirochaetal infections
+      type: any
+    - code: A70
+      value: Chlamydia psittaci infection
+      type: any
+    - code: A71
+      value: Trachoma
+      type: any
+    - code: A74
+      value: Other diseases caused by chlamydiae
+      type: any
+    - code: A75
+      value: Typhus fever
+      type: any
+    - code: A77
+      value: Spotted fever [tick-borne rickettsioses]
+      type: any
+    - code: A78
+      value: Q fever
+      type: any
+    - code: A79
+      value: Other rickettsioses
+      type: any
+    - code: B20.1
+      value: HIV disease resulting in other bacterial infections
+      type: any
+    - code: B92
+      value: Sequelae of leprosy
+      type: any
+    - code: B94.0
+      value: Sequelae of trachoma
+      type: any
+    - code: B95
+      value: Streptococcus and staphylococcus as the cause of diseases classified
+        to other chapters
+      type: any
+    - code: B96
+      value: Other specified bacterial agents as the cause of diseases classified
+        to other chapters
+      type: any
+    - code: B98.0
+      value: Helicobacter pylori [H.pylori] as the cause of diseases classified to
+        other chapters
+      type: any
+    - code: B98.1
+      value: Vibrio vulnificus as the cause of diseases classified to other chapters
+      type: any
+    - code: G00
+      value: Bacterial meningitis, not elsewhere classified
+      type: any
+    - code: G01
+      value: Meningitis in bacterial diseases classified elsewhere
+      type: any
+    - code: G04.2
+      value: Bacterial meningoencephalitis and meningomyelitis, not elsewhere classified
+      type: any
+    - code: G05.0
+      value: Encephalitis, myelitis and encephalomyelitis in bacterial diseases classified
+        elsewhere
+      type: any
+    - code: H62.0
+      value: Otitis externa in bacterial diseases classified elsewhere
+      type: any
+    - code: H67.0
+      value: Otitis media in bacterial diseases classified elsewhere
+      type: any
+    - code: I00
+      value: Rheumatic fever without mention of heart involvement
+      type: any
+    - code: I01
+      value: Rheumatic fever with heart involvement
+      type: any
+    - code: I02
+      value: Rheumatic chorea
+      type: any
+    - code: I05
+      value: Rheumatic mitral valve diseases
+      type: any
+    - code: I06
+      value: Rheumatic aortic valve diseases
+      type: any
+    - code: I07
+      value: Rheumatic tricuspid valve diseases
+      type: any
+    - code: I09
+      value: Other rheumatic heart diseases
+      type: any
+    - code: I32.0
+      value: Pericarditis in bacterial diseases classified elsewhere
+      type: any
+    - code: I41.0
+      value: Myocarditis in bacterial diseases classified elsewhere
+      type: any
+    - code: I98.0
+      value: Cardiovascular syphilis
+      type: any
+    - code: J02.0
+      value: Streptococcal pharyngitis
+      type: any
+    - code: J03.0
+      value: Streptococcal tonsillitis
+      type: any
+    - code: J13
+      value: Pneumonia due to Streptococcus pneumoniae
+      type: any
+    - code: J14
+      value: Pneumonia due to Haemophilus influenzae
+      type: any
+    - code: J15
+      value: Bacterial pneumonia, not elsewhere classified
+      type: any
+    - code: J16.0
+      value: Chlamydial pneumonia
+      type: any
+    - code: J17.0
+      value: Pneumonia in bacterial diseases classified elsewhere
+      type: any
+    - code: J20.0
+      value: Acute bronchitis due to Mycoplasma pneumoniae
+      type: any
+    - code: J20.1
+      value: Acute bronchitis due to Haemophilus influenzae
+      type: any
+    - code: J20.2
+      value: Acute bronchitis due to streptococcus
+      type: any
+    - code: J34.0
+      value: Abscess, furuncle and carbuncle of nose
+      type: any
+    - code: J36
+      value: Peritonsillar abscess
+      type: any
+    - code: J39.0
+      value: Retropharyngeal and parapharyngeal abscess
+      type: any
+    - code: J39.1
+      value: Other abscess of pharynx
+      type: any
+    - code: J86
+      value: Pyothorax
+      type: any
+    - code: K61
+      value: Abscess of anal and rectal regions
+      type: any
+    - code: K63.0
+      value: Abscess of intestine
+      type: any
+    - code: K67.0
+      value: Chlamydial peritonitis
+      type: any
+    - code: K67.1
+      value: Gonococcal peritonitis
+      type: any
+    - code: L00
+      value: Staphylococcal scalded skin syndrome
+      type: any
+    - code: L01
+      value: Impetigo
+      type: any
+    - code: L02
+      value: Cutaneous abscess, furuncle and carbuncle
+      type: any
+    - code: L03
+      value: Cellulitis
+      type: any
+    - code: L05.0
+      value: Pilonidal cyst with abscess
+      type: any
+    - code: L08.1
+      value: Erythrasma
+      type: any
+    - code: M00.0
+      value: Staphylococcal arthritis and polyarthritis
+      type: any
+    - code: M00.1
+      value: Pneumococcal arthritis and polyarthritis
+      type: any
+    - code: M00.2
+      value: Other streptococcal arthritis and polyarthritis
+      type: any
+    - code: M00.8
+      value: Arthritis and polyarthritis due to other specified bacterial agents
+      type: any
+    - code: M00.9
+      value: Pyogenic arthritis, unspecified
+      type: any
+    - code: M01.0
+      value: Meningococcal arthritis
+      type: any
+    - code: M01.2
+      value: Arthritis in Lyme disease
+      type: any
+    - code: M01.3
+      value: Arthritis in other bacterial diseases classified elsewhere
+      type: any
+    - code: M03.0
+      value: Postmeningococcal arthritis
+      type: any
+    - code: M03.1
+      value: Postinfective arthropathy in syphilis
+      type: any
+    - code: M49.1
+      value: Brucella spondylitis
+      type: any
+    - code: M49.2
+      value: Enterobacterial spondylitis
+      type: any
+    - code: M63.0
+      value: Myositis in bacterial diseases classified elsewhere
+      type: any
+    - code: M65.0
+      value: Abscess of tendon sheath
+      type: any
+    - code: M65.1
+      value: Other infective (teno)synovitis
+      type: any
+    - code: M68.0
+      value: Synovitis and tenosynovitis in bacterial diseases classified elsewhere
+      type: any
+    - code: M71.0
+      value: Abscess of bursa
+      type: any
+    - code: M71.1
+      value: Other infective bursitis
+      type: any
+    - code: M72.6
+      value: Necrotizing fasciitis
+      type: any
+    - code: M73.1
+      value: Syphilitic bursitis
+      type: any
+    - code: M86
+      value: Osteomyelitis
+      type: any
+    - code: M90.1
+      value: Periostitis in other infectious diseases classified elsewhere
+      type: any
+    - code: M90.2
+      value: Osteopathy in other infectious diseases classified elsewhere
+      type: any
+    - code: N13.6
+      value: Pyonephrosis
+      type: any
+    - code: N15.1
+      value: Renal and perinephric abscess
+      type: any
+    - code: N29.0
+      value: Late syphilis of kidney
+      type: any
+    - code: N39.0
+      value: Urinary tract infection, site not specified
+      type: any
+    - code: N41.0
+      value: Acute prostatitis
+      type: any
+    - code: N41.2
+      value: Abscess of prostate
+      type: any
+    - code: N41.3
+      value: Prostatocystitis
+      type: any
+    - code: N43.1
+      value: Infected hydrocele
+      type: any
+    - code: N45
+      value: Orchitis and epididymitis
+      type: any
+    - code: N70
+      value: Salpingitis and oophoritis
+      type: any
+    - code: N71
+      value: Inflammatory disease of uterus, except cervix
+      type: any
+    - code: N72
+      value: Inflammatory disease of cervix uteri
+      type: any
+    - code: N73
+      value: Other female pelvic inflammatory diseases
+      type: any
+    - code: N74.3
+      value: Female gonococcal pelvic inflammatory disease
+      type: any
+    - code: N74.4
+      value: Female chlamydial pelvic inflammatory disease
+      type: any
+    - code: N74.8
+      value: Female pelvic inflammatory disorders in other diseases classified elsewhere
+      type: any
+    - code: N75.1
+      value: Abscess of Bartholin's gland
+      type: any
+    - code: P23.1
+      value: Congenital pneumonia due to Chlamydia
+      type: any
+    - code: P23.2
+      value: Congenital pneumonia due to staphylococcus
+      type: any
+    - code: P23.3
+      value: Congenital pneumonia due to streptococcus, group B
+      type: any
+    - code: P23.4
+      value: Congenital pneumonia due to Escherichia coli
+      type: any
+    - code: P23.5
+      value: Congenital pneumonia due to Pseudomonas
+      type: any
+    - code: P23.6
+      value: Congenital pneumonia due to other bacterial agents
+      type: any
+    - code: P36
+      value: Bacterial sepsis of newborn
+      type: any
+    - code: P37.2
+      value: Neonatal (disseminated) listeriosis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

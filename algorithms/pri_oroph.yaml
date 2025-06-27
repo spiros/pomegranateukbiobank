@@ -1,0 +1,784 @@
+metadata:
+  phenotype: Primary Malignancy_Oro-pharyngeal
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: pri_oroph
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 8229802a-890a-4683-96a1-d0bb1fc96f0d
+  ontologies:
+    DOID: DOID_60119
+    GWAS: EFO_0005577
+    MESH: D010610
+    SNOMED-CT: 363507003
+    FINNGEN: C3_LIP_ORAL_PHARYNX
+  short_desc: Malignant neoplasm of lip, oral cavity and pharynx.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1079'
+      value: oropharynx / oropharyngeal cancer
+      type: any
+    - code: '1004'
+      value: cancer of lip/mouth/pharynx/oral cavity
+      type: any
+    - code: '1010'
+      value: lip cancer
+      type: any
+    - code: '1078'
+      value: tonsil cancer
+      type: any
+    - code: '1077'
+      value: mouth cancer
+      type: any
+    - code: '1011'
+      value: tongue cancer
+      type: any
+    - code: '1006'
+      value: larynx/throat cancer
+      type: any
+    - code: '1012'
+      value: gum cancer
+      type: any
+    - code: '1015'
+      value: parotid gland cancer
+      type: any
+    - code: '1016'
+      value: other salivary gland cancer
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C00
+      value: Malignant neoplasm of lip
+      type: any
+    - code: C01
+      value: Malignant neoplasm of base of tongue
+      type: any
+    - code: C02
+      value: Malignant neoplasm of other and unspecified parts of tongue
+      type: any
+    - code: C03
+      value: Malignant neoplasm of gum
+      type: any
+    - code: C04
+      value: Malignant neoplasm of floor of mouth
+      type: any
+    - code: C05
+      value: Malignant neoplasm of palate
+      type: any
+    - code: C06
+      value: Malignant neoplasm of other and unspecified parts of mouth
+      type: any
+    - code: C07
+      value: Malignant neoplasm of parotid gland
+      type: any
+    - code: C08
+      value: Malignant neoplasm of other and unspecified major salivary glands
+      type: any
+    - code: C09
+      value: Malignant neoplasm of tonsil
+      type: any
+    - code: C10
+      value: Malignant neoplasm of oropharynx
+      type: any
+    - code: C11
+      value: Malignant neoplasm of nasopharynx
+      type: any
+    - code: C12
+      value: Malignant neoplasm of piriform sinus
+      type: any
+    - code: C13
+      value: Malignant neoplasm of hypopharynx
+      type: any
+    - code: C14
+      value: Malignant neoplasm of other and ill-defined sites in the lip, oral cavity
+        and pharynx
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C00
+      value: Malignant neoplasm of lip
+      type: any
+    - code: C01
+      value: Malignant neoplasm of base of tongue
+      type: any
+    - code: C02
+      value: Malignant neoplasm of other and unspecified parts of tongue
+      type: any
+    - code: C03
+      value: Malignant neoplasm of gum
+      type: any
+    - code: C04
+      value: Malignant neoplasm of floor of mouth
+      type: any
+    - code: C05
+      value: Malignant neoplasm of palate
+      type: any
+    - code: C06
+      value: Malignant neoplasm of other and unspecified parts of mouth
+      type: any
+    - code: C07
+      value: Malignant neoplasm of parotid gland
+      type: any
+    - code: C08
+      value: Malignant neoplasm of other and unspecified major salivary glands
+      type: any
+    - code: C09
+      value: Malignant neoplasm of tonsil
+      type: any
+    - code: C10
+      value: Malignant neoplasm of oropharynx
+      type: any
+    - code: C11
+      value: Malignant neoplasm of nasopharynx
+      type: any
+    - code: C12
+      value: Malignant neoplasm of piriform sinus
+      type: any
+    - code: C13
+      value: Malignant neoplasm of hypopharynx
+      type: any
+    - code: C14
+      value: Malignant neoplasm of other and ill-defined sites in the lip, oral cavity
+        and pharynx
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C00
+      value: Malignant neoplasm of lip
+      type: any
+    - code: C01
+      value: Malignant neoplasm of base of tongue
+      type: any
+    - code: C02
+      value: Malignant neoplasm of other and unspecified parts of tongue
+      type: any
+    - code: C03
+      value: Malignant neoplasm of gum
+      type: any
+    - code: C04
+      value: Malignant neoplasm of floor of mouth
+      type: any
+    - code: C05
+      value: Malignant neoplasm of palate
+      type: any
+    - code: C06
+      value: Malignant neoplasm of other and unspecified parts of mouth
+      type: any
+    - code: C07
+      value: Malignant neoplasm of parotid gland
+      type: any
+    - code: C08
+      value: Malignant neoplasm of other and unspecified major salivary glands
+      type: any
+    - code: C09
+      value: Malignant neoplasm of tonsil
+      type: any
+    - code: C10
+      value: Malignant neoplasm of oropharynx
+      type: any
+    - code: C11
+      value: Malignant neoplasm of nasopharynx
+      type: any
+    - code: C12
+      value: Malignant neoplasm of piriform sinus
+      type: any
+    - code: C13
+      value: Malignant neoplasm of hypopharynx
+      type: any
+    - code: C14
+      value: Malignant neoplasm of other and ill-defined sites in the lip, oral cavity
+        and pharynx
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C00
+      value: Malignant neoplasm of lip
+      type: any
+    - code: C01
+      value: Malignant neoplasm of base of tongue
+      type: any
+    - code: C02
+      value: Malignant neoplasm of other and unspecified parts of tongue
+      type: any
+    - code: C03
+      value: Malignant neoplasm of gum
+      type: any
+    - code: C04
+      value: Malignant neoplasm of floor of mouth
+      type: any
+    - code: C05
+      value: Malignant neoplasm of palate
+      type: any
+    - code: C06
+      value: Malignant neoplasm of other and unspecified parts of mouth
+      type: any
+    - code: C07
+      value: Malignant neoplasm of parotid gland
+      type: any
+    - code: C08
+      value: Malignant neoplasm of other and unspecified major salivary glands
+      type: any
+    - code: C09
+      value: Malignant neoplasm of tonsil
+      type: any
+    - code: C10
+      value: Malignant neoplasm of oropharynx
+      type: any
+    - code: C11
+      value: Malignant neoplasm of nasopharynx
+      type: any
+    - code: C12
+      value: Malignant neoplasm of piriform sinus
+      type: any
+    - code: C13
+      value: Malignant neoplasm of hypopharynx
+      type: any
+    - code: C14
+      value: Malignant neoplasm of other and ill-defined sites in the lip, oral cavity
+        and pharynx
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B000000
+      value: Malignant neoplasm of upper lip, external
+      type: any
+    - code: B000100
+      value: Malignant neoplasm of upper lip, lipstick area
+      type: any
+    - code: B000.00
+      value: Malignant neoplasm of upper lip, vermilion border
+      type: any
+    - code: B000z00
+      value: Malignant neoplasm of upper lip, vermilion border NOS
+      type: any
+    - code: B001000
+      value: Malignant neoplasm of lower lip, external
+      type: any
+    - code: B001100
+      value: Malignant neoplasm of lower lip, lipstick area
+      type: any
+    - code: B001.00
+      value: Malignant neoplasm of lower lip, vermilion border
+      type: any
+    - code: B001z00
+      value: Malignant neoplasm of lower lip, vermilion border NOS
+      type: any
+    - code: B002100
+      value: Malignant neoplasm of upper lip, frenulum
+      type: any
+    - code: B002200
+      value: Malignant neoplasm of upper lip, mucosa
+      type: any
+    - code: B002300
+      value: Malignant neoplasm of upper lip, oral aspect
+      type: any
+    - code: B002.00
+      value: Malignant neoplasm of upper lip, inner aspect
+      type: any
+    - code: B002z00
+      value: Malignant neoplasm of upper lip, inner aspect NOS
+      type: any
+    - code: B003000
+      value: Malignant neoplasm of lower lip, buccal aspect
+      type: any
+    - code: B003100
+      value: Malignant neoplasm of lower lip, frenulum
+      type: any
+    - code: B003200
+      value: Malignant neoplasm of lower lip, mucosa
+      type: any
+    - code: B003300
+      value: Malignant neoplasm of lower lip, oral aspect
+      type: any
+    - code: B003.00
+      value: Malignant neoplasm of lower lip, inner aspect
+      type: any
+    - code: B003z00
+      value: Malignant neoplasm of lower lip, inner aspect NOS
+      type: any
+    - code: B004000
+      value: Malignant neoplasm of lip unspecified, buccal aspect
+      type: any
+    - code: B004200
+      value: Malignant neoplasm of lip unspecified, mucosa
+      type: any
+    - code: B004300
+      value: Malignant neoplasm of lip, oral aspect
+      type: any
+    - code: B004.00
+      value: Malignant neoplasm of lip unspecified, inner aspect
+      type: any
+    - code: B005.00
+      value: Malignant neoplasm of commissure of lip
+      type: any
+    - code: B006.00
+      value: Malignant neoplasm of overlapping lesion of lip
+      type: any
+    - code: B007.00
+      value: Malignant neoplasm of lip, unspecified
+      type: any
+    - code: B00..00
+      value: Malignant neoplasm of lip
+      type: any
+    - code: B00..11
+      value: Carcinoma of lip
+      type: any
+    - code: B00z000
+      value: Malignant neoplasm of lip, unspecified, external
+      type: any
+    - code: B00z100
+      value: Malignant neoplasm of lip, unspecified, lipstick area
+      type: any
+    - code: B00zz00
+      value: Malignant neoplasm of lip, vermilion border NOS
+      type: any
+    - code: B010000
+      value: Malignant neoplasm of base of tongue dorsal surface
+      type: any
+    - code: B010.00
+      value: Malignant neoplasm of base of tongue
+      type: any
+    - code: B010.11
+      value: Malignant neoplasm of posterior third of tongue
+      type: any
+    - code: B010z00
+      value: Malignant neoplasm of fixed part of tongue NOS
+      type: any
+    - code: B011100
+      value: Malignant neoplasm of midline of tongue
+      type: any
+    - code: B011.00
+      value: Malignant neoplasm of dorsal surface of tongue
+      type: any
+    - code: B011z00
+      value: Malignant neoplasm of dorsum of tongue NOS
+      type: any
+    - code: B012.00
+      value: Malignant neoplasm of tongue, tip and lateral border
+      type: any
+    - code: B013000
+      value: Malignant neoplasm of anterior 2/3 of tongue ventral surface
+      type: any
+    - code: B013100
+      value: Malignant neoplasm of frenulum linguae
+      type: any
+    - code: B013.00
+      value: Malignant neoplasm of ventral surface of tongue
+      type: any
+    - code: B013z00
+      value: Malignant neoplasm of ventral tongue surface NOS
+      type: any
+    - code: B014.00
+      value: Malignant neoplasm of anterior 2/3 of tongue unspecified
+      type: any
+    - code: B015.00
+      value: Malignant neoplasm of tongue, junctional zone
+      type: any
+    - code: B016.00
+      value: Malignant neoplasm of lingual tonsil
+      type: any
+    - code: B017.00
+      value: Malignant overlapping lesion of tongue
+      type: any
+    - code: B01..00
+      value: Malignant neoplasm of tongue
+      type: any
+    - code: B01y.00
+      value: Malignant neoplasm of other sites of tongue
+      type: any
+    - code: B01z.00
+      value: Malignant neoplasm of tongue NOS
+      type: any
+    - code: B020.00
+      value: Malignant neoplasm of parotid gland
+      type: any
+    - code: B021.00
+      value: Malignant neoplasm of submandibular gland
+      type: any
+    - code: B022.00
+      value: Malignant neoplasm of sublingual gland
+      type: any
+    - code: B02..00
+      value: Malignant neoplasm of major salivary glands
+      type: any
+    - code: B02y.00
+      value: Malignant neoplasm of other major salivary glands
+      type: any
+    - code: B02z.00
+      value: Malignant neoplasm of major salivary gland NOS
+      type: any
+    - code: B030.00
+      value: Malignant neoplasm of upper gum
+      type: any
+    - code: B031.00
+      value: Malignant neoplasm of lower gum
+      type: any
+    - code: B03..00
+      value: Malignant neoplasm of gum
+      type: any
+    - code: B03y.00
+      value: Malignant neoplasm of other sites of gum
+      type: any
+    - code: B03z.00
+      value: Malignant neoplasm of gum NOS
+      type: any
+    - code: B040.00
+      value: Malignant neoplasm of anterior portion of floor of mouth
+      type: any
+    - code: B041.00
+      value: Malignant neoplasm of lateral portion of floor of mouth
+      type: any
+    - code: B042.00
+      value: Malignant neoplasm, overlapping lesion of floor of mouth
+      type: any
+    - code: B04..00
+      value: Malignant neoplasm of floor of mouth
+      type: any
+    - code: B04y.00
+      value: Malignant neoplasm of other sites of floor of mouth
+      type: any
+    - code: B04z.00
+      value: Malignant neoplasm of floor of mouth NOS
+      type: any
+    - code: B050.00
+      value: Malignant neoplasm of cheek mucosa
+      type: any
+    - code: B050.11
+      value: Malignant neoplasm of buccal mucosa
+      type: any
+    - code: B051000
+      value: Malignant neoplasm of upper buccal sulcus
+      type: any
+    - code: B051100
+      value: Malignant neoplasm of lower buccal sulcus
+      type: any
+    - code: B051.00
+      value: Malignant neoplasm of vestibule of mouth
+      type: any
+    - code: B052.00
+      value: Malignant neoplasm of hard palate
+      type: any
+    - code: B053.00
+      value: Malignant neoplasm of soft palate
+      type: any
+    - code: B054.00
+      value: Malignant neoplasm of uvula
+      type: any
+    - code: B055000
+      value: Malignant neoplasm of junction of hard and soft palate
+      type: any
+    - code: B055100
+      value: Malignant neoplasm of roof of mouth
+      type: any
+    - code: B055.00
+      value: Malignant neoplasm of palate unspecified
+      type: any
+    - code: B055z00
+      value: Malignant neoplasm of palate NOS
+      type: any
+    - code: B056.00
+      value: Malignant neoplasm of retromolar area
+      type: any
+    - code: B05..00
+      value: Malignant neoplasm of other and unspecified parts of mouth
+      type: any
+    - code: B05y.00
+      value: Malignant neoplasm of other specified mouth parts
+      type: any
+    - code: B05z.00
+      value: Malignant neoplasm of mouth NOS
+      type: any
+    - code: B060000
+      value: Malignant neoplasm of faucial tonsil
+      type: any
+    - code: B060100
+      value: Malignant neoplasm of palatine tonsil
+      type: any
+    - code: B060200
+      value: Malignant neoplasm of overlapping lesion of tonsil
+      type: any
+    - code: B060.00
+      value: Malignant neoplasm of tonsil
+      type: any
+    - code: B060z00
+      value: Malignant neoplasm tonsil NOS
+      type: any
+    - code: B061.00
+      value: Malignant neoplasm of tonsillar fossa
+      type: any
+    - code: B062000
+      value: Malignant neoplasm of faucial pillar
+      type: any
+    - code: B062100
+      value: Malignant neoplasm of glossopalatine fold
+      type: any
+    - code: B062200
+      value: Malignant neoplasm of palatoglossal arch
+      type: any
+    - code: B062300
+      value: Malignant neoplasm of palatopharyngeal arch
+      type: any
+    - code: B062.00
+      value: Malignant neoplasm of tonsillar pillar
+      type: any
+    - code: B062z00
+      value: Malignant neoplasm of tonsillar fossa NOS
+      type: any
+    - code: B063.00
+      value: Malignant neoplasm of vallecula
+      type: any
+    - code: B064000
+      value: Malignant neoplasm of epiglottis, free border
+      type: any
+    - code: B064100
+      value: Malignant neoplasm of glossoepiglottic fold
+      type: any
+    - code: B064.00
+      value: Malignant neoplasm of anterior epiglottis
+      type: any
+    - code: B064z00
+      value: Malignant neoplasm of anterior epiglottis NOS
+      type: any
+    - code: B065.00
+      value: Malignant neoplasm of junctional region of epiglottis
+      type: any
+    - code: B066.00
+      value: Malignant neoplasm of lateral wall of oropharynx
+      type: any
+    - code: B067.00
+      value: Malignant neoplasm of posterior wall of oropharynx
+      type: any
+    - code: B06..00
+      value: Malignant neoplasm of oropharynx
+      type: any
+    - code: B06y.00
+      value: Malignant neoplasm of oropharynx, other specified sites
+      type: any
+    - code: B06yz00
+      value: Malignant neoplasm of other specified site of oropharynx NOS
+      type: any
+    - code: B06z.00
+      value: Malignant neoplasm of oropharynx NOS
+      type: any
+    - code: B070.00
+      value: Malignant neoplasm of roof of nasopharynx
+      type: any
+    - code: B071000
+      value: Malignant neoplasm of adenoid
+      type: any
+    - code: B071100
+      value: Malignant neoplasm of pharyngeal tonsil
+      type: any
+    - code: B071.00
+      value: Malignant neoplasm of posterior wall of nasopharynx
+      type: any
+    - code: B071z00
+      value: Malignant neoplasm of posterior wall of nasopharynx NOS
+      type: any
+    - code: B072000
+      value: Malignant neoplasm of pharyngeal recess
+      type: any
+    - code: B072.00
+      value: Malignant neoplasm of lateral wall of nasopharynx
+      type: any
+    - code: B072z00
+      value: Malignant neoplasm of lateral wall of nasopharynx NOS
+      type: any
+    - code: B073100
+      value: Malignant neoplasm of nasopharyngeal soft palate surface
+      type: any
+    - code: B073200
+      value: Malignant neoplasm posterior margin nasal septum and choanae
+      type: any
+    - code: B073.00
+      value: Malignant neoplasm of anterior wall of nasopharynx
+      type: any
+    - code: B073z00
+      value: Malignant neoplasm of anterior wall of nasopharynx NOS
+      type: any
+    - code: B074.00
+      value: Malignant neoplasm, overlapping lesion of nasopharynx
+      type: any
+    - code: B07..00
+      value: Malignant neoplasm of nasopharynx
+      type: any
+    - code: B07y.00
+      value: Malignant neoplasm of other specified site of nasopharynx
+      type: any
+    - code: B07z.00
+      value: Malignant neoplasm of nasopharynx NOS
+      type: any
+    - code: B080.00
+      value: Malignant neoplasm of postcricoid region
+      type: any
+    - code: B081.00
+      value: Malignant neoplasm of pyriform sinus
+      type: any
+    - code: B082.00
+      value: Malignant neoplasm aryepiglottic fold, hypopharyngeal aspect
+      type: any
+    - code: B083.00
+      value: Malignant neoplasm of posterior pharynx
+      type: any
+    - code: B08..00
+      value: Malignant neoplasm of hypopharynx
+      type: any
+    - code: B08y.00
+      value: Malignant neoplasm of other specified hypopharyngeal site
+      type: any
+    - code: B08z.00
+      value: Malignant neoplasm of hypopharynx NOS
+      type: any
+    - code: B0...00
+      value: Malignant neoplasm of lip, oral cavity and pharynx
+      type: any
+    - code: B0...11
+      value: Carcinoma of lip, oral cavity and pharynx
+      type: any
+    - code: B0z0.00
+      value: Malignant neoplasm of pharynx unspecified
+      type: any
+    - code: B0z1.00
+      value: Malignant neoplasm of Waldeyer's ring
+      type: any
+    - code: B0z2.00
+      value: Malignant neoplasm of laryngopharynx
+      type: any
+    - code: B0z..00
+      value: Malig neop other/ill-defined sites lip, oral cavity, pharynx
+      type: any
+    - code: B0zy.00
+      value: Malignant neoplasm of other sites lip, oral cavity, pharynx
+      type: any
+    - code: B0zz.00
+      value: Malignant neoplasm of lip, oral cavity and pharynx NOS
+      type: any
+    - code: BB5y000
+      value: '[M]Basal cell adenocarcinoma'
+      type: any
+    - code: Byu0.00
+      value: '[X]Malignant neoplasm of lip, oral cavity and pharynx'
+      type: any
+    - code: ZV10019
+      value: '[V]Personal history of malignant neoplasm of tongue'
+      type: prevalent
+    - code: ZV10y16
+      value: '[V]Personal history of malignant neoplasm of tongue'
+      type: prevalent
+    - code: XaC2J
+      value: Malignant neoplasm of lip, unspecified
+      type: any
+    - code: XE2rk
+      value: Malignant neoplasm of lip, oral cavity and pharynx
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C00
+      value: Malignant neoplasm of lip
+      type: any
+    - code: C01
+      value: Malignant neoplasm of base of tongue
+      type: any
+    - code: C02
+      value: Malignant neoplasm of other and unspecified parts of tongue
+      type: any
+    - code: C03
+      value: Malignant neoplasm of gum
+      type: any
+    - code: C04
+      value: Malignant neoplasm of floor of mouth
+      type: any
+    - code: C05
+      value: Malignant neoplasm of palate
+      type: any
+    - code: C06
+      value: Malignant neoplasm of other and unspecified parts of mouth
+      type: any
+    - code: C07
+      value: Malignant neoplasm of parotid gland
+      type: any
+    - code: C08
+      value: Malignant neoplasm of other and unspecified major salivary glands
+      type: any
+    - code: C09
+      value: Malignant neoplasm of tonsil
+      type: any
+    - code: C10
+      value: Malignant neoplasm of oropharynx
+      type: any
+    - code: C11
+      value: Malignant neoplasm of nasopharynx
+      type: any
+    - code: C12
+      value: Malignant neoplasm of piriform sinus
+      type: any
+    - code: C13
+      value: Malignant neoplasm of hypopharynx
+      type: any
+    - code: C14
+      value: Malignant neoplasm of other and ill-defined sites in the lip, oral cavity
+        and pharynx
+      type: any

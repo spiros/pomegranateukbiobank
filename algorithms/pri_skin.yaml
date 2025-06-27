@@ -1,0 +1,420 @@
+metadata:
+  phenotype: Primary Malignancy_Other Skin and subcutaneous tissue
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: pri_skin
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: c75e6deb-d88d-469b-9f55-873057f087a0
+  ontologies:
+    DOID: DOID_4159
+    GWAS: EFO_0009260
+    MESH: D012878
+    SNOMED-CT: 126488004
+    FINNGEN: C3_SKIN
+  short_desc: A benign or malignant tumor involving the skin. Representative examples
+    of benign skin neoplasms include the benign melanocytic skin nevus, acanthoma,
+    sebaceous adenoma, sweat gland adenoma, lipoma, hemangioma, fibroma, and benign
+    fibrous histiocytoma. Representative examples of malignant skin neoplasms include
+    basal cell carcinoma, squamous cell carcinoma, melanoma, and Kaposi sarcoma.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1003'
+      value: skin cancer
+      type: any
+    - code: '1060'
+      value: non-melanoma skin cancer
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C44
+      value: Other malignant neoplasms of skin
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C44
+      value: Other malignant neoplasms of skin
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C44
+      value: Other malignant neoplasms of skin
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C44
+      value: Other malignant neoplasms of skin
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 7G05600
+      value: Excision biopsy of rodent ulcer
+      type: any
+    - code: 7G05D00
+      value: Excision biopsy of basal cell carcinoma
+      type: any
+    - code: B330.00
+      value: Malignant neoplasm of skin of lip
+      type: any
+    - code: B331000
+      value: Malignant neoplasm of canthus
+      type: any
+    - code: B331100
+      value: Malignant neoplasm of upper eyelid
+      type: any
+    - code: B331200
+      value: Malignant neoplasm of lower eyelid
+      type: any
+    - code: B331.00
+      value: Malignant neoplasm of eyelid including canthus
+      type: any
+    - code: B332000
+      value: Malignant neoplasm of skin of auricle (ear)
+      type: any
+    - code: B332100
+      value: Malignant neoplasm of skin of external auditory meatus
+      type: any
+    - code: B332200
+      value: Malignant neoplasm of pinna NEC
+      type: any
+    - code: B332.00
+      value: Malignant neoplasm skin of ear and external auricular canal
+      type: any
+    - code: B332z00
+      value: Malig neop skin of ear and external auricular canal NOS
+      type: any
+    - code: B333000
+      value: Malignant neoplasm of skin of cheek, external
+      type: any
+    - code: B333100
+      value: Malignant neoplasm of skin of chin
+      type: any
+    - code: B333200
+      value: Malignant neoplasm of skin of eyebrow
+      type: any
+    - code: B333300
+      value: Malignant neoplasm of skin of forehead
+      type: any
+    - code: B333400
+      value: Malignant neoplasm of skin of nose (external)
+      type: any
+    - code: B333500
+      value: Malignant neoplasm of skin of temple
+      type: any
+    - code: B333.00
+      value: Malignant neoplasm skin of other and unspecified parts face
+      type: any
+    - code: B333z00
+      value: Malignant neoplasm skin other and unspec part of face NOS
+      type: any
+    - code: B334000
+      value: Malignant neoplasm of scalp
+      type: any
+    - code: B334100
+      value: Malignant neoplasm of skin of neck
+      type: any
+    - code: B334.00
+      value: Malignant neoplasm of scalp and skin of neck
+      type: any
+    - code: B334z00
+      value: Malignant neoplasm of scalp or skin of neck NOS
+      type: any
+    - code: B335000
+      value: Malignant neoplasm of skin of axillary fold
+      type: any
+    - code: B335100
+      value: Malignant neoplasm of skin of chest, excluding breast
+      type: any
+    - code: B335200
+      value: Malignant neoplasm of skin of breast
+      type: any
+    - code: B335300
+      value: Malignant neoplasm of skin of abdominal wall
+      type: any
+    - code: B335400
+      value: Malignant neoplasm of skin of umbilicus
+      type: any
+    - code: B335500
+      value: Malignant neoplasm of skin of groin
+      type: any
+    - code: B335600
+      value: Malignant neoplasm of skin of perineum
+      type: any
+    - code: B335700
+      value: Malignant neoplasm of skin of back
+      type: any
+    - code: B335800
+      value: Malignant neoplasm of skin of buttock
+      type: any
+    - code: B335900
+      value: Malignant neoplasm of perianal skin
+      type: any
+    - code: B335A00
+      value: Malignant neoplasm of skin of scapular region
+      type: any
+    - code: B335.00
+      value: Malignant neoplasm of skin of trunk, excluding scrotum
+      type: any
+    - code: B335z00
+      value: Malignant neoplasm of skin of trunk, excluding scrotum, NOS
+      type: any
+    - code: B336000
+      value: Malignant neoplasm of skin of shoulder
+      type: any
+    - code: B336100
+      value: Malignant neoplasm of skin of upper arm
+      type: any
+    - code: B336200
+      value: Malignant neoplasm of skin of fore-arm
+      type: any
+    - code: B336300
+      value: Malignant neoplasm of skin of hand
+      type: any
+    - code: B336400
+      value: Malignant neoplasm of skin of finger
+      type: any
+    - code: B336500
+      value: Malignant neoplasm of skin of thumb
+      type: any
+    - code: B336.00
+      value: Malignant neoplasm of skin of upper limb and shoulder
+      type: any
+    - code: B336z00
+      value: Malignant neoplasm of skin of upper limb or shoulder NOS
+      type: any
+    - code: B337000
+      value: Malignant neoplasm of skin of hip
+      type: any
+    - code: B337100
+      value: Malignant neoplasm of skin of thigh
+      type: any
+    - code: B337200
+      value: Malignant neoplasm of skin of knee
+      type: any
+    - code: B337300
+      value: Malignant neoplasm of skin of popliteal fossa area
+      type: any
+    - code: B337400
+      value: Malignant neoplasm of skin of lower leg
+      type: any
+    - code: B337500
+      value: Malignant neoplasm of skin of ankle
+      type: any
+    - code: B337600
+      value: Malignant neoplasm of skin of heel
+      type: any
+    - code: B337700
+      value: Malignant neoplasm of skin of foot
+      type: any
+    - code: B337800
+      value: Malignant neoplasm of skin of toe
+      type: any
+    - code: B337900
+      value: Malignant neoplasm of skin of great toe
+      type: any
+    - code: B337.00
+      value: Malignant neoplasm of skin of lower limb and hip
+      type: any
+    - code: B337z00
+      value: Malignant neoplasm of skin of lower limb or hip NOS
+      type: any
+    - code: B338.00
+      value: Squamous cell carcinoma of skin
+      type: any
+    - code: B339.00
+      value: Dermatofibrosarcoma protuberans
+      type: any
+    - code: B33..00
+      value: Other malignant neoplasm of skin
+      type: any
+    - code: B33..11
+      value: Basal cell carcinoma
+      type: any
+    - code: B33..13
+      value: Rodent ulcer
+      type: any
+    - code: B33..14
+      value: Malignant neoplasm of sebaceous gland
+      type: any
+    - code: B33..15
+      value: Malignant neoplasm of sweat gland
+      type: any
+    - code: B33..16
+      value: Epithelioma basal cell
+      type: any
+    - code: B33X.00
+      value: Malignant neoplasm overlapping lesion of skin
+      type: any
+    - code: B33y.00
+      value: Malignant neoplasm of other specified skin sites
+      type: any
+    - code: B33z.00
+      value: Malignant neoplasm of skin NOS
+      type: any
+    - code: B33z.11
+      value: Squamous cell carcinoma of skin NOS
+      type: any
+    - code: BB2A.13
+      value: '[M]Squamous cell carcinoma of skin NOS'
+      type: any
+    - code: BB30.00
+      value: '[M]Basal cell tumour'
+      type: any
+    - code: BB31.00
+      value: '[M]Basal cell carcinoma NOS'
+      type: any
+    - code: BB32.00
+      value: '[M]Multicentric basal cell carcinoma'
+      type: any
+    - code: BB33.00
+      value: '[M]Basal cell carcinoma, morphoea type'
+      type: any
+    - code: BB34.00
+      value: '[M]Basal cell carcinoma, fibroepithelial type'
+      type: any
+    - code: BB35.00
+      value: '[M]Basosquamous carcinoma'
+      type: any
+    - code: BB36.00
+      value: '[M]Metatypical carcinoma'
+      type: any
+    - code: BB3..00
+      value: '[M]Basal cell neoplasms'
+      type: any
+    - code: BB3C.00
+      value: '[M]Superficial basal cell carcinoma'
+      type: any
+    - code: BB3D.00
+      value: '[M]Basal cell carcinoma, nodular'
+      type: any
+    - code: BB3E.00
+      value: '[M]Basal cell carcinoma, micronodular'
+      type: any
+    - code: BB3F.00
+      value: '[M]Basal cell carcinoma, infiltrative'
+      type: any
+    - code: BB3G.00
+      value: '[M]Pigmented basal cell carcinoma'
+      type: any
+    - code: BB3z.00
+      value: '[M]Basal cell neoplasm NOS'
+      type: any
+    - code: BB60100
+      value: '[M]Skin appendage carcinoma'
+      type: any
+    - code: BB61200
+      value: '[M]Sweat gland adenocarcinoma'
+      type: any
+    - code: BB62100
+      value: '[M]Apocrine adenocarcinoma'
+      type: any
+    - code: BB69100
+      value: '[M]Sebaceous adenocarcinoma'
+      type: any
+    - code: Byu4200
+      value: '[X]Oth malignant neoplasm/skin of oth+unspecfd parts of face'
+      type: any
+    - code: Byu4300
+      value: '[X]Malignant neoplasm of skin, unspecified'
+      type: any
+    - code: Byu5A00
+      value: '[X]Malignant neoplasm overlapping lesion of skin'
+      type: any
+    - code: ZV10y14
+      value: '[V]Personal history of malignant neoplasm of skin'
+      type: prevalent
+    - code: XaEGW
+      value: Malignant neoplasm of lower eyelid
+      type: any
+    - code: XE1vh
+      value: Other malignant neoplasm of skin
+      type: any
+    - code: XaD2Q
+      value: Malignant neoplasm of skin of scapular region
+      type: any
+    - code: Xa0D9
+      value: Dermatofibrosarcoma protuberans
+      type: any
+    - code: XaEGV
+      value: Malignant neoplasm of upper eyelid
+      type: any
+    - code: 7G056
+      value: Excision biopsy of basal cell carcinoma
+      type: any
+    - code: X78RR
+      value: Squamous cell carcinoma of skin
+      type: any
+    - code: XaD2P
+      value: Malignant neoplasm of pinna NEC
+      type: any
+    - code: XaCKx
+      value: Malignant neoplasm of canthus
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C44
+      value: Other malignant neoplasms of skin
+      type: any

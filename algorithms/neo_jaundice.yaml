@@ -1,0 +1,255 @@
+metadata:
+  phenotype: Neonatal jaundice (excl haemolytic dz of the newborn)
+  group: Perinatal
+  is_cancer: '0'
+  is_adult: '0'
+  variable_name: neo_jaundice
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 12d64b58-7225-471b-9245-cffbd39ec66e
+  ontologies:
+    DOID: DOID_2383
+    GWAS: null
+    MESH: D007567
+    SNOMED-CT: 299968002
+    FINNGEN: P16_NEONTAL_JAUND_OTH_EXCESSI_HAEMOLYS
+  short_desc: A pigmentation disease characterized by a high level of bilirubin in
+    the blood, causing a yellowing of the skin and other tissues of a newborn infant.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: P58
+      value: Neonatal jaundice due to other excessive haemolysis
+      type: any
+    - code: P59
+      value: Neonatal jaundice from other and unspecified causes
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: P58
+      value: Neonatal jaundice due to other excessive haemolysis
+      type: any
+    - code: P59
+      value: Neonatal jaundice from other and unspecified causes
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: P58
+      value: Neonatal jaundice due to other excessive haemolysis
+      type: any
+    - code: P59
+      value: Neonatal jaundice from other and unspecified causes
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: P58
+      value: Neonatal jaundice due to other excessive haemolysis
+      type: any
+    - code: P59
+      value: Neonatal jaundice from other and unspecified causes
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: Q430000
+      value: Neonatal jaundice + glucose-6-phosphate dehydrogenase defic.
+      type: any
+    - code: Q430.00
+      value: Perinatal jaundice from hereditary haemolytic anaemias
+      type: any
+    - code: Q430z00
+      value: Perinatal jaundice from hereditary haemolytic anaemia NOS
+      type: any
+    - code: Q431000
+      value: Perinatal jaundice from bruising
+      type: any
+    - code: Q431200
+      value: Perinatal jaundice from infection
+      type: any
+    - code: Q431300
+      value: Perinatal jaundice from polycythaemia
+      type: any
+    - code: Q431500
+      value: Perinatal jaundice from bleeding
+      type: any
+    - code: Q431.00
+      value: Perinatal jaundice from other excessive haemolysis
+      type: any
+    - code: Q431z00
+      value: Perinatal jaundice from haemolysis NOS
+      type: any
+    - code: Q432.00
+      value: Preterm delivery associated jaundice
+      type: any
+    - code: Q433000
+      value: Delayed conjugation causing neonatal jaundice, unspecified
+      type: any
+    - code: Q433200
+      value: Breast feeding inhibitors causing neonatal jaundice
+      type: any
+    - code: Q433300
+      value: Lucy - Driscoll syndrome
+      type: any
+    - code: Q433500
+      value: Neonatal jaundice with Dubin-Johnson syndrome
+      type: any
+    - code: Q433600
+      value: Neonatal jaundice with Gilbert's syndrome
+      type: any
+    - code: Q433700
+      value: Neonatal jaundice with congenital hypothyroidism
+      type: any
+    - code: Q433800
+      value: Neonatal jaundice with porphyria
+      type: any
+    - code: Q433A00
+      value: Neonatal jaundice from breast milk inhibitor
+      type: any
+    - code: Q433.00
+      value: Other neonatal jaundice - delayed conjugation other cause
+      type: any
+    - code: Q433y00
+      value: Delayed conjugation causing neonatal jaundice OS
+      type: any
+    - code: Q433y11
+      value: Neonatal jaundice - deficiency enzyme for bilirubin conjug.
+      type: any
+    - code: Q433z00
+      value: Delayed conjugation causing neonatal jaundice NOS
+      type: any
+    - code: Q434000
+      value: Perinatal hepatitis causing jaundice, unspecified
+      type: any
+    - code: Q434100
+      value: Giant cell hepatitis causing neonatal jaundice
+      type: any
+    - code: Q434200
+      value: Inspissated bile syndrome
+      type: any
+    - code: Q434.00
+      value: Perinatal jaundice due to hepatocellular damage
+      type: any
+    - code: Q434z00
+      value: Perinatal jaundice due to hepatocellular damage NOS
+      type: any
+    - code: Q435000
+      value: Perinatal jaundice due to congenital obstruction bile duct
+      type: any
+    - code: Q435100
+      value: Perinatal jaundice due to galactosaemia
+      type: any
+    - code: Q435.00
+      value: Perinatal jaundice due to other cause
+      type: any
+    - code: Q435z00
+      value: Perinatal jaundice due to other specified cause
+      type: any
+    - code: Q436000
+      value: Icterus neonatorum, unspecified
+      type: any
+    - code: Q436100
+      value: Transient neonatal hyperbilirubinaemia
+      type: any
+    - code: Q436200
+      value: Newborn physiological jaundice NOS
+      type: any
+    - code: Q436.00
+      value: Fetal and neonatal jaundice, unspecified
+      type: any
+    - code: Q436z00
+      value: Unspecified fetal or neonatal jaundice NOS
+      type: any
+    - code: Q437000
+      value: Bilirubin encephalopathy
+      type: any
+    - code: Q437.00
+      value: Kernicterus not due to isoimmunisation
+      type: any
+    - code: Q437z00
+      value: Kernicterus of newborn NOS
+      type: any
+    - code: Q43..00
+      value: Other perinatal jaundice
+      type: any
+    - code: Q43z.00
+      value: Perinatal jaundice NOS
+      type: any
+    - code: Qyu5800
+      value: '[X]Neonat jaun due/drg,toxn transmit frm mother/given newbrn'
+      type: any
+    - code: Qyu5900
+      value: '[X]Neonatal jaundice due/other specifd excessive haemolysis'
+      type: any
+    - code: Qyu5A00
+      value: '[X]Neonatal jaundice from other+unspcf hepatocellular damage'
+      type: any
+    - code: Qyu5B00
+      value: '[X]Neonatal jaundice from other specified causes'
+      type: any
+    - code: XE1f4
+      value: Other specified delayed conjugation causing neonatal jaundice
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

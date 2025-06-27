@@ -1,0 +1,1324 @@
+metadata:
+  phenotype: Glomerulonephritis
+  group: Genitourinary
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: GN
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 7d72b9d7-c104-4229-be6d-17e88a184664
+  ontologies:
+    DOID: DOID_2921
+    GWAS: EFO_0004194
+    MESH: D005921
+    SNOMED-CT: 36171008
+    FINNGEN: GLOMER_NEPHRITIS
+  short_desc: A nephritis that causes inflammation of the glomeruli located_in kidney.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1520'
+      value: iga nephropathy
+      type: any
+    - code: '1608'
+      value: nephritis
+      type: any
+    - code: '1609'
+      value: glomerulnephritis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: N00.0
+      value: Acute nephritic syndrome - Minor glomerular abnormality
+      type: any
+    - code: N00.1
+      value: Acute nephritic syndrome - Focal and segmental glomerular lesions
+      type: any
+    - code: N00.2
+      value: Acute nephritic syndrome - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N00.3
+      value: Acute nephritic syndrome - Diffuse mesangial proliferative glomerulonephritis
+      type: any
+    - code: N00.4
+      value: Acute nephritic syndrome - Diffuse endocapillary proliferative glomerulonephritis
+      type: any
+    - code: N00.5
+      value: Acute nephritic syndrome - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N00.6
+      value: Acute nephritic syndrome - Dense deposit disease
+      type: any
+    - code: N00.7
+      value: Acute nephritic syndrome - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N00.8
+      value: Acute nephritic syndrome - Other
+      type: any
+    - code: N00.9
+      value: Acute nephritic syndrome - Unspecified
+      type: any
+    - code: N01.0
+      value: Rapidly progressive nephritic syndrome - Minor glomerular abnormality
+      type: any
+    - code: N01.1
+      value: Rapidly progressive nephritic syndrome - Focal and segmental glomerular
+        lesions
+      type: any
+    - code: N01.2
+      value: Rapidly progressive nephritic syndrome - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N01.3
+      value: Rapidly progressive nephritic syndrome - Diffuse mesangial proliferative
+        glomerulonephritis
+      type: any
+    - code: N01.4
+      value: Rapidly progressive nephritic syndrome - Diffuse endocapillary proliferative
+        glomerulonephritis
+      type: any
+    - code: N01.5
+      value: Rapidly progressive nephritic syndrome - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N01.7
+      value: Rapidly progressive nephritic syndrome - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N01.8
+      value: Rapidly progressive nephritic syndrome - Other
+      type: any
+    - code: N01.9
+      value: Rapidly progressive nephritic syndrome - Unspecified
+      type: any
+    - code: N02.0
+      value: Recurrent and persistent haematuria - Minor glomerular abnormality
+      type: any
+    - code: N02.1
+      value: Recurrent and persistent haematuria - Focal and segmental glomerular
+        lesions
+      type: any
+    - code: N02.2
+      value: Recurrent and persistent haematuria - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N02.3
+      value: Recurrent and persistent haematuria - Diffuse mesangial proliferative
+        glomerulonephritis
+      type: any
+    - code: N02.4
+      value: Recurrent and persistent haematuria - Diffuse endocapillary proliferative
+        glomerulonephritis
+      type: any
+    - code: N02.5
+      value: Recurrent and persistent haematuria - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N02.6
+      value: Recurrent and persistent haematuria - Dense deposit disease
+      type: any
+    - code: N02.7
+      value: Recurrent and persistent haematuria - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N02.8
+      value: Recurrent and persistent haematuria - Other
+      type: any
+    - code: N02.9
+      value: Recurrent and persistent haematuria - Unspecified
+      type: any
+    - code: N03.0
+      value: Chronic nephritic syndrome - Minor glomerular abnormality
+      type: any
+    - code: N03.1
+      value: Chronic nephritic syndrome - Focal and segmental glomerular lesions
+      type: any
+    - code: N03.2
+      value: Chronic nephritic syndrome - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N03.3
+      value: Chronic nephritic syndrome - Diffuse mesangial proliferative glomerulonephritis
+      type: any
+    - code: N03.4
+      value: Chronic nephritic syndrome - Diffuse endocapillary proliferative glomerulonephritis
+      type: any
+    - code: N03.5
+      value: Chronic nephritic syndrome - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N03.6
+      value: Chronic nephritic syndrome - Dense deposit disease
+      type: any
+    - code: N03.7
+      value: Chronic nephritic syndrome - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N03.8
+      value: Chronic nephritic syndrome - Other
+      type: any
+    - code: N03.9
+      value: Chronic nephritic syndrome - Unspecified
+      type: any
+    - code: N04.0
+      value: Nephrotic syndrome - Minor glomerular abnormality
+      type: any
+    - code: N04.1
+      value: Nephrotic syndrome - Focal and segmental glomerular lesions
+      type: any
+    - code: N04.2
+      value: Nephrotic syndrome - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N04.3
+      value: Nephrotic syndrome - Diffuse mesangial proliferative glomerulonephritis
+      type: any
+    - code: N04.4
+      value: Nephrotic syndrome - Diffuse endocapillary proliferative glomerulonephritis
+      type: any
+    - code: N04.5
+      value: Nephrotic syndrome - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N04.6
+      value: Nephrotic syndrome - Dense deposit disease
+      type: any
+    - code: N04.7
+      value: Nephrotic syndrome - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N04.8
+      value: Nephrotic syndrome - Other
+      type: any
+    - code: N04.9
+      value: Nephrotic syndrome - Unspecified
+      type: any
+    - code: N05.0
+      value: Unspecified nephritic syndrome - Minor glomerular abnormality
+      type: any
+    - code: N05.1
+      value: Unspecified nephritic syndrome - Focal and segmental glomerular lesions
+      type: any
+    - code: N05.2
+      value: Unspecified nephritic syndrome - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N05.3
+      value: Unspecified nephritic syndrome - Diffuse mesangial proliferative glomerulonephritis
+      type: any
+    - code: N05.4
+      value: Unspecified nephritic syndrome - Diffuse endocapillary proliferative
+        glomerulonephritis
+      type: any
+    - code: N05.5
+      value: Unspecified nephritic syndrome - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N05.6
+      value: Unspecified nephritic syndrome - Dense deposit disease
+      type: any
+    - code: N05.7
+      value: Unspecified nephritic syndrome - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N05.8
+      value: Unspecified nephritic syndrome - Other
+      type: any
+    - code: N05.9
+      value: Unspecified nephritic syndrome - Unspecified
+      type: any
+    - code: N06.0
+      value: Isolated proteinuria with specified morphological lesion - Minor glomerular
+        abnormality
+      type: any
+    - code: N06.1
+      value: Isolated proteinuria with specified morphological lesion - Focal and
+        segmental glomerular lesions
+      type: any
+    - code: N06.2
+      value: Isolated proteinuria with specified morphological lesion - Diffuse membranous
+        glomerulonephritis
+      type: any
+    - code: N06.3
+      value: Isolated proteinuria with specified morphological lesion - Diffuse mesangial
+        proliferative glomerulonephritis
+      type: any
+    - code: N06.5
+      value: Isolated proteinuria with specified morphological lesion - Diffuse mesangiocapillary
+        glomerulonephritis
+      type: any
+    - code: N06.6
+      value: Isolated proteinuria with specified morphological lesion - Dense deposit
+        disease
+      type: any
+    - code: N06.8
+      value: Isolated proteinuria with specified morphological lesion - Other
+      type: any
+    - code: N06.9
+      value: Isolated proteinuria with specified morphological lesion - Unspecified
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: N00.0
+      value: Acute nephritic syndrome - Minor glomerular abnormality
+      type: any
+    - code: N00.1
+      value: Acute nephritic syndrome - Focal and segmental glomerular lesions
+      type: any
+    - code: N00.2
+      value: Acute nephritic syndrome - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N00.3
+      value: Acute nephritic syndrome - Diffuse mesangial proliferative glomerulonephritis
+      type: any
+    - code: N00.4
+      value: Acute nephritic syndrome - Diffuse endocapillary proliferative glomerulonephritis
+      type: any
+    - code: N00.5
+      value: Acute nephritic syndrome - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N00.6
+      value: Acute nephritic syndrome - Dense deposit disease
+      type: any
+    - code: N00.7
+      value: Acute nephritic syndrome - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N00.8
+      value: Acute nephritic syndrome - Other
+      type: any
+    - code: N00.9
+      value: Acute nephritic syndrome - Unspecified
+      type: any
+    - code: N01.0
+      value: Rapidly progressive nephritic syndrome - Minor glomerular abnormality
+      type: any
+    - code: N01.1
+      value: Rapidly progressive nephritic syndrome - Focal and segmental glomerular
+        lesions
+      type: any
+    - code: N01.2
+      value: Rapidly progressive nephritic syndrome - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N01.3
+      value: Rapidly progressive nephritic syndrome - Diffuse mesangial proliferative
+        glomerulonephritis
+      type: any
+    - code: N01.4
+      value: Rapidly progressive nephritic syndrome - Diffuse endocapillary proliferative
+        glomerulonephritis
+      type: any
+    - code: N01.5
+      value: Rapidly progressive nephritic syndrome - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N01.7
+      value: Rapidly progressive nephritic syndrome - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N01.8
+      value: Rapidly progressive nephritic syndrome - Other
+      type: any
+    - code: N01.9
+      value: Rapidly progressive nephritic syndrome - Unspecified
+      type: any
+    - code: N02.0
+      value: Recurrent and persistent haematuria - Minor glomerular abnormality
+      type: any
+    - code: N02.1
+      value: Recurrent and persistent haematuria - Focal and segmental glomerular
+        lesions
+      type: any
+    - code: N02.2
+      value: Recurrent and persistent haematuria - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N02.3
+      value: Recurrent and persistent haematuria - Diffuse mesangial proliferative
+        glomerulonephritis
+      type: any
+    - code: N02.4
+      value: Recurrent and persistent haematuria - Diffuse endocapillary proliferative
+        glomerulonephritis
+      type: any
+    - code: N02.5
+      value: Recurrent and persistent haematuria - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N02.6
+      value: Recurrent and persistent haematuria - Dense deposit disease
+      type: any
+    - code: N02.7
+      value: Recurrent and persistent haematuria - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N02.8
+      value: Recurrent and persistent haematuria - Other
+      type: any
+    - code: N02.9
+      value: Recurrent and persistent haematuria - Unspecified
+      type: any
+    - code: N03.0
+      value: Chronic nephritic syndrome - Minor glomerular abnormality
+      type: any
+    - code: N03.1
+      value: Chronic nephritic syndrome - Focal and segmental glomerular lesions
+      type: any
+    - code: N03.2
+      value: Chronic nephritic syndrome - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N03.3
+      value: Chronic nephritic syndrome - Diffuse mesangial proliferative glomerulonephritis
+      type: any
+    - code: N03.4
+      value: Chronic nephritic syndrome - Diffuse endocapillary proliferative glomerulonephritis
+      type: any
+    - code: N03.5
+      value: Chronic nephritic syndrome - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N03.6
+      value: Chronic nephritic syndrome - Dense deposit disease
+      type: any
+    - code: N03.7
+      value: Chronic nephritic syndrome - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N03.8
+      value: Chronic nephritic syndrome - Other
+      type: any
+    - code: N03.9
+      value: Chronic nephritic syndrome - Unspecified
+      type: any
+    - code: N04.0
+      value: Nephrotic syndrome - Minor glomerular abnormality
+      type: any
+    - code: N04.1
+      value: Nephrotic syndrome - Focal and segmental glomerular lesions
+      type: any
+    - code: N04.2
+      value: Nephrotic syndrome - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N04.3
+      value: Nephrotic syndrome - Diffuse mesangial proliferative glomerulonephritis
+      type: any
+    - code: N04.4
+      value: Nephrotic syndrome - Diffuse endocapillary proliferative glomerulonephritis
+      type: any
+    - code: N04.5
+      value: Nephrotic syndrome - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N04.6
+      value: Nephrotic syndrome - Dense deposit disease
+      type: any
+    - code: N04.7
+      value: Nephrotic syndrome - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N04.8
+      value: Nephrotic syndrome - Other
+      type: any
+    - code: N04.9
+      value: Nephrotic syndrome - Unspecified
+      type: any
+    - code: N05.0
+      value: Unspecified nephritic syndrome - Minor glomerular abnormality
+      type: any
+    - code: N05.1
+      value: Unspecified nephritic syndrome - Focal and segmental glomerular lesions
+      type: any
+    - code: N05.2
+      value: Unspecified nephritic syndrome - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N05.3
+      value: Unspecified nephritic syndrome - Diffuse mesangial proliferative glomerulonephritis
+      type: any
+    - code: N05.4
+      value: Unspecified nephritic syndrome - Diffuse endocapillary proliferative
+        glomerulonephritis
+      type: any
+    - code: N05.5
+      value: Unspecified nephritic syndrome - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N05.6
+      value: Unspecified nephritic syndrome - Dense deposit disease
+      type: any
+    - code: N05.7
+      value: Unspecified nephritic syndrome - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N05.8
+      value: Unspecified nephritic syndrome - Other
+      type: any
+    - code: N05.9
+      value: Unspecified nephritic syndrome - Unspecified
+      type: any
+    - code: N06.0
+      value: Isolated proteinuria with specified morphological lesion - Minor glomerular
+        abnormality
+      type: any
+    - code: N06.1
+      value: Isolated proteinuria with specified morphological lesion - Focal and
+        segmental glomerular lesions
+      type: any
+    - code: N06.2
+      value: Isolated proteinuria with specified morphological lesion - Diffuse membranous
+        glomerulonephritis
+      type: any
+    - code: N06.3
+      value: Isolated proteinuria with specified morphological lesion - Diffuse mesangial
+        proliferative glomerulonephritis
+      type: any
+    - code: N06.5
+      value: Isolated proteinuria with specified morphological lesion - Diffuse mesangiocapillary
+        glomerulonephritis
+      type: any
+    - code: N06.6
+      value: Isolated proteinuria with specified morphological lesion - Dense deposit
+        disease
+      type: any
+    - code: N06.8
+      value: Isolated proteinuria with specified morphological lesion - Other
+      type: any
+    - code: N06.9
+      value: Isolated proteinuria with specified morphological lesion - Unspecified
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N00.0
+      value: Acute nephritic syndrome - Minor glomerular abnormality
+      type: any
+    - code: N00.1
+      value: Acute nephritic syndrome - Focal and segmental glomerular lesions
+      type: any
+    - code: N00.2
+      value: Acute nephritic syndrome - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N00.3
+      value: Acute nephritic syndrome - Diffuse mesangial proliferative glomerulonephritis
+      type: any
+    - code: N00.4
+      value: Acute nephritic syndrome - Diffuse endocapillary proliferative glomerulonephritis
+      type: any
+    - code: N00.5
+      value: Acute nephritic syndrome - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N00.6
+      value: Acute nephritic syndrome - Dense deposit disease
+      type: any
+    - code: N00.7
+      value: Acute nephritic syndrome - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N00.8
+      value: Acute nephritic syndrome - Other
+      type: any
+    - code: N00.9
+      value: Acute nephritic syndrome - Unspecified
+      type: any
+    - code: N01.0
+      value: Rapidly progressive nephritic syndrome - Minor glomerular abnormality
+      type: any
+    - code: N01.1
+      value: Rapidly progressive nephritic syndrome - Focal and segmental glomerular
+        lesions
+      type: any
+    - code: N01.2
+      value: Rapidly progressive nephritic syndrome - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N01.3
+      value: Rapidly progressive nephritic syndrome - Diffuse mesangial proliferative
+        glomerulonephritis
+      type: any
+    - code: N01.4
+      value: Rapidly progressive nephritic syndrome - Diffuse endocapillary proliferative
+        glomerulonephritis
+      type: any
+    - code: N01.5
+      value: Rapidly progressive nephritic syndrome - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N01.7
+      value: Rapidly progressive nephritic syndrome - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N01.8
+      value: Rapidly progressive nephritic syndrome - Other
+      type: any
+    - code: N01.9
+      value: Rapidly progressive nephritic syndrome - Unspecified
+      type: any
+    - code: N02.0
+      value: Recurrent and persistent haematuria - Minor glomerular abnormality
+      type: any
+    - code: N02.1
+      value: Recurrent and persistent haematuria - Focal and segmental glomerular
+        lesions
+      type: any
+    - code: N02.2
+      value: Recurrent and persistent haematuria - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N02.3
+      value: Recurrent and persistent haematuria - Diffuse mesangial proliferative
+        glomerulonephritis
+      type: any
+    - code: N02.4
+      value: Recurrent and persistent haematuria - Diffuse endocapillary proliferative
+        glomerulonephritis
+      type: any
+    - code: N02.5
+      value: Recurrent and persistent haematuria - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N02.6
+      value: Recurrent and persistent haematuria - Dense deposit disease
+      type: any
+    - code: N02.7
+      value: Recurrent and persistent haematuria - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N02.8
+      value: Recurrent and persistent haematuria - Other
+      type: any
+    - code: N02.9
+      value: Recurrent and persistent haematuria - Unspecified
+      type: any
+    - code: N03.0
+      value: Chronic nephritic syndrome - Minor glomerular abnormality
+      type: any
+    - code: N03.1
+      value: Chronic nephritic syndrome - Focal and segmental glomerular lesions
+      type: any
+    - code: N03.2
+      value: Chronic nephritic syndrome - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N03.3
+      value: Chronic nephritic syndrome - Diffuse mesangial proliferative glomerulonephritis
+      type: any
+    - code: N03.4
+      value: Chronic nephritic syndrome - Diffuse endocapillary proliferative glomerulonephritis
+      type: any
+    - code: N03.5
+      value: Chronic nephritic syndrome - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N03.6
+      value: Chronic nephritic syndrome - Dense deposit disease
+      type: any
+    - code: N03.7
+      value: Chronic nephritic syndrome - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N03.8
+      value: Chronic nephritic syndrome - Other
+      type: any
+    - code: N03.9
+      value: Chronic nephritic syndrome - Unspecified
+      type: any
+    - code: N04.0
+      value: Nephrotic syndrome - Minor glomerular abnormality
+      type: any
+    - code: N04.1
+      value: Nephrotic syndrome - Focal and segmental glomerular lesions
+      type: any
+    - code: N04.2
+      value: Nephrotic syndrome - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N04.3
+      value: Nephrotic syndrome - Diffuse mesangial proliferative glomerulonephritis
+      type: any
+    - code: N04.4
+      value: Nephrotic syndrome - Diffuse endocapillary proliferative glomerulonephritis
+      type: any
+    - code: N04.5
+      value: Nephrotic syndrome - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N04.6
+      value: Nephrotic syndrome - Dense deposit disease
+      type: any
+    - code: N04.7
+      value: Nephrotic syndrome - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N04.8
+      value: Nephrotic syndrome - Other
+      type: any
+    - code: N04.9
+      value: Nephrotic syndrome - Unspecified
+      type: any
+    - code: N05.0
+      value: Unspecified nephritic syndrome - Minor glomerular abnormality
+      type: any
+    - code: N05.1
+      value: Unspecified nephritic syndrome - Focal and segmental glomerular lesions
+      type: any
+    - code: N05.2
+      value: Unspecified nephritic syndrome - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N05.3
+      value: Unspecified nephritic syndrome - Diffuse mesangial proliferative glomerulonephritis
+      type: any
+    - code: N05.4
+      value: Unspecified nephritic syndrome - Diffuse endocapillary proliferative
+        glomerulonephritis
+      type: any
+    - code: N05.5
+      value: Unspecified nephritic syndrome - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N05.6
+      value: Unspecified nephritic syndrome - Dense deposit disease
+      type: any
+    - code: N05.7
+      value: Unspecified nephritic syndrome - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N05.8
+      value: Unspecified nephritic syndrome - Other
+      type: any
+    - code: N05.9
+      value: Unspecified nephritic syndrome - Unspecified
+      type: any
+    - code: N06.0
+      value: Isolated proteinuria with specified morphological lesion - Minor glomerular
+        abnormality
+      type: any
+    - code: N06.1
+      value: Isolated proteinuria with specified morphological lesion - Focal and
+        segmental glomerular lesions
+      type: any
+    - code: N06.2
+      value: Isolated proteinuria with specified morphological lesion - Diffuse membranous
+        glomerulonephritis
+      type: any
+    - code: N06.3
+      value: Isolated proteinuria with specified morphological lesion - Diffuse mesangial
+        proliferative glomerulonephritis
+      type: any
+    - code: N06.5
+      value: Isolated proteinuria with specified morphological lesion - Diffuse mesangiocapillary
+        glomerulonephritis
+      type: any
+    - code: N06.6
+      value: Isolated proteinuria with specified morphological lesion - Dense deposit
+        disease
+      type: any
+    - code: N06.8
+      value: Isolated proteinuria with specified morphological lesion - Other
+      type: any
+    - code: N06.9
+      value: Isolated proteinuria with specified morphological lesion - Unspecified
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N00.0
+      value: Acute nephritic syndrome - Minor glomerular abnormality
+      type: any
+    - code: N00.1
+      value: Acute nephritic syndrome - Focal and segmental glomerular lesions
+      type: any
+    - code: N00.2
+      value: Acute nephritic syndrome - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N00.3
+      value: Acute nephritic syndrome - Diffuse mesangial proliferative glomerulonephritis
+      type: any
+    - code: N00.4
+      value: Acute nephritic syndrome - Diffuse endocapillary proliferative glomerulonephritis
+      type: any
+    - code: N00.5
+      value: Acute nephritic syndrome - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N00.6
+      value: Acute nephritic syndrome - Dense deposit disease
+      type: any
+    - code: N00.7
+      value: Acute nephritic syndrome - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N00.8
+      value: Acute nephritic syndrome - Other
+      type: any
+    - code: N00.9
+      value: Acute nephritic syndrome - Unspecified
+      type: any
+    - code: N01.0
+      value: Rapidly progressive nephritic syndrome - Minor glomerular abnormality
+      type: any
+    - code: N01.1
+      value: Rapidly progressive nephritic syndrome - Focal and segmental glomerular
+        lesions
+      type: any
+    - code: N01.2
+      value: Rapidly progressive nephritic syndrome - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N01.3
+      value: Rapidly progressive nephritic syndrome - Diffuse mesangial proliferative
+        glomerulonephritis
+      type: any
+    - code: N01.4
+      value: Rapidly progressive nephritic syndrome - Diffuse endocapillary proliferative
+        glomerulonephritis
+      type: any
+    - code: N01.5
+      value: Rapidly progressive nephritic syndrome - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N01.7
+      value: Rapidly progressive nephritic syndrome - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N01.8
+      value: Rapidly progressive nephritic syndrome - Other
+      type: any
+    - code: N01.9
+      value: Rapidly progressive nephritic syndrome - Unspecified
+      type: any
+    - code: N02.0
+      value: Recurrent and persistent haematuria - Minor glomerular abnormality
+      type: any
+    - code: N02.1
+      value: Recurrent and persistent haematuria - Focal and segmental glomerular
+        lesions
+      type: any
+    - code: N02.2
+      value: Recurrent and persistent haematuria - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N02.3
+      value: Recurrent and persistent haematuria - Diffuse mesangial proliferative
+        glomerulonephritis
+      type: any
+    - code: N02.4
+      value: Recurrent and persistent haematuria - Diffuse endocapillary proliferative
+        glomerulonephritis
+      type: any
+    - code: N02.5
+      value: Recurrent and persistent haematuria - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N02.6
+      value: Recurrent and persistent haematuria - Dense deposit disease
+      type: any
+    - code: N02.7
+      value: Recurrent and persistent haematuria - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N02.8
+      value: Recurrent and persistent haematuria - Other
+      type: any
+    - code: N02.9
+      value: Recurrent and persistent haematuria - Unspecified
+      type: any
+    - code: N03.0
+      value: Chronic nephritic syndrome - Minor glomerular abnormality
+      type: any
+    - code: N03.1
+      value: Chronic nephritic syndrome - Focal and segmental glomerular lesions
+      type: any
+    - code: N03.2
+      value: Chronic nephritic syndrome - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N03.3
+      value: Chronic nephritic syndrome - Diffuse mesangial proliferative glomerulonephritis
+      type: any
+    - code: N03.4
+      value: Chronic nephritic syndrome - Diffuse endocapillary proliferative glomerulonephritis
+      type: any
+    - code: N03.5
+      value: Chronic nephritic syndrome - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N03.6
+      value: Chronic nephritic syndrome - Dense deposit disease
+      type: any
+    - code: N03.7
+      value: Chronic nephritic syndrome - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N03.8
+      value: Chronic nephritic syndrome - Other
+      type: any
+    - code: N03.9
+      value: Chronic nephritic syndrome - Unspecified
+      type: any
+    - code: N04.0
+      value: Nephrotic syndrome - Minor glomerular abnormality
+      type: any
+    - code: N04.1
+      value: Nephrotic syndrome - Focal and segmental glomerular lesions
+      type: any
+    - code: N04.2
+      value: Nephrotic syndrome - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N04.3
+      value: Nephrotic syndrome - Diffuse mesangial proliferative glomerulonephritis
+      type: any
+    - code: N04.4
+      value: Nephrotic syndrome - Diffuse endocapillary proliferative glomerulonephritis
+      type: any
+    - code: N04.5
+      value: Nephrotic syndrome - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N04.6
+      value: Nephrotic syndrome - Dense deposit disease
+      type: any
+    - code: N04.7
+      value: Nephrotic syndrome - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N04.8
+      value: Nephrotic syndrome - Other
+      type: any
+    - code: N04.9
+      value: Nephrotic syndrome - Unspecified
+      type: any
+    - code: N05.0
+      value: Unspecified nephritic syndrome - Minor glomerular abnormality
+      type: any
+    - code: N05.1
+      value: Unspecified nephritic syndrome - Focal and segmental glomerular lesions
+      type: any
+    - code: N05.2
+      value: Unspecified nephritic syndrome - Diffuse membranous glomerulonephritis
+      type: any
+    - code: N05.3
+      value: Unspecified nephritic syndrome - Diffuse mesangial proliferative glomerulonephritis
+      type: any
+    - code: N05.4
+      value: Unspecified nephritic syndrome - Diffuse endocapillary proliferative
+        glomerulonephritis
+      type: any
+    - code: N05.5
+      value: Unspecified nephritic syndrome - Diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: N05.6
+      value: Unspecified nephritic syndrome - Dense deposit disease
+      type: any
+    - code: N05.7
+      value: Unspecified nephritic syndrome - Diffuse crescentic glomerulonephritis
+      type: any
+    - code: N05.8
+      value: Unspecified nephritic syndrome - Other
+      type: any
+    - code: N05.9
+      value: Unspecified nephritic syndrome - Unspecified
+      type: any
+    - code: N06.0
+      value: Isolated proteinuria with specified morphological lesion - Minor glomerular
+        abnormality
+      type: any
+    - code: N06.1
+      value: Isolated proteinuria with specified morphological lesion - Focal and
+        segmental glomerular lesions
+      type: any
+    - code: N06.2
+      value: Isolated proteinuria with specified morphological lesion - Diffuse membranous
+        glomerulonephritis
+      type: any
+    - code: N06.3
+      value: Isolated proteinuria with specified morphological lesion - Diffuse mesangial
+        proliferative glomerulonephritis
+      type: any
+    - code: N06.5
+      value: Isolated proteinuria with specified morphological lesion - Diffuse mesangiocapillary
+        glomerulonephritis
+      type: any
+    - code: N06.6
+      value: Isolated proteinuria with specified morphological lesion - Dense deposit
+        disease
+      type: any
+    - code: N06.8
+      value: Isolated proteinuria with specified morphological lesion - Other
+      type: any
+    - code: N06.9
+      value: Isolated proteinuria with specified morphological lesion - Unspecified
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: D310100
+      value: Henoch-Schonlein nephritis
+      type: any
+    - code: G752111
+      value: Antiglomerular basement membrane disease
+      type: any
+    - code: G752112
+      value: Anti GBM disease - Antiglomerular basement membrane disease
+      type: any
+    - code: K000100
+      value: Crescentic glomerulonephritis
+      type: any
+    - code: K000111
+      value: CGN - Crescentic glomerulonephritis
+      type: any
+    - code: K000.00
+      value: Acute proliferative glomerulonephritis
+      type: any
+    - code: K001.00
+      value: Acute nephritis with lesions of necrotising glomerulitis
+      type: any
+    - code: K00..00
+      value: Acute glomerulonephritis
+      type: any
+    - code: K00..12
+      value: Bright's disease
+      type: any
+    - code: K00y000
+      value: Acute glomerulonephritis in diseases EC
+      type: any
+    - code: K00y.00
+      value: Other acute glomerulonephritis
+      type: any
+    - code: K00yz00
+      value: Other acute glomerulonephritis NOS
+      type: any
+    - code: K00z.00
+      value: Acute glomerulonephritis NOS
+      type: any
+    - code: K010.00
+      value: Nephrotic syndrome with proliferative glomerulonephritis
+      type: any
+    - code: K011.00
+      value: Nephrotic syndrome with membranous glomerulonephritis
+      type: any
+    - code: K012.00
+      value: Nephrotic syndrome+membranoproliferative glomerulonephritis
+      type: any
+    - code: K013.00
+      value: Nephrotic syndrome with minimal change glomerulonephritis
+      type: any
+    - code: K013.11
+      value: Lipoid nephrosis
+      type: any
+    - code: K013.12
+      value: Steroid sensitive nephrotic syndrome
+      type: any
+    - code: K014.00
+      value: Nephrotic syndrome, minor glomerular abnormality
+      type: any
+    - code: K015.00
+      value: Nephrotic syndrome, focal and segmental glomerular lesions
+      type: any
+    - code: K016.00
+      value: Nephrotic syndrome, diffuse membranous glomerulonephritis
+      type: any
+    - code: K017.00
+      value: Nephrotic syn difus mesangial prolifertiv glomerulonephritis
+      type: any
+    - code: K018.00
+      value: Nephrotic syn,difus endocapilary proliftv glomerulonephritis
+      type: any
+    - code: K019.00
+      value: Nephrotic syn,diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: K01A.00
+      value: Nephrotic syndrome, dense deposit disease
+      type: any
+    - code: K01B.00
+      value: Nephrotic syndrome, diffuse crescentic glomerulonephritis
+      type: any
+    - code: K01..00
+      value: Nephrotic syndrome
+      type: any
+    - code: K01x000
+      value: Nephrotic syndrome in amyloidosis
+      type: any
+    - code: K01x200
+      value: Nephrotic syndrome in malaria
+      type: any
+    - code: K01x300
+      value: Nephrotic syndrome in polyarteritis nodosa
+      type: any
+    - code: K01x400
+      value: Nephrotic syndrome in systemic lupus erythematosus
+      type: any
+    - code: K01x411
+      value: Lupus nephritis
+      type: any
+    - code: K01x.00
+      value: Nephrotic syndrome in diseases EC
+      type: any
+    - code: K01y.00
+      value: Nephrotic syndrome with other pathological kidney lesions
+      type: any
+    - code: K01z.00
+      value: Nephrotic syndrome NOS
+      type: any
+    - code: K020.00
+      value: Chronic proliferative glomerulonephritis
+      type: any
+    - code: K021.00
+      value: Chronic membranous glomerulonephritis
+      type: any
+    - code: K022.00
+      value: Chronic membranoproliferative glomerulonephritis
+      type: any
+    - code: K023.00
+      value: Chronic rapidly progressive glomerulonephritis
+      type: any
+    - code: K02..00
+      value: Chronic glomerulonephritis
+      type: any
+    - code: K02y000
+      value: Chronic glomerulonephritis + diseases EC
+      type: any
+    - code: K02y200
+      value: Chronic focal glomerulonephritis
+      type: any
+    - code: K02y300
+      value: Chronic diffuse glomerulonephritis
+      type: any
+    - code: K02y.00
+      value: Other chronic glomerulonephritis
+      type: any
+    - code: K02yz00
+      value: Other chronic glomerulonephritis NOS
+      type: any
+    - code: K02z.00
+      value: Chronic glomerulonephritis NOS
+      type: any
+    - code: K030.00
+      value: Proliferative nephritis unspecified
+      type: any
+    - code: K031.00
+      value: Membranous nephritis unspecified
+      type: any
+    - code: K032000
+      value: Focal membranoproliferative glomerulonephritis
+      type: any
+    - code: K032100
+      value: Recurrent benign haematuria syndrome
+      type: any
+    - code: K032200
+      value: Focal glomerulon + focal recurr macroscop glomerulonephritis
+      type: any
+    - code: K032300
+      value: Anaphylactoid glomerulonephritis
+      type: any
+    - code: K032600
+      value: Berger's IgA or IgG nephropathy
+      type: any
+    - code: K032.00
+      value: Membranoproliferative nephritis unspecified
+      type: any
+    - code: K032y00
+      value: Nephritis unsp+OS membranoprolif glomerulonephritis lesion
+      type: any
+    - code: K032y11
+      value: Hypocomplementaemic persistent glomerulonephritis NEC
+      type: any
+    - code: K032y13
+      value: Mesangioproliferative glomerulonephritis NEC
+      type: any
+    - code: K032y14
+      value: Mesangiocapillary glomerulonephritis NEC
+      type: any
+    - code: K032y15
+      value: Mixed membranous and proliferative glomerulonephritis NEC
+      type: any
+    - code: K032z00
+      value: Nephritis unsp+membranoprolif glomerulonephritis lesion NOS
+      type: any
+    - code: K033.00
+      value: Rapidly progressive nephritis unspecified
+      type: any
+    - code: K03U.00
+      value: Unspecif nephr synd, diff concentric glomerulonephritis
+      type: any
+    - code: K03V.00
+      value: Unspecified nephritic syndrome, dense deposit disease
+      type: any
+    - code: K03W.00
+      value: Unsp nephrit synd, diff endocap prolif glomerulonephritis
+      type: any
+    - code: K03X.00
+      value: Unsp nephrit synd, diff mesang prolif glomerulonephritis
+      type: any
+    - code: K03z.00
+      value: Unspecified glomerulonephritis NOS
+      type: any
+    - code: K072.00
+      value: Glomerulosclerosis
+      type: any
+    - code: K0A0000
+      value: Acute nephritic syndrome, minor glomerular abnormality
+      type: any
+    - code: K0A0100
+      value: Acute nephritic syndrome, focal+segmental glomerular lesions
+      type: any
+    - code: K0A0200
+      value: Acute nephritic syn, diffuse membranous glomerulonephritis
+      type: any
+    - code: K0A0300
+      value: Acut neph syn, diffuse mesangial prolifrative glomnephritis
+      type: any
+    - code: K0A0400
+      value: Ac neph syn difus endocaplry prolifrative glomerulonephritis
+      type: any
+    - code: K0A0500
+      value: Acute neph syn, diffuse mesangiocapillary glomerulonephritis
+      type: any
+    - code: K0A0600
+      value: Acute nephritic syndrome, dense deposit disease
+      type: any
+    - code: K0A0700
+      value: Acute nephrotic syndrm diffuse crescentic glomerulonephritis
+      type: any
+    - code: K0A0.00
+      value: Acute nephritic syndrome
+      type: any
+    - code: K0A1100
+      value: Rapid progres nephritic syn focal+segmental glomerulr lesion
+      type: any
+    - code: K0A1200
+      value: Rapid progres neph syn diffuse membranous glomerulonephritis
+      type: any
+    - code: K0A1300
+      value: Rpd prog neph syn df mesangial prolifratv glomerulonephritis
+      type: any
+    - code: K0A1400
+      value: Rapid progres neph syn df endocapilary prolifv glomnephritis
+      type: any
+    - code: K0A1600
+      value: Rapid progressive nephritic syndrome, dense deposit disease
+      type: any
+    - code: K0A1700
+      value: Rapid progres nephritic syn df crescentic glomerulonephritis
+      type: any
+    - code: K0A1.00
+      value: Rapidly progressive nephritic syndrome
+      type: any
+    - code: K0A2000
+      value: Recurrent+persistnt haematuria minor glomerular abnormality
+      type: any
+    - code: K0A2100
+      value: Recur+persist haematuria, focal+segmental glomerular lesions
+      type: any
+    - code: K0A2200
+      value: Recur+persist haematuria difus membranous glomerulonephritis
+      type: any
+    - code: K0A2300
+      value: Recur+persist haemuria df mesangial prolif glomerulnephritis
+      type: any
+    - code: K0A2500
+      value: Recur+persist hmuria df mesangiocapilary glomerulonephritis
+      type: any
+    - code: K0A2600
+      value: Recurrent and persistent haematuria, dense deposit disease
+      type: any
+    - code: K0A2700
+      value: Recur+persist haematuria difus crescentic glomerulonephritis
+      type: any
+    - code: K0A2800
+      value: IgA nephropathy
+      type: any
+    - code: K0A2.00
+      value: Recurrent and persistent haematuria
+      type: any
+    - code: K0A3000
+      value: Chronic nephritic syndrome, minor glomerular abnormality
+      type: any
+    - code: K0A3100
+      value: Chronic nephritic syndrm focal+segmental glomerular lesions
+      type: any
+    - code: K0A3200
+      value: Chron nephritic syndrom difuse membranous glomerulonephritis
+      type: any
+    - code: K0A3300
+      value: Chron neph syn difus mesangial prolifrtiv glomerulonephritis
+      type: any
+    - code: K0A3500
+      value: Chronic neph syn difus mesangiocapillary glomerulonephritis
+      type: any
+    - code: K0A3600
+      value: Chronic nephritic syndrome, dense deposit disease
+      type: any
+    - code: K0A3700
+      value: Chronic nephritic syn diffuse crescentic glomerulonephritis
+      type: any
+    - code: K0A3.00
+      value: Chronic nephritic syndrome
+      type: any
+    - code: K0A4100
+      value: Isolatd proteinur/specifd morphlgcl les foc+seg glom lesn
+      type: any
+    - code: K0A4200
+      value: Isolatd proteinur/specfd morphlgcl les df membrn glomneph
+      type: any
+    - code: K0A4300
+      value: Isoltd prteinur/spcfd morph lesn df mesngl prolf glomneph
+      type: any
+    - code: K0A4500
+      value: Isoltd prteinur+specfd morph les df mesangiocap glomnephr
+      type: any
+    - code: K0A4.00
+      value: Isolated proteinuria with specified morphological lesion
+      type: any
+    - code: K0A4W00
+      value: Isolated proteinuria, with unspecified morpholog changes
+      type: any
+    - code: K0A4X00
+      value: Isolated proteinuria, with oth specif morpholog changes
+      type: any
+    - code: K0A7.00
+      value: Glom disordr in blood diseas+disordr invlvg imun mechansm
+      type: any
+    - code: K0A8.00
+      value: Rapidly progressive glomerulonephritis
+      type: any
+    - code: K0A..00
+      value: Glomerular disease
+      type: any
+    - code: Kyu0900
+      value: '[X]Unsp nephrit synd, diff mesang prolif glomerulonephritis'
+      type: any
+    - code: X30I8
+      value: Rapidly progressive glomerulonephritis
+      type: any
+    - code: XE0dY
+      value: Acute glomerulonephritis
+      type: any
+    - code: XE0db
+      value: Chronic glomerulonephritis
+      type: any
+    - code: X30Kv
+      value: Henoch-Schonlein nephritis
+      type: any
+    - code: XE0dZ
+      value: Nephrotic syndrome with minimal change glomerulonephritis
+      type: any
+    - code: X30IG
+      value: Crescentic glomerulonephritis
+      type: any
+    - code: XE0de
+      value: Nephritis unspecified with other specified lesion of membranoproliferative
+        glomerulonephritis
+      type: any
+    - code: X30IQ
+      value: IgA nephropathy
+      type: any
+    - code: X30I2
+      value: Acute nephritic syndrome
+      type: any
+    - code: X30Kz
+      value: Goodpasture's disease
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

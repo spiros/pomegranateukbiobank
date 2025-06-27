@@ -1,0 +1,1073 @@
+metadata:
+  phenotype: Viral diseases (excl chronic hepatitis/HIV)
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: viral
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: a436e047-0f40-456b-b0b1-537b15bcd225
+  ontologies:
+    DOID: DOID_934
+    GWAS: EFO_0000763
+    MESH: null
+    SNOMED-CT: '34014006'
+    FINNGEN: AB1_VIRAL_NOS
+  short_desc: Viral diseases (excl chronic hepatitis/HIV)
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1568'
+      value: measles / morbillivirus
+      type: any
+    - code: '1567'
+      value: infectious mononucleosis / glandular fever / epstein barr virus (ebv)
+      type: any
+    - code: '1674'
+      value: varicella zoster virus
+      type: any
+    - code: '1676'
+      value: yellow fever
+      type: any
+    - code: '1575'
+      value: herpes simplex
+      type: any
+    - code: '1571'
+      value: chickenpox
+      type: any
+    - code: '1569'
+      value: mumps / epidemic parotitis
+      type: any
+    - code: '1578'
+      value: hepatitis a
+      type: any
+    - code: '1156'
+      value: infective/viral hepatitis
+      type: any
+    - code: '1570'
+      value: rubella / german measles
+      type: any
+    - code: '1526'
+      value: polio / poliomyelitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: A08.0
+      value: Rotaviral enteritis
+      type: any
+    - code: A08.1
+      value: Acute gastroenteropathy due to Norwalk agent
+      type: any
+    - code: A08.2
+      value: Adenoviral enteritis
+      type: any
+    - code: A08.3
+      value: Other viral enteritis
+      type: any
+    - code: A08.4
+      value: Viral intestinal infection, unspecified
+      type: any
+    - code: A60
+      value: Anogenital herpesviral [herpes simplex] infection
+      type: any
+    - code: A63.0
+      value: Anogenital (venereal) warts
+      type: any
+    - code: A80
+      value: Acute poliomyelitis
+      type: any
+    - code: A81.1
+      value: Subacute sclerosing panencephalitis
+      type: any
+    - code: A81.2
+      value: Progressive multifocal leukoencephalopathy
+      type: any
+    - code: A82
+      value: Rabies
+      type: any
+    - code: A83
+      value: Mosquito-borne viral encephalitis
+      type: any
+    - code: A84
+      value: Tick-borne viral encephalitis
+      type: any
+    - code: A85
+      value: Other viral encephalitis, not elsewhere classified
+      type: any
+    - code: A86
+      value: Unspecified viral encephalitis
+      type: any
+    - code: A87
+      value: Viral meningitis
+      type: any
+    - code: A88
+      value: Other viral infections of central nervous system, not elsewhere classified
+      type: any
+    - code: A89
+      value: Unspecified viral infection of central nervous system
+      type: any
+    - code: A90
+      value: Dengue fever [classical dengue]
+      type: any
+    - code: A91
+      value: Dengue haemorrhagic fever
+      type: any
+    - code: A92
+      value: Other mosquito-borne viral fevers
+      type: any
+    - code: A93
+      value: Other arthropod-borne viral fevers, not elsewhere classified
+      type: any
+    - code: A94
+      value: Unspecified arthropod-borne viral fever
+      type: any
+    - code: A95
+      value: Yellow fever
+      type: any
+    - code: A96
+      value: Arenaviral haemorrhagic fever
+      type: any
+    - code: A98
+      value: Other viral haemorrhagic fevers, not elsewhere classified
+      type: any
+    - code: A99
+      value: Unspecified viral haemorrhagic fever
+      type: any
+    - code: B00
+      value: Herpesviral [herpes simplex] infections
+      type: any
+    - code: B01
+      value: Varicella [chickenpox]
+      type: any
+    - code: B02
+      value: Zoster [herpes zoster]
+      type: any
+    - code: B05
+      value: Measles
+      type: any
+    - code: B06
+      value: Rubella [German measles]
+      type: any
+    - code: B07
+      value: Viral warts
+      type: any
+    - code: B08
+      value: Other viral infections characterized by skin and mucous membrane lesions,
+        not elsewhere classified
+      type: any
+    - code: B09
+      value: Unspecified viral infection characterized by skin and mucous membrane
+        lesions
+      type: any
+    - code: B15
+      value: Acute hepatitis A
+      type: any
+    - code: B16
+      value: Acute hepatitis B
+      type: any
+    - code: B17
+      value: Other acute viral hepatitis
+      type: any
+    - code: B19
+      value: Unspecified viral hepatitis
+      type: any
+    - code: B20.2
+      value: HIV disease resulting in cytomegaloviral disease
+      type: any
+    - code: B20.3
+      value: HIV disease resulting in other viral infections
+      type: any
+    - code: B25
+      value: Cytomegaloviral disease
+      type: any
+    - code: B26
+      value: Mumps
+      type: any
+    - code: B27
+      value: Infectious mononucleosis
+      type: any
+    - code: B30
+      value: Viral conjunctivitis
+      type: any
+    - code: B33
+      value: Other viral diseases, not elsewhere classified
+      type: any
+    - code: B34
+      value: Viral infection of unspecified site
+      type: any
+    - code: B91
+      value: Sequelae of poliomyelitis
+      type: prevalent
+    - code: B94.1
+      value: Sequelae of viral encephalitis
+      type: prevalent
+    - code: B94.2
+      value: Sequelae of viral hepatitis
+      type: prevalent
+    - code: B97
+      value: Viral agents as the cause of diseases classified to other chapters
+      type: any
+    - code: G02.0
+      value: Meningitis in viral diseases classified elsewhere
+      type: any
+    - code: G04.1
+      value: Tropical spastic paraplegia
+      type: any
+    - code: G05.1
+      value: Encephalitis, myelitis and encephalomyelitis in viral diseases classified
+        elsewhere
+      type: any
+    - code: G53.0
+      value: Postzoster neuralgia
+      type: any
+    - code: H19.1
+      value: Herpesviral keratitis and keratoconjunctivitis
+      type: any
+    - code: H62.1
+      value: Otitis externa in viral diseases classified elsewhere
+      type: any
+    - code: H67.1
+      value: Otitis media in viral diseases classified elsewhere
+      type: any
+    - code: I41.1
+      value: Myocarditis in viral diseases classified elsewhere
+      type: any
+    - code: J09
+      value: Influenza due to identified avian influenza virus
+      type: any
+    - code: J10
+      value: Influenza due to other identified influenza virus
+      type: any
+    - code: J11
+      value: Influenza, virus not identified
+      type: any
+    - code: J12
+      value: Viral pneumonia, not elsewhere classified
+      type: any
+    - code: J17.1
+      value: Pneumonia in viral diseases classified elsewhere
+      type: any
+    - code: J20.3
+      value: Acute bronchitis due to coxsackievirus
+      type: any
+    - code: J20.4
+      value: Acute bronchitis due to parainfluenza virus
+      type: any
+    - code: J20.5
+      value: Acute bronchitis due to respiratory syncytial virus
+      type: any
+    - code: J20.6
+      value: Acute bronchitis due to rhinovirus
+      type: any
+    - code: J20.7
+      value: Acute bronchitis due to echovirus
+      type: any
+    - code: J21.0
+      value: Acute bronchiolitis due to respiratory syncytial virus
+      type: any
+    - code: J21.1
+      value: Acute bronchiolitis due to human metapneumovirus
+      type: any
+    - code: J21.8
+      value: Acute bronchiolitis due to other specified organisms
+      type: any
+    - code: J21.9
+      value: Acute bronchiolitis, unspecified
+      type: any
+    - code: M01.4
+      value: Rubella arthritis
+      type: any
+    - code: M01.5
+      value: Arthritis in other viral diseases classified elsewhere
+      type: any
+    - code: M89.6
+      value: Osteopathy after poliomyelitis
+      type: any
+    - code: P23.0
+      value: Congenital pneumonia due to viral agent
+      type: any
+    - code: P35
+      value: Congenital viral diseases
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: A08.0
+      value: Rotaviral enteritis
+      type: any
+    - code: A08.1
+      value: Acute gastroenteropathy due to Norwalk agent
+      type: any
+    - code: A08.2
+      value: Adenoviral enteritis
+      type: any
+    - code: A08.3
+      value: Other viral enteritis
+      type: any
+    - code: A08.4
+      value: Viral intestinal infection, unspecified
+      type: any
+    - code: A60
+      value: Anogenital herpesviral [herpes simplex] infection
+      type: any
+    - code: A63.0
+      value: Anogenital (venereal) warts
+      type: any
+    - code: A80
+      value: Acute poliomyelitis
+      type: any
+    - code: A81.1
+      value: Subacute sclerosing panencephalitis
+      type: any
+    - code: A81.2
+      value: Progressive multifocal leukoencephalopathy
+      type: any
+    - code: A82
+      value: Rabies
+      type: any
+    - code: A83
+      value: Mosquito-borne viral encephalitis
+      type: any
+    - code: A84
+      value: Tick-borne viral encephalitis
+      type: any
+    - code: A85
+      value: Other viral encephalitis, not elsewhere classified
+      type: any
+    - code: A86
+      value: Unspecified viral encephalitis
+      type: any
+    - code: A87
+      value: Viral meningitis
+      type: any
+    - code: A88
+      value: Other viral infections of central nervous system, not elsewhere classified
+      type: any
+    - code: A89
+      value: Unspecified viral infection of central nervous system
+      type: any
+    - code: A90
+      value: Dengue fever [classical dengue]
+      type: any
+    - code: A91
+      value: Dengue haemorrhagic fever
+      type: any
+    - code: A92
+      value: Other mosquito-borne viral fevers
+      type: any
+    - code: A93
+      value: Other arthropod-borne viral fevers, not elsewhere classified
+      type: any
+    - code: A94
+      value: Unspecified arthropod-borne viral fever
+      type: any
+    - code: A95
+      value: Yellow fever
+      type: any
+    - code: A96
+      value: Arenaviral haemorrhagic fever
+      type: any
+    - code: A98
+      value: Other viral haemorrhagic fevers, not elsewhere classified
+      type: any
+    - code: A99
+      value: Unspecified viral haemorrhagic fever
+      type: any
+    - code: B00
+      value: Herpesviral [herpes simplex] infections
+      type: any
+    - code: B01
+      value: Varicella [chickenpox]
+      type: any
+    - code: B02
+      value: Zoster [herpes zoster]
+      type: any
+    - code: B05
+      value: Measles
+      type: any
+    - code: B06
+      value: Rubella [German measles]
+      type: any
+    - code: B07
+      value: Viral warts
+      type: any
+    - code: B08
+      value: Other viral infections characterized by skin and mucous membrane lesions,
+        not elsewhere classified
+      type: any
+    - code: B09
+      value: Unspecified viral infection characterized by skin and mucous membrane
+        lesions
+      type: any
+    - code: B15
+      value: Acute hepatitis A
+      type: any
+    - code: B16
+      value: Acute hepatitis B
+      type: any
+    - code: B17
+      value: Other acute viral hepatitis
+      type: any
+    - code: B19
+      value: Unspecified viral hepatitis
+      type: any
+    - code: B20.2
+      value: HIV disease resulting in cytomegaloviral disease
+      type: any
+    - code: B20.3
+      value: HIV disease resulting in other viral infections
+      type: any
+    - code: B25
+      value: Cytomegaloviral disease
+      type: any
+    - code: B26
+      value: Mumps
+      type: any
+    - code: B27
+      value: Infectious mononucleosis
+      type: any
+    - code: B30
+      value: Viral conjunctivitis
+      type: any
+    - code: B33
+      value: Other viral diseases, not elsewhere classified
+      type: any
+    - code: B34
+      value: Viral infection of unspecified site
+      type: any
+    - code: B91
+      value: Sequelae of poliomyelitis
+      type: prevalent
+    - code: B94.1
+      value: Sequelae of viral encephalitis
+      type: prevalent
+    - code: B94.2
+      value: Sequelae of viral hepatitis
+      type: prevalent
+    - code: B97
+      value: Viral agents as the cause of diseases classified to other chapters
+      type: any
+    - code: G02.0
+      value: Meningitis in viral diseases classified elsewhere
+      type: any
+    - code: G04.1
+      value: Tropical spastic paraplegia
+      type: any
+    - code: G05.1
+      value: Encephalitis, myelitis and encephalomyelitis in viral diseases classified
+        elsewhere
+      type: any
+    - code: G53.0
+      value: Postzoster neuralgia
+      type: any
+    - code: H19.1
+      value: Herpesviral keratitis and keratoconjunctivitis
+      type: any
+    - code: H62.1
+      value: Otitis externa in viral diseases classified elsewhere
+      type: any
+    - code: H67.1
+      value: Otitis media in viral diseases classified elsewhere
+      type: any
+    - code: I41.1
+      value: Myocarditis in viral diseases classified elsewhere
+      type: any
+    - code: J09
+      value: Influenza due to identified avian influenza virus
+      type: any
+    - code: J10
+      value: Influenza due to other identified influenza virus
+      type: any
+    - code: J11
+      value: Influenza, virus not identified
+      type: any
+    - code: J12
+      value: Viral pneumonia, not elsewhere classified
+      type: any
+    - code: J17.1
+      value: Pneumonia in viral diseases classified elsewhere
+      type: any
+    - code: J20.3
+      value: Acute bronchitis due to coxsackievirus
+      type: any
+    - code: J20.4
+      value: Acute bronchitis due to parainfluenza virus
+      type: any
+    - code: J20.5
+      value: Acute bronchitis due to respiratory syncytial virus
+      type: any
+    - code: J20.6
+      value: Acute bronchitis due to rhinovirus
+      type: any
+    - code: J20.7
+      value: Acute bronchitis due to echovirus
+      type: any
+    - code: J21.0
+      value: Acute bronchiolitis due to respiratory syncytial virus
+      type: any
+    - code: J21.1
+      value: Acute bronchiolitis due to human metapneumovirus
+      type: any
+    - code: J21.8
+      value: Acute bronchiolitis due to other specified organisms
+      type: any
+    - code: J21.9
+      value: Acute bronchiolitis, unspecified
+      type: any
+    - code: M01.4
+      value: Rubella arthritis
+      type: any
+    - code: M01.5
+      value: Arthritis in other viral diseases classified elsewhere
+      type: any
+    - code: M89.6
+      value: Osteopathy after poliomyelitis
+      type: any
+    - code: P23.0
+      value: Congenital pneumonia due to viral agent
+      type: any
+    - code: P35
+      value: Congenital viral diseases
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A08.0
+      value: Rotaviral enteritis
+      type: any
+    - code: A08.1
+      value: Acute gastroenteropathy due to Norwalk agent
+      type: any
+    - code: A08.2
+      value: Adenoviral enteritis
+      type: any
+    - code: A08.3
+      value: Other viral enteritis
+      type: any
+    - code: A08.4
+      value: Viral intestinal infection, unspecified
+      type: any
+    - code: A60
+      value: Anogenital herpesviral [herpes simplex] infection
+      type: any
+    - code: A63.0
+      value: Anogenital (venereal) warts
+      type: any
+    - code: A80
+      value: Acute poliomyelitis
+      type: any
+    - code: A81.1
+      value: Subacute sclerosing panencephalitis
+      type: any
+    - code: A81.2
+      value: Progressive multifocal leukoencephalopathy
+      type: any
+    - code: A82
+      value: Rabies
+      type: any
+    - code: A83
+      value: Mosquito-borne viral encephalitis
+      type: any
+    - code: A84
+      value: Tick-borne viral encephalitis
+      type: any
+    - code: A85
+      value: Other viral encephalitis, not elsewhere classified
+      type: any
+    - code: A86
+      value: Unspecified viral encephalitis
+      type: any
+    - code: A87
+      value: Viral meningitis
+      type: any
+    - code: A88
+      value: Other viral infections of central nervous system, not elsewhere classified
+      type: any
+    - code: A89
+      value: Unspecified viral infection of central nervous system
+      type: any
+    - code: A90
+      value: Dengue fever [classical dengue]
+      type: any
+    - code: A91
+      value: Dengue haemorrhagic fever
+      type: any
+    - code: A92
+      value: Other mosquito-borne viral fevers
+      type: any
+    - code: A93
+      value: Other arthropod-borne viral fevers, not elsewhere classified
+      type: any
+    - code: A94
+      value: Unspecified arthropod-borne viral fever
+      type: any
+    - code: A95
+      value: Yellow fever
+      type: any
+    - code: A96
+      value: Arenaviral haemorrhagic fever
+      type: any
+    - code: A98
+      value: Other viral haemorrhagic fevers, not elsewhere classified
+      type: any
+    - code: A99
+      value: Unspecified viral haemorrhagic fever
+      type: any
+    - code: B00
+      value: Herpesviral [herpes simplex] infections
+      type: any
+    - code: B01
+      value: Varicella [chickenpox]
+      type: any
+    - code: B02
+      value: Zoster [herpes zoster]
+      type: any
+    - code: B05
+      value: Measles
+      type: any
+    - code: B06
+      value: Rubella [German measles]
+      type: any
+    - code: B07
+      value: Viral warts
+      type: any
+    - code: B08
+      value: Other viral infections characterized by skin and mucous membrane lesions,
+        not elsewhere classified
+      type: any
+    - code: B09
+      value: Unspecified viral infection characterized by skin and mucous membrane
+        lesions
+      type: any
+    - code: B15
+      value: Acute hepatitis A
+      type: any
+    - code: B16
+      value: Acute hepatitis B
+      type: any
+    - code: B17
+      value: Other acute viral hepatitis
+      type: any
+    - code: B19
+      value: Unspecified viral hepatitis
+      type: any
+    - code: B20.2
+      value: HIV disease resulting in cytomegaloviral disease
+      type: any
+    - code: B20.3
+      value: HIV disease resulting in other viral infections
+      type: any
+    - code: B25
+      value: Cytomegaloviral disease
+      type: any
+    - code: B26
+      value: Mumps
+      type: any
+    - code: B27
+      value: Infectious mononucleosis
+      type: any
+    - code: B30
+      value: Viral conjunctivitis
+      type: any
+    - code: B33
+      value: Other viral diseases, not elsewhere classified
+      type: any
+    - code: B34
+      value: Viral infection of unspecified site
+      type: any
+    - code: B91
+      value: Sequelae of poliomyelitis
+      type: any
+    - code: B94.1
+      value: Sequelae of viral encephalitis
+      type: any
+    - code: B94.2
+      value: Sequelae of viral hepatitis
+      type: any
+    - code: B97
+      value: Viral agents as the cause of diseases classified to other chapters
+      type: any
+    - code: G02.0
+      value: Meningitis in viral diseases classified elsewhere
+      type: any
+    - code: G04.1
+      value: Tropical spastic paraplegia
+      type: any
+    - code: G05.1
+      value: Encephalitis, myelitis and encephalomyelitis in viral diseases classified
+        elsewhere
+      type: any
+    - code: G53.0
+      value: Postzoster neuralgia
+      type: any
+    - code: H19.1
+      value: Herpesviral keratitis and keratoconjunctivitis
+      type: any
+    - code: H62.1
+      value: Otitis externa in viral diseases classified elsewhere
+      type: any
+    - code: H67.1
+      value: Otitis media in viral diseases classified elsewhere
+      type: any
+    - code: I41.1
+      value: Myocarditis in viral diseases classified elsewhere
+      type: any
+    - code: J09
+      value: Influenza due to identified avian influenza virus
+      type: any
+    - code: J10
+      value: Influenza due to other identified influenza virus
+      type: any
+    - code: J11
+      value: Influenza, virus not identified
+      type: any
+    - code: J12
+      value: Viral pneumonia, not elsewhere classified
+      type: any
+    - code: J17.1
+      value: Pneumonia in viral diseases classified elsewhere
+      type: any
+    - code: J20.3
+      value: Acute bronchitis due to coxsackievirus
+      type: any
+    - code: J20.4
+      value: Acute bronchitis due to parainfluenza virus
+      type: any
+    - code: J20.5
+      value: Acute bronchitis due to respiratory syncytial virus
+      type: any
+    - code: J20.6
+      value: Acute bronchitis due to rhinovirus
+      type: any
+    - code: J20.7
+      value: Acute bronchitis due to echovirus
+      type: any
+    - code: J21.0
+      value: Acute bronchiolitis due to respiratory syncytial virus
+      type: any
+    - code: J21.1
+      value: Acute bronchiolitis due to human metapneumovirus
+      type: any
+    - code: J21.8
+      value: Acute bronchiolitis due to other specified organisms
+      type: any
+    - code: J21.9
+      value: Acute bronchiolitis, unspecified
+      type: any
+    - code: M01.4
+      value: Rubella arthritis
+      type: any
+    - code: M01.5
+      value: Arthritis in other viral diseases classified elsewhere
+      type: any
+    - code: M89.6
+      value: Osteopathy after poliomyelitis
+      type: any
+    - code: P23.0
+      value: Congenital pneumonia due to viral agent
+      type: any
+    - code: P35
+      value: Congenital viral diseases
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A08.0
+      value: Rotaviral enteritis
+      type: any
+    - code: A08.1
+      value: Acute gastroenteropathy due to Norwalk agent
+      type: any
+    - code: A08.2
+      value: Adenoviral enteritis
+      type: any
+    - code: A08.3
+      value: Other viral enteritis
+      type: any
+    - code: A08.4
+      value: Viral intestinal infection, unspecified
+      type: any
+    - code: A60
+      value: Anogenital herpesviral [herpes simplex] infection
+      type: any
+    - code: A63.0
+      value: Anogenital (venereal) warts
+      type: any
+    - code: A80
+      value: Acute poliomyelitis
+      type: any
+    - code: A81.1
+      value: Subacute sclerosing panencephalitis
+      type: any
+    - code: A81.2
+      value: Progressive multifocal leukoencephalopathy
+      type: any
+    - code: A82
+      value: Rabies
+      type: any
+    - code: A83
+      value: Mosquito-borne viral encephalitis
+      type: any
+    - code: A84
+      value: Tick-borne viral encephalitis
+      type: any
+    - code: A85
+      value: Other viral encephalitis, not elsewhere classified
+      type: any
+    - code: A86
+      value: Unspecified viral encephalitis
+      type: any
+    - code: A87
+      value: Viral meningitis
+      type: any
+    - code: A88
+      value: Other viral infections of central nervous system, not elsewhere classified
+      type: any
+    - code: A89
+      value: Unspecified viral infection of central nervous system
+      type: any
+    - code: A90
+      value: Dengue fever [classical dengue]
+      type: any
+    - code: A91
+      value: Dengue haemorrhagic fever
+      type: any
+    - code: A92
+      value: Other mosquito-borne viral fevers
+      type: any
+    - code: A93
+      value: Other arthropod-borne viral fevers, not elsewhere classified
+      type: any
+    - code: A94
+      value: Unspecified arthropod-borne viral fever
+      type: any
+    - code: A95
+      value: Yellow fever
+      type: any
+    - code: A96
+      value: Arenaviral haemorrhagic fever
+      type: any
+    - code: A98
+      value: Other viral haemorrhagic fevers, not elsewhere classified
+      type: any
+    - code: A99
+      value: Unspecified viral haemorrhagic fever
+      type: any
+    - code: B00
+      value: Herpesviral [herpes simplex] infections
+      type: any
+    - code: B01
+      value: Varicella [chickenpox]
+      type: any
+    - code: B02
+      value: Zoster [herpes zoster]
+      type: any
+    - code: B05
+      value: Measles
+      type: any
+    - code: B06
+      value: Rubella [German measles]
+      type: any
+    - code: B07
+      value: Viral warts
+      type: any
+    - code: B08
+      value: Other viral infections characterized by skin and mucous membrane lesions,
+        not elsewhere classified
+      type: any
+    - code: B09
+      value: Unspecified viral infection characterized by skin and mucous membrane
+        lesions
+      type: any
+    - code: B15
+      value: Acute hepatitis A
+      type: any
+    - code: B16
+      value: Acute hepatitis B
+      type: any
+    - code: B17
+      value: Other acute viral hepatitis
+      type: any
+    - code: B19
+      value: Unspecified viral hepatitis
+      type: any
+    - code: B20.2
+      value: HIV disease resulting in cytomegaloviral disease
+      type: any
+    - code: B20.3
+      value: HIV disease resulting in other viral infections
+      type: any
+    - code: B25
+      value: Cytomegaloviral disease
+      type: any
+    - code: B26
+      value: Mumps
+      type: any
+    - code: B27
+      value: Infectious mononucleosis
+      type: any
+    - code: B30
+      value: Viral conjunctivitis
+      type: any
+    - code: B33
+      value: Other viral diseases, not elsewhere classified
+      type: any
+    - code: B34
+      value: Viral infection of unspecified site
+      type: any
+    - code: B91
+      value: Sequelae of poliomyelitis
+      type: any
+    - code: B94.1
+      value: Sequelae of viral encephalitis
+      type: any
+    - code: B94.2
+      value: Sequelae of viral hepatitis
+      type: any
+    - code: B97
+      value: Viral agents as the cause of diseases classified to other chapters
+      type: any
+    - code: G02.0
+      value: Meningitis in viral diseases classified elsewhere
+      type: any
+    - code: G04.1
+      value: Tropical spastic paraplegia
+      type: any
+    - code: G05.1
+      value: Encephalitis, myelitis and encephalomyelitis in viral diseases classified
+        elsewhere
+      type: any
+    - code: G53.0
+      value: Postzoster neuralgia
+      type: any
+    - code: H19.1
+      value: Herpesviral keratitis and keratoconjunctivitis
+      type: any
+    - code: H62.1
+      value: Otitis externa in viral diseases classified elsewhere
+      type: any
+    - code: H67.1
+      value: Otitis media in viral diseases classified elsewhere
+      type: any
+    - code: I41.1
+      value: Myocarditis in viral diseases classified elsewhere
+      type: any
+    - code: J09
+      value: Influenza due to identified avian influenza virus
+      type: any
+    - code: J10
+      value: Influenza due to other identified influenza virus
+      type: any
+    - code: J11
+      value: Influenza, virus not identified
+      type: any
+    - code: J12
+      value: Viral pneumonia, not elsewhere classified
+      type: any
+    - code: J17.1
+      value: Pneumonia in viral diseases classified elsewhere
+      type: any
+    - code: J20.3
+      value: Acute bronchitis due to coxsackievirus
+      type: any
+    - code: J20.4
+      value: Acute bronchitis due to parainfluenza virus
+      type: any
+    - code: J20.5
+      value: Acute bronchitis due to respiratory syncytial virus
+      type: any
+    - code: J20.6
+      value: Acute bronchitis due to rhinovirus
+      type: any
+    - code: J20.7
+      value: Acute bronchitis due to echovirus
+      type: any
+    - code: J21.0
+      value: Acute bronchiolitis due to respiratory syncytial virus
+      type: any
+    - code: J21.1
+      value: Acute bronchiolitis due to human metapneumovirus
+      type: any
+    - code: J21.8
+      value: Acute bronchiolitis due to other specified organisms
+      type: any
+    - code: J21.9
+      value: Acute bronchiolitis, unspecified
+      type: any
+    - code: M01.4
+      value: Rubella arthritis
+      type: any
+    - code: M01.5
+      value: Arthritis in other viral diseases classified elsewhere
+      type: any
+    - code: M89.6
+      value: Osteopathy after poliomyelitis
+      type: any
+    - code: P23.0
+      value: Congenital pneumonia due to viral agent
+      type: any
+    - code: P35
+      value: Congenital viral diseases
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,611 @@
+metadata:
+  phenotype: Schizophrenia, schizotypal and delusional disorders
+  group: Psychiatric
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: schizo
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: fcd2c90e-1c35-4b08-84c8-61131424a7d9
+  ontologies:
+    DOID: DOID_5419
+    GWAS: EFO_0000692
+    MESH: D012559
+    SNOMED-CT: 58214004
+    FINNGEN: F5_SCHZPHR
+  short_desc: A major psychotic disorder characterized by abnormalities in the perception
+    or expression of reality. It affects the cognitive and psychomotor functions.
+    Common clinical signs and symptoms include delusions, hallucinations, disorganized
+    thinking, and retreat from reality.
+  long_desc: null
+  priority: 2
+definitions:
+  20544:
+    metadata:
+      desc: Mental health problems ever diagnosed by a professional
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '2'
+      value: Schizophrenia
+      type: any
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1289'
+      value: schizophrenia
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: F20
+      value: Schizophrenia
+      type: any
+    - code: F21
+      value: Schizotypal disorder
+      type: any
+    - code: F22
+      value: Persistent delusional disorders
+      type: any
+    - code: F25
+      value: Schizoaffective disorders
+      type: any
+    - code: F28
+      value: Other nonorganic psychotic disorders
+      type: any
+    - code: F29
+      value: Unspecified nonorganic psychosis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: F20
+      value: Schizophrenia
+      type: any
+    - code: F21
+      value: Schizotypal disorder
+      type: any
+    - code: F22
+      value: Persistent delusional disorders
+      type: any
+    - code: F25
+      value: Schizoaffective disorders
+      type: any
+    - code: F28
+      value: Other nonorganic psychotic disorders
+      type: any
+    - code: F29
+      value: Unspecified nonorganic psychosis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F20
+      value: Schizophrenia
+      type: any
+    - code: F21
+      value: Schizotypal disorder
+      type: any
+    - code: F22
+      value: Persistent delusional disorders
+      type: any
+    - code: F25
+      value: Schizoaffective disorders
+      type: any
+    - code: F28
+      value: Other nonorganic psychotic disorders
+      type: any
+    - code: F29
+      value: Unspecified nonorganic psychosis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F20
+      value: Schizophrenia
+      type: any
+    - code: F21
+      value: Schizotypal disorder
+      type: any
+    - code: F22
+      value: Persistent delusional disorders
+      type: any
+    - code: F25
+      value: Schizoaffective disorders
+      type: any
+    - code: F28
+      value: Other nonorganic psychotic disorders
+      type: any
+    - code: F29
+      value: Unspecified nonorganic psychosis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1464.00'
+      value: 'H/O: schizophrenia'
+      type: prevalent
+    - code: 146H.00
+      value: 'H/O: psychosis'
+      type: prevalent
+    - code: 212W.00
+      value: Schizophrenia resolved
+      type: any
+    - code: 212X.00
+      value: Psychosis resolved
+      type: any
+    - code: 285..11
+      value: Psychotic condition, insight present
+      type: any
+    - code: 286..11
+      value: Poor insight into psychotic condition
+      type: any
+    - code: E100000
+      value: Unspecified schizophrenia
+      type: any
+    - code: E100100
+      value: Subchronic schizophrenia
+      type: any
+    - code: E100200
+      value: Chronic schizophrenic
+      type: any
+    - code: E100300
+      value: Acute exacerbation of subchronic schizophrenia
+      type: any
+    - code: E100400
+      value: Acute exacerbation of chronic schizophrenia
+      type: any
+    - code: E100500
+      value: Schizophrenia in remission
+      type: any
+    - code: E100.00
+      value: Simple schizophrenia
+      type: any
+    - code: E100.11
+      value: Schizophrenia simplex
+      type: any
+    - code: E100z00
+      value: Simple schizophrenia NOS
+      type: any
+    - code: E101000
+      value: Unspecified hebephrenic schizophrenia
+      type: any
+    - code: E101400
+      value: Acute exacerbation of chronic hebephrenic schizophrenia
+      type: any
+    - code: E101500
+      value: Hebephrenic schizophrenia in remission
+      type: any
+    - code: E101.00
+      value: Hebephrenic schizophrenia
+      type: any
+    - code: E101z00
+      value: Hebephrenic schizophrenia NOS
+      type: any
+    - code: E102000
+      value: Unspecified catatonic schizophrenia
+      type: any
+    - code: E102100
+      value: Subchronic catatonic schizophrenia
+      type: any
+    - code: E102400
+      value: Acute exacerbation of chronic catatonic schizophrenia
+      type: any
+    - code: E102500
+      value: Catatonic schizophrenia in remission
+      type: any
+    - code: E102.00
+      value: Catatonic schizophrenia
+      type: any
+    - code: E102z00
+      value: Catatonic schizophrenia NOS
+      type: any
+    - code: E103000
+      value: Unspecified paranoid schizophrenia
+      type: any
+    - code: E103100
+      value: Subchronic paranoid schizophrenia
+      type: any
+    - code: E103200
+      value: Chronic paranoid schizophrenia
+      type: any
+    - code: E103300
+      value: Acute exacerbation of subchronic paranoid schizophrenia
+      type: any
+    - code: E103400
+      value: Acute exacerbation of chronic paranoid schizophrenia
+      type: any
+    - code: E103500
+      value: Paranoid schizophrenia in remission
+      type: any
+    - code: E103.00
+      value: Paranoid schizophrenia
+      type: any
+    - code: E103z00
+      value: Paranoid schizophrenia NOS
+      type: any
+    - code: E105000
+      value: Unspecified latent schizophrenia
+      type: any
+    - code: E105200
+      value: Chronic latent schizophrenia
+      type: any
+    - code: E105500
+      value: Latent schizophrenia in remission
+      type: any
+    - code: E105.00
+      value: Latent schizophrenia
+      type: any
+    - code: E105z00
+      value: Latent schizophrenia NOS
+      type: any
+    - code: E106.00
+      value: Residual schizophrenia
+      type: any
+    - code: E107000
+      value: Unspecified schizo-affective schizophrenia
+      type: any
+    - code: E107100
+      value: Subchronic schizo-affective schizophrenia
+      type: any
+    - code: E107200
+      value: Chronic schizo-affective schizophrenia
+      type: any
+    - code: E107300
+      value: Acute exacerbation subchronic schizo-affective schizophrenia
+      type: any
+    - code: E107400
+      value: Acute exacerbation of chronic schizo-affective schizophrenia
+      type: any
+    - code: E107500
+      value: Schizo-affective schizophrenia in remission
+      type: any
+    - code: E107.00
+      value: Schizo-affective schizophrenia
+      type: any
+    - code: E107.11
+      value: Cyclic schizophrenia
+      type: any
+    - code: E107z00
+      value: Schizo-affective schizophrenia NOS
+      type: any
+    - code: E10..00
+      value: Schizophrenic disorders
+      type: any
+    - code: E10y000
+      value: Atypical schizophrenia
+      type: any
+    - code: E10y100
+      value: Coenesthopathic schizophrenia
+      type: any
+    - code: E10y.00
+      value: Other schizophrenia
+      type: any
+    - code: E10y.11
+      value: Cenesthopathic schizophrenia
+      type: any
+    - code: E10yz00
+      value: Other schizophrenia NOS
+      type: any
+    - code: E10z.00
+      value: Schizophrenia NOS
+      type: any
+    - code: E120.00
+      value: Simple paranoid state
+      type: any
+    - code: E121.00
+      value: Chronic paranoid psychosis
+      type: any
+    - code: E121.11
+      value: Sander's disease
+      type: any
+    - code: E122.00
+      value: Paraphrenia
+      type: any
+    - code: E12..00
+      value: Paranoid states
+      type: any
+    - code: E12y000
+      value: Paranoia querulans
+      type: any
+    - code: E12y.00
+      value: Other paranoid states
+      type: any
+    - code: E12yz00
+      value: Other paranoid states NOS
+      type: any
+    - code: E12z.00
+      value: Paranoid psychosis NOS
+      type: any
+    - code: E1...00
+      value: Non-organic psychoses
+      type: any
+    - code: E1y..00
+      value: Other specified non-organic psychoses
+      type: any
+    - code: E1z..00
+      value: Non-organic psychosis NOS
+      type: any
+    - code: Eu20000
+      value: '[X]Paranoid schizophrenia'
+      type: any
+    - code: Eu20011
+      value: '[X]Paraphrenic schizophrenia'
+      type: any
+    - code: Eu20100
+      value: '[X]Hebephrenic schizophrenia'
+      type: any
+    - code: Eu20111
+      value: '[X]Disorganised schizophrenia'
+      type: any
+    - code: Eu20200
+      value: '[X]Catatonic schizophrenia'
+      type: any
+    - code: Eu20211
+      value: '[X]Catatonic stupor'
+      type: any
+    - code: Eu20212
+      value: '[X]Schizophrenic catalepsy'
+      type: any
+    - code: Eu20213
+      value: '[X]Schizophrenic catatonia'
+      type: any
+    - code: Eu20214
+      value: '[X]Schizophrenic flexibilatis cerea'
+      type: any
+    - code: Eu20300
+      value: '[X]Undifferentiated schizophrenia'
+      type: any
+    - code: Eu20311
+      value: '[X]Atypical schizophrenia'
+      type: any
+    - code: Eu20400
+      value: '[X]Post-schizophrenic depression'
+      type: any
+    - code: Eu20500
+      value: '[X]Residual schizophrenia'
+      type: any
+    - code: Eu20511
+      value: '[X]Chronic undifferentiated schizophrenia'
+      type: any
+    - code: Eu20600
+      value: '[X]Simple schizophrenia'
+      type: any
+    - code: Eu20.00
+      value: '[X]Schizophrenia'
+      type: any
+    - code: Eu20y00
+      value: '[X]Other schizophrenia'
+      type: any
+    - code: Eu20y12
+      value: '[X]Schizophreniform disord NOS'
+      type: any
+    - code: Eu20y13
+      value: '[X]Schizophrenifrm psychos NOS'
+      type: any
+    - code: Eu20z00
+      value: '[X]Schizophrenia, unspecified'
+      type: any
+    - code: Eu21.00
+      value: '[X]Schizotypal disorder'
+      type: any
+    - code: Eu21.11
+      value: '[X]Latent schizophrenic reaction'
+      type: any
+    - code: Eu21.12
+      value: '[X]Borderline schizophrenia'
+      type: any
+    - code: Eu21.13
+      value: '[X]Latent schizophrenia'
+      type: any
+    - code: Eu21.14
+      value: '[X]Prepsychotic schizophrenia'
+      type: any
+    - code: Eu21.15
+      value: '[X]Prodromal schizophrenia'
+      type: any
+    - code: Eu21.16
+      value: '[X]Pseudoneurotic schizophrenia'
+      type: any
+    - code: Eu21.17
+      value: '[X]Pseudopsychopathic schizophrenia'
+      type: any
+    - code: Eu22000
+      value: '[X]Delusional disorder'
+      type: any
+    - code: Eu22011
+      value: '[X]Paranoid psychosis'
+      type: any
+    - code: Eu22012
+      value: '[X]Paranoid state'
+      type: any
+    - code: Eu22013
+      value: '[X]Paraphrenia - late'
+      type: any
+    - code: Eu22014
+      value: '[X]Sensitiver Beziehungswahn'
+      type: any
+    - code: Eu22015
+      value: '[X]Paranoia'
+      type: any
+    - code: Eu22100
+      value: '[X]Delusional misidentification syndrome'
+      type: any
+    - code: Eu22111
+      value: '[X]Capgras syndrome'
+      type: any
+    - code: Eu22200
+      value: '[X]Cotard syndrome'
+      type: any
+    - code: Eu22300
+      value: '[X]Paranoid state in remission'
+      type: any
+    - code: Eu22.00
+      value: '[X]Persistent delusional disorders'
+      type: any
+    - code: Eu22y00
+      value: '[X]Other persistent delusional disorders'
+      type: any
+    - code: Eu22y11
+      value: '[X]Delusional dysmorphophobia'
+      type: any
+    - code: Eu22y12
+      value: '[X]Involutional paranoid state'
+      type: any
+    - code: Eu22y13
+      value: '[X]Paranoia querulans'
+      type: any
+    - code: Eu22z00
+      value: '[X]Persistent delusional disorder, unspecified'
+      type: any
+    - code: Eu25000
+      value: '[X]Schizoaffective disorder, manic type'
+      type: any
+    - code: Eu25011
+      value: '[X]Schizoaffective psychosis, manic type'
+      type: any
+    - code: Eu25012
+      value: '[X]Schizophreniform psychosis, manic type'
+      type: any
+    - code: Eu25100
+      value: '[X]Schizoaffective disorder, depressive type'
+      type: any
+    - code: Eu25111
+      value: '[X]Schizoaffective psychosis, depressive type'
+      type: any
+    - code: Eu25112
+      value: '[X]Schizophreniform psychosis, depressive type'
+      type: any
+    - code: Eu25200
+      value: '[X]Schizoaffective disorder, mixed type'
+      type: any
+    - code: Eu25211
+      value: '[X]Cyclic schizophrenia'
+      type: any
+    - code: Eu25212
+      value: '[X]Mixed schizophrenic and affective psychosis'
+      type: any
+    - code: Eu25.00
+      value: '[X]Schizoaffective disorders'
+      type: any
+    - code: Eu25y00
+      value: '[X]Other schizoaffective disorders'
+      type: any
+    - code: Eu25z00
+      value: '[X]Schizoaffective disorder, unspecified'
+      type: any
+    - code: Eu25z11
+      value: '[X]Schizoaffective psychosis NOS'
+      type: any
+    - code: Eu26.00
+      value: '[X]Nonorganic psychosis in remission'
+      type: any
+    - code: Eu2..00
+      value: '[X]Schizophrenia, schizotypal and delusional disorders'
+      type: any
+    - code: Eu2y.00
+      value: '[X]Other nonorganic psychotic disorders'
+      type: any
+    - code: Eu2y.11
+      value: '[X]Chronic hallucinatory psychosis'
+      type: any
+    - code: Eu2z.00
+      value: '[X]Unspecified nonorganic psychosis'
+      type: any
+    - code: Eu2z.11
+      value: '[X]Psychosis NOS'
+      type: any
+    - code: ZV11000
+      value: '[V]Personal history of schizophrenia'
+      type: prevalent
+    - code: XE1ZP
+      value: '[X]Other persistent delusional disorders'
+      type: any
+    - code: XE1Y2
+      value: Chronic paranoid psychosis
+      type: any
+    - code: XE1ZU
+      value: '[X]Unspecified nonorganic psychosis'
+      type: any
+    - code: XaMwd
+      value: Schizophrenia resolved
+      type: any
+    - code: XE1ZM
+      value: '[X]Other schizophrenia'
+      type: any
+    - code: XE1Y5
+      value: Non-organic psychosis NOS
+      type: any
+    - code: XE1hk
+      value: Neurotic condition, insight present
+      type: any
+    - code: XE1hl
+      value: Poor insight into neurotic condition
+      type: any
+    - code: XaMwe
+      value: Psychosis resolved
+      type: any
+    - code: XE1ZN
+      value: '[X]Schizotypal disorder'
+      type: any
+    - code: XaL07
+      value: 'H/O: psychosis'
+      type: prevalent
+    - code: XE1Xx
+      value: Other schizophrenia
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

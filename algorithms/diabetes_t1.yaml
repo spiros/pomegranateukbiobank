@@ -1,0 +1,331 @@
+metadata:
+  phenotype: Diabetes Type I
+  group: Endocrine
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: diabetes_t1
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 9969743d-7aa2-4f0a-8c87-e278644210b4
+  ontologies:
+    DOID: null
+    GWAS: MONDO_0005147
+    MESH: null
+    SNOMED-CT: null
+    FINNGEN: null
+  short_desc: null
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1222'
+      value: type 1 diabetes
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: E10
+      value: Insulin-dependent diabetes mellitus
+      type: any
+    - code: O24.0
+      value: 'Diabetes mellitus in pregnancy: Pre-existing diabetes mellitus, insulin-dependent'
+      type: prevalent
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: E10
+      value: Insulin-dependent diabetes mellitus
+      type: any
+    - code: O24.0
+      value: 'Diabetes mellitus in pregnancy: Pre-existing diabetes mellitus, insulin-dependent'
+      type: prevalent
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: E10
+      value: Insulin-dependent diabetes mellitus
+      type: any
+    - code: O24.0
+      value: 'Diabetes mellitus in pregnancy: Pre-existing diabetes mellitus, insulin-dependent'
+      type: prevalent
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: E10
+      value: Insulin-dependent diabetes mellitus
+      type: any
+    - code: O24.0
+      value: 'Diabetes mellitus in pregnancy: Pre-existing diabetes mellitus, insulin-dependent'
+      type: prevalent
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: C108.12
+      value: Type 1 diabetes mellitus
+      type: any
+    - code: C108.13
+      value: Type I diabetes mellitus
+      type: any
+    - code: C108011
+      value: Type I diabetes mellitus with renal complications
+      type: any
+    - code: C108012
+      value: Type 1 diabetes mellitus with renal complications
+      type: any
+    - code: C108211
+      value: Type I diabetes mellitus with neurological complications
+      type: any
+    - code: C108212
+      value: Type 1 diabetes mellitus with neurological complications
+      type: any
+    - code: C108411
+      value: Unstable type I diabetes mellitus
+      type: any
+    - code: C108412
+      value: Unstable type 1 diabetes mellitus
+      type: any
+    - code: C108511
+      value: Type I diabetes mellitus with ulcer
+      type: any
+    - code: C108512
+      value: Type 1 diabetes mellitus with ulcer
+      type: any
+    - code: C108711
+      value: Type I diabetes mellitus with retinopathy
+      type: any
+    - code: C108712
+      value: Type 1 diabetes mellitus with retinopathy
+      type: any
+    - code: C108811
+      value: Type I diabetes mellitus - poor control
+      type: any
+    - code: C108812
+      value: Type 1 diabetes mellitus - poor control
+      type: any
+    - code: C108911
+      value: Type I diabetes mellitus maturity onset
+      type: any
+    - code: C108912
+      value: Type 1 diabetes mellitus maturity onset
+      type: any
+    - code: C108A11
+      value: Type I diabetes mellitus without complication
+      type: any
+    - code: C108D11
+      value: Type I diabetes mellitus with nephropathy
+      type: any
+    - code: C108E11
+      value: Type I diabetes mellitus with hypoglycaemic coma
+      type: any
+    - code: C108E12
+      value: Type 1 diabetes mellitus with hypoglycaemic coma
+      type: any
+    - code: C108F11
+      value: Type I diabetes mellitus with diabetic cataract
+      type: any
+    - code: C108H11
+      value: Type I diabetes mellitus with arthropathy
+      type: any
+    - code: C108J11
+      value: Type I diabetes mellitus with neuropathic arthropathy
+      type: any
+    - code: C108J12
+      value: Type 1 diabetes mellitus with neuropathic arthropathy
+      type: any
+    - code: C10E.00
+      value: Type 1 diabetes mellitus
+      type: any
+    - code: C10E.11
+      value: Type I diabetes mellitus
+      type: any
+    - code: C10E000
+      value: Type 1 diabetes mellitus with renal complications
+      type: any
+    - code: C10E100
+      value: Type 1 diabetes mellitus with ophthalmic complications
+      type: any
+    - code: C10E200
+      value: Type 1 diabetes mellitus with neurological complications
+      type: any
+    - code: C10E300
+      value: Type 1 diabetes mellitus with multiple complications
+      type: any
+    - code: C10E311
+      value: Type I diabetes mellitus with multiple complications
+      type: any
+    - code: C10E400
+      value: Unstable type 1 diabetes mellitus
+      type: any
+    - code: C10E411
+      value: Unstable type I diabetes mellitus
+      type: any
+    - code: C10E500
+      value: Type 1 diabetes mellitus with ulcer
+      type: any
+    - code: C10E511
+      value: Type I diabetes mellitus with ulcer
+      type: any
+    - code: C10E600
+      value: Type 1 diabetes mellitus with gangrene
+      type: any
+    - code: C10E700
+      value: Type 1 diabetes mellitus with retinopathy
+      type: any
+    - code: C10E711
+      value: Type I diabetes mellitus with retinopathy
+      type: any
+    - code: C10E800
+      value: Type 1 diabetes mellitus - poor control
+      type: any
+    - code: C10E900
+      value: Type 1 diabetes mellitus maturity onset
+      type: any
+    - code: C10E911
+      value: Type I diabetes mellitus maturity onset
+      type: any
+    - code: C10EA00
+      value: Type 1 diabetes mellitus without complication
+      type: any
+    - code: C10EA11
+      value: Type I diabetes mellitus without complication
+      type: any
+    - code: C10EB00
+      value: Type 1 diabetes mellitus with mononeuropathy
+      type: any
+    - code: C10EC00
+      value: Type 1 diabetes mellitus with polyneuropathy
+      type: any
+    - code: C10EC11
+      value: Type I diabetes mellitus with polyneuropathy
+      type: any
+    - code: C10ED00
+      value: Type 1 diabetes mellitus with nephropathy
+      type: any
+    - code: C10EE00
+      value: Type 1 diabetes mellitus with hypoglycaemic coma
+      type: any
+    - code: C10EF00
+      value: Type 1 diabetes mellitus with diabetic cataract
+      type: any
+    - code: C10EG00
+      value: Type 1 diabetes mellitus with peripheral angiopathy
+      type: any
+    - code: C10EH00
+      value: Type 1 diabetes mellitus with arthropathy
+      type: any
+    - code: C10EJ00
+      value: Type 1 diabetes mellitus with neuropathic arthropathy
+      type: any
+    - code: C10EK00
+      value: Type 1 diabetes mellitus with persistent proteinuria
+      type: any
+    - code: C10EL00
+      value: Type 1 diabetes mellitus with persistent microalbuminuria
+      type: any
+    - code: C10EM00
+      value: Type 1 diabetes mellitus with ketoacidosis
+      type: any
+    - code: C10EM11
+      value: Type I diabetes mellitus with ketoacidosis
+      type: any
+    - code: C10EN00
+      value: Type 1 diabetes mellitus with ketoacidotic coma
+      type: any
+    - code: C10EN11
+      value: Type I diabetes mellitus with ketoacidotic coma
+      type: any
+    - code: C10EP00
+      value: Type 1 diabetes mellitus with exudative maculopathy
+      type: any
+    - code: C10EP11
+      value: Type I diabetes mellitus with exudative maculopathy
+      type: any
+    - code: C10EQ00
+      value: Type 1 diabetes mellitus with gastroparesis
+      type: any
+    - code: XaIzN
+      value: Type 1 diabetes mellitus with persistent microalbuminuria
+      type: any
+    - code: C1030
+      value: Type 1 diabetes mellitus with ketoacidotic coma
+      type: any
+    - code: XaIzM
+      value: Type 1 diabetes mellitus with persistent proteinuria
+      type: any
+    - code: XaKyW
+      value: Type 1 diabetes mellitus with gastroparesis
+      type: any
+    - code: XaJSr
+      value: Type 1 diabetes mellitus with exudative maculopathy
+      type: any
+    - code: C1010
+      value: Type 1 diabetes mellitus with ketoacidosis
+      type: any
+    - code: C1010
+      value: Type 1 diabetes mellitus with ketoacidosis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []
+  41203:
+    metadata:
+      desc: Diagnoses - main ICD9
+    values: []
+  41205:
+    metadata:
+      desc: Diagnoses - secondary ICD9
+    values: []

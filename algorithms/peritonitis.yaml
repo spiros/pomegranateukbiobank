@@ -1,0 +1,792 @@
+metadata:
+  phenotype: Peritonitis
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: peritonitis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 179c5252-5585-445b-a577-4786e2accd05
+  ontologies:
+    DOID: DOID_8283
+    GWAS: EFO_0008588
+    MESH: D010538
+    SNOMED-CT: 48661000
+    FINNGEN: K11_PERITONITIS
+  short_desc: Inflammation of the peritoneum due to infection by bacteria or fungi.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1600'
+      value: bowel / intestinal perforation
+      type: any
+    - code: '1190'
+      value: peritonitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K25.1
+      value: Gastric ulcer - Acute with perforation
+      type: any
+    - code: K25.2
+      value: Gastric ulcer - Acute with both haemorrhage and perforation
+      type: any
+    - code: K25.5
+      value: Gastric ulcer - Chronic or unspecified with perforation
+      type: any
+    - code: K25.6
+      value: Gastric ulcer - Chronic or unspecified with both haemorrhage and perforation
+      type: any
+    - code: K26.1
+      value: Duodenal ulcer - Acute with perforation
+      type: any
+    - code: K26.2
+      value: Duodenal ulcer - Acute with both haemorrhage and perforation
+      type: any
+    - code: K26.5
+      value: Duodenal ulcer - Chronic or unspecified with perforation
+      type: any
+    - code: K26.6
+      value: Duodenal ulcer - Chronic or unspecified with both haemorrhage and perforation
+      type: any
+    - code: K27.1
+      value: Peptic ulcer, site unspecified - Acute with perforation
+      type: any
+    - code: K27.2
+      value: Peptic ulcer, site unspecified - Acute with both haemorrhage and perforation
+      type: any
+    - code: K27.5
+      value: Peptic ulcer, site unspecified - Chronic or unspecified with perforation
+      type: any
+    - code: K27.6
+      value: Peptic ulcer, site unspecified - Chronic or unspecified with both haemorrhage
+        and perforation
+      type: any
+    - code: K28.1
+      value: Gastrojejunal ulcer - Acute with perforation
+      type: any
+    - code: K28.2
+      value: Gastrojejunal ulcer - Acute with both haemorrhage and perforation
+      type: any
+    - code: K28.5
+      value: Gastrojejunal ulcer - Chronic or unspecified with perforation
+      type: any
+    - code: K28.6
+      value: Gastrojejunal ulcer - Chronic or unspecified with both haemorrhage and
+        perforation
+      type: any
+    - code: K35.2
+      value: Acute appendicitis with generalized peritonitis
+      type: any
+    - code: K35.3
+      value: Acute appendicitis with localized peritonitis
+      type: any
+    - code: K57.0
+      value: Diverticular disease of small intestine with perforation and abscess
+      type: any
+    - code: K57.2
+      value: Diverticular disease of large intestine with perforation and abscess
+      type: any
+    - code: K57.4
+      value: Diverticular disease of both small and large intestine with perforation
+        and abscess
+      type: any
+    - code: K57.8
+      value: Diverticular disease of intestine, part unspecified, with perforation
+        and abscess
+      type: any
+    - code: K63.1
+      value: Perforation of intestine (nontraumatic)
+      type: any
+    - code: K65
+      value: Peritonitis
+      type: any
+    - code: K67
+      value: Disorders of peritoneum in infectious diseases classified elsewhere
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K25.1
+      value: Gastric ulcer - Acute with perforation
+      type: any
+    - code: K25.2
+      value: Gastric ulcer - Acute with both haemorrhage and perforation
+      type: any
+    - code: K25.5
+      value: Gastric ulcer - Chronic or unspecified with perforation
+      type: any
+    - code: K25.6
+      value: Gastric ulcer - Chronic or unspecified with both haemorrhage and perforation
+      type: any
+    - code: K26.1
+      value: Duodenal ulcer - Acute with perforation
+      type: any
+    - code: K26.2
+      value: Duodenal ulcer - Acute with both haemorrhage and perforation
+      type: any
+    - code: K26.5
+      value: Duodenal ulcer - Chronic or unspecified with perforation
+      type: any
+    - code: K26.6
+      value: Duodenal ulcer - Chronic or unspecified with both haemorrhage and perforation
+      type: any
+    - code: K27.1
+      value: Peptic ulcer, site unspecified - Acute with perforation
+      type: any
+    - code: K27.2
+      value: Peptic ulcer, site unspecified - Acute with both haemorrhage and perforation
+      type: any
+    - code: K27.5
+      value: Peptic ulcer, site unspecified - Chronic or unspecified with perforation
+      type: any
+    - code: K27.6
+      value: Peptic ulcer, site unspecified - Chronic or unspecified with both haemorrhage
+        and perforation
+      type: any
+    - code: K28.1
+      value: Gastrojejunal ulcer - Acute with perforation
+      type: any
+    - code: K28.2
+      value: Gastrojejunal ulcer - Acute with both haemorrhage and perforation
+      type: any
+    - code: K28.5
+      value: Gastrojejunal ulcer - Chronic or unspecified with perforation
+      type: any
+    - code: K28.6
+      value: Gastrojejunal ulcer - Chronic or unspecified with both haemorrhage and
+        perforation
+      type: any
+    - code: K35.2
+      value: Acute appendicitis with generalized peritonitis
+      type: any
+    - code: K35.3
+      value: Acute appendicitis with localized peritonitis
+      type: any
+    - code: K57.0
+      value: Diverticular disease of small intestine with perforation and abscess
+      type: any
+    - code: K57.2
+      value: Diverticular disease of large intestine with perforation and abscess
+      type: any
+    - code: K57.4
+      value: Diverticular disease of both small and large intestine with perforation
+        and abscess
+      type: any
+    - code: K57.8
+      value: Diverticular disease of intestine, part unspecified, with perforation
+        and abscess
+      type: any
+    - code: K63.1
+      value: Perforation of intestine (nontraumatic)
+      type: any
+    - code: K65
+      value: Peritonitis
+      type: any
+    - code: K67
+      value: Disorders of peritoneum in infectious diseases classified elsewhere
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: G35.1
+      value: Closure of perforated ulcer of stomach
+      type: any
+    - code: G36.2
+      value: Closure of perforation of stomach NEC
+      type: any
+    - code: G41.2
+      value: Repair of perforation of pylorus
+      type: any
+    - code: G52.1
+      value: Closure of perforated ulcer of duodenum
+      type: any
+    - code: G53.2
+      value: Closure of perforation of duodenum NEC
+      type: any
+    - code: G63.3
+      value: Closure of perforation of jejunum
+      type: any
+    - code: G78.4
+      value: Closure of perforation of ileum
+      type: any
+    - code: J20.3
+      value: Repair of perforation of gall bladder
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: G35.1
+      value: G35.1
+      type: any
+    - code: G36.2
+      value: G36.2
+      type: any
+    - code: G41.2
+      value: G41.2
+      type: any
+    - code: G52.1
+      value: G52.1
+      type: any
+    - code: G53.2
+      value: G53.2
+      type: any
+    - code: G63.3
+      value: G63.3
+      type: any
+    - code: G78.4
+      value: G78.4
+      type: any
+    - code: J20.3
+      value: J20.3
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K25.1
+      value: Gastric ulcer - Acute with perforation
+      type: any
+    - code: K25.2
+      value: Gastric ulcer - Acute with both haemorrhage and perforation
+      type: any
+    - code: K25.5
+      value: Gastric ulcer - Chronic or unspecified with perforation
+      type: any
+    - code: K25.6
+      value: Gastric ulcer - Chronic or unspecified with both haemorrhage and perforation
+      type: any
+    - code: K26.1
+      value: Duodenal ulcer - Acute with perforation
+      type: any
+    - code: K26.2
+      value: Duodenal ulcer - Acute with both haemorrhage and perforation
+      type: any
+    - code: K26.5
+      value: Duodenal ulcer - Chronic or unspecified with perforation
+      type: any
+    - code: K26.6
+      value: Duodenal ulcer - Chronic or unspecified with both haemorrhage and perforation
+      type: any
+    - code: K27.1
+      value: Peptic ulcer, site unspecified - Acute with perforation
+      type: any
+    - code: K27.2
+      value: Peptic ulcer, site unspecified - Acute with both haemorrhage and perforation
+      type: any
+    - code: K27.5
+      value: Peptic ulcer, site unspecified - Chronic or unspecified with perforation
+      type: any
+    - code: K27.6
+      value: Peptic ulcer, site unspecified - Chronic or unspecified with both haemorrhage
+        and perforation
+      type: any
+    - code: K28.1
+      value: Gastrojejunal ulcer - Acute with perforation
+      type: any
+    - code: K28.2
+      value: Gastrojejunal ulcer - Acute with both haemorrhage and perforation
+      type: any
+    - code: K28.5
+      value: Gastrojejunal ulcer - Chronic or unspecified with perforation
+      type: any
+    - code: K28.6
+      value: Gastrojejunal ulcer - Chronic or unspecified with both haemorrhage and
+        perforation
+      type: any
+    - code: K35.2
+      value: Acute appendicitis with generalized peritonitis
+      type: any
+    - code: K35.3
+      value: Acute appendicitis with localized peritonitis
+      type: any
+    - code: K57.0
+      value: Diverticular disease of small intestine with perforation and abscess
+      type: any
+    - code: K57.2
+      value: Diverticular disease of large intestine with perforation and abscess
+      type: any
+    - code: K57.4
+      value: Diverticular disease of both small and large intestine with perforation
+        and abscess
+      type: any
+    - code: K57.8
+      value: Diverticular disease of intestine, part unspecified, with perforation
+        and abscess
+      type: any
+    - code: K63.1
+      value: Perforation of intestine (nontraumatic)
+      type: any
+    - code: K65
+      value: Peritonitis
+      type: any
+    - code: K67
+      value: Disorders of peritoneum in infectious diseases classified elsewhere
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K25.1
+      value: Gastric ulcer - Acute with perforation
+      type: any
+    - code: K25.2
+      value: Gastric ulcer - Acute with both haemorrhage and perforation
+      type: any
+    - code: K25.5
+      value: Gastric ulcer - Chronic or unspecified with perforation
+      type: any
+    - code: K25.6
+      value: Gastric ulcer - Chronic or unspecified with both haemorrhage and perforation
+      type: any
+    - code: K26.1
+      value: Duodenal ulcer - Acute with perforation
+      type: any
+    - code: K26.2
+      value: Duodenal ulcer - Acute with both haemorrhage and perforation
+      type: any
+    - code: K26.5
+      value: Duodenal ulcer - Chronic or unspecified with perforation
+      type: any
+    - code: K26.6
+      value: Duodenal ulcer - Chronic or unspecified with both haemorrhage and perforation
+      type: any
+    - code: K27.1
+      value: Peptic ulcer, site unspecified - Acute with perforation
+      type: any
+    - code: K27.2
+      value: Peptic ulcer, site unspecified - Acute with both haemorrhage and perforation
+      type: any
+    - code: K27.5
+      value: Peptic ulcer, site unspecified - Chronic or unspecified with perforation
+      type: any
+    - code: K27.6
+      value: Peptic ulcer, site unspecified - Chronic or unspecified with both haemorrhage
+        and perforation
+      type: any
+    - code: K28.1
+      value: Gastrojejunal ulcer - Acute with perforation
+      type: any
+    - code: K28.2
+      value: Gastrojejunal ulcer - Acute with both haemorrhage and perforation
+      type: any
+    - code: K28.5
+      value: Gastrojejunal ulcer - Chronic or unspecified with perforation
+      type: any
+    - code: K28.6
+      value: Gastrojejunal ulcer - Chronic or unspecified with both haemorrhage and
+        perforation
+      type: any
+    - code: K35.2
+      value: Acute appendicitis with generalized peritonitis
+      type: any
+    - code: K35.3
+      value: Acute appendicitis with localized peritonitis
+      type: any
+    - code: K57.0
+      value: Diverticular disease of small intestine with perforation and abscess
+      type: any
+    - code: K57.2
+      value: Diverticular disease of large intestine with perforation and abscess
+      type: any
+    - code: K57.4
+      value: Diverticular disease of both small and large intestine with perforation
+        and abscess
+      type: any
+    - code: K57.8
+      value: Diverticular disease of intestine, part unspecified, with perforation
+        and abscess
+      type: any
+    - code: K63.1
+      value: Perforation of intestine (nontraumatic)
+      type: any
+    - code: K65
+      value: Peritonitis
+      type: any
+    - code: K67
+      value: Disorders of peritoneum in infectious diseases classified elsewhere
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '7618100.0'
+      value: Closure of perforation of stomach NEC
+      type: any
+    - code: 761C100
+      value: Repair of perforation of pylorus
+      type: any
+    - code: 761J000
+      value: Closure of perforated gastric ulcer
+      type: any
+    - code: '7623100.0'
+      value: Closure of perforation of duodenum NEC
+      type: any
+    - code: '7627000.0'
+      value: Closure of perforated duodenal ulcer
+      type: any
+    - code: '7635200.0'
+      value: Closure of perforation of jejunum
+      type: any
+    - code: '7648300.0'
+      value: Closure of perforation of ileum
+      type: any
+    - code: 773C600
+      value: Closure of perforated bowel ulcer NEC
+      type: any
+    - code: '7812200.0'
+      value: Repair of perforation of gall bladder
+      type: any
+    - code: A140.00
+      value: Tuberculous peritonitis
+      type: any
+    - code: A32y200
+      value: Diphtheritic peritonitis
+      type: any
+    - code: A98y500
+      value: Gonococcal peritonitis
+      type: any
+    - code: J110200
+      value: Acute gastric ulcer with perforation
+      type: any
+    - code: J110300
+      value: Acute gastric ulcer with haemorrhage and perforation
+      type: any
+    - code: J111200
+      value: Chronic gastric ulcer with perforation
+      type: any
+    - code: J111211
+      value: Perforated chronic gastric ulcer
+      type: any
+    - code: J111300
+      value: Chronic gastric ulcer with haemorrhage and perforation
+      type: any
+    - code: J11y200
+      value: Unspecified gastric ulcer with perforation
+      type: any
+    - code: J11yy00
+      value: Unspec gastric ulcer; unspec haemorrhage and/or perforation
+      type: any
+    - code: J120200
+      value: Acute duodenal ulcer with perforation
+      type: any
+    - code: J120300
+      value: Acute duodenal ulcer with haemorrhage and perforation
+      type: any
+    - code: J121200
+      value: Chronic duodenal ulcer with perforation
+      type: any
+    - code: J121211
+      value: Perforated chronic duodenal ulcer
+      type: any
+    - code: J121300
+      value: Chronic duodenal ulcer with haemorrhage and perforation
+      type: any
+    - code: J12y200
+      value: Unspecified duodenal ulcer with perforation
+      type: any
+    - code: J12y300
+      value: Unspecified duodenal ulcer with haemorrhage and perforation
+      type: any
+    - code: J12yy00
+      value: Unspec duodenal ulcer; unspec haemorrhage and/or perforation
+      type: any
+    - code: J130200
+      value: Acute peptic ulcer with perforation
+      type: any
+    - code: J130300
+      value: Acute peptic ulcer with haemorrhage and perforation
+      type: any
+    - code: J131200
+      value: Chronic peptic ulcer with perforation
+      type: any
+    - code: J13y200
+      value: Unspecified peptic ulcer with perforation
+      type: any
+    - code: J13y300
+      value: Unspecified peptic ulcer with haemorrhage and perforation
+      type: any
+    - code: J140200
+      value: Acute gastrojejunal ulcer with perforation
+      type: any
+    - code: J140300
+      value: Acute gastrojejunal ulcer with haemorrhage and perforation
+      type: any
+    - code: J141300
+      value: Chronic gastrojejunal ulcer with haemorrhage and perforation
+      type: any
+    - code: J14y200
+      value: Unspecified gastrojejunal ulcer with perforation
+      type: any
+    - code: J179.00
+      value: Perforation of stomach
+      type: any
+    - code: J200.00
+      value: Acute appendicitis with peritonitis
+      type: any
+    - code: J201.00
+      value: Acute appendicitis with appendix abscess
+      type: any
+    - code: J201.11
+      value: Abscess of appendix
+      type: any
+    - code: J201.12
+      value: Appendix abscess
+      type: any
+    - code: J203.00
+      value: Acute appendicitis with generalised peritonitis
+      type: any
+    - code: J204.00
+      value: Acute appendicitis with localised peritonitis
+      type: any
+    - code: J20z100
+      value: Acute gangrenous appendicitis
+      type: any
+    - code: J512000
+      value: Perforated diverticulum of duodenum
+      type: any
+    - code: J512100
+      value: Perforated diverticulum of jejunum
+      type: any
+    - code: J512200
+      value: Perforated diverticulum of ileum
+      type: any
+    - code: J512300
+      value: Perforated diverticulum of small intestine unspecified
+      type: any
+    - code: J512400
+      value: Perforated diverticulum of small intestine NOS
+      type: any
+    - code: J512500
+      value: Perforated diverticulum of colon
+      type: any
+    - code: J512600
+      value: Perforated diverticulum of large intestine unspecified
+      type: any
+    - code: J512700
+      value: Perforated diverticulum of large intestine NOS
+      type: any
+    - code: J512800
+      value: Divertic disease/both sml+lge intestin with perforat+abscess
+      type: any
+    - code: J512.00
+      value: Perforated diverticulum
+      type: any
+    - code: J512y00
+      value: Perforated diverticulum unspecified
+      type: any
+    - code: J512z00
+      value: Perforated diverticulum of intestine NOS
+      type: any
+    - code: J550000
+      value: Peritonitis - gonococcal
+      type: any
+    - code: J550200
+      value: Peritonitis - tuberculous
+      type: any
+    - code: J550300
+      value: Peritonitis - bacterial
+      type: any
+    - code: J550311
+      value: Bacterial peritonitis
+      type: any
+    - code: J550400
+      value: Chlamydial peritonitis
+      type: any
+    - code: J550.00
+      value: Peritonitis in infectious diseases EC
+      type: any
+    - code: J550z00
+      value: Peritonitis in infectious diseases EC NOS
+      type: any
+    - code: J551.00
+      value: Pneumococcal peritonitis
+      type: any
+    - code: J552000
+      value: Subhepatic abscess
+      type: any
+    - code: J552100
+      value: Subphrenic abscess
+      type: any
+    - code: J552200
+      value: Omental abscess
+      type: any
+    - code: J552300
+      value: Mesenteric abscess
+      type: any
+    - code: J552400
+      value: Peritoneal abscess
+      type: any
+    - code: J552500
+      value: Subperitoneal abscess
+      type: any
+    - code: J552600
+      value: Retroperitoneal abscess
+      type: any
+    - code: J552700
+      value: Pre-ileal abscess
+      type: any
+    - code: J552800
+      value: Pericolic abscess
+      type: any
+    - code: J552900
+      value: Pericaecal abscess
+      type: any
+    - code: J552A00
+      value: Retrocaecal abscess
+      type: any
+    - code: J552B00
+      value: Male pelvic abscess
+      type: any
+    - code: J552.00
+      value: Other suppurative peritonitis
+      type: any
+    - code: J552.11
+      value: Abscess of suppurative peritonitis
+      type: any
+    - code: J552z00
+      value: Other suppurative peritonitis NOS
+      type: any
+    - code: J553.00
+      value: Acute peritonitis
+      type: any
+    - code: J554.00
+      value: Spontaneous bacterial peritonitis
+      type: any
+    - code: J555.00
+      value: Sclerosing peritonitis
+      type: any
+    - code: J557.00
+      value: Streptococcal peritonitis
+      type: any
+    - code: J558.00
+      value: Ventriculoperitoneal shunt-associated peritonitis
+      type: any
+    - code: J55..00
+      value: Peritonitis
+      type: any
+    - code: J55y000
+      value: Chronic proliferative peritonitis
+      type: any
+    - code: J55y100
+      value: Peritoneal fat necrosis
+      type: any
+    - code: J55y300
+      value: Peritonitis due to bile
+      type: any
+    - code: J55y400
+      value: Peritonitis due to urine
+      type: any
+    - code: J55y500
+      value: Faecal peritonitis
+      type: any
+    - code: J55y.00
+      value: Other specified peritonitis
+      type: any
+    - code: J55yz00
+      value: Other specified peritonitis NOS
+      type: any
+    - code: J55z.00
+      value: Peritonitis NOS
+      type: any
+    - code: J574A00
+      value: Rupture of rectum
+      type: any
+    - code: J57yB00
+      value: Perforation of intestine
+      type: any
+    - code: J654.00
+      value: Perforation of gallbladder
+      type: any
+    - code: J654z00
+      value: Perforation of gallbladder NOS
+      type: any
+    - code: J663.00
+      value: Perforation of bile duct
+      type: any
+    - code: Jyu6000
+      value: '[X]Other peritonitis'
+      type: any
+    - code: XSCm1
+      value: Acute peritonitis
+      type: any
+    - code: XE0ay
+      value: Other suppurative peritonitis
+      type: any
+    - code: X309n
+      value: Sclerosing peritonitis
+      type: any
+    - code: X301n
+      value: Perforation of stomach
+      type: any
+    - code: X309d
+      value: Faecal peritonitis
+      type: any
+    - code: Xa0WI
+      value: Ventriculoperitoneal shunt-associated peritonitis
+      type: any
+    - code: XaYaL
+      value: Acute appendicitis with generalised peritonitis
+      type: any
+    - code: XaZSu
+      value: Streptococcal peritonitis
+      type: any
+    - code: XaYaN
+      value: Acute appendicitis with localised peritonitis
+      type: any
+    - code: X309e
+      value: Spontaneous bacterial peritonitis
+      type: any
+    - code: XE0aV
+      value: Acute appendicitis with appendix abscess
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

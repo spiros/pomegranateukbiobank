@@ -1,0 +1,275 @@
+metadata:
+  phenotype: Infection of liver
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: liver
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: beb950e5-d970-49d4-8248-d425802aa1dc
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: null
+    SNOMED-CT: '235859005'
+    FINNGEN: null
+  short_desc: Infection of liver
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1155'
+      value: hepatitis
+      type: any
+    - code: '1581'
+      value: hepatitis d
+      type: any
+    - code: '1582'
+      value: hepatitis e
+      type: any
+    - code: '1578'
+      value: hepatitis a
+      type: any
+    - code: '1156'
+      value: infective/viral hepatitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: A06.4
+      value: Amoebic liver abscess
+      type: any
+    - code: B15
+      value: Acute hepatitis A
+      type: any
+    - code: B16
+      value: Acute hepatitis B
+      type: any
+    - code: B17
+      value: Other acute viral hepatitis
+      type: any
+    - code: B18
+      value: Chronic viral hepatitis
+      type: any
+    - code: B19
+      value: Unspecified viral hepatitis
+      type: any
+    - code: B25.1
+      value: Cytomegaloviral hepatitis
+      type: any
+    - code: B58.1
+      value: Toxoplasma hepatitis
+      type: any
+    - code: B67.0
+      value: Echinococcus granulosus infection of liver
+      type: any
+    - code: B67.5
+      value: Echinococcus multilocularis infection of liver
+      type: any
+    - code: B67.8
+      value: Echinococcosis, unspecified, of liver
+      type: any
+    - code: B94.2
+      value: Sequelae of viral hepatitis
+      type: any
+    - code: K75.0
+      value: Abscess of liver
+      type: any
+    - code: K77.0
+      value: Liver disorders in infectious and parasitic diseases classified elsewhere
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: A06.4
+      value: Amoebic liver abscess
+      type: any
+    - code: B15
+      value: Acute hepatitis A
+      type: any
+    - code: B16
+      value: Acute hepatitis B
+      type: any
+    - code: B17
+      value: Other acute viral hepatitis
+      type: any
+    - code: B18
+      value: Chronic viral hepatitis
+      type: any
+    - code: B19
+      value: Unspecified viral hepatitis
+      type: any
+    - code: B25.1
+      value: Cytomegaloviral hepatitis
+      type: any
+    - code: B58.1
+      value: Toxoplasma hepatitis
+      type: any
+    - code: B67.0
+      value: Echinococcus granulosus infection of liver
+      type: any
+    - code: B67.5
+      value: Echinococcus multilocularis infection of liver
+      type: any
+    - code: B67.8
+      value: Echinococcosis, unspecified, of liver
+      type: any
+    - code: B94.2
+      value: Sequelae of viral hepatitis
+      type: any
+    - code: K75.0
+      value: Abscess of liver
+      type: any
+    - code: K77.0
+      value: Liver disorders in infectious and parasitic diseases classified elsewhere
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A06.4
+      value: Amoebic liver abscess
+      type: any
+    - code: B15
+      value: Acute hepatitis A
+      type: any
+    - code: B16
+      value: Acute hepatitis B
+      type: any
+    - code: B17
+      value: Other acute viral hepatitis
+      type: any
+    - code: B18
+      value: Chronic viral hepatitis
+      type: any
+    - code: B19
+      value: Unspecified viral hepatitis
+      type: any
+    - code: B25.1
+      value: Cytomegaloviral hepatitis
+      type: any
+    - code: B58.1
+      value: Toxoplasma hepatitis
+      type: any
+    - code: B67.0
+      value: Echinococcus granulosus infection of liver
+      type: any
+    - code: B67.5
+      value: Echinococcus multilocularis infection of liver
+      type: any
+    - code: B67.8
+      value: Echinococcosis, unspecified, of liver
+      type: any
+    - code: B94.2
+      value: Sequelae of viral hepatitis
+      type: any
+    - code: K75.0
+      value: Abscess of liver
+      type: any
+    - code: K77.0
+      value: Liver disorders in infectious and parasitic diseases classified elsewhere
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A06.4
+      value: Amoebic liver abscess
+      type: any
+    - code: B15
+      value: Acute hepatitis A
+      type: any
+    - code: B16
+      value: Acute hepatitis B
+      type: any
+    - code: B17
+      value: Other acute viral hepatitis
+      type: any
+    - code: B18
+      value: Chronic viral hepatitis
+      type: any
+    - code: B19
+      value: Unspecified viral hepatitis
+      type: any
+    - code: B25.1
+      value: Cytomegaloviral hepatitis
+      type: any
+    - code: B58.1
+      value: Toxoplasma hepatitis
+      type: any
+    - code: B67.0
+      value: Echinococcus granulosus infection of liver
+      type: any
+    - code: B67.5
+      value: Echinococcus multilocularis infection of liver
+      type: any
+    - code: B67.8
+      value: Echinococcosis, unspecified, of liver
+      type: any
+    - code: B94.2
+      value: Sequelae of viral hepatitis
+      type: any
+    - code: K75.0
+      value: Abscess of liver
+      type: any
+    - code: K77.0
+      value: Liver disorders in infectious and parasitic diseases classified elsewhere
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,146 @@
+metadata:
+  phenotype: Motor neuron disease
+  group: Neurological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: MND
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: d274dfbb-ab34-416a-87a5-50e630afcfff
+  ontologies:
+    DOID: DOID_231
+    GWAS: EFO_0000253
+    MESH: D000690
+    SNOMED-CT: 37340000
+    FINNGEN: G6_ALS
+  short_desc: A neurodegenerative disease that is located in the motor neurones.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1259'
+      value: motor neurone disease
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: G12.2
+      value: Motor neuron disease
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: G12.2
+      value: Motor neuron disease
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G12.2
+      value: Motor neuron disease
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G12.2
+      value: Motor neuron disease
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 7Q04100
+      value: Amyotrophic lateral sclerosis drugs Band 1
+      type: any
+    - code: F152000
+      value: Amyotrophic lateral sclerosis
+      type: any
+    - code: F152100
+      value: Progressive muscular atrophy
+      type: any
+    - code: F152111
+      value: Duchenne Aran muscular atrophy
+      type: any
+    - code: F152200
+      value: Progressive bulbar palsy
+      type: any
+    - code: F152300
+      value: Pseudobulbar palsy
+      type: any
+    - code: F152400
+      value: Primary lateral sclerosis
+      type: any
+    - code: F152.00
+      value: Motor neurone disease
+      type: any
+    - code: F152z00
+      value: Motor neurone disease NOS
+      type: any
+    - code: F15..00
+      value: Anterior horn cell disease
+      type: any
+    - code: F15y.00
+      value: Other anterior horn cell disease
+      type: any
+    - code: F15z.00
+      value: Anterior horn cell disease NOS
+      type: any
+    - code: XaMEh
+      value: Amyotrophic lateral sclerosis drugs Band 1
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

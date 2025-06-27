@@ -1,0 +1,728 @@
+metadata:
+  phenotype: Lower Respiratory Tract Infections
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: lrti
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: f08a8cc4-4e83-4705-a054-2147e72ac473
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: null
+    SNOMED-CT: '50417007'
+    FINNGEN: J10_LOWERINF
+  short_desc: Lower Respiratory Tract Infections
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1498'
+      value: empyema
+      type: any
+    - code: '1411'
+      value: lung abscess
+      type: any
+    - code: '1572'
+      value: whooping cough / pertussis
+      type: any
+    - code: '1398'
+      value: pneumonia
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: A06.5
+      value: Amoebic lung abscess
+      type: any
+    - code: A15
+      value: Respiratory tuberculosis, bacteriologically and histologically confirmed
+      type: any
+    - code: A16
+      value: Respiratory tuberculosis, not confirmed bacteriologically or histologically
+      type: any
+    - code: A20.2
+      value: Pneumonic plague
+      type: any
+    - code: A21.2
+      value: Pulmonary tularaemia
+      type: any
+    - code: A22.1
+      value: Pulmonary Anthrax
+      type: any
+    - code: A31.0
+      value: Pulmonary mycobacterial infection
+      type: any
+    - code: A37
+      value: Whooping cough
+      type: any
+    - code: A42.0
+      value: Pulmonary actinomycosis
+      type: any
+    - code: A43.0
+      value: Pulmonary nocardiosis
+      type: any
+    - code: B01.2
+      value: Varicella pneumonia
+      type: any
+    - code: B05.2
+      value: Measles complicated by pneumonia
+      type: any
+    - code: B25.0
+      value: Cytomegaloviral pneumonitis
+      type: any
+    - code: B37.1
+      value: Pulmonary candidiasis
+      type: any
+    - code: B38.0
+      value: Acute pulmonary coccidioidomycosis
+      type: any
+    - code: B38.1
+      value: Chronic pulmonary coccidioidomycosis
+      type: any
+    - code: B38.2
+      value: Pulmonary coccidioidomycosis, unspecified
+      type: any
+    - code: B39.0
+      value: Acute pulmonary histoplasmosis capsulati
+      type: any
+    - code: B39.1
+      value: Chronic pulmonary histoplasmosis capsulati
+      type: any
+    - code: B39.2
+      value: Pulmonary histoplasmosis capsulati, unspecified
+      type: any
+    - code: B40.0
+      value: Acute pulmonary blastomycosis
+      type: any
+    - code: B40.1
+      value: Chronic pulmonary blastomycosis
+      type: any
+    - code: B40.2
+      value: Pulmonary blastomycosis, unspecified
+      type: any
+    - code: B41.0
+      value: Pulmonary paracoccidioidomycosis
+      type: any
+    - code: B42.0
+      value: Pulmonary sporotrichosis
+      type: any
+    - code: B44.0
+      value: Invasive pulmonary aspergillosis
+      type: any
+    - code: B44.1
+      value: Other pulmonary aspergillosis
+      type: any
+    - code: B45.0
+      value: Pulmonary cryptococcosis
+      type: any
+    - code: B46.0
+      value: Pulmonary mucormycosis
+      type: any
+    - code: B58.3
+      value: Pulmonary toxoplasmosis
+      type: any
+    - code: B59
+      value: Pneumocystosis
+      type: any
+    - code: B67.1
+      value: Echinococcus granulosus infection of lung
+      type: any
+    - code: J10.0
+      value: Influenza with pneumonia, other influenza virus identified
+      type: any
+    - code: J11.0
+      value: Influenza with pneumonia, virus not identified
+      type: any
+    - code: J12
+      value: Viral pneumonia, not elsewhere classified
+      type: any
+    - code: J13
+      value: Pneumonia due to Streptococcus pneumoniae
+      type: any
+    - code: J14
+      value: Pneumonia due to Haemophilus influenzae
+      type: any
+    - code: J15
+      value: Bacterial pneumonia, not elsewhere classified
+      type: any
+    - code: J16
+      value: Pneumonia due to other infectious organisms, not elsewhere classified
+      type: any
+    - code: J17
+      value: Pneumonia in diseases classified elsewhere
+      type: any
+    - code: J18
+      value: Pneumonia, organism unspecified
+      type: any
+    - code: J20
+      value: Acute bronchitis
+      type: any
+    - code: J21
+      value: Acute bronchiolitis
+      type: any
+    - code: J22
+      value: Unspecified acute lower respiratory infection
+      type: any
+    - code: J44.0
+      value: Chronic obstructive pulmonary disease with acute lower respiratory infection
+      type: any
+    - code: J44.1
+      value: Chronic obstructive pulmonary disease with acute exacerbation, unspecified
+      type: any
+    - code: J65
+      value: Pneumoconiosis associated with tuberculosis
+      type: any
+    - code: J85.0
+      value: Gangrene and necrosis of lung
+      type: any
+    - code: J85.1
+      value: Abscess of lung with pneumonia
+      type: any
+    - code: J85.2
+      value: Abscess of lung without pneumonia
+      type: any
+    - code: J86
+      value: Pyothorax
+      type: any
+    - code: P23
+      value: Congenital pneumonia
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: A06.5
+      value: Amoebic lung abscess
+      type: any
+    - code: A15
+      value: Respiratory tuberculosis, bacteriologically and histologically confirmed
+      type: any
+    - code: A16
+      value: Respiratory tuberculosis, not confirmed bacteriologically or histologically
+      type: any
+    - code: A20.2
+      value: Pneumonic plague
+      type: any
+    - code: A21.2
+      value: Pulmonary tularaemia
+      type: any
+    - code: A22.1
+      value: Pulmonary Anthrax
+      type: any
+    - code: A31.0
+      value: Pulmonary mycobacterial infection
+      type: any
+    - code: A37
+      value: Whooping cough
+      type: any
+    - code: A42.0
+      value: Pulmonary actinomycosis
+      type: any
+    - code: A43.0
+      value: Pulmonary nocardiosis
+      type: any
+    - code: B01.2
+      value: Varicella pneumonia
+      type: any
+    - code: B05.2
+      value: Measles complicated by pneumonia
+      type: any
+    - code: B25.0
+      value: Cytomegaloviral pneumonitis
+      type: any
+    - code: B37.1
+      value: Pulmonary candidiasis
+      type: any
+    - code: B38.0
+      value: Acute pulmonary coccidioidomycosis
+      type: any
+    - code: B38.1
+      value: Chronic pulmonary coccidioidomycosis
+      type: any
+    - code: B38.2
+      value: Pulmonary coccidioidomycosis, unspecified
+      type: any
+    - code: B39.0
+      value: Acute pulmonary histoplasmosis capsulati
+      type: any
+    - code: B39.1
+      value: Chronic pulmonary histoplasmosis capsulati
+      type: any
+    - code: B39.2
+      value: Pulmonary histoplasmosis capsulati, unspecified
+      type: any
+    - code: B40.0
+      value: Acute pulmonary blastomycosis
+      type: any
+    - code: B40.1
+      value: Chronic pulmonary blastomycosis
+      type: any
+    - code: B40.2
+      value: Pulmonary blastomycosis, unspecified
+      type: any
+    - code: B41.0
+      value: Pulmonary paracoccidioidomycosis
+      type: any
+    - code: B42.0
+      value: Pulmonary sporotrichosis
+      type: any
+    - code: B44.0
+      value: Invasive pulmonary aspergillosis
+      type: any
+    - code: B44.1
+      value: Other pulmonary aspergillosis
+      type: any
+    - code: B45.0
+      value: Pulmonary cryptococcosis
+      type: any
+    - code: B46.0
+      value: Pulmonary mucormycosis
+      type: any
+    - code: B58.3
+      value: Pulmonary toxoplasmosis
+      type: any
+    - code: B59
+      value: Pneumocystosis
+      type: any
+    - code: B67.1
+      value: Echinococcus granulosus infection of lung
+      type: any
+    - code: J10.0
+      value: Influenza with pneumonia, other influenza virus identified
+      type: any
+    - code: J11.0
+      value: Influenza with pneumonia, virus not identified
+      type: any
+    - code: J12
+      value: Viral pneumonia, not elsewhere classified
+      type: any
+    - code: J13
+      value: Pneumonia due to Streptococcus pneumoniae
+      type: any
+    - code: J14
+      value: Pneumonia due to Haemophilus influenzae
+      type: any
+    - code: J15
+      value: Bacterial pneumonia, not elsewhere classified
+      type: any
+    - code: J16
+      value: Pneumonia due to other infectious organisms, not elsewhere classified
+      type: any
+    - code: J17
+      value: Pneumonia in diseases classified elsewhere
+      type: any
+    - code: J18
+      value: Pneumonia, organism unspecified
+      type: any
+    - code: J20
+      value: Acute bronchitis
+      type: any
+    - code: J21
+      value: Acute bronchiolitis
+      type: any
+    - code: J22
+      value: Unspecified acute lower respiratory infection
+      type: any
+    - code: J44.0
+      value: Chronic obstructive pulmonary disease with acute lower respiratory infection
+      type: any
+    - code: J44.1
+      value: Chronic obstructive pulmonary disease with acute exacerbation, unspecified
+      type: any
+    - code: J65
+      value: Pneumoconiosis associated with tuberculosis
+      type: any
+    - code: J85.0
+      value: Gangrene and necrosis of lung
+      type: any
+    - code: J85.1
+      value: Abscess of lung with pneumonia
+      type: any
+    - code: J85.2
+      value: Abscess of lung without pneumonia
+      type: any
+    - code: J86
+      value: Pyothorax
+      type: any
+    - code: P23
+      value: Congenital pneumonia
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A06.5
+      value: Amoebic lung abscess
+      type: any
+    - code: A15
+      value: Respiratory tuberculosis, bacteriologically and histologically confirmed
+      type: any
+    - code: A16
+      value: Respiratory tuberculosis, not confirmed bacteriologically or histologically
+      type: any
+    - code: A20.2
+      value: Pneumonic plague
+      type: any
+    - code: A21.2
+      value: Pulmonary tularaemia
+      type: any
+    - code: A22.1
+      value: Pulmonary Anthrax
+      type: any
+    - code: A31.0
+      value: Pulmonary mycobacterial infection
+      type: any
+    - code: A37
+      value: Whooping cough
+      type: any
+    - code: A42.0
+      value: Pulmonary actinomycosis
+      type: any
+    - code: A43.0
+      value: Pulmonary nocardiosis
+      type: any
+    - code: B01.2
+      value: Varicella pneumonia
+      type: any
+    - code: B05.2
+      value: Measles complicated by pneumonia
+      type: any
+    - code: B25.0
+      value: Cytomegaloviral pneumonitis
+      type: any
+    - code: B37.1
+      value: Pulmonary candidiasis
+      type: any
+    - code: B38.0
+      value: Acute pulmonary coccidioidomycosis
+      type: any
+    - code: B38.1
+      value: Chronic pulmonary coccidioidomycosis
+      type: any
+    - code: B38.2
+      value: Pulmonary coccidioidomycosis, unspecified
+      type: any
+    - code: B39.0
+      value: Acute pulmonary histoplasmosis capsulati
+      type: any
+    - code: B39.1
+      value: Chronic pulmonary histoplasmosis capsulati
+      type: any
+    - code: B39.2
+      value: Pulmonary histoplasmosis capsulati, unspecified
+      type: any
+    - code: B40.0
+      value: Acute pulmonary blastomycosis
+      type: any
+    - code: B40.1
+      value: Chronic pulmonary blastomycosis
+      type: any
+    - code: B40.2
+      value: Pulmonary blastomycosis, unspecified
+      type: any
+    - code: B41.0
+      value: Pulmonary paracoccidioidomycosis
+      type: any
+    - code: B42.0
+      value: Pulmonary sporotrichosis
+      type: any
+    - code: B44.0
+      value: Invasive pulmonary aspergillosis
+      type: any
+    - code: B44.1
+      value: Other pulmonary aspergillosis
+      type: any
+    - code: B45.0
+      value: Pulmonary cryptococcosis
+      type: any
+    - code: B46.0
+      value: Pulmonary mucormycosis
+      type: any
+    - code: B58.3
+      value: Pulmonary toxoplasmosis
+      type: any
+    - code: B59
+      value: Pneumocystosis
+      type: any
+    - code: B67.1
+      value: Echinococcus granulosus infection of lung
+      type: any
+    - code: J10.0
+      value: Influenza with pneumonia, other influenza virus identified
+      type: any
+    - code: J11.0
+      value: Influenza with pneumonia, virus not identified
+      type: any
+    - code: J12
+      value: Viral pneumonia, not elsewhere classified
+      type: any
+    - code: J13
+      value: Pneumonia due to Streptococcus pneumoniae
+      type: any
+    - code: J14
+      value: Pneumonia due to Haemophilus influenzae
+      type: any
+    - code: J15
+      value: Bacterial pneumonia, not elsewhere classified
+      type: any
+    - code: J16
+      value: Pneumonia due to other infectious organisms, not elsewhere classified
+      type: any
+    - code: J17
+      value: Pneumonia in diseases classified elsewhere
+      type: any
+    - code: J18
+      value: Pneumonia, organism unspecified
+      type: any
+    - code: J20
+      value: Acute bronchitis
+      type: any
+    - code: J21
+      value: Acute bronchiolitis
+      type: any
+    - code: J22
+      value: Unspecified acute lower respiratory infection
+      type: any
+    - code: J44.0
+      value: Chronic obstructive pulmonary disease with acute lower respiratory infection
+      type: any
+    - code: J44.1
+      value: Chronic obstructive pulmonary disease with acute exacerbation, unspecified
+      type: any
+    - code: J65
+      value: Pneumoconiosis associated with tuberculosis
+      type: any
+    - code: J85.0
+      value: Gangrene and necrosis of lung
+      type: any
+    - code: J85.1
+      value: Abscess of lung with pneumonia
+      type: any
+    - code: J85.2
+      value: Abscess of lung without pneumonia
+      type: any
+    - code: J86
+      value: Pyothorax
+      type: any
+    - code: P23
+      value: Congenital pneumonia
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A06.5
+      value: Amoebic lung abscess
+      type: any
+    - code: A15
+      value: Respiratory tuberculosis, bacteriologically and histologically confirmed
+      type: any
+    - code: A16
+      value: Respiratory tuberculosis, not confirmed bacteriologically or histologically
+      type: any
+    - code: A20.2
+      value: Pneumonic plague
+      type: any
+    - code: A21.2
+      value: Pulmonary tularaemia
+      type: any
+    - code: A22.1
+      value: Pulmonary Anthrax
+      type: any
+    - code: A31.0
+      value: Pulmonary mycobacterial infection
+      type: any
+    - code: A37
+      value: Whooping cough
+      type: any
+    - code: A42.0
+      value: Pulmonary actinomycosis
+      type: any
+    - code: A43.0
+      value: Pulmonary nocardiosis
+      type: any
+    - code: B01.2
+      value: Varicella pneumonia
+      type: any
+    - code: B05.2
+      value: Measles complicated by pneumonia
+      type: any
+    - code: B25.0
+      value: Cytomegaloviral pneumonitis
+      type: any
+    - code: B37.1
+      value: Pulmonary candidiasis
+      type: any
+    - code: B38.0
+      value: Acute pulmonary coccidioidomycosis
+      type: any
+    - code: B38.1
+      value: Chronic pulmonary coccidioidomycosis
+      type: any
+    - code: B38.2
+      value: Pulmonary coccidioidomycosis, unspecified
+      type: any
+    - code: B39.0
+      value: Acute pulmonary histoplasmosis capsulati
+      type: any
+    - code: B39.1
+      value: Chronic pulmonary histoplasmosis capsulati
+      type: any
+    - code: B39.2
+      value: Pulmonary histoplasmosis capsulati, unspecified
+      type: any
+    - code: B40.0
+      value: Acute pulmonary blastomycosis
+      type: any
+    - code: B40.1
+      value: Chronic pulmonary blastomycosis
+      type: any
+    - code: B40.2
+      value: Pulmonary blastomycosis, unspecified
+      type: any
+    - code: B41.0
+      value: Pulmonary paracoccidioidomycosis
+      type: any
+    - code: B42.0
+      value: Pulmonary sporotrichosis
+      type: any
+    - code: B44.0
+      value: Invasive pulmonary aspergillosis
+      type: any
+    - code: B44.1
+      value: Other pulmonary aspergillosis
+      type: any
+    - code: B45.0
+      value: Pulmonary cryptococcosis
+      type: any
+    - code: B46.0
+      value: Pulmonary mucormycosis
+      type: any
+    - code: B58.3
+      value: Pulmonary toxoplasmosis
+      type: any
+    - code: B59
+      value: Pneumocystosis
+      type: any
+    - code: B67.1
+      value: Echinococcus granulosus infection of lung
+      type: any
+    - code: J10.0
+      value: Influenza with pneumonia, other influenza virus identified
+      type: any
+    - code: J11.0
+      value: Influenza with pneumonia, virus not identified
+      type: any
+    - code: J12
+      value: Viral pneumonia, not elsewhere classified
+      type: any
+    - code: J13
+      value: Pneumonia due to Streptococcus pneumoniae
+      type: any
+    - code: J14
+      value: Pneumonia due to Haemophilus influenzae
+      type: any
+    - code: J15
+      value: Bacterial pneumonia, not elsewhere classified
+      type: any
+    - code: J16
+      value: Pneumonia due to other infectious organisms, not elsewhere classified
+      type: any
+    - code: J17
+      value: Pneumonia in diseases classified elsewhere
+      type: any
+    - code: J18
+      value: Pneumonia, organism unspecified
+      type: any
+    - code: J20
+      value: Acute bronchitis
+      type: any
+    - code: J21
+      value: Acute bronchiolitis
+      type: any
+    - code: J22
+      value: Unspecified acute lower respiratory infection
+      type: any
+    - code: J44.0
+      value: Chronic obstructive pulmonary disease with acute lower respiratory infection
+      type: any
+    - code: J44.1
+      value: Chronic obstructive pulmonary disease with acute exacerbation, unspecified
+      type: any
+    - code: J65
+      value: Pneumoconiosis associated with tuberculosis
+      type: any
+    - code: J85.0
+      value: Gangrene and necrosis of lung
+      type: any
+    - code: J85.1
+      value: Abscess of lung with pneumonia
+      type: any
+    - code: J85.2
+      value: Abscess of lung without pneumonia
+      type: any
+    - code: J86
+      value: Pyothorax
+      type: any
+    - code: P23
+      value: Congenital pneumonia
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

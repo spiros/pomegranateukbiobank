@@ -1,0 +1,116 @@
+metadata:
+  phenotype: Primary Malignancy_Multiple independent sites
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: pri_multindep
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 40cfab31-a3df-4625-9669-e6b59b01f480
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: null
+    SNOMED-CT: 188478004
+    FINNGEN: CD2_INDEPENDENT_MULTIPLE_SITES_NAS
+  short_desc: Malignant neoplasms of independent (primary) multiple sites.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C97
+      value: Malignant neoplasms of independent (primary) multiple sites
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C97
+      value: Malignant neoplasms of independent (primary) multiple sites
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C97
+      value: Malignant neoplasms of independent (primary) multiple sites
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C97
+      value: Malignant neoplasms of independent (primary) multiple sites
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B592.00
+      value: Malignant neoplasms of independent (primary) multiple sites
+      type: any
+    - code: ByuE000
+      value: '[X]Malignant neoplasms/independent(primary)multiple sites'
+      type: any
+    - code: ByuE.00
+      value: '[X]Malignant neoplasms/independent (primary) multiple sites'
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C97
+      value: Malignant neoplasms of independent (primary) multiple sites
+      type: any

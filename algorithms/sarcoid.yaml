@@ -1,0 +1,212 @@
+metadata:
+  phenotype: Sarcoidosis
+  group: Haematological or immunological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: sarcoid
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: b7a42f1b-f78e-44a6-b98c-a0d12bba9a61
+  ontologies:
+    DOID: DOID_11335
+    GWAS: EFO_0000690
+    MESH: D012507
+    SNOMED-CT: 31541009
+    FINNGEN: D3_SARCOIDOSIS
+  short_desc: An idiopathic inflammatory disorder characterized by the formation of
+    non-necrotizing epithelioid granulomas which contain giant cells. It usually affects
+    the lungs, lymph nodes, liver, and skin.
+  long_desc: null
+  priority: 2
+definitions:
+  22173:
+    metadata:
+      desc: Recent medication for sarcoidosis
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: 'Yes'
+      type: any
+  22133:
+    metadata:
+      desc: Doctor diagnosed sarcoidosis
+      time_qualifier:
+        field_id: 22153
+        type: age
+    values:
+    - code: '1'
+      value: sarcoidosis
+      type: any
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1371'
+      value: sarcoidosis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D86
+      value: Sarcoidosis
+      type: any
+    - code: G53.2
+      value: Multiple cranial nerve palsies in sarcoidosis
+      type: any
+    - code: M63.3
+      value: Myositis in sarcoidosis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D86
+      value: Sarcoidosis
+      type: any
+    - code: G53.2
+      value: Multiple cranial nerve palsies in sarcoidosis
+      type: any
+    - code: M63.3
+      value: Myositis in sarcoidosis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D86
+      value: Sarcoidosis
+      type: any
+    - code: G53.2
+      value: Multiple cranial nerve palsies in sarcoidosis
+      type: any
+    - code: M63.3
+      value: Myositis in sarcoidosis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D86
+      value: Sarcoidosis
+      type: any
+    - code: G53.2
+      value: Multiple cranial nerve palsies in sarcoidosis
+      type: any
+    - code: M63.3
+      value: Myositis in sarcoidosis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: AD50.00
+      value: Sarcoidosis of lung
+      type: any
+    - code: AD51.00
+      value: Sarcoidosis of lymph nodes
+      type: any
+    - code: AD52.00
+      value: Sarcoidosis of lung with sarcoidosis of lymph nodes
+      type: any
+    - code: AD53000
+      value: Lupus pernio
+      type: any
+    - code: AD53.00
+      value: Sarcoidosis of skin
+      type: any
+    - code: AD54.00
+      value: Sarcoidosis of inferior turbinates
+      type: any
+    - code: AD55.00
+      value: Sarcoid arthropathy
+      type: any
+    - code: AD5..00
+      value: Sarcoidosis
+      type: any
+    - code: Cyu0600
+      value: '[X]Sarcoidosis of other and combined sites'
+      type: any
+    - code: F013.00
+      value: Meningitis due to sarcoidosis
+      type: any
+    - code: F326300
+      value: Multiple cranial nerve palsies in sarcoidosis
+      type: any
+    - code: F374900
+      value: Polyneuropathy in sarcoidosis
+      type: any
+    - code: F396500
+      value: Myopathy due to sarcoidosis
+      type: any
+    - code: G558300
+      value: Sarcoid heart disease
+      type: any
+    - code: G5y7.00
+      value: Sarcoid myocarditis
+      type: any
+    - code: H57y200
+      value: Pulmonary sarcoidosis
+      type: any
+    - code: J63A.00
+      value: Hepatic granulomas in sarcoidosis
+      type: any
+    - code: N233200
+      value: Myositis in sarcoidosis
+      type: any
+    - code: X20GY
+      value: Lupus pernio
+      type: any
+    - code: XaCL7
+      value: Sarcoidosis of inferior turbinates
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

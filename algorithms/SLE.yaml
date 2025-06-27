@@ -1,0 +1,225 @@
+metadata:
+  phenotype: Lupus erythematosus (local and systemic)
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: SLE
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 19a755ad-b706-45f2-affe-15b8a7003325
+  ontologies:
+    DOID: DOID_8857
+    GWAS: EFO_0003834
+    MESH: D008180
+    SNOMED-CT: 200936003
+    FINNGEN: L12_LUPUS
+  short_desc: A long-term condition causing inflammation to the joints, skin and other
+    organs.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1381'
+      value: systemic lupus erythematosis/sle
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: L93
+      value: Lupus erythematosus
+      type: any
+    - code: M32
+      value: Systemic lupus erythematosus
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: L93
+      value: Lupus erythematosus
+      type: any
+    - code: M32
+      value: Systemic lupus erythematosus
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: L93
+      value: Lupus erythematosus
+      type: any
+    - code: M32
+      value: Systemic lupus erythematosus
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: L93
+      value: Lupus erythematosus
+      type: any
+    - code: M32
+      value: Systemic lupus erythematosus
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: F371000
+      value: Polyneuropathy in disseminated lupus erythematosus
+      type: any
+    - code: F396100
+      value: Myopathy due to disseminated lupus erythematosus
+      type: any
+    - code: F4D3300
+      value: Eyelid discoid lupus erythematosus
+      type: any
+    - code: H57y400
+      value: Lung disease with systemic lupus erythematosus
+      type: any
+    - code: K01x400
+      value: Nephrotic syndrome in systemic lupus erythematosus
+      type: any
+    - code: K01x411
+      value: Lupus nephritis
+      type: any
+    - code: K0B4000
+      value: Renal tubulo-interstitial disorder in SLE
+      type: any
+    - code: M154000
+      value: Lupus erythematosus chronicus
+      type: any
+    - code: M154100
+      value: Discoid lupus erythematosus
+      type: any
+    - code: M154200
+      value: Lupus erythematosus migrans
+      type: any
+    - code: M154300
+      value: Lupus erythematosus nodularis
+      type: any
+    - code: M154400
+      value: Lupus erythematosus profundus
+      type: any
+    - code: M154500
+      value: Lupus erythematosus tumidus
+      type: any
+    - code: M154600
+      value: Lupus erythematosus unguium mutilans
+      type: any
+    - code: M154700
+      value: Subacute cutaneous lupus erythematosus
+      type: any
+    - code: M154.00
+      value: Lupus erythematosus
+      type: any
+    - code: M154z00
+      value: Lupus erythematosus NOS
+      type: any
+    - code: Myu7800
+      value: '[X]Other local lupus erythematosus'
+      type: any
+    - code: N000000
+      value: Disseminated lupus erythematosus
+      type: any
+    - code: N000100
+      value: Libman-Sacks disease
+      type: any
+    - code: N000200
+      value: Drug-induced systemic lupus erythematosus
+      type: any
+    - code: N000300
+      value: Systemic lupus erythematosus with organ or sys involv
+      type: any
+    - code: N000400
+      value: Systemic lupus erythematosus with pericarditis
+      type: any
+    - code: N000600
+      value: Cerebral lupus
+      type: any
+    - code: N000.00
+      value: Systemic lupus erythematosus
+      type: any
+    - code: N000z00
+      value: Systemic lupus erythematosus NOS
+      type: any
+    - code: Nyu4300
+      value: '[X]Other forms of systemic lupus erythematosus'
+      type: any
+    - code: ZRq8.00
+      value: Systemic lupus activity measure
+      type: any
+    - code: ZRq8.11
+      value: SLAM - Systemic lupus activity measure
+      type: any
+    - code: ZRq9.00
+      value: Systemic lupus erythematosus disease activity index
+      type: any
+    - code: ZRq9.11
+      value: SLEDAI-Sys lup ery dis act ind
+      type: any
+    - code: XaC1J
+      value: Systemic lupus erythematosus with pericarditis
+      type: any
+    - code: XaBE1
+      value: Renal tubulo-interstitial disorder in systemic lupus erythematosus
+      type: any
+    - code: X704h
+      value: Subacute cutaneous lupus erythematosus
+      type: any
+    - code: X00Dx
+      value: Cerebral lupus
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

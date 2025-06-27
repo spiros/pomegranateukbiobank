@@ -1,0 +1,197 @@
+metadata:
+  phenotype: Patent ductus arteriosus
+  group: Perinatal
+  is_cancer: '0'
+  is_adult: '0'
+  variable_name: PDA
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 35292ea1-b99f-4976-81d3-1062629ba597
+  ontologies:
+    DOID: DOID_13832
+    GWAS: null
+    MESH: D004374
+    SNOMED-CT: '83330001'
+    FINNGEN: Q17_PDA
+  short_desc: A congenital heart defect characterized by the persistent opening of
+    fetal ductus arteriosus that connects the pulmonary artery to the descending aorta,
+    allowing unoxygenated blood to bypass the lung and flow to the placenta. Normally,
+    the ductus is closed shortly after birth.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: Q25.0
+      value: Patent ductus arteriosus
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: Q25.0
+      value: Patent ductus arteriosus
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: L02
+      value: Open correction of patent ductus arteriosus
+      type: any
+    - code: L02.1
+      value: Division of patent ductus arteriosus
+      type: any
+    - code: L02.2
+      value: Ligature of patent ductus arteriosus
+      type: any
+    - code: L02.3
+      value: Closure of patent ductus arteriosus NEC
+      type: any
+    - code: L02.4
+      value: Revision of correction of patent ductus arteriosus
+      type: any
+    - code: L02.8
+      value: Other specified open correction of patent ductus arteriosus
+      type: any
+    - code: L02.9
+      value: Unspecified open correction of patent ductus arteriosus
+      type: any
+    - code: L03
+      value: Transluminal operations on abnormality of great vessel
+      type: any
+    - code: L03.1
+      value: Percutaneous transluminal prosthetic occlusion of patent ductus arteriosus
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: L02
+      value: L02
+      type: any
+    - code: L02.1
+      value: L02.1
+      type: any
+    - code: L02.2
+      value: L02.2
+      type: any
+    - code: L02.3
+      value: L02.3
+      type: any
+    - code: L02.4
+      value: L02.4
+      type: any
+    - code: L02.8
+      value: L02.8
+      type: any
+    - code: L02.9
+      value: L02.9
+      type: any
+    - code: L03
+      value: L03
+      type: any
+    - code: L03.1
+      value: L03.1
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: Q25.0
+      value: Patent ductus arteriosus
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: Q25.0
+      value: Patent ductus arteriosus
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 7A01000
+      value: Division of patent ductus arteriosus
+      type: any
+    - code: 7A01100
+      value: Ligation of patent ductus arteriosus
+      type: any
+    - code: 7A01200
+      value: Closure of patent ductus arteriosus NEC
+      type: any
+    - code: 7A01300
+      value: Revision of correction of patent ductus arteriosus
+      type: any
+    - code: 7A01.00
+      value: Open correction of patent ductus arteriosus
+      type: any
+    - code: 7A01.11
+      value: Open correction of patent ductus arteriosus (PDA)
+      type: any
+    - code: 7A01y00
+      value: Other specified open correction of patent ductus arteriosus
+      type: any
+    - code: 7A01z00
+      value: Open correction of patent ductus arteriosus NOS
+      type: any
+    - code: 7A02000
+      value: Percut transluminal prosth occlusion patent ductus arterios
+      type: any
+    - code: 7A02011
+      value: Percut translum prosth occlus patent ductus arteriosus (PDA)
+      type: any
+    - code: P70..00
+      value: Patent ductus arteriosus
+      type: any
+    - code: P70..11
+      value: Botalli's patent ductus
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

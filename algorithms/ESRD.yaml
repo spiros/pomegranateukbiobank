@@ -1,0 +1,866 @@
+metadata:
+  phenotype: End stage renal disease
+  group: Genitourinary
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: ESRD
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: e9c33ff7-d8ae-4e7d-a888-17ba435ef96b
+  ontologies:
+    DOID: DOID_783
+    GWAS: EFO_0003884
+    MESH: D007676
+    SNOMED-CT: 46177005
+    FINNGEN: N14_DIALYSIS
+  short_desc: End-stage renal failure, also known as end-stage renal disease (ESRD),
+    is the final, permanent stage of chronic kidney disease, where kidney function
+    has declined to the point that the kidneys can no longer function on their own.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1193'
+      value: renal failure requiring dialysis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values:
+    - code: '1195'
+      value: Renal/kidney transplant
+      type: any
+    - code: '1580'
+      value: Dialysis access surgery
+      type: any
+    - code: '1581'
+      value: Haemodialysis access/fistula surgery
+      type: any
+    - code: '1582'
+      value: Peritoneal dialysis (capd) access surgery
+      type: any
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: N18.5
+      value: Chronic kidney disease, stage 5
+      type: any
+    - code: T82.4
+      value: Mechanical complication of vascular dialysis catheter
+      type: any
+    - code: Y60.2
+      value: During kidney dialysis or other perfusion
+      type: any
+    - code: Y61.2
+      value: During kidney dialysis or other perfusion
+      type: any
+    - code: Y84.1
+      value: Kidney dialysis
+      type: any
+    - code: Z49.1
+      value: Extracorporeal dialysis
+      type: any
+    - code: Z49.2
+      value: Other dialysis
+      type: any
+    - code: Z99.2
+      value: Dependence on renal dialysis
+      type: any
+    - code: N16.5
+      value: Renal tubulo-interstitial disorders in transplant rejection
+      type: any
+    - code: T86.1
+      value: Kidney transplant failure and rejection
+      type: any
+    - code: Z94.0
+      value: Kidney transplant status
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: N18.5
+      value: Chronic kidney disease, stage 5
+      type: any
+    - code: T82.4
+      value: Mechanical complication of vascular dialysis catheter
+      type: any
+    - code: Y60.2
+      value: During kidney dialysis or other perfusion
+      type: any
+    - code: Y61.2
+      value: During kidney dialysis or other perfusion
+      type: any
+    - code: Y84.1
+      value: Kidney dialysis
+      type: any
+    - code: Z49.1
+      value: Extracorporeal dialysis
+      type: any
+    - code: Z49.2
+      value: Other dialysis
+      type: any
+    - code: Z99.2
+      value: Dependence on renal dialysis
+      type: any
+    - code: N16.5
+      value: Renal tubulo-interstitial disorders in transplant rejection
+      type: any
+    - code: T86.1
+      value: Kidney transplant failure and rejection
+      type: any
+    - code: Z94.0
+      value: Kidney transplant status
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: L74.6
+      value: Creation of graft fistula for dialysis
+      type: any
+    - code: M01.1
+      value: Autotransplantation of kidney
+      type: any
+    - code: M01.2
+      value: Allotransplantation of kidney from live donor
+      type: any
+    - code: M01.3
+      value: Allotransplantation of kidney from cadaver NEC
+      type: any
+    - code: M01.4
+      value: Allotransplantation of kidney from cadaver heart beating
+      type: any
+    - code: M01.5
+      value: Allotransplantation of kidney from cadaver heart non-beating
+      type: any
+    - code: M01.8
+      value: Other specified transplantation of kidney
+      type: any
+    - code: M01.9
+      value: Unspecified transplantation of kidney
+      type: any
+    - code: M02.6
+      value: Excision of rejected transplanted kidney
+      type: any
+    - code: M02.7
+      value: Excision of transplanted kidney NEC
+      type: any
+    - code: M08.4
+      value: Exploration of transplanted kidney
+      type: any
+    - code: M17.2
+      value: Pre-transplantation of kidney work-up - recipient
+      type: any
+    - code: M17.4
+      value: Post-transplantation of kidney examination - recipient
+      type: any
+    - code: M17.8
+      value: Other specified interventions associated with transplantation of kidney
+      type: any
+    - code: M17.9
+      value: Unspecified interventions associated with transplantation of kidney
+      type: any
+    - code: X40.1
+      value: Renal dialysis
+      type: any
+    - code: X40.2
+      value: Peritoneal dialysis NEC
+      type: any
+    - code: X40.3
+      value: Haemodialysis NEC
+      type: any
+    - code: X40.5
+      value: Automated peritoneal dialysis
+      type: any
+    - code: X40.6
+      value: Continuous ambulatory peritoneal dialysis
+      type: any
+    - code: X41.1
+      value: Insertion of ambulatory peritoneal dialysis catheter
+      type: any
+    - code: X41.2
+      value: Removal of ambulatory peritoneal dialysis catheter
+      type: any
+    - code: X42.1
+      value: Insertion of temporary peritoneal dialysis catheter
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: L74.6
+      value: L74.6
+      type: any
+    - code: M01.1
+      value: M01.1
+      type: any
+    - code: M01.2
+      value: M01.2
+      type: any
+    - code: M01.3
+      value: M01.3
+      type: any
+    - code: M01.4
+      value: M01.4
+      type: any
+    - code: M01.5
+      value: M01.5
+      type: any
+    - code: M01.8
+      value: M01.8
+      type: any
+    - code: M01.9
+      value: M01.9
+      type: any
+    - code: M02.6
+      value: M02.6
+      type: any
+    - code: M02.7
+      value: M02.7
+      type: any
+    - code: M08.4
+      value: M08.4
+      type: any
+    - code: M17.2
+      value: M17.2
+      type: any
+    - code: M17.4
+      value: M17.4
+      type: any
+    - code: M17.8
+      value: M17.8
+      type: any
+    - code: M17.9
+      value: M17.9
+      type: any
+    - code: X40.1
+      value: X40.1
+      type: any
+    - code: X40.2
+      value: X40.2
+      type: any
+    - code: X40.3
+      value: X40.3
+      type: any
+    - code: X40.5
+      value: X40.5
+      type: any
+    - code: X40.6
+      value: X40.6
+      type: any
+    - code: X41.1
+      value: X41.1
+      type: any
+    - code: X41.2
+      value: X41.2
+      type: any
+    - code: X42.1
+      value: X42.1
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N18.5
+      value: Chronic kidney disease, stage 5
+      type: any
+    - code: T82.4
+      value: Mechanical complication of vascular dialysis catheter
+      type: any
+    - code: Y60.2
+      value: During kidney dialysis or other perfusion
+      type: any
+    - code: Y61.2
+      value: During kidney dialysis or other perfusion
+      type: any
+    - code: Y84.1
+      value: Kidney dialysis
+      type: any
+    - code: Z49.1
+      value: Extracorporeal dialysis
+      type: any
+    - code: Z49.2
+      value: Other dialysis
+      type: any
+    - code: Z99.2
+      value: Dependence on renal dialysis
+      type: any
+    - code: N16.5
+      value: Renal tubulo-interstitial disorders in transplant rejection
+      type: any
+    - code: T86.1
+      value: Kidney transplant failure and rejection
+      type: any
+    - code: Z94.0
+      value: Kidney transplant status
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N18.5
+      value: Chronic kidney disease, stage 5
+      type: any
+    - code: T82.4
+      value: Mechanical complication of vascular dialysis catheter
+      type: any
+    - code: Y60.2
+      value: During kidney dialysis or other perfusion
+      type: any
+    - code: Y61.2
+      value: During kidney dialysis or other perfusion
+      type: any
+    - code: Y84.1
+      value: Kidney dialysis
+      type: any
+    - code: Z49.1
+      value: Extracorporeal dialysis
+      type: any
+    - code: Z49.2
+      value: Other dialysis
+      type: any
+    - code: Z99.2
+      value: Dependence on renal dialysis
+      type: any
+    - code: N16.5
+      value: Renal tubulo-interstitial disorders in transplant rejection
+      type: any
+    - code: T86.1
+      value: Kidney transplant failure and rejection
+      type: any
+    - code: Z94.0
+      value: Kidney transplant status
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14S2.00
+      value: 'H/O: kidney recipient'
+      type: prevalent
+    - code: 14V2.00
+      value: 'H/O: renal dialysis'
+      type: prevalent
+    - code: 14V2.11
+      value: 'H/O: kidney dialysis'
+      type: prevalent
+    - code: 1Z14.00
+      value: Chronic kidney disease stage 5
+      type: any
+    - code: 1Z1K.00
+      value: Chronic kidney disease stage 5 with proteinuria
+      type: any
+    - code: 1Z1L.00
+      value: Chronic kidney disease stage 5 without proteinuria
+      type: any
+    - code: 1Z1L.11
+      value: CKD stage 5 without proteinuria
+      type: any
+    - code: 4I29.00
+      value: Peritoneal dialysis sample
+      type: any
+    - code: 4N0..00
+      value: Dialysis fluid urea level
+      type: any
+    - code: 4N2..00
+      value: Dialysis fluid glucose level
+      type: any
+    - code: 7B00100
+      value: Transplantation of kidney from live donor
+      type: any
+    - code: 7B00111
+      value: Allotransplantation of kidney from live donor
+      type: any
+    - code: 7B00200
+      value: Transplantation of kidney from cadaver
+      type: any
+    - code: 7B00211
+      value: Allotransplantation of kidney from cadaver
+      type: any
+    - code: 7B00212
+      value: Cadaveric renal transplant
+      type: any
+    - code: 7B00300
+      value: Allotransplantation of kidney from cadaver, heart-beating
+      type: any
+    - code: 7B00400
+      value: Allotransplantation kidney from cadaver, heart non-beating
+      type: any
+    - code: 7B00500
+      value: Allotransplantation of kidney from cadaver NEC
+      type: any
+    - code: 7B00.00
+      value: Transplantation of kidney
+      type: any
+    - code: 7B00y00
+      value: Other specified transplantation of kidney
+      type: any
+    - code: 7B00z00
+      value: Transplantation of kidney NOS
+      type: any
+    - code: 7B01511
+      value: Excision of rejected transplanted kidney
+      type: any
+    - code: 7B06300
+      value: Exploration of renal transplant
+      type: any
+    - code: 7B0F300
+      value: Post-transplantation of kidney examination, recipient
+      type: any
+    - code: 7B0F.00
+      value: Interventions associated with transplantation of kidney
+      type: any
+    - code: 7B0Fy00
+      value: OS interventions associated with transplantation of kidney
+      type: any
+    - code: 7B0Fz00
+      value: Interventions associated with transplantation of kidney NOS
+      type: any
+    - code: 7L1A000
+      value: Renal dialysis
+      type: any
+    - code: 7L1A011
+      value: Thomas intravascular shunt for dialysis
+      type: any
+    - code: 7L1A100
+      value: Peritoneal dialysis
+      type: any
+    - code: 7L1A200
+      value: Haemodialysis NEC
+      type: any
+    - code: 7L1A400
+      value: Automated peritoneal dialysis
+      type: any
+    - code: 7L1A500
+      value: Continuous ambulatory peritoneal dialysis
+      type: any
+    - code: 7L1A600
+      value: Peritoneal dialysis NEC
+      type: any
+    - code: 7L1A.11
+      value: Dialysis for renal failure
+      type: any
+    - code: 7L1B000
+      value: Insertion of ambulatory peritoneal dialysis catheter
+      type: any
+    - code: 7L1B100
+      value: Removal of ambulatory peritoneal dialysis catheter
+      type: any
+    - code: 7L1B200
+      value: Flushing of peritoneal dialysis catheter
+      type: any
+    - code: 7L1B.11
+      value: Placement ambulatory dialysis apparatus - compens renal fail
+      type: any
+    - code: 7L1C000
+      value: Insertion of temporary peritoneal dialysis catheter
+      type: any
+    - code: '8882.00'
+      value: Intestinal dialysis
+      type: any
+    - code: G72C.00
+      value: Ruptured aneurysm of dialysis vascular access
+      type: any
+    - code: G72D000
+      value: Aneurysm of superficialised artery of dialysis AV fistula
+      type: any
+    - code: G72D100
+      value: Aneurysm of needle site of dialysis arteriovenous fistula
+      type: any
+    - code: G72D200
+      value: Aneurysm of anastomotic site of dialysis AV fistula
+      type: any
+    - code: G72D.00
+      value: Aneurysm of dialysis arteriovenous fistula
+      type: any
+    - code: Gy10.00
+      value: Stenosis of dialysis arteriovenous graft
+      type: any
+    - code: Gy1..00
+      value: Stenosis of dialysis vascular access
+      type: any
+    - code: Gy21.00
+      value: Thrombosis of dialysis arteriovenous fistula
+      type: any
+    - code: Gy2..00
+      value: Thrombosis of dialysis vascular access
+      type: any
+    - code: Gy30.00
+      value: Occlusion of dialysis arteriovenous graft
+      type: any
+    - code: Gy31.00
+      value: Occlusion of dialysis arteriovenous fistula
+      type: any
+    - code: Gy3..00
+      value: Occlusion of dialysis vascular access
+      type: any
+    - code: Gy40.00
+      value: Infection of dialysis arteriovenous graft
+      type: any
+    - code: Gy41.00
+      value: Infection of dialysis arteriovenous fistula
+      type: any
+    - code: Gy4..00
+      value: Infection of dialysis vascular access
+      type: any
+    - code: Gy51.00
+      value: Haemorrhage of dialysis arteriovenous fistula
+      type: any
+    - code: Gy5..00
+      value: Haemorrhage of dialysis vascular access
+      type: any
+    - code: Gy60.00
+      value: Rupture of dialysis arteriovenous graft
+      type: any
+    - code: K050.00
+      value: End stage renal failure
+      type: any
+    - code: K05..12
+      value: End stage renal failure
+      type: any
+    - code: K0B5.00
+      value: Renal tubulo-interstitial disordrs in transplant rejectn
+      type: any
+    - code: K0D..00
+      value: End-stage renal disease
+      type: any
+    - code: Kyu1C00
+      value: '[X]Renal tubulo-interstitial disorders/transplant rejection'
+      type: any
+    - code: SP01500
+      value: Mechanical complication of dialysis catheter
+      type: any
+    - code: SP05613
+      value: '[X] Peritoneal dialysis associated peritonitis'
+      type: any
+    - code: SP06B00
+      value: Continuous ambulatory peritoneal dialysis associated perit
+      type: any
+    - code: SP07G00
+      value: Stenosis of arteriovenous dialysis fistula
+      type: any
+    - code: SP08300
+      value: Kidney transplant failure and rejection
+      type: any
+    - code: SP08D00
+      value: Acute-on-chronic rejection of renal transplant
+      type: any
+    - code: SP08E00
+      value: Acute rejection of renal transplant - grade I
+      type: any
+    - code: SP08F00
+      value: Acute rejection of renal transplant - grade II
+      type: any
+    - code: SP08G00
+      value: Acute rejection of renal transplant - grade III
+      type: any
+    - code: SP08H00
+      value: Acute rejection of renal transplant
+      type: any
+    - code: SP08J00
+      value: Chronic rejection of renal transplant
+      type: any
+    - code: SP08N00
+      value: Unexplained episode of renal transplant dysfunction
+      type: any
+    - code: SP08P00
+      value: Stenosis of vein of transplanted kidney
+      type: any
+    - code: SP08R00
+      value: Renal transplant rejection
+      type: any
+    - code: SP08T00
+      value: Urological complication of renal transplant
+      type: any
+    - code: SP08V00
+      value: Very mild acute rejection of renal transplant
+      type: any
+    - code: SP08W00
+      value: Vascular complication of renal transplant
+      type: any
+    - code: SP0E.00
+      value: Disorders associated with peritoneal dialysis
+      type: any
+    - code: SP0F.00
+      value: Haemodialysis first use syndrome
+      type: any
+    - code: SP0G.00
+      value: Anaphylactoid reaction due to haemodialysis
+      type: any
+    - code: TA02000
+      value: Accid cut,puncture,perf,h'ge - kidney dialysis
+      type: any
+    - code: TA22000
+      value: Failure of sterile precautions during kidney dialysis
+      type: any
+    - code: TB00100
+      value: Kidney transplant with complication, without blame
+      type: any
+    - code: TB00111
+      value: Renal transplant with complication, without blame
+      type: any
+    - code: TB11.00
+      value: Kidney dialysis with complication, without blame
+      type: any
+    - code: TB11.11
+      value: Renal dialysis with complication, without blame
+      type: any
+    - code: Z1A1.00
+      value: Peritoneal dialysis training
+      type: any
+    - code: Z1A2.00
+      value: Haemodialysis training
+      type: any
+    - code: Z1A..00
+      value: Dialysis training
+      type: any
+    - code: Z919100
+      value: Priming haemodialysis lines
+      type: any
+    - code: Z919200
+      value: Washing back through haemodialysis lines
+      type: any
+    - code: Z919300
+      value: Reversing haemodialysis lines
+      type: any
+    - code: Z919.00
+      value: Care of haemodialysis equipment
+      type: any
+    - code: Z91A.00
+      value: Peritoneal dialysis bag procedure
+      type: any
+    - code: ZV42000
+      value: '[V]Kidney transplanted'
+      type: any
+    - code: ZV45100
+      value: '[V]Renal dialysis status'
+      type: any
+    - code: ZV56000
+      value: '[V]Aftercare involving extracorporeal dialysis'
+      type: any
+    - code: ZV56011
+      value: '[V]Aftercare involving renal dialysis NOS'
+      type: any
+    - code: ZV56y00
+      value: '[V]Other specified aftercare involving intermittent dialysis'
+      type: any
+    - code: ZV56y11
+      value: '[V]Aftercare involving peritoneal dialysis'
+      type: any
+    - code: ZV56.00
+      value: '[V]Aftercare involving intermittent dialysis'
+      type: any
+    - code: ZV56z00
+      value: '[V]Unspecified aftercare involving intermittent dialysis'
+      type: any
+    - code: ZVu3G00
+      value: '[X]Other dialysis'
+      type: any
+    - code: XaMMt
+      value: Peritoneal dialysis NEC
+      type: any
+    - code: XaZcX
+      value: Aneurysm of needle site of dialysis arteriovenous fistula
+      type: any
+    - code: X30MU
+      value: Acute rejection of renal transplant - grade I
+      type: any
+    - code: XE0Fv
+      value: Transplant nephrectomy
+      type: any
+    - code: XaMKM
+      value: Allotransplantation of kidney from cadaver NEC
+      type: any
+    - code: X30MT
+      value: Acute rejection of renal transplant
+      type: any
+    - code: Xaa7K
+      value: Rupture of dialysis arteriovenous graft
+      type: any
+    - code: XaZlu
+      value: Stenosis of dialysis vascular access
+      type: any
+    - code: XE0Jf
+      value: Compensation for renal failure
+      type: any
+    - code: XaM1p
+      value: Allotransplantation of kidney from cadaver, heart non-beating
+      type: any
+    - code: XaM1o
+      value: Allotransplantation of kidney from cadaver, heart-beating
+      type: any
+    - code: XaLHK
+      value: Chronic kidney disease stage 5
+      type: any
+    - code: Xaa5f
+      value: Thrombosis of dialysis arteriovenous fistula
+      type: any
+    - code: X40c3
+      value: Continuous ambulatory peritoneal dialysis
+      type: any
+    - code: Xaa5W
+      value: Stenosis of dialysis arteriovenous graft
+      type: any
+    - code: XaZcQ
+      value: Aneurysm of superficialised artery of dialysis arteriovenous fistula
+      type: any
+    - code: XaREO
+      value: Continuous ambulatory peritoneal dialysis associated peritonitis
+      type: any
+    - code: Xaa5U
+      value: Haemorrhage of dialysis vascular access
+      type: any
+    - code: Xaa5h
+      value: Occlusion of dialysis arteriovenous graft
+      type: any
+    - code: Xaa5S
+      value: Occlusion of dialysis vascular access
+      type: any
+    - code: X30MV
+      value: Acute rejection of renal transplant - grade II
+      type: any
+    - code: XaM4l
+      value: Post-transplantation of kidney examination, recipient
+      type: any
+    - code: XE0df
+      value: Chronic renal failure
+      type: any
+    - code: XaZe7
+      value: Stenosis of vein of transplanted kidney
+      type: any
+    - code: XaZYx
+      value: Vascular complication of renal transplant
+      type: any
+    - code: XaM2A
+      value: Automated peritoneal dialysis
+      type: any
+    - code: X30M7
+      value: Disorders associated with peritoneal dialysis
+      type: any
+    - code: Xaa6n
+      value: Infection of dialysis arteriovenous graft
+      type: any
+    - code: XaZlv
+      value: Thrombosis of dialysis vascular access
+      type: any
+    - code: XE0Jg
+      value: Renal dialysis
+      type: any
+    - code: XaZcU
+      value: Aneurysm of dialysis arteriovenous fistula
+      type: any
+    - code: Xaa5i
+      value: Occlusion of dialysis arteriovenous fistula
+      type: any
+    - code: Xaa6o
+      value: Infection of dialysis arteriovenous fistula
+      type: any
+    - code: X30MX
+      value: Chronic rejection of renal transplant
+      type: any
+    - code: XaJkg
+      value: Dialysis fluid glucose level
+      type: any
+    - code: XaM4g
+      value: Interventions associated with transplantation of kidney NOS
+      type: any
+    - code: X30MS
+      value: Very mild acute rejection of renal transplant
+      type: any
+    - code: XaO41
+      value: Chronic kidney disease stage 5 with proteinuria
+      type: any
+    - code: X30MP
+      value: Renal transplant rejection
+      type: any
+    - code: XaZcd
+      value: Aneurysm of anastomotic site of dialysis arteriovenous fistula
+      type: any
+    - code: XaKyg
+      value: Stenosis of arteriovenous dialysis fistula
+      type: any
+    - code: Xa0HK
+      value: Unexplained episode of renal transplant dysfunction
+      type: any
+    - code: XaO42
+      value: Chronic kidney disease stage 5 without proteinuria
+      type: any
+    - code: XaM4e
+      value: Interventions associated with transplantation of kidney
+      type: any
+    - code: Xaa7I
+      value: Haemorrhage of dialysis arteriovenous fistula
+      type: any
+    - code: XaJke
+      value: Dialysis fluid urea level
+      type: any
+    - code: X30J0
+      value: End stage renal failure
+      type: any
+    - code: XaZWa
+      value: Urological complication of renal transplant
+      type: any
+    - code: XaM4f
+      value: Other specified interventions associated with transplantation of kidney
+      type: any
+    - code: Xaa5T
+      value: Infection of dialysis vascular access
+      type: any
+    - code: XaZmp
+      value: Anaphylactoid reaction due to haemodialysis
+      type: any
+    - code: SyuKH
+      value: '[X]Infection and inflammatory reaction due to other internal prosthetic
+        devices, implants and grafts'
+      type: any
+    - code: X30Mb
+      value: Acute-on-chronic rejection of renal transplant
+      type: any
+    - code: XaZc8
+      value: Ruptured aneurysm of dialysis vascular access
+      type: any
+    - code: X30MW
+      value: Acute rejection of renal transplant - grade III
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

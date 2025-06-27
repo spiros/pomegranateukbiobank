@@ -1,0 +1,369 @@
+metadata:
+  phenotype: Mycoses
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: mycoses
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 24f8b493-8cf7-43be-9d1c-820d4c7a1b67
+  ontologies:
+    DOID: DOID_1564
+    GWAS: null
+    MESH: D009181
+    SNOMED-CT: 3218000
+    FINNGEN: AB1_MYCOSES
+  short_desc: A disease by infectious agent that results_in infection, has_material_basis_in
+    Fungi, which pass the resistance barriers of the human or animal body.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: B20.4
+      value: HIV disease resulting in candidiasis
+      type: any
+    - code: B20.5
+      value: HIV disease resulting in other mycoses
+      type: any
+    - code: B20.6
+      value: HIV disease resulting in Pneumocystis jirovecii pneumonia
+      type: any
+    - code: B35
+      value: Dermatophytosis
+      type: any
+    - code: B36
+      value: Other superficial mycoses
+      type: any
+    - code: B37
+      value: Candidiasis
+      type: any
+    - code: B38
+      value: Coccidioidomycosis
+      type: any
+    - code: B39
+      value: Histoplasmosis
+      type: any
+    - code: B40
+      value: Blastomycosis
+      type: any
+    - code: B41
+      value: Paracoccidioidomycosis
+      type: any
+    - code: B42
+      value: Sporotrichosis
+      type: any
+    - code: B43
+      value: Chromomycosis and phaeomycotic abscess
+      type: any
+    - code: B44
+      value: Aspergillosis
+      type: any
+    - code: B45
+      value: Cryptococcosis
+      type: any
+    - code: B46
+      value: Zygomycosis
+      type: any
+    - code: B47
+      value: Mycetoma
+      type: any
+    - code: B48
+      value: Other mycoses, not elsewhere classified
+      type: any
+    - code: B49
+      value: Unspecified mycosis
+      type: any
+    - code: B59
+      value: Pneumocystosis
+      type: any
+    - code: G02.1
+      value: Meningitis in mycoses
+      type: any
+    - code: H62.2
+      value: Otitis externa in mycoses
+      type: any
+    - code: J17.2
+      value: Pneumonia in mycoses
+      type: any
+    - code: M01.6
+      value: Arthritis in mycoses
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: B20.4
+      value: HIV disease resulting in candidiasis
+      type: any
+    - code: B20.5
+      value: HIV disease resulting in other mycoses
+      type: any
+    - code: B20.6
+      value: HIV disease resulting in Pneumocystis jirovecii pneumonia
+      type: any
+    - code: B35
+      value: Dermatophytosis
+      type: any
+    - code: B36
+      value: Other superficial mycoses
+      type: any
+    - code: B37
+      value: Candidiasis
+      type: any
+    - code: B38
+      value: Coccidioidomycosis
+      type: any
+    - code: B39
+      value: Histoplasmosis
+      type: any
+    - code: B40
+      value: Blastomycosis
+      type: any
+    - code: B41
+      value: Paracoccidioidomycosis
+      type: any
+    - code: B42
+      value: Sporotrichosis
+      type: any
+    - code: B43
+      value: Chromomycosis and phaeomycotic abscess
+      type: any
+    - code: B44
+      value: Aspergillosis
+      type: any
+    - code: B45
+      value: Cryptococcosis
+      type: any
+    - code: B46
+      value: Zygomycosis
+      type: any
+    - code: B47
+      value: Mycetoma
+      type: any
+    - code: B48
+      value: Other mycoses, not elsewhere classified
+      type: any
+    - code: B49
+      value: Unspecified mycosis
+      type: any
+    - code: B59
+      value: Pneumocystosis
+      type: any
+    - code: G02.1
+      value: Meningitis in mycoses
+      type: any
+    - code: H62.2
+      value: Otitis externa in mycoses
+      type: any
+    - code: J17.2
+      value: Pneumonia in mycoses
+      type: any
+    - code: M01.6
+      value: Arthritis in mycoses
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: B20.4
+      value: HIV disease resulting in candidiasis
+      type: any
+    - code: B20.5
+      value: HIV disease resulting in other mycoses
+      type: any
+    - code: B20.6
+      value: HIV disease resulting in Pneumocystis jirovecii pneumonia
+      type: any
+    - code: B35
+      value: Dermatophytosis
+      type: any
+    - code: B36
+      value: Other superficial mycoses
+      type: any
+    - code: B37
+      value: Candidiasis
+      type: any
+    - code: B38
+      value: Coccidioidomycosis
+      type: any
+    - code: B39
+      value: Histoplasmosis
+      type: any
+    - code: B40
+      value: Blastomycosis
+      type: any
+    - code: B41
+      value: Paracoccidioidomycosis
+      type: any
+    - code: B42
+      value: Sporotrichosis
+      type: any
+    - code: B43
+      value: Chromomycosis and phaeomycotic abscess
+      type: any
+    - code: B44
+      value: Aspergillosis
+      type: any
+    - code: B45
+      value: Cryptococcosis
+      type: any
+    - code: B46
+      value: Zygomycosis
+      type: any
+    - code: B47
+      value: Mycetoma
+      type: any
+    - code: B48
+      value: Other mycoses, not elsewhere classified
+      type: any
+    - code: B49
+      value: Unspecified mycosis
+      type: any
+    - code: B59
+      value: Pneumocystosis
+      type: any
+    - code: G02.1
+      value: Meningitis in mycoses
+      type: any
+    - code: H62.2
+      value: Otitis externa in mycoses
+      type: any
+    - code: J17.2
+      value: Pneumonia in mycoses
+      type: any
+    - code: M01.6
+      value: Arthritis in mycoses
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: B20.4
+      value: HIV disease resulting in candidiasis
+      type: any
+    - code: B20.5
+      value: HIV disease resulting in other mycoses
+      type: any
+    - code: B20.6
+      value: HIV disease resulting in Pneumocystis jirovecii pneumonia
+      type: any
+    - code: B35
+      value: Dermatophytosis
+      type: any
+    - code: B36
+      value: Other superficial mycoses
+      type: any
+    - code: B37
+      value: Candidiasis
+      type: any
+    - code: B38
+      value: Coccidioidomycosis
+      type: any
+    - code: B39
+      value: Histoplasmosis
+      type: any
+    - code: B40
+      value: Blastomycosis
+      type: any
+    - code: B41
+      value: Paracoccidioidomycosis
+      type: any
+    - code: B42
+      value: Sporotrichosis
+      type: any
+    - code: B43
+      value: Chromomycosis and phaeomycotic abscess
+      type: any
+    - code: B44
+      value: Aspergillosis
+      type: any
+    - code: B45
+      value: Cryptococcosis
+      type: any
+    - code: B46
+      value: Zygomycosis
+      type: any
+    - code: B47
+      value: Mycetoma
+      type: any
+    - code: B48
+      value: Other mycoses, not elsewhere classified
+      type: any
+    - code: B49
+      value: Unspecified mycosis
+      type: any
+    - code: B59
+      value: Pneumocystosis
+      type: any
+    - code: G02.1
+      value: Meningitis in mycoses
+      type: any
+    - code: H62.2
+      value: Otitis externa in mycoses
+      type: any
+    - code: J17.2
+      value: Pneumonia in mycoses
+      type: any
+    - code: M01.6
+      value: Arthritis in mycoses
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

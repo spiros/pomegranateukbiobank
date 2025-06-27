@@ -1,0 +1,226 @@
+metadata:
+  phenotype: Female infertility
+  group: Genitourinary
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: female_infertility
+  gender:
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 145d0383-2a91-44cd-8760-740066b520fb
+  ontologies:
+    DOID: DOID_13589
+    GWAS: EFO_0008560
+    MESH: D007247
+    SNOMED-CT: 6738008
+    FINNGEN: N14_FEMALEINFERT
+  short_desc: Diminished or absent ability of a female to achieve conception.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1403'
+      value: female infertility
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: N97
+      value: Female infertility
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: N97
+      value: Female infertility
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N97
+      value: Female infertility
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N97
+      value: Female infertility
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: K26y300
+      value: Infertility due to radiation
+      type: any
+    - code: K26y400
+      value: Infertility in systemic disease
+      type: any
+    - code: K5B0000
+      value: Primary anovulatory infertility
+      type: any
+    - code: K5B0100
+      value: Secondary anovulatory infertility
+      type: any
+    - code: K5B0.00
+      value: Female infertility of anovulatory origin
+      type: any
+    - code: K5B0.11
+      value: Anovular cycle
+      type: any
+    - code: K5B0z00
+      value: Female infertility of anovulatory origin NOS
+      type: any
+    - code: K5B1000
+      value: Primary pituitary - hypothalamic infertility
+      type: any
+    - code: K5B1100
+      value: Secondary pituitary - hypothalamic infertility
+      type: any
+    - code: K5B1.00
+      value: Female infertility of pituitary - hypothalamic origin
+      type: any
+    - code: K5B1z00
+      value: Female infertility of pituitary - hypothalamic cause NOS
+      type: any
+    - code: K5B2000
+      value: Primary tubal infertility
+      type: any
+    - code: K5B2100
+      value: Secondary tubal infertility
+      type: any
+    - code: K5B2300
+      value: Blocked fallopian tube
+      type: any
+    - code: K5B2.00
+      value: Female infertility of tubal origin
+      type: any
+    - code: K5B2z00
+      value: Female infertility of tubal origin NOS
+      type: any
+    - code: K5B3000
+      value: Primary uterine infertility
+      type: any
+    - code: K5B3100
+      value: Secondary uterine infertility
+      type: any
+    - code: K5B3.00
+      value: Female infertility of uterine origin
+      type: any
+    - code: K5B3z00
+      value: Female infertility of uterine origin NOS
+      type: any
+    - code: K5B4000
+      value: Primary cervical infertility
+      type: any
+    - code: K5B4100
+      value: Secondary cervical infertility
+      type: any
+    - code: K5B4.00
+      value: Female infertility of cervical origin
+      type: any
+    - code: K5B5100
+      value: Secondary vaginal infertility
+      type: any
+    - code: K5B5.00
+      value: Female infertility of vaginal origin
+      type: any
+    - code: K5B6.00
+      value: Female infertility associated with male factors
+      type: any
+    - code: K5B7.00
+      value: Female infertility due to diminished ovarian reserve
+      type: any
+    - code: K5B..00
+      value: Infertility - female
+      type: any
+    - code: K5By000
+      value: Primary infertility unspecified
+      type: any
+    - code: K5By100
+      value: Secondary infertility unspecified
+      type: any
+    - code: K5By.00
+      value: Other female infertility
+      type: any
+    - code: K5Byz00
+      value: Other female infertility NOS
+      type: any
+    - code: K5Byz11
+      value: Subfertility
+      type: any
+    - code: K5Bz.00
+      value: Female infertility NOS
+      type: any
+    - code: Kyu9G00
+      value: '[X]Female infertility of other origin'
+      type: any
+    - code: XE0ey
+      value: Other female infertility NOS
+      type: any
+    - code: XE0ex
+      value: Female infertility of anovulatory origin
+      type: any
+    - code: XaZ6K
+      value: Female infertility due to diminished ovarian reserve
+      type: any
+    - code: X409B
+      value: Female infertility associated with male factors
+      type: any
+    - code: X4099
+      value: Blocked fallopian tube
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

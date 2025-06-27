@@ -1,0 +1,138 @@
+metadata:
+  phenotype: Supraventricular tachycardia
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: SVT
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 1fe20f05-4f41-4c3f-ac26-616b51ceca7e
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: D013617
+    SNOMED-CT: 6456007
+    FINNGEN: I9_PAROXTAC
+  short_desc: Supraventricular tachycardia (SVT) is as an abnormally fast or erratic
+    heartbeat that affects the heart's upper chambers.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1487'
+      value: svt / supraventricular tachycardia
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I47.1
+      value: Supraventricular tachycardia
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I47.1
+      value: Supraventricular tachycardia
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I47.1
+      value: Supraventricular tachycardia
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I47.1
+      value: Supraventricular tachycardia
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14AQ.00
+      value: History of supraventricular tachycardia
+      type: prevalent
+    - code: '3274.00'
+      value: 'ECG: paroxysmal atrial tachy.'
+      type: any
+    - code: G570000
+      value: Paroxysmal atrial tachycardia
+      type: any
+    - code: G570100
+      value: Paroxysmal atrioventricular tachycardia
+      type: any
+    - code: G570200
+      value: Paroxysmal junctional tachycardia
+      type: any
+    - code: G570300
+      value: Paroxysmal nodal tachycardia
+      type: any
+    - code: G570.00
+      value: Paroxysmal supraventricular tachycardia
+      type: any
+    - code: G570z00
+      value: Paroxysmal supraventricular tachycardia NOS
+      type: any
+    - code: G57y900
+      value: Supraventricular tachycardia NOS
+      type: any
+    - code: XaLBo
+      value: History of supraventricular tachycardia
+      type: prevalent
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

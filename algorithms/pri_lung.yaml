@@ -1,0 +1,252 @@
+metadata:
+  phenotype: Primary Malignancy_Lung and trachea
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: pri_lung
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 49d08740-922a-47cd-b418-375da010e423
+  ontologies:
+    DOID: DOID_1325
+    GWAS: EFO_0001071
+    MESH: D008175
+    SNOMED-CT: 93880001
+    FINNGEN: C3_BRONCHUS_LUNG
+  short_desc: Malignant neoplasm of bronchus and lung.
+  long_desc: null
+  priority: 2
+definitions:
+  22180:
+    metadata:
+      desc: Recent medication for lung cancer (not mesothelioma)
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: 'Yes'
+      type: any
+  22140:
+    metadata:
+      desc: Doctor diagnosed lung cancer (not mesothelioma)
+      time_qualifier:
+        field_id: 22160
+        type: age
+    values:
+    - code: '1'
+      value: 'Yes'
+      type: any
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1001'
+      value: lung cancer
+      type: any
+    - code: '1006'
+      value: larynx/throat cancer
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C33
+      value: Malignant neoplasm of trachea
+      type: any
+    - code: C34
+      value: Malignant neoplasm of bronchus and lung
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C33
+      value: Malignant neoplasm of trachea
+      type: any
+    - code: C34
+      value: Malignant neoplasm of bronchus and lung
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C33
+      value: Malignant neoplasm of trachea
+      type: any
+    - code: C34
+      value: Malignant neoplasm of bronchus and lung
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C33
+      value: Malignant neoplasm of trachea
+      type: any
+    - code: C34
+      value: Malignant neoplasm of bronchus and lung
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B220100
+      value: Malignant neoplasm of mucosa of trachea
+      type: any
+    - code: B220.00
+      value: Malignant neoplasm of trachea
+      type: any
+    - code: B220z00
+      value: Malignant neoplasm of trachea NOS
+      type: any
+    - code: B221000
+      value: Malignant neoplasm of carina of bronchus
+      type: any
+    - code: B221100
+      value: Malignant neoplasm of hilus of lung
+      type: any
+    - code: B221.00
+      value: Malignant neoplasm of main bronchus
+      type: any
+    - code: B221z00
+      value: Malignant neoplasm of main bronchus NOS
+      type: any
+    - code: B222000
+      value: Malignant neoplasm of upper lobe bronchus
+      type: any
+    - code: B222100
+      value: Malignant neoplasm of upper lobe of lung
+      type: any
+    - code: B222.00
+      value: Malignant neoplasm of upper lobe, bronchus or lung
+      type: any
+    - code: B222.11
+      value: Pancoast's syndrome
+      type: any
+    - code: B222z00
+      value: Malignant neoplasm of upper lobe, bronchus or lung NOS
+      type: any
+    - code: B223000
+      value: Malignant neoplasm of middle lobe bronchus
+      type: any
+    - code: B223100
+      value: Malignant neoplasm of middle lobe of lung
+      type: any
+    - code: B223.00
+      value: Malignant neoplasm of middle lobe, bronchus or lung
+      type: any
+    - code: B223z00
+      value: Malignant neoplasm of middle lobe, bronchus or lung NOS
+      type: any
+    - code: B224000
+      value: Malignant neoplasm of lower lobe bronchus
+      type: any
+    - code: B224100
+      value: Malignant neoplasm of lower lobe of lung
+      type: any
+    - code: B224.00
+      value: Malignant neoplasm of lower lobe, bronchus or lung
+      type: any
+    - code: B224z00
+      value: Malignant neoplasm of lower lobe, bronchus or lung NOS
+      type: any
+    - code: B225.00
+      value: Malignant neoplasm of overlapping lesion of bronchus & lung
+      type: any
+    - code: B22..00
+      value: Malignant neoplasm of trachea, bronchus and lung
+      type: any
+    - code: B22y.00
+      value: Malignant neoplasm of other sites of bronchus or lung
+      type: any
+    - code: B22z.00
+      value: Malignant neoplasm of bronchus or lung NOS
+      type: any
+    - code: B22z.11
+      value: Lung cancer
+      type: any
+    - code: BB5S200
+      value: '[M]Bronchiolo-alveolar adenocarcinoma'
+      type: any
+    - code: BB5S211
+      value: '[M]Alveolar cell carcinoma'
+      type: any
+    - code: BB5S212
+      value: '[M]Bronchiolar carcinoma'
+      type: any
+    - code: BB5S400
+      value: '[M]Alveolar adenocarcinoma'
+      type: any
+    - code: Byu2000
+      value: '[X]Malignant neoplasm of bronchus or lung, unspecified'
+      type: any
+    - code: ZV10100
+      value: '[V]Personal history of malig neop of trachea/bronchus/lung'
+      type: prevalent
+    - code: ZV10111
+      value: '[V]Personal history of malignant neoplasm of bronchus'
+      type: prevalent
+    - code: ZV10112
+      value: '[V]Personal history of malignant neoplasm of lung'
+      type: prevalent
+    - code: XE1vb
+      value: Malignant neoplasm of upper lobe, bronchus or lung
+      type: any
+    - code: XE1vc
+      value: Malignant neoplasm of bronchus or lung NOS
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C33
+      value: Malignant neoplasm of trachea
+      type: any
+    - code: C34
+      value: Malignant neoplasm of bronchus and lung
+      type: any

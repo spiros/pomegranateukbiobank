@@ -1,0 +1,417 @@
+metadata:
+  phenotype: Infections of the digestive system
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: digestive
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 67d56a2b-dec5-4723-89f5-fc1923078079
+  ontologies:
+    DOID: null
+    GWAS: MONDO_0043424
+    MESH: null
+    SNOMED-CT: '312158001'
+    FINNGEN: null
+  short_desc: Infections of the digestive system
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1577'
+      value: typhoid fever
+      type: any
+    - code: '1675'
+      value: giardia / giardiasis
+      type: any
+    - code: '1442'
+      value: helicobacter pylori
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: A00
+      value: Cholera
+      type: any
+    - code: A01
+      value: Typhoid and paratyphoid fevers
+      type: any
+    - code: A02.0
+      value: Salmonella enteritis
+      type: any
+    - code: A03
+      value: Shigellosis
+      type: any
+    - code: A04
+      value: Other bacterial intestinal infections
+      type: any
+    - code: A05
+      value: Other bacterial foodborne intoxications, not elsewhere classified
+      type: any
+    - code: A06.0
+      value: Acute amoebic dysentery
+      type: any
+    - code: A06.1
+      value: Chronic intestinal amoebiasis
+      type: any
+    - code: A06.2
+      value: Amoebic nondysenteric colitis
+      type: any
+    - code: A06.3
+      value: Amoeboma of intestine
+      type: any
+    - code: A07
+      value: Other protozoal intestinal diseases
+      type: any
+    - code: A08
+      value: Viral and other specified intestinal infections
+      type: any
+    - code: A09
+      value: Other gastroenteritis and colitis of infectious and unspecified origin
+      type: any
+    - code: A18.3
+      value: Tuberculosis of intestines, peritoneum and mesenteric glands
+      type: any
+    - code: A21.3
+      value: Gastrointestinal tularaemia
+      type: any
+    - code: A22.2
+      value: Gastrointestinal anthrax
+      type: any
+    - code: B05.4
+      value: Measles with intestinal complications
+      type: any
+    - code: B46.2
+      value: Gastrointestinal mucormycosis
+      type: any
+    - code: B78.0
+      value: Intestinal strongyloidiasis
+      type: any
+    - code: B81
+      value: Other intestinal helminthiases, not elsewhere classified
+      type: any
+    - code: B82
+      value: Unspecified intestinal parasitism
+      type: any
+    - code: B98.0
+      value: Helicobacter pylori [H.pylori] as the cause of diseases classified to
+        other chapters
+      type: any
+    - code: K23.0
+      value: Tuberculous oesophagitis
+      type: any
+    - code: K23.1
+      value: Megaoesophagus in Chagas' disease
+      type: any
+    - code: K63.0
+      value: Abscess of intestine
+      type: any
+    - code: K93.0
+      value: Tuberculous disorders of intestines, peritoneum and mesenteric glands
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: A00
+      value: Cholera
+      type: any
+    - code: A01
+      value: Typhoid and paratyphoid fevers
+      type: any
+    - code: A02.0
+      value: Salmonella enteritis
+      type: any
+    - code: A03
+      value: Shigellosis
+      type: any
+    - code: A04
+      value: Other bacterial intestinal infections
+      type: any
+    - code: A05
+      value: Other bacterial foodborne intoxications, not elsewhere classified
+      type: any
+    - code: A06.0
+      value: Acute amoebic dysentery
+      type: any
+    - code: A06.1
+      value: Chronic intestinal amoebiasis
+      type: any
+    - code: A06.2
+      value: Amoebic nondysenteric colitis
+      type: any
+    - code: A06.3
+      value: Amoeboma of intestine
+      type: any
+    - code: A07
+      value: Other protozoal intestinal diseases
+      type: any
+    - code: A08
+      value: Viral and other specified intestinal infections
+      type: any
+    - code: A09
+      value: Other gastroenteritis and colitis of infectious and unspecified origin
+      type: any
+    - code: A18.3
+      value: Tuberculosis of intestines, peritoneum and mesenteric glands
+      type: any
+    - code: A21.3
+      value: Gastrointestinal tularaemia
+      type: any
+    - code: A22.2
+      value: Gastrointestinal anthrax
+      type: any
+    - code: B05.4
+      value: Measles with intestinal complications
+      type: any
+    - code: B46.2
+      value: Gastrointestinal mucormycosis
+      type: any
+    - code: B78.0
+      value: Intestinal strongyloidiasis
+      type: any
+    - code: B81
+      value: Other intestinal helminthiases, not elsewhere classified
+      type: any
+    - code: B82
+      value: Unspecified intestinal parasitism
+      type: any
+    - code: B98.0
+      value: Helicobacter pylori [H.pylori] as the cause of diseases classified to
+        other chapters
+      type: any
+    - code: K23.0
+      value: Tuberculous oesophagitis
+      type: any
+    - code: K23.1
+      value: Megaoesophagus in Chagas' disease
+      type: any
+    - code: K63.0
+      value: Abscess of intestine
+      type: any
+    - code: K93.0
+      value: Tuberculous disorders of intestines, peritoneum and mesenteric glands
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A00
+      value: Cholera
+      type: any
+    - code: A01
+      value: Typhoid and paratyphoid fevers
+      type: any
+    - code: A02.0
+      value: Salmonella enteritis
+      type: any
+    - code: A03
+      value: Shigellosis
+      type: any
+    - code: A04
+      value: Other bacterial intestinal infections
+      type: any
+    - code: A05
+      value: Other bacterial foodborne intoxications, not elsewhere classified
+      type: any
+    - code: A06.0
+      value: Acute amoebic dysentery
+      type: any
+    - code: A06.1
+      value: Chronic intestinal amoebiasis
+      type: any
+    - code: A06.2
+      value: Amoebic nondysenteric colitis
+      type: any
+    - code: A06.3
+      value: Amoeboma of intestine
+      type: any
+    - code: A07
+      value: Other protozoal intestinal diseases
+      type: any
+    - code: A08
+      value: Viral and other specified intestinal infections
+      type: any
+    - code: A09
+      value: Other gastroenteritis and colitis of infectious and unspecified origin
+      type: any
+    - code: A18.3
+      value: Tuberculosis of intestines, peritoneum and mesenteric glands
+      type: any
+    - code: A21.3
+      value: Gastrointestinal tularaemia
+      type: any
+    - code: A22.2
+      value: Gastrointestinal anthrax
+      type: any
+    - code: B05.4
+      value: Measles with intestinal complications
+      type: any
+    - code: B46.2
+      value: Gastrointestinal mucormycosis
+      type: any
+    - code: B78.0
+      value: Intestinal strongyloidiasis
+      type: any
+    - code: B81
+      value: Other intestinal helminthiases, not elsewhere classified
+      type: any
+    - code: B82
+      value: Unspecified intestinal parasitism
+      type: any
+    - code: B98.0
+      value: Helicobacter pylori [H.pylori] as the cause of diseases classified to
+        other chapters
+      type: any
+    - code: K23.0
+      value: Tuberculous oesophagitis
+      type: any
+    - code: K23.1
+      value: Megaoesophagus in Chagas' disease
+      type: any
+    - code: K63.0
+      value: Abscess of intestine
+      type: any
+    - code: K93.0
+      value: Tuberculous disorders of intestines, peritoneum and mesenteric glands
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A00
+      value: Cholera
+      type: any
+    - code: A01
+      value: Typhoid and paratyphoid fevers
+      type: any
+    - code: A02.0
+      value: Salmonella enteritis
+      type: any
+    - code: A03
+      value: Shigellosis
+      type: any
+    - code: A04
+      value: Other bacterial intestinal infections
+      type: any
+    - code: A05
+      value: Other bacterial foodborne intoxications, not elsewhere classified
+      type: any
+    - code: A06.0
+      value: Acute amoebic dysentery
+      type: any
+    - code: A06.1
+      value: Chronic intestinal amoebiasis
+      type: any
+    - code: A06.2
+      value: Amoebic nondysenteric colitis
+      type: any
+    - code: A06.3
+      value: Amoeboma of intestine
+      type: any
+    - code: A07
+      value: Other protozoal intestinal diseases
+      type: any
+    - code: A08
+      value: Viral and other specified intestinal infections
+      type: any
+    - code: A09
+      value: Other gastroenteritis and colitis of infectious and unspecified origin
+      type: any
+    - code: A18.3
+      value: Tuberculosis of intestines, peritoneum and mesenteric glands
+      type: any
+    - code: A21.3
+      value: Gastrointestinal tularaemia
+      type: any
+    - code: A22.2
+      value: Gastrointestinal anthrax
+      type: any
+    - code: B05.4
+      value: Measles with intestinal complications
+      type: any
+    - code: B46.2
+      value: Gastrointestinal mucormycosis
+      type: any
+    - code: B78.0
+      value: Intestinal strongyloidiasis
+      type: any
+    - code: B81
+      value: Other intestinal helminthiases, not elsewhere classified
+      type: any
+    - code: B82
+      value: Unspecified intestinal parasitism
+      type: any
+    - code: B98.0
+      value: Helicobacter pylori [H.pylori] as the cause of diseases classified to
+        other chapters
+      type: any
+    - code: K23.0
+      value: Tuberculous oesophagitis
+      type: any
+    - code: K23.1
+      value: Megaoesophagus in Chagas' disease
+      type: any
+    - code: K63.0
+      value: Abscess of intestine
+      type: any
+    - code: K93.0
+      value: Tuberculous disorders of intestines, peritoneum and mesenteric glands
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

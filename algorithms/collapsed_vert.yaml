@@ -1,0 +1,294 @@
+metadata:
+  phenotype: Collapsed vertebra
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: collapsed_vert
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 411001c5-ea09-495a-a570-6f94b5abff6c
+  ontologies:
+    DOID: null
+    GWAS: EFO_0003902
+    MESH: D016103
+    SNOMED-CT: '84138006'
+    FINNGEN: M13_VERTEBCOLLAPSE
+  short_desc: A compression fracture is a collapse of a vertebra. It may be due to
+    trauma or due to a weakening of the vertebra.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1646'
+      value: facture vertebra/crush fracture/vertebral collapse
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: M48.5
+      value: Collapsed vertebra, not elsewhere classified
+      type: any
+    - code: M49.5
+      value: Collapsed vertebra in diseases classified elsewhere
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: M48.5
+      value: Collapsed vertebra, not elsewhere classified
+      type: any
+    - code: M49.5
+      value: Collapsed vertebra in diseases classified elsewhere
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: V44
+      value: Decompression of fracture of spine
+      type: any
+    - code: V44.1
+      value: Complex decompression of fracture of spine
+      type: any
+    - code: V44.2
+      value: Anterior decompression of fracture of spine
+      type: any
+    - code: V44.3
+      value: Posterior decompression of fracture of spine NEC
+      type: any
+    - code: V44.4
+      value: Vertebroplasty of fracture of spine
+      type: any
+    - code: V44.5
+      value: Balloon kyphoplasty of fracture of spine
+      type: any
+    - code: V44.8
+      value: Other specified decompression of fracture of spine
+      type: any
+    - code: V44.9
+      value: Unspecified decompression of fracture of spine
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: V44
+      value: V44
+      type: any
+    - code: V44.1
+      value: V44.1
+      type: any
+    - code: V44.2
+      value: V44.2
+      type: any
+    - code: V44.3
+      value: V44.3
+      type: any
+    - code: V44.4
+      value: V44.4
+      type: any
+    - code: V44.5
+      value: V44.5
+      type: any
+    - code: V44.8
+      value: V44.8
+      type: any
+    - code: V44.9
+      value: V44.9
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M48.5
+      value: Collapsed vertebra, not elsewhere classified
+      type: any
+    - code: M49.5
+      value: Collapsed vertebra in diseases classified elsewhere
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M48.5
+      value: Collapsed vertebra, not elsewhere classified
+      type: any
+    - code: M49.5
+      value: Collapsed vertebra in diseases classified elsewhere
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 7J41300
+      value: Vertebroplasty of fracture of spine
+      type: any
+    - code: 7J41500
+      value: Balloon kyphoplasty of fracture of spine
+      type: any
+    - code: 7J48M00
+      value: Vertebroplasty
+      type: any
+    - code: N331000
+      value: Pathological fracture of thoracic vertebra
+      type: any
+    - code: N331011
+      value: Collapse of thoracic vertebra
+      type: any
+    - code: N331100
+      value: Pathological fracture of lumbar vertebra
+      type: any
+    - code: N331111
+      value: Collapse of lumbar vertebra
+      type: any
+    - code: N331800
+      value: Osteoporosis + pathological fracture lumbar vertebrae
+      type: any
+    - code: N331900
+      value: Osteoporosis + pathological fracture thoracic vertebrae
+      type: any
+    - code: N331A00
+      value: Osteoporosis + pathological fracture cervical vertebrae
+      type: any
+    - code: N331C00
+      value: Pathological fracture of cervical vertebra
+      type: any
+    - code: N331D00
+      value: Collapsed vertebra NOS
+      type: any
+    - code: N331E00
+      value: Collapse of cervical vertebra
+      type: any
+    - code: N331F00
+      value: Collapse of thoracic vertebra
+      type: any
+    - code: N331G00
+      value: Collapse of lumbar vertebra
+      type: any
+    - code: N331H00
+      value: Collapse of cervical vertebra due to osteoporosis
+      type: any
+    - code: N331J00
+      value: Collapse of lumbar vertebra due to osteoporosis
+      type: any
+    - code: N331K00
+      value: Collapse of thoracic vertebra due to osteoporosis
+      type: any
+    - code: N331L00
+      value: Collapse of vertebra due to osteoporosis NOS
+      type: any
+    - code: N331.11
+      value: Collapse of spine NOS
+      type: any
+    - code: N331.12
+      value: Collapse of vertebra NOS
+      type: any
+    - code: N331.14
+      value: Osteoporotic vertebral collapse
+      type: any
+    - code: Nyu6700
+      value: '[X]Collapsed vertebra in diseases classified elsewhere'
+      type: any
+    - code: S100H00
+      value: Closed fracture cervical vertebra, wedge
+      type: any
+    - code: S102100
+      value: Closed fracture thoracic vertebra, wedge
+      type: any
+    - code: S104100
+      value: Closed fracture lumbar vertebra, wedge
+      type: any
+    - code: S106000
+      value: Closed compression fracture sacrum
+      type: any
+    - code: XaD4I
+      value: Collapse of lumbar vertebra due to osteoporosis
+      type: any
+    - code: XaLxr
+      value: Vertebroplasty of fracture of spine
+      type: any
+    - code: XaMpT
+      value: Balloon kyphoplasty of fracture of spine
+      type: any
+    - code: XaBZT
+      value: Collapse of lumbar vertebra
+      type: any
+    - code: XaBMQ
+      value: Pathological fracture of cervical vertebra
+      type: any
+    - code: XaD4J
+      value: Collapse of thoracic vertebra due to osteoporosis
+      type: any
+    - code: XaBZS
+      value: Collapse of cervical vertebra
+      type: any
+    - code: XaIuu
+      value: Vertebroplasty
+      type: any
+    - code: XaD4K
+      value: Collapse of vertebra due to osteoporosis NOS
+      type: any
+    - code: XE2Qf
+      value: Pathological fracture of lumbar vertebra
+      type: any
+    - code: XE1GB
+      value: Pathological fracture
+      type: any
+    - code: XE2Qe
+      value: Pathological fracture of thoracic vertebra
+      type: any
+    - code: XaD2s
+      value: Collapse of cervical vertebra due to osteoporosis
+      type: any
+    - code: XaBMR
+      value: Collapsed vertebra NOS
+      type: any
+    - code: XaBZR
+      value: Collapse of thoracic vertebra
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

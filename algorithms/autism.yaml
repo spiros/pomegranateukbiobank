@@ -1,0 +1,186 @@
+metadata:
+  phenotype: Autism and Asperger's syndrome
+  group: Psychiatric
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: autism
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: efc4925b-7fe7-4005-a200-87a338b643bf
+  ontologies:
+    DOID: DOID_1249
+    GWAS: EFO_0003758
+    MESH: D001321
+    SNOMED-CT: 408856003
+    FINNGEN: F5_AUTISM
+  short_desc: Autism is a developmental disorder characterized by difficulties with
+    social interaction and communication, and by restricted and repetitive behavior.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: F84.0
+      value: Childhood autism
+      type: any
+    - code: F84.1
+      value: Atypical autism
+      type: any
+    - code: F84.5
+      value: Asperger's syndrome
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: F84.0
+      value: Childhood autism
+      type: any
+    - code: F84.1
+      value: Atypical autism
+      type: any
+    - code: F84.5
+      value: Asperger's syndrome
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F84.0
+      value: Childhood autism
+      type: any
+    - code: F84.1
+      value: Atypical autism
+      type: any
+    - code: F84.5
+      value: Asperger's syndrome
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F84.0
+      value: Childhood autism
+      type: any
+    - code: F84.1
+      value: Atypical autism
+      type: any
+    - code: F84.5
+      value: Asperger's syndrome
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: E140000
+      value: Active infantile autism
+      type: any
+    - code: E140100
+      value: Residual infantile autism
+      type: any
+    - code: E140.00
+      value: Infantile autism
+      type: any
+    - code: E140.11
+      value: Kanner's syndrome
+      type: any
+    - code: E140.12
+      value: Autism
+      type: any
+    - code: E140.13
+      value: Childhood autism
+      type: any
+    - code: E140z00
+      value: Infantile autism NOS
+      type: any
+    - code: Eu84000
+      value: '[X]Childhood autism'
+      type: any
+    - code: Eu84011
+      value: '[X]Autistic disorder'
+      type: any
+    - code: Eu84012
+      value: '[X]Infantile autism'
+      type: any
+    - code: Eu84014
+      value: '[X]Kanner''s syndrome'
+      type: any
+    - code: Eu84100
+      value: '[X]Atypical autism'
+      type: any
+    - code: Eu84112
+      value: '[X]Mental retardation with autistic features'
+      type: any
+    - code: Eu84500
+      value: '[X]Asperger''s syndrome'
+      type: any
+    - code: Eu84511
+      value: '[X]Autistic psychopathy'
+      type: any
+    - code: Eu84z11
+      value: '[X]Autistic spectrum disorder'
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []
+  20544:
+    metadata:
+      desc: Mental health problems ever diagnosed by a professional
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '14'
+      value: Autism Aspergers or autistic spectrum disorder
+      type: any

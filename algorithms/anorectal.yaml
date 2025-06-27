@@ -1,0 +1,176 @@
+metadata:
+  phenotype: Infection of anal and rectal regions
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: anorectal
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 908b9c1e-7768-4d02-829f-7dbb3a3b3848
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: null
+    SNOMED-CT: '371568002'
+    FINNGEN: null
+  short_desc: Infection of anal and rectal regions
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: A51.1
+      value: Primary anal syphilis
+      type: any
+    - code: A54.6
+      value: Gonococcal infection of anus and rectum
+      type: any
+    - code: A56.3
+      value: Chlamydial infection of anus and rectum
+      type: any
+    - code: A60.1
+      value: Herpesviral infection of perianal skin and rectum
+      type: any
+    - code: A60.9
+      value: Anogenital herpesviral infection, unspecified
+      type: any
+    - code: A63.0
+      value: Anogenital (venereal) warts
+      type: any
+    - code: K61
+      value: Abscess of anal and rectal regions
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: A51.1
+      value: Primary anal syphilis
+      type: any
+    - code: A54.6
+      value: Gonococcal infection of anus and rectum
+      type: any
+    - code: A56.3
+      value: Chlamydial infection of anus and rectum
+      type: any
+    - code: A60.1
+      value: Herpesviral infection of perianal skin and rectum
+      type: any
+    - code: A60.9
+      value: Anogenital herpesviral infection, unspecified
+      type: any
+    - code: A63.0
+      value: Anogenital (venereal) warts
+      type: any
+    - code: K61
+      value: Abscess of anal and rectal regions
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A51.1
+      value: Primary anal syphilis
+      type: any
+    - code: A54.6
+      value: Gonococcal infection of anus and rectum
+      type: any
+    - code: A56.3
+      value: Chlamydial infection of anus and rectum
+      type: any
+    - code: A60.1
+      value: Herpesviral infection of perianal skin and rectum
+      type: any
+    - code: A60.9
+      value: Anogenital herpesviral infection, unspecified
+      type: any
+    - code: A63.0
+      value: Anogenital (venereal) warts
+      type: any
+    - code: K61
+      value: Abscess of anal and rectal regions
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A51.1
+      value: Primary anal syphilis
+      type: any
+    - code: A54.6
+      value: Gonococcal infection of anus and rectum
+      type: any
+    - code: A56.3
+      value: Chlamydial infection of anus and rectum
+      type: any
+    - code: A60.1
+      value: Herpesviral infection of perianal skin and rectum
+      type: any
+    - code: A60.9
+      value: Anogenital herpesviral infection, unspecified
+      type: any
+    - code: A63.0
+      value: Anogenital (venereal) warts
+      type: any
+    - code: K61
+      value: Abscess of anal and rectal regions
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

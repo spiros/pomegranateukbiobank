@@ -1,0 +1,506 @@
+metadata:
+  phenotype: Obesity
+  group: Endocrine
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: obesity
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 0496d30a-ccf0-4b19-8c15-4ef8762d5974
+  ontologies:
+    DOID: DOID_50957
+    GWAS: EFO_0001073
+    MESH: D009765
+    SNOMED-CT: 414916001
+    FINNGEN: E4_OBESITY
+  short_desc: Obesity is a complex disease involving an excessive amount of body fat.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: E66
+      value: Obesity
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: E66
+      value: Obesity
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: G282
+      value: G282
+      type: any
+    - code: G283
+      value: G283
+      type: any
+    - code: G288
+      value: G288
+      type: any
+    - code: G289
+      value: G289
+      type: any
+    - code: G301
+      value: G301
+      type: any
+    - code: G302
+      value: G302
+      type: any
+    - code: G303
+      value: G303
+      type: any
+    - code: G304
+      value: G304
+      type: any
+    - code: G308
+      value: G308
+      type: any
+    - code: G309
+      value: G309
+      type: any
+    - code: G321
+      value: G321
+      type: any
+    - code: G328
+      value: G328
+      type: any
+    - code: G329
+      value: G329
+      type: any
+    - code: G611
+      value: G611
+      type: any
+    - code: G612
+      value: G612
+      type: any
+    - code: G613
+      value: G613
+      type: any
+    - code: G618
+      value: G618
+      type: any
+    - code: G619
+      value: G619
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: G282
+      value: G282
+      type: any
+    - code: G283
+      value: G283
+      type: any
+    - code: G288
+      value: G288
+      type: any
+    - code: G289
+      value: G289
+      type: any
+    - code: G301
+      value: G301
+      type: any
+    - code: G302
+      value: G302
+      type: any
+    - code: G303
+      value: G303
+      type: any
+    - code: G304
+      value: G304
+      type: any
+    - code: G308
+      value: G308
+      type: any
+    - code: G309
+      value: G309
+      type: any
+    - code: G321
+      value: G321
+      type: any
+    - code: G328
+      value: G328
+      type: any
+    - code: G329
+      value: G329
+      type: any
+    - code: G611
+      value: G611
+      type: any
+    - code: G612
+      value: G612
+      type: any
+    - code: G613
+      value: G613
+      type: any
+    - code: G618
+      value: G618
+      type: any
+    - code: G619
+      value: G619
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: E66
+      value: Obesity
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: E66
+      value: Obesity
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1444.00'
+      value: 'H/O: obesity'
+      type: prevalent
+    - code: 212Q.00
+      value: Obesity resolved
+      type: any
+    - code: 222A.00
+      value: O/E - obese
+      type: any
+    - code: 22A5.11
+      value: O/E - obese
+      type: any
+    - code: 22K5.00
+      value: Body mass index 30+ - obesity
+      type: any
+    - code: 22K7.00
+      value: Body mass index 40+ - severely obese
+      type: any
+    - code: 66C1.00
+      value: Initial obesity assessment
+      type: any
+    - code: 66C2.00
+      value: Follow-up obesity assessment
+      type: prevalent
+    - code: 66C4.00
+      value: Has seen dietician - obesity
+      type: any
+    - code: 66C5.00
+      value: Treatment of obesity changed
+      type: any
+    - code: 66C6.00
+      value: Treatment of obesity started
+      type: any
+    - code: 66C..00
+      value: Obesity monitoring
+      type: prevalent
+    - code: 66CE.00
+      value: Reason for obesity therapy - occupational
+      type: any
+    - code: 66CZ.00
+      value: Obesity monitoring NOS
+      type: prevalent
+    - code: '7633.00'
+      value: Bypass of jejunum
+      type: any
+    - code: '7611400.0'
+      value: Sleeve gastrectomy and duodenal switch
+      type: any
+    - code: '7611500.0'
+      value: Sleeve gastrectomy NEC
+      type: any
+    - code: '7611600.0'
+      value: Laparoscopic sleeve gastrectomy
+      type: any
+    - code: '7613100.0'
+      value: Partitioning of stomach
+      type: any
+    - code: '7613111.0'
+      value: Mason vertical banded gastroplasty
+      type: any
+    - code: '7613200.0'
+      value: Laparoscopic adjustable gastric banding
+      type: any
+    - code: '7613300.0'
+      value: Partitioning of stomach using band
+      type: any
+    - code: '7613400.0'
+      value: Partitioning of stomach using staples
+      type: any
+    - code: '7613500.0'
+      value: Partitioning of stomach NEC
+      type: any
+    - code: '7613600.0'
+      value: Maintenance of gastric band
+      type: any
+    - code: '7614100.0'
+      value: Bypass of stomach by anastomosis of stomach to duodenum
+      type: any
+    - code: '7615000.0'
+      value: Bypass stomach by anastomosis stomach to transposed jejunum
+      type: any
+    - code: '7616000.0'
+      value: Bypass of stomach by anastomosis of stomach to jejunum NEC
+      type: any
+    - code: '7616013.0'
+      value: Mason high gastric bypass
+      type: any
+    - code: '7616015.0'
+      value: Printer high gastric bypass
+      type: any
+    - code: '7616600.0'
+      value: Laparoscopic gastric bypass
+      type: any
+    - code: '7633000.0'
+      value: Bypass of jejunum by anastomosis of jejunum to jejunum
+      type: any
+    - code: '7633100.0'
+      value: Bypass of jejunum by anastomosis of jejunum to ileum
+      type: any
+    - code: '7633200.0'
+      value: Bypass of jejunum by anastomosis of jejunum to colon
+      type: any
+    - code: '7642500.0'
+      value: Duodenal switch
+      type: any
+    - code: 761A500
+      value: Removal of gastric band
+      type: any
+    - code: 7633y00
+      value: Other specified bypass of jejunum
+      type: any
+    - code: 7633z00
+      value: Bypass of jejunum NOS
+      type: any
+    - code: 9OK1.00
+      value: Attends obesity monitoring
+      type: prevalent
+    - code: 9OK2.00
+      value: Refuses obesity monitoring
+      type: prevalent
+    - code: 9OK3.00
+      value: Obesity monitoring default
+      type: prevalent
+    - code: 9OK4.00
+      value: Obesity monitoring 1st letter
+      type: prevalent
+    - code: 9OK5.00
+      value: Obesity monitoring 2nd letter
+      type: prevalent
+    - code: 9OK6.00
+      value: Obesity monitoring 3rd letter
+      type: prevalent
+    - code: 9OK7.00
+      value: Obesity monitoring verbal inv.
+      type: prevalent
+    - code: 9OK8.00
+      value: Obesity monitor phone invite
+      type: any
+    - code: 9OK..00
+      value: Obesity monitoring admin.
+      type: prevalent
+    - code: 9OK..11
+      value: Obesity clinic administration
+      type: any
+    - code: 9OKA.00
+      value: Obesity monitoring check done
+      type: prevalent
+    - code: 9OKZ.00
+      value: Obesity monitoring admin.NOS
+      type: prevalent
+    - code: C380000
+      value: Obesity due to excess calories
+      type: any
+    - code: C380100
+      value: Drug-induced obesity
+      type: any
+    - code: C380200
+      value: Extreme obesity with alveolar hypoventilation
+      type: any
+    - code: C380300
+      value: Morbid obesity
+      type: any
+    - code: C380400
+      value: Central obesity
+      type: any
+    - code: C380500
+      value: Generalised obesity
+      type: any
+    - code: C380600
+      value: Adult-onset obesity
+      type: any
+    - code: C380700
+      value: Lifelong obesity
+      type: any
+    - code: C380.00
+      value: Obesity
+      type: any
+    - code: C38..00
+      value: Obesity and other hyperalimentation
+      type: any
+    - code: C38y000
+      value: Pickwickian syndrome
+      type: any
+    - code: C38y011
+      value: Obesity hypoventilation syndrome
+      type: any
+    - code: C38y.11
+      value: Pickwickian syndrome
+      type: any
+    - code: C38z000
+      value: Simple obesity NOS
+      type: any
+    - code: C38z.00
+      value: Obesity and other hyperalimentation NOS
+      type: any
+    - code: Cyu7000
+      value: '[X]Other obesity'
+      type: any
+    - code: Cyu7.00
+      value: '[X]Obesity and other hyperalimentation'
+      type: any
+    - code: ZC2CM00
+      value: Dietary advice for obesity
+      type: any
+    - code: ZV45P00
+      value: '[V]Presence of gastric bypass'
+      type: any
+    - code: ZV65319
+      value: '[V]Dietary counselling in obesity'
+      type: any
+    - code: XE2Nc
+      value: Obesity monitoring admin.
+      type: prevalent
+    - code: XE11t
+      value: Other hyperalimentation
+      type: any
+    - code: XE1T6
+      value: Obesity monitoring
+      type: prevalent
+    - code: XaLd9
+      value: Partitioning of stomach using band
+      type: any
+    - code: XaLd8
+      value: Sleeve gastrectomy NEC
+      type: any
+    - code: XE0Cg
+      value: Partitioning of stomach
+      type: any
+    - code: XSCIZ
+      value: Adult-onset obesity
+      type: any
+    - code: X40YQ
+      value: Morbid obesity
+      type: any
+    - code: XaLdW
+      value: Duodenal switch
+      type: any
+    - code: XaBM0
+      value: Simple obesity NOS
+      type: any
+    - code: XaPp5
+      value: '[V]Presence of gastric bypass'
+      type: any
+    - code: XaK95
+      value: Laparoscopic adjustable gastric banding
+      type: any
+    - code: X76BU
+      value: Central obesity
+      type: any
+    - code: XaLdA
+      value: Partitioning of stomach using staples
+      type: any
+    - code: X40YR
+      value: Pickwickian syndrome
+      type: any
+    - code: XaJJH
+      value: Body mass index 40+ - severely obese
+      type: any
+    - code: X40YO
+      value: Generalised obesity
+      type: any
+    - code: XaOi9
+      value: Laparoscopic gastric bypass
+      type: any
+    - code: XE0Ch
+      value: Bypass of stomach by anastomosis of stomach to duodenum
+      type: any
+    - code: XE0Cy
+      value: Bypass of jejunum by anastomosis of jejunum to colon
+      type: any
+    - code: XaPpT
+      value: Maintenance of gastric band
+      type: any
+    - code: XaKko
+      value: Obesity resolved
+      type: any
+    - code: XE0Ci
+      value: Bypass of stomach by anastomosis of stomach to jejunum NEC
+      type: any
+    - code: XaLd7
+      value: Sleeve gastrectomy and duodenal switch
+      type: any
+    - code: XaMHV
+      value: Partitioning of stomach NEC
+      type: any
+    - code: XaMgn
+      value: Laparoscopic sleeve gastrectomy
+      type: any
+    - code: XaLdH
+      value: Removal of gastric band
+      type: any
+    - code: XSCIX
+      value: Lifelong obesity
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

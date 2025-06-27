@@ -1,0 +1,173 @@
+metadata:
+  phenotype: Primary Malignancy_Uterine
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: pri_uterine
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 2f9ed465-d7e9-4b36-9d52-edc64e32ccc2
+  ontologies:
+    DOID: DOID_4363
+    GWAS: null
+    MESH: D014594
+    SNOMED-CT: 10708511000119108
+    FINNGEN: C3_UTERUS_NAS
+  short_desc: Tumors or cancer of the UTERUS.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1040'
+      value: uterine/endometrial cancer
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C54
+      value: Malignant neoplasm of corpus uteri
+      type: any
+    - code: C55
+      value: Malignant neoplasm of uterus, part unspecified
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C54
+      value: Malignant neoplasm of corpus uteri
+      type: any
+    - code: C55
+      value: Malignant neoplasm of uterus, part unspecified
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C54
+      value: Malignant neoplasm of corpus uteri
+      type: any
+    - code: C55
+      value: Malignant neoplasm of uterus, part unspecified
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C54
+      value: Malignant neoplasm of corpus uteri
+      type: any
+    - code: C55
+      value: Malignant neoplasm of uterus, part unspecified
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B40..00
+      value: Malignant neoplasm of uterus, part unspecified
+      type: any
+    - code: B430000
+      value: Malignant neoplasm of cornu of corpus uteri
+      type: any
+    - code: B430100
+      value: Malignant neoplasm of fundus of corpus uteri
+      type: any
+    - code: B430200
+      value: Malignant neoplasm of endometrium of corpus uteri
+      type: any
+    - code: B430211
+      value: Malignant neoplasm of endometrium
+      type: any
+    - code: B430300
+      value: Malignant neoplasm of myometrium of corpus uteri
+      type: any
+    - code: B430.00
+      value: Malignant neoplasm of corpus uteri, excluding isthmus
+      type: any
+    - code: B430z00
+      value: Malignant neoplasm of corpus uteri NOS
+      type: any
+    - code: B431000
+      value: Malignant neoplasm of lower uterine segment
+      type: any
+    - code: B431.00
+      value: Malignant neoplasm of isthmus of uterine body
+      type: any
+    - code: B431z00
+      value: Malignant neoplasm of isthmus of uterine body NOS
+      type: any
+    - code: B432.00
+      value: Malignant neoplasm of overlapping lesion of corpus uteri
+      type: any
+    - code: B43..00
+      value: Malignant neoplasm of body of uterus
+      type: any
+    - code: B43y.00
+      value: Malignant neoplasm of other site of uterine body
+      type: any
+    - code: B43z.00
+      value: Malignant neoplasm of body of uterus NOS
+      type: any
+    - code: ZV10417
+      value: '[V]Personal history of malignant neoplasm of uterine body'
+      type: prevalent
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C54
+      value: Malignant neoplasm of corpus uteri
+      type: any
+    - code: C55
+      value: Malignant neoplasm of uterus, part unspecified
+      type: any

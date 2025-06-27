@@ -1,0 +1,802 @@
+metadata:
+  phenotype: Non-Hodgkin Lymphoma
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: NHL
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 80aab2b3-87e2-4cba-abf3-b7e78a1a1eb2
+  ontologies:
+    DOID: DOID_60060
+    GWAS: EFO_0005952
+    MESH: D008228
+    SNOMED-CT: 118601006
+    FINNGEN: C3_NONHODGKIN
+  short_desc: Non-Hodgkin lymphoma (NHL) is a group of blood cancers that includes
+    all types of lymphomas except Hodgkin lymphomas.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1053'
+      value: non-hodgkins lymphoma
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C82
+      value: Follicular lymphoma
+      type: any
+    - code: C83
+      value: Non-follicular lymphoma
+      type: any
+    - code: C84
+      value: Mature T/NK-cell lymphomas
+      type: any
+    - code: C85
+      value: Other and unspecified types of non-Hodgkin lymphoma
+      type: any
+    - code: C86
+      value: Other specified types of T/NK-cell lymphoma
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C82
+      value: Follicular lymphoma
+      type: any
+    - code: C83
+      value: Non-follicular lymphoma
+      type: any
+    - code: C84
+      value: Mature T/NK-cell lymphomas
+      type: any
+    - code: C85
+      value: Other and unspecified types of non-Hodgkin lymphoma
+      type: any
+    - code: C86
+      value: Other specified types of T/NK-cell lymphoma
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C82
+      value: Follicular lymphoma
+      type: any
+    - code: C83
+      value: Non-follicular lymphoma
+      type: any
+    - code: C84
+      value: Mature T/NK-cell lymphomas
+      type: any
+    - code: C85
+      value: Other and unspecified types of non-Hodgkin lymphoma
+      type: any
+    - code: C86
+      value: Other specified types of T/NK-cell lymphoma
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C82
+      value: Follicular lymphoma
+      type: any
+    - code: C83
+      value: Non-follicular lymphoma
+      type: any
+    - code: C84
+      value: Mature T/NK-cell lymphomas
+      type: any
+    - code: C85
+      value: Other and unspecified types of non-Hodgkin lymphoma
+      type: any
+    - code: C86
+      value: Other specified types of T/NK-cell lymphoma
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: A789600
+      value: HIV disease resulting in Burkitt's lymphoma
+      type: any
+    - code: A789700
+      value: HIV dis resulting oth types of non-Hodgkin's lymphoma
+      type: any
+    - code: AyuC600
+      value: '[X]HIV disease resulting in other non-Hodgkin''s lymphoma'
+      type: any
+    - code: B600000
+      value: Reticulosarcoma of unspecified site
+      type: any
+    - code: B600100
+      value: Reticulosarcoma of lymph nodes of head, face and neck
+      type: any
+    - code: B600300
+      value: Reticulosarcoma of intra-abdominal lymph nodes
+      type: any
+    - code: B600700
+      value: Reticulosarcoma of spleen
+      type: any
+    - code: B600.00
+      value: Reticulosarcoma
+      type: any
+    - code: B600z00
+      value: Reticulosarcoma NOS
+      type: any
+    - code: B601000
+      value: Lymphosarcoma of unspecified site
+      type: any
+    - code: B601100
+      value: Lymphosarcoma of lymph nodes of head, face and neck
+      type: any
+    - code: B601200
+      value: Lymphosarcoma of intrathoracic lymph nodes
+      type: any
+    - code: B601300
+      value: Lymphosarcoma of intra-abdominal lymph nodes
+      type: any
+    - code: B601500
+      value: Lymphosarcoma of lymph nodes of inguinal region and leg
+      type: any
+    - code: B601700
+      value: Lymphosarcoma of spleen
+      type: any
+    - code: B601800
+      value: Lymphosarcoma of lymph nodes of multiple sites
+      type: any
+    - code: B601.00
+      value: Lymphosarcoma
+      type: any
+    - code: B601z00
+      value: Lymphosarcoma NOS
+      type: any
+    - code: B602100
+      value: Burkitt's lymphoma of lymph nodes of head, face and neck
+      type: any
+    - code: B602200
+      value: Burkitt's lymphoma of intrathoracic lymph nodes
+      type: any
+    - code: B602300
+      value: Burkitt's lymphoma of intra-abdominal lymph nodes
+      type: any
+    - code: B602500
+      value: Burkitt's lymphoma of lymph nodes of inguinal region and leg
+      type: any
+    - code: B602.00
+      value: Burkitt's lymphoma
+      type: any
+    - code: B602z00
+      value: Burkitt's lymphoma NOS
+      type: any
+    - code: B60..00
+      value: Lymphosarcoma and reticulosarcoma
+      type: any
+    - code: B60y.00
+      value: Other specified reticulosarcoma or lymphosarcoma
+      type: any
+    - code: B60z.00
+      value: Reticulosarcoma or lymphosarcoma NOS
+      type: any
+    - code: B620000
+      value: Nodular lymphoma of unspecified site
+      type: any
+    - code: B620100
+      value: Nodular lymphoma of lymph nodes of head, face and neck
+      type: any
+    - code: B620200
+      value: Nodular lymphoma of intrathoracic lymph nodes
+      type: any
+    - code: B620300
+      value: Nodular lymphoma of intra-abdominal lymph nodes
+      type: any
+    - code: B620500
+      value: Nodular lymphoma of lymph nodes of inguinal region and leg
+      type: any
+    - code: B620800
+      value: Nodular lymphoma of lymph nodes of multiple sites
+      type: any
+    - code: B620.00
+      value: Nodular lymphoma (Brill - Symmers disease)
+      type: any
+    - code: B620z00
+      value: Nodular lymphoma NOS
+      type: any
+    - code: B621000
+      value: Mycosis fungoides of unspecified site
+      type: any
+    - code: B621300
+      value: Mycosis fungoides of intra-abdominal lymph nodes
+      type: any
+    - code: B621400
+      value: Mycosis fungoides of lymph nodes of axilla and upper limb
+      type: any
+    - code: B621500
+      value: Mycosis fungoides of lymph nodes of inguinal region and leg
+      type: any
+    - code: B621800
+      value: Mycosis fungoides of lymph nodes of multiple sites
+      type: any
+    - code: B621.00
+      value: Mycosis fungoides
+      type: any
+    - code: B621z00
+      value: Mycosis fungoides NOS
+      type: any
+    - code: B622.00
+      value: Sezary's disease
+      type: any
+    - code: B622z00
+      value: Sezary's disease NOS
+      type: any
+    - code: B627000
+      value: Follicular non-Hodgkin's small cleaved cell lymphoma
+      type: any
+    - code: B627100
+      value: Follicular non-Hodg mixed sml cleavd & lge cell lymphoma
+      type: any
+    - code: B627200
+      value: Follicular non-Hodgkin's large cell lymphoma
+      type: any
+    - code: B627300
+      value: Diffuse non-Hodgkin's small cell (diffuse) lymphoma
+      type: any
+    - code: B627400
+      value: Diffuse non-Hodgkin's small cleaved cell (diffuse) lymphoma
+      type: any
+    - code: B627500
+      value: Diffuse non-Hodgkin mixed sml & lge cell (diffuse) lymphoma
+      type: any
+    - code: B627600
+      value: Diffuse non-Hodgkin's immunoblastic (diffuse) lymphoma
+      type: any
+    - code: B627700
+      value: Diffuse non-Hodgkin's lymphoblastic (diffuse) lymphoma
+      type: any
+    - code: B627800
+      value: Diffuse non-Hodgkin's lymphoma undifferentiated (diffuse)
+      type: any
+    - code: B627900
+      value: Mucosa-associated lymphoma
+      type: any
+    - code: B627911
+      value: Maltoma
+      type: any
+    - code: B627A00
+      value: Diffuse non-Hodgkin's large cell lymphoma
+      type: any
+    - code: B627.00
+      value: Non - Hodgkin's lymphoma
+      type: any
+    - code: B627.11
+      value: Non-Hodgkin lymphoma
+      type: any
+    - code: B627B00
+      value: Other types of follicular non-Hodgkin's lymphoma
+      type: any
+    - code: B627C00
+      value: Follicular non-Hodgkin's lymphoma
+      type: any
+    - code: B627C11
+      value: Follicular lymphoma NOS
+      type: any
+    - code: B627D00
+      value: Diffuse non-Hodgkin's centroblastic lymphoma
+      type: any
+    - code: B627E00
+      value: Diffuse large B-cell lymphoma
+      type: any
+    - code: B627F00
+      value: Extranod marg zone B-cell lymphom mucosa-assoc lymphoid tiss
+      type: any
+    - code: B627G00
+      value: Mediastinal (thymic) large B-cell lymphoma
+      type: any
+    - code: B627W00
+      value: Unspecified B-cell non-Hodgkin's lymphoma
+      type: any
+    - code: B627X00
+      value: Diffuse non-Hodgkin's lymphoma, unspecified
+      type: any
+    - code: B628000
+      value: Follicular lymphoma grade 1
+      type: any
+    - code: B628100
+      value: Follicular lymphoma grade 2
+      type: any
+    - code: B628200
+      value: Follicular lymphoma grade 3
+      type: any
+    - code: B628300
+      value: Follicular lymphoma grade 3a
+      type: any
+    - code: B628400
+      value: Follicular lymphoma grade 3b
+      type: any
+    - code: B628500
+      value: Diffuse follicle centre lymphoma
+      type: any
+    - code: B628600
+      value: Cutaneous follicle centre lymphoma
+      type: any
+    - code: B628700
+      value: Other types of follicular lymphoma
+      type: any
+    - code: B628.00
+      value: Follicular lymphoma
+      type: any
+    - code: B62E100
+      value: Anaplastic large cell lymphoma, ALK-positive
+      type: any
+    - code: B62E200
+      value: Anaplastic large cell lymphoma, ALK-negative
+      type: any
+    - code: B62E300
+      value: Cutaneous T-cell lymphoma
+      type: any
+    - code: B62E400
+      value: Extranodal NK/T-cell lymphoma, nasal type
+      type: any
+    - code: B62E500
+      value: Hepatosplenic T-cell lymphoma
+      type: any
+    - code: B62E600
+      value: Enteropathy-associated T-cell lymphoma
+      type: any
+    - code: B62E700
+      value: Subcutaneous panniculitic T-cell lymphoma
+      type: any
+    - code: B62E800
+      value: Blastic NK-cell lymphoma
+      type: any
+    - code: B62E900
+      value: Angioimmunoblastic T-cell lymphoma
+      type: any
+    - code: B62EA00
+      value: Primary cutaneous CD30-positive T-cell proliferations
+      type: any
+    - code: B62E.00
+      value: T/NK-cell lymphoma
+      type: any
+    - code: B62Ew00
+      value: Other mature T/NK-cell lymphoma
+      type: any
+    - code: B62F000
+      value: Small cell B-cell lymphoma
+      type: any
+    - code: B62F100
+      value: Mantle cell lymphoma
+      type: any
+    - code: B62F200
+      value: Lymphoblastic (diffuse) lymphoma
+      type: any
+    - code: B62F.00
+      value: Nonfollicular lymphoma
+      type: any
+    - code: B62F.11
+      value: Non-follicular lymphoma
+      type: any
+    - code: B62x000
+      value: T-zone lymphoma
+      type: any
+    - code: B62x100
+      value: Lymphoepithelioid lymphoma
+      type: any
+    - code: B62x200
+      value: Peripheral T-cell lymphoma
+      type: any
+    - code: B62x400
+      value: Malignant reticulosis
+      type: any
+    - code: B62x500
+      value: Malignant immunoproliferative small intestinal disease
+      type: any
+    - code: B62x.00
+      value: Malignant lymphoma otherwise specified
+      type: any
+    - code: B62xX00
+      value: Oth and unspecif peripheral & cutaneous T-cell lymphomas
+      type: any
+    - code: B62y000
+      value: Malignant lymphoma NOS of unspecified site
+      type: any
+    - code: B62y100
+      value: Malignant lymphoma NOS of lymph nodes of head, face and neck
+      type: any
+    - code: B62y200
+      value: Malignant lymphoma NOS of intrathoracic lymph nodes
+      type: any
+    - code: B62y300
+      value: Malignant lymphoma NOS of intra-abdominal lymph nodes
+      type: any
+    - code: B62y400
+      value: Malignant lymphoma NOS of lymph nodes of axilla and arm
+      type: any
+    - code: B62y500
+      value: Malignant lymphoma NOS of lymph node inguinal region and leg
+      type: any
+    - code: B62y600
+      value: Malignant lymphoma NOS of intrapelvic lymph nodes
+      type: any
+    - code: B62y700
+      value: Malignant lymphoma NOS of spleen
+      type: any
+    - code: B62y800
+      value: Malignant lymphoma NOS of lymph nodes of multiple sites
+      type: any
+    - code: B62y.00
+      value: Malignant lymphoma NOS
+      type: any
+    - code: B62yz00
+      value: Malignant lymphoma NOS
+      type: any
+    - code: BBg1000
+      value: '[M]Malignant lymphoma, diffuse NOS'
+      type: any
+    - code: BBg1.00
+      value: '[M]Malignant lymphoma NOS'
+      type: any
+    - code: BBg1.11
+      value: '[M]Lymphoma NOS'
+      type: any
+    - code: BBg2.00
+      value: '[M]Malignant lymphoma, non Hodgkin''s type'
+      type: any
+    - code: BBg2.11
+      value: '[M]Non Hodgkins lymphoma'
+      type: any
+    - code: BBg3.00
+      value: '[M]Malignant lymphoma, undifferentiated cell type NOS'
+      type: any
+    - code: BBg4.00
+      value: '[M]Malignant lymphoma, stem cell type'
+      type: any
+    - code: BBg5.00
+      value: '[M]Malignant lymphoma, convoluted cell type NOS'
+      type: any
+    - code: BBg6.00
+      value: '[M]Lymphosarcoma NOS'
+      type: any
+    - code: BBg7.00
+      value: '[M]Malignant lymphoma, lymphoplasmacytoid type'
+      type: any
+    - code: BBg8.00
+      value: '[M]Malignant lymphoma, immunoblastic type'
+      type: any
+    - code: BBgA.00
+      value: '[M]Malignant lymphoma, centroblastic-centrocytic, diffuse'
+      type: any
+    - code: BBgB.00
+      value: '[M]Malignant lymphoma, follicular centre cell NOS'
+      type: any
+    - code: BBg..00
+      value: '[M]Lymphomas, NOS or diffuse'
+      type: any
+    - code: BBgC.00
+      value: '[M]Malignant lymphoma, lymphocytic, well differentiated NOS'
+      type: any
+    - code: BBgC.11
+      value: '[M]Lymphocytic lymphoma NOS'
+      type: any
+    - code: BBgC.12
+      value: '[M]Lymphocytic lymphosarcoma NOS'
+      type: any
+    - code: BBgD.00
+      value: '[M]Malig lymphoma, lymphocytic, intermediate different NOS'
+      type: any
+    - code: BBgE.00
+      value: '[M]Malignant lymphoma, centrocytic'
+      type: any
+    - code: BBgG.00
+      value: '[M]Malignant lymphoma, lymphocytic, poorly different NOS'
+      type: any
+    - code: BBgG.11
+      value: '[M]Lymphoblastic lymphosarcoma NOS'
+      type: any
+    - code: BBgG.12
+      value: '[M]Lymphoblastic lymphoma NOS'
+      type: any
+    - code: BBgG.13
+      value: '[M]Lymphoblastoma NOS'
+      type: any
+    - code: BBgH.00
+      value: '[M]Prolymphocytic lymphosarcoma'
+      type: any
+    - code: BBgJ.00
+      value: '[M]Malignant lymphoma, centroblastic type NOS'
+      type: any
+    - code: BBgK.00
+      value: '[M]Malig lymphoma, follicular centre cell, non-cleaved NOS'
+      type: any
+    - code: BBgL.00
+      value: '[M]Malignant lymphoma, small lymphocytic NOS'
+      type: any
+    - code: BBgM.00
+      value: '[M]Malignant lymphoma, small cleaved cell, diffuse'
+      type: any
+    - code: BBgN.00
+      value: '[M]Malign lymphoma,lymphocytic,intermediate differn, diffuse'
+      type: any
+    - code: BBgP.00
+      value: '[M]Malignant lymphoma, mixed small and large cell, diffuse'
+      type: any
+    - code: BBgQ.00
+      value: '[M]Malignant lymphomatous polyposis'
+      type: any
+    - code: BBgR.00
+      value: '[M]Malignant lymphoma, large cell, diffuse NOS'
+      type: any
+    - code: BBgS.00
+      value: '[M]Malignant lymphoma, large cell, cleaved, diffuse'
+      type: any
+    - code: BBgT.00
+      value: '[M]Malignant lymphoma, large cell, noncleaved, diffuse'
+      type: any
+    - code: BBgV.00
+      value: '[M]Malignant lymphoma, small cell, noncleaved, diffuse'
+      type: any
+    - code: BBgz.00
+      value: '[M]Lymphoma, diffuse or NOS'
+      type: any
+    - code: BBh0.00
+      value: '[M]Reticulosarcoma NOS'
+      type: any
+    - code: BBh2.00
+      value: '[M]Reticulosarcoma, nodular'
+      type: any
+    - code: BBh..00
+      value: '[M]Reticulosarcomas'
+      type: any
+    - code: BBk0.00
+      value: '[M]Malignant lymphoma, nodular NOS'
+      type: any
+    - code: BBk0.11
+      value: '[M]Brill - Symmers'' disease'
+      type: any
+    - code: BBk0.12
+      value: '[M]Follicular lymphosarcoma NOS'
+      type: any
+    - code: BBk0.13
+      value: '[M]Giant follicular lymphoma'
+      type: any
+    - code: BBk2.00
+      value: '[M]Malignant lymphoma, centroblastic-centrocytic, follicular'
+      type: any
+    - code: BBk3.00
+      value: '[M]Malig lymphoma, lymphocytic, well differentiated,nodular'
+      type: any
+    - code: BBk5.00
+      value: '[M]Malig lymp, follicular centre cell, cleaved, follicular'
+      type: any
+    - code: BBk7.00
+      value: '[M]Malignant lymphoma, centroblastic type, follicular'
+      type: any
+    - code: BBk8.00
+      value: '[M]Malig lymp,follicular centre cell,noncleaved,follicular'
+      type: any
+    - code: BBk..00
+      value: '[M]Lymphomas, nodular or follicular'
+      type: any
+    - code: BBkz.00
+      value: '[M]Lymphoma, nodular or follicular NOS'
+      type: any
+    - code: BBl0.00
+      value: '[M]Mycosis fungoides'
+      type: any
+    - code: BBl1.00
+      value: '[M]Sezary''s disease'
+      type: any
+    - code: BBl..00
+      value: '[M]Mycosis fungoides'
+      type: any
+    - code: BBlz.00
+      value: '[M]Mycosis fungoides NOS'
+      type: any
+    - code: BBm0.00
+      value: '[M]Microglioma'
+      type: any
+    - code: BBm1.11
+      value: '[M]Malignant reticulosis'
+      type: any
+    - code: BBm5.00
+      value: '[M] Peripheral T-cell lymphoma NOS'
+      type: any
+    - code: BBm8.00
+      value: '[M] Angioimmunoblastic lymphadenopathy'
+      type: any
+    - code: BBm9.00
+      value: '[M] Monocytoid B-cell lymphoma'
+      type: any
+    - code: BBmD.00
+      value: '[M] Cutaneous lymphoma'
+      type: any
+    - code: BBmF.00
+      value: '[M] Angiocentric immunoproliferative lesion'
+      type: any
+    - code: BBmH.00
+      value: '[M] Large cell lymphoma'
+      type: any
+    - code: BBmJ.00
+      value: '[M] Angioendotheliomatosis'
+      type: any
+    - code: BBv0.00
+      value: '[M]Monocytoid B-cell lymphoma'
+      type: any
+    - code: BBv2.00
+      value: '[M]AngiocentricT-cell lymphoma'
+      type: any
+    - code: ByuD100
+      value: '[X]Other types of follicular non-Hodgkin''s lymphoma'
+      type: any
+    - code: ByuD200
+      value: '[X]Other types of diffuse non-Hodgkin''s lymphoma'
+      type: any
+    - code: ByuD300
+      value: '[X]Other specified types of non-Hodgkin''s lymphoma'
+      type: any
+    - code: ByuDC00
+      value: '[X]Diffuse non-Hodgkin''s lymphoma, unspecified'
+      type: any
+    - code: ByuDD00
+      value: '[X]Oth and unspecif peripheral & cutaneous T-cell lymphomas'
+      type: any
+    - code: ByuDE00
+      value: '[X]Unspecified B-cell non-Hodgkin''s lymphoma'
+      type: any
+    - code: ByuDF00
+      value: '[X]Non-Hodgkin''s lymphoma, unspecified type'
+      type: any
+    - code: ByuDF11
+      value: '[X]Non-Hodgkin''s lymphoma NOS'
+      type: any
+    - code: M162800
+      value: Lymphomatoid papulosis
+      type: any
+    - code: XaPQD
+      value: Mantle cell lymphoma
+      type: any
+    - code: XaYij
+      value: Follicular lymphoma grade 1
+      type: any
+    - code: Xa0Th
+      value: Peripheral T-cell lymphoma
+      type: any
+    - code: Xa0Tu
+      value: Enteropathy-associated T-cell lymphoma
+      type: any
+    - code: Xa0Tu
+      value: Enteropathy-associated T-cell lymphoma
+      type: any
+    - code: XaBLw
+      value: Follicular non-Hodgkin's lymphoma
+      type: any
+    - code: XaBLw
+      value: Follicular non-Hodgkin's lymphoma
+      type: any
+    - code: XaZdn
+      value: Diffuse large B-cell lymphoma
+      type: any
+    - code: XE1wf
+      value: '[M]Malignant lymphoma, nodular NOS'
+      type: any
+    - code: XaZdD
+      value: Follicular lymphoma grade 3
+      type: any
+    - code: XaZdF
+      value: Follicular lymphoma grade 2
+      type: any
+    - code: XaYiN
+      value: Hepatosplenic T-cell lymphoma
+      type: any
+    - code: Xa0Ti
+      value: T-zone lymphoma
+      type: any
+    - code: XaYjf
+      value: Subcutaneous panniculitic T-cell lymphoma
+      type: any
+    - code: XaYi5
+      value: Diffuse follicle centre lymphoma
+      type: any
+    - code: XaYii
+      value: Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid
+        tissue
+      type: any
+    - code: XaYim
+      value: Follicular lymphoma grade 3b
+      type: any
+    - code: Xa0T8
+      value: Mucosa-associated lymphoma
+      type: any
+    - code: Xa0Tj
+      value: Lymphoepithelioid lymphoma
+      type: any
+    - code: B62y.
+      value: Malignant lymphoma NOS
+      type: any
+    - code: BBl..
+      value: '[M]Mycosis fungoides'
+      type: any
+    - code: XaYil
+      value: Follicular lymphoma grade 3a
+      type: any
+    - code: X50BR
+      value: Lymphomatoid papulosis
+      type: any
+    - code: XE2t9
+      value: '[X]Non-Hodgkin''s lymphoma, unspecified type'
+      type: any
+    - code: XaYin
+      value: Cutaneous follicle centre lymphoma
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C82
+      value: Follicular lymphoma
+      type: any
+    - code: C83
+      value: Non-follicular lymphoma
+      type: any
+    - code: C84
+      value: Mature T/NK-cell lymphomas
+      type: any
+    - code: C85
+      value: Other and unspecified types of non-Hodgkin lymphoma
+      type: any
+    - code: C86
+      value: Other specified types of T/NK-cell lymphoma
+      type: any

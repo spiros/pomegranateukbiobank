@@ -1,0 +1,222 @@
+metadata:
+  phenotype: Multiple sclerosis
+  group: Neurological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: MS
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 4711ebff-ecf7-4ccc-9537-e36dc7de1dc2
+  ontologies:
+    DOID: DOID_2377
+    GWAS: EFO_0003885
+    MESH: D009103
+    SNOMED-CT: 24700007
+    FINNGEN: G6_MS
+  short_desc: A demyelinating disease that involves damage to the fatty myelin sheaths
+    around the axons of the brain and spinal cord resulting in demyelination and scarring.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1261'
+      value: multiple sclerosis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: G35
+      value: Multiple sclerosis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: G35
+      value: Multiple sclerosis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G35
+      value: Multiple sclerosis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G35
+      value: Multiple sclerosis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 666A.00
+      value: Multiple sclerosis review
+      type: prevalent
+    - code: 666B.00
+      value: Multiple sclerosis multidisciplinary review
+      type: prevalent
+    - code: 8Cc0.00
+      value: Management of multiple sclerosis in onset phase
+      type: any
+    - code: 8Cc1.00
+      value: Management of multiple sclerosis in early disease phase
+      type: any
+    - code: 8Cc2.00
+      value: Management of multiple sclerosis in stable disability phase
+      type: any
+    - code: 8Cc4.00
+      value: Management of multiple sclerosis in palliative phase
+      type: any
+    - code: 8CS1.00
+      value: Multiple sclerosis care plan agreed
+      type: any
+    - code: 8IAb.00
+      value: Multiple sclerosis review declined
+      type: prevalent
+    - code: 9kG..00
+      value: Spec serv for pat with multiple sclerosis - enh serv admin
+      type: any
+    - code: 9mD0.00
+      value: Multiple sclerosis monitoring first letter
+      type: prevalent
+    - code: 9mD1.00
+      value: Multiple sclerosis monitoring second letter
+      type: prevalent
+    - code: 9mD..00
+      value: Multiple sclerosis monitoring administration
+      type: prevalent
+    - code: F200.00
+      value: Multiple sclerosis of the brain stem
+      type: any
+    - code: F201.00
+      value: Multiple sclerosis of the spinal cord
+      type: any
+    - code: F202.00
+      value: Generalised multiple sclerosis
+      type: any
+    - code: F203.00
+      value: Exacerbation of multiple sclerosis
+      type: any
+    - code: F204.00
+      value: Benign multiple sclerosis
+      type: any
+    - code: F206.00
+      value: Primary progressive multiple sclerosis
+      type: any
+    - code: F207.00
+      value: Relapsing and remitting multiple sclerosis
+      type: any
+    - code: F208.00
+      value: Secondary progressive multiple sclerosis
+      type: any
+    - code: F20..00
+      value: Multiple sclerosis
+      type: any
+    - code: F20..11
+      value: Disseminated sclerosis
+      type: any
+    - code: F20z.00
+      value: Multiple sclerosis NOS
+      type: any
+    - code: XaX9F
+      value: Multiple sclerosis monitoring first letter
+      type: prevalent
+    - code: XaX9A
+      value: Multiple sclerosis monitoring administration
+      type: prevalent
+    - code: XaX9H
+      value: Multiple sclerosis monitoring second letter
+      type: prevalent
+    - code: XaKzg
+      value: Multiple sclerosis care plan agreed
+      type: any
+    - code: XaPSc
+      value: Management of multiple sclerosis in palliative phase
+      type: any
+    - code: XaPSY
+      value: Management of multiple sclerosis in onset phase
+      type: any
+    - code: XaP0r
+      value: Primary progressive multiple sclerosis
+      type: any
+    - code: XaPSZ
+      value: Management of multiple sclerosis in early disease phase
+      type: any
+    - code: XaP1V
+      value: Secondary progressive multiple sclerosis
+      type: any
+    - code: XaPSa
+      value: Management of multiple sclerosis in stable disability phase
+      type: any
+    - code: XaKvn
+      value: Multiple sclerosis multidisciplinary review
+      type: prevalent
+    - code: XaP1B
+      value: Relapsing and remitting multiple sclerosis
+      type: any
+    - code: XaOzZ
+      value: Benign multiple sclerosis
+      type: any
+    - code: XaKvm
+      value: Multiple sclerosis review
+      type: prevalent
+    - code: XaQwl
+      value: Multiple sclerosis review declined
+      type: prevalent
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,264 @@
+metadata:
+  phenotype: Urinary Tract Infections
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: uti
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 84314c54-843d-4936-9b5f-dbca0bc3ea42
+  ontologies:
+    DOID: DOID_1679
+    GWAS: EFO_1000025
+    MESH: D003556
+    SNOMED-CT: 38822007
+    FINNGEN: N14_CYSTITIS
+  short_desc: Cystitis is inflammation of the bladder, usually caused by a bladder
+    infection.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1514'
+      value: cystitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: N08.0
+      value: Glomerular disorders in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: N10
+      value: Acute tubulo-interstitial nephritis
+      type: any
+    - code: N13.6
+      value: Pyonephrosis
+      type: any
+    - code: N15.1
+      value: Renal and perinephric abscess
+      type: any
+    - code: N16.0
+      value: Renal tubulo-interstitial disorders in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+    - code: N29.0
+      value: Late syphilis of kidney
+      type: any
+    - code: N29.1
+      value: Other disorders of kidney and ureter in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+    - code: N30.0
+      value: Acute cystitis
+      type: any
+    - code: N30.9
+      value: Cystitis, unspecified
+      type: any
+    - code: N33.0
+      value: Tuberculous cystitis
+      type: any
+    - code: N34
+      value: Urethritis and urethral syndrome
+      type: any
+    - code: N37.0
+      value: Urethritis in diseases classified elsewhere
+      type: any
+    - code: N39.0
+      value: Urinary tract infection, site not specified
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: N08.0
+      value: Glomerular disorders in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: N10
+      value: Acute tubulo-interstitial nephritis
+      type: any
+    - code: N13.6
+      value: Pyonephrosis
+      type: any
+    - code: N15.1
+      value: Renal and perinephric abscess
+      type: any
+    - code: N16.0
+      value: Renal tubulo-interstitial disorders in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+    - code: N29.0
+      value: Late syphilis of kidney
+      type: any
+    - code: N29.1
+      value: Other disorders of kidney and ureter in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+    - code: N30.0
+      value: Acute cystitis
+      type: any
+    - code: N30.9
+      value: Cystitis, unspecified
+      type: any
+    - code: N33.0
+      value: Tuberculous cystitis
+      type: any
+    - code: N34
+      value: Urethritis and urethral syndrome
+      type: any
+    - code: N37.0
+      value: Urethritis in diseases classified elsewhere
+      type: any
+    - code: N39.0
+      value: Urinary tract infection, site not specified
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N08.0
+      value: Glomerular disorders in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: N10
+      value: Acute tubulo-interstitial nephritis
+      type: any
+    - code: N13.6
+      value: Pyonephrosis
+      type: any
+    - code: N15.1
+      value: Renal and perinephric abscess
+      type: any
+    - code: N16.0
+      value: Renal tubulo-interstitial disorders in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+    - code: N29.0
+      value: Late syphilis of kidney
+      type: any
+    - code: N29.1
+      value: Other disorders of kidney and ureter in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+    - code: N30.0
+      value: Acute cystitis
+      type: any
+    - code: N30.9
+      value: Cystitis, unspecified
+      type: any
+    - code: N33.0
+      value: Tuberculous cystitis
+      type: any
+    - code: N34
+      value: Urethritis and urethral syndrome
+      type: any
+    - code: N37.0
+      value: Urethritis in diseases classified elsewhere
+      type: any
+    - code: N39.0
+      value: Urinary tract infection, site not specified
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N08.0
+      value: Glomerular disorders in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: N10
+      value: Acute tubulo-interstitial nephritis
+      type: any
+    - code: N13.6
+      value: Pyonephrosis
+      type: any
+    - code: N15.1
+      value: Renal and perinephric abscess
+      type: any
+    - code: N16.0
+      value: Renal tubulo-interstitial disorders in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+    - code: N29.0
+      value: Late syphilis of kidney
+      type: any
+    - code: N29.1
+      value: Other disorders of kidney and ureter in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+    - code: N30.0
+      value: Acute cystitis
+      type: any
+    - code: N30.9
+      value: Cystitis, unspecified
+      type: any
+    - code: N33.0
+      value: Tuberculous cystitis
+      type: any
+    - code: N34
+      value: Urethritis and urethral syndrome
+      type: any
+    - code: N37.0
+      value: Urethritis in diseases classified elsewhere
+      type: any
+    - code: N39.0
+      value: Urinary tract infection, site not specified
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

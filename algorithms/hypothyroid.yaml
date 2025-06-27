@@ -1,0 +1,266 @@
+metadata:
+  phenotype: Hypothyroidism
+  group: Endocrine
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: hypothyroid
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: e8b1c337-f3aa-46ce-8926-35f62b69b9a6
+  ontologies:
+    DOID: DOID_1459
+    GWAS: EFO_0004705
+    MESH: D007037
+    SNOMED-CT: 40930008
+    FINNGEN: HYPOTHYROIDISM
+  short_desc: null
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1226'
+      value: hypothyroidism/myxoedema
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: E03.5
+      value: Myxoedema coma
+      type: any
+    - code: E03.8
+      value: Other specified hypothyroidism
+      type: any
+    - code: E03.9
+      value: Hypothyroidism, unspecified
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: E03.5
+      value: Myxoedema coma
+      type: any
+    - code: E03.8
+      value: Other specified hypothyroidism
+      type: any
+    - code: E03.9
+      value: Hypothyroidism, unspecified
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: E03.5
+      value: Myxoedema coma
+      type: any
+    - code: E03.8
+      value: Other specified hypothyroidism
+      type: any
+    - code: E03.9
+      value: Hypothyroidism, unspecified
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: E03.5
+      value: Myxoedema coma
+      type: any
+    - code: E03.8
+      value: Other specified hypothyroidism
+      type: any
+    - code: E03.9
+      value: Hypothyroidism, unspecified
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1432.00'
+      value: 'H/O: hypothyroidism'
+      type: prevalent
+    - code: 66BB.00
+      value: Hypothyroidism annual review
+      type: prevalent
+    - code: 8CR5.00
+      value: Hypothyroidism clinical management plan
+      type: any
+    - code: 9Oj0.00
+      value: Hypothyroidism monitoring first letter
+      type: prevalent
+    - code: 9Oj1.00
+      value: Hypothyroidism monitoring second letter
+      type: prevalent
+    - code: 9Oj2.00
+      value: Hypothyroidism monitoring third letter
+      type: prevalent
+    - code: 9Oj3.00
+      value: Hypothyroidism monitoring verbal invite
+      type: prevalent
+    - code: 9Oj4.00
+      value: Hypothyroidism monitoring telephone invitation
+      type: prevalent
+    - code: 9Oj..00
+      value: Hypothyroidism monitoring administration
+      type: prevalent
+    - code: C040.00
+      value: Postsurgical hypothyroidism
+      type: any
+    - code: C040.11
+      value: Post ablative hypothyroidism
+      type: any
+    - code: C041000
+      value: Irradiation hypothyroidism
+      type: any
+    - code: C041.00
+      value: Other postablative hypothyroidism
+      type: any
+    - code: C041z00
+      value: Postablative hypothyroidism NOS
+      type: any
+    - code: C043.00
+      value: Other iatrogenic hypothyroidism
+      type: any
+    - code: C043z00
+      value: Iatrogenic hypothyroidism NOS
+      type: any
+    - code: C04..00
+      value: Acquired hypothyroidism
+      type: any
+    - code: C04..11
+      value: Myxoedema
+      type: any
+    - code: C04..12
+      value: Thyroid deficiency
+      type: any
+    - code: C04..13
+      value: Hypothyroidism
+      type: any
+    - code: C04y.00
+      value: Other acquired hypothyroidism
+      type: any
+    - code: C04z000
+      value: Premature puberty due to hypothyroidism
+      type: any
+    - code: C04z100
+      value: Myxoedema coma
+      type: any
+    - code: C04z.00
+      value: Hypothyroidism NOS
+      type: any
+    - code: C04z.11
+      value: Pretibial myxoedema - hypothyroid
+      type: any
+    - code: C04z.12
+      value: Thyroid insufficiency
+      type: any
+    - code: C04z.13
+      value: Hypothyroid goitre, acquired
+      type: any
+    - code: C06y100
+      value: Thyroid atrophy
+      type: any
+    - code: C134300
+      value: TSH - thyroid-stimulating hormone deficiency
+      type: any
+    - code: Cyu1100
+      value: '[X]Other sp cified hypothyroidism'
+      type: any
+    - code: F11x500
+      value: Cerebral degeneration due to myxoedema
+      type: any
+    - code: F381400
+      value: Myasthenic syndrome due to hypothyroidism
+      type: any
+    - code: F395300
+      value: Myopathy due to myxoedema
+      type: any
+    - code: XaJuE
+      value: Hypothyroidism monitoring administration
+      type: prevalent
+    - code: XaOjl
+      value: Hypothyroidism annual review
+      type: prevalent
+    - code: XE108
+      value: Acquired hypothyroidism
+      type: any
+    - code: XE108
+      value: Acquired hypothyroidism
+      type: any
+    - code: XaMFm
+      value: Hypothyroidism monitoring telephone invitation
+      type: prevalent
+    - code: XaJYj
+      value: Hypothyroidism clinical management plan
+      type: any
+    - code: XaKbz
+      value: Hypothyroidism monitoring verbal invite
+      type: prevalent
+    - code: X005I
+      value: Myxoedema coma
+      type: any
+    - code: XaJuN
+      value: Hypothyroidism monitoring second letter
+      type: prevalent
+    - code: XaJuM
+      value: Hypothyroidism monitoring first letter
+      type: prevalent
+    - code: XE10A
+      value: Hypothyroidism NOS
+      type: any
+    - code: XaJuO
+      value: Hypothyroidism monitoring third letter
+      type: prevalent
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

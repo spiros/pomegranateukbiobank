@@ -1,0 +1,273 @@
+metadata:
+  phenotype: Retinal detachments and breaks
+  group: Eye
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: retinal_detach
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 06cbf134-cb89-4c8d-9741-b38a337752b6
+  ontologies:
+    DOID: DOID_5327
+    GWAS: EFO_0005773
+    MESH: D012163
+    SNOMED-CT: 42059000
+    FINNGEN: H7_RETINALDETACH
+  short_desc: Retinal detachment is a disorder of the eye in which the retina separates
+    from the layer underneath.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1281'
+      value: retinal detachment
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: H33.0
+      value: Retinal detachment with retinal break
+      type: any
+    - code: H33.3
+      value: Retinal breaks without detachment
+      type: any
+    - code: H33.4
+      value: Traction detachment of retina
+      type: any
+    - code: H33.5
+      value: Other retinal detachments
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: H33.0
+      value: Retinal detachment with retinal break
+      type: any
+    - code: H33.3
+      value: Retinal breaks without detachment
+      type: any
+    - code: H33.4
+      value: Traction detachment of retina
+      type: any
+    - code: H33.5
+      value: Other retinal detachments
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: C81
+      value: Photocoagulation of retina for detachment
+      type: any
+    - code: C81.1
+      value: Xenon photocoagulation of retina for detachment
+      type: any
+    - code: C81.2
+      value: Laser photocoagulation of retina for detachment
+      type: any
+    - code: C81.8
+      value: Other specified photocoagulation of retina for detachment
+      type: any
+    - code: C81.9
+      value: Unspecified photocoagulation of retina for detachment
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: C81
+      value: C81
+      type: any
+    - code: C81.1
+      value: C81.1
+      type: any
+    - code: C81.2
+      value: C81.2
+      type: any
+    - code: C81.8
+      value: C81.8
+      type: any
+    - code: C81.9
+      value: C81.9
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H33.0
+      value: Retinal detachment with retinal break
+      type: any
+    - code: H33.3
+      value: Retinal breaks without detachment
+      type: any
+    - code: H33.4
+      value: Traction detachment of retina
+      type: any
+    - code: H33.5
+      value: Other retinal detachments
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H33.0
+      value: Retinal detachment with retinal break
+      type: any
+    - code: H33.3
+      value: Retinal breaks without detachment
+      type: any
+    - code: H33.4
+      value: Traction detachment of retina
+      type: any
+    - code: H33.5
+      value: Other retinal detachments
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1481.00'
+      value: 'H/O: retinal detachment'
+      type: prevalent
+    - code: '7271000.0'
+      value: Xenon photocoagulation of retina for detachment
+      type: any
+    - code: '7271100.0'
+      value: Laser photocoagulation of retina for detachment
+      type: any
+    - code: '7271.00'
+      value: Photocoagulation of retina for detachment
+      type: any
+    - code: 7271y00
+      value: Other specified photocoagulation of retina for detachment
+      type: any
+    - code: 7271z00
+      value: Photocoagulation of retina for detachment NOS
+      type: any
+    - code: F410000
+      value: Unspecified retinal detachment with retinal defect
+      type: any
+    - code: F410100
+      value: New partial retinal detachment with single defect
+      type: any
+    - code: F410200
+      value: New partial retinal detachment with multiple defects
+      type: any
+    - code: F410300
+      value: New partial retinal detachment with giant tear defect
+      type: any
+    - code: F410400
+      value: New partial retinal detachment with retinal dialysis
+      type: any
+    - code: F410500
+      value: Recent total retinal detachment
+      type: any
+    - code: F410600
+      value: Recent subtotal retinal detachment
+      type: any
+    - code: F410700
+      value: Old partial retinal detachment
+      type: any
+    - code: F410800
+      value: Old total retinal detachment
+      type: any
+    - code: F410900
+      value: Old subtotal retinal detachment
+      type: any
+    - code: F410.00
+      value: Retinal detachment with retinal defect
+      type: any
+    - code: F410z00
+      value: Retinal detachment with defect NOS
+      type: any
+    - code: F413100
+      value: Retinal round hole without detachment
+      type: any
+    - code: F413200
+      value: Horseshoe retinal tear without detachment
+      type: any
+    - code: F413300
+      value: Multiple retinal defects without detachment
+      type: any
+    - code: F413400
+      value: Retinal break
+      type: any
+    - code: F413.00
+      value: Retinal defects without detachment
+      type: any
+    - code: F413z00
+      value: Retinal defects without detachment NOS
+      type: any
+    - code: F41..00
+      value: Retinal detachments and defects
+      type: any
+    - code: F41..11
+      value: Retinal tears
+      type: any
+    - code: F41y000
+      value: Traction retinal detachment
+      type: any
+    - code: F41y.00
+      value: Other forms of retinal detachment
+      type: any
+    - code: F41yz00
+      value: Other retinal detachments NOS
+      type: any
+    - code: F41z.00
+      value: Retinal detachment NOS
+      type: any
+    - code: FyuF400
+      value: '[X]Other retinal detachments'
+      type: any
+    - code: XE15s
+      value: Retinal detachments and defects
+      type: any
+    - code: X00cx
+      value: Retinal break
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

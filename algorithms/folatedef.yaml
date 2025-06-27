@@ -1,0 +1,139 @@
+metadata:
+  phenotype: Folate deficiency anaemia
+  group: Haematological or immunological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: folatedef
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 842036eb-0ef4-4c22-90fc-a808b3aaafd7
+  ontologies:
+    DOID: DOID_14026
+    GWAS: null
+    MESH: null
+    SNOMED-CT: '85649008'
+    FINNGEN: D3_ANAEMIA_FOLATEDEF
+  short_desc: A nutritional deficiency disease that is characterized by a decrease
+    in red blood cells due to lack of folate, has_material_basis in insufficient folic
+    acid in diet, hemolytic anemia, alcoholism, and/or certain medicines.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D52
+      value: Folate deficiency anaemia
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D52
+      value: Folate deficiency anaemia
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D52
+      value: Folate deficiency anaemia
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D52
+      value: Folate deficiency anaemia
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: C262000
+      value: Folic acid deficiency
+      type: any
+    - code: D012100
+      value: Folate-deficiency anaemia due to dietary causes
+      type: any
+    - code: D012111
+      value: Goat's milk anaemia
+      type: any
+    - code: D012200
+      value: Folate-deficiency anaemia, drug induced
+      type: any
+    - code: D012300
+      value: Folate-deficiency anaemia due to malabsorption
+      type: any
+    - code: D012400
+      value: Folate-deficiency anaemia due to liver disorders
+      type: any
+    - code: D012.00
+      value: Folate-deficiency anaemia
+      type: any
+    - code: D012.11
+      value: Folic acid deficiency anaemia
+      type: any
+    - code: D012z00
+      value: Folate-deficiency anaemia NOS
+      type: any
+    - code: D013000
+      value: Combined B12 and folate deficiency anaemia
+      type: any
+    - code: Dyu0300
+      value: '[X]Other folate deficiency anaemias'
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

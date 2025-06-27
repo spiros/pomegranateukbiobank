@@ -1,0 +1,568 @@
+metadata:
+  phenotype: Stable angina
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: stable_angina
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 8593d86e-1be8-40bf-8b8a-438f6667eb90
+  ontologies:
+    DOID: null
+    GWAS: EFO_0003913
+    MESH: D060050
+    SNOMED-CT: '233819005'
+    FINNGEN: I9_ANGINA
+  short_desc: Persistent and reproducible chest discomfort usually precipitated by
+    a physical exertion that dissipates upon cessation of such an activity.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I20.1
+      value: Angina pectoris with documented spasm
+      type: any
+    - code: I20.8
+      value: Other forms of angina pectoris
+      type: any
+    - code: I20.9
+      value: Angina pectoris, unspecified
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I20.1
+      value: Angina pectoris with documented spasm
+      type: any
+    - code: I20.8
+      value: Other forms of angina pectoris
+      type: any
+    - code: I20.9
+      value: Angina pectoris, unspecified
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I20.1
+      value: Angina pectoris with documented spasm
+      type: any
+    - code: I20.8
+      value: Other forms of angina pectoris
+      type: any
+    - code: I20.9
+      value: Angina pectoris, unspecified
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I20.1
+      value: Angina pectoris with documented spasm
+      type: any
+    - code: I20.8
+      value: Other forms of angina pectoris
+      type: any
+    - code: I20.9
+      value: Angina pectoris, unspecified
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: G33z400
+      value: Ischaemic chest pain
+      type: any
+    - code: 14A5.00
+      value: 'H/O: angina pectoris'
+      type: prevalent
+    - code: 14AJ.00
+      value: 'H/O: Angina in last year'
+      type: prevalent
+    - code: 662K.00
+      value: Angina control
+      type: any
+    - code: 662K000
+      value: Angina control - good
+      type: any
+    - code: 662K100
+      value: Angina control - poor
+      type: any
+    - code: 662K200
+      value: Angina control - improving
+      type: any
+    - code: 662Kz00
+      value: Angina control NOS
+      type: any
+    - code: 8B27.00
+      value: Antianginal therapy
+      type: any
+    - code: G33..00
+      value: Angina pectoris
+      type: any
+    - code: G330.00
+      value: Angina decubitus
+      type: any
+    - code: G330000
+      value: Nocturnal angina
+      type: any
+    - code: G330z00
+      value: Angina decubitus NOS
+      type: any
+    - code: G33z.00
+      value: Angina pectoris NOS
+      type: any
+    - code: G33z100
+      value: Stenocardia
+      type: any
+    - code: G33z200
+      value: Syncope anginosa
+      type: any
+    - code: G33z300
+      value: Angina on effort
+      type: any
+    - code: G33z500
+      value: Post infarct angina
+      type: any
+    - code: G33z600
+      value: New onset angina
+      type: any
+    - code: G33z700
+      value: Stable angina
+      type: any
+    - code: G33zz00
+      value: Angina pectoris NOS
+      type: any
+    - code: G34y000
+      value: Chronic coronary insufficiency
+      type: any
+    - code: Gyu3000
+      value: '[X]Other forms of angina pectoris'
+      type: any
+    - code: '7928.11'
+      value: Percutaneous balloon coronary angioplasty
+      type: any
+    - code: '7928000'
+      value: Percut transluminal balloon angioplasty one coronary artery
+      type: any
+    - code: '7928100'
+      value: Percut translum balloon angioplasty mult coronary arteries
+      type: any
+    - code: '7928200'
+      value: Percut translum balloon angioplasty bypass graft coronary a
+      type: any
+    - code: '7928300'
+      value: Percut translum cutting balloon angioplasty coronary artery
+      type: any
+    - code: 7928y00
+      value: Transluminal balloon angioplasty of coronary artery OS
+      type: any
+    - code: 7928z00
+      value: Transluminal balloon angioplasty of coronary artery NOS
+      type: any
+    - code: '7929000'
+      value: Percutaneous transluminal laser coronary angioplasty
+      type: any
+    - code: '7929300'
+      value: Rotary blade coronary angioplasty
+      type: any
+    - code: '7929400'
+      value: Insertion of coronary artery stent
+      type: any
+    - code: '7929500'
+      value: Insertion of drug-eluting coronary artery stent
+      type: any
+    - code: '7929600'
+      value: Percutaneous transluminal atherectomy of coronary artery
+      type: any
+    - code: 792B000
+      value: Endarterectomy of coronary artery NEC
+      type: any
+    - code: 793G.00
+      value: Perc translumin balloon angioplasty stenting coronary artery
+      type: any
+    - code: 793G000
+      value: Perc translum ball angio insert 1-2 drug elut stents cor art
+      type: any
+    - code: 793G100
+      value: Perc tran ball angio ins 3 or more drug elut stents cor art
+      type: any
+    - code: 793G200
+      value: Perc translum balloon angioplasty insert 1-2 stents cor art
+      type: any
+    - code: 793G300
+      value: Percutaneous cor balloon angiop 3 more stents cor art NEC
+      type: any
+    - code: 793Gy00
+      value: OS perc translumina balloon angioplast stenting coronary art
+      type: any
+    - code: 793Gz00
+      value: Perc translum balloon angioplasty stenting coronary art NOS
+      type: any
+    - code: 7A54000
+      value: Percutaneous transluminal angioplasty of artery NEC
+      type: any
+    - code: 7A54500
+      value: Rotary blade angioplasty
+      type: any
+    - code: 7A54800
+      value: Percutaneous transluminal atherectomy
+      type: any
+    - code: 7A56400
+      value: Percutaneous transluminal balloon angioplasty of artery
+      type: any
+    - code: 7A6G100
+      value: Peroperative angioplasty
+      type: any
+    - code: 7A6H300
+      value: Prosthetic graft patch angioplasty
+      type: any
+    - code: 7A6H400
+      value: Percutaneous transluminal angioplasty of vascular graft
+      type: any
+    - code: 792..11
+      value: Coronary artery bypass graft operations
+      type: any
+    - code: '7920'
+      value: Saphenous vein graft replacement of coronary artery
+      type: any
+    - code: '7920.11'
+      value: Saphenous vein graft bypass of coronary artery
+      type: any
+    - code: '7920000'
+      value: Saphenous vein graft replacement of one coronary artery
+      type: any
+    - code: '7920100'
+      value: Saphenous vein graft replacement of two coronary arteries
+      type: any
+    - code: '7920200'
+      value: Saphenous vein graft replacement of three coronary arteries
+      type: any
+    - code: '7920300'
+      value: Saphenous vein graft replacement of four+ coronary arteries
+      type: any
+    - code: 7920y00
+      value: Saphenous vein graft replacement of coronary artery OS
+      type: any
+    - code: 7920z00
+      value: Saphenous vein graft replacement coronary artery NOS
+      type: any
+    - code: '7921'
+      value: Other autograft replacement of coronary artery
+      type: any
+    - code: '7921.11'
+      value: Other autograft bypass of coronary artery
+      type: any
+    - code: '7921000'
+      value: Autograft replacement of one coronary artery NEC
+      type: any
+    - code: '7921100'
+      value: Autograft replacement of two coronary arteries NEC
+      type: any
+    - code: '7921200'
+      value: Autograft replacement of three coronary arteries NEC
+      type: any
+    - code: '7921300'
+      value: Autograft replacement of four of more coronary arteries NEC
+      type: any
+    - code: 7921y00
+      value: Other autograft replacement of coronary artery OS
+      type: any
+    - code: 7921z00
+      value: Other autograft replacement of coronary artery NOS
+      type: any
+    - code: '7922'
+      value: Allograft replacement of coronary artery
+      type: any
+    - code: '7922.11'
+      value: Allograft bypass of coronary artery
+      type: any
+    - code: '7922000'
+      value: Allograft replacement of one coronary artery
+      type: any
+    - code: '7922100'
+      value: Allograft replacement of two coronary arteries
+      type: any
+    - code: '7922200'
+      value: Allograft replacement of three coronary arteries
+      type: any
+    - code: '7922300'
+      value: Allograft replacement of four or more coronary arteries
+      type: any
+    - code: 7922y00
+      value: Other specified allograft replacement of coronary artery
+      type: any
+    - code: 7922z00
+      value: Allograft replacement of coronary artery NOS
+      type: any
+    - code: '7923'
+      value: Prosthetic replacement of coronary artery
+      type: any
+    - code: '7923.11'
+      value: Prosthetic bypass of coronary artery
+      type: any
+    - code: '7923000'
+      value: Prosthetic replacement of one coronary artery
+      type: any
+    - code: '7923100'
+      value: Prosthetic replacement of two coronary arteries
+      type: any
+    - code: '7923200'
+      value: Prosthetic replacement of three coronary arteries
+      type: any
+    - code: '7923300'
+      value: Prosthetic replacement of four or more coronary arteries
+      type: any
+    - code: 7923z00
+      value: Prosthetic replacement of coronary artery NOS
+      type: any
+    - code: '7925'
+      value: Connection of mammary artery to coronary artery
+      type: any
+    - code: '7925.11'
+      value: Creation of bypass from mammary artery to coronary artery
+      type: any
+    - code: '7925000'
+      value: Double anastomosis of mammary arteries to coronary arteries
+      type: any
+    - code: '7925100'
+      value: Double implant of mammary arteries into coronary arteries
+      type: any
+    - code: '7925300'
+      value: Single anastomosis of mammary artery to coronary artery NEC
+      type: any
+    - code: '7925311'
+      value: LIMA single anastomosis
+      type: any
+    - code: '7925312'
+      value: RIMA single anastomosis
+      type: any
+    - code: '7925400'
+      value: Single implantation of mammary artery into coronary artery
+      type: any
+    - code: 7925y00
+      value: Connection of mammary artery to coronary artery OS
+      type: any
+    - code: 7925z00
+      value: Connection of mammary artery to coronary artery NOS
+      type: any
+    - code: '7926'
+      value: Connection of other thoracic artery to coronary artery
+      type: any
+    - code: '7926000'
+      value: Double anastom thoracic arteries to coronary arteries NEC
+      type: any
+    - code: '7926200'
+      value: Single anastomosis of thoracic artery to coronary artery NEC
+      type: any
+    - code: '7926300'
+      value: Single implantation thoracic artery into coronary artery NEC
+      type: any
+    - code: 7926z00
+      value: Connection of other thoracic artery to coronary artery NOS
+      type: any
+    - code: '7927500'
+      value: Open angioplasty of coronary artery
+      type: any
+    - code: 792C.00
+      value: Other replacement of coronary artery
+      type: any
+    - code: 792C000
+      value: Replacement of coronary arteries using multiple methods
+      type: any
+    - code: 792Cy00
+      value: Other specified replacement of coronary artery
+      type: any
+    - code: 792Cz00
+      value: Replacement of coronary artery NOS
+      type: any
+    - code: 792D.00
+      value: Other bypass of coronary artery
+      type: any
+    - code: 792Dy00
+      value: Other specified other bypass of coronary artery
+      type: any
+    - code: 792Dz00
+      value: Other bypass of coronary artery NOS
+      type: any
+    - code: SP00300
+      value: Mechanical complication of coronary bypass
+      type: any
+    - code: SP07600
+      value: Coronary artery bypass graft occlusion
+      type: any
+    - code: '5543'
+      value: Coronary arteriograph.abnormal
+      type: any
+    - code: '3213100'
+      value: Exercise ECG abnormal
+      type: any
+    - code: '3213111'
+      value: Positive exercise ECG test
+      type: any
+    - code: 33B9500
+      value: Exercise tolerance test abnormal
+      type: any
+    - code: 322..00
+      value: 'ECG: myocardial ischaemia'
+      type: any
+    - code: '3222'
+      value: ECG:shows myocardial ischaemia
+      type: any
+    - code: 322Z.00
+      value: 'ECG: myocardial ischaemia NOS'
+      type: any
+    - code: 32E4.00
+      value: 'ECG: S-T depression'
+      type: any
+    - code: 32F2.00
+      value: 'ECG: T wave abnormal'
+      type: any
+    - code: 32F3.00
+      value: 'ECG: T wave flattened'
+      type: any
+    - code: 32F4.00
+      value: 'ECG: T wave inverted'
+      type: any
+    - code: 5C11.00
+      value: Radionuclide heart study abnormal
+      type: any
+    - code: X70Wk
+      value: Percutaneous transluminal atherectomy
+      type: any
+    - code: Ua1eH
+      value: Ischaemic chest pain
+      type: any
+    - code: X00tU
+      value: Insertion of coronary artery stent
+      type: any
+    - code: XaLgU
+      value: Percutaneous transluminal balloon angioplasty and stenting of coronary
+        artery
+      type: any
+    - code: G33z.
+      value: Angina pectoris NOS
+      type: any
+    - code: XaLgV
+      value: Percutaneous transluminal balloon angioplasty and insertion of 1-2 drug
+        eluting stents into coronary artery
+      type: any
+    - code: XE0En
+      value: Double anastomosis of mammary arteries to coronary arteries
+      type: any
+    - code: X200A
+      value: New onset angina
+      type: any
+    - code: XaDyl
+      value: Percutaneous transluminal angioplasty of vascular graft
+      type: any
+    - code: XaEXt
+      value: Post infarct angina
+      type: any
+    - code: XE2Px
+      value: Single anastomosis of mammary artery to coronary artery NEC
+      type: any
+    - code: XaMKE
+      value: Percutaneous transluminal cutting balloon angioplasty of coronary artery
+      type: any
+    - code: XaJi9
+      value: Radionuclide heart study abnormal
+      type: any
+    - code: XaLga
+      value: Percutaneous transluminal balloon angioplasty and stenting of coronary
+        artery NOS
+      type: any
+    - code: X2008
+      value: Stable angina
+      type: any
+    - code: XaDyk
+      value: Prosthetic graft patch angioplasty
+      type: any
+    - code: XaLgX
+      value: Percutaneous transluminal balloon angioplasty and insertion of 1-2 stents
+        into coronary artery
+      type: any
+    - code: XaLhc
+      value: Percutaneous transluminal balloon angioplasty of artery
+      type: any
+    - code: XaLgY
+      value: Percutaneous coronary balloon angioplasty and 3 or more stents into coronary
+        artery NEC
+      type: any
+    - code: XaBLr
+      value: Antianginal therapy
+      type: any
+    - code: XaLgZ
+      value: Other specified percutaneous transluminal balloon angioplasty and stenting
+        of coronary artery
+      type: any
+    - code: XaLSD
+      value: Insertion of drug-eluting coronary artery stent
+      type: any
+    - code: XaBL2
+      value: 'H/O: Angina in last year'
+      type: prevalent
+    - code: XaJIU
+      value: Coronary artery bypass graft occlusion
+      type: any
+    - code: XaLgW
+      value: Percutaneous transluminal balloon angioplasty and insertion of 3 or more
+        drug eluting stents into coronary artery
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

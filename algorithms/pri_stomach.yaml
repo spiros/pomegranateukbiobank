@@ -1,0 +1,188 @@
+metadata:
+  phenotype: Primary Malignancy_Stomach
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: pri_stomach
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 0aad0376-027f-47fe-90f6-9771d09967e4
+  ontologies:
+    DOID: DOID_10534
+    GWAS: EFO_1001252
+    MESH: D013274
+    SNOMED-CT: 363349007
+    FINNGEN: C3_STOMACH
+  short_desc: A benign or malignant neoplasm involving the stomach.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1018'
+      value: stomach cancer
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C16
+      value: Malignant neoplasm of stomach
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C16
+      value: Malignant neoplasm of stomach
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C16
+      value: Malignant neoplasm of stomach
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C16
+      value: Malignant neoplasm of stomach
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B110000
+      value: Malignant neoplasm of cardiac orifice of stomach
+      type: any
+    - code: B110100
+      value: Malignant neoplasm of cardio-oesophageal junction of stomach
+      type: any
+    - code: B110111
+      value: Malignant neoplasm of gastro-oesophageal junction
+      type: any
+    - code: B110.00
+      value: Malignant neoplasm of cardia of stomach
+      type: any
+    - code: B110z00
+      value: Malignant neoplasm of cardia of stomach NOS
+      type: any
+    - code: B111000
+      value: Malignant neoplasm of prepylorus of stomach
+      type: any
+    - code: B111100
+      value: Malignant neoplasm of pyloric canal of stomach
+      type: any
+    - code: B111.00
+      value: Malignant neoplasm of pylorus of stomach
+      type: any
+    - code: B111z00
+      value: Malignant neoplasm of pylorus of stomach NOS
+      type: any
+    - code: B112.00
+      value: Malignant neoplasm of pyloric antrum of stomach
+      type: any
+    - code: B113.00
+      value: Malignant neoplasm of fundus of stomach
+      type: any
+    - code: B114.00
+      value: Malignant neoplasm of body of stomach
+      type: any
+    - code: B115.00
+      value: Malignant neoplasm of lesser curve of stomach unspecified
+      type: any
+    - code: B116.00
+      value: Malignant neoplasm of greater curve of stomach unspecified
+      type: any
+    - code: B117.00
+      value: Malignant neoplasm, overlapping lesion of stomach
+      type: any
+    - code: B118.00
+      value: Siewert type II adenocarcinoma
+      type: any
+    - code: B119.00
+      value: Siewert type III adenocarcinoma
+      type: any
+    - code: B11..00
+      value: Malignant neoplasm of stomach
+      type: any
+    - code: B11y000
+      value: Malignant neoplasm of anterior wall of stomach NEC
+      type: any
+    - code: B11y100
+      value: Malignant neoplasm of posterior wall of stomach NEC
+      type: any
+    - code: B11y.00
+      value: Malignant neoplasm of other specified site of stomach
+      type: any
+    - code: B11yz00
+      value: Malignant neoplasm of other specified site of stomach NOS
+      type: any
+    - code: B11z.00
+      value: Malignant neoplasm of stomach NOS
+      type: any
+    - code: ZV10018
+      value: '[V]Personal history of malignant neoplasm of stomach'
+      type: prevalent
+    - code: XaOrB
+      value: Siewert type III adenocarcinoma
+      type: any
+    - code: XaOqX
+      value: Siewert type II adenocarcinoma
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C16
+      value: Malignant neoplasm of stomach
+      type: any

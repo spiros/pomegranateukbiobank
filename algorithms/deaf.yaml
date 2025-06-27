@@ -1,0 +1,777 @@
+metadata:
+  phenotype: Hearing loss
+  group: Ear
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: deaf
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: e0e67ee9-cce7-46fb-99c7-d8a036e4a52c
+  ontologies:
+    DOID: DOID_10003
+    GWAS: EFO_1001176
+    MESH: D034381
+    SNOMED-CT: 15188001
+    FINNGEN: H8_OTHHEARINGLOSS
+  short_desc: Hearing loss is the loss of hearing in one or both ears, ranging from
+    mild to profound.
+  long_desc: null
+  priority: 2
+definitions:
+  3393:
+    metadata:
+      desc: Hearing aid user
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: 'Yes'
+      type: any
+  4849:
+    metadata:
+      desc: Hearing test done
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '11'
+      value: I can only hear on the right side
+      type: any
+    - code: '12'
+      value: I can only hear on the left side
+      type: any
+  4792:
+    metadata:
+      desc: Cochlear implant
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: 'Yes'
+      type: any
+  2247:
+    metadata:
+      desc: Hearing difficulty/problems
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '99'
+      value: I am completely deaf
+      type: any
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: H90
+      value: Conductive and sensorineural hearing loss
+      type: any
+    - code: H91
+      value: Other hearing loss
+      type: any
+    - code: Z45.3
+      value: Adjustment and management of implanted hearing device
+      type: any
+    - code: Z46.1
+      value: Fitting and adjustment of hearing aid
+      type: any
+    - code: Z97.4
+      value: Presence of external hearing-aid
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: H90
+      value: Conductive and sensorineural hearing loss
+      type: any
+    - code: H91
+      value: Other hearing loss
+      type: any
+    - code: Z45.3
+      value: Adjustment and management of implanted hearing device
+      type: any
+    - code: Z46.1
+      value: Fitting and adjustment of hearing aid
+      type: any
+    - code: Z97.4
+      value: Presence of external hearing-aid
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H90
+      value: Conductive and sensorineural hearing loss
+      type: any
+    - code: H91
+      value: Other hearing loss
+      type: any
+    - code: Z45.3
+      value: Adjustment and management of implanted hearing device
+      type: any
+    - code: Z46.1
+      value: Fitting and adjustment of hearing aid
+      type: any
+    - code: Z97.4
+      value: Presence of external hearing-aid
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H90
+      value: Conductive and sensorineural hearing loss
+      type: any
+    - code: H91
+      value: Other hearing loss
+      type: any
+    - code: Z45.3
+      value: Adjustment and management of implanted hearing device
+      type: any
+    - code: Z46.1
+      value: Fitting and adjustment of hearing aid
+      type: any
+    - code: Z97.4
+      value: Presence of external hearing-aid
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1493.00'
+      value: 'H/O: hearing problem'
+      type: prevalent
+    - code: 1C13100
+      value: Unilateral deafness
+      type: any
+    - code: 1C13.00
+      value: Deafness
+      type: any
+    - code: 1C13.11
+      value: Deafness symptom
+      type: any
+    - code: 1C13200
+      value: Partial deafness
+      type: any
+    - code: 1C13300
+      value: Bilateral deafness
+      type: any
+    - code: 1C17.00
+      value: Hearing aid problem
+      type: any
+    - code: 2BL..11
+      value: O/E - deaf
+      type: any
+    - code: 2BL3.00
+      value: O/E - significantly deaf
+      type: any
+    - code: 2BL4.00
+      value: O/E - very deaf
+      type: any
+    - code: 2BL5.00
+      value: O/E - completely deaf
+      type: any
+    - code: 2BM2.11
+      value: O/E - conductive deafness
+      type: any
+    - code: 2BM3.11
+      value: O/E - perceptive deafness
+      type: any
+    - code: 2DG..00
+      value: Hearing aid worn
+      type: any
+    - code: 2DH0.00
+      value: Uses hearing loop
+      type: any
+    - code: '7308400.0'
+      value: Placement of hearing implant in external ear
+      type: any
+    - code: '7308500.0'
+      value: Attention to hearing implant in external ear
+      type: any
+    - code: '7308600.0'
+      value: Removal of hearing implant from external ear
+      type: any
+    - code: 7311A00
+      value: Insertn bone anchors subcutaneous bone anchored hearing aid
+      type: any
+    - code: 7317C00
+      value: Placement of hearing implant in middle ear
+      type: any
+    - code: 7317D00
+      value: Attention to hearing implant in middle ear
+      type: any
+    - code: '7317.00'
+      value: Removal of hearing implant from middle ear
+      type: any
+    - code: '7319000.0'
+      value: Insertion fixtures bone anchored hearing prosthesis Stage 1
+      type: any
+    - code: '7319100.0'
+      value: Insertion fixtures bone anchored hearing prosthesis Stage 2
+      type: any
+    - code: '7319200.0'
+      value: Reduction soft tissue for bone anchored hearing prosthesis
+      type: any
+    - code: '7319300.0'
+      value: Attention to fixtures for bone anchored hearing prosthesis
+      type: any
+    - code: '7319400.0'
+      value: One stage insert fixtures bone anchored hearing prosthesis
+      type: any
+    - code: '7319500.0'
+      value: Fitting external hearing prosthesis bone anchored fixtures
+      type: any
+    - code: '7319600.0'
+      value: First stge ins fixtures for bone anchored hearing prosthesis
+      type: any
+    - code: '7319.00'
+      value: Attachment of bone anchored hearing prosthesis
+      type: any
+    - code: '7319700.0'
+      value: Second stage ins fixtures for bone anchored hearing prosth
+      type: any
+    - code: 7319y00
+      value: Other specified attachment bone anchored hearing prosthesis
+      type: any
+    - code: 7319z00
+      value: Attachment of bone anchored hearing prosthesis NOS
+      type: any
+    - code: 8D21.00
+      value: Provide head worn hearing aid
+      type: any
+    - code: 8D22.00
+      value: Provide body worn hearing aid
+      type: any
+    - code: 8D23.00
+      value: Ear fitting hearing aid
+      type: any
+    - code: 8D24.00
+      value: Replace hearing aid battery
+      type: any
+    - code: 8D26.00
+      value: Provision of replacement hearing aid
+      type: any
+    - code: 8D2..12
+      value: Hearing aid provision
+      type: any
+    - code: 8E3..00
+      value: Deafness remedial therapy
+      type: any
+    - code: 8E3Z.00
+      value: Deafness remedial therapy NOS
+      type: any
+    - code: 8HT2.00
+      value: Referral to hearing aid clinic
+      type: any
+    - code: 8M41.00
+      value: Hearing aid requested
+      type: any
+    - code: 9N0b.00
+      value: Seen in hearing aid clinic
+      type: any
+    - code: 9NfB.00
+      value: Requires deafblind communicator guide
+      type: any
+    - code: A560200
+      value: Rubella deafness
+      type: any
+    - code: F580100
+      value: Presbyacusis
+      type: any
+    - code: F580111
+      value: Senile presbyacusis
+      type: any
+    - code: F581200
+      value: Noise-induced hearing loss
+      type: any
+    - code: F581211
+      value: Noise induced deafness
+      type: any
+    - code: F582.00
+      value: Unspecified sudden hearing loss
+      type: any
+    - code: F590000
+      value: Unspecified conductive hearing loss
+      type: any
+    - code: F590100
+      value: Conductive hearing loss due to disorder of external ear
+      type: any
+    - code: F590200
+      value: Conductive hearing loss due to disorder of tympanic membrane
+      type: any
+    - code: F590300
+      value: Conductive hearing loss due to disorder of middle ear
+      type: any
+    - code: F590400
+      value: Conductive hearing loss due to disorder of inner ear
+      type: any
+    - code: F590500
+      value: Conductive hearing loss, bilateral
+      type: any
+    - code: F590600
+      value: Conduct hear loss,unilat+unrestric hearing on contralat side
+      type: any
+    - code: F590.00
+      value: Conductive hearing loss
+      type: any
+    - code: F590.11
+      value: Conductive deafness
+      type: any
+    - code: F590y00
+      value: Combined conductive hearing loss
+      type: any
+    - code: F590z00
+      value: Conductive hearing loss NOS
+      type: any
+    - code: F591000
+      value: Unspecified perceptive hearing loss
+      type: any
+    - code: F591100
+      value: Sensory hearing loss
+      type: any
+    - code: F591200
+      value: Neural hearing loss
+      type: any
+    - code: F591211
+      value: Nerve deafness
+      type: any
+    - code: F591300
+      value: Central hearing loss
+      type: any
+    - code: F591400
+      value: Congenital sensorineural deafness
+      type: any
+    - code: F591500
+      value: Ototoxicity - deafness
+      type: any
+    - code: F591511
+      value: Drug ototoxicity - deafness
+      type: any
+    - code: F591600
+      value: Sensorineural hearing loss, bilateral
+      type: any
+    - code: F591700
+      value: Sensorineurl hear loss,unilat unrestrict hear/contralat side
+      type: any
+    - code: F591800
+      value: Congenital prelingual deafness
+      type: any
+    - code: F591900
+      value: Bilateral profound sensorineural hearing loss
+      type: any
+    - code: F591A00
+      value: Bilateral congenital sensorineural hearing loss
+      type: any
+    - code: F591B00
+      value: Profound sensorineural hearing loss
+      type: any
+    - code: F591C00
+      value: Moderate sensorineural hearing loss
+      type: any
+    - code: F591D00
+      value: Mild sensorineural hearing loss
+      type: any
+    - code: F591E00
+      value: Severe sensorineural hearing loss
+      type: any
+    - code: F591.00
+      value: Sensorineural hearing loss
+      type: any
+    - code: F591.11
+      value: High frequency deafness
+      type: any
+    - code: F591.12
+      value: Low frequency deafness
+      type: any
+    - code: F591.13
+      value: Perceptive deafness
+      type: any
+    - code: F591.14
+      value: Perceptive hearing loss
+      type: any
+    - code: F591y00
+      value: Combined perceptive hearing loss
+      type: any
+    - code: F591z00
+      value: Perceptive hearing loss NOS
+      type: any
+    - code: F592000
+      value: Mix cond/sensneurl hear loss,unlat unrestrc hear/contrlat sd
+      type: any
+    - code: F592100
+      value: Mixed conductive and sensorineural hearing loss, bilateral
+      type: any
+    - code: F592.00
+      value: Mixed conductive and sensorineural deafness
+      type: any
+    - code: F592.11
+      value: Mixed hearing loss
+      type: any
+    - code: F593.00
+      value: Deaf mutism, NEC
+      type: any
+    - code: F594.00
+      value: High frequency deafness
+      type: any
+    - code: F595.00
+      value: Low frequency deafness
+      type: any
+    - code: F596.00
+      value: Maternally inherited deafness
+      type: any
+    - code: F597.00
+      value: Mild acquired hearing loss
+      type: any
+    - code: F598.00
+      value: Moderate acquired hearing loss
+      type: any
+    - code: F599.00
+      value: Severe acquired hearing loss
+      type: any
+    - code: F59A.00
+      value: Profound acquired hearing loss
+      type: any
+    - code: F59A.11
+      value: Deafened
+      type: any
+    - code: F59..00
+      value: Hearing loss
+      type: any
+    - code: F59..11
+      value: Deafness
+      type: any
+    - code: F59y.00
+      value: Other specified forms of hearing loss
+      type: any
+    - code: F59z.00
+      value: Deafness NOS
+      type: any
+    - code: F59z.11
+      value: Chronic deafness
+      type: any
+    - code: F5A..00
+      value: Hearing impairment
+      type: any
+    - code: Fy1..00
+      value: Combined visual and hearing impairment
+      type: any
+    - code: FyuU000
+      value: '[X]Deaf mutism, not elsewhere classified'
+      type: any
+    - code: FyuU100
+      value: '[X]Other specified hearing loss'
+      type: any
+    - code: P400.00
+      value: Ear anomalies with hearing impaired, unspecified
+      type: any
+    - code: P402.00
+      value: Other external ear anomaly with hearing impairment
+      type: any
+    - code: P402z00
+      value: Other external ear anomaly with hearing impairment NOS
+      type: any
+    - code: P40..00
+      value: Ear anomalies with hearing impairment
+      type: any
+    - code: P40z.00
+      value: Other and unspecified ear anomaly with hearing impaired
+      type: any
+    - code: P40z.11
+      value: Deafness due to congenital anomaly NEC
+      type: any
+    - code: P40zz00
+      value: Ear anomaly with hearing impaired NOS
+      type: any
+    - code: PKyP.00
+      value: Diab insipidus,diab mell,optic atrophy and deafness
+      type: any
+    - code: Pyu1B00
+      value: '[X]Malformation of ear with impairment of hearing, unspec'
+      type: any
+    - code: Z8B5100
+      value: Able to use hearing aid
+      type: any
+    - code: Z8B5300
+      value: Does use hearing aid
+      type: any
+    - code: Z8B5311
+      value: Uses hearing aid
+      type: any
+    - code: Z8B5500
+      value: Difficulty using hearing aid
+      type: any
+    - code: Z8B5.00
+      value: Ability to use hearing aid
+      type: any
+    - code: Z911100
+      value: Fit hearing aid
+      type: any
+    - code: Z911300
+      value: Adjust hearing aid settings
+      type: any
+    - code: Z911400
+      value: Changing hearing aid battery
+      type: any
+    - code: Z911500
+      value: Checking hearing aid
+      type: any
+    - code: Z911700
+      value: Switching on hearing aid
+      type: any
+    - code: Z911800
+      value: Turning off hearing aid
+      type: any
+    - code: Z911900
+      value: Putting on hearing aid
+      type: any
+    - code: Z911A00
+      value: Listening for feedback whistle of hearing aid
+      type: any
+    - code: Z911B00
+      value: Attention to hearing aid
+      type: any
+    - code: Z911E00
+      value: Fit ear mould for existing hearing aid
+      type: any
+    - code: Z911G00
+      value: Fit ear mould for hearing protection
+      type: any
+    - code: Z911.00
+      value: Hearing aid procedure
+      type: any
+    - code: Z9E8100
+      value: Hearing aid provision
+      type: any
+    - code: ZE87.00
+      value: Hearing loss
+      type: any
+    - code: ZE87.11
+      value: Deafness
+      type: any
+    - code: ZE87.13
+      value: Hard of hearing
+      type: any
+    - code: ZE87.15
+      value: HI - Hearing impairment
+      type: any
+    - code: ZE87.16
+      value: HL - Hearing loss
+      type: any
+    - code: ZE87.17
+      value: HOH - Hard of hearing
+      type: any
+    - code: ZE87.18
+      value: Hearing impairment
+      type: any
+    - code: ZE87.19
+      value: Hearing impaired
+      type: any
+    - code: ZE87.20
+      value: Hearing impaired
+      type: any
+    - code: ZL71600
+      value: Referral to registered hearing aid dispenser
+      type: any
+    - code: ZN56900
+      value: Deaf telephone user
+      type: any
+    - code: ZN56A00
+      value: Deaf-blind telephone user
+      type: any
+    - code: ZV45G00
+      value: '[V]Presence of external hearing-aid'
+      type: any
+    - code: ZV45N00
+      value: '[V]Bone anchored hearing aid in situ'
+      type: any
+    - code: ZV53200
+      value: '[V]Fitting or adjustment of hearing aid'
+      type: any
+    - code: ZV53D00
+      value: '[V]Adjustment and management of implanted hearing device'
+      type: any
+    - code: XaLNr
+      value: Attachment of bone anchored hearing prosthesis NOS
+      type: any
+    - code: XaLNc
+      value: Removal of hearing implant from external ear
+      type: any
+    - code: XE17O
+      value: Ototoxicity - deafness
+      type: any
+    - code: XaLNm
+      value: Insertion of fixtures for bone anchored hearing prosthesis Stage 1
+      type: any
+    - code: XaRE5
+      value: Profound acquired hearing loss
+      type: any
+    - code: XaOPs
+      value: Maternally inherited deafness
+      type: any
+    - code: XaKjD
+      value: Uses hearing loop
+      type: any
+    - code: XaZuE
+      value: Profound sensorineural hearing loss
+      type: any
+    - code: XaLNa
+      value: Placement of hearing implant in external ear
+      type: any
+    - code: X00kQ
+      value: Low frequency deafness
+      type: any
+    - code: XaRE4
+      value: Severe acquired hearing loss
+      type: any
+    - code: XE0s9
+      value: Hearing loss
+      type: any
+    - code: XE1i5
+      value: O/E - hearing tested-8th nerve
+      type: any
+    - code: XaRE1
+      value: Congenital prelingual deafness
+      type: any
+    - code: XaZp4
+      value: Provision of replacement hearing aid
+      type: any
+    - code: XaZuF
+      value: Mild sensorineural hearing loss
+      type: any
+    - code: XaLNo
+      value: Reduction of soft tissue for bone anchored hearing prosthesis
+      type: any
+    - code: XaZuB
+      value: Severe sensorineural hearing loss
+      type: any
+    - code: XaLNb
+      value: Attention to hearing implant in external ear
+      type: any
+    - code: XaRE2
+      value: Mild acquired hearing loss
+      type: any
+    - code: XaRE3
+      value: Moderate acquired hearing loss
+      type: any
+    - code: XaLNn
+      value: Insertion of fixtures for bone anchored hearing prosthesis Stage 2
+      type: any
+    - code: XaLNp
+      value: Attention to fixtures for bone anchored hearing prosthesis
+      type: any
+    - code: XE1K4
+      value: Other and unspecified ear anomaly with hearing impaired
+      type: any
+    - code: XE17P
+      value: Deafness NOS
+      type: any
+    - code: XE17N
+      value: Sensorineural hearing loss
+      type: any
+    - code: XaaLf
+      value: Bilateral profound sensorineural hearing loss
+      type: any
+    - code: XaaLg
+      value: Bilateral congenital sensorineural hearing loss
+      type: any
+    - code: XaLNh
+      value: Placement of hearing implant in middle ear
+      type: any
+    - code: XaMkw
+      value: Fitting of external hearing prosthesis to bone anchored fixtures
+      type: any
+    - code: XaEEV
+      value: Seen in hearing aid clinic
+      type: any
+    - code: X00h2
+      value: Insertion of bone anchors for subcutaneous bone anchored hearing aid
+      type: any
+    - code: XaLNq
+      value: Other specified attachment of bone anchored hearing prosthesis
+      type: any
+    - code: XaPEU
+      value: '[V]Bone anchored hearing aid in situ'
+      type: any
+    - code: XaIRo
+      value: Hearing aid problem
+      type: any
+    - code: XaMkv
+      value: One stage insertion of fixtures for bone anchored hearing prosthesis
+      type: any
+    - code: X008t
+      value: Diabetes insipidus, diabetes mellitus, optic atrophy and deafness
+      type: any
+    - code: XaIkt
+      value: Hearing aid requested
+      type: any
+    - code: X00kP
+      value: High frequency deafness
+      type: any
+    - code: Xa0LN
+      value: Hearing aid worn
+      type: any
+    - code: XaYB3
+      value: Requires deafblind communicator guide
+      type: any
+    - code: XaZuA
+      value: Moderate sensorineural hearing loss
+      type: any
+    - code: XaYPJ
+      value: Combined visual and hearing impairment
+      type: any
+    - code: XaLNi
+      value: Attention to hearing implant in middle ear
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

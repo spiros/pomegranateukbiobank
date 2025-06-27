@@ -1,0 +1,311 @@
+metadata:
+  phenotype: Anterior and Intermediate Uveitis
+  group: Eye
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: ant_uveitis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 5ca8d7a1-4a84-497e-a7b4-b2e5285a14c1
+  ontologies:
+    DOID: DOID_1407
+    GWAS: EFO_1000811
+    MESH: D014606
+    SNOMED-CT: 410692006
+    FINNGEN: null
+  short_desc: Inflammation of the iris and anterior chamber of the eye.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1530'
+      value: iritis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: H20.0
+      value: Acute and subacute iridocyclitis
+      type: any
+    - code: H20.1
+      value: Chronic iridocyclitis
+      type: any
+    - code: H20.2
+      value: Lens-induced iridocyclitis
+      type: any
+    - code: H20.8
+      value: Other iridocyclitis
+      type: any
+    - code: H20.9
+      value: Iridocyclitis, unspecified
+      type: any
+    - code: H22.0
+      value: Iridocyclitis in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: H22.1
+      value: Iridocyclitis in other diseases classified elsewhere
+      type: any
+    - code: H30.2
+      value: Posterior cyclitis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: H20.0
+      value: Acute and subacute iridocyclitis
+      type: any
+    - code: H20.1
+      value: Chronic iridocyclitis
+      type: any
+    - code: H20.2
+      value: Lens-induced iridocyclitis
+      type: any
+    - code: H20.8
+      value: Other iridocyclitis
+      type: any
+    - code: H20.9
+      value: Iridocyclitis, unspecified
+      type: any
+    - code: H22.0
+      value: Iridocyclitis in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: H22.1
+      value: Iridocyclitis in other diseases classified elsewhere
+      type: any
+    - code: H30.2
+      value: Posterior cyclitis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H20.0
+      value: Acute and subacute iridocyclitis
+      type: any
+    - code: H20.1
+      value: Chronic iridocyclitis
+      type: any
+    - code: H20.2
+      value: Lens-induced iridocyclitis
+      type: any
+    - code: H20.8
+      value: Other iridocyclitis
+      type: any
+    - code: H20.9
+      value: Iridocyclitis, unspecified
+      type: any
+    - code: H22.0
+      value: Iridocyclitis in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: H22.1
+      value: Iridocyclitis in other diseases classified elsewhere
+      type: any
+    - code: H30.2
+      value: Posterior cyclitis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H20.0
+      value: Acute and subacute iridocyclitis
+      type: any
+    - code: H20.1
+      value: Chronic iridocyclitis
+      type: any
+    - code: H20.2
+      value: Lens-induced iridocyclitis
+      type: any
+    - code: H20.8
+      value: Other iridocyclitis
+      type: any
+    - code: H20.9
+      value: Iridocyclitis, unspecified
+      type: any
+    - code: H22.0
+      value: Iridocyclitis in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: H22.1
+      value: Iridocyclitis in other diseases classified elsewhere
+      type: any
+    - code: H30.2
+      value: Posterior cyclitis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1486.00'
+      value: 'H/O: iritis'
+      type: prevalent
+    - code: A173300
+      value: Tuberculous chronic iridocyclitis
+      type: any
+    - code: A532200
+      value: Herpes zoster iridocyclitis
+      type: any
+    - code: A544400
+      value: Herpes simplex iridocyclitis
+      type: any
+    - code: A984100
+      value: Gonococcal iridocyclitis
+      type: any
+    - code: C34y300
+      value: Gouty iritis
+      type: any
+    - code: F432300
+      value: Posterior cyclitis
+      type: any
+    - code: F432311
+      value: Pars planitis
+      type: any
+    - code: F440000
+      value: Unspecified acute iridocyclitis
+      type: any
+    - code: F440100
+      value: Unspecified subacute iridocyclitis
+      type: any
+    - code: F440200
+      value: Primary iridocyclitis
+      type: any
+    - code: F440300
+      value: Recurrent iridocyclitis
+      type: any
+    - code: F440400
+      value: Secondary infected iridocyclitis
+      type: any
+    - code: F440500
+      value: Secondary noninfected iridocyclitis
+      type: any
+    - code: F440600
+      value: Hypopyon
+      type: any
+    - code: F440700
+      value: Diabetic iritis
+      type: any
+    - code: F440.00
+      value: Acute and subacute iridocyclitis
+      type: any
+    - code: F440.11
+      value: Iritis - acute
+      type: any
+    - code: F440z00
+      value: Acute or subacute iritis NOS
+      type: any
+    - code: F441000
+      value: Unspecified chronic iridocyclitis
+      type: any
+    - code: F441100
+      value: Chronic iridocyclitis due to disease EC
+      type: any
+    - code: F441200
+      value: Chronic anterior uveitis
+      type: any
+    - code: F441.00
+      value: Chronic iridocyclitis
+      type: any
+    - code: F441.11
+      value: Chronic iritis
+      type: any
+    - code: F441z00
+      value: Chronic iridocyclitis NOS
+      type: any
+    - code: F442000
+      value: Fuchs' heterochromic cyclitis
+      type: any
+    - code: F442100
+      value: Glaucomatocyclitic crises
+      type: any
+    - code: F442200
+      value: Lens-induced iridocyclitis
+      type: any
+    - code: F442.00
+      value: Certain types of iridocyclitis
+      type: any
+    - code: F442z00
+      value: Certain types of cyclitis NOS
+      type: any
+    - code: F443000
+      value: Anterior uveitis
+      type: any
+    - code: F443100
+      value: Iritis
+      type: any
+    - code: F443.00
+      value: Unspecified iridocyclitis
+      type: any
+    - code: F443.11
+      value: Uveitis NOS
+      type: any
+    - code: F44..12
+      value: Iridocyclitis
+      type: any
+    - code: XaF43
+      value: Posterior cyclitis
+      type: any
+    - code: XE167
+      value: Acute and subacute iridocyclitis
+      type: any
+    - code: XE16A
+      value: Unspecified iridocyclitis
+      type: any
+    - code: XaBM3
+      value: Chronic anterior uveitis
+      type: any
+    - code: X00be
+      value: Anterior uveitis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

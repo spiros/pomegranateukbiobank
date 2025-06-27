@@ -1,0 +1,290 @@
+metadata:
+  phenotype: Chronic viral hepatitis
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: chr_hep
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 34103789-944f-4214-8524-5c26393c6a77
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: null
+    SNOMED-CT: null
+    FINNGEN: null
+  short_desc: Viral hepatitis is liver inflammation due to a viral infection.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1581'
+      value: hepatitis d
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: B18
+      value: Chronic viral hepatitis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: B18
+      value: Chronic viral hepatitis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: B18
+      value: Chronic viral hepatitis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: B18
+      value: Chronic viral hepatitis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 141E.00
+      value: History of hepatitis B
+      type: prevalent
+    - code: 14i..00
+      value: H/O hepatitis C antiviral drug therapy
+      type: prevalent
+    - code: '2126700.0'
+      value: Hepatitis C resolved
+      type: any
+    - code: 43B4.00
+      value: Hepatitis B surface antig +ve
+      type: any
+    - code: 43B5.00
+      value: Hepatitis e antigen present
+      type: any
+    - code: 43j5.00
+      value: Hepatitis C nucleic acid detection
+      type: any
+    - code: 43jG.00
+      value: Hepatitis B nucleic acid detection
+      type: any
+    - code: 43X3.00
+      value: Hepatitis C antibody test positive
+      type: any
+    - code: 4J3B.00
+      value: Hepatitis C viral load
+      type: any
+    - code: 4J3D.00
+      value: Hepatitis B viral load
+      type: any
+    - code: 4JQ3.00
+      value: Hepatitis C virus genotype
+      type: any
+    - code: 4JQD.00
+      value: Hepatitis C viral ribonucleic acid PCR positive
+      type: any
+    - code: 4JQD.11
+      value: Hepatitis C PCR positive
+      type: any
+    - code: 4JQF.00
+      value: Hepatitis C antigen positive
+      type: any
+    - code: 7Q05200
+      value: Hepatitis B treatment drugs Band 1
+      type: any
+    - code: 8BB5.00
+      value: 12 week virologic response to hepatitis C treatment
+      type: any
+    - code: 9kR..00
+      value: Chronic hepatitis annual review - enhanced services admin
+      type: prevalent
+    - code: 9kV..00
+      value: Hepatitis C screening positive - enhanced services admin
+      type: any
+    - code: 9kV..11
+      value: Hepatitis C screening positive
+      type: any
+    - code: 9kX..00
+      value: Hepatitis status 6 months post treatment - enhanced serv adm
+      type: any
+    - code: 9kZ..00
+      value: Hepatitis B screening positive - enhanced services admin
+      type: any
+    - code: 9kZ..11
+      value: Hepatitis B screening positive
+      type: any
+    - code: 9NgR.00
+      value: On hepatitis C treatment plan
+      type: any
+    - code: A703.00
+      value: Viral (serum) hepatitis B
+      type: any
+    - code: A705000
+      value: Viral hepatitis C without mention of hepatic coma
+      type: any
+    - code: A705100
+      value: Acute delta-(super)infection of hepatitis B carrier
+      type: any
+    - code: A707000
+      value: Chronic viral hepatitis B with delta-agent
+      type: any
+    - code: A707100
+      value: Chronic viral hepatitis B without delta-agent
+      type: any
+    - code: A707200
+      value: Chronic viral hepatitis C
+      type: any
+    - code: A707300
+      value: Chronic viral hepatitis B
+      type: any
+    - code: A707.00
+      value: Chronic viral hepatitis
+      type: any
+    - code: A707X00
+      value: Chronic viral hepatitis, unspecified
+      type: any
+    - code: A70A.00
+      value: Hepatitis C genotype 1
+      type: any
+    - code: A70B.00
+      value: Hepatitis C genotype 2
+      type: any
+    - code: A70C.00
+      value: Hepatitis C genotype 3
+      type: any
+    - code: A70D.00
+      value: Hepatitis C genotype 4
+      type: any
+    - code: A70z000
+      value: Hepatitis C
+      type: any
+    - code: AyuB100
+      value: '[X]Other chronic viral hepatitis'
+      type: any
+    - code: AyuB200
+      value: '[X]Chronic viral hepatitis, unspecified'
+      type: any
+    - code: Q409100
+      value: Congenital hepatitis B infection
+      type: any
+    - code: XaIrZ
+      value: Hepatitis C virus genotype
+      type: any
+    - code: X306k
+      value: Chronic viral hepatitis C
+      type: any
+    - code: XaXBp
+      value: Hepatitis C viral ribonucleic acid polymerase chain reaction positive
+      type: any
+    - code: XaZDB
+      value: H/O hepatitis C antiviral drug therapy
+      type: prevalent
+    - code: XaLow
+      value: History of hepatitis B
+      type: prevalent
+    - code: XaILY
+      value: Hepatitis C nucleic acid detection
+      type: any
+    - code: XaZ5S
+      value: Hepatitis C genotype 3
+      type: any
+    - code: XaIrP
+      value: Hepatitis B nucleic acid detection
+      type: any
+    - code: X306i
+      value: Chronic viral hepatitis B
+      type: any
+    - code: XaZDE
+      value: On hepatitis C treatment plan
+      type: any
+    - code: XaZ5T
+      value: Hepatitis C genotype 4
+      type: any
+    - code: XaIrY
+      value: Hepatitis C viral load
+      type: any
+    - code: XaZ5Q
+      value: Hepatitis C genotype 2
+      type: any
+    - code: XaFDz
+      value: Hepatitis C antibody test positive
+      type: any
+    - code: XaZ5P
+      value: Hepatitis C genotype 1
+      type: any
+    - code: X306h
+      value: Chronic viral hepatitis
+      type: any
+    - code: XaYbh
+      value: Hepatitis C antigen positive
+      type: any
+    - code: XaMEk
+      value: Hepatitis B treatment drugs Band 1
+      type: any
+    - code: XaMBL
+      value: Hepatitis B viral load
+      type: any
+    - code: XaZBl
+      value: 12 week virologic response to hepatitis C treatment
+      type: any
+    - code: XaXET
+      value: Hepatitis C resolved
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

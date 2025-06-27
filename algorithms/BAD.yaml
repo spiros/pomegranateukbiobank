@@ -1,0 +1,483 @@
+metadata:
+  phenotype: Bipolar affective disorder and mania
+  group: Psychiatric
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: BAD
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: aca308c8-7c3c-43db-aa66-2194b46fb915
+  ontologies:
+    DOID: DOID_3312
+    GWAS: EFO_0000289
+    MESH: D001714
+    SNOMED-CT: 13746004
+    FINNGEN: F5_BIPO
+  short_desc: Bipolar disorder causes extreme mood swings that include emotional highs
+    (mania or hypomania) and lows (depression).
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1291'
+      value: mania/bipolar disorder/manic depression
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: F30
+      value: Manic episode
+      type: any
+    - code: F31
+      value: Bipolar affective disorder
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: F30
+      value: Manic episode
+      type: any
+    - code: F31
+      value: Bipolar affective disorder
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F30
+      value: Manic episode
+      type: any
+    - code: F31
+      value: Bipolar affective disorder
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F30
+      value: Manic episode
+      type: any
+    - code: F31
+      value: Bipolar affective disorder
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 146D.00
+      value: 'H/O: manic depressive disorder'
+      type: prevalent
+    - code: 1S42.00
+      value: Manic mood
+      type: any
+    - code: 212V.00
+      value: Bipolar affective disorder resolved
+      type: any
+    - code: E110000
+      value: Single manic episode, unspecified
+      type: any
+    - code: E110100
+      value: Single manic episode, mild
+      type: any
+    - code: E110200
+      value: Single manic episode, moderate
+      type: any
+    - code: E110300
+      value: Single manic episode, severe without mention of psychosis
+      type: any
+    - code: E110400
+      value: Single manic episode, severe, with psychosis
+      type: any
+    - code: E110500
+      value: Single manic episode in partial or unspecified remission
+      type: any
+    - code: E110600
+      value: Single manic episode in full remission
+      type: any
+    - code: E110.00
+      value: Manic disorder, single episode
+      type: any
+    - code: E110.11
+      value: Hypomanic psychoses
+      type: any
+    - code: E110z00
+      value: Manic disorder, single episode NOS
+      type: any
+    - code: E111000
+      value: Recurrent manic episodes, unspecified
+      type: any
+    - code: E111100
+      value: Recurrent manic episodes, mild
+      type: any
+    - code: E111200
+      value: Recurrent manic episodes, moderate
+      type: any
+    - code: E111300
+      value: Recurrent manic episodes, severe without mention psychosis
+      type: any
+    - code: E111400
+      value: Recurrent manic episodes, severe, with psychosis
+      type: any
+    - code: E111500
+      value: Recurrent manic episodes, partial or unspecified remission
+      type: any
+    - code: E111600
+      value: Recurrent manic episodes, in full remission
+      type: any
+    - code: E111.00
+      value: Recurrent manic episodes
+      type: any
+    - code: E111z00
+      value: Recurrent manic episode NOS
+      type: any
+    - code: E114000
+      value: Bipolar affective disorder, currently manic, unspecified
+      type: any
+    - code: E114100
+      value: Bipolar affective disorder, currently manic, mild
+      type: any
+    - code: E114200
+      value: Bipolar affective disorder, currently manic, moderate
+      type: any
+    - code: E114300
+      value: Bipolar affect disord, currently manic, severe, no psychosis
+      type: any
+    - code: E114400
+      value: Bipolar affect disord, currently manic,severe with psychosis
+      type: any
+    - code: E114500
+      value: Bipolar affect disord,currently manic, part/unspec remission
+      type: any
+    - code: E114600
+      value: Bipolar affective disorder, currently manic, full remission
+      type: any
+    - code: E114.00
+      value: Bipolar affective disorder, currently manic
+      type: any
+    - code: E114.11
+      value: Manic-depressive - now manic
+      type: any
+    - code: E114z00
+      value: Bipolar affective disorder, currently manic, NOS
+      type: any
+    - code: E115000
+      value: Bipolar affective disorder, currently depressed, unspecified
+      type: any
+    - code: E115100
+      value: Bipolar affective disorder, currently depressed, mild
+      type: any
+    - code: E115200
+      value: Bipolar affective disorder, currently depressed, moderate
+      type: any
+    - code: E115300
+      value: Bipolar affect disord, now depressed, severe, no psychosis
+      type: any
+    - code: E115400
+      value: Bipolar affect disord, now depressed, severe with psychosis
+      type: any
+    - code: E115500
+      value: Bipolar affect disord, now depressed, part/unspec remission
+      type: any
+    - code: E115600
+      value: Bipolar affective disorder, now depressed, in full remission
+      type: any
+    - code: E115.00
+      value: Bipolar affective disorder, currently depressed
+      type: any
+    - code: E115.11
+      value: Manic-depressive - now depressed
+      type: any
+    - code: E115z00
+      value: Bipolar affective disorder, currently depressed, NOS
+      type: any
+    - code: E116000
+      value: Mixed bipolar affective disorder, unspecified
+      type: any
+    - code: E116100
+      value: Mixed bipolar affective disorder, mild
+      type: any
+    - code: E116200
+      value: Mixed bipolar affective disorder, moderate
+      type: any
+    - code: E116300
+      value: Mixed bipolar affective disorder, severe, without psychosis
+      type: any
+    - code: E116400
+      value: Mixed bipolar affective disorder, severe, with psychosis
+      type: any
+    - code: E116500
+      value: Mixed bipolar affective disorder, partial/unspec remission
+      type: any
+    - code: E116600
+      value: Mixed bipolar affective disorder, in full remission
+      type: any
+    - code: E116.00
+      value: Mixed bipolar affective disorder
+      type: any
+    - code: E116z00
+      value: Mixed bipolar affective disorder, NOS
+      type: any
+    - code: E117000
+      value: Unspecified bipolar affective disorder, unspecified
+      type: any
+    - code: E117100
+      value: Unspecified bipolar affective disorder, mild
+      type: any
+    - code: E117200
+      value: Unspecified bipolar affective disorder, moderate
+      type: any
+    - code: E117300
+      value: Unspecified bipolar affective disorder, severe, no psychosis
+      type: any
+    - code: E117400
+      value: Unspecified bipolar affective disorder,severe with psychosis
+      type: any
+    - code: E117500
+      value: Unspecified bipolar affect disord, partial/unspec remission
+      type: any
+    - code: E117600
+      value: Unspecified bipolar affective disorder, in full remission
+      type: any
+    - code: E117.00
+      value: Unspecified bipolar affective disorder
+      type: any
+    - code: E117z00
+      value: Unspecified bipolar affective disorder, NOS
+      type: any
+    - code: E11..11
+      value: Bipolar psychoses
+      type: any
+    - code: E11..13
+      value: Manic psychoses
+      type: any
+    - code: E11y000
+      value: Unspecified manic-depressive psychoses
+      type: any
+    - code: E11y100
+      value: Atypical manic disorder
+      type: any
+    - code: E11y300
+      value: Other mixed manic-depressive psychoses
+      type: any
+    - code: E11y.00
+      value: Other and unspecified manic-depressive psychoses
+      type: any
+    - code: E11yz00
+      value: Other and unspecified manic-depressive psychoses NOS
+      type: any
+    - code: Eu30000
+      value: '[X]Hypomania'
+      type: any
+    - code: Eu30100
+      value: '[X]Mania without psychotic symptoms'
+      type: any
+    - code: Eu30200
+      value: '[X]Mania with psychotic symptoms'
+      type: any
+    - code: Eu30211
+      value: '[X]Mania with mood-congruent psychotic symptoms'
+      type: any
+    - code: Eu30212
+      value: '[X]Mania with mood-incongruent psychotic symptoms'
+      type: any
+    - code: Eu30.00
+      value: '[X]Manic episode'
+      type: any
+    - code: Eu30.11
+      value: '[X]Bipolar disorder, single manic episode'
+      type: any
+    - code: Eu30y00
+      value: '[X]Other manic episodes'
+      type: any
+    - code: Eu30z00
+      value: '[X]Manic episode, unspecified'
+      type: any
+    - code: Eu30z11
+      value: '[X]Mania NOS'
+      type: any
+    - code: Eu31000
+      value: '[X]Bipolar affective disorder, current episode hypomanic'
+      type: any
+    - code: Eu31100
+      value: '[X]Bipolar affect disorder cur epi manic wout psychotic symp'
+      type: any
+    - code: Eu31200
+      value: '[X]Bipolar affect disorder cur epi manic with psychotic symp'
+      type: any
+    - code: Eu31300
+      value: '[X]Bipolar affect disorder cur epi mild or moderate depressn'
+      type: any
+    - code: Eu31400
+      value: '[X]Bipol aff disord, curr epis sev depress, no psychot symp'
+      type: any
+    - code: Eu31500
+      value: '[X]Bipolar affect dis cur epi severe depres with psyc symp'
+      type: any
+    - code: Eu31600
+      value: '[X]Bipolar affective disorder, current episode mixed'
+      type: any
+    - code: Eu31700
+      value: '[X]Bipolar affective disorder, currently in remission'
+      type: any
+    - code: Eu31800
+      value: '[X]Bipolar affective disorder type I'
+      type: any
+    - code: Eu31900
+      value: '[X]Bipolar affective disorder type II'
+      type: any
+    - code: Eu31911
+      value: '[X]Bipolar II disorder'
+      type: any
+    - code: Eu31.00
+      value: '[X]Bipolar affective disorder'
+      type: any
+    - code: Eu31.11
+      value: '[X]Manic-depressive illness'
+      type: any
+    - code: Eu31.12
+      value: '[X]Manic-depressive psychosis'
+      type: any
+    - code: Eu31.13
+      value: '[X]Manic-depressive reaction'
+      type: any
+    - code: Eu31y00
+      value: '[X]Other bipolar affective disorders'
+      type: any
+    - code: Eu31y11
+      value: '[X]Bipolar II disorder'
+      type: any
+    - code: Eu31y12
+      value: '[X]Recurrent manic episodes'
+      type: any
+    - code: Eu31z00
+      value: '[X]Bipolar affective disorder, unspecified'
+      type: any
+    - code: Eu33213
+      value: '[X]Manic-depress psychosis,depressd,no psychotic symptoms'
+      type: any
+    - code: Eu33312
+      value: '[X]Manic-depress psychosis,depressed type+psychotic symptoms'
+      type: any
+    - code: ZRby100
+      value: Profile of mood states, bipolar
+      type: any
+    - code: ZV11111
+      value: '[V]Personal history of manic-depressive psychosis'
+      type: prevalent
+    - code: ZV11112
+      value: '[V]Personal history of manic-depressive psychosis'
+      type: prevalent
+    - code: XaIx7
+      value: 'H/O: manic depressive disorder'
+      type: prevalent
+    - code: XE1ZV
+      value: '[X]Mania with psychotic symptoms'
+      type: any
+    - code: XE1ZW
+      value: '[X]Manic episode, unspecified'
+      type: any
+    - code: XE1ZW
+      value: '[X]Manic episode, unspecified'
+      type: any
+    - code: XE1Zd
+      value: '[X]Recurrent depressive disorder, current episode severe without psychotic
+        symptoms'
+      type: any
+    - code: XE1Zd
+      value: '[X]Recurrent depressive disorder, current episode severe without psychotic
+        symptoms'
+      type: any
+    - code: XE1Xz
+      value: Manic disorder, single episode
+      type: any
+    - code: XE1ZX
+      value: '[X]Other bipolar affective disorders'
+      type: any
+    - code: XaMwc
+      value: Bipolar affective disorder resolved
+      type: any
+    - code: XE1Ze
+      value: '[X]Recurrent depressive disorder, current episode severe with psychotic
+        symptoms'
+      type: any
+    - code: Xa3WO
+      value: Manic mood
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []
+  20122:
+    metadata:
+      desc: Type of bipolar episode
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: Bipolar Type I (Mania)
+      type: any
+    - code: '2'
+      value: Bipolar Type II (Hypomania)
+      type: any
+  20126:
+    metadata:
+      desc: Bipolar and major depression status
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: Bipolar I Disorder
+      type: any
+    - code: '2'
+      value: Bipolar II Disorder
+      type: any

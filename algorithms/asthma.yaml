@@ -1,0 +1,315 @@
+metadata:
+  phenotype: Asthma
+  group: Respiratory
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: asthma
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 018142ee-ed30-416d-97f1-503f4be316c6
+  priority: 1
+  ontologies:
+    DOID: DOID_2841
+    GWAS: EFO_0000270
+    MESH: D001249
+    SNOMED-CT: 195967001
+    FINNGEN: J10_ASTHMA
+  short_desc: A bronchial disease that is characterized by chronic inflammation and
+    narrowing of the airways, which is caused by a combination of environmental and
+    genetic factors. The symptoms appear due to a variety of triggers such as allergens,
+    irritants, respiratory infections, weather changes, exercise, stress, reflux disease,
+    medications, foods and emotional anxiety.
+  long_desc: null
+definitions:
+  22167:
+    metadata:
+      desc: Recent medication for asthma
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: 'Yes'
+      type: any
+  22127:
+    metadata:
+      desc: Doctor diagnosed asthma
+      time_qualifier:
+        field_id: 22147
+        type: age
+    values:
+    - code: '1'
+      value: asthma
+      type: any
+  6152:
+    metadata:
+      desc: Blood clot, DVT, bronchitis, emphysema, asthma, rhinitis, eczema, allergy
+        diagnosed by doctor
+      time_qualifier:
+        field_id: 3786
+        type: age
+    values:
+    - code: '8'
+      value: asthma
+      type: any
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1111'
+      value: asthma
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: J45
+      value: Asthma
+      type: any
+    - code: J46
+      value: Status asthmaticus
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: J45
+      value: Asthma
+      type: any
+    - code: J46
+      value: Status asthmaticus
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J45
+      value: Asthma
+      type: any
+    - code: J46
+      value: Status asthmaticus
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J45
+      value: Asthma
+      type: any
+    - code: J46
+      value: Status asthmaticus
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14B4.00
+      value: 'H/O: asthma'
+      type: prevalent
+    - code: 173A.00
+      value: Exercise induced asthma
+      type: any
+    - code: 173c.00
+      value: Occupational asthma
+      type: any
+    - code: 173d.00
+      value: Work aggravated asthma
+      type: any
+    - code: '1780.00'
+      value: Aspirin induced asthma
+      type: any
+    - code: 1O2..00
+      value: Asthma confirmed
+      type: any
+    - code: '2126200.0'
+      value: Asthma resolved
+      type: any
+    - code: 212G.00
+      value: Asthma resolved
+      type: any
+    - code: H312000
+      value: Chronic asthmatic bronchitis
+      type: any
+    - code: H330000
+      value: Extrinsic asthma without status asthmaticus
+      type: any
+    - code: H330011
+      value: Hay fever with asthma
+      type: any
+    - code: H330100
+      value: Extrinsic asthma with status asthmaticus
+      type: any
+    - code: H330111
+      value: Extrinsic asthma with asthma attack
+      type: any
+    - code: H330.00
+      value: Extrinsic (atopic) asthma
+      type: any
+    - code: H330.11
+      value: Allergic asthma
+      type: any
+    - code: H330.12
+      value: Childhood asthma
+      type: any
+    - code: H330.13
+      value: Hay fever with asthma
+      type: any
+    - code: H330.14
+      value: Pollen asthma
+      type: any
+    - code: H330z00
+      value: Extrinsic asthma NOS
+      type: any
+    - code: H331000
+      value: Intrinsic asthma without status asthmaticus
+      type: any
+    - code: H331100
+      value: Intrinsic asthma with status asthmaticus
+      type: any
+    - code: H331111
+      value: Intrinsic asthma with asthma attack
+      type: any
+    - code: H331.00
+      value: Intrinsic asthma
+      type: any
+    - code: H331.11
+      value: Late onset asthma
+      type: any
+    - code: H331z00
+      value: Intrinsic asthma NOS
+      type: any
+    - code: H332.00
+      value: Mixed asthma
+      type: any
+    - code: H333.00
+      value: Acute exacerbation of asthma
+      type: any
+    - code: H334.00
+      value: Brittle asthma
+      type: any
+    - code: H335.00
+      value: Chronic asthma with fixed airflow obstruction
+      type: any
+    - code: H33..00
+      value: Asthma
+      type: any
+    - code: H33..11
+      value: Bronchial asthma
+      type: any
+    - code: H33z000
+      value: Status asthmaticus NOS
+      type: any
+    - code: H33z011
+      value: Severe asthma attack
+      type: any
+    - code: H33z100
+      value: Asthma attack
+      type: any
+    - code: H33z111
+      value: Asthma attack NOS
+      type: any
+    - code: H33z200
+      value: Late-onset asthma
+      type: any
+    - code: H33z.00
+      value: Asthma unspecified
+      type: any
+    - code: H33z.11
+      value: Hyperreactive airways disease
+      type: any
+    - code: H33zz00
+      value: Asthma NOS
+      type: any
+    - code: H33zz11
+      value: Exercise induced asthma
+      type: any
+    - code: H33zz12
+      value: Allergic asthma NEC
+      type: any
+    - code: H33zz13
+      value: Allergic bronchitis NEC
+      type: any
+    - code: XE0YU
+      value: Intrinsic asthma with status asthmaticus
+      type: any
+    - code: XE0YS
+      value: Extrinsic asthma with status asthmaticus
+      type: any
+    - code: XE0YV
+      value: Status asthmaticus NOS
+      type: any
+    - code: XE0YW
+      value: Asthma attack
+      type: any
+    - code: XaKdk
+      value: Work aggravated asthma
+      type: any
+    - code: XaIuG
+      value: Asthma confirmed
+      type: any
+    - code: XE0YX
+      value: Asthma NOS
+      type: any
+    - code: Xaa7B
+      value: Chronic asthma with fixed airflow obstruction
+      type: any
+    - code: X1025
+      value: Occupational asthma
+      type: any
+    - code: '21262'
+      value: Asthma resolved
+      type: any
+    - code: Ua1AX
+      value: Brittle asthma
+      type: any
+    - code: XE0YR
+      value: Extrinsic asthma without status asthmaticus
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

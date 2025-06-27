@@ -1,0 +1,1021 @@
+metadata:
+  phenotype: Chronic Kidney Disease
+  group: Genitourinary
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: CKD
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: bf0daad7-6b19-4ace-8504-d39051f9cfb2
+  ontologies:
+    DOID: DOID_784
+    GWAS: EFO_0003884
+    MESH: D051436
+    SNOMED-CT: 709044004
+    FINNGEN: N14_CHRONKIDNEYDIS
+  short_desc: A kidney failure that is characterized by the gradual loss of kidney
+    function.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1192'
+      value: renal/kidney failure
+      type: any
+    - code: '1193'
+      value: renal failure requiring dialysis
+      type: any
+    - code: '1194'
+      value: renal failure not requiring dialysis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+      time_qualifier:
+        field_id: 20010
+        type: year
+    values:
+    - code: '1580'
+      value: dialysis access surgery
+      type: any
+    - code: '1581'
+      value: haemodialysis access / fistula surgery
+      type: any
+    - code: '1582'
+      value: peritoneal dialysis (capd) access surgery
+      type: any
+    - code: '1476'
+      value: fistula for dialysis
+      type: any
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: N18
+      value: Chronic kidney disease
+      type: any
+    - code: I12.0
+      value: Hypertensive renal disease with renal failure
+      type: any
+    - code: I13.1
+      value: Hypertensive heart and renal disease with renal failure
+      type: any
+    - code: I13.2
+      value: Hypertensive heart and renal disease with both (congestive) heart failure
+        and renal failure
+      type: any
+    - code: N18.5
+      value: Chronic kidney disease, stage 5
+      type: any
+    - code: Z49
+      value: Care involving dialysis
+      type: any
+    - code: Y60.2
+      value: Unintentional cut, puncture, perforation or haemorrhage during surgical
+        and medical care during dialysis
+      type: any
+    - code: Y61.2
+      value: Unintentional cut, puncture, perforation or haemorrhage during surgical
+        and medical care during dialysis
+      type: any
+    - code: Y62.2
+      value: Unintentional cut, puncture, perforation or haemorrhage during surgical
+        and medical care during dialysis
+      type: any
+    - code: Z99.2
+      value: Dependence on renal dialysis
+      type: prevalent
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: N18
+      value: Chronic kidney disease
+      type: any
+    - code: I12.0
+      value: Hypertensive renal disease with renal failure
+      type: any
+    - code: I13.1
+      value: Hypertensive heart and renal disease with renal failure
+      type: any
+    - code: I13.2
+      value: Hypertensive heart and renal disease with both (congestive) heart failure
+        and renal failure
+      type: any
+    - code: N18.5
+      value: Chronic kidney disease, stage 5
+      type: any
+    - code: Z49
+      value: Care involving dialysis
+      type: any
+    - code: Y60.2
+      value: Unintentional cut, puncture, perforation or haemorrhage during surgical
+        and medical care during dialysis
+      type: any
+    - code: Y61.2
+      value: Unintentional cut, puncture, perforation or haemorrhage during surgical
+        and medical care during dialysis
+      type: any
+    - code: Y62.2
+      value: Unintentional cut, puncture, perforation or haemorrhage during surgical
+        and medical care during dialysis
+      type: any
+    - code: Z99.2
+      value: Dependence on renal dialysis
+      type: prevalent
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: X402
+      value: Peritoneal dialysis NEC
+      type: any
+    - code: X403
+      value: Haemodialysis NEC
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: X402
+      value: Peritoneal dialysis NEC
+      type: any
+    - code: X403
+      value: Haemodialysis NEC
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N18
+      value: Chronic kidney disease
+      type: any
+    - code: I12.0
+      value: Hypertensive renal disease with renal failure
+      type: any
+    - code: I13.1
+      value: Hypertensive heart and renal disease with renal failure
+      type: any
+    - code: I13.2
+      value: Hypertensive heart and renal disease with both (congestive) heart failure
+        and renal failure
+      type: any
+    - code: N18.5
+      value: Chronic kidney disease, stage 5
+      type: any
+    - code: Z49
+      value: Care involving dialysis
+      type: any
+    - code: Y60.2
+      value: Unintentional cut, puncture, perforation or haemorrhage during surgical
+        and medical care during dialysis
+      type: any
+    - code: Y61.2
+      value: Unintentional cut, puncture, perforation or haemorrhage during surgical
+        and medical care during dialysis
+      type: any
+    - code: Y62.2
+      value: Unintentional cut, puncture, perforation or haemorrhage during surgical
+        and medical care during dialysis
+      type: any
+    - code: Z99.2
+      value: Dependence on renal dialysis
+      type: prevalent
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N18
+      value: Chronic kidney disease
+      type: any
+    - code: I12.0
+      value: Hypertensive renal disease with renal failure
+      type: any
+    - code: I13.1
+      value: Hypertensive heart and renal disease with renal failure
+      type: any
+    - code: I13.2
+      value: Hypertensive heart and renal disease with both (congestive) heart failure
+        and renal failure
+      type: any
+    - code: N18.5
+      value: Chronic kidney disease, stage 5
+      type: any
+    - code: Z49
+      value: Care involving dialysis
+      type: any
+    - code: Y60.2
+      value: Unintentional cut, puncture, perforation or haemorrhage during surgical
+        and medical care during dialysis
+      type: any
+    - code: Y61.2
+      value: Unintentional cut, puncture, perforation or haemorrhage during surgical
+        and medical care during dialysis
+      type: any
+    - code: Y62.2
+      value: Unintentional cut, puncture, perforation or haemorrhage during surgical
+        and medical care during dialysis
+      type: any
+    - code: Z99.2
+      value: Dependence on renal dialysis
+      type: prevalent
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 1Z1M.00
+      type: any
+      value: ' CKD with GFR category G1 & albuminuria category A1'
+    - code: 1Z18.00
+      type: any
+      value: Chronic kidney disease stage 1 without proteinuria
+    - code: 1Z17.00
+      type: any
+      value: Chronic kidney disease stage 1 with proteinuria
+    - code: 1Z1P.00
+      type: any
+      value: CKD with GFR category G1 & albuminuria category A3
+    - code: 1Z10.00
+      type: any
+      value: Chronic kidney disease stage 1
+    - code: 1Z17.11
+      type: any
+      value: CKD stage 1 with proteinuria
+    - code: 1Z18.11
+      type: any
+      value: CKD stage 1 without proteinuria
+    - code: 1Z1N.00
+      type: any
+      value: CKD with GFR category G1 & albuminuria category A2
+    - code: 1Z1Q.00
+      type: any
+      value: CKD with GFR category G2 & albuminuria category A1
+    - code: 1Z19.00
+      type: any
+      value: Chronic kidney disease stage 2 with proteinuria
+    - code: 1Z11.00
+      type: any
+      value: Chronic kidney disease stage 2
+    - code: 1Z1R.00
+      type: any
+      value: CKD with GFR category G2 & albuminuria category A2
+    - code: 1Z19.11
+      type: any
+      value: CKD stage 2 with proteinuria
+    - code: 1Z1A.00
+      type: any
+      value: Chronic kidney disease stage 2 without proteinuria
+    - code: 1Z1A.11
+      type: any
+      value: CKD stage 2 without proteinuria
+    - code: K052.00
+      type: any
+      value: Chronic kidney disease stage 2
+    - code: 1Z1S.00
+      type: any
+      value: CKD with GFR category G2 & albuminuria category A3
+    - code: 1Z1C.11
+      type: any
+      value: CKD stage 3 without proteinuria
+    - code: 1Z1E.11
+      type: any
+      value: CKD stage 3A without proteinuria
+    - code: 1Z1F.11
+      type: any
+      value: CKD stage 3B with proteinuria
+    - code: 1Z1G.00
+      type: any
+      value: Chronic kidney disease stage 3B without proteinuria
+    - code: 1Z1V.00
+      type: any
+      value: CKD with GFR category G3a & albuminuria category A2
+    - code: 1Z15.00
+      type: any
+      value: Chronic kidney disease stage 3A
+    - code: 1Z1D.00
+      type: any
+      value: Chronic kidney disease stage 3A with proteinuria
+    - code: 1Z1F.00
+      type: any
+      value: Chronic kidney disease stage 3B with proteinuria
+    - code: 1Z1W.00
+      type: any
+      value: CKD with GFR category G3a & albuminuria category A3
+    - code: 1Z1G.11
+      type: any
+      value: CKD stage 3B without proteinuria
+    - code: 1Z1D.11
+      type: any
+      value: CKD stage 3A with proteinuria
+    - code: 1Z12.00
+      type: any
+      value: Chronic kidney disease stage 3
+    - code: 1Z1B.00
+      type: any
+      value: Chronic kidney disease stage 3 with proteinuria
+    - code: 1Z1Z.00
+      type: any
+      value: CKD with GFR category G3b & albuminuria category A3
+    - code: 1Z1C.00
+      type: any
+      value: Chronic kidney disease stage 3 without proteinuria
+    - code: 1Z1E.00
+      type: any
+      value: Chronic kidney disease stage 3A without proteinuria
+    - code: 1Z1Y.00
+      type: any
+      value: CKD with GFR category G3b & albuminuria category A2
+    - code: 1Z16.00
+      type: any
+      value: Chronic kidney disease stage 3B
+    - code: 1Z1X.00
+      type: any
+      value: CKD with GFR category G3b & albuminuria category A1
+    - code: K053.00
+      type: any
+      value: Chronic kidney disease stage 3
+    - code: 1Z1B.11
+      type: any
+      value: CKD stage 3 with proteinuria
+    - code: 1Z1T.00
+      type: any
+      value: CKD with GFR category G3a & albuminuria category A1
+    - code: K054.00
+      type: any
+      value: Chronic kidney disease stage 4
+    - code: 1Z1H.11
+      type: any
+      value: CKD stage 4 with proteinuria
+    - code: 1Z1J.11
+      type: any
+      value: CKD stage 4 without proteinuria
+    - code: 1Z1a.00
+      type: any
+      value: CKD with GFR category G4 & albuminuria category A1
+    - code: 1Z1c.00
+      type: any
+      value: CKD with GFR category G4 & albuminuria category A3
+    - code: 1Z1H.00
+      type: any
+      value: Chronic kidney disease stage 4 with proteinuria
+    - code: 1Z1J.00
+      type: any
+      value: Chronic kidney disease stage 4 without proteinuria
+    - code: 1Z13.00
+      type: any
+      value: Chronic kidney disease stage 4
+    - code: 1Z1b.00
+      type: any
+      value: CKD with GFR category G4 & albuminuria category A2
+    - code: 1Z1K.00
+      type: any
+      value: Chronic kidney disease stage 5 with proteinuria
+    - code: 1Z1L.11
+      type: any
+      value: CKD stage 5 without proteinuria
+    - code: 1Z1e.00
+      type: any
+      value: CKD with GFR category G5 & albuminuria category A2
+    - code: 1Z1K.11
+      type: any
+      value: CKD stage 5 with proteinuria
+    - code: 1Z1L.00
+      type: any
+      value: Chronic kidney disease stage 5 without proteinuria
+    - code: G233.00
+      type: any
+      value: Hypertensive heart and renal disease with renal failure
+    - code: G234.00
+      type: any
+      value: Hyperten heart&renal dis+both(congestv)heart and renal fail
+    - code: K05..12
+      type: any
+      value: End stage renal failure
+    - code: 1Z1d.00
+      type: any
+      value: CKD with GFR category G5 & albuminuria category A1
+    - code: 1Z1f.00
+      type: any
+      value: CKD with GFR category G5 & albuminuria category A3
+    - code: K055.00
+      type: any
+      value: Chronic kidney disease stage 5
+    - code: 1Z14.00
+      type: any
+      value: Chronic kidney disease stage 5
+    - code: K05..00
+      type: any
+      value: Chronic renal failure
+    - code: K050.00
+      type: any
+      value: End stage renal failure
+    - code: 4I29.00
+      type: any
+      value: Peritoneal dialysis sample
+    - code: ZV56011
+      type: any
+      value: '[V]Aftercare involving renal dialysis NOS'
+    - code: 7A61900
+      type: any
+      value: Ligation of arteriovenous dialysis fistula
+    - code: '8882'
+      type: any
+      value: Intestinal dialysis
+    - code: G72D100
+      type: any
+      value: Aneurysm of needle site of dialysis arteriovenous fistula
+    - code: ZV45100
+      type: any
+      value: '[V]Renal dialysis status'
+    - code: Gy41.00
+      type: any
+      value: Infection of dialysis arteriovenous fistula
+    - code: G72D000
+      type: any
+      value: Aneurysm of superficialised artery of dialysis AV fistula
+    - code: 7L1A011
+      type: any
+      value: Thomas intravascular shunt for dialysis
+    - code: SP07G00
+      type: any
+      value: Stenosis of arteriovenous dialysis fistula
+    - code: TB11.11
+      type: any
+      value: Renal dialysis with complication
+    - code: 7L1B100
+      type: any
+      value: Removal of ambulatory peritoneal dialysis catheter
+    - code: 7A61A00
+      type: any
+      value: Ligation of arteriovenous dialysis graft
+    - code: Gy21.00
+      type: any
+      value: Thrombosis of dialysis arteriovenous fistula
+    - code: Gy4..00
+      type: any
+      value: Infection of dialysis vascular access
+    - code: G72D.00
+      type: any
+      value: Aneurysm of dialysis arteriovenous fistula
+    - code: TA22000
+      type: any
+      value: Failure of sterile precautions during kidney dialysis
+    - code: SP01500
+      type: any
+      value: Mechanical complication of dialysis catheter
+    - code: 7L1B.11
+      type: any
+      value: Placement ambulatory dialysis apparatus - compens renal fail
+    - code: ZV56y11
+      type: any
+      value: '[V]Aftercare involving peritoneal dialysis'
+    - code: G72C.00
+      type: any
+      value: Ruptured aneurysm of dialysis vascular access
+    - code: Gy40.00
+      type: any
+      value: Infection of dialysis arteriovenous graft
+    - code: Gy1..00
+      type: any
+      value: Stenosis of dialysis vascular access
+    - code: Gy2..00
+      type: any
+      value: Thrombosis of dialysis vascular access
+    - code: 7L1A000
+      type: any
+      value: Renal dialysis
+    - code: SP0F.00
+      type: any
+      value: Haemodialysis first use syndrome
+    - code: 14V2.11
+      type: prevalent
+      value: 'H/O: kidney dialysis'
+    - code: 7L1A400
+      type: any
+      value: Automated peritoneal dialysis
+    - code: 7L1A200
+      type: any
+      value: Haemodialysis NEC
+    - code: ZV56000
+      type: any
+      value: '[V]Aftercare involving extracorporeal dialysis'
+    - code: Gy51.00
+      type: any
+      value: Haemorrhage of dialysis arteriovenous fistula
+    - code: 7L1A.11
+      type: any
+      value: Dialysis for renal failure
+    - code: SP0E.00
+      type: any
+      value: Disorders associated with peritoneal dialysis
+    - code: 7L1f000
+      type: any
+      value: Extracorporeal albumin haemodialysis
+    - code: ZV56.00
+      type: any
+      value: '[V]Aftercare involving intermittent dialysis'
+    - code: TA42000
+      type: any
+      value: Mechanical failure of apparatus during kidney dialysis
+    - code: Gy10.00
+      type: any
+      value: Stenosis of dialysis arteriovenous graft
+    - code: SP06B00
+      type: any
+      value: Continuous ambulatory peritoneal dialysis associated perit
+    - code: SP0G.00
+      type: any
+      value: Anaphylactoid reaction due to haemodialysis
+    - code: 4N0..00
+      type: any
+      value: Dialysis fluid urea level
+    - code: Gy60.00
+      type: any
+      value: Rupture of dialysis arteriovenous graft
+    - code: 7L1C000
+      type: any
+      value: Insertion of temporary peritoneal dialysis catheter
+    - code: TB11.00
+      type: any
+      value: Kidney dialysis with complication
+    - code: Gy31.00
+      type: any
+      value: Occlusion of dialysis arteriovenous fistula
+    - code: 7L1B200
+      type: any
+      value: Flushing of peritoneal dialysis catheter
+    - code: Gy30.00
+      type: any
+      value: Occlusion of dialysis arteriovenous graft
+    - code: ZV56z00
+      type: any
+      value: '[V]Unspecified aftercare involving intermittent dialysis'
+    - code: G72D200
+      type: any
+      value: Aneurysm of anastomotic site of dialysis AV fistula
+    - code: SP0H.00
+      type: any
+      value: Disorder associated with dialysis
+    - code: 4N2..00
+      type: any
+      value: Dialysis fluid glucose level
+    - code: 7L1B000
+      type: any
+      value: Insertion of ambulatory peritoneal dialysis catheter
+    - code: ZV56y00
+      type: any
+      value: '[V]Other specified aftercare involving intermittent dialysis'
+    - code: 7A60600
+      type: any
+      value: Creation of graft fistula for dialysis
+    - code: 7L1A100
+      type: any
+      value: Peritoneal dialysis
+    - code: 7L1A500
+      type: any
+      value: Continuous ambulatory peritoneal dialysis
+    - code: ZV56100
+      type: any
+      value: '[V]Preparatory care for dialysis'
+    - code: 14V2.00
+      type: prevalent
+      value: 'H/O: renal dialysis'
+    - code: TA02000
+      type: any
+      value: Accid cut
+    - code: SP05613
+      type: any
+      value: '[X] Peritoneal dialysis associated peritonitis'
+    - code: Gy3..00
+      type: any
+      value: Occlusion of dialysis vascular access
+    - code: Gy5..00
+      type: any
+      value: Haemorrhage of dialysis vascular access
+    - code: ZVu3G00
+      type: any
+      value: '[X]Other dialysis'
+    - code: 7L1A600
+      type: any
+      value: Peritoneal dialysis NEC
+    - code: SP0E100
+      type: any
+      value: Thrombus in peritoneal dialysis catheter
+    - code: 1Z1M.00
+      type: any
+      value: ' CKD with GFR category G1 & albuminuria category A1'
+    - code: 1Z18.00
+      type: any
+      value: Chronic kidney disease stage 1 without proteinuria
+    - code: 1Z17.00
+      type: any
+      value: Chronic kidney disease stage 1 with proteinuria
+    - code: 1Z1P.00
+      type: any
+      value: CKD with GFR category G1 & albuminuria category A3
+    - code: 1Z10.00
+      type: any
+      value: Chronic kidney disease stage 1
+    - code: 1Z17.11
+      type: any
+      value: CKD stage 1 with proteinuria
+    - code: 1Z18.11
+      type: any
+      value: CKD stage 1 without proteinuria
+    - code: 1Z1N.00
+      type: any
+      value: CKD with GFR category G1 & albuminuria category A2
+    - code: 1Z1Q.00
+      type: any
+      value: CKD with GFR category G2 & albuminuria category A1
+    - code: 1Z19.00
+      type: any
+      value: Chronic kidney disease stage 2 with proteinuria
+    - code: 1Z11.00
+      type: any
+      value: Chronic kidney disease stage 2
+    - code: 1Z1R.00
+      type: any
+      value: CKD with GFR category G2 & albuminuria category A2
+    - code: 1Z19.11
+      type: any
+      value: CKD stage 2 with proteinuria
+    - code: 1Z1A.00
+      type: any
+      value: Chronic kidney disease stage 2 without proteinuria
+    - code: 1Z1A.11
+      type: any
+      value: CKD stage 2 without proteinuria
+    - code: K052.00
+      type: any
+      value: Chronic kidney disease stage 2
+    - code: 1Z1S.00
+      type: any
+      value: CKD with GFR category G2 & albuminuria category A3
+    - code: 1Z1C.11
+      type: any
+      value: CKD stage 3 without proteinuria
+    - code: 1Z1E.11
+      type: any
+      value: CKD stage 3A without proteinuria
+    - code: 1Z1F.11
+      type: any
+      value: CKD stage 3B with proteinuria
+    - code: 1Z1G.00
+      type: any
+      value: Chronic kidney disease stage 3B without proteinuria
+    - code: 1Z1V.00
+      type: any
+      value: CKD with GFR category G3a & albuminuria category A2
+    - code: 1Z15.00
+      type: any
+      value: Chronic kidney disease stage 3A
+    - code: 1Z1D.00
+      type: any
+      value: Chronic kidney disease stage 3A with proteinuria
+    - code: 1Z1F.00
+      type: any
+      value: Chronic kidney disease stage 3B with proteinuria
+    - code: 1Z1W.00
+      type: any
+      value: CKD with GFR category G3a & albuminuria category A3
+    - code: 1Z1G.11
+      type: any
+      value: CKD stage 3B without proteinuria
+    - code: 1Z1D.11
+      type: any
+      value: CKD stage 3A with proteinuria
+    - code: 1Z12.00
+      type: any
+      value: Chronic kidney disease stage 3
+    - code: 1Z1B.00
+      type: any
+      value: Chronic kidney disease stage 3 with proteinuria
+    - code: 1Z1Z.00
+      type: any
+      value: CKD with GFR category G3b & albuminuria category A3
+    - code: 1Z1C.00
+      type: any
+      value: Chronic kidney disease stage 3 without proteinuria
+    - code: 1Z1E.00
+      type: any
+      value: Chronic kidney disease stage 3A without proteinuria
+    - code: 1Z1Y.00
+      type: any
+      value: CKD with GFR category G3b & albuminuria category A2
+    - code: 1Z16.00
+      type: any
+      value: Chronic kidney disease stage 3B
+    - code: 1Z1X.00
+      type: any
+      value: CKD with GFR category G3b & albuminuria category A1
+    - code: K053.00
+      type: any
+      value: Chronic kidney disease stage 3
+    - code: 1Z1B.11
+      type: any
+      value: CKD stage 3 with proteinuria
+    - code: 1Z1T.00
+      type: any
+      value: CKD with GFR category G3a & albuminuria category A1
+    - code: K054.00
+      type: any
+      value: Chronic kidney disease stage 4
+    - code: 1Z1H.11
+      type: any
+      value: CKD stage 4 with proteinuria
+    - code: 1Z1J.11
+      type: any
+      value: CKD stage 4 without proteinuria
+    - code: 1Z1a.00
+      type: any
+      value: CKD with GFR category G4 & albuminuria category A1
+    - code: 1Z1c.00
+      type: any
+      value: CKD with GFR category G4 & albuminuria category A3
+    - code: 1Z1H.00
+      type: any
+      value: Chronic kidney disease stage 4 with proteinuria
+    - code: 1Z1J.00
+      type: any
+      value: Chronic kidney disease stage 4 without proteinuria
+    - code: 1Z13.00
+      type: any
+      value: Chronic kidney disease stage 4
+    - code: 1Z1b.00
+      type: any
+      value: CKD with GFR category G4 & albuminuria category A2
+    - code: 1Z1K.00
+      type: any
+      value: Chronic kidney disease stage 5 with proteinuria
+    - code: 1Z1L.11
+      type: any
+      value: CKD stage 5 without proteinuria
+    - code: 1Z1e.00
+      type: any
+      value: CKD with GFR category G5 & albuminuria category A2
+    - code: 1Z1K.11
+      type: any
+      value: CKD stage 5 with proteinuria
+    - code: 1Z1L.00
+      type: any
+      value: Chronic kidney disease stage 5 without proteinuria
+    - code: G233.00
+      type: any
+      value: Hypertensive heart and renal disease with renal failure
+    - code: G234.00
+      type: any
+      value: Hyperten heart&renal dis+both(congestv)heart and renal fail
+    - code: K05..12
+      type: any
+      value: End stage renal failure
+    - code: 1Z1d.00
+      type: any
+      value: CKD with GFR category G5 & albuminuria category A1
+    - code: 1Z1f.00
+      type: any
+      value: CKD with GFR category G5 & albuminuria category A3
+    - code: K055.00
+      type: any
+      value: Chronic kidney disease stage 5
+    - code: 1Z14.00
+      type: any
+      value: Chronic kidney disease stage 5
+    - code: K05..00
+      type: any
+      value: Chronic renal failure
+    - code: K050.00
+      type: any
+      value: End stage renal failure
+    - code: 4I29.00
+      type: any
+      value: Peritoneal dialysis sample
+    - code: ZV56011
+      type: any
+      value: '[V]Aftercare involving renal dialysis NOS'
+    - code: 7A61900
+      type: any
+      value: Ligation of arteriovenous dialysis fistula
+    - code: '8882'
+      type: any
+      value: Intestinal dialysis
+    - code: G72D100
+      type: any
+      value: Aneurysm of needle site of dialysis arteriovenous fistula
+    - code: ZV45100
+      type: any
+      value: '[V]Renal dialysis status'
+    - code: Gy41.00
+      type: any
+      value: Infection of dialysis arteriovenous fistula
+    - code: G72D000
+      type: any
+      value: Aneurysm of superficialised artery of dialysis AV fistula
+    - code: 7L1A011
+      type: any
+      value: Thomas intravascular shunt for dialysis
+    - code: SP07G00
+      type: any
+      value: Stenosis of arteriovenous dialysis fistula
+    - code: TB11.11
+      type: any
+      value: Renal dialysis with complication
+    - code: 7L1B100
+      type: any
+      value: Removal of ambulatory peritoneal dialysis catheter
+    - code: 7A61A00
+      type: any
+      value: Ligation of arteriovenous dialysis graft
+    - code: Gy21.00
+      type: any
+      value: Thrombosis of dialysis arteriovenous fistula
+    - code: Gy4..00
+      type: any
+      value: Infection of dialysis vascular access
+    - code: G72D.00
+      type: any
+      value: Aneurysm of dialysis arteriovenous fistula
+    - code: TA22000
+      type: any
+      value: Failure of sterile precautions during kidney dialysis
+    - code: SP01500
+      type: any
+      value: Mechanical complication of dialysis catheter
+    - code: 7L1B.11
+      type: any
+      value: Placement ambulatory dialysis apparatus - compens renal fail
+    - code: ZV56y11
+      type: any
+      value: '[V]Aftercare involving peritoneal dialysis'
+    - code: G72C.00
+      type: any
+      value: Ruptured aneurysm of dialysis vascular access
+    - code: Gy40.00
+      type: any
+      value: Infection of dialysis arteriovenous graft
+    - code: Gy1..00
+      type: any
+      value: Stenosis of dialysis vascular access
+    - code: Gy2..00
+      type: any
+      value: Thrombosis of dialysis vascular access
+    - code: 7L1A000
+      type: any
+      value: Renal dialysis
+    - code: SP0F.00
+      type: any
+      value: Haemodialysis first use syndrome
+    - code: 14V2.11
+      type: prevalent
+      value: 'H/O: kidney dialysis'
+    - code: 7L1A400
+      type: any
+      value: Automated peritoneal dialysis
+    - code: 7L1A200
+      type: any
+      value: Haemodialysis NEC
+    - code: ZV56000
+      type: any
+      value: '[V]Aftercare involving extracorporeal dialysis'
+    - code: Gy51.00
+      type: any
+      value: Haemorrhage of dialysis arteriovenous fistula
+    - code: 7L1A.11
+      type: any
+      value: Dialysis for renal failure
+    - code: SP0E.00
+      type: any
+      value: Disorders associated with peritoneal dialysis
+    - code: 7L1f000
+      type: any
+      value: Extracorporeal albumin haemodialysis
+    - code: ZV56.00
+      type: any
+      value: '[V]Aftercare involving intermittent dialysis'
+    - code: TA42000
+      type: any
+      value: Mechanical failure of apparatus during kidney dialysis
+    - code: Gy10.00
+      type: any
+      value: Stenosis of dialysis arteriovenous graft
+    - code: SP06B00
+      type: any
+      value: Continuous ambulatory peritoneal dialysis associated perit
+    - code: SP0G.00
+      type: any
+      value: Anaphylactoid reaction due to haemodialysis
+    - code: 4N0..00
+      type: any
+      value: Dialysis fluid urea level
+    - code: Gy60.00
+      type: any
+      value: Rupture of dialysis arteriovenous graft
+    - code: 7L1C000
+      type: any
+      value: Insertion of temporary peritoneal dialysis catheter
+    - code: TB11.00
+      type: any
+      value: Kidney dialysis with complication
+    - code: Gy31.00
+      type: any
+      value: Occlusion of dialysis arteriovenous fistula
+    - code: 7L1B200
+      type: any
+      value: Flushing of peritoneal dialysis catheter
+    - code: Gy30.00
+      type: any
+      value: Occlusion of dialysis arteriovenous graft
+    - code: ZV56z00
+      type: any
+      value: '[V]Unspecified aftercare involving intermittent dialysis'
+    - code: G72D200
+      type: any
+      value: Aneurysm of anastomotic site of dialysis AV fistula
+    - code: SP0H.00
+      type: any
+      value: Disorder associated with dialysis
+    - code: 4N2..00
+      type: any
+      value: Dialysis fluid glucose level
+    - code: 7L1B000
+      type: any
+      value: Insertion of ambulatory peritoneal dialysis catheter
+    - code: ZV56y00
+      type: any
+      value: '[V]Other specified aftercare involving intermittent dialysis'
+    - code: 7A60600
+      type: any
+      value: Creation of graft fistula for dialysis
+    - code: 7L1A100
+      type: any
+      value: Peritoneal dialysis
+    - code: 7L1A500
+      type: any
+      value: Continuous ambulatory peritoneal dialysis
+    - code: ZV56100
+      type: any
+      value: '[V]Preparatory care for dialysis'
+    - code: 14V2.00
+      type: prevalent
+      value: 'H/O: renal dialysis'
+    - code: TA02000
+      type: any
+      value: Accid cut
+    - code: SP05613
+      type: any
+      value: '[X] Peritoneal dialysis associated peritonitis'
+    - code: Gy3..00
+      type: any
+      value: Occlusion of dialysis vascular access
+    - code: Gy5..00
+      type: any
+      value: Haemorrhage of dialysis vascular access
+    - code: ZVu3G00
+      type: any
+      value: '[X]Other dialysis'
+    - code: 7L1A600
+      type: any
+      value: Peritoneal dialysis NEC
+    - code: SP0E100
+      type: any
+      value: Thrombus in peritoneal dialysis catheter
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

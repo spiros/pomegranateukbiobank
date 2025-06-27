@@ -1,0 +1,217 @@
+metadata:
+  phenotype: Urticaria
+  group: Skin
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: urticaria
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: b60045a5-77ff-4728-9d2c-d5b42646a2ad
+  ontologies:
+    DOID: DOID_1555
+    GWAS: EFO_0005531
+    MESH: D014581
+    SNOMED-CT: 126485001
+    FINNGEN: L12_URTICARIA
+  short_desc: A vascular reaction of the skin characterized by erythema and wheal
+    formation due to localized increase of vascular permeability. The causative mechanism
+    may be allergy, infection, or stress.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1563'
+      value: urticaria
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: L50
+      value: Urticaria
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: L50
+      value: Urticaria
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: L50
+      value: Urticaria
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: L50
+      value: Urticaria
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 2F82.00
+      value: O/E - weals present
+      type: any
+    - code: 2F8..00
+      value: O/E - weals present
+      type: any
+    - code: 2F8Z.00
+      value: O/E - weals NOS
+      type: any
+    - code: M12A200
+      value: Solar urticaria
+      type: any
+    - code: M280.00
+      value: Allergic urticaria
+      type: any
+    - code: M280.11
+      value: Drug induced urticaria
+      type: any
+    - code: M281.00
+      value: Idiopathic urticaria
+      type: any
+    - code: M282000
+      value: Cold urticaria
+      type: any
+    - code: M282100
+      value: Thermal urticaria
+      type: any
+    - code: M282111
+      value: Heat urticaria
+      type: any
+    - code: M282.00
+      value: Urticaria due to cold and heat
+      type: any
+    - code: M282z00
+      value: Urticaria due to cold and heat NOS
+      type: any
+    - code: M283.00
+      value: Dermatographic urticaria
+      type: any
+    - code: M283.11
+      value: Factitial urticaria
+      type: any
+    - code: M284.00
+      value: Vibratory urticaria
+      type: any
+    - code: M285.00
+      value: Cholinergic urticaria
+      type: any
+    - code: M286.00
+      value: Contact urticaria
+      type: any
+    - code: M287.00
+      value: Physical urticaria
+      type: any
+    - code: M28..00
+      value: Urticaria
+      type: any
+    - code: M28y000
+      value: Urticaria geographica
+      type: any
+    - code: M28y100
+      value: Menstrual urticaria
+      type: any
+    - code: M28y200
+      value: Urticaria persistans
+      type: any
+    - code: M28y.00
+      value: Other specified urticaria
+      type: any
+    - code: M28y.11
+      value: Nettle rash
+      type: any
+    - code: M28yz00
+      value: Other specified urticaria NOS
+      type: any
+    - code: M28z.00
+      value: Urticaria NOS
+      type: any
+    - code: M28z.11
+      value: Hives
+      type: any
+    - code: Myu4000
+      value: '[X]Other urticaria'
+      type: any
+    - code: Myu4.00
+      value: '[X]Urticaria and erythema'
+      type: any
+    - code: PH32100
+      value: Urticaria pigmentosa
+      type: any
+    - code: XE1BT
+      value: Urticaria NOS
+      type: any
+    - code: X5050
+      value: Solar urticaria
+      type: any
+    - code: XE1BS
+      value: Other specified urticaria
+      type: any
+    - code: X508P
+      value: Physical urticaria
+      type: any
+    - code: 2F8..
+      value: O/E - weals present
+      type: any
+    - code: XE1BR
+      value: Allergic urticaria
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

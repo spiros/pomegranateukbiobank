@@ -1,0 +1,126 @@
+metadata:
+  phenotype: Respiratory distress of newborn
+  group: Perinatal
+  is_cancer: '0'
+  is_adult: '0'
+  variable_name: RDN
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 342705dd-69bc-46c8-a52b-1e3318a7f845
+  ontologies:
+    DOID: DOID_12716
+    GWAS: null
+    MESH: D012127
+    SNOMED-CT: 46775006
+    FINNGEN: P16_RESPI_DISTR_NEWBO
+  short_desc: A lung disorder that affects premature infants caused by developmental
+    insufficiency of surfactant production and structural immaturity of the lungs.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: P22
+      value: Respiratory distress of newborn
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: P22
+      value: Respiratory distress of newborn
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: P22
+      value: Respiratory distress of newborn
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: P22
+      value: Respiratory distress of newborn
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: Q30..00
+      value: Respiratory distress syndrome
+      type: any
+    - code: Q30..11
+      value: Hyaline membrane disease
+      type: any
+    - code: Q30..12
+      value: Pulmonary hypoperfusion syndrome of newborn
+      type: any
+    - code: Q316.00
+      value: Newborn transitory tachypnoea
+      type: any
+    - code: Q316.11
+      value: Wet lung syndrome in newborn
+      type: any
+    - code: Q31y200
+      value: Perinatal respiratory distress NOS
+      type: any
+    - code: Qyu3000
+      value: '[X]Other respiratory distress of newborn'
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

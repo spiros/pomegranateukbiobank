@@ -1,0 +1,534 @@
+metadata:
+  phenotype: Fracture of hip
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: fracture_hip
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 5dbb668a-26a0-4c71-82ab-42454e9dec2e
+  ontologies:
+    DOID: null
+    GWAS: EFO_0003964
+    MESH: D006620
+    SNOMED-CT: 700097003
+    FINNGEN: ST19_FRACT_FEMUR
+  short_desc: Fractures of the FEMUR HEAD; the FEMUR NECK; (FEMORAL NECK FRACTURES);
+    the trochanters; or the inter- or subtrochanteric region.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1648'
+      value: fracture neck of femur / hip
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: S72.0
+      value: Fracture of neck of femur
+      type: any
+    - code: S72.1
+      value: Pertrochanteric fracture
+      type: any
+    - code: S72.2
+      value: Subtrochanteric fracture
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: S72.0
+      value: Fracture of neck of femur
+      type: any
+    - code: S72.1
+      value: Pertrochanteric fracture
+      type: any
+    - code: S72.2
+      value: Subtrochanteric fracture
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: W19.1
+      value: Primary open reduction of fracture of neck of femur and open fixation
+        using pin and plate
+      type: any
+    - code: W24.1
+      value: Closed reduction of intracapsular fracture of neck of femur and fixation
+        using nail or screw
+      type: any
+    - code: O17.1
+      value: Remanipulation of intracapsular fracture of neck of femur and fixation
+        using nail or screw
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: W19.1
+      value: W19.1
+      type: any
+    - code: W24.1
+      value: W24.1
+      type: any
+    - code: O17.1
+      value: O17.1
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: S72.0
+      value: Fracture of neck of femur
+      type: any
+    - code: S72.1
+      value: Pertrochanteric fracture
+      type: any
+    - code: S72.2
+      value: Subtrochanteric fracture
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: S72.0
+      value: Fracture of neck of femur
+      type: any
+    - code: S72.1
+      value: Pertrochanteric fracture
+      type: any
+    - code: S72.2
+      value: Subtrochanteric fracture
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14G7.00
+      value: 'H/O: hip fracture'
+      type: prevalent
+    - code: 7K1D000
+      value: 'Prmy open red+int fxn prox femoral #+screw/nail+plate device'
+      type: any
+    - code: 7K1D011
+      value: 'Prim open reduct # neck femur & op fix - Blount nail plate'
+      type: any
+    - code: 7K1D012
+      value: 'Prim op red # nck femur & op fix- Charnley compression screw'
+      type: any
+    - code: 7K1D013
+      value: 'Prim op red # nck femur & op fix - Deyerle multiple hip pin'
+      type: any
+    - code: 7K1D014
+      value: 'Prim open reduct # neck femur & op fix - Holt nail'
+      type: any
+    - code: 7K1D015
+      value: 'Prim open reduct # neck femur & op fix - Jewett nail plate'
+      type: any
+    - code: 7K1D016
+      value: 'Prim open reduct # neck femur & op fix - Massie nail plate'
+      type: any
+    - code: 7K1D017
+      value: 'Prim open red # neck femur & op fix - McLaughlin nail plate'
+      type: any
+    - code: 7K1D018
+      value: 'Prim open reduct # neck femur & op fix - Neufield nail plate'
+      type: any
+    - code: 7K1D019
+      value: 'Prim open reduct # neck femur & op fix - Pugh nail plate'
+      type: any
+    - code: 7K1D01A
+      value: 'Prim open reduct # neck femur & op fix - Richards screw'
+      type: any
+    - code: 7K1D01B
+      value: 'Prim open reduct # neck femur & op fix - Ross Brown nail'
+      type: any
+    - code: 7K1D01D
+      value: 'Prim op red # nck femur & op fix- Zickel intramed nail plate'
+      type: any
+    - code: 7K1D01E
+      value: DHS - Dynamic hip screw primary fixation of neck of femur
+      type: any
+    - code: 7K1D01F
+      value: Dynamic hip screw primary fixation of neck of femur
+      type: any
+    - code: 7K1D600
+      value: 'Prmy open red+int fxn prox femoral #+screw/nail device alone'
+      type: any
+    - code: 7K1D700
+      value: 'Prmy open red+int fxn prox fem #+screw/nail+intramed device'
+      type: any
+    - code: 7K1DE00
+      value: Prim op red frac neck fem op fix us prox fem nail antirotatn
+      type: any
+    - code: 7K1H500
+      value: 'Revision to open red+ext fxtn of proximal femoral #'
+      type: any
+    - code: 7K1H600
+      value: 'Revsn to opn red+int fxtn prox fem #+screw/nail device alone'
+      type: any
+    - code: 7K1H700
+      value: 'Rvsn to opn red+int fxtn prox fem #+ scrw/nl+intramed device'
+      type: any
+    - code: 7K1H800
+      value: 'Rvsn to opn red+int fxtn prox fem #+ scrw/nail+plate device'
+      type: any
+    - code: 7K1J000
+      value: 'Cls red+int fxn proximal femoral #+screw/nail device alone'
+      type: any
+    - code: 7K1J011
+      value: Cl red intracaps frac neck femur fix-Garden cannulated screw
+      type: any
+    - code: 7K1J012
+      value: Cl red intracaps fract neck femur fix - Smith-Petersen nail
+      type: any
+    - code: 7K1J013
+      value: 'Cls red+int fxn prox femoral #+Richard''s cannulat hip screw'
+      type: any
+    - code: 7K1J500
+      value: 'Primary int fxn(no red) prox fem #+screw/nail device alone'
+      type: any
+    - code: 7K1J600
+      value: 'Primary int fxn(no red) prox fem #+scrw/nail+intramed device'
+      type: any
+    - code: 7K1J700
+      value: 'Primary int fxn(no red) prox fem #+screw/nail+plate device'
+      type: any
+    - code: 7K1J800
+      value: 'Revisn to int fxn(no red) prox fem #+screw/nail device alone'
+      type: any
+    - code: 7K1J900
+      value: 'Rvsn to int fxn(no red) prox fem #+screw/nail+intramed dev'
+      type: any
+    - code: 7K1JA00
+      value: 'Revisn to int fxn(no red) prox fem #+screw/nail+plate device'
+      type: any
+    - code: 7K1JB00
+      value: 'Primary cls red+int fxn prox fem #+screw/nail device alone'
+      type: any
+    - code: 7K1JC00
+      value: 'Prim cls rd+int fxn prox fem #+screw/nail+intramdulry device'
+      type: any
+    - code: 7K1Jd00
+      value: 'Closed reduction of intracapsular # NOF internal fixat DHS'
+      type: any
+    - code: 7K1JD00
+      value: 'Primary cls red+int fxn prox fem #+screw/nail+plate device'
+      type: any
+    - code: 7K1JE00
+      value: 'Rvsn to cls red+int fxn prox fem #+screw/nail device alone'
+      type: any
+    - code: 7K1JF00
+      value: 'Rvsn cls red+int fxn prox fem #+screw/nail+intramed device'
+      type: any
+    - code: 7K1JG00
+      value: 'Rvsn to cls red+int fxn prox fem #+screw/nail+plate device'
+      type: any
+    - code: 7K1K300
+      value: 'Primary external fixation(without reduction) prox femoral #'
+      type: any
+    - code: 7K1K400
+      value: 'Revision to ext fxn(without reduction) proximal femoral #'
+      type: any
+    - code: 7K1K500
+      value: 'Primary cls reduction+external fixation proximal femoral #'
+      type: any
+    - code: 7K1L400
+      value: Closed reduction of fracture of hip
+      type: any
+    - code: 7K1Y000
+      value: Remanip intracap fract neck fem and fix using nail or screw
+      type: any
+    - code: 7P20100
+      value: Delivery of rehabilitation for hip fracture
+      type: any
+    - code: S300000
+      value: 'Cls # prox femur, intracapsular section, unspecified'
+      type: any
+    - code: S300100
+      value: Closed fracture proximal femur, transepiphyseal
+      type: any
+    - code: S300200
+      value: Closed fracture proximal femur, midcervical section
+      type: any
+    - code: S300300
+      value: Closed fracture proximal femur, basicervical
+      type: any
+    - code: S300311
+      value: Closed fracture, base of neck of femur
+      type: any
+    - code: S300400
+      value: Closed fracture head of femur
+      type: any
+    - code: S300500
+      value: 'Cls # prox femur, subcapital, Garden grade unspec.'
+      type: any
+    - code: S300600
+      value: Closed fracture proximal femur, subcapital, Garden grade I
+      type: any
+    - code: S300700
+      value: Closed fracture proximal femur, subcapital, Garden grade II
+      type: any
+    - code: S300800
+      value: Closed fracture proximal femur, subcapital, Garden grade III
+      type: any
+    - code: S300900
+      value: Closed fracture proximal femur, subcapital, Garden grade IV
+      type: any
+    - code: S300A00
+      value: Closed fracture of femur, upper epiphysis
+      type: any
+    - code: S300.00
+      value: Closed fracture proximal femur, transcervical
+      type: any
+    - code: S300y00
+      value: Closed fracture proximal femur, other transcervical
+      type: any
+    - code: S300y11
+      value: Closed fracture of femur, subcapital
+      type: any
+    - code: S300z00
+      value: Closed fracture proximal femur, transcervical, NOS
+      type: any
+    - code: S301000
+      value: 'Opn # proximal femur, intracapsular section, unspecified'
+      type: any
+    - code: S301100
+      value: Open fracture proximal femur, transepiphyseal
+      type: any
+    - code: S301311
+      value: Open fracture base of neck of femur
+      type: any
+    - code: S301400
+      value: Open fracture head, femur
+      type: any
+    - code: S301500
+      value: Open fracture proximal femur,subcapital, Garden grade unspec
+      type: any
+    - code: S301600
+      value: Open fracture proximal femur,subcapital, Garden grade I
+      type: any
+    - code: S301700
+      value: Open fracture proximal femur,subcapital, Garden grade II
+      type: any
+    - code: S301800
+      value: Open fracture proximal femur,subcapital, Garden grade III
+      type: any
+    - code: S301900
+      value: Open fracture proximal femur,subcapital, Garden grade IV
+      type: any
+    - code: S301A00
+      value: Open fracture of femur, upper epiphysis
+      type: any
+    - code: S301.00
+      value: Open fracture proximal femur, transcervical
+      type: any
+    - code: S301y00
+      value: Open fracture proximal femur, other transcervical
+      type: any
+    - code: S301y11
+      value: Open fracture of femur, subcapital
+      type: any
+    - code: S302000
+      value: 'Cls # proximal femur, trochanteric section, unspecified'
+      type: any
+    - code: S302011
+      value: Closed fracture of femur, greater trochanter
+      type: any
+    - code: S302012
+      value: Closed fracture of femur, lesser trochanter
+      type: any
+    - code: S302100
+      value: Closed fracture proximal femur, intertrochanteric, two part
+      type: any
+    - code: S302200
+      value: Closed fracture proximal femur, subtrochanteric
+      type: any
+    - code: S302300
+      value: 'Cls # proximal femur, intertrochanteric, comminuted'
+      type: any
+    - code: S302400
+      value: Closed fracture of femur, intertrochanteric
+      type: any
+    - code: S302.00
+      value: Closed fracture of proximal femur, pertrochanteric
+      type: any
+    - code: S302z00
+      value: 'Cls # of proximal femur, pertrochanteric section, NOS'
+      type: any
+    - code: S303000
+      value: 'Open # of proximal femur, trochanteric section, unspecified'
+      type: any
+    - code: S303011
+      value: Open fracture of femur, greater trochanter
+      type: any
+    - code: S303100
+      value: Open fracture proximal femur, intertrochanteric, two part
+      type: any
+    - code: S303200
+      value: Open fracture proximal femur, subtrochanteric
+      type: any
+    - code: S303300
+      value: Open fracture proximal femur, intertrochanteric, comminuted
+      type: any
+    - code: S303400
+      value: Open fracture of femur, intertrochanteric
+      type: any
+    - code: S303.00
+      value: Open fracture of proximal femur, pertrochanteric
+      type: any
+    - code: S303z00
+      value: Open fracture of proximal femur, pertrochanteric, NOS
+      type: any
+    - code: S304.00
+      value: Pertrochanteric fracture
+      type: any
+    - code: S305.00
+      value: Subtrochanteric fracture
+      type: any
+    - code: S30..00
+      value: Fracture of neck of femur
+      type: any
+    - code: S30..11
+      value: Hip fracture
+      type: any
+    - code: S30w.00
+      value: Closed fracture of unspecified proximal femur
+      type: any
+    - code: S30x.00
+      value: Open fracture of unspecified proximal femur
+      type: any
+    - code: S30y.00
+      value: Closed fracture of neck of femur NOS
+      type: any
+    - code: S30y.11
+      value: Hip fracture NOS
+      type: any
+    - code: S30z.00
+      value: Open fracture of neck of femur NOS
+      type: any
+    - code: S4E0.00
+      value: Closed fracture-dislocation, hip joint
+      type: any
+    - code: S4E1.00
+      value: Open fracture-dislocation, hip joint
+      type: any
+    - code: S4E2.00
+      value: Closed fracture-subluxation, hip joint
+      type: any
+    - code: S4E..00
+      value: Fracture-dislocation or subluxation hip
+      type: any
+    - code: SC03.00
+      value: Late effect of fracture neck of femur
+      type: any
+    - code: XaIUB
+      value: 'H/O: hip fracture'
+      type: prevalent
+    - code: XaKye
+      value: Closed fracture of femur, upper epiphysis
+      type: any
+    - code: XE1l3
+      value: Fracture of neck of femur
+      type: any
+    - code: XE1l7
+      value: Closed fracture of proximal femur, trochanteric section, unspecified
+      type: any
+    - code: XaBDU
+      value: Closed fracture of femur, intertrochanteric
+      type: any
+    - code: XaPtb
+      value: Remanipulation of intracapsular fracture of neck of femur and fixation
+        using nail or screw
+      type: any
+    - code: XaZjg
+      value: Primary open reduction of fracture of neck of femur and open fixation
+        using proximal femoral nail antirotation
+      type: any
+    - code: XE08S
+      value: Closed reduction and internal fixation of proximal femoral fracture with
+        screw/nail device alone
+      type: any
+    - code: XE08S
+      value: Closed reduction and internal fixation of proximal femoral fracture with
+        screw/nail device alone
+      type: any
+    - code: XE1l5
+      value: Open fracture proximal femur, basicervical
+      type: any
+    - code: XE1l8
+      value: Open fracture of proximal femur, trochanteric section, unspecified
+      type: any
+    - code: XE1l6
+      value: Open fracture proximal femur, other transcervical
+      type: any
+    - code: XE1l9
+      value: Closed fracture of neck of femur NOS
+      type: any
+    - code: XE08J
+      value: Primary open reduction and internal fixation of proximal femoral fracture
+        with screw/nail and plate device
+      type: any
+    - code: XaEJD
+      value: Closed reduction of intracapsular fracture of neck of femur and internal
+        fixation using a dynamic hip screw
+      type: any
+    - code: XaBDT
+      value: Open fracture of femur, intertrochanteric
+      type: any
+    - code: XaLsh
+      value: Delivery of rehabilitation for hip fracture
+      type: any
+    - code: XE1l4
+      value: Closed fracture proximal femur, other transcervical
+      type: any
+    - code: XaKyf
+      value: Open fracture of femur, upper epiphysis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

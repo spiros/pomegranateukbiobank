@@ -1,0 +1,288 @@
+metadata:
+  phenotype: Gastro-oesophageal reflux disease
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: GORD
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: f1f6f4d9-21ad-4234-ae3a-db2f9e42fa17
+  ontologies:
+    DOID: DOID_8534
+    GWAS: EFO_0003948
+    MESH: D005764
+    SNOMED-CT: 235595009
+    FINNGEN: K11_REFLUX
+  short_desc: A chronic disorder characterized by reflux of the gastric and/or duodenal
+    contents into the distal esophagus.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1138'
+      value: gastro-oesophageal reflux (gord) / gastric reflux
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K21
+      value: Gastro-oesophageal reflux disease
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K21
+      value: Gastro-oesophageal reflux disease
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: G24
+      value: Antireflux operations
+      type: any
+    - code: G24.1
+      value: Antireflux fundoplication using thoracic approach
+      type: any
+    - code: G24.2
+      value: Antireflux operation using thoracic approach NEC
+      type: any
+    - code: G24.3
+      value: Antireflux fundoplication using abdominal approach
+      type: any
+    - code: G24.4
+      value: Antireflux gastropexy
+      type: any
+    - code: G24.5
+      value: Gastroplasty and antireflux procedure HFQ
+      type: any
+    - code: G24.6
+      value: Insertion of Angelchick prosthesis
+      type: any
+    - code: G24.8
+      value: Other specified antireflux operations
+      type: any
+    - code: G24.9
+      value: Unspecified antireflux operations
+      type: any
+    - code: G25
+      value: Revision of antireflux operations
+      type: any
+    - code: G25.1
+      value: Revision of fundoplication of stomach
+      type: any
+    - code: G25.2
+      value: Adjustment to Angelchick prosthesis
+      type: any
+    - code: G25.3
+      value: Removal of Angelchick prosthesis
+      type: any
+    - code: G25.8
+      value: Other specified revision of antireflux operations
+      type: any
+    - code: G25.9
+      value: Unspecified revision of antireflux operations
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: G24
+      value: G24
+      type: any
+    - code: G24.1
+      value: G24.1
+      type: any
+    - code: G24.2
+      value: G24.2
+      type: any
+    - code: G24.3
+      value: G24.3
+      type: any
+    - code: G24.4
+      value: G24.4
+      type: any
+    - code: G24.5
+      value: G24.5
+      type: any
+    - code: G24.6
+      value: G24.6
+      type: any
+    - code: G24.8
+      value: G24.8
+      type: any
+    - code: G24.9
+      value: G24.9
+      type: any
+    - code: G25
+      value: G25
+      type: any
+    - code: G25.1
+      value: G25.1
+      type: any
+    - code: G25.2
+      value: G25.2
+      type: any
+    - code: G25.3
+      value: G25.3
+      type: any
+    - code: G25.8
+      value: G25.8
+      type: any
+    - code: G25.9
+      value: G25.9
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K21
+      value: Gastro-oesophageal reflux disease
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K21
+      value: Gastro-oesophageal reflux disease
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 171J.00
+      value: Reflux cough
+      type: any
+    - code: '1957.00'
+      value: Gastric reflux
+      type: any
+    - code: 760L000
+      value: Antireflux fundoplication using thoracic approach
+      type: any
+    - code: 760L100
+      value: Antireflux operation using thoracic approach NEC
+      type: any
+    - code: 760L111
+      value: Antireflux procedure using thoracic approach NEC
+      type: any
+    - code: 760L200
+      value: Antireflux fundoplication using abdominal approach
+      type: any
+    - code: 760L300
+      value: Antireflux gastropexy
+      type: any
+    - code: 760L311
+      value: Antireflux gastroplasty
+      type: any
+    - code: 760L400
+      value: Antireflux procedure and gastroplasty HFQ
+      type: any
+    - code: 760L.00
+      value: Antireflux operations
+      type: any
+    - code: 760L.11
+      value: Oesophageal reflux operations
+      type: any
+    - code: 760Ly00
+      value: Other specified antireflux operation
+      type: any
+    - code: 760Lz00
+      value: Antireflux operation NOS
+      type: any
+    - code: 760M.00
+      value: Revision of antireflux operations
+      type: any
+    - code: 760Mz00
+      value: Revision of antireflux operation NOS
+      type: any
+    - code: J101100
+      value: Reflux oesophagitis
+      type: any
+    - code: J101111
+      value: Acid reflux
+      type: any
+    - code: J101112
+      value: Gastro-oesophageal reflux with oesophagitis
+      type: any
+    - code: J101113
+      value: Oesophageal reflux with oesophagitis
+      type: any
+    - code: J10y400
+      value: Oesopheal reflux without mention of oesophagitis
+      type: any
+    - code: J10y411
+      value: Oesophageal reflux
+      type: any
+    - code: J10y412
+      value: Gastro-oesophageal reflux
+      type: any
+    - code: J10y413
+      value: Acid reflux
+      type: any
+    - code: J10y500
+      value: Laryngopharyngeal reflux
+      type: any
+    - code: XaLCS
+      value: Reflux cough
+      type: any
+    - code: XE0CZ
+      value: Antireflux fundoplication using thoracic approach
+      type: any
+    - code: XaK99
+      value: Laryngopharyngeal reflux
+      type: any
+    - code: XE0Cb
+      value: Antireflux gastropexy
+      type: any
+    - code: XE0Ca
+      value: Antireflux fundoplication using abdominal approach
+      type: any
+    - code: XE0Ca
+      value: Antireflux fundoplication using abdominal approach
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

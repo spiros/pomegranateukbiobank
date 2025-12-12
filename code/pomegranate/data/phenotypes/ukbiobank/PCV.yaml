@@ -1,0 +1,132 @@
+metadata:
+  phenotype: Polycythaemia vera
+  group: Cancers
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: PCV
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 92dce182-7f34-4b44-989e-87c0b8ec402d
+  ontologies:
+    DOID: DOID_8997
+    GWAS: EFO_0002429
+    MESH: D011087
+    SNOMED-CT: '128841001'
+    FINNGEN: POLYCYTVERA
+  short_desc: A myeloproliferative neoplasm characterized by erythroid hyperplasia,
+    myeloid leukocytosis, thrombocytosis, and splenomegaly.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1438'
+      value: polycythaemia vera
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D45
+      value: Polycythaemia vera
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D45
+      value: Polycythaemia vera
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D45
+      value: Polycythaemia vera
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D45
+      value: Polycythaemia vera
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B671.00
+      value: Chronic erythraemia
+      type: any
+    - code: B671.11
+      value: Heilmeyer - Schoner disease
+      type: any
+    - code: B934.00
+      value: Polycythaemia vera
+      type: any
+    - code: B934.11
+      value: Polycythaemia rubra vera
+      type: any
+    - code: B934.12
+      value: Primary polycythaemia
+      type: any
+    - code: BBs0.00
+      value: '[M]Polycythaemia vera'
+      type: any
+    - code: BBs0.11
+      value: '[M]Polycythaemia rubra vera'
+      type: any
+    - code: XE1vr
+      value: Chronic erythraemia
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

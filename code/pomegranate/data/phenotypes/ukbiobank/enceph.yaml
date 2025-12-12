@@ -1,0 +1,216 @@
+metadata:
+  phenotype: Encephalitis
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: enceph
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 600eac97-2013-4174-8fa1-2e067cf1432e
+  ontologies:
+    DOID: DOID_9588
+    GWAS: null
+    MESH: D004660
+    SNOMED-CT: 45170000
+    FINNGEN: ENCEPHALITIS
+  short_desc: A brain disease that is characterized as an acute inflammation of the
+    brain with flu-like symptoms.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1246'
+      value: encephalitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: A83
+      value: Mosquito-borne viral encephalitis
+      type: any
+    - code: A84
+      value: Tick-borne viral encephalitis
+      type: any
+    - code: A85
+      value: Other viral encephalitis, not elsewhere classified
+      type: any
+    - code: A86
+      value: Unspecified viral encephalitis
+      type: any
+    - code: B00.4
+      value: Herpesviral encephalitis
+      type: any
+    - code: B01.1
+      value: Varicella encephalitis
+      type: any
+    - code: B02.0
+      value: Zoster encephalitis
+      type: any
+    - code: B05.0
+      value: Measles complicated by encephalitis
+      type: any
+    - code: B26.2
+      value: Mumps encephalitis
+      type: any
+    - code: B94.1
+      value: Sequelae of viral encephalitis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: A83
+      value: Mosquito-borne viral encephalitis
+      type: any
+    - code: A84
+      value: Tick-borne viral encephalitis
+      type: any
+    - code: A85
+      value: Other viral encephalitis, not elsewhere classified
+      type: any
+    - code: A86
+      value: Unspecified viral encephalitis
+      type: any
+    - code: B00.4
+      value: Herpesviral encephalitis
+      type: any
+    - code: B01.1
+      value: Varicella encephalitis
+      type: any
+    - code: B02.0
+      value: Zoster encephalitis
+      type: any
+    - code: B05.0
+      value: Measles complicated by encephalitis
+      type: any
+    - code: B26.2
+      value: Mumps encephalitis
+      type: any
+    - code: B94.1
+      value: Sequelae of viral encephalitis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A83
+      value: Mosquito-borne viral encephalitis
+      type: any
+    - code: A84
+      value: Tick-borne viral encephalitis
+      type: any
+    - code: A85
+      value: Other viral encephalitis, not elsewhere classified
+      type: any
+    - code: A86
+      value: Unspecified viral encephalitis
+      type: any
+    - code: B00.4
+      value: Herpesviral encephalitis
+      type: any
+    - code: B01.1
+      value: Varicella encephalitis
+      type: any
+    - code: B02.0
+      value: Zoster encephalitis
+      type: any
+    - code: B05.0
+      value: Measles complicated by encephalitis
+      type: any
+    - code: B26.2
+      value: Mumps encephalitis
+      type: any
+    - code: B94.1
+      value: Sequelae of viral encephalitis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A83
+      value: Mosquito-borne viral encephalitis
+      type: any
+    - code: A84
+      value: Tick-borne viral encephalitis
+      type: any
+    - code: A85
+      value: Other viral encephalitis, not elsewhere classified
+      type: any
+    - code: A86
+      value: Unspecified viral encephalitis
+      type: any
+    - code: B00.4
+      value: Herpesviral encephalitis
+      type: any
+    - code: B01.1
+      value: Varicella encephalitis
+      type: any
+    - code: B02.0
+      value: Zoster encephalitis
+      type: any
+    - code: B05.0
+      value: Measles complicated by encephalitis
+      type: any
+    - code: B26.2
+      value: Mumps encephalitis
+      type: any
+    - code: B94.1
+      value: Sequelae of viral encephalitis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

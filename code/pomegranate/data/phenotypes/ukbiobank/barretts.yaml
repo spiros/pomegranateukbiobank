@@ -1,0 +1,121 @@
+metadata:
+  phenotype: Barrett's oesophagus
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: barretts
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: f78dc26c-95cf-4ce7-8023-22daff4e24e1
+  ontologies:
+    DOID: DOID_9206
+    GWAS: EFO_0000280
+    MESH: D001471
+    SNOMED-CT: 196609006
+    FINNGEN: K11_BARRET
+  short_desc: Barrett's Oesophagus is the term used for a pre-cancerous condition
+    where the normal cells lining the oesophagus, also known as the gullet or food
+    pipe, have been replaced with abnormal cells.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1139'
+      value: oesophagitis/barretts oesophagus
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K22.7
+      value: Barrett's oesophagus
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K22.7
+      value: Barrett's oesophagus
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K22.7
+      value: Barrett's oesophagus
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K22.7
+      value: Barrett's oesophagus
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: J101611
+      value: Barrett's oesophagus
+      type: any
+    - code: J102500
+      value: Barrett's ulcer of oesophagus
+      type: any
+    - code: J10y600
+      value: Barrett's oesophagus
+      type: any
+    - code: Xa9Bz
+      value: Barrett's oesophagus
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

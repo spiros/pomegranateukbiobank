@@ -1,0 +1,1228 @@
+metadata:
+  phenotype: Other or unspecified infectious organisms
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: oth_organisms
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: d496b12b-ff43-46a4-ab03-6dffaa406893
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: null
+    SNOMED-CT: null
+    FINNGEN: null
+  short_desc: Other or unspecified infectious organisms
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: A08.5
+      value: Other specified intestinal infections
+      type: any
+    - code: A09
+      value: Other gastroenteritis and colitis of infectious and unspecified origin
+      type: any
+    - code: A41.8
+      value: Other specified sepsis
+      type: any
+    - code: A41.9
+      value: Sepsis, unspecified
+      type: any
+    - code: A63.8
+      value: Other specified predominantly sexually transmitted diseases
+      type: any
+    - code: A64
+      value: Unspecified sexually transmitted disease
+      type: any
+    - code: A81.0
+      value: Creutzfeldt-Jakob disease
+      type: any
+    - code: A81.8
+      value: Other atypical virus infections of central nervous system
+      type: any
+    - code: A81.9
+      value: Atypical virus infection of central nervous system, unspecified
+      type: any
+    - code: B94.8
+      value: Sequelae of other specified infectious and parasitic diseases
+      type: any
+    - code: B94.9
+      value: Sequelae of unspecified infectious or parasitic disease
+      type: any
+    - code: B99
+      value: Other and unspecified infectious diseases
+      type: any
+    - code: G02.8
+      value: Meningitis in other specified infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: G04.8
+      value: Other encephalitis, myelitis and encephalomyelitis
+      type: any
+    - code: G04.9
+      value: Encephalitis, myelitis and encephalomyelitis, unspecified
+      type: any
+    - code: G05.2
+      value: Encephalitis, myelitis and encephalomyelitis in other infectious and
+        parasitic diseases classified elsewhere
+      type: any
+    - code: G06
+      value: Intracranial and intraspinal abscess and granuloma
+      type: any
+    - code: G07
+      value: Intracranial and intraspinal abscess and granuloma in diseases classified
+        elsewhere
+      type: any
+    - code: G08
+      value: Intracranial and intraspinal phlebitis and thrombophlebitis
+      type: any
+    - code: G53.1
+      value: Multiple cranial nerve palsies in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: G63.0
+      value: Polyneuropathy in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: G94.0
+      value: Hydrocephalus in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: H10
+      value: Conjunctivitis
+      type: any
+    - code: H13.1
+      value: Conjunctivitis in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: H19.2
+      value: Keratitis and keratoconjunctivitis in other infectious and parasitic
+        diseases classified elsewhere
+      type: any
+    - code: H60
+      value: Otitis externa
+      type: any
+    - code: H62.3
+      value: Otitis externa in other infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: H62.4
+      value: Otitis externa in other diseases classified elsewhere
+      type: any
+    - code: H65
+      value: Nonsuppurative otitis media
+      type: any
+    - code: H66
+      value: Suppurative and unspecified otitis media
+      type: any
+    - code: H67.8
+      value: Otitis media in other diseases classified elsewhere
+      type: any
+    - code: H70
+      value: Mastoiditis and related conditions
+      type: any
+    - code: H73.0
+      value: Acute myringitis
+      type: any
+    - code: H73.1
+      value: Chronic myringitis
+      type: any
+    - code: H75.0
+      value: Mastoiditis in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I30.1
+      value: Infective pericarditis
+      type: any
+    - code: I32.1
+      value: Pericarditis in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I33.0
+      value: Acute and subacute infective endocarditis
+      type: any
+    - code: I40.0
+      value: Infective myocarditis
+      type: any
+    - code: I41.2
+      value: Myocarditis in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I43.0
+      value: Cardiomyopathy in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I98.1
+      value: Cardiovascular disorders in other infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: J00
+      value: Acute nasopharyngitis [common cold]
+      type: any
+    - code: J01
+      value: Acute sinusitis
+      type: any
+    - code: J02.8
+      value: Acute pharyngitis due to other specified organisms
+      type: any
+    - code: J02.9
+      value: Acute pharyngitis, unspecified
+      type: any
+    - code: J03.8
+      value: Acute tonsillitis due to other specified organisms
+      type: any
+    - code: J03.9
+      value: Acute tonsillitis, unspecified
+      type: any
+    - code: J04
+      value: Acute laryngitis and tracheitis
+      type: any
+    - code: J05
+      value: Acute obstructive laryngitis [croup] and epiglottitis
+      type: any
+    - code: J06
+      value: Acute upper respiratory infections of multiple and unspecified sites
+      type: any
+    - code: J16.8
+      value: Pneumonia due to other specified infectious organisms
+      type: any
+    - code: J17.8
+      value: Pneumonia in other diseases classified elsewhere
+      type: any
+    - code: J18
+      value: Pneumonia, organism unspecified
+      type: any
+    - code: J20.8
+      value: Acute bronchitis due to other specified organisms
+      type: any
+    - code: J20.9
+      value: Acute bronchitis, unspecified
+      type: any
+    - code: J22
+      value: Unspecified acute lower respiratory infection
+      type: any
+    - code: J44.0
+      value: Chronic obstructive pulmonary disease with acute lower respiratory infection
+      type: any
+    - code: J44.1
+      value: Chronic obstructive pulmonary disease with acute exacerbation, unspecified
+      type: any
+    - code: J85
+      value: Abscess of lung and mediastinum
+      type: any
+    - code: K75.0
+      value: Abscess of liver
+      type: any
+    - code: K77.0
+      value: Liver disorders in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: L08.0
+      value: Pyoderma
+      type: any
+    - code: L08.8
+      value: Other specified local infections of skin and subcutaneous tissue
+      type: any
+    - code: L08.9
+      value: Local infection of skin and subcutaneous tissue, unspecified
+      type: any
+    - code: L30.3
+      value: Infective dermatitis
+      type: any
+    - code: M01.8
+      value: Arthritis in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: M02
+      value: Reactive arthropathies
+      type: any
+    - code: M03
+      value: Postinfective and reactive arthropathies in diseases classified elsewhere
+      type: any
+    - code: M46.3
+      value: Infection of intervertebral disc (pyogenic)
+      type: any
+    - code: M46.4
+      value: Discitis, unspecified
+      type: any
+    - code: M46.5
+      value: Other infective spondylopathies
+      type: any
+    - code: M49.3
+      value: Spondylopathy in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: M60.0
+      value: Infective myositis
+      type: any
+    - code: M63.2
+      value: Myositis in other infectious diseases classified elsewhere
+      type: any
+    - code: N08.0
+      value: Glomerular disorders in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: N10
+      value: Acute tubulo-interstitial nephritis
+      type: any
+    - code: N16.0
+      value: Renal tubulo-interstitial disorders in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+    - code: N29.1
+      value: Other disorders of kidney and ureter in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+    - code: N30.0
+      value: Acute cystitis
+      type: any
+    - code: N30.8
+      value: Other cystitis
+      type: any
+    - code: N30.9
+      value: Cystitis, unspecified
+      type: any
+    - code: N34
+      value: Urethritis and urethral syndrome
+      type: any
+    - code: N48.1
+      value: Balanoposthitis
+      type: any
+    - code: N77.0
+      value: Ulceration of vulva in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: N77.1
+      value: Vaginitis, vulvitis and vulvovaginitis in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+    - code: P23.8
+      value: Congenital pneumonia due to other organisms
+      type: any
+    - code: P23.9
+      value: Congenital pneumonia, unspecified
+      type: any
+    - code: P37.8
+      value: Other specified congenital infectious and parasitic diseases
+      type: any
+    - code: P37.9
+      value: Congenital infectious and parasitic disease, unspecified
+      type: any
+    - code: P39
+      value: Other infections specific to the perinatal period
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: A08.5
+      value: Other specified intestinal infections
+      type: any
+    - code: A09
+      value: Other gastroenteritis and colitis of infectious and unspecified origin
+      type: any
+    - code: A41.8
+      value: Other specified sepsis
+      type: any
+    - code: A41.9
+      value: Sepsis, unspecified
+      type: any
+    - code: A63.8
+      value: Other specified predominantly sexually transmitted diseases
+      type: any
+    - code: A64
+      value: Unspecified sexually transmitted disease
+      type: any
+    - code: A81.0
+      value: Creutzfeldt-Jakob disease
+      type: any
+    - code: A81.8
+      value: Other atypical virus infections of central nervous system
+      type: any
+    - code: A81.9
+      value: Atypical virus infection of central nervous system, unspecified
+      type: any
+    - code: B94.8
+      value: Sequelae of other specified infectious and parasitic diseases
+      type: any
+    - code: B94.9
+      value: Sequelae of unspecified infectious or parasitic disease
+      type: any
+    - code: B99
+      value: Other and unspecified infectious diseases
+      type: any
+    - code: G02.8
+      value: Meningitis in other specified infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: G04.8
+      value: Other encephalitis, myelitis and encephalomyelitis
+      type: any
+    - code: G04.9
+      value: Encephalitis, myelitis and encephalomyelitis, unspecified
+      type: any
+    - code: G05.2
+      value: Encephalitis, myelitis and encephalomyelitis in other infectious and
+        parasitic diseases classified elsewhere
+      type: any
+    - code: G06
+      value: Intracranial and intraspinal abscess and granuloma
+      type: any
+    - code: G07
+      value: Intracranial and intraspinal abscess and granuloma in diseases classified
+        elsewhere
+      type: any
+    - code: G08
+      value: Intracranial and intraspinal phlebitis and thrombophlebitis
+      type: any
+    - code: G53.1
+      value: Multiple cranial nerve palsies in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: G63.0
+      value: Polyneuropathy in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: G94.0
+      value: Hydrocephalus in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: H10
+      value: Conjunctivitis
+      type: any
+    - code: H13.1
+      value: Conjunctivitis in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: H19.2
+      value: Keratitis and keratoconjunctivitis in other infectious and parasitic
+        diseases classified elsewhere
+      type: any
+    - code: H60
+      value: Otitis externa
+      type: any
+    - code: H62.3
+      value: Otitis externa in other infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: H62.4
+      value: Otitis externa in other diseases classified elsewhere
+      type: any
+    - code: H65
+      value: Nonsuppurative otitis media
+      type: any
+    - code: H66
+      value: Suppurative and unspecified otitis media
+      type: any
+    - code: H67.8
+      value: Otitis media in other diseases classified elsewhere
+      type: any
+    - code: H70
+      value: Mastoiditis and related conditions
+      type: any
+    - code: H73.0
+      value: Acute myringitis
+      type: any
+    - code: H73.1
+      value: Chronic myringitis
+      type: any
+    - code: H75.0
+      value: Mastoiditis in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I30.1
+      value: Infective pericarditis
+      type: any
+    - code: I32.1
+      value: Pericarditis in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I33.0
+      value: Acute and subacute infective endocarditis
+      type: any
+    - code: I40.0
+      value: Infective myocarditis
+      type: any
+    - code: I41.2
+      value: Myocarditis in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I43.0
+      value: Cardiomyopathy in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I98.1
+      value: Cardiovascular disorders in other infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: J00
+      value: Acute nasopharyngitis [common cold]
+      type: any
+    - code: J01
+      value: Acute sinusitis
+      type: any
+    - code: J02.8
+      value: Acute pharyngitis due to other specified organisms
+      type: any
+    - code: J02.9
+      value: Acute pharyngitis, unspecified
+      type: any
+    - code: J03.8
+      value: Acute tonsillitis due to other specified organisms
+      type: any
+    - code: J03.9
+      value: Acute tonsillitis, unspecified
+      type: any
+    - code: J04
+      value: Acute laryngitis and tracheitis
+      type: any
+    - code: J05
+      value: Acute obstructive laryngitis [croup] and epiglottitis
+      type: any
+    - code: J06
+      value: Acute upper respiratory infections of multiple and unspecified sites
+      type: any
+    - code: J16.8
+      value: Pneumonia due to other specified infectious organisms
+      type: any
+    - code: J17.8
+      value: Pneumonia in other diseases classified elsewhere
+      type: any
+    - code: J18
+      value: Pneumonia, organism unspecified
+      type: any
+    - code: J20.8
+      value: Acute bronchitis due to other specified organisms
+      type: any
+    - code: J20.9
+      value: Acute bronchitis, unspecified
+      type: any
+    - code: J22
+      value: Unspecified acute lower respiratory infection
+      type: any
+    - code: J44.0
+      value: Chronic obstructive pulmonary disease with acute lower respiratory infection
+      type: any
+    - code: J44.1
+      value: Chronic obstructive pulmonary disease with acute exacerbation, unspecified
+      type: any
+    - code: J85
+      value: Abscess of lung and mediastinum
+      type: any
+    - code: K75.0
+      value: Abscess of liver
+      type: any
+    - code: K77.0
+      value: Liver disorders in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: L08.0
+      value: Pyoderma
+      type: any
+    - code: L08.8
+      value: Other specified local infections of skin and subcutaneous tissue
+      type: any
+    - code: L08.9
+      value: Local infection of skin and subcutaneous tissue, unspecified
+      type: any
+    - code: L30.3
+      value: Infective dermatitis
+      type: any
+    - code: M01.8
+      value: Arthritis in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: M02
+      value: Reactive arthropathies
+      type: any
+    - code: M03
+      value: Postinfective and reactive arthropathies in diseases classified elsewhere
+      type: any
+    - code: M46.3
+      value: Infection of intervertebral disc (pyogenic)
+      type: any
+    - code: M46.4
+      value: Discitis, unspecified
+      type: any
+    - code: M46.5
+      value: Other infective spondylopathies
+      type: any
+    - code: M49.3
+      value: Spondylopathy in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: M60.0
+      value: Infective myositis
+      type: any
+    - code: M63.2
+      value: Myositis in other infectious diseases classified elsewhere
+      type: any
+    - code: N08.0
+      value: Glomerular disorders in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: N10
+      value: Acute tubulo-interstitial nephritis
+      type: any
+    - code: N16.0
+      value: Renal tubulo-interstitial disorders in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+    - code: N29.1
+      value: Other disorders of kidney and ureter in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+    - code: N30.0
+      value: Acute cystitis
+      type: any
+    - code: N30.8
+      value: Other cystitis
+      type: any
+    - code: N30.9
+      value: Cystitis, unspecified
+      type: any
+    - code: N34
+      value: Urethritis and urethral syndrome
+      type: any
+    - code: N48.1
+      value: Balanoposthitis
+      type: any
+    - code: N77.0
+      value: Ulceration of vulva in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: N77.1
+      value: Vaginitis, vulvitis and vulvovaginitis in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+    - code: P23.8
+      value: Congenital pneumonia due to other organisms
+      type: any
+    - code: P23.9
+      value: Congenital pneumonia, unspecified
+      type: any
+    - code: P37.8
+      value: Other specified congenital infectious and parasitic diseases
+      type: any
+    - code: P37.9
+      value: Congenital infectious and parasitic disease, unspecified
+      type: any
+    - code: P39
+      value: Other infections specific to the perinatal period
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A08.5
+      value: Other specified intestinal infections
+      type: any
+    - code: A09
+      value: Other gastroenteritis and colitis of infectious and unspecified origin
+      type: any
+    - code: A41.8
+      value: Other specified sepsis
+      type: any
+    - code: A41.9
+      value: Sepsis, unspecified
+      type: any
+    - code: A63.8
+      value: Other specified predominantly sexually transmitted diseases
+      type: any
+    - code: A64
+      value: Unspecified sexually transmitted disease
+      type: any
+    - code: A81.0
+      value: Creutzfeldt-Jakob disease
+      type: any
+    - code: A81.8
+      value: Other atypical virus infections of central nervous system
+      type: any
+    - code: A81.9
+      value: Atypical virus infection of central nervous system, unspecified
+      type: any
+    - code: B94.8
+      value: Sequelae of other specified infectious and parasitic diseases
+      type: any
+    - code: B94.9
+      value: Sequelae of unspecified infectious or parasitic disease
+      type: any
+    - code: B99
+      value: Other and unspecified infectious diseases
+      type: any
+    - code: G02.8
+      value: Meningitis in other specified infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: G04.8
+      value: Other encephalitis, myelitis and encephalomyelitis
+      type: any
+    - code: G04.9
+      value: Encephalitis, myelitis and encephalomyelitis, unspecified
+      type: any
+    - code: G05.2
+      value: Encephalitis, myelitis and encephalomyelitis in other infectious and
+        parasitic diseases classified elsewhere
+      type: any
+    - code: G06
+      value: Intracranial and intraspinal abscess and granuloma
+      type: any
+    - code: G07
+      value: Intracranial and intraspinal abscess and granuloma in diseases classified
+        elsewhere
+      type: any
+    - code: G08
+      value: Intracranial and intraspinal phlebitis and thrombophlebitis
+      type: any
+    - code: G53.1
+      value: Multiple cranial nerve palsies in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: G63.0
+      value: Polyneuropathy in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: G94.0
+      value: Hydrocephalus in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: H10
+      value: Conjunctivitis
+      type: any
+    - code: H13.1
+      value: Conjunctivitis in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: H19.2
+      value: Keratitis and keratoconjunctivitis in other infectious and parasitic
+        diseases classified elsewhere
+      type: any
+    - code: H60
+      value: Otitis externa
+      type: any
+    - code: H62.3
+      value: Otitis externa in other infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: H62.4
+      value: Otitis externa in other diseases classified elsewhere
+      type: any
+    - code: H65
+      value: Nonsuppurative otitis media
+      type: any
+    - code: H66
+      value: Suppurative and unspecified otitis media
+      type: any
+    - code: H67.8
+      value: Otitis media in other diseases classified elsewhere
+      type: any
+    - code: H70
+      value: Mastoiditis and related conditions
+      type: any
+    - code: H73.0
+      value: Acute myringitis
+      type: any
+    - code: H73.1
+      value: Chronic myringitis
+      type: any
+    - code: H75.0
+      value: Mastoiditis in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I30.1
+      value: Infective pericarditis
+      type: any
+    - code: I32.1
+      value: Pericarditis in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I33.0
+      value: Acute and subacute infective endocarditis
+      type: any
+    - code: I40.0
+      value: Infective myocarditis
+      type: any
+    - code: I41.2
+      value: Myocarditis in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I43.0
+      value: Cardiomyopathy in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I98.1
+      value: Cardiovascular disorders in other infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: J00
+      value: Acute nasopharyngitis [common cold]
+      type: any
+    - code: J01
+      value: Acute sinusitis
+      type: any
+    - code: J02.8
+      value: Acute pharyngitis due to other specified organisms
+      type: any
+    - code: J02.9
+      value: Acute pharyngitis, unspecified
+      type: any
+    - code: J03.8
+      value: Acute tonsillitis due to other specified organisms
+      type: any
+    - code: J03.9
+      value: Acute tonsillitis, unspecified
+      type: any
+    - code: J04
+      value: Acute laryngitis and tracheitis
+      type: any
+    - code: J05
+      value: Acute obstructive laryngitis [croup] and epiglottitis
+      type: any
+    - code: J06
+      value: Acute upper respiratory infections of multiple and unspecified sites
+      type: any
+    - code: J16.8
+      value: Pneumonia due to other specified infectious organisms
+      type: any
+    - code: J17.8
+      value: Pneumonia in other diseases classified elsewhere
+      type: any
+    - code: J18
+      value: Pneumonia, organism unspecified
+      type: any
+    - code: J20.8
+      value: Acute bronchitis due to other specified organisms
+      type: any
+    - code: J20.9
+      value: Acute bronchitis, unspecified
+      type: any
+    - code: J22
+      value: Unspecified acute lower respiratory infection
+      type: any
+    - code: J44.0
+      value: Chronic obstructive pulmonary disease with acute lower respiratory infection
+      type: any
+    - code: J44.1
+      value: Chronic obstructive pulmonary disease with acute exacerbation, unspecified
+      type: any
+    - code: J85
+      value: Abscess of lung and mediastinum
+      type: any
+    - code: K75.0
+      value: Abscess of liver
+      type: any
+    - code: K77.0
+      value: Liver disorders in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: L08.0
+      value: Pyoderma
+      type: any
+    - code: L08.8
+      value: Other specified local infections of skin and subcutaneous tissue
+      type: any
+    - code: L08.9
+      value: Local infection of skin and subcutaneous tissue, unspecified
+      type: any
+    - code: L30.3
+      value: Infective dermatitis
+      type: any
+    - code: M01.8
+      value: Arthritis in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: M02
+      value: Reactive arthropathies
+      type: any
+    - code: M03
+      value: Postinfective and reactive arthropathies in diseases classified elsewhere
+      type: any
+    - code: M46.3
+      value: Infection of intervertebral disc (pyogenic)
+      type: any
+    - code: M46.4
+      value: Discitis, unspecified
+      type: any
+    - code: M46.5
+      value: Other infective spondylopathies
+      type: any
+    - code: M49.3
+      value: Spondylopathy in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: M60.0
+      value: Infective myositis
+      type: any
+    - code: M63.2
+      value: Myositis in other infectious diseases classified elsewhere
+      type: any
+    - code: N08.0
+      value: Glomerular disorders in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: N10
+      value: Acute tubulo-interstitial nephritis
+      type: any
+    - code: N16.0
+      value: Renal tubulo-interstitial disorders in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+    - code: N29.1
+      value: Other disorders of kidney and ureter in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+    - code: N30.0
+      value: Acute cystitis
+      type: any
+    - code: N30.8
+      value: Other cystitis
+      type: any
+    - code: N30.9
+      value: Cystitis, unspecified
+      type: any
+    - code: N34
+      value: Urethritis and urethral syndrome
+      type: any
+    - code: N48.1
+      value: Balanoposthitis
+      type: any
+    - code: N77.0
+      value: Ulceration of vulva in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: N77.1
+      value: Vaginitis, vulvitis and vulvovaginitis in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+    - code: P23.8
+      value: Congenital pneumonia due to other organisms
+      type: any
+    - code: P23.9
+      value: Congenital pneumonia, unspecified
+      type: any
+    - code: P37.8
+      value: Other specified congenital infectious and parasitic diseases
+      type: any
+    - code: P37.9
+      value: Congenital infectious and parasitic disease, unspecified
+      type: any
+    - code: P39
+      value: Other infections specific to the perinatal period
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A08.5
+      value: Other specified intestinal infections
+      type: any
+    - code: A09
+      value: Other gastroenteritis and colitis of infectious and unspecified origin
+      type: any
+    - code: A41.8
+      value: Other specified sepsis
+      type: any
+    - code: A41.9
+      value: Sepsis, unspecified
+      type: any
+    - code: A63.8
+      value: Other specified predominantly sexually transmitted diseases
+      type: any
+    - code: A64
+      value: Unspecified sexually transmitted disease
+      type: any
+    - code: A81.0
+      value: Creutzfeldt-Jakob disease
+      type: any
+    - code: A81.8
+      value: Other atypical virus infections of central nervous system
+      type: any
+    - code: A81.9
+      value: Atypical virus infection of central nervous system, unspecified
+      type: any
+    - code: B94.8
+      value: Sequelae of other specified infectious and parasitic diseases
+      type: any
+    - code: B94.9
+      value: Sequelae of unspecified infectious or parasitic disease
+      type: any
+    - code: B99
+      value: Other and unspecified infectious diseases
+      type: any
+    - code: G02.8
+      value: Meningitis in other specified infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: G04.8
+      value: Other encephalitis, myelitis and encephalomyelitis
+      type: any
+    - code: G04.9
+      value: Encephalitis, myelitis and encephalomyelitis, unspecified
+      type: any
+    - code: G05.2
+      value: Encephalitis, myelitis and encephalomyelitis in other infectious and
+        parasitic diseases classified elsewhere
+      type: any
+    - code: G06
+      value: Intracranial and intraspinal abscess and granuloma
+      type: any
+    - code: G07
+      value: Intracranial and intraspinal abscess and granuloma in diseases classified
+        elsewhere
+      type: any
+    - code: G08
+      value: Intracranial and intraspinal phlebitis and thrombophlebitis
+      type: any
+    - code: G53.1
+      value: Multiple cranial nerve palsies in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: G63.0
+      value: Polyneuropathy in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: G94.0
+      value: Hydrocephalus in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: H10
+      value: Conjunctivitis
+      type: any
+    - code: H13.1
+      value: Conjunctivitis in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: H19.2
+      value: Keratitis and keratoconjunctivitis in other infectious and parasitic
+        diseases classified elsewhere
+      type: any
+    - code: H60
+      value: Otitis externa
+      type: any
+    - code: H62.3
+      value: Otitis externa in other infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: H62.4
+      value: Otitis externa in other diseases classified elsewhere
+      type: any
+    - code: H65
+      value: Nonsuppurative otitis media
+      type: any
+    - code: H66
+      value: Suppurative and unspecified otitis media
+      type: any
+    - code: H67.8
+      value: Otitis media in other diseases classified elsewhere
+      type: any
+    - code: H70
+      value: Mastoiditis and related conditions
+      type: any
+    - code: H73.0
+      value: Acute myringitis
+      type: any
+    - code: H73.1
+      value: Chronic myringitis
+      type: any
+    - code: H75.0
+      value: Mastoiditis in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I30.1
+      value: Infective pericarditis
+      type: any
+    - code: I32.1
+      value: Pericarditis in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I33.0
+      value: Acute and subacute infective endocarditis
+      type: any
+    - code: I40.0
+      value: Infective myocarditis
+      type: any
+    - code: I41.2
+      value: Myocarditis in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I43.0
+      value: Cardiomyopathy in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I98.1
+      value: Cardiovascular disorders in other infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: J00
+      value: Acute nasopharyngitis [common cold]
+      type: any
+    - code: J01
+      value: Acute sinusitis
+      type: any
+    - code: J02.8
+      value: Acute pharyngitis due to other specified organisms
+      type: any
+    - code: J02.9
+      value: Acute pharyngitis, unspecified
+      type: any
+    - code: J03.8
+      value: Acute tonsillitis due to other specified organisms
+      type: any
+    - code: J03.9
+      value: Acute tonsillitis, unspecified
+      type: any
+    - code: J04
+      value: Acute laryngitis and tracheitis
+      type: any
+    - code: J05
+      value: Acute obstructive laryngitis [croup] and epiglottitis
+      type: any
+    - code: J06
+      value: Acute upper respiratory infections of multiple and unspecified sites
+      type: any
+    - code: J16.8
+      value: Pneumonia due to other specified infectious organisms
+      type: any
+    - code: J17.8
+      value: Pneumonia in other diseases classified elsewhere
+      type: any
+    - code: J18
+      value: Pneumonia, organism unspecified
+      type: any
+    - code: J20.8
+      value: Acute bronchitis due to other specified organisms
+      type: any
+    - code: J20.9
+      value: Acute bronchitis, unspecified
+      type: any
+    - code: J22
+      value: Unspecified acute lower respiratory infection
+      type: any
+    - code: J44.0
+      value: Chronic obstructive pulmonary disease with acute lower respiratory infection
+      type: any
+    - code: J44.1
+      value: Chronic obstructive pulmonary disease with acute exacerbation, unspecified
+      type: any
+    - code: J85
+      value: Abscess of lung and mediastinum
+      type: any
+    - code: K75.0
+      value: Abscess of liver
+      type: any
+    - code: K77.0
+      value: Liver disorders in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: L08.0
+      value: Pyoderma
+      type: any
+    - code: L08.8
+      value: Other specified local infections of skin and subcutaneous tissue
+      type: any
+    - code: L08.9
+      value: Local infection of skin and subcutaneous tissue, unspecified
+      type: any
+    - code: L30.3
+      value: Infective dermatitis
+      type: any
+    - code: M01.8
+      value: Arthritis in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: M02
+      value: Reactive arthropathies
+      type: any
+    - code: M03
+      value: Postinfective and reactive arthropathies in diseases classified elsewhere
+      type: any
+    - code: M46.3
+      value: Infection of intervertebral disc (pyogenic)
+      type: any
+    - code: M46.4
+      value: Discitis, unspecified
+      type: any
+    - code: M46.5
+      value: Other infective spondylopathies
+      type: any
+    - code: M49.3
+      value: Spondylopathy in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: M60.0
+      value: Infective myositis
+      type: any
+    - code: M63.2
+      value: Myositis in other infectious diseases classified elsewhere
+      type: any
+    - code: N08.0
+      value: Glomerular disorders in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: N10
+      value: Acute tubulo-interstitial nephritis
+      type: any
+    - code: N16.0
+      value: Renal tubulo-interstitial disorders in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+    - code: N29.1
+      value: Other disorders of kidney and ureter in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+    - code: N30.0
+      value: Acute cystitis
+      type: any
+    - code: N30.8
+      value: Other cystitis
+      type: any
+    - code: N30.9
+      value: Cystitis, unspecified
+      type: any
+    - code: N34
+      value: Urethritis and urethral syndrome
+      type: any
+    - code: N48.1
+      value: Balanoposthitis
+      type: any
+    - code: N77.0
+      value: Ulceration of vulva in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: N77.1
+      value: Vaginitis, vulvitis and vulvovaginitis in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+    - code: P23.8
+      value: Congenital pneumonia due to other organisms
+      type: any
+    - code: P23.9
+      value: Congenital pneumonia, unspecified
+      type: any
+    - code: P37.8
+      value: Other specified congenital infectious and parasitic diseases
+      type: any
+    - code: P37.9
+      value: Congenital infectious and parasitic disease, unspecified
+      type: any
+    - code: P39
+      value: Other infections specific to the perinatal period
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

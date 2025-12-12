@@ -1,0 +1,174 @@
+metadata:
+  phenotype: Pleural effusion
+  group: Respiratory
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: pleural_effusion
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: c5320dcd-9c72-4027-9d16-a6ae79dc6cc5
+  ontologies:
+    DOID: null
+    GWAS: EFO_0009637
+    MESH: D010996
+    SNOMED-CT: 60046008
+    FINNGEN: J10_PLEUREFFUSION
+  short_desc: Presence of fluid in the pleural cavity resulting from excessive transudation
+    or exudation from the pleural surfaces.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1596'
+      value: pleural effusion
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: J90
+      value: Pleural effusion, not elsewhere classified
+      type: any
+    - code: J91
+      value: Pleural effusion in conditions classified elsewhere
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: J90
+      value: Pleural effusion, not elsewhere classified
+      type: any
+    - code: J91
+      value: Pleural effusion in conditions classified elsewhere
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J90
+      value: Pleural effusion, not elsewhere classified
+      type: any
+    - code: J91
+      value: Pleural effusion in conditions classified elsewhere
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J90
+      value: Pleural effusion, not elsewhere classified
+      type: any
+    - code: J91
+      value: Pleural effusion in conditions classified elsewhere
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: H511000
+      value: Pneumococcal pleurisy with effusion
+      type: any
+    - code: H511100
+      value: Staphylococcal pleurisy with effusion
+      type: any
+    - code: H511200
+      value: Streptococcal pleurisy with effusion
+      type: any
+    - code: H511.00
+      value: Bacterial pleurisy with effusion
+      type: any
+    - code: H511z00
+      value: Bacterial pleurisy with effusion NOS
+      type: any
+    - code: H51y400
+      value: Hydrothorax
+      type: any
+    - code: H51y500
+      value: Chylous effusion
+      type: any
+    - code: H51y700
+      value: Malignant pleural effusion
+      type: any
+    - code: H51y.00
+      value: Other pleural effusion excluding mention of tuberculosis
+      type: any
+    - code: H51yz00
+      value: Other pleural effusion
+      type: any
+    - code: H51z000
+      value: Exudative pleurisy NOS
+      type: any
+    - code: H51z100
+      value: Serofibrinous pleurisy NOS
+      type: any
+    - code: H51z200
+      value: Serous pleurisy NOS
+      type: any
+    - code: H51z.00
+      value: Pleural effusion NOS
+      type: any
+    - code: H51zz00
+      value: Pleural effusion NOS
+      type: any
+    - code: Hyu7000
+      value: '[X]Pleural effusion in conditions classified elsewhere'
+      type: any
+    - code: H51z.
+      value: Pleural effusion NOS
+      type: any
+    - code: Xa0IL
+      value: Malignant pleural effusion
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

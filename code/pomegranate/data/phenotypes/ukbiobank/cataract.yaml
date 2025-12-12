@@ -1,0 +1,748 @@
+metadata:
+  phenotype: Cataract
+  group: Eye
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: cataract
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: b2fa8fc0-8135-4066-95d1-1029eeb0963d
+  ontologies:
+    DOID: DOID_83
+    GWAS: EFO_0001059
+    MESH: D002386
+    SNOMED-CT: '193570009'
+    FINNGEN: H7_LENS
+  short_desc: Partial or complete opacity on or in the lens or capsule of one or both
+    eyes, impairing vision or causing blindness. The many kinds of cataract are classified
+    by their morphology (size, shape, location) or etiology (cause and time of occurrence).
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1278'
+      value: cataract
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: H25
+      value: Senile cataract
+      type: any
+    - code: H26.0
+      value: Infantile, juvenile and presenile cataract
+      type: any
+    - code: H26.2
+      value: Complicated cataract
+      type: any
+    - code: H26.4
+      value: After-cataract
+      type: any
+    - code: H26.8
+      value: Other specified cataract
+      type: any
+    - code: H26.9
+      value: Cataract, unspecified
+      type: any
+    - code: H28
+      value: Cataract and other disorders of lens in diseases classified elsewhere
+      type: any
+    - code: Q12.0
+      value: Congenital cataract
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: H25
+      value: Senile cataract
+      type: any
+    - code: H26.0
+      value: Infantile, juvenile and presenile cataract
+      type: any
+    - code: H26.2
+      value: Complicated cataract
+      type: any
+    - code: H26.4
+      value: After-cataract
+      type: any
+    - code: H26.8
+      value: Other specified cataract
+      type: any
+    - code: H26.9
+      value: Cataract, unspecified
+      type: any
+    - code: H28
+      value: Cataract and other disorders of lens in diseases classified elsewhere
+      type: any
+    - code: Q12.0
+      value: Congenital cataract
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: C71.1
+      value: Simple linear extraction of lens
+      type: any
+    - code: C71.2
+      value: Phacoemulsification of lens
+      type: any
+    - code: C71.3
+      value: Aspiration of lens
+      type: any
+    - code: C71.8
+      value: Other specified extracapsular extraction of lens
+      type: any
+    - code: C71.9
+      value: Unspecified extracapsular extraction of lens
+      type: any
+    - code: C72.1
+      value: Forceps extraction of lens
+      type: any
+    - code: C72.2
+      value: Suction extraction of lens
+      type: any
+    - code: C72.3
+      value: Cryoextraction of lens
+      type: any
+    - code: C72.8
+      value: Other specified intracapsular extraction of lens
+      type: any
+    - code: C72.9
+      value: Unspecified intracapsular extraction of lens
+      type: any
+    - code: C73.1
+      value: Membranectomy of lens
+      type: any
+    - code: C73.2
+      value: Capsulotomy of anterior lens capsule
+      type: any
+    - code: C73.3
+      value: Capsulotomy of posterior lens capsule
+      type: any
+    - code: C73.4
+      value: Capsulotomy of lens NEC
+      type: any
+    - code: C73.8
+      value: Other specified incision of capsule of lens
+      type: any
+    - code: C73.9
+      value: Unspecified incision of capsule of lens
+      type: any
+    - code: C74.1
+      value: Curettage of lens
+      type: any
+    - code: C74.2
+      value: Discission of cataract
+      type: any
+    - code: C74.3
+      value: Mechanical lensectomy
+      type: any
+    - code: C74.8
+      value: Other specified other extraction of lens
+      type: any
+    - code: C74.9
+      value: Unspecified other extraction of lens
+      type: any
+    - code: C75.1
+      value: Insertion of prosthetic replacement for lens NEC
+      type: any
+    - code: C75.2
+      value: Revision of prosthetic replacement for lens
+      type: any
+    - code: C75.3
+      value: Removal of prosthetic replacement for lens
+      type: any
+    - code: C75.4
+      value: Insertion of prosthetic replacement for lens using suture fixation
+      type: any
+    - code: C75.8
+      value: Other specified prosthesis of lens
+      type: any
+    - code: C75.9
+      value: Unspecified prosthesis of lens
+      type: any
+    - code: C77.1
+      value: Capsulectomy
+      type: any
+    - code: C77.2
+      value: Couching of lens
+      type: any
+    - code: C77.6
+      value: Insertion of capsule tension ring
+      type: any
+    - code: C77.8
+      value: Other specified other operations on lens
+      type: any
+    - code: C77.9
+      value: Unspecified other operations on lens
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: C71.1
+      value: C71.1
+      type: any
+    - code: C71.2
+      value: C71.2
+      type: any
+    - code: C71.3
+      value: C71.3
+      type: any
+    - code: C71.8
+      value: C71.8
+      type: any
+    - code: C71.9
+      value: C71.9
+      type: any
+    - code: C72.1
+      value: C72.1
+      type: any
+    - code: C72.2
+      value: C72.2
+      type: any
+    - code: C72.3
+      value: C72.3
+      type: any
+    - code: C72.8
+      value: C72.8
+      type: any
+    - code: C72.9
+      value: C72.9
+      type: any
+    - code: C73.1
+      value: C73.1
+      type: any
+    - code: C73.2
+      value: C73.2
+      type: any
+    - code: C73.3
+      value: C73.3
+      type: any
+    - code: C73.4
+      value: C73.4
+      type: any
+    - code: C73.8
+      value: C73.8
+      type: any
+    - code: C73.9
+      value: C73.9
+      type: any
+    - code: C74.1
+      value: C74.1
+      type: any
+    - code: C74.2
+      value: C74.2
+      type: any
+    - code: C74.3
+      value: C74.3
+      type: any
+    - code: C74.8
+      value: C74.8
+      type: any
+    - code: C74.9
+      value: C74.9
+      type: any
+    - code: C75.1
+      value: C75.1
+      type: any
+    - code: C75.2
+      value: C75.2
+      type: any
+    - code: C75.3
+      value: C75.3
+      type: any
+    - code: C75.4
+      value: C75.4
+      type: any
+    - code: C75.8
+      value: C75.8
+      type: any
+    - code: C75.9
+      value: C75.9
+      type: any
+    - code: C77.1
+      value: C77.1
+      type: any
+    - code: C77.2
+      value: C77.2
+      type: any
+    - code: C77.6
+      value: C77.6
+      type: any
+    - code: C77.8
+      value: C77.8
+      type: any
+    - code: C77.9
+      value: C77.9
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H25
+      value: Senile cataract
+      type: any
+    - code: H26.0
+      value: Infantile, juvenile and presenile cataract
+      type: any
+    - code: H26.2
+      value: Complicated cataract
+      type: any
+    - code: H26.4
+      value: After-cataract
+      type: any
+    - code: H26.8
+      value: Other specified cataract
+      type: any
+    - code: H26.9
+      value: Cataract, unspecified
+      type: any
+    - code: H28
+      value: Cataract and other disorders of lens in diseases classified elsewhere
+      type: any
+    - code: Q12.0
+      value: Congenital cataract
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H25
+      value: Senile cataract
+      type: any
+    - code: H26.0
+      value: Infantile, juvenile and presenile cataract
+      type: any
+    - code: H26.2
+      value: Complicated cataract
+      type: any
+    - code: H26.4
+      value: After-cataract
+      type: any
+    - code: H26.8
+      value: Other specified cataract
+      type: any
+    - code: H26.9
+      value: Cataract, unspecified
+      type: any
+    - code: H28
+      value: Cataract and other disorders of lens in diseases classified elsewhere
+      type: any
+    - code: Q12.0
+      value: Congenital cataract
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1483'
+      value: 'H/O: cataract'
+      type: prevalent
+    - code: 14N9.00
+      value: 'H/O: R cataract extraction'
+      type: prevalent
+    - code: 14NA.00
+      value: 'H/O: L cataract extraction'
+      type: prevalent
+    - code: 14NC.00
+      value: 'H/O: Bilateral cataract extraction'
+      type: prevalent
+    - code: 22E5.00
+      value: O/E - cataract present
+      type: any
+    - code: 2BT0.00
+      value: O/E - Right cataract present
+      type: any
+    - code: 2BT1.00
+      value: O/E - Left cataract present
+      type: any
+    - code: 2BT..00
+      value: Cataract observation
+      type: any
+    - code: '7263011'
+      value: Needling of lens for cataract
+      type: any
+    - code: '7263.12'
+      value: Extracapsular extraction of cataract
+      type: any
+    - code: '7264.11'
+      value: Intracapsular extraction of cataract
+      type: any
+    - code: '7266100'
+      value: Discission of cataract
+      type: any
+    - code: '7266.11'
+      value: Other extraction of cataract
+      type: any
+    - code: '7267600'
+      value: Cataract extraction and insertion of intraocular lens
+      type: any
+    - code: 8H5H.00
+      value: Referral for cataract extraction
+      type: any
+    - code: 8HTV.00
+      value: Referral to cataract clinic
+      type: any
+    - code: 8LC0.00
+      value: Cataract operation planned
+      type: any
+    - code: C108F00
+      value: Insulin dependent diabetes mellitus with diabetic cataract
+      type: any
+    - code: C108F11
+      value: Type I diabetes mellitus with diabetic cataract
+      type: any
+    - code: C108F12
+      value: Type 1 diabetes mellitus with diabetic cataract
+      type: any
+    - code: C109E00
+      value: Non-insulin depend diabetes mellitus with diabetic cataract
+      type: any
+    - code: C109E11
+      value: Type II diabetes mellitus with diabetic cataract
+      type: any
+    - code: C109E12
+      value: Type 2 diabetes mellitus with diabetic cataract
+      type: any
+    - code: C10EF00
+      value: Type 1 diabetes mellitus with diabetic cataract
+      type: any
+    - code: C10EF12
+      value: Insulin dependent diabetes mellitus with diabetic cataract
+      type: any
+    - code: C10FE00
+      value: Type 2 diabetes mellitus with diabetic cataract
+      type: any
+    - code: C10FE11
+      value: Type II diabetes mellitus with diabetic cataract
+      type: any
+    - code: F460000
+      value: Unspecified infantile cataract
+      type: any
+    - code: F460100
+      value: Unspecified juvenile cataract
+      type: any
+    - code: F460200
+      value: Unspecified presenile cataract
+      type: any
+    - code: F460300
+      value: Anterior subcapsular polar cataract
+      type: any
+    - code: F460400
+      value: Posterior subcapsular polar cataract
+      type: any
+    - code: F460500
+      value: Cortical cataract
+      type: any
+    - code: F460600
+      value: Lamellar zonular cataract
+      type: any
+    - code: F460700
+      value: Nuclear cataract
+      type: any
+    - code: F460.00
+      value: Infantile, juvenile and presenile cataracts
+      type: any
+    - code: F460x00
+      value: Combined nonsenile cataract
+      type: any
+    - code: F460y00
+      value: Other nonsenile cataract
+      type: any
+    - code: F460z00
+      value: Nonsenile cataract NOS
+      type: any
+    - code: F461000
+      value: Unspecified senile cataract
+      type: any
+    - code: F461100
+      value: Lens capsule pseudoexfoliation
+      type: any
+    - code: F461200
+      value: Coronary cataract
+      type: any
+    - code: F461300
+      value: Punctate cataract
+      type: any
+    - code: F461400
+      value: Incipient cataract NOS
+      type: any
+    - code: F461500
+      value: Immature cataract NOS
+      type: any
+    - code: F461600
+      value: Anterior subcapsular polar senile cataract
+      type: any
+    - code: F461700
+      value: Posterior subcapsular polar senile cataract
+      type: any
+    - code: F461800
+      value: Cortical senile cataract
+      type: any
+    - code: F461900
+      value: Nuclear senile cataract
+      type: any
+    - code: F461A00
+      value: Total, mature senile cataract
+      type: any
+    - code: F461B00
+      value: Hypermature cataract
+      type: any
+    - code: F461B11
+      value: Morgagni cataract
+      type: any
+    - code: F461.00
+      value: Senile cataract
+      type: any
+    - code: F461x00
+      value: Combined senile cataract
+      type: any
+    - code: F461y00
+      value: Other senile cataract
+      type: any
+    - code: F461z00
+      value: Senile cataract NOS
+      type: any
+    - code: F463000
+      value: Unspecified cataracta complicata
+      type: any
+    - code: F463200
+      value: Cataract in eye inflammatory disorder
+      type: any
+    - code: F463300
+      value: Cataract with neovascularization
+      type: any
+    - code: F463400
+      value: Cataract in degenerative disorder
+      type: any
+    - code: F463.00
+      value: Cataract secondary to ocular disease
+      type: any
+    - code: F463z00
+      value: Cataract secondary to ocular disorder NOS
+      type: any
+    - code: F464000
+      value: Diabetic cataract
+      type: any
+    - code: F464100
+      value: Tetanic cataract
+      type: any
+    - code: F464200
+      value: Myotonic cataract
+      type: any
+    - code: F464300
+      value: Cataract associated with other syndromes
+      type: any
+    - code: F464.00
+      value: Cataract due to other disorder
+      type: any
+    - code: F464z00
+      value: Cataract due to other disorder NOS
+      type: any
+    - code: F465000
+      value: Unspecified secondary cataract
+      type: any
+    - code: F465200
+      value: Other after cataract with vision normal
+      type: any
+    - code: F465300
+      value: After-cataract with vision obscured
+      type: any
+    - code: F465500
+      value: Posterior capsule opacification
+      type: any
+    - code: F465.00
+      value: After cataract
+      type: any
+    - code: F465z00
+      value: After cataract NOS
+      type: any
+    - code: F466.00
+      value: Bilateral cataracts
+      type: any
+    - code: F46..00
+      value: Cataract
+      type: any
+    - code: F46y.00
+      value: Other cataract
+      type: any
+    - code: F46yz00
+      value: Other cataract NOS
+      type: any
+    - code: F46z000
+      value: Immature cortical cataract
+      type: any
+    - code: F46z.00
+      value: Cataract NOS
+      type: any
+    - code: F4B4B00
+      value: Keratopathy following cataract surgery
+      type: any
+    - code: F4B4C00
+      value: Bullous aphakic keratopathy following cataract surgery
+      type: any
+    - code: F4K2D00
+      value: Vitreous syndrome following cataract surgery
+      type: any
+    - code: FyuE000
+      value: '[X]Other senile cataract'
+      type: any
+    - code: FyuE100
+      value: '[X]Other specified cataract'
+      type: any
+    - code: FyuE400
+      value: '[X]Cataract in other diseases classified elsewhere'
+      type: any
+    - code: P330.00
+      value: Congenital cataract, unspecified
+      type: any
+    - code: P331000
+      value: Capsular cataract
+      type: any
+    - code: P331100
+      value: Subcapsular cataract
+      type: any
+    - code: P331.00
+      value: Capsular and subcapsular cataract
+      type: any
+    - code: P331z00
+      value: Capsular or subcapsular cataract NOS
+      type: any
+    - code: P332000
+      value: Cortical cataract - congenital
+      type: any
+    - code: P332100
+      value: Zonular cataract
+      type: any
+    - code: P332.00
+      value: Cortical and zonular cataract
+      type: any
+    - code: P332z00
+      value: Cortical or zonular cataract NOS
+      type: any
+    - code: P333.00
+      value: Nuclear cataract - congenital
+      type: any
+    - code: P334000
+      value: Total congenital cataract
+      type: any
+    - code: P334z00
+      value: Total or subtotal congenital cataract NOS
+      type: any
+    - code: P33..00
+      value: Congenital cataract and lens anomalies
+      type: any
+    - code: P33y000
+      value: Blue dot cataract
+      type: any
+    - code: P33y100
+      value: Congenital membranous cataract
+      type: any
+    - code: P33y.00
+      value: Other specified congenital cataract or lens anomaly
+      type: any
+    - code: P33yz00
+      value: Other congenital cataract or lens anomaly NOS
+      type: any
+    - code: P33z.00
+      value: Congenital cataract or lens anomaly NOS
+      type: any
+    - code: ZV45611
+      value: '[V]State following cataract extraction'
+      type: any
+    - code: X75kW
+      value: Cataract observation
+      type: any
+    - code: XE1Ju
+      value: Congenital cataract and lens anomalies
+      type: any
+    - code: XaD2a
+      value: Immature cortical cataract
+      type: any
+    - code: XaJtv
+      value: Referral to cataract clinic
+      type: any
+    - code: XaJLZ
+      value: Referral for cataract extraction
+      type: any
+    - code: XE0BR
+      value: Simple linear extraction of lens
+      type: any
+    - code: XaBLP
+      value: O/E - Left cataract present
+      type: any
+    - code: XaBL5
+      value: 'H/O: R cataract extraction'
+      type: prevalent
+    - code: XaBL6
+      value: 'H/O: L cataract extraction'
+      type: prevalent
+    - code: XaYiR
+      value: Keratopathy following cataract surgery
+      type: any
+    - code: XaIsW
+      value: 'H/O: Bilateral cataract extraction'
+      type: prevalent
+    - code: XE16G
+      value: Hypermature cataract
+      type: any
+    - code: XaBLO
+      value: O/E - Right cataract present
+      type: any
+    - code: XaYiQ
+      value: Bullous aphakic keratopathy following cataract surgery
+      type: any
+    - code: X00XH
+      value: Cataract extraction and insertion of intraocular lens
+      type: any
+    - code: XaNko
+      value: Cataract operation planned
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

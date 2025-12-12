@@ -1,0 +1,289 @@
+metadata:
+  phenotype: Cerebral Palsy
+  group: Neurological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: cerebral_palsy
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: a1e98833-1470-45f4-b4a6-5adf9fdbd6e0
+  ontologies:
+    DOID: DOID_1969
+    GWAS: null
+    MESH: D002547
+    SNOMED-CT: 128188000
+    FINNGEN: G6_CP
+  short_desc: A group of disorders affecting the development of movement and posture,
+    often accompanied by disturbances of sensation, perception, cognition, and behavior.
+    It results from damage to the fetal or infant brain.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1433'
+      value: cerebral palsy
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: G80
+      value: Cerebral palsy
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: G80
+      value: Cerebral palsy
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G80
+      value: Cerebral palsy
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G80
+      value: Cerebral palsy
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 38Gw.00
+      value: Gross Motor Function Classification System Cerebral Palsy
+      type: any
+    - code: F137000
+      value: Athetoid cerebral palsy
+      type: any
+    - code: F137011
+      value: Vogt's disease
+      type: any
+    - code: F137100
+      value: Double athetosis
+      type: any
+    - code: F137111
+      value: Congenital athetosis
+      type: any
+    - code: F137.11
+      value: Athetoid cerebral palsy
+      type: any
+    - code: F137.12
+      value: Athetosis - congenital
+      type: any
+    - code: F230000
+      value: Congenital paraplegia
+      type: any
+    - code: F230100
+      value: Cerebral palsy with spastic diplegia
+      type: any
+    - code: F230111
+      value: Spastic diplegic cerebral palsy
+      type: any
+    - code: F230.00
+      value: Congenital diplegia
+      type: any
+    - code: F230.11
+      value: Paraplegia - congenital
+      type: any
+    - code: F230z00
+      value: Congenital diplegia NOS
+      type: any
+    - code: F231.00
+      value: Congenital hemiplegia
+      type: any
+    - code: F232.00
+      value: Congenital quadriplegia
+      type: any
+    - code: F232.11
+      value: Tetraplegia - congenital
+      type: any
+    - code: F233.00
+      value: Congenital monoplegia
+      type: any
+    - code: F233.11
+      value: Congenital spastic foot
+      type: any
+    - code: F234.00
+      value: Infantile hemiplegia NOS
+      type: any
+    - code: F23..00
+      value: Congenital cerebral palsy
+      type: any
+    - code: F23..11
+      value: Congenital spastic cerebral palsy
+      type: any
+    - code: F23..12
+      value: Infantile cerebral palsy
+      type: any
+    - code: F23..13
+      value: Littles disease
+      type: any
+    - code: F23..14
+      value: Cerebral atonia
+      type: any
+    - code: F23y000
+      value: Ataxic infantile cerebral palsy
+      type: any
+    - code: F23y100
+      value: Flaccid infantile cerebral palsy
+      type: any
+    - code: F23y200
+      value: Spastic cerebral palsy
+      type: any
+    - code: F23y300
+      value: Dyskinetic cerebral palsy
+      type: any
+    - code: F23y400
+      value: Ataxic diplegic cerebral palsy
+      type: any
+    - code: F23y500
+      value: Worster-Drought syndrome
+      type: any
+    - code: F23y511
+      value: Congenital suprabulbar paresis
+      type: any
+    - code: F23y600
+      value: Choreoathetoid cerebral palsy
+      type: any
+    - code: F23y.00
+      value: Other congenital cerebral palsy
+      type: any
+    - code: F23yz00
+      value: Other infantile cerebral palsy NOS
+      type: any
+    - code: F23z.00
+      value: Congenital cerebral palsy NOS
+      type: any
+    - code: F2B0.00
+      value: Spastic quadriplegic cerebral palsy
+      type: any
+    - code: F2B1.00
+      value: Spastic hemiplegic cerebral palsy
+      type: any
+    - code: F2B..00
+      value: Cerebral palsy
+      type: any
+    - code: F2By.00
+      value: Other cerebral palsy
+      type: any
+    - code: F2Bz.00
+      value: Cerebral palsy NOS
+      type: any
+    - code: Fyu9000
+      value: '[X]Other infantile cerebral palsy'
+      type: any
+    - code: Fyu9.00
+      value: '[X]Cerebral palsy and other paralytic syndromes'
+      type: any
+    - code: G669.00
+      value: Cerebral palsy, not congenital or infantile, acute
+      type: any
+    - code: XaYgp
+      value: Spastic quadriplegic cerebral palsy
+      type: any
+    - code: XE15M
+      value: Double athetosis
+      type: any
+    - code: XM1Pw
+      value: Congenital quadriplegia
+      type: any
+    - code: XaNWb
+      value: Worster-Drought syndrome
+      type: any
+    - code: XE2Q7
+      value: Athetoid cerebral palsy
+      type: any
+    - code: XaaVG
+      value: Gross Motor Function Classification System for Cerebral Palsy
+      type: any
+    - code: XaadE
+      value: Choreoathetoid cerebral palsy
+      type: any
+    - code: XM1Px
+      value: Congenital diplegia
+      type: any
+    - code: X00Eu
+      value: Dyskinetic cerebral palsy
+      type: any
+    - code: XM1Pu
+      value: Congenital cerebral palsy
+      type: any
+    - code: X00En
+      value: Spastic cerebral palsy
+      type: any
+    - code: XE2Q8
+      value: Cerebral palsy
+      type: any
+    - code: XE2Q9
+      value: Cerebral palsy with spastic diplegia
+      type: any
+    - code: XaYfK
+      value: Spastic hemiplegic cerebral palsy
+      type: any
+    - code: XE15V
+      value: Congenital monoplegia
+      type: any
+    - code: XE15L
+      value: Symptomatic torsion dystonia
+      type: any
+    - code: XaBE2
+      value: Cerebral palsy, not congenital or infantile, acute
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

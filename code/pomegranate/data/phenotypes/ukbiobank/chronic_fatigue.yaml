@@ -1,0 +1,256 @@
+metadata:
+  phenotype: Postviral fatigue syndrome, neurasthenia and fibromyalgia
+  group: Neurological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: chronic_fatigue
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: e8ae7b9d-2d64-42c3-bbaf-4be2164fb946
+  ontologies:
+    DOID: DOID_8544
+    GWAS: EFO_0004540
+    MESH: D015673
+    SNOMED-CT: 51771007
+    FINNGEN: G6_POSTVIRFAT
+  short_desc: Chronic fatigue syndrome (CFS) is a complicated disorder characterized
+    by extreme fatigue that lasts for at least six months and that can't be fully
+    explained by an underlying medical condition.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1542'
+      value: fibromyalgia
+      type: any
+    - code: '1482'
+      value: chronic fatigue syndrome
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: G93.3
+      value: Postviral fatigue syndrome
+      type: any
+    - code: F48.0
+      value: Neurasthenia
+      type: any
+    - code: M79.7
+      value: Fibromyalgia
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: G93.3
+      value: Postviral fatigue syndrome
+      type: any
+    - code: F48.0
+      value: Neurasthenia
+      type: any
+    - code: M79.7
+      value: Fibromyalgia
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G93.3
+      value: Postviral fatigue syndrome
+      type: any
+    - code: F48.0
+      value: Neurasthenia
+      type: any
+    - code: M79.7
+      value: Fibromyalgia
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G93.3
+      value: Postviral fatigue syndrome
+      type: any
+    - code: F48.0
+      value: Neurasthenia
+      type: any
+    - code: M79.7
+      value: Fibromyalgia
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 8HlL.00
+      value: Referral for chronic fatigue syndrome activity management
+      type: any
+    - code: 8HlL.11
+      value: Referral for myalgic encephalopathy activity management
+      type: any
+    - code: 8Q1..00
+      value: Activity management for chronic fatigue syndrome
+      type: any
+    - code: 8Q1..11
+      value: Activity management for myalgic encephalopathy
+      type: any
+    - code: E205.00
+      value: Neurasthenia - nervous debility
+      type: any
+    - code: Eu46000
+      value: '[X]Neurasthenia'
+      type: any
+    - code: Eu46011
+      value: '[X]Fatigue syndrome'
+      type: any
+    - code: F03y.12
+      value: Myalgic encephalomyelitis
+      type: any
+    - code: F286000
+      value: Mild chronic fatigue syndrome
+      type: any
+    - code: F286100
+      value: Moderate chronic fatigue syndrome
+      type: any
+    - code: F286200
+      value: Severe chronic fatigue syndrome
+      type: any
+    - code: F286.00
+      value: Chronic fatigue syndrome
+      type: any
+    - code: F286.11
+      value: CFS - Chronic fatigue syndrome
+      type: any
+    - code: F286.12
+      value: Postviral fatigue syndrome
+      type: any
+    - code: F286.13
+      value: PVFS - Postviral fatigue syn
+      type: any
+    - code: F286.14
+      value: Post-viral fatigue syndrome
+      type: any
+    - code: F286.15
+      value: Myalgic encephalomyelitis
+      type: any
+    - code: F286.16
+      value: ME - Myalgic encephalomyelitis
+      type: any
+    - code: N239.00
+      value: Fibromyalgia
+      type: any
+    - code: N240100
+      value: Fibrositis unspecified
+      type: any
+    - code: N240500
+      value: Fibrositis of neck
+      type: any
+    - code: N240600
+      value: Fibrositis arm
+      type: any
+    - code: N248.00
+      value: Fibromyalgia
+      type: any
+    - code: R007400
+      value: '[D]Postviral (asthenic) syndrome'
+      type: any
+    - code: R007411
+      value: '[D]Post viral debility'
+      type: any
+    - code: XaRAz
+      value: Referral for chronic fatigue syndrome activity management
+      type: any
+    - code: XaPom
+      value: Mild chronic fatigue syndrome
+      type: any
+    - code: XE15C
+      value: Other causes of encephalitis
+      type: any
+    - code: XaPeC
+      value: Activity management for chronic fatigue syndrome
+      type: any
+    - code: Xa01F
+      value: Chronic fatigue syndrome
+      type: any
+    - code: X75rx
+      value: Fibromyalgia
+      type: any
+    - code: X75rx
+      value: Fibromyalgia
+      type: any
+    - code: XaPon
+      value: Moderate chronic fatigue syndrome
+      type: any
+    - code: XaPoo
+      value: Severe chronic fatigue syndrome
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []
+  120010:
+    metadata:
+      desc: Ever had chronic Fatigue Syndrome or Myalgic Encephalomyelitis (M.E.)
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: 'yes'
+      type: any
+  120009:
+    metadata:
+      desc: Ever had fibromyalgia
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: 'yes'
+      type: any

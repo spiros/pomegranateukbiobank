@@ -1,0 +1,236 @@
+metadata:
+  phenotype: Intrauterine hypoxia
+  group: Perinatal
+  is_cancer: '0'
+  is_adult: '0'
+  variable_name: intrauterine_hypoxia
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 68d3e7d4-0918-400b-80be-2c6b9b0a9869
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: D005311
+    SNOMED-CT: 275367000
+    FINNGEN: P16_INTRAU_HYPOXIA
+  short_desc: Deficient oxygenation of FETAL BLOOD.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: P20
+      value: Intrauterine hypoxia
+      type: any
+    - code: P24.0
+      value: Neonatal aspiration of meconium
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: P20
+      value: Intrauterine hypoxia
+      type: any
+    - code: P24.0
+      value: Neonatal aspiration of meconium
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: P20
+      value: Intrauterine hypoxia
+      type: any
+    - code: P24.0
+      value: Neonatal aspiration of meconium
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: P20
+      value: Intrauterine hypoxia
+      type: any
+    - code: P24.0
+      value: Neonatal aspiration of meconium
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 4H23.00
+      value: Amniotic fluid -meconium stain
+      type: any
+    - code: L263000
+      value: Fetal distress unspecified
+      type: any
+    - code: L263100
+      value: Fetal distress - delivered
+      type: any
+    - code: L263200
+      value: Fetal distress with antenatal problem
+      type: any
+    - code: L263400
+      value: Labour and delivery complic by meconium in amniotic fluid
+      type: any
+    - code: L263500
+      value: Lab+del comp fetal ht rate anom wth meconium in amnio fluid
+      type: any
+    - code: L263600
+      value: Labour+delivery complicatd by biochem evidence/fetal stress
+      type: any
+    - code: L263700
+      value: Maternal care for fetal hypoxia
+      type: any
+    - code: L263.00
+      value: Fetal distress - affecting management
+      type: any
+    - code: L263.11
+      value: Fetal acidosis
+      type: any
+    - code: L263.14
+      value: Meconium stained liquor
+      type: any
+    - code: L263z00
+      value: Fetal distress NOS
+      type: any
+    - code: Lyu4800
+      value: '[X]Labour+delivery complicat/oth evidence of fetal distress'
+      type: any
+    - code: Q212000
+      value: Liveborn with prelabour abnormal heart beat
+      type: any
+    - code: Q212100
+      value: Liveborn with prelabour hypoxia
+      type: any
+    - code: Q212200
+      value: Liveborn with prelabour meconium in liquor
+      type: any
+    - code: Q212.00
+      value: Liveborn with prelabour fetal distress
+      type: any
+    - code: Q212.11
+      value: Fetal distress before labour - liveborn
+      type: any
+    - code: Q212z00
+      value: Liveborn with prelabour fetal distress NOS
+      type: any
+    - code: Q213000
+      value: Liveborn with labour abnormal heart beat
+      type: any
+    - code: Q213100
+      value: Liveborn with labour hypoxia
+      type: any
+    - code: Q213200
+      value: Liveborn with labour meconium in liquor
+      type: any
+    - code: Q213.00
+      value: Liveborn with labour fetal distress
+      type: any
+    - code: Q213.11
+      value: Fetal distress in labour - liveborn
+      type: any
+    - code: Q213z00
+      value: Liveborn with labour fetal distress NOS
+      type: any
+    - code: Q214000
+      value: Liveborn with abnormal heart beat, unspecified
+      type: any
+    - code: Q214100
+      value: Liveborn with fetal hypoxia, unspecified
+      type: any
+    - code: Q214200
+      value: Liveborn with meconium liquor, unspecified
+      type: any
+    - code: Q214.00
+      value: Liveborn with fetal distress, unspecified
+      type: any
+    - code: Q214.11
+      value: Fetal distress, unspecified when, liveborn
+      type: any
+    - code: Q214z00
+      value: Liveborn with unspecified fetal distress NOS
+      type: any
+    - code: Q21..00
+      value: Intrauterine hypoxia and birth asphyxia
+      type: any
+    - code: Q21..11
+      value: Intrauterine hypoxia
+      type: any
+    - code: Q21..12
+      value: Labour fetal anoxia
+      type: any
+    - code: Q311000
+      value: Meconium aspiration syndrome
+      type: any
+    - code: Z264800
+      value: Meconium stained liquor
+      type: any
+    - code: Z264900
+      value: Old meconium staining liquor
+      type: any
+    - code: Z264A00
+      value: Fresh meconium staining liquor
+      type: any
+    - code: Z264B00
+      value: Thick meconium stained liquor
+      type: any
+    - code: XE1ei
+      value: Intrauterine hypoxia and birth asphyxia
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

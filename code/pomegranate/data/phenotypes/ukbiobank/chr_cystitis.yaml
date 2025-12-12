@@ -1,0 +1,154 @@
+metadata:
+  phenotype: Non-acute cystitis
+  group: Genitourinary
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: chr_cystitis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: de62641c-1acf-4415-8a1b-20d06154baf3
+  ontologies:
+    DOID: DOID_1679
+    GWAS: EFO_1000023
+    MESH: D003556
+    SNOMED-CT: 38822007
+    FINNGEN: N14_CYSTITIS
+  short_desc: Interstitial cystitis is a poorly understood bladder condition that
+    causes long-term pelvic pain and problems peeing. It's also known as painful bladder
+    syndrome.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: N30.1
+      value: Interstitial cystitis (chronic)
+      type: any
+    - code: N30.2
+      value: Other chronic cystitis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: N30.1
+      value: Interstitial cystitis (chronic)
+      type: any
+    - code: N30.2
+      value: Other chronic cystitis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N30.1
+      value: Interstitial cystitis (chronic)
+      type: any
+    - code: N30.2
+      value: Other chronic cystitis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N30.1
+      value: Interstitial cystitis (chronic)
+      type: any
+    - code: N30.2
+      value: Other chronic cystitis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: K151000
+      value: Hunner's ulcer
+      type: any
+    - code: K151200
+      value: Submucous cystitis
+      type: any
+    - code: K151.00
+      value: Chronic interstitial cystitis
+      type: any
+    - code: K151z00
+      value: Chronic interstitial cystitis NOS
+      type: any
+    - code: K152000
+      value: Subacute cystitis
+      type: any
+    - code: K152.00
+      value: Other chronic cystitis
+      type: any
+    - code: K152y00
+      value: Chronic cystitis unspecified
+      type: any
+    - code: K152z00
+      value: Other chronic cystitis NOS
+      type: any
+    - code: K153.11
+      value: Follicular cystitis
+      type: any
+    - code: K15y000
+      value: Cystitis cystica
+      type: any
+    - code: Kyu5000
+      value: '[X]Other chronic cystitis'
+      type: any
+    - code: XE0dq
+      value: Trigonitis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

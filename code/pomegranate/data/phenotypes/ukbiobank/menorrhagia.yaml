@@ -1,0 +1,203 @@
+metadata:
+  phenotype: Menorrhagia and polymenorrhoea
+  group: Genitourinary
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: menorrhagia
+  gender:
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 37b34e03-641b-4209-bb17-c1f6be2d3601
+  ontologies:
+    DOID: DOID_756
+    GWAS: HP_0000132
+    MESH: D008595
+    SNOMED-CT: 386692008
+    FINNGEN: N14_MENORRHAGIA
+  short_desc: Menorrhagia is the medical term for menstrual periods with abnormally
+    heavy or prolonged bleeding.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1556'
+      value: menorrhagia (unknown cause)
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: N92.0
+      value: Excessive and frequent menstruation with regular cycle
+      type: any
+    - code: N92.1
+      value: Excessive and frequent menstruation with irregular cycle
+      type: any
+    - code: N92.2
+      value: Excessive menstruation at puberty
+      type: any
+    - code: N92.4
+      value: Excessive bleeding in the premenopausal period
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: N92.0
+      value: Excessive and frequent menstruation with regular cycle
+      type: any
+    - code: N92.1
+      value: Excessive and frequent menstruation with irregular cycle
+      type: any
+    - code: N92.2
+      value: Excessive menstruation at puberty
+      type: any
+    - code: N92.4
+      value: Excessive bleeding in the premenopausal period
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N92.0
+      value: Excessive and frequent menstruation with regular cycle
+      type: any
+    - code: N92.1
+      value: Excessive and frequent menstruation with irregular cycle
+      type: any
+    - code: N92.2
+      value: Excessive menstruation at puberty
+      type: any
+    - code: N92.4
+      value: Excessive bleeding in the premenopausal period
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N92.0
+      value: Excessive and frequent menstruation with regular cycle
+      type: any
+    - code: N92.1
+      value: Excessive and frequent menstruation with irregular cycle
+      type: any
+    - code: N92.2
+      value: Excessive menstruation at puberty
+      type: any
+    - code: N92.4
+      value: Excessive bleeding in the premenopausal period
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 151G.00
+      value: Length of cycle decreasing
+      type: any
+    - code: '1572.00'
+      value: 'H/O: polymenorrhoea'
+      type: prevalent
+    - code: '1573.00'
+      value: 'H/O: menorrhagia'
+      type: prevalent
+    - code: '1573.11'
+      value: 'H/O: heavy periods'
+      type: prevalent
+    - code: K592000
+      value: Menorrhagia
+      type: any
+    - code: K592011
+      value: Heavy periods
+      type: any
+    - code: K592012
+      value: Heavy menstrual bleeding
+      type: any
+    - code: K592100
+      value: Polymenorrhoea
+      type: any
+    - code: K592111
+      value: Epimenorrhoea
+      type: any
+    - code: K592.00
+      value: Excessive or frequent menstruation
+      type: any
+    - code: K592.11
+      value: Frequent menses
+      type: any
+    - code: K592.12
+      value: Hypermenorrhoea
+      type: any
+    - code: K592z00
+      value: Excessive or frequent menstruation NOS
+      type: any
+    - code: K593.11
+      value: Pubertal bleeding and menorrhagia
+      type: any
+    - code: K5A0.00
+      value: Premenopausal menorrhagia
+      type: any
+    - code: K5A0.11
+      value: Climacteric menorrhagia
+      type: any
+    - code: K5A6.00
+      value: Perimenopausal menorrhagia
+      type: any
+    - code: XE0ep
+      value: Puberty bleeding
+      type: any
+    - code: Xa9CP
+      value: Perimenopausal menorrhagia
+      type: any
+    - code: XE0ew
+      value: Premenopausal menorrhagia
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,358 @@
+metadata:
+  phenotype: Osteoporosis
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: osteoporosis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 0f4100db-b33f-491e-b9d9-a5e985456369
+  ontologies:
+    DOID: DOID_11476
+    GWAS: EFO_0003882
+    MESH: D010024
+    SNOMED-CT: 64859006
+    FINNGEN: M13_OSTEOPOROSIS
+  short_desc: A condition of reduced bone mass, with decreased cortical thickness
+    and a decrease in the number and size of the trabeculae of cancellous bone (but
+    normal chemical composition), resulting in increased fracture incidence.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1309'
+      value: osteoporosis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: M80
+      value: Osteoporosis with pathological fracture
+      type: any
+    - code: M81
+      value: Osteoporosis without pathological fracture
+      type: any
+    - code: M82
+      value: Osteoporosis in diseases classified elsewhere
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: M80
+      value: Osteoporosis with pathological fracture
+      type: any
+    - code: M81
+      value: Osteoporosis without pathological fracture
+      type: any
+    - code: M82
+      value: Osteoporosis in diseases classified elsewhere
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M80
+      value: Osteoporosis with pathological fracture
+      type: any
+    - code: M81
+      value: Osteoporosis without pathological fracture
+      type: any
+    - code: M82
+      value: Osteoporosis in diseases classified elsewhere
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M80
+      value: Osteoporosis with pathological fracture
+      type: any
+    - code: M81
+      value: Osteoporosis without pathological fracture
+      type: any
+    - code: M82
+      value: Osteoporosis in diseases classified elsewhere
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14GB.00
+      value: History of osteoporosis
+      type: prevalent
+    - code: 58EG.00
+      value: Hip DXA scan result osteoporotic
+      type: any
+    - code: 58EM.00
+      value: Lumbar DXA scan result osteoporotic
+      type: any
+    - code: 58EV.00
+      value: Femoral neck DEXA scan result osteoporotic
+      type: any
+    - code: 66a..00
+      value: Osteoporosis monitoring
+      type: prevalent
+    - code: 9kj0.00
+      value: Bone sparing drug treatment offered for osteoporosis - ESA
+      type: any
+    - code: 9kj..00
+      value: Osteoporosis - enhanced services administration
+      type: any
+    - code: 9Od0.00
+      value: Attends osteoporosis monitoring
+      type: prevalent
+    - code: 9Od2.00
+      value: Osteoporosis monitoring default
+      type: prevalent
+    - code: 9Od3.00
+      value: Osteoporosis monitoring first letter
+      type: prevalent
+    - code: 9Od4.00
+      value: Osteoporosis monitoring second letter
+      type: prevalent
+    - code: 9Od5.00
+      value: Osteoporosis monitoring third letter
+      type: prevalent
+    - code: 9Od6.00
+      value: Osteoporosis monitoring verbal invitation
+      type: prevalent
+    - code: 9Od7.00
+      value: Osteoporosis monitoring telephone invitation
+      type: prevalent
+    - code: 9Od8.00
+      value: Osteoporosis monitoring deleted
+      type: prevalent
+    - code: 9Od9.00
+      value: Osteoporosis monitoring check done
+      type: prevalent
+    - code: 9Od..00
+      value: Osteoporosis monitoring administration
+      type: prevalent
+    - code: N330000
+      value: Osteoporosis, unspecified
+      type: any
+    - code: N330100
+      value: Senile osteoporosis
+      type: any
+    - code: N330200
+      value: Postmenopausal osteoporosis
+      type: any
+    - code: N330300
+      value: Idiopathic osteoporosis
+      type: any
+    - code: N330400
+      value: Dissuse osteoporosis
+      type: any
+    - code: N330500
+      value: Drug-induced osteoporosis
+      type: any
+    - code: N330600
+      value: Postoophorectomy osteoporosis
+      type: any
+    - code: N330700
+      value: Postsurgical malabsorption osteoporosis
+      type: any
+    - code: N330A00
+      value: Osteoporosis in endocrine disorders
+      type: any
+    - code: N330B00
+      value: Vertebral osteoporosis
+      type: any
+    - code: N330C00
+      value: Osteoporosis localized to spine
+      type: any
+    - code: N330D00
+      value: Osteoporosis due to corticosteroids
+      type: any
+    - code: N330.00
+      value: Osteoporosis
+      type: any
+    - code: N330z00
+      value: Osteoporosis NOS
+      type: any
+    - code: N331200
+      value: Postoophorectomy osteoporosis with pathological fracture
+      type: any
+    - code: N331300
+      value: Osteoporosis of disuse with pathological fracture
+      type: any
+    - code: N331400
+      value: Postsurgical malabsorption osteoporosis with path fracture
+      type: any
+    - code: N331500
+      value: Drug-induced osteoporosis with pathological fracture
+      type: any
+    - code: N331600
+      value: Idiopathic osteoporosis with pathological fracture
+      type: any
+    - code: N331800
+      value: Osteoporosis + pathological fracture lumbar vertebrae
+      type: any
+    - code: N331900
+      value: Osteoporosis + pathological fracture thoracic vertebrae
+      type: any
+    - code: N331A00
+      value: Osteoporosis + pathological fracture cervical vertebrae
+      type: any
+    - code: N331B00
+      value: Postmenopausal osteoporosis with pathological fracture
+      type: any
+    - code: N331H00
+      value: Collapse of cervical vertebra due to osteoporosis
+      type: any
+    - code: N331J00
+      value: Collapse of lumbar vertebra due to osteoporosis
+      type: any
+    - code: N331K00
+      value: Collapse of thoracic vertebra due to osteoporosis
+      type: any
+    - code: N331L00
+      value: Collapse of vertebra due to osteoporosis NOS
+      type: any
+    - code: N331M00
+      value: Fragility fracture due to unspecified osteoporosis
+      type: any
+    - code: N331M11
+      value: Minimal trauma fracture due to unspecified osteoporosis
+      type: any
+    - code: N331N00
+      value: Fragility fracture
+      type: any
+    - code: N331N11
+      value: Minimal trauma fracture
+      type: any
+    - code: N374600
+      value: Osteoporotic kyphosis
+      type: any
+    - code: NyuB000
+      value: '[X]Other osteoporosis with pathological fracture'
+      type: any
+    - code: NyuB100
+      value: '[X]Other osteoporosis'
+      type: any
+    - code: NyuB200
+      value: '[X]Osteoporosis in other disorders classified elsewhere'
+      type: any
+    - code: NyuB800
+      value: '[X]Unspecified osteoporosis with pathological fracture'
+      type: any
+    - code: XaISW
+      value: Osteoporosis monitoring verbal invitation
+      type: prevalent
+    - code: XaISY
+      value: Osteoporosis monitoring deleted
+      type: prevalent
+    - code: XaD4I
+      value: Collapse of lumbar vertebra due to osteoporosis
+      type: any
+    - code: XaISZ
+      value: Osteoporosis monitoring check done
+      type: prevalent
+    - code: XaISV
+      value: Osteoporosis monitoring third letter
+      type: prevalent
+    - code: XaIIp
+      value: Fragility fracture due to unspecified osteoporosis
+      type: any
+    - code: XaISQ
+      value: Attends osteoporosis monitoring
+      type: prevalent
+    - code: XaISP
+      value: Osteoporosis monitoring administration
+      type: prevalent
+    - code: XaITb
+      value: Lumbar DXA scan result osteoporotic
+      type: any
+    - code: XaISd
+      value: Osteoporosis monitoring
+      type: prevalent
+    - code: XaD4J
+      value: Collapse of thoracic vertebra due to osteoporosis
+      type: any
+    - code: XaIP4
+      value: Osteoporosis due to corticosteroids
+      type: any
+    - code: XaD4K
+      value: Collapse of vertebra due to osteoporosis NOS
+      type: any
+    - code: XaIST
+      value: Osteoporosis monitoring first letter
+      type: prevalent
+    - code: XaISX
+      value: Osteoporosis monitoring telephone invitation
+      type: prevalent
+    - code: XaNSP
+      value: Fragility fracture
+      type: any
+    - code: XaQgT
+      value: History of osteoporosis
+      type: prevalent
+    - code: XaISS
+      value: Osteoporosis monitoring default
+      type: prevalent
+    - code: XaITW
+      value: Hip DXA scan result osteoporotic
+      type: any
+    - code: XaISU
+      value: Osteoporosis monitoring second letter
+      type: prevalent
+    - code: XaPE2
+      value: Femoral neck DEXA scan result osteoporotic
+      type: any
+    - code: XaD2s
+      value: Collapse of cervical vertebra due to osteoporosis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

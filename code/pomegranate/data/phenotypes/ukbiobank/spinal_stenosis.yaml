@@ -1,0 +1,170 @@
+metadata:
+  phenotype: Spinal stenosis
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: spinal_stenosis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 10ae4664-c0f3-4491-a171-713bb3dc4330
+  ontologies:
+    DOID: DOID_6725
+    GWAS: EFO_0007490
+    MESH: D013130
+    SNOMED-CT: 76107001
+    FINNGEN: M13_SPINSTENOSIS
+  short_desc: Narrowing of the spinal canal.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1536'
+      value: spinal stenosis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: M48.0
+      value: Spinal stenosis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: M48.0
+      value: Spinal stenosis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M48.0
+      value: Spinal stenosis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M48.0
+      value: Spinal stenosis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: N130000
+      value: Idiopathic cervical spinal stenosis
+      type: any
+    - code: N130100
+      value: Degenerative cervical spinal stenosis
+      type: any
+    - code: N130300
+      value: Cervical spinal stenosis secondary to other disease
+      type: any
+    - code: N130.00
+      value: Cervical spinal stenosis
+      type: any
+    - code: N140000
+      value: Spinal stenosis of unspecified region
+      type: any
+    - code: N140100
+      value: Thoracic spinal stenosis
+      type: any
+    - code: N140200
+      value: Lumbar spinal stenosis
+      type: any
+    - code: N140300
+      value: Idiopathic thoracic spinal stenosis
+      type: any
+    - code: N140400
+      value: Degenerative thoracic spinal stenosis
+      type: any
+    - code: N140600
+      value: Thoracic spinal stenosis secondary to other disease
+      type: any
+    - code: N140700
+      value: Idiopathic lumbar spinal stenosis
+      type: any
+    - code: N140800
+      value: Degenerative lumbar spinal stenosis
+      type: any
+    - code: N140900
+      value: Iatrogenic lumbar spinal stenosis
+      type: any
+    - code: N140A00
+      value: Lumbar spinal stenosis secondary to other disease
+      type: any
+    - code: N140.00
+      value: Spinal stenosis, excluding cervical region
+      type: any
+    - code: N140.11
+      value: Spinal stenosis
+      type: any
+    - code: N140z00
+      value: Spinal stenosis NOS
+      type: any
+    - code: Zw04300
+      value: '[Q] Central spinal stenosis'
+      type: any
+    - code: Zw04400
+      value: '[Q] Lateral spinal stenosis'
+      type: any
+    - code: Zw04500
+      value: '[Q] Central and lateral spinal stenosis'
+      type: any
+    - code: XE1F9
+      value: Spinal stenosis, excluding cervical region
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

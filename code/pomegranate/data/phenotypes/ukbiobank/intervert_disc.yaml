@@ -1,0 +1,1299 @@
+metadata:
+  phenotype: Intervertebral disc disorders
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: intervert_disc
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 770424eb-0c34-43fb-98f7-07d9c7d80eff
+  ontologies:
+    DOID: DOID_90
+    GWAS: EFO_0004994
+    MESH: D055959
+    SNOMED-CT: 36427004
+    FINNGEN: M13_INTERVERTEB
+  short_desc: Any disease of a degenerative nature that affects the intervertebral
+    disc.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1312'
+      value: prolapsed disc/slipped disc
+      type: any
+    - code: '1533'
+      value: disc degeneration
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: M50
+      value: Cervical disc disorders
+      type: any
+    - code: M51
+      value: Other intervertebral disc disorders
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: M50
+      value: Cervical disc disorders
+      type: any
+    - code: M51
+      value: Other intervertebral disc disorders
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: V29
+      value: Primary excision of cervical intervertebral disc
+      type: any
+    - code: V29.1
+      value: Primary laminectomy excision of cervical intervertebral disc
+      type: any
+    - code: V29.2
+      value: Primary hemilaminectomy excision of cervical intervertebral disc
+      type: any
+    - code: V29.3
+      value: Primary fenestration excision of cervical intervertebral disc
+      type: any
+    - code: V29.4
+      value: Primary anterior excision of cervical intervertebral disc and interbody
+        fusion of joint of cervical spine
+      type: any
+    - code: V29.5
+      value: Primary anterior excision of cervical intervertebral disc NEC
+      type: any
+    - code: V29.6
+      value: Primary microdiscectomy of cervical intervertebral disc
+      type: any
+    - code: V29.8
+      value: Other specified primary excision of cervical intervertebral disc
+      type: any
+    - code: V29.9
+      value: Unspecified primary excision of cervical intervertebral disc
+      type: any
+    - code: V30
+      value: Revisional excision of cervical intervertebral disc
+      type: any
+    - code: V30.1
+      value: Revisional laminectomy excision of cervical intervertebral disc
+      type: any
+    - code: V30.2
+      value: Revisional hemilaminectomy excision of cervical intervertebral disc
+      type: any
+    - code: V30.3
+      value: Revisional fenestration excision of cervical intervertebral disc
+      type: any
+    - code: V30.4
+      value: Revisional anterior excision of cervical intervertebral disc and interbody
+        fusion of joint of cervical spine
+      type: any
+    - code: V30.5
+      value: Revisional anterior excision of cervical intervertebral disc NEC
+      type: any
+    - code: V30.6
+      value: Revisional microdiscectomy of cervical intervertebral disc
+      type: any
+    - code: V30.8
+      value: Other specified revisional excision of cervical intervertebral disc
+      type: any
+    - code: V30.9
+      value: Unspecified revisional excision of cervical intervertebral disc
+      type: any
+    - code: V31
+      value: Primary excision of thoracic intervertebral disc
+      type: any
+    - code: V31.1
+      value: Primary anterolateral excision of thoracic intervertebral disc and graft
+        HFQ
+      type: any
+    - code: V31.2
+      value: Primary anterolateral excision of thoracic intervertebral disc NEC
+      type: any
+    - code: V31.3
+      value: Primary costotransversectomy of thoracic intervertebral disc
+      type: any
+    - code: V31.4
+      value: Primary percutaneous endoscopic excision of thoracic intervertebral disc
+      type: any
+    - code: V31.8
+      value: Other specified primary excision of thoracic intervertebral disc
+      type: any
+    - code: V31.9
+      value: Unspecified primary excision of thoracic intervertebral disc
+      type: any
+    - code: V32
+      value: Revisional excision of thoracic intervertebral disc
+      type: any
+    - code: V32.1
+      value: Revisional anterolateral excision of thoracic intervertebral disc and
+        graft HFQ
+      type: any
+    - code: V32.2
+      value: Revisional anterolateral excision of thoracic intervertebral disc NEC
+      type: any
+    - code: V32.3
+      value: Revisional costotransversectomy of thoracic intervertebral disc
+      type: any
+    - code: V32.4
+      value: Revisional percutaneous endoscopic excision of thoracic intervertebral
+        disc
+      type: any
+    - code: V32.8
+      value: Other specified revisional excision of thoracic intervertebral disc
+      type: any
+    - code: V32.9
+      value: Unspecified revisional excision of thoracic intervertebral disc
+      type: any
+    - code: V33
+      value: Primary excision of lumbar intervertebral disc
+      type: any
+    - code: V33.1
+      value: Primary laminectomy excision of lumbar intervertebral disc
+      type: any
+    - code: V33.2
+      value: Primary fenestration excision of lumbar intervertebral disc
+      type: any
+    - code: V33.3
+      value: Primary anterior excision of lumbar intervertebral disc and interbody
+        fusion of joint of lumbar spine
+      type: any
+    - code: V33.4
+      value: Primary anterior excision of lumbar intervertebral disc NEC
+      type: any
+    - code: V33.5
+      value: Primary anterior excision of lumbar intervertebral disc and posterior
+        graft fusion of joint of lumbar spine
+      type: any
+    - code: V33.6
+      value: Primary anterior excision of lumbar intervertebral disc and posterior
+        instrumentation of lumbar spine
+      type: any
+    - code: V33.7
+      value: Primary microdiscectomy of lumbar intervertebral disc
+      type: any
+    - code: V33.8
+      value: Other specified primary excision of lumbar intervertebral disc
+      type: any
+    - code: V33.9
+      value: Unspecified primary excision of lumbar intervertebral disc
+      type: any
+    - code: V34
+      value: Revisional excision of lumbar intervertebral disc
+      type: any
+    - code: V34.1
+      value: Revisional laminectomy excision of lumbar intervertebral disc
+      type: any
+    - code: V34.2
+      value: Revisional fenestration excision of lumbar intervertebral disc
+      type: any
+    - code: V34.3
+      value: Revisional anterior excision of lumbar intervertebral disc and interbody
+        fusion of joint of lumbar spine
+      type: any
+    - code: V34.4
+      value: Revisional anterior excision of lumbar intervertebral disc NEC
+      type: any
+    - code: V34.5
+      value: Revisional anterior excision of lumbar intervertebral disc and posterior
+        graft fusion of joint of lumbar spine
+      type: any
+    - code: V34.6
+      value: Revisional anterior excision of lumbar intervertebral disc and posterior
+        instrumentation of lumbar spine
+      type: any
+    - code: V34.7
+      value: Revisional microdiscectomy of lumbar intervertebral disc
+      type: any
+    - code: V34.8
+      value: Other specified revisional excision of lumbar intervertebral disc
+      type: any
+    - code: V34.9
+      value: Unspecified revisional excision of lumbar intervertebral disc
+      type: any
+    - code: V35
+      value: Excision of unspecified intervertebral disc
+      type: any
+    - code: V35.1
+      value: Primary excision of intervertebral disc NEC
+      type: any
+    - code: V35.2
+      value: Revisional excision of intervertebral disc NEC
+      type: any
+    - code: V35.8
+      value: Other specified excision of unspecified intervertebral disc
+      type: any
+    - code: V35.9
+      value: Unspecified excision of unspecified intervertebral disc
+      type: any
+    - code: V36
+      value: Prosthetic replacement of intervertebral disc
+      type: any
+    - code: V36.1
+      value: Prosthetic replacement of cervical intervertebral disc
+      type: any
+    - code: V36.2
+      value: Prosthetic replacement of thoracic intervertebral disc
+      type: any
+    - code: V36.3
+      value: Prosthetic replacement of lumbar intervertebral disc
+      type: any
+    - code: V36.8
+      value: Other specified prosthetic replacement of intervertebral disc
+      type: any
+    - code: V36.9
+      value: Unspecified prosthetic replacement of intervertebral disc
+      type: any
+    - code: V51
+      value: primary excision of lumbar intervertebral disc
+      type: any
+    - code: V51.1
+      value: direct lateral excision of lumbar intervertebral disc and interbody fusion
+        of joint of lumbar spine
+      type: any
+    - code: V51.8
+      value: specified other primary excision of lumbar intervertebral disc
+      type: any
+    - code: V51.9
+      value: other primary excision of lumbar intervertebral disc
+      type: any
+    - code: V52
+      value: Other operations on intervertebral disc
+      type: any
+    - code: V52.1
+      value: Enzyme destruction of intervertebral disc
+      type: any
+    - code: V52.2
+      value: Destruction of intervertebral disc NEC
+      type: any
+    - code: V52.3
+      value: Discography of intervertebral disc
+      type: any
+    - code: V52.4
+      value: Biopsy of lesion of intervertebral disc NEC
+      type: any
+    - code: V52.5
+      value: Aspiration of intervertebral disc NEC
+      type: any
+    - code: V52.8
+      value: Other specified other operations on intervertebral disc
+      type: any
+    - code: V52.9
+      value: Unspecified other operations on intervertebral disc
+      type: any
+    - code: V58
+      value: Primary automated percutaneous mechanical excision of intervertebral
+        disc
+      type: any
+    - code: V58.1
+      value: Primary automated percutaneous mechanical excision of cervical intervertebral
+        disc
+      type: any
+    - code: V58.2
+      value: Primary automated percutaneous mechanical excision of thoracic intervertebral
+        disc
+      type: any
+    - code: V58.3
+      value: Primary automated percutaneous mechanical excision of lumbar intervertebral
+        disc
+      type: any
+    - code: V58.8
+      value: Other specified primary automated percutaneous mechanical excision of
+        intervertebral disc
+      type: any
+    - code: V58.9
+      value: Unspecified primary automated percutaneous mechanical excision of intervertebral
+        disc
+      type: any
+    - code: V59
+      value: Revisional automated percutaneous mechanical excision of intervertebral
+        disc
+      type: any
+    - code: V59.1
+      value: Revisional automated percutaneous mechanical excision of cervical intervertebral
+        disc
+      type: any
+    - code: V59.2
+      value: Revisional automated percutaneous mechanical excision of thoracic intervertebral
+        disc
+      type: any
+    - code: V59.3
+      value: Revisional automated percutaneous mechanical excision of lumbar intervertebral
+        disc
+      type: any
+    - code: V59.8
+      value: Other specified revisional automated percutaneous mechanical excision
+        of intervertebral disc
+      type: any
+    - code: V59.9
+      value: Unspecified revisional automated percutaneous mechanical excision of
+        intervertebral disc
+      type: any
+    - code: V60
+      value: Primary percutaneous decompression using coblation to intervertebral
+        disc
+      type: any
+    - code: V60.1
+      value: Primary percutaneous decompression using coblation to cervical intervertebral
+        disc
+      type: any
+    - code: V60.2
+      value: Primary percutaneous decompression using coblation to thoracic intervertebral
+        disc
+      type: any
+    - code: V60.3
+      value: Primary percutaneous decompression using coblation to lumbar intervertebral
+        disc
+      type: any
+    - code: V60.8
+      value: Other specified primary percutaneous decompression using coblation to
+        intervertebral disc
+      type: any
+    - code: V60.9
+      value: Unspecified primary percutaneous decompression using coblation to intervertebral
+        disc
+      type: any
+    - code: V61
+      value: Revisional percutaneous decompression using coblation to intervertebral
+        disc
+      type: any
+    - code: V61.1
+      value: Revisional percutaneous decompression using coblation to cervical intervertebral
+        disc
+      type: any
+    - code: V61.2
+      value: Revisional percutaneous decompression using coblation to thoracic intervertebral
+        disc
+      type: any
+    - code: V61.3
+      value: Revisional percutaneous decompression using coblation to lumbar intervertebral
+        disc
+      type: any
+    - code: V61.8
+      value: Other specified revisional percutaneous decompression using coblation
+        to intervertebral disc
+      type: any
+    - code: V61.9
+      value: Unspecified revisional percutaneous decompression using coblation to
+        intervertebral disc
+      type: any
+    - code: V62
+      value: Primary percutaneous intradiscal radiofrequency thermocoagulation to
+        intervertebral disc
+      type: any
+    - code: V62.1
+      value: Primary percutaneous intradiscal radiofrequency thermocoagulation to
+        cervical intervertebral disc
+      type: any
+    - code: V62.2
+      value: Primary percutaneous intradiscal radiofrequency thermocoagulation to
+        thoracic intervertebral disc
+      type: any
+    - code: V62.3
+      value: Primary percutaneous intradiscal radiofrequency thermocoagulation to
+        lumbar intervertebral disc
+      type: any
+    - code: V62.8
+      value: Other specified primary percutaneous intradiscal radiofrequency thermocoagulation
+        to intervertebral disc
+      type: any
+    - code: V62.9
+      value: Unspecified primary percutaneous intradiscal radiofrequency thermocoagulation
+        to intervertebral disc
+      type: any
+    - code: V63
+      value: Revisional percutaneous intradiscal radiofrequency thermocoagulation
+        to intervertebral disc
+      type: any
+    - code: V63.1
+      value: Revisional percutaneous intradiscal radiofrequency thermocoagulation
+        to cervical intervertebral disc
+      type: any
+    - code: V63.2
+      value: Revisional percutaneous intradiscal radiofrequency thermocoagulation
+        to thoracic intervertebral disc
+      type: any
+    - code: V63.3
+      value: Revisional percutaneous intradiscal radiofrequency thermocoagulation
+        to lumbar intervertebral disc
+      type: any
+    - code: V63.8
+      value: Other specified revisional percutaneous intradiscal radiofrequency thermocoagulation
+        to intervertebral disc
+      type: any
+    - code: V63.9
+      value: Unspecified revisional percutaneous intradiscal radiofrequency thermocoagulation
+        to intervertebral disc
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: V29
+      value: V29
+      type: any
+    - code: V29.1
+      value: V29.1
+      type: any
+    - code: V29.2
+      value: V29.2
+      type: any
+    - code: V29.3
+      value: V29.3
+      type: any
+    - code: V29.4
+      value: V29.4
+      type: any
+    - code: V29.5
+      value: V29.5
+      type: any
+    - code: V29.6
+      value: V29.6
+      type: any
+    - code: V29.8
+      value: V29.8
+      type: any
+    - code: V29.9
+      value: V29.9
+      type: any
+    - code: V30
+      value: V30
+      type: any
+    - code: V30.1
+      value: V30.1
+      type: any
+    - code: V30.2
+      value: V30.2
+      type: any
+    - code: V30.3
+      value: V30.3
+      type: any
+    - code: V30.4
+      value: V30.4
+      type: any
+    - code: V30.5
+      value: V30.5
+      type: any
+    - code: V30.6
+      value: V30.6
+      type: any
+    - code: V30.8
+      value: V30.8
+      type: any
+    - code: V30.9
+      value: V30.9
+      type: any
+    - code: V31
+      value: V31
+      type: any
+    - code: V31.1
+      value: V31.1
+      type: any
+    - code: V31.2
+      value: V31.2
+      type: any
+    - code: V31.3
+      value: V31.3
+      type: any
+    - code: V31.4
+      value: V31.4
+      type: any
+    - code: V31.8
+      value: V31.8
+      type: any
+    - code: V31.9
+      value: V31.9
+      type: any
+    - code: V32
+      value: V32
+      type: any
+    - code: V32.1
+      value: V32.1
+      type: any
+    - code: V32.2
+      value: V32.2
+      type: any
+    - code: V32.3
+      value: V32.3
+      type: any
+    - code: V32.4
+      value: V32.4
+      type: any
+    - code: V32.8
+      value: V32.8
+      type: any
+    - code: V32.9
+      value: V32.9
+      type: any
+    - code: V33
+      value: V33
+      type: any
+    - code: V33.1
+      value: V33.1
+      type: any
+    - code: V33.2
+      value: V33.2
+      type: any
+    - code: V33.3
+      value: V33.3
+      type: any
+    - code: V33.4
+      value: V33.4
+      type: any
+    - code: V33.5
+      value: V33.5
+      type: any
+    - code: V33.6
+      value: V33.6
+      type: any
+    - code: V33.7
+      value: V33.7
+      type: any
+    - code: V33.8
+      value: V33.8
+      type: any
+    - code: V33.9
+      value: V33.9
+      type: any
+    - code: V34
+      value: V34
+      type: any
+    - code: V34.1
+      value: V34.1
+      type: any
+    - code: V34.2
+      value: V34.2
+      type: any
+    - code: V34.3
+      value: V34.3
+      type: any
+    - code: V34.4
+      value: V34.4
+      type: any
+    - code: V34.5
+      value: V34.5
+      type: any
+    - code: V34.6
+      value: V34.6
+      type: any
+    - code: V34.7
+      value: V34.7
+      type: any
+    - code: V34.8
+      value: V34.8
+      type: any
+    - code: V34.9
+      value: V34.9
+      type: any
+    - code: V35
+      value: V35
+      type: any
+    - code: V35.1
+      value: V35.1
+      type: any
+    - code: V35.2
+      value: V35.2
+      type: any
+    - code: V35.8
+      value: V35.8
+      type: any
+    - code: V35.9
+      value: V35.9
+      type: any
+    - code: V36
+      value: V36
+      type: any
+    - code: V36.1
+      value: V36.1
+      type: any
+    - code: V36.2
+      value: V36.2
+      type: any
+    - code: V36.3
+      value: V36.3
+      type: any
+    - code: V36.8
+      value: V36.8
+      type: any
+    - code: V36.9
+      value: V36.9
+      type: any
+    - code: V51
+      value: V51
+      type: any
+    - code: V51.1
+      value: V51.1
+      type: any
+    - code: V51.8
+      value: V51.8
+      type: any
+    - code: V51.9
+      value: V51.9
+      type: any
+    - code: V52
+      value: V52
+      type: any
+    - code: V52.1
+      value: V52.1
+      type: any
+    - code: V52.2
+      value: V52.2
+      type: any
+    - code: V52.3
+      value: V52.3
+      type: any
+    - code: V52.4
+      value: V52.4
+      type: any
+    - code: V52.5
+      value: V52.5
+      type: any
+    - code: V52.8
+      value: V52.8
+      type: any
+    - code: V52.9
+      value: V52.9
+      type: any
+    - code: V58
+      value: V58
+      type: any
+    - code: V58.1
+      value: V58.1
+      type: any
+    - code: V58.2
+      value: V58.2
+      type: any
+    - code: V58.3
+      value: V58.3
+      type: any
+    - code: V58.8
+      value: V58.8
+      type: any
+    - code: V58.9
+      value: V58.9
+      type: any
+    - code: V59
+      value: V59
+      type: any
+    - code: V59.1
+      value: V59.1
+      type: any
+    - code: V59.2
+      value: V59.2
+      type: any
+    - code: V59.3
+      value: V59.3
+      type: any
+    - code: V59.8
+      value: V59.8
+      type: any
+    - code: V59.9
+      value: V59.9
+      type: any
+    - code: V60
+      value: V60
+      type: any
+    - code: V60.1
+      value: V60.1
+      type: any
+    - code: V60.2
+      value: V60.2
+      type: any
+    - code: V60.3
+      value: V60.3
+      type: any
+    - code: V60.8
+      value: V60.8
+      type: any
+    - code: V60.9
+      value: V60.9
+      type: any
+    - code: V61
+      value: V61
+      type: any
+    - code: V61.1
+      value: V61.1
+      type: any
+    - code: V61.2
+      value: V61.2
+      type: any
+    - code: V61.3
+      value: V61.3
+      type: any
+    - code: V61.8
+      value: V61.8
+      type: any
+    - code: V61.9
+      value: V61.9
+      type: any
+    - code: V62
+      value: V62
+      type: any
+    - code: V62.1
+      value: V62.1
+      type: any
+    - code: V62.2
+      value: V62.2
+      type: any
+    - code: V62.3
+      value: V62.3
+      type: any
+    - code: V62.8
+      value: V62.8
+      type: any
+    - code: V62.9
+      value: V62.9
+      type: any
+    - code: V63
+      value: V63
+      type: any
+    - code: V63.1
+      value: V63.1
+      type: any
+    - code: V63.2
+      value: V63.2
+      type: any
+    - code: V63.3
+      value: V63.3
+      type: any
+    - code: V63.8
+      value: V63.8
+      type: any
+    - code: V63.9
+      value: V63.9
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M50
+      value: Cervical disc disorders
+      type: any
+    - code: M51
+      value: Other intervertebral disc disorders
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M50
+      value: Cervical disc disorders
+      type: any
+    - code: M51
+      value: Other intervertebral disc disorders
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 7J20000
+      value: Primary laminectomy excision of cervical intervert disc
+      type: any
+    - code: 7J20100
+      value: Primary hemilaminectomy excision of cervical IV disc
+      type: any
+    - code: 7J20200
+      value: Primary fenestration excision of cervical intervert disc
+      type: any
+    - code: 7J20300
+      value: Primary anterior excis cervical IV disc & interbody fusion
+      type: any
+    - code: 7J20400
+      value: Primary posterior excision of cervical intervertebral disc
+      type: any
+    - code: 7J20600
+      value: Primary anterior excision of cervical intervertebr disc NEC
+      type: any
+    - code: 7J20700
+      value: Primary microdiscectomy of cervical intervertebral disc
+      type: any
+    - code: 7J20.00
+      value: Primary excision of cervical intervertebral disc
+      type: any
+    - code: 7J20800
+      value: Primary laser excision of cervical intervertebral disc
+      type: any
+    - code: 7J20y00
+      value: Primary excision of cervical intervertebral disc OS
+      type: any
+    - code: 7J20z00
+      value: Primary excision of cervical intervertebral disc NOS
+      type: any
+    - code: 7J21000
+      value: Revisional laminectomy excision of cervical intervert disc
+      type: any
+    - code: 7J21100
+      value: Revisional hemilaminectomy excision cervical intervert disc
+      type: any
+    - code: 7J21200
+      value: Revisional fenestration excision of cervical intervert disc
+      type: any
+    - code: 7J21300
+      value: Revision anterior excision cervical disc and fusion
+      type: any
+    - code: 7J21400
+      value: Revisional posterior excision of cervical intervert disc NEC
+      type: any
+    - code: 7J21600
+      value: Revisional anterior excision cervical intervert disc NEC
+      type: any
+    - code: 7J21700
+      value: Revisional microdiscectomy of cervical intervertebral disc
+      type: any
+    - code: 7J21.00
+      value: Revisional excision of cervical intervertebral disc ops
+      type: any
+    - code: 7J21y00
+      value: Revisional excision of cervical intervertebral disc OS
+      type: any
+    - code: 7J21z00
+      value: Revisional excision of cervical intervertebral disc NOS
+      type: any
+    - code: 7J23000
+      value: Primary anterior excision thoracic disc and fusion
+      type: any
+    - code: 7J23100
+      value: Primary anterolateral excision thoracic intervert disc NEC
+      type: any
+    - code: 7J23200
+      value: Primary costotransversectomy of thoracic intervertebral disc
+      type: any
+    - code: 7J23300
+      value: Primary posterior decompression of thoracic disc
+      type: any
+    - code: 7J23400
+      value: Primary anterolateral biopsy of thoracic intervertebral disc
+      type: any
+    - code: 7J23900
+      value: Excision of thoracic intervertebral disc NEC
+      type: any
+    - code: 7J23w00
+      value: Primary excision of thoracic intervertebral disc OS
+      type: any
+    - code: 7J23x00
+      value: Primary excision of thoracic intervertebral disc NOS
+      type: any
+    - code: 7J24600
+      value: Revisional excision of thoracic intervertebral disc NEC
+      type: any
+    - code: 7J24A00
+      value: Revis anterol exc thoracic intervertebral disc graft HFQ
+      type: any
+    - code: 7J24B00
+      value: Revision percutan endosc exc thoracic intervertebral disc
+      type: any
+    - code: 7J24x00
+      value: Revisional excision thoracic intervertebral disc NOS
+      type: any
+    - code: 7J27000
+      value: Prosthetic replacement of cervical intervertebral disc
+      type: any
+    - code: 7J27200
+      value: Prosthetic replacement of lumbar intervertebral disc
+      type: any
+    - code: 7J32000
+      value: Primary laminectomy excision of lumbar intervertebral disc
+      type: any
+    - code: 7J32100
+      value: Primary fenestration excision of lumbar disc
+      type: any
+    - code: 7J32111
+      value: Primary fenestration of lumbar intervertebral disc
+      type: any
+    - code: 7J32200
+      value: Primary anterior excision of lumbar disc and fusion
+      type: any
+    - code: 7J32211
+      value: Freebody anterior excision lumbar IV disc & interbody fusion
+      type: any
+    - code: 7J32300
+      value: Primary anterior excision of lumbar disc NEC
+      type: any
+    - code: 7J32400
+      value: Primary anterior excision of lumbar disc and posterior fusn
+      type: any
+    - code: 7J32500
+      value: Primary ant excision lumbar disc+post instrumentation
+      type: any
+    - code: 7J32600
+      value: Primary lumbar microdiscectomy
+      type: any
+    - code: 7J32700
+      value: Primary posterior excision of lumbar disc
+      type: any
+    - code: 7J32.00
+      value: Primary lumbar discectomy
+      type: any
+    - code: 7J32.11
+      value: Primary excision of lumbar intervertebral disc
+      type: any
+    - code: 7J32.12
+      value: Primary removal of lumbar intervertebral disc
+      type: any
+    - code: 7J32800
+      value: Primary laser excision of lumbar intervertebral disc
+      type: any
+    - code: 7J32900
+      value: Primary percutaneous intradiscal lumbar discectomy
+      type: any
+    - code: 7J32y00
+      value: Other specified primary lumbar discectomy
+      type: any
+    - code: 7J32z00
+      value: Primary excision of lumbar intervertebral disc NOS
+      type: any
+    - code: 7J33000
+      value: Revisional laminectomy excision of lumbar intervert disc
+      type: any
+    - code: 7J33100
+      value: Revisional fenestration excision of lumbar intervert disc
+      type: any
+    - code: 7J33200
+      value: Revisional anterior excision of lumbar disc and fusion
+      type: any
+    - code: 7J33400
+      value: Revisional anterior excision of lumbar disc and post fusion
+      type: any
+    - code: 7J33411
+      value: Revisional anterior excision of lumbar disc and post fusion
+      type: any
+    - code: 7J33600
+      value: Revisional lumbar microdiscectomy
+      type: any
+    - code: 7J33700
+      value: Revisional posterior excision of lumbar disc
+      type: any
+    - code: 7J33.00
+      value: Revisional lumbar discectomy
+      type: any
+    - code: 7J33.11
+      value: Revisional excision of lumbar intervertebral disc
+      type: any
+    - code: 7J33.12
+      value: Revisional removal of lumbar intervertebral disc
+      type: any
+    - code: 7J33y00
+      value: Other specified revisional lumbar discectomy
+      type: any
+    - code: 7J33z00
+      value: Revisional excision of lumbar intervertebral disc NOS
+      type: any
+    - code: 7J4H000
+      value: Primary automated percutan mech excis cerv intervert disc
+      type: any
+    - code: 7J4J000
+      value: Revisional automated percutan mech exc cerv intervert disc
+      type: any
+    - code: 7J4K000
+      value: Primary percutaneous decompres coblat cerv intervert disc
+      type: any
+    - code: 7J4L000
+      value: Revisional percutaneous decompres coblat cerv intervert disc
+      type: any
+    - code: 7J4M000
+      value: Primary percut intrad radio thermocoag cerv intervert disc
+      type: any
+    - code: F163000
+      value: Myelopathy due to intervertebral disc disease
+      type: any
+    - code: F337100
+      value: Nerve root and plexus compressions in intervert disc disord
+      type: any
+    - code: N120.00
+      value: Cervical disc displacement without myelopathy
+      type: any
+    - code: N120.11
+      value: Prolapsed cervical intervertebral disc without myelopathy
+      type: any
+    - code: N120.12
+      value: Cervical disc displacement
+      type: any
+    - code: N121.00
+      value: Thoracic disc displacement without myelopathy
+      type: any
+    - code: N121.11
+      value: Prolapsed thoracic intervertebral disc without myelopathy
+      type: any
+    - code: N122.00
+      value: Lumbar disc displacement
+      type: any
+    - code: N122.11
+      value: Prolapsed lumbar intervertebral disc
+      type: any
+    - code: N123.00
+      value: Disc displacement, site unspecified, without myelopathy
+      type: any
+    - code: N123.11
+      value: Intervertebral disc prolapse NOS
+      type: any
+    - code: N123.12
+      value: Prolapsed intervertebral disc without myelopathy
+      type: any
+    - code: N124000
+      value: Schmorl's nodes of unspecified region
+      type: any
+    - code: N124100
+      value: Schmorl's nodes of the thoracic region
+      type: any
+    - code: N124200
+      value: Schmorl's nodes of the lumbar region
+      type: any
+    - code: N124.00
+      value: Schmorl's nodes
+      type: any
+    - code: N124z00
+      value: Schmorl's nodes, region NOS
+      type: any
+    - code: N125.00
+      value: Cervical disc degeneration
+      type: any
+    - code: N126.00
+      value: Thoracic disc degeneration
+      type: any
+    - code: N127.00
+      value: Lumbar disc degeneration
+      type: any
+    - code: N128.00
+      value: Degenerative disc disease NOS
+      type: any
+    - code: N129000
+      value: Unspecified disc disorder with myelopathy
+      type: any
+    - code: N129100
+      value: Cervical disc disorder with myelopathy
+      type: any
+    - code: N129200
+      value: Thoracic disc disorder with myelopathy
+      type: any
+    - code: N129300
+      value: Lumbar disc disorder with myelopathy
+      type: any
+    - code: N129.00
+      value: Disc disorder with myelopathy
+      type: any
+    - code: N129.11
+      value: Prolapsed intervertebral disc with associated myelopathy
+      type: any
+    - code: N129z00
+      value: Disc disorder with myelopathy NOS
+      type: any
+    - code: N12B000
+      value: Cervical disc prolapse with myelopathy
+      type: any
+    - code: N12B100
+      value: Thoracic disc prolapse with myelopathy
+      type: any
+    - code: N12B200
+      value: Lumbar disc prolapse with myelopathy
+      type: any
+    - code: N12B.00
+      value: Disc prolapse with myelopathy
+      type: any
+    - code: N12C000
+      value: Cervical disc prolapse with radiculopathy
+      type: any
+    - code: N12C100
+      value: Thoracic disc prolapse with radiculopathy
+      type: any
+    - code: N12C200
+      value: Lumbar disc prolapse with radiculopathy
+      type: any
+    - code: N12C300
+      value: Lumbar disc prolapse with cauda equina compression
+      type: any
+    - code: N12C400
+      value: Prolapsed lumbar intervertebral disc with sciatica
+      type: any
+    - code: N12C.00
+      value: Disc prolapse with radiculopathy
+      type: any
+    - code: N12..00
+      value: Intervertebral disc disorders
+      type: any
+    - code: N12z000
+      value: Other disc disorders of unspecified site
+      type: any
+    - code: N12z100
+      value: Other cervical disc disorders
+      type: any
+    - code: N12z200
+      value: Other thoracic disc disorders
+      type: any
+    - code: N12z300
+      value: Other lumbar disc disorders
+      type: any
+    - code: N12z500
+      value: Annular tear of cervical disc
+      type: any
+    - code: N12z600
+      value: Resorption of cervical disc
+      type: any
+    - code: N12z700
+      value: Calcification of cervical disc
+      type: any
+    - code: N12z900
+      value: Annular tear of thoracic disc
+      type: any
+    - code: N12zB00
+      value: Calcification of thoracic disc
+      type: any
+    - code: N12zD00
+      value: Annular tear of lumbar disc
+      type: any
+    - code: N12zE00
+      value: Resorption of lumbar disc
+      type: any
+    - code: N12zF00
+      value: Calcification of lumbar disc
+      type: any
+    - code: N12zH00
+      value: Cervical disc disorder with radiculopathy
+      type: any
+    - code: N12z.00
+      value: Other and unspecified disc disorders
+      type: any
+    - code: N12zz00
+      value: Disc disorders NOS
+      type: any
+    - code: Nyu7000
+      value: '[X]Other cervical disc displacement'
+      type: any
+    - code: Nyu7100
+      value: '[X]Other cervical disc degeneration'
+      type: any
+    - code: Nyu7200
+      value: '[X]Other cervical disc disorders'
+      type: any
+    - code: Nyu7300
+      value: '[X]Lumbar+other intervertebral disc disordrs with myelopathy'
+      type: any
+    - code: Nyu7400
+      value: '[X]Lumbar+other intervertbrl disc disordrs with radiculopthy'
+      type: any
+    - code: Nyu7500
+      value: '[X]Other specified intervertebral disc displacement'
+      type: any
+    - code: Nyu7600
+      value: '[X]Other specified intervertebral disc degeneration'
+      type: any
+    - code: Nyu7700
+      value: '[X]Other specified intervertebral disc disorders'
+      type: any
+    - code: Nyu7B00
+      value: '[X]Cervical disc disorder, unspecified'
+      type: any
+    - code: Zw04000
+      value: '[Q] Central disc prolapse'
+      type: any
+    - code: Zw04100
+      value: '[Q] Posterolateral disc prolapse'
+      type: any
+    - code: Zw04200
+      value: '[Q] Sequestrated disc prolapse'
+      type: any
+    - code: XE0Ic
+      value: Primary anterior excision of cervical intervertebral disc and interbody
+        fusion of joint of cervical spine
+      type: any
+    - code: XaD2p
+      value: Prolapsed lumbar intervertebral disc with sciatica
+      type: any
+    - code: XaLxh
+      value: Prosthetic replacement of lumbar intervertebral disc
+      type: any
+    - code: XaM96
+      value: Primary percutaneous intradiscal radiofrequency thermocoagulation to
+        cervical intervertebral disc
+      type: any
+    - code: XaBDN
+      value: Primary laser excision of cervical intervertebral disc
+      type: any
+    - code: XE1F2
+      value: Disc disorder with myelopathy
+      type: any
+    - code: XE0Ih
+      value: Primary anterior excision of lumbar disc and fusion
+      type: any
+    - code: XaC0J
+      value: Primary percutaneous intradiscal lumbar discectomy
+      type: any
+    - code: XaLxA
+      value: Revisional percutaneous endoscopic excision of thoracic intervertebral
+        disc
+      type: any
+    - code: XaLx9
+      value: Revisional anterolateral excision of thoracic intervertebral disc and
+        graft HFQ
+      type: any
+    - code: XaBDM
+      value: Primary laser excision of lumbar intervertebral disc
+      type: any
+    - code: XaLxf
+      value: Prosthetic replacement of cervical intervertebral disc
+      type: any
+    - code: XaM7d
+      value: Revisional automated percutaneous mechanical excision of cervical intervertebral
+        disc
+      type: any
+    - code: XaM7T
+      value: Primary automated percutaneous mechanical excision of cervical intervertebral
+        disc
+      type: any
+    - code: XE1F1
+      value: Disc displacement, site unspecified, without myelopathy
+      type: any
+    - code: XE0Ii
+      value: Revisional anterior excision of lumbar disc and posterior fusion
+      type: any
+    - code: XE0Ii
+      value: Revisional anterior excision of lumbar disc and posterior fusion
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

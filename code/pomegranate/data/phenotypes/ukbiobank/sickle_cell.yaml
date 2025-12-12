@@ -1,0 +1,186 @@
+metadata:
+  phenotype: Sickle-cell anaemia
+  group: Haematological or immunological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: sickle_cell
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 02e97f39-3a8c-479e-a744-bbc2df44ab3e
+  ontologies:
+    DOID: DOID_10923
+    GWAS: Orphanet_232
+    MESH: D000755
+    SNOMED-CT: 127040003
+    FINNGEN: D3_SICKLECELLDIS
+  short_desc: Sickle cell anemia is an inherited red blood cell disorder in which
+    there aren't enough healthy red blood cells to carry oxygen throughout the body.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1339'
+      value: sickle cell disease
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D57.0
+      value: Sickle-cell anaemia with crisis
+      type: any
+    - code: D57.1
+      value: Sickle-cell anaemia without crisis
+      type: any
+    - code: D57.2
+      value: Double heterozygous sickling disorders
+      type: any
+    - code: D57.8
+      value: Other sickle-cell disorders
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D57.0
+      value: Sickle-cell anaemia with crisis
+      type: any
+    - code: D57.1
+      value: Sickle-cell anaemia without crisis
+      type: any
+    - code: D57.2
+      value: Double heterozygous sickling disorders
+      type: any
+    - code: D57.8
+      value: Other sickle-cell disorders
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D57.0
+      value: Sickle-cell anaemia with crisis
+      type: any
+    - code: D57.1
+      value: Sickle-cell anaemia without crisis
+      type: any
+    - code: D57.2
+      value: Double heterozygous sickling disorders
+      type: any
+    - code: D57.8
+      value: Other sickle-cell disorders
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D57.0
+      value: Sickle-cell anaemia with crisis
+      type: any
+    - code: D57.1
+      value: Sickle-cell anaemia without crisis
+      type: any
+    - code: D57.2
+      value: Double heterozygous sickling disorders
+      type: any
+    - code: D57.8
+      value: Other sickle-cell disorders
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1458.00'
+      value: History of sickle cell anaemia
+      type: prevalent
+    - code: D104211
+      value: Sickle-cell thalassaemia
+      type: any
+    - code: D106000
+      value: Sickle-cell anaemia of unspecified type
+      type: any
+    - code: D106100
+      value: Sickle-cell anaemia with no crisis
+      type: any
+    - code: D106200
+      value: Sickle-cell anaemia with crisis
+      type: any
+    - code: D106300
+      value: Sickle-cell anaemia with haemoglobin C disease
+      type: any
+    - code: D106400
+      value: Sickle-cell anaemia with haemoglobin D disease
+      type: any
+    - code: D106500
+      value: Sickle-cell anaemia with haemoglobin E disease
+      type: any
+    - code: D106.00
+      value: Sickle-cell anaemia
+      type: any
+    - code: D106z00
+      value: Sickle-cell anaemia NOS
+      type: any
+    - code: Dyu1200
+      value: '[X]Other sickle-cell disorders'
+      type: any
+    - code: F422100
+      value: Proliferative retinopathy due to sickle cell disease
+      type: any
+    - code: K0G..00
+      value: Sickle cell nephropathy
+      type: any
+    - code: X30Kx
+      value: Sickle cell nephropathy
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

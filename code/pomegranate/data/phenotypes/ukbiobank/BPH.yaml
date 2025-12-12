@@ -1,0 +1,137 @@
+metadata:
+  phenotype: Hyperplasia of prostate
+  group: Genitourinary
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: BPH
+  gender:
+  - male
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 9a8d5653-c944-46c8-af1f-1fcc4c260b29
+  ontologies:
+    DOID: DOID_11132
+    GWAS: EFO_0000284
+    MESH: D011470
+    SNOMED-CT: 266569009
+    FINNGEN: N14_PROSTHYPERPLA
+  short_desc: A disease caused by hyperplastic process of non-transformed prostatic
+    cells.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1516'
+      value: bph / benign prostatic hypertrophy
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: N40
+      value: Hyperplasia of prostate
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: N40
+      value: Hyperplasia of prostate
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N40
+      value: Hyperplasia of prostate
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N40
+      value: Hyperplasia of prostate
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14E1.00
+      value: 'H/O: prostatism'
+      type: prevalent
+    - code: 1AA..00
+      value: Prostatism
+      type: any
+    - code: K200.00
+      value: Prostatic hyperplasia unspecified
+      type: any
+    - code: K201.00
+      value: Prostatic hyperplasia of the lateral lobe
+      type: any
+    - code: K202.00
+      value: Prostatic hyperplasia of the medial lobe
+      type: any
+    - code: K20..00
+      value: Benign prostatic hypertrophy
+      type: any
+    - code: K20..14
+      value: Enlarged prostate - benign
+      type: any
+    - code: K20..15
+      value: BPH - benign prostatic hypertrophy
+      type: any
+    - code: K20..16
+      value: Prostatism
+      type: any
+    - code: K20z.00
+      value: Prostatic hyperplasia NOS
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

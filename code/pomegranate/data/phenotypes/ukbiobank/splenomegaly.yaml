@@ -1,0 +1,167 @@
+metadata:
+  phenotype: Splenomegaly
+  group: Haematological or immunological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: splenomegaly
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: d9a08ab1-bc4c-4dc1-96ac-9d22212c1d42
+  ontologies:
+    DOID: DOID_6376
+    GWAS: HP_0001744
+    MESH: D013163
+    SNOMED-CT: '16294009'
+    FINNGEN: D3_HYPERSPLENISM
+  short_desc: Enlargement of the spleen.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D73.1
+      value: Hypersplenism
+      type: any
+    - code: D73.2
+      value: Chronic congestive splenomegaly
+      type: any
+    - code: R16.1
+      value: Splenomegaly, not elsewhere classified
+      type: any
+    - code: R16.2
+      value: Hepatomegaly with splenomegaly, not elsewhere classified
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D73.1
+      value: Hypersplenism
+      type: any
+    - code: D73.2
+      value: Chronic congestive splenomegaly
+      type: any
+    - code: R16.1
+      value: Splenomegaly, not elsewhere classified
+      type: any
+    - code: R16.2
+      value: Hepatomegaly with splenomegaly, not elsewhere classified
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D73.1
+      value: Hypersplenism
+      type: any
+    - code: D73.2
+      value: Chronic congestive splenomegaly
+      type: any
+    - code: R16.1
+      value: Splenomegaly, not elsewhere classified
+      type: any
+    - code: R16.2
+      value: Hepatomegaly with splenomegaly, not elsewhere classified
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D73.1
+      value: Hypersplenism
+      type: any
+    - code: D73.2
+      value: Chronic congestive splenomegaly
+      type: any
+    - code: R16.1
+      value: Splenomegaly, not elsewhere classified
+      type: any
+    - code: R16.2
+      value: Hepatomegaly with splenomegaly, not elsewhere classified
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: D414.00
+      value: Hypersplenism
+      type: any
+    - code: D415100
+      value: Chronic congestive splenamegaly
+      type: any
+    - code: J61y200
+      value: Hepatosplenomegaly
+      type: any
+    - code: PK03.00
+      value: Congenital splenomegaly
+      type: any
+    - code: PK03.11
+      value: Hyperplasia of spleen
+      type: any
+    - code: R092000
+      value: '[D]Spleen enlargement'
+      type: any
+    - code: R092.00
+      value: '[D]Splenomegaly'
+      type: any
+    - code: R092z00
+      value: '[D]Splenomegaly NOS'
+      type: any
+    - code: XE2R3
+      value: Congenital splenomegaly
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,295 @@
+metadata:
+  phenotype: Obstructive and reflux uropathy
+  group: Genitourinary
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: obstr_reflux
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 3413765a-793e-4c3f-aad1-5d69cf32c168
+  ontologies:
+    DOID: DOID_5200
+    GWAS: null
+    MESH: D001748
+    SNOMED-CT: '7163005'
+    FINNGEN: null
+  short_desc: 'Obstructive uropathy: a structural or functional hindrance of normal
+    urine flow. Reflux uropathy: a condition in which urine regurgitates from the
+    bladder back into the ureter.'
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: N13.0
+      value: Hydronephrosis with ureteropelvic junction obstruction
+      type: any
+    - code: N13.1
+      value: Hydronephrosis with ureteral stricture, not elsewhere classified
+      type: any
+    - code: N13.2
+      value: Hydronephrosis with renal and ureteral calculous obstruction
+      type: any
+    - code: N13.3
+      value: Other and unspecified hydronephrosis
+      type: any
+    - code: N13.4
+      value: Hydroureter
+      type: any
+    - code: N13.5
+      value: Kinking and stricture of ureter without hydronephrosis
+      type: any
+    - code: N13.6
+      value: Pyonephrosis
+      type: any
+    - code: N13.7
+      value: Vesicoureteral-reflux-associated uropathy
+      type: any
+    - code: N13.8
+      value: Other obstructive and reflux uropathy
+      type: any
+    - code: N13.9
+      value: Obstructive and reflux uropathy, unspecified
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: N13.0
+      value: Hydronephrosis with ureteropelvic junction obstruction
+      type: any
+    - code: N13.1
+      value: Hydronephrosis with ureteral stricture, not elsewhere classified
+      type: any
+    - code: N13.2
+      value: Hydronephrosis with renal and ureteral calculous obstruction
+      type: any
+    - code: N13.3
+      value: Other and unspecified hydronephrosis
+      type: any
+    - code: N13.4
+      value: Hydroureter
+      type: any
+    - code: N13.5
+      value: Kinking and stricture of ureter without hydronephrosis
+      type: any
+    - code: N13.6
+      value: Pyonephrosis
+      type: any
+    - code: N13.7
+      value: Vesicoureteral-reflux-associated uropathy
+      type: any
+    - code: N13.8
+      value: Other obstructive and reflux uropathy
+      type: any
+    - code: N13.9
+      value: Obstructive and reflux uropathy, unspecified
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N13.0
+      value: Hydronephrosis with ureteropelvic junction obstruction
+      type: any
+    - code: N13.1
+      value: Hydronephrosis with ureteral stricture, not elsewhere classified
+      type: any
+    - code: N13.2
+      value: Hydronephrosis with renal and ureteral calculous obstruction
+      type: any
+    - code: N13.3
+      value: Other and unspecified hydronephrosis
+      type: any
+    - code: N13.4
+      value: Hydroureter
+      type: any
+    - code: N13.5
+      value: Kinking and stricture of ureter without hydronephrosis
+      type: any
+    - code: N13.6
+      value: Pyonephrosis
+      type: any
+    - code: N13.7
+      value: Vesicoureteral-reflux-associated uropathy
+      type: any
+    - code: N13.8
+      value: Other obstructive and reflux uropathy
+      type: any
+    - code: N13.9
+      value: Obstructive and reflux uropathy, unspecified
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N13.0
+      value: Hydronephrosis with ureteropelvic junction obstruction
+      type: any
+    - code: N13.1
+      value: Hydronephrosis with ureteral stricture, not elsewhere classified
+      type: any
+    - code: N13.2
+      value: Hydronephrosis with renal and ureteral calculous obstruction
+      type: any
+    - code: N13.3
+      value: Other and unspecified hydronephrosis
+      type: any
+    - code: N13.4
+      value: Hydroureter
+      type: any
+    - code: N13.5
+      value: Kinking and stricture of ureter without hydronephrosis
+      type: any
+    - code: N13.6
+      value: Pyonephrosis
+      type: any
+    - code: N13.7
+      value: Vesicoureteral-reflux-associated uropathy
+      type: any
+    - code: N13.8
+      value: Other obstructive and reflux uropathy
+      type: any
+    - code: N13.9
+      value: Obstructive and reflux uropathy, unspecified
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: K110.00
+      value: Hydrocalycosis
+      type: any
+    - code: K111.00
+      value: Hydroureteronephrosis
+      type: any
+    - code: K112.00
+      value: Hydronephrosis with renal and ureteral calculous obstruction
+      type: any
+    - code: K113.00
+      value: Hydronephrosis with ureteropelvic junction obstruction
+      type: any
+    - code: K113.11
+      value: Hydronephrosis with pelviureteric junction obstruction
+      type: any
+    - code: K11..00
+      value: Hydronephrosis
+      type: any
+    - code: K11X.00
+      value: Hydronephrosis with ureteral stricture NEC
+      type: any
+    - code: K11z.00
+      value: Hydronephrosis NOS
+      type: any
+    - code: K133000
+      value: Postoperative ureteric constriction
+      type: any
+    - code: K133100
+      value: Stricture of pelviureteric junction
+      type: any
+    - code: K133.00
+      value: Stricture of ureter
+      type: any
+    - code: K133z00
+      value: Stricture of ureter NOS
+      type: any
+    - code: K134000
+      value: Idiopathic retroperitoneal fibrosis
+      type: any
+    - code: K134.00
+      value: Other ureteric obstruction
+      type: any
+    - code: K134z00
+      value: Occlusion of ureter NOS
+      type: any
+    - code: K135.00
+      value: Hydroureter
+      type: any
+    - code: K137.00
+      value: Vesicoureteric reflux
+      type: any
+    - code: K137.11
+      value: Ureteric reflux
+      type: any
+    - code: K196.00
+      value: Urinary obstruction unspecified
+      type: any
+    - code: K196.11
+      value: Obstructive uropathy, unspecified
+      type: any
+    - code: Kyu1100
+      value: '[X]Other and unspecified hydronephrosis'
+      type: any
+    - code: Kyu1200
+      value: '[X]Other obstructive and reflux uropathy'
+      type: any
+    - code: Kyu1300
+      value: '[X]Obstructive and reflux uropathy, unspecified'
+      type: any
+    - code: Kyu1F00
+      value: '[X]Hydronephrosis with ureteral stricture NEC'
+      type: any
+    - code: XE0e4
+      value: Urinary obstruction unspecified
+      type: any
+    - code: XE0e4
+      value: Urinary obstruction unspecified
+      type: any
+    - code: XaCMe
+      value: Hydronephrosis with ureteropelvic junction obstruction
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

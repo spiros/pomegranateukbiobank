@@ -1,0 +1,138 @@
+metadata:
+  phenotype: Enteropathic arthropathy
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: entero_arthro
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: a958b1c8-59df-443c-a0b0-2900451057ae
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: null
+    SNOMED-CT: 9350004
+    FINNGEN: M13_ENTEROARTHR
+  short_desc: Acute or subacute arthritis in association with, or as a reaction to,
+    an enteric (usually colonic) inflammatory condition.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: M07.4
+      value: Arthropathy in Crohn's disease [regional enteritis]
+      type: any
+    - code: M07.5
+      value: Arthropathy in ulcerative colitis
+      type: any
+    - code: M07.6
+      value: Other enteropathic arthropathies
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: M07.4
+      value: Arthropathy in Crohn's disease [regional enteritis]
+      type: any
+    - code: M07.5
+      value: Arthropathy in ulcerative colitis
+      type: any
+    - code: M07.6
+      value: Other enteropathic arthropathies
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M07.4
+      value: Arthropathy in Crohn's disease [regional enteritis]
+      type: any
+    - code: M07.5
+      value: Arthropathy in ulcerative colitis
+      type: any
+    - code: M07.6
+      value: Other enteropathic arthropathies
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M07.4
+      value: Arthropathy in Crohn's disease [regional enteritis]
+      type: any
+    - code: M07.5
+      value: Arthropathy in ulcerative colitis
+      type: any
+    - code: M07.6
+      value: Other enteropathic arthropathies
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: N031000
+      value: Arthropathy in ulcerative colitis
+      type: any
+    - code: N031100
+      value: Arthropathy in Crohn's disease
+      type: any
+    - code: Nyu1400
+      value: '[X]Other enteropathic arthropathies'
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

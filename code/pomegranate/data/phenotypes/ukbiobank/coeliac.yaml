@@ -1,0 +1,180 @@
+metadata:
+  phenotype: Coeliac disease
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: coeliac
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 59726ac7-30b5-4da9-924e-adf2c515322c
+  ontologies:
+    DOID: DOID_10608
+    GWAS: EFO_0001060
+    MESH: D002446
+    SNOMED-CT: 396331005
+    FINNGEN: K11_COELIAC
+  short_desc: An autoimmune genetic disorder with an unknown pattern of inheritance
+    that primarily affects the digestive tract.
+  long_desc: null
+  priority: 2
+definitions:
+  21068:
+    metadata:
+      desc: Diagnosed with coeliac disease or gluten sensitivity
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: 'yes'
+      type: any
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1456'
+      value: malabsorption/coeliac disease
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K90.0
+      value: Coeliac disease
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K90.0
+      value: Coeliac disease
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K90.0
+      value: Coeliac disease
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K90.0
+      value: Coeliac disease
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '6648000.0'
+      value: Coeliac disease annual review
+      type: prevalent
+    - code: '6648.00'
+      value: Coeliac disease monitoring
+      type: prevalent
+    - code: 8IAp.00
+      value: Coeliac disease annual review declined
+      type: prevalent
+    - code: 9mB1.00
+      value: Coeliac disease monitoring invitation first letter
+      type: prevalent
+    - code: 9mB..00
+      value: Coeliac disease monitoring invitation
+      type: prevalent
+    - code: J690000
+      value: Congenital coeliac disease
+      type: any
+    - code: J690100
+      value: Acquired coeliac disease
+      type: any
+    - code: J690.00
+      value: Coeliac disease
+      type: any
+    - code: J690.11
+      value: Coeliac rickets
+      type: any
+    - code: J690.12
+      value: Gee - Herter disease
+      type: any
+    - code: J690.13
+      value: Gluten enteropathy
+      type: any
+    - code: J690.14
+      value: Sprue - nontropical
+      type: any
+    - code: J690.15
+      value: Steatorrhea - idiopathic
+      type: any
+    - code: J690z00
+      value: Coeliac disease NOS
+      type: any
+    - code: ZC2C200
+      value: Dietary advice for coeliac disease
+      type: any
+    - code: XaXGm
+      value: Coeliac disease annual review
+      type: prevalent
+    - code: XE0bK
+      value: Coeliac disease
+      type: any
+    - code: XE0bK
+      value: Coeliac disease
+      type: any
+    - code: XaX0T
+      value: Coeliac disease annual review declined
+      type: prevalent
+    - code: XaX1x
+      value: Coeliac disease monitoring invitation first letter
+      type: prevalent
+    - code: XaX0R
+      value: Coeliac disease monitoring invitation
+      type: prevalent
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

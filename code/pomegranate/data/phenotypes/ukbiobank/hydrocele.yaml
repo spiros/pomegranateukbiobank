@@ -1,0 +1,229 @@
+metadata:
+  phenotype: Hydrocoele (incl infected)
+  group: Genitourinary
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: hydrocele
+  gender:
+  - male
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 08bc2140-29d7-4630-92a3-8f3f63faa031
+  ontologies:
+    DOID: DOID_9912
+    GWAS: null
+    MESH: D006848
+    SNOMED-CT: 386152007
+    FINNGEN: N14_HYDROCELE
+  short_desc: Accumulation of serous fluid in a body cavity.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: N43.0
+      value: Encysted hydrocele
+      type: any
+    - code: N43.1
+      value: Infected hydrocele
+      type: any
+    - code: N43.2
+      value: Other hydrocele
+      type: any
+    - code: N43.3
+      value: Hydrocele, unspecified
+      type: any
+    - code: P83.5
+      value: Congenital hydrocele
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: N43.0
+      value: Encysted hydrocele
+      type: any
+    - code: N43.1
+      value: Infected hydrocele
+      type: any
+    - code: N43.2
+      value: Other hydrocele
+      type: any
+    - code: N43.3
+      value: Hydrocele, unspecified
+      type: any
+    - code: P83.5
+      value: Congenital hydrocele
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N43.0
+      value: Encysted hydrocele
+      type: any
+    - code: N43.1
+      value: Infected hydrocele
+      type: any
+    - code: N43.2
+      value: Other hydrocele
+      type: any
+    - code: N43.3
+      value: Hydrocele, unspecified
+      type: any
+    - code: P83.5
+      value: Congenital hydrocele
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N43.0
+      value: Encysted hydrocele
+      type: any
+    - code: N43.1
+      value: Infected hydrocele
+      type: any
+    - code: N43.2
+      value: Other hydrocele
+      type: any
+    - code: N43.3
+      value: Hydrocele, unspecified
+      type: any
+    - code: P83.5
+      value: Congenital hydrocele
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 7C08000
+      value: Excision of hydrocele sac
+      type: any
+    - code: 7C08100
+      value: Injection sclerotherapy of hydrocele
+      type: any
+    - code: 7C08200
+      value: Drainage of hydrocele
+      type: any
+    - code: 7C08300
+      value: Jaboulay's eversion of hydrocele
+      type: any
+    - code: 7C08311
+      value: Eversion of hydrocele
+      type: any
+    - code: 7C08400
+      value: Lord's plication of hydrocele
+      type: any
+    - code: 7C08500
+      value: Diagnostic aspiration of hydrocele
+      type: any
+    - code: 7C08600
+      value: Correction of hydrocele of infancy
+      type: any
+    - code: 7C08700
+      value: Other aspiration of hydrocele
+      type: any
+    - code: 7C08711
+      value: Other aspiration of hydrocele sac
+      type: any
+    - code: 7C08712
+      value: Tapping of hydrocele NEC
+      type: any
+    - code: 7C08.00
+      value: Excision of hydrocele
+      type: any
+    - code: 7C08.11
+      value: Operations on hydrocoele
+      type: any
+    - code: 7C08.12
+      value: Operations on hydrocoele sac
+      type: any
+    - code: 7C08.13
+      value: Operations on hydrocele
+      type: any
+    - code: 7C08y00
+      value: Other specified operation on hydrocele
+      type: any
+    - code: 7C08z00
+      value: Operation on hydrocele NOS
+      type: any
+    - code: K230.00
+      value: Encysted hydrocele
+      type: any
+    - code: K231.00
+      value: Infected hydrocele
+      type: any
+    - code: K23..00
+      value: Hydrocele
+      type: any
+    - code: K23y.00
+      value: Other types of hydrocele
+      type: any
+    - code: K23z.00
+      value: Hydrocele NOS
+      type: any
+    - code: Kyu6200
+      value: '[X]Other hydrocele'
+      type: any
+    - code: Q476.00
+      value: Congenital hydrocele
+      type: any
+    - code: XE2R7
+      value: Congenital hydrocele
+      type: any
+    - code: XE0Gq
+      value: Excision of hydrocele
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,327 @@
+metadata:
+  phenotype: Infection of bones and joints
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: bone
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 3181fd9c-fdd9-4024-9013-f5f3c6337a35
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: D001850
+    SNOMED-CT: '312154004'
+    FINNGEN: null
+  short_desc: Infection of bones and joints
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1308'
+      value: osteomyelitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: A18.0
+      value: Tuberculosis of bones and joints
+      type: any
+    - code: A54.4
+      value: Gonococcal infection of musculoskeletal system
+      type: any
+    - code: B45.3
+      value: Osseous cryptococcosis
+      type: any
+    - code: B67.2
+      value: Echinococcus granulosus infection of bone
+      type: any
+    - code: B90.2
+      value: Sequelae of tuberculosis of bones and joints
+      type: any
+    - code: M00
+      value: Pyogenic arthritis
+      type: any
+    - code: M01
+      value: Direct infections of joint in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: M46.2
+      value: Osteomyelitis of vertebra
+      type: any
+    - code: M46.3
+      value: Infection of intervertebral disc (pyogenic)
+      type: any
+    - code: M46.4
+      value: Discitis, unspecified
+      type: any
+    - code: M46.5
+      value: Other infective spondylopathies
+      type: any
+    - code: M49.0
+      value: Tuberculosis of spine
+      type: any
+    - code: M49.1
+      value: Brucella spondylitis
+      type: any
+    - code: M49.2
+      value: Enterobacterial spondylitis
+      type: any
+    - code: M49.3
+      value: Spondylopathy in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: M86
+      value: Osteomyelitis
+      type: any
+    - code: M90.0
+      value: Tuberculosis of bone
+      type: any
+    - code: M90.1
+      value: Periostitis in other infectious diseases classified elsewhere
+      type: any
+    - code: M90.2
+      value: Osteopathy in other infectious diseases classified elsewhere
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: A18.0
+      value: Tuberculosis of bones and joints
+      type: any
+    - code: A54.4
+      value: Gonococcal infection of musculoskeletal system
+      type: any
+    - code: B45.3
+      value: Osseous cryptococcosis
+      type: any
+    - code: B67.2
+      value: Echinococcus granulosus infection of bone
+      type: any
+    - code: B90.2
+      value: Sequelae of tuberculosis of bones and joints
+      type: any
+    - code: M00
+      value: Pyogenic arthritis
+      type: any
+    - code: M01
+      value: Direct infections of joint in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: M46.2
+      value: Osteomyelitis of vertebra
+      type: any
+    - code: M46.3
+      value: Infection of intervertebral disc (pyogenic)
+      type: any
+    - code: M46.4
+      value: Discitis, unspecified
+      type: any
+    - code: M46.5
+      value: Other infective spondylopathies
+      type: any
+    - code: M49.0
+      value: Tuberculosis of spine
+      type: any
+    - code: M49.1
+      value: Brucella spondylitis
+      type: any
+    - code: M49.2
+      value: Enterobacterial spondylitis
+      type: any
+    - code: M49.3
+      value: Spondylopathy in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: M86
+      value: Osteomyelitis
+      type: any
+    - code: M90.0
+      value: Tuberculosis of bone
+      type: any
+    - code: M90.1
+      value: Periostitis in other infectious diseases classified elsewhere
+      type: any
+    - code: M90.2
+      value: Osteopathy in other infectious diseases classified elsewhere
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A18.0
+      value: Tuberculosis of bones and joints
+      type: any
+    - code: A54.4
+      value: Gonococcal infection of musculoskeletal system
+      type: any
+    - code: B45.3
+      value: Osseous cryptococcosis
+      type: any
+    - code: B67.2
+      value: Echinococcus granulosus infection of bone
+      type: any
+    - code: B90.2
+      value: Sequelae of tuberculosis of bones and joints
+      type: any
+    - code: M00
+      value: Pyogenic arthritis
+      type: any
+    - code: M01
+      value: Direct infections of joint in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: M46.2
+      value: Osteomyelitis of vertebra
+      type: any
+    - code: M46.3
+      value: Infection of intervertebral disc (pyogenic)
+      type: any
+    - code: M46.4
+      value: Discitis, unspecified
+      type: any
+    - code: M46.5
+      value: Other infective spondylopathies
+      type: any
+    - code: M49.0
+      value: Tuberculosis of spine
+      type: any
+    - code: M49.1
+      value: Brucella spondylitis
+      type: any
+    - code: M49.2
+      value: Enterobacterial spondylitis
+      type: any
+    - code: M49.3
+      value: Spondylopathy in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: M86
+      value: Osteomyelitis
+      type: any
+    - code: M90.0
+      value: Tuberculosis of bone
+      type: any
+    - code: M90.1
+      value: Periostitis in other infectious diseases classified elsewhere
+      type: any
+    - code: M90.2
+      value: Osteopathy in other infectious diseases classified elsewhere
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A18.0
+      value: Tuberculosis of bones and joints
+      type: any
+    - code: A54.4
+      value: Gonococcal infection of musculoskeletal system
+      type: any
+    - code: B45.3
+      value: Osseous cryptococcosis
+      type: any
+    - code: B67.2
+      value: Echinococcus granulosus infection of bone
+      type: any
+    - code: B90.2
+      value: Sequelae of tuberculosis of bones and joints
+      type: any
+    - code: M00
+      value: Pyogenic arthritis
+      type: any
+    - code: M01
+      value: Direct infections of joint in infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: M46.2
+      value: Osteomyelitis of vertebra
+      type: any
+    - code: M46.3
+      value: Infection of intervertebral disc (pyogenic)
+      type: any
+    - code: M46.4
+      value: Discitis, unspecified
+      type: any
+    - code: M46.5
+      value: Other infective spondylopathies
+      type: any
+    - code: M49.0
+      value: Tuberculosis of spine
+      type: any
+    - code: M49.1
+      value: Brucella spondylitis
+      type: any
+    - code: M49.2
+      value: Enterobacterial spondylitis
+      type: any
+    - code: M49.3
+      value: Spondylopathy in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: M86
+      value: Osteomyelitis
+      type: any
+    - code: M90.0
+      value: Tuberculosis of bone
+      type: any
+    - code: M90.1
+      value: Periostitis in other infectious diseases classified elsewhere
+      type: any
+    - code: M90.2
+      value: Osteopathy in other infectious diseases classified elsewhere
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,151 @@
+metadata:
+  phenotype: Fatty Liver
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: fatty_liver
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 8053b4c5-e315-40b2-a54c-9c6d1f14defe
+  priority: 1
+  ontologies:
+    DOID: DOID_12351
+    GWAS: EFO_1001345
+    MESH: D008108
+    SNOMED-CT: 197321007
+    FINNGEN: ALCOLIVER
+  short_desc: Lipid infiltration of the hepatic parenchymal cells that is due to alcohol
+    abuse. The fatty changes in the alcoholic fatty liver may be reversible, depending
+    on the amounts of triglycerides accumulated.
+  long_desc: null
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K70.0
+      value: Alcoholic fatty liver
+      type: any
+    - code: K75.8
+      value: Other specified inflammatory liver diseases
+      type: any
+    - code: K76.0
+      value: Fatty (change of) liver, not elsewhere classified
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K70.0
+      value: Alcoholic fatty liver
+      type: any
+    - code: K75.8
+      value: Other specified inflammatory liver diseases
+      type: any
+    - code: K76.0
+      value: Fatty (change of) liver, not elsewhere classified
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K70.0
+      value: Alcoholic fatty liver
+      type: any
+    - code: K75.8
+      value: Other specified inflammatory liver diseases
+      type: any
+    - code: K76.0
+      value: Fatty (change of) liver, not elsewhere classified
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K70.0
+      value: Alcoholic fatty liver
+      type: any
+    - code: K75.8
+      value: Other specified inflammatory liver diseases
+      type: any
+    - code: K76.0
+      value: Fatty (change of) liver, not elsewhere classified
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: J610.00
+      value: Alcoholic fatty liver
+      type: any
+    - code: J61y700
+      value: Steatosis of liver
+      type: any
+    - code: J61y800
+      value: Nonalcoholic steatohepatitis
+      type: any
+    - code: J61y900
+      value: Fatty change of liver
+      type: any
+    - code: J61y911
+      value: Fatty liver
+      type: any
+    - code: XaQIT
+      value: Nonalcoholic steatohepatitis
+      type: any
+    - code: X307v
+      value: Fatty change of liver
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,423 @@
+metadata:
+  phenotype: Spina bifida
+  group: Perinatal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: spina_bifida
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 7625bd9e-34e7-4fe5-a88c-53004e6c3afb
+  ontologies:
+    DOID: DOID_0080016
+    GWAS: null
+    MESH: D016135
+    SNOMED-CT: 67531005
+    FINNGEN: Q17_SPINA_BIFIDA
+  short_desc: A congenital neural tube defect in which vertebrae are not fully formed.
+    It results in the protrusion of the spinal cord through the opening of the vertebrae.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1524'
+      value: spina bifida
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: Q05
+      value: Spina bifida
+      type: any
+    - code: Q76.0
+      value: Spina bifida occulta
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: Q05
+      value: Spina bifida
+      type: any
+    - code: Q76.0
+      value: Spina bifida occulta
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: A49
+      value: Repair of spina bifida
+      type: any
+    - code: A49.1
+      value: Freeing of spinal tether NEC
+      type: any
+    - code: A49.2
+      value: Closure of spinal myelomeningocele
+      type: any
+    - code: A49.3
+      value: Closure of spinal meningocele
+      type: any
+    - code: A49.4
+      value: Complex freeing of spinal tether
+      type: any
+    - code: A49.8
+      value: Other specified repair of spina bifida
+      type: any
+    - code: A49.9
+      value: Unspecified repair of spina bifida
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: A49
+      value: A49
+      type: any
+    - code: A49.1
+      value: A49.1
+      type: any
+    - code: A49.2
+      value: A49.2
+      type: any
+    - code: A49.3
+      value: A49.3
+      type: any
+    - code: A49.4
+      value: A49.4
+      type: any
+    - code: A49.8
+      value: A49.8
+      type: any
+    - code: A49.9
+      value: A49.9
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: Q05
+      value: Spina bifida
+      type: any
+    - code: Q76.0
+      value: Spina bifida occulta
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: Q05
+      value: Spina bifida
+      type: any
+    - code: Q76.0
+      value: Spina bifida occulta
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '7010111.0'
+      value: Insertion of Halber valve for spina bifida
+      type: any
+    - code: '7043100.0'
+      value: Closure of spinal myelomeningocele
+      type: any
+    - code: '7043200.0'
+      value: Closure of spinal meningocele
+      type: any
+    - code: '7043.00'
+      value: Repair of spina bifida
+      type: any
+    - code: 7043y00
+      value: Other specified repair of spina bifida
+      type: any
+    - code: 7043z00
+      value: Repair of spina bifida NOS
+      type: any
+    - code: P100000
+      value: Spina bifida with hydrocephalus, unspecified
+      type: any
+    - code: P100100
+      value: Cervical spina bifida with hydrocephalus
+      type: any
+    - code: P100200
+      value: Thoracic spina bifida with hydrocephalus
+      type: any
+    - code: P100300
+      value: Lumbar spina bifida with hydrocephalus
+      type: any
+    - code: P100.00
+      value: Unspecified spina bifida with hydrocephalus
+      type: any
+    - code: P100z00
+      value: Spina bifida with hydrocephalus NOS
+      type: any
+    - code: P101.11
+      value: Closed spina bifida with Arnold-Chiari malformation
+      type: any
+    - code: P102200
+      value: Thoracic spina bifida with hydrocephalus - open
+      type: any
+    - code: P102300
+      value: Lumbar spina bifida with hydrocephalus - open
+      type: any
+    - code: P102400
+      value: Sacral spina bifida with hydrocephalus - open
+      type: any
+    - code: P102.00
+      value: Spina bifida with hydrocephalus - open
+      type: any
+    - code: P102.11
+      value: Fissured spine with hydrocephalus
+      type: any
+    - code: P102.13
+      value: Myelocele with hydrocephalus
+      type: any
+    - code: P102.14
+      value: Rachischisis with hydrocephalus
+      type: any
+    - code: P102z00
+      value: Spina bifida with hydrocephalus - open NOS
+      type: any
+    - code: P103300
+      value: Lumbar spina bifida with hydrocephalus - closed
+      type: any
+    - code: P103400
+      value: Sacral spina bifida with hydrocephalus - closed
+      type: any
+    - code: P103.00
+      value: Spina bifida with hydrocephalus - closed
+      type: any
+    - code: P103z11
+      value: Thoracolumbar spina bifida with hydrocephalus - closed
+      type: any
+    - code: P104.00
+      value: Spina bifida with hydrocephalus of late onset
+      type: any
+    - code: P105.00
+      value: Spina bifida with stenosis of aqueduct of Sylvius
+      type: any
+    - code: P10..00
+      value: Spina bifida with hydrocephalus
+      type: any
+    - code: P10y000
+      value: Dandy - Walker syndrome with spina bifida
+      type: any
+    - code: P10y.00
+      value: Other specified spina bifida with hydrocephalus
+      type: any
+    - code: P10z.00
+      value: Spina bifida with hydrocephalus NOS
+      type: any
+    - code: P110000
+      value: Spina bifida without hydrocephalus, site unspecified
+      type: any
+    - code: P110100
+      value: Cervical spina bifida without mention of hydrocephalus
+      type: any
+    - code: P110200
+      value: Thoracic spina bifida without mention of hydrocephalus
+      type: any
+    - code: P110300
+      value: Lumbar spina bifida without mention of hydrocephalus
+      type: any
+    - code: P110z00
+      value: Unspecified spina bifida without hydrocephalus NOS
+      type: any
+    - code: P111.00
+      value: Spinal hydromeningocele
+      type: any
+    - code: P112.00
+      value: Hydromyelocele
+      type: any
+    - code: P113000
+      value: Spinal meningocele of unspecified site
+      type: any
+    - code: P113100
+      value: Cervical spinal meningocele
+      type: any
+    - code: P113200
+      value: Thoracic spinal meningocele
+      type: any
+    - code: P113300
+      value: Lumbar spinal meningocele
+      type: any
+    - code: P113.00
+      value: Spinal meningocele
+      type: any
+    - code: P113z00
+      value: Spinal meningocele NOS
+      type: any
+    - code: P114000
+      value: Meningomyelocele of unspecified site
+      type: any
+    - code: P114100
+      value: Cervical meningomyelocele
+      type: any
+    - code: P114200
+      value: Thoracic meningomyelocele
+      type: any
+    - code: P114300
+      value: Lumbar meningomyelocele
+      type: any
+    - code: P114.00
+      value: Meningomyelocele
+      type: any
+    - code: P114z00
+      value: Meningomyelocele NOS
+      type: any
+    - code: P115100
+      value: Cervical myelocele
+      type: any
+    - code: P115300
+      value: Lumbar myelocele
+      type: any
+    - code: P115.00
+      value: Myelocele
+      type: any
+    - code: P115z00
+      value: Myelocele NOS
+      type: any
+    - code: P116100
+      value: Cervical myelocystocele
+      type: any
+    - code: P116300
+      value: Lumbar myelocystocele
+      type: any
+    - code: P116.00
+      value: Myelocystocele
+      type: any
+    - code: P116z00
+      value: Myelocystocele NOS
+      type: any
+    - code: P117200
+      value: Thoracic spina bifida without hydrocephalus - open
+      type: any
+    - code: P117300
+      value: Lumbar spina bifida without hydrocephalus - open
+      type: any
+    - code: P117400
+      value: Sacral spina bifida without hydrocephalus - open
+      type: any
+    - code: P117.00
+      value: Spina bifida without hydrocephalus - open
+      type: any
+    - code: P117.11
+      value: Fissured spine
+      type: any
+    - code: P117.12
+      value: Rachischisis
+      type: any
+    - code: P117z00
+      value: Spina bifida without hydrocephalus - open NOS
+      type: any
+    - code: P118000
+      value: Unspecified spina bifida without hydrocephalus - closed
+      type: any
+    - code: P118100
+      value: Cervical spina bifida without hydrocephalus - closed
+      type: any
+    - code: P118300
+      value: Lumbar spina bifida without hydrocephalus - closed
+      type: any
+    - code: P118400
+      value: Sacral spina bifida without hydrocephalus - closed
+      type: any
+    - code: P118.00
+      value: Spina bifida without hydrocephalus - closed
+      type: any
+    - code: P118z00
+      value: Spina bifida without hydrocephalus - closed NOS
+      type: any
+    - code: P11..00
+      value: Spina bifida without mention of hydrocephalus
+      type: any
+    - code: P11y.00
+      value: Other specified spina bifida without hydrocephalus
+      type: any
+    - code: P11y.11
+      value: Syringomyelocele
+      type: any
+    - code: P11z.00
+      value: Spina bifida without mention of hydrocephalus NOS
+      type: any
+    - code: P1...00
+      value: Spina bifida
+      type: any
+    - code: P1z..00
+      value: Spina bifida NOS
+      type: any
+    - code: PG17.00
+      value: Spina bifida occulta
+      type: any
+    - code: Pyu0400
+      value: '[X]Unspecified spina bifida with hydrocephalus'
+      type: any
+    - code: P10z.
+      value: Spina bifida with hydrocephalus NOS
+      type: any
+    - code: XE1Jc
+      value: Spina bifida with hydrocephalus - closed NOS
+      type: any
+    - code: XE1Jb
+      value: Spina bifida with hydrocephalus - open
+      type: any
+    - code: XE1Jh
+      value: Spina bifida without mention of hydrocephalus NOS
+      type: any
+    - code: XE1Je
+      value: Spina bifida without hydrocephalus - open
+      type: any
+    - code: XE1Jg
+      value: Other specified spina bifida without hydrocephalus
+      type: any
+    - code: XE1Jf
+      value: Spina bifida without hydrocephalus - closed NOS
+      type: any
+    - code: XE1JZ
+      value: Spina bifida with hydrocephalus
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

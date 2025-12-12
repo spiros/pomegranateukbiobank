@@ -1,0 +1,243 @@
+metadata:
+  phenotype: Gout
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: gout
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 64939524-76c4-454c-86c6-d1a47d4957a3
+  ontologies:
+    DOID: DOID_13189
+    GWAS: EFO_0004274
+    MESH: D006073
+    SNOMED-CT: 90560007
+    FINNGEN: M13_GOUT
+  short_desc: A condition characterized by painful swelling of the joints, which is
+    caused by deposition of urate crystals.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1466'
+      value: gout
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: M10
+      value: Gout
+      type: any
+    - code: M14.0
+      value: Gouty arthropathy due to enzyme defects and other inherited disorders
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: M10
+      value: Gout
+      type: any
+    - code: M14.0
+      value: Gouty arthropathy due to enzyme defects and other inherited disorders
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M10
+      value: Gout
+      type: any
+    - code: M14.0
+      value: Gouty arthropathy due to enzyme defects and other inherited disorders
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M10
+      value: Gout
+      type: any
+    - code: M14.0
+      value: Gouty arthropathy due to enzyme defects and other inherited disorders
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1443.00'
+      value: 'H/O: gout'
+      type: prevalent
+    - code: 2D52.00
+      value: O/E - auricle of ear - tophi
+      type: any
+    - code: '6691.00'
+      value: Initial gout assessment
+      type: any
+    - code: '6692.00'
+      value: Follow-up gout assessment
+      type: prevalent
+    - code: '6693.00'
+      value: Joints gout affected
+      type: any
+    - code: '6695.00'
+      value: Date gout treatment started
+      type: any
+    - code: '6696.00'
+      value: Date of last gout attack
+      type: any
+    - code: 669..00
+      value: Gout monitoring
+      type: prevalent
+    - code: '6697.00'
+      value: Gout associated problems
+      type: any
+    - code: 669Z.00
+      value: Gout monitoring NOS
+      type: prevalent
+    - code: C340.00
+      value: Gouty arthropathy
+      type: any
+    - code: C341.00
+      value: Gouty nephropathy
+      type: any
+    - code: C341z00
+      value: Gouty nephropathy NOS
+      type: any
+    - code: C342.00
+      value: Idiopathic gout
+      type: any
+    - code: C344.00
+      value: Drug-induced gout
+      type: any
+    - code: C345.00
+      value: Gout due to impairment of renal function
+      type: any
+    - code: C34..00
+      value: Gout
+      type: any
+    - code: C34y000
+      value: Gouty tophi of ear
+      type: any
+    - code: C34y100
+      value: Gouty tophi of heart
+      type: any
+    - code: C34y200
+      value: Gouty tophi of other sites
+      type: any
+    - code: C34y300
+      value: Gouty iritis
+      type: any
+    - code: C34y400
+      value: Gouty neuritis
+      type: any
+    - code: C34y500
+      value: Gouty tophi of hand
+      type: any
+    - code: C34y.00
+      value: Other specified gouty manifestation
+      type: any
+    - code: C34yz00
+      value: Other specified gouty manifestation NOS
+      type: any
+    - code: C34z.00
+      value: Gout NOS
+      type: any
+    - code: G557300
+      value: Gouty tophi of heart
+      type: any
+    - code: N023100
+      value: Gouty arthritis of the shoulder region
+      type: any
+    - code: N023200
+      value: Gouty arthritis of the upper arm
+      type: any
+    - code: N023300
+      value: Gouty arthritis of the forearm
+      type: any
+    - code: N023400
+      value: Gouty arthritis of the hand
+      type: any
+    - code: N023600
+      value: Gouty arthritis of the lower leg
+      type: any
+    - code: N023700
+      value: Gouty arthritis of the ankle and foot
+      type: any
+    - code: N023800
+      value: Gouty arthritis of toe
+      type: any
+    - code: N023.00
+      value: Gouty arthritis
+      type: any
+    - code: N023x00
+      value: Gouty arthritis of multiple sites
+      type: any
+    - code: N023y00
+      value: Gouty arthritis of other specified site
+      type: any
+    - code: N023z00
+      value: Gouty arthritis NOS
+      type: any
+    - code: Nyu1700
+      value: '[X]Other secondary gout'
+      type: any
+    - code: C34y1
+      value: Gouty tophi of heart
+      type: any
+    - code: XaNXG
+      value: Gouty arthritis of toe
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

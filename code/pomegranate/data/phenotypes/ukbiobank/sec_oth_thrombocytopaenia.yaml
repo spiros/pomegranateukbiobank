@@ -1,0 +1,192 @@
+metadata:
+  phenotype: Secondary or other Thrombocytopaenia
+  group: Haematological or immunological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: sec_oth_thrombocytopaenia
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: bbfc7cfe-e235-4da7-94b3-b0dfcc70cde7
+  ontologies:
+    DOID: DOID_11126
+    GWAS: null
+    MESH: null
+    SNOMED-CT: '154826009'
+    FINNGEN: D3_SCNDTHROMBOCYTOPENIA
+  short_desc: Excess platelets in the bloodstream that develops as a result of another
+    disorder and rarely leads to excessive blood clotting or bleeding
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D69.5
+      value: Secondary thrombocytopenia
+      type: any
+    - code: D69.6
+      value: Thrombocytopenia, unspecified
+      type: any
+    - code: D82.0
+      value: Wiskott-Aldrich syndrome
+      type: any
+    - code: M31.1
+      value: Thrombotic microangiopathy
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D69.5
+      value: Secondary thrombocytopenia
+      type: any
+    - code: D69.6
+      value: Thrombocytopenia, unspecified
+      type: any
+    - code: D82.0
+      value: Wiskott-Aldrich syndrome
+      type: any
+    - code: M31.1
+      value: Thrombotic microangiopathy
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D69.5
+      value: Secondary thrombocytopenia
+      type: any
+    - code: D69.6
+      value: Thrombocytopenia, unspecified
+      type: any
+    - code: D82.0
+      value: Wiskott-Aldrich syndrome
+      type: any
+    - code: M31.1
+      value: Thrombotic microangiopathy
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D69.5
+      value: Secondary thrombocytopenia
+      type: any
+    - code: D69.6
+      value: Thrombocytopenia, unspecified
+      type: any
+    - code: D82.0
+      value: Wiskott-Aldrich syndrome
+      type: any
+    - code: M31.1
+      value: Thrombotic microangiopathy
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 42P2.00
+      value: Thrombocytopenia
+      type: any
+    - code: 42P8.00
+      value: Heparin induced thrombocytopenia screening test
+      type: any
+    - code: C391200
+      value: Wiskott - Aldrich syndrome
+      type: any
+    - code: C391211
+      value: Thrombocytopenic eczema with immunodeficiency
+      type: any
+    - code: D314100
+      value: Thrombocytopenia due to drugs
+      type: any
+    - code: D314200
+      value: Thrombocytopenia due to extracorporeal circulation of blood
+      type: any
+    - code: D314300
+      value: Heparin-induced thrombocytopenia
+      type: any
+    - code: D314.00
+      value: Secondary thrombocytopenia
+      type: any
+    - code: D314y00
+      value: Other specified secondary thrombocytopenia
+      type: any
+    - code: D314z00
+      value: Secondary thrombocytopenia NOS
+      type: any
+    - code: D315.00
+      value: Thrombocytopenia NOS
+      type: any
+    - code: G756100
+      value: Thrombotic thrombocytopenic purpura
+      type: any
+    - code: XE149
+      value: Secondary thrombocytopenia NOS
+      type: any
+    - code: Xa36j
+      value: Heparin-induced thrombocytopenia
+      type: any
+    - code: G756.
+      value: Thrombotic thrombocytopenic purpura
+      type: any
+    - code: XaJJu
+      value: Heparin induced thrombocytopenia screening test
+      type: any
+    - code: XE24o
+      value: Thrombocytopenia
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

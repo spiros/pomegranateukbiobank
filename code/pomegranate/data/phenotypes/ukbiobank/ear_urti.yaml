@@ -1,0 +1,540 @@
+metadata:
+  phenotype: Ear and Upper Respiratory Tract Infections
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: ear_urti
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 1a9faafe-8dbc-4264-9214-1bbd74a64fc9
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: null
+    SNOMED-CT: '54150009'
+    FINNGEN: J10_ACUTEUPPERINFEC
+  short_desc: Ear and Upper Respiratory Tract Infections
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1574'
+      value: diphtheria
+      type: any
+    - code: '1567'
+      value: infectious mononucleosis / glandular fever / epstein barr virus (ebv)
+      type: any
+    - code: '1418'
+      value: chronic laryngitis
+      type: any
+    - code: '1598'
+      value: tonsiltis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: A18.6
+      value: Tuberculosis of ear
+      type: any
+    - code: A36.0
+      value: Pharyngeal diphtheria
+      type: any
+    - code: A36.1
+      value: Nasopharyngeal diphtheria
+      type: any
+    - code: A36.2
+      value: Laryngeal diphtheria
+      type: any
+    - code: A54.5
+      value: Gonococcal pharyngitis
+      type: any
+    - code: A56.4
+      value: Chlamydial infection of pharynx
+      type: any
+    - code: B05.3
+      value: Measles complicated by otitis media
+      type: any
+    - code: B27
+      value: Infectious mononucleosis
+      type: any
+    - code: B44.2
+      value: Tonsillar aspergillosis
+      type: any
+    - code: B87.3
+      value: Nasopharyngeal myiasis
+      type: any
+    - code: B87.4
+      value: Aural myiasis
+      type: any
+    - code: H60
+      value: Otitis externa
+      type: any
+    - code: H62.0
+      value: Otitis externa in bacterial diseases classified elsewhere
+      type: any
+    - code: H62.1
+      value: Otitis externa in viral diseases classified elsewhere
+      type: any
+    - code: H62.2
+      value: Otitis externa in mycoses
+      type: any
+    - code: H62.3
+      value: Otitis externa in other infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: H62.4
+      value: Otitis externa in other diseases classified elsewhere
+      type: any
+    - code: H65
+      value: Nonsuppurative otitis media
+      type: any
+    - code: H66
+      value: Suppurative and unspecified otitis media
+      type: any
+    - code: H67
+      value: Otitis media in diseases classified elsewhere
+      type: any
+    - code: H70
+      value: Mastoiditis and related conditions
+      type: any
+    - code: H73.0
+      value: Acute myringitis
+      type: any
+    - code: H73.1
+      value: Chronic myringitis
+      type: any
+    - code: H75.0
+      value: Mastoiditis in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: J00
+      value: Acute nasopharyngitis [common cold]
+      type: any
+    - code: J01
+      value: Acute sinusitis
+      type: any
+    - code: J02
+      value: Acute pharyngitis
+      type: any
+    - code: J03
+      value: Acute tonsillitis
+      type: any
+    - code: J04
+      value: Acute laryngitis and tracheitis
+      type: any
+    - code: J05
+      value: Acute obstructive laryngitis [croup] and epiglottitis
+      type: any
+    - code: J06
+      value: Acute upper respiratory infections of multiple and unspecified sites
+      type: any
+    - code: J34.0
+      value: Abscess, furuncle and carbuncle of nose
+      type: any
+    - code: J36
+      value: Peritonsillar abscess
+      type: any
+    - code: J37
+      value: Chronic laryngitis and laryngotracheitis
+      type: any
+    - code: J39.0
+      value: Retropharyngeal and parapharyngeal abscess
+      type: any
+    - code: J39.1
+      value: Other abscess of pharynx
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: A18.6
+      value: Tuberculosis of ear
+      type: any
+    - code: A36.0
+      value: Pharyngeal diphtheria
+      type: any
+    - code: A36.1
+      value: Nasopharyngeal diphtheria
+      type: any
+    - code: A36.2
+      value: Laryngeal diphtheria
+      type: any
+    - code: A54.5
+      value: Gonococcal pharyngitis
+      type: any
+    - code: A56.4
+      value: Chlamydial infection of pharynx
+      type: any
+    - code: B05.3
+      value: Measles complicated by otitis media
+      type: any
+    - code: B27
+      value: Infectious mononucleosis
+      type: any
+    - code: B44.2
+      value: Tonsillar aspergillosis
+      type: any
+    - code: B87.3
+      value: Nasopharyngeal myiasis
+      type: any
+    - code: B87.4
+      value: Aural myiasis
+      type: any
+    - code: H60
+      value: Otitis externa
+      type: any
+    - code: H62.0
+      value: Otitis externa in bacterial diseases classified elsewhere
+      type: any
+    - code: H62.1
+      value: Otitis externa in viral diseases classified elsewhere
+      type: any
+    - code: H62.2
+      value: Otitis externa in mycoses
+      type: any
+    - code: H62.3
+      value: Otitis externa in other infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: H62.4
+      value: Otitis externa in other diseases classified elsewhere
+      type: any
+    - code: H65
+      value: Nonsuppurative otitis media
+      type: any
+    - code: H66
+      value: Suppurative and unspecified otitis media
+      type: any
+    - code: H67
+      value: Otitis media in diseases classified elsewhere
+      type: any
+    - code: H70
+      value: Mastoiditis and related conditions
+      type: any
+    - code: H73.0
+      value: Acute myringitis
+      type: any
+    - code: H73.1
+      value: Chronic myringitis
+      type: any
+    - code: H75.0
+      value: Mastoiditis in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: J00
+      value: Acute nasopharyngitis [common cold]
+      type: any
+    - code: J01
+      value: Acute sinusitis
+      type: any
+    - code: J02
+      value: Acute pharyngitis
+      type: any
+    - code: J03
+      value: Acute tonsillitis
+      type: any
+    - code: J04
+      value: Acute laryngitis and tracheitis
+      type: any
+    - code: J05
+      value: Acute obstructive laryngitis [croup] and epiglottitis
+      type: any
+    - code: J06
+      value: Acute upper respiratory infections of multiple and unspecified sites
+      type: any
+    - code: J34.0
+      value: Abscess, furuncle and carbuncle of nose
+      type: any
+    - code: J36
+      value: Peritonsillar abscess
+      type: any
+    - code: J37
+      value: Chronic laryngitis and laryngotracheitis
+      type: any
+    - code: J39.0
+      value: Retropharyngeal and parapharyngeal abscess
+      type: any
+    - code: J39.1
+      value: Other abscess of pharynx
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A18.6
+      value: Tuberculosis of ear
+      type: any
+    - code: A36.0
+      value: Pharyngeal diphtheria
+      type: any
+    - code: A36.1
+      value: Nasopharyngeal diphtheria
+      type: any
+    - code: A36.2
+      value: Laryngeal diphtheria
+      type: any
+    - code: A54.5
+      value: Gonococcal pharyngitis
+      type: any
+    - code: A56.4
+      value: Chlamydial infection of pharynx
+      type: any
+    - code: B05.3
+      value: Measles complicated by otitis media
+      type: any
+    - code: B27
+      value: Infectious mononucleosis
+      type: any
+    - code: B44.2
+      value: Tonsillar aspergillosis
+      type: any
+    - code: B87.3
+      value: Nasopharyngeal myiasis
+      type: any
+    - code: B87.4
+      value: Aural myiasis
+      type: any
+    - code: H60
+      value: Otitis externa
+      type: any
+    - code: H62.0
+      value: Otitis externa in bacterial diseases classified elsewhere
+      type: any
+    - code: H62.1
+      value: Otitis externa in viral diseases classified elsewhere
+      type: any
+    - code: H62.2
+      value: Otitis externa in mycoses
+      type: any
+    - code: H62.3
+      value: Otitis externa in other infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: H62.4
+      value: Otitis externa in other diseases classified elsewhere
+      type: any
+    - code: H65
+      value: Nonsuppurative otitis media
+      type: any
+    - code: H66
+      value: Suppurative and unspecified otitis media
+      type: any
+    - code: H67
+      value: Otitis media in diseases classified elsewhere
+      type: any
+    - code: H70
+      value: Mastoiditis and related conditions
+      type: any
+    - code: H73.0
+      value: Acute myringitis
+      type: any
+    - code: H73.1
+      value: Chronic myringitis
+      type: any
+    - code: H75.0
+      value: Mastoiditis in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: J00
+      value: Acute nasopharyngitis [common cold]
+      type: any
+    - code: J01
+      value: Acute sinusitis
+      type: any
+    - code: J02
+      value: Acute pharyngitis
+      type: any
+    - code: J03
+      value: Acute tonsillitis
+      type: any
+    - code: J04
+      value: Acute laryngitis and tracheitis
+      type: any
+    - code: J05
+      value: Acute obstructive laryngitis [croup] and epiglottitis
+      type: any
+    - code: J06
+      value: Acute upper respiratory infections of multiple and unspecified sites
+      type: any
+    - code: J34.0
+      value: Abscess, furuncle and carbuncle of nose
+      type: any
+    - code: J36
+      value: Peritonsillar abscess
+      type: any
+    - code: J37
+      value: Chronic laryngitis and laryngotracheitis
+      type: any
+    - code: J39.0
+      value: Retropharyngeal and parapharyngeal abscess
+      type: any
+    - code: J39.1
+      value: Other abscess of pharynx
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A18.6
+      value: Tuberculosis of ear
+      type: any
+    - code: A36.0
+      value: Pharyngeal diphtheria
+      type: any
+    - code: A36.1
+      value: Nasopharyngeal diphtheria
+      type: any
+    - code: A36.2
+      value: Laryngeal diphtheria
+      type: any
+    - code: A54.5
+      value: Gonococcal pharyngitis
+      type: any
+    - code: A56.4
+      value: Chlamydial infection of pharynx
+      type: any
+    - code: B05.3
+      value: Measles complicated by otitis media
+      type: any
+    - code: B27
+      value: Infectious mononucleosis
+      type: any
+    - code: B44.2
+      value: Tonsillar aspergillosis
+      type: any
+    - code: B87.3
+      value: Nasopharyngeal myiasis
+      type: any
+    - code: B87.4
+      value: Aural myiasis
+      type: any
+    - code: H60
+      value: Otitis externa
+      type: any
+    - code: H62.0
+      value: Otitis externa in bacterial diseases classified elsewhere
+      type: any
+    - code: H62.1
+      value: Otitis externa in viral diseases classified elsewhere
+      type: any
+    - code: H62.2
+      value: Otitis externa in mycoses
+      type: any
+    - code: H62.3
+      value: Otitis externa in other infectious and parasitic diseases classified
+        elsewhere
+      type: any
+    - code: H62.4
+      value: Otitis externa in other diseases classified elsewhere
+      type: any
+    - code: H65
+      value: Nonsuppurative otitis media
+      type: any
+    - code: H66
+      value: Suppurative and unspecified otitis media
+      type: any
+    - code: H67
+      value: Otitis media in diseases classified elsewhere
+      type: any
+    - code: H70
+      value: Mastoiditis and related conditions
+      type: any
+    - code: H73.0
+      value: Acute myringitis
+      type: any
+    - code: H73.1
+      value: Chronic myringitis
+      type: any
+    - code: H75.0
+      value: Mastoiditis in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: J00
+      value: Acute nasopharyngitis [common cold]
+      type: any
+    - code: J01
+      value: Acute sinusitis
+      type: any
+    - code: J02
+      value: Acute pharyngitis
+      type: any
+    - code: J03
+      value: Acute tonsillitis
+      type: any
+    - code: J04
+      value: Acute laryngitis and tracheitis
+      type: any
+    - code: J05
+      value: Acute obstructive laryngitis [croup] and epiglottitis
+      type: any
+    - code: J06
+      value: Acute upper respiratory infections of multiple and unspecified sites
+      type: any
+    - code: J34.0
+      value: Abscess, furuncle and carbuncle of nose
+      type: any
+    - code: J36
+      value: Peritonsillar abscess
+      type: any
+    - code: J37
+      value: Chronic laryngitis and laryngotracheitis
+      type: any
+    - code: J39.0
+      value: Retropharyngeal and parapharyngeal abscess
+      type: any
+    - code: J39.1
+      value: Other abscess of pharynx
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

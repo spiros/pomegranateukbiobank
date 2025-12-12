@@ -1,0 +1,1838 @@
+metadata:
+  phenotype: Other psychoactive substance misuse
+  group: Psychiatric
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: substance_misuse
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: b038fb13-7c78-4960-88a2-fcf63ac92e79
+  ontologies:
+    DOID: DOID_302
+    GWAS: MONDO_0002491
+    MESH: null
+    SNOMED-CT: '361055000'
+    FINNGEN: F5_SUBSTANCE
+  short_desc: Other psychoactive substance misuse
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1409'
+      value: opioid dependency
+      type: any
+    - code: '1410'
+      value: other substance abuse/dependency
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: F11
+      value: Mental and behavioural disorders due to use of opioids
+      type: any
+    - code: F12
+      value: Mental and behavioural disorders due to use of cannabinoids
+      type: any
+    - code: F13
+      value: Mental and behavioural disorders due to use of sedatives or hypnotics
+      type: any
+    - code: F14
+      value: Mental and behavioural disorders due to use of cocaine
+      type: any
+    - code: F15
+      value: Mental and behavioural disorders due to use of other stimulants, including
+        caffeine
+      type: any
+    - code: F16
+      value: Mental and behavioural disorders due to use of hallucinogens
+      type: any
+    - code: F18
+      value: Mental and behavioural disorders due to use of volatile solvents
+      type: any
+    - code: F19
+      value: Mental and behavioural disorders due to multiple drug use and use of
+        other psychoactive substances
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: F11
+      value: Mental and behavioural disorders due to use of opioids
+      type: any
+    - code: F12
+      value: Mental and behavioural disorders due to use of cannabinoids
+      type: any
+    - code: F13
+      value: Mental and behavioural disorders due to use of sedatives or hypnotics
+      type: any
+    - code: F14
+      value: Mental and behavioural disorders due to use of cocaine
+      type: any
+    - code: F15
+      value: Mental and behavioural disorders due to use of other stimulants, including
+        caffeine
+      type: any
+    - code: F16
+      value: Mental and behavioural disorders due to use of hallucinogens
+      type: any
+    - code: F18
+      value: Mental and behavioural disorders due to use of volatile solvents
+      type: any
+    - code: F19
+      value: Mental and behavioural disorders due to multiple drug use and use of
+        other psychoactive substances
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F11
+      value: Mental and behavioural disorders due to use of opioids
+      type: any
+    - code: F12
+      value: Mental and behavioural disorders due to use of cannabinoids
+      type: any
+    - code: F13
+      value: Mental and behavioural disorders due to use of sedatives or hypnotics
+      type: any
+    - code: F14
+      value: Mental and behavioural disorders due to use of cocaine
+      type: any
+    - code: F15
+      value: Mental and behavioural disorders due to use of other stimulants, including
+        caffeine
+      type: any
+    - code: F16
+      value: Mental and behavioural disorders due to use of hallucinogens
+      type: any
+    - code: F18
+      value: Mental and behavioural disorders due to use of volatile solvents
+      type: any
+    - code: F19
+      value: Mental and behavioural disorders due to multiple drug use and use of
+        other psychoactive substances
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F11
+      value: Mental and behavioural disorders due to use of opioids
+      type: any
+    - code: F12
+      value: Mental and behavioural disorders due to use of cannabinoids
+      type: any
+    - code: F13
+      value: Mental and behavioural disorders due to use of sedatives or hypnotics
+      type: any
+    - code: F14
+      value: Mental and behavioural disorders due to use of cocaine
+      type: any
+    - code: F15
+      value: Mental and behavioural disorders due to use of other stimulants, including
+        caffeine
+      type: any
+    - code: F16
+      value: Mental and behavioural disorders due to use of hallucinogens
+      type: any
+    - code: F18
+      value: Mental and behavioural disorders due to use of volatile solvents
+      type: any
+    - code: F19
+      value: Mental and behavioural disorders due to multiple drug use and use of
+        other psychoactive substances
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 13c5.00
+      value: Substance misuse increased
+      type: any
+    - code: 13c6.00
+      value: Substance misuse decreased
+      type: any
+    - code: 13c7.00
+      value: Current drug user
+      type: any
+    - code: 13c8.00
+      value: Reduced drugs misuse
+      type: any
+    - code: 13c9.00
+      value: Subcutaneous drug user
+      type: any
+    - code: 13cA.00
+      value: Smokes drugs
+      type: any
+    - code: 13cB.00
+      value: Misuses drugs orally
+      type: any
+    - code: 13cC.00
+      value: Continuous use of drugs
+      type: any
+    - code: 13cD.00
+      value: Episodic use of drugs
+      type: any
+    - code: 13cE.00
+      value: Prolonged high dose use of cannabis
+      type: any
+    - code: 13cF.00
+      value: Preoccupied with substance misuse
+      type: any
+    - code: 13cH.00
+      value: Persistent substance misuse
+      type: any
+    - code: 13cJ.00
+      value: Previously injecting drug user
+      type: any
+    - code: 13cK.00
+      value: Current non recreational drug user
+      type: any
+    - code: 13cM.00
+      value: Substance misuse
+      type: any
+    - code: 13r3.00
+      value: Abstinent from drug misuse on maintenance replacement
+      type: any
+    - code: 13r4.00
+      value: Abstinent from drug misuse when receiving blocking therapy
+      type: any
+    - code: 146F.00
+      value: 'H/O: drug abuse'
+      type: prevalent
+    - code: 1T00.00
+      value: H/O daily heroin misuse
+      type: prevalent
+    - code: 1T01.00
+      value: H/O weekly heroin misuse
+      type: prevalent
+    - code: 1T0..00
+      value: H/O heroin misuse
+      type: prevalent
+    - code: 1T02.00
+      value: Previous history of heroin misuse
+      type: prevalent
+    - code: 1T03.00
+      value: H/O infrequent heroin misuse
+      type: prevalent
+    - code: 1T10.00
+      value: H/O daily methadone misuse
+      type: prevalent
+    - code: 1T11.00
+      value: H/O weekly methadone misuse
+      type: prevalent
+    - code: 1T1..00
+      value: H/O methadone misuse
+      type: prevalent
+    - code: 1T12.00
+      value: H/O infrequent methadone misuse
+      type: prevalent
+    - code: 1T13.00
+      value: Previous history of methadone misuse
+      type: prevalent
+    - code: 1T...00
+      value: History of substance misuse
+      type: prevalent
+    - code: 1T20.00
+      value: H/O daily ecstasy misuse
+      type: prevalent
+    - code: 1T21.00
+      value: H/O weekly ecstasy misuse
+      type: prevalent
+    - code: 1T2..00
+      value: H/O ecstasy misuse
+      type: prevalent
+    - code: 1T22.00
+      value: H/O infrequent ecstasy misuse
+      type: prevalent
+    - code: 1T23.00
+      value: Previous history of ecstasy misuse
+      type: prevalent
+    - code: 1T30.00
+      value: H/O daily benzodiazepine misuse
+      type: prevalent
+    - code: 1T31.00
+      value: H/O weekly benzodiazepine misuse
+      type: prevalent
+    - code: 1T3..00
+      value: H/O benzodiazepine misuse
+      type: prevalent
+    - code: 1T32.00
+      value: H/O infrequent benzodiazepine misuse
+      type: prevalent
+    - code: 1T33.00
+      value: Previous history of benzodiazepine misuse
+      type: prevalent
+    - code: 1T40.00
+      value: H/O daily amphetamine misuse
+      type: prevalent
+    - code: 1T41.00
+      value: H/O weekly amphetamine misuse
+      type: prevalent
+    - code: 1T4..00
+      value: H/O amphetamine misuse
+      type: prevalent
+    - code: 1T42.00
+      value: H/O infrequent amphetamine misuse
+      type: prevalent
+    - code: 1T43.00
+      value: Previous history of amphetamine misuse
+      type: prevalent
+    - code: 1T50.00
+      value: H/O daily cocaine misuse
+      type: prevalent
+    - code: 1T51.00
+      value: H/O weekly cocaine misuse
+      type: prevalent
+    - code: 1T5..00
+      value: H/O cocaine misuse
+      type: prevalent
+    - code: 1T52.00
+      value: H/O infrequent cocaine misuse
+      type: prevalent
+    - code: 1T53.00
+      value: Previous history of cocaine misuse
+      type: prevalent
+    - code: 1T60.00
+      value: H/O daily crack cocaine misuse
+      type: prevalent
+    - code: 1T61.00
+      value: H/O weekly crack cocaine misuse
+      type: prevalent
+    - code: 1T6..00
+      value: H/O crack cocaine misuse
+      type: prevalent
+    - code: 1T62.00
+      value: H/O infrequent crack cocaine misuse
+      type: prevalent
+    - code: 1T63.00
+      value: Previous history of crack cocaine misuse
+      type: prevalent
+    - code: 1T7..00
+      value: H/O hallucinogen misuse
+      type: prevalent
+    - code: 1T73.00
+      value: Previous history of hallucinogen misuse
+      type: prevalent
+    - code: 1T80.00
+      value: H/O daily cannabis misuse
+      type: prevalent
+    - code: 1T81.00
+      value: H/O weekly cannabis misuse
+      type: prevalent
+    - code: 1T8..00
+      value: H/O cannabis misuse
+      type: prevalent
+    - code: 1T82.00
+      value: H/O infrequent cannabis misuse
+      type: prevalent
+    - code: 1T83.00
+      value: Previous history of cannabis misuse
+      type: prevalent
+    - code: 1T90.00
+      value: H/O daily solvent misuse
+      type: prevalent
+    - code: 1T91.00
+      value: H/O weekly solvent misuse
+      type: prevalent
+    - code: 1T9..00
+      value: H/O solvent misuse
+      type: prevalent
+    - code: 1T92.00
+      value: H/O infrequent solvent misuse
+      type: prevalent
+    - code: 1T93.00
+      value: Previous history of solvent misuse
+      type: prevalent
+    - code: 1TA..00
+      value: H/O barbiturate misuse
+      type: prevalent
+    - code: 1TA3.00
+      value: Previous history of barbiturate misuse
+      type: prevalent
+    - code: 1TB0.00
+      value: H/O daily major tranquilliser misuse
+      type: prevalent
+    - code: 1TB..00
+      value: H/O major tranquilliser misuse
+      type: prevalent
+    - code: 1TC0.00
+      value: H/O daily anti-depressant misuse
+      type: prevalent
+    - code: 1TC..00
+      value: H/O anti-depressant misuse
+      type: prevalent
+    - code: 1TC3.00
+      value: Previous history of anti-depressant misuse
+      type: prevalent
+    - code: 1TD0.00
+      value: H/O daily opiate misuse
+      type: prevalent
+    - code: 1TD1.00
+      value: H/O weekly opiate misuse
+      type: prevalent
+    - code: 1TD..00
+      value: H/O opiate misuse
+      type: prevalent
+    - code: 1TD2.00
+      value: H/O infrequent opiate misuse
+      type: prevalent
+    - code: 1TD3.00
+      value: Previous history of opiate misuse
+      type: prevalent
+    - code: 1TE..00
+      value: Uses heroin on top of substitution therapy
+      type: any
+    - code: 1TF..00
+      value: Does not use heroin on top of substitution therapy
+      type: any
+    - code: 1V00.00
+      value: Occasional drug user
+      type: any
+    - code: 1V01.00
+      value: Long-term drug misuser
+      type: any
+    - code: 1V0..00
+      value: Misuses drugs
+      type: any
+    - code: 1V02.00
+      value: Poly-drug misuser
+      type: any
+    - code: 1V04.00
+      value: Misuses drugs rectally
+      type: any
+    - code: 1V07.00
+      value: Notified addict
+      type: any
+    - code: 1V08.00
+      value: Smokes drugs in cigarette form
+      type: any
+    - code: 1V09.00
+      value: Smokes drugs through a pipe
+      type: any
+    - code: 1V0A.00
+      value: Chases the dragon
+      type: any
+    - code: 1V0B.00
+      value: Sniffs drugs
+      type: any
+    - code: 1V0C.00
+      value: Drug addict
+      type: any
+    - code: 1V0E.00
+      value: Health problem secondary to drug misuse
+      type: any
+    - code: 1V...00
+      value: Drug misuse behaviour
+      type: any
+    - code: 1V22.00
+      value: Age at starting drug misuse
+      type: any
+    - code: 1V23.00
+      value: Time since stopped drug misuse
+      type: any
+    - code: 1V26.00
+      value: Misused drugs in past
+      type: any
+    - code: 1V30.00
+      value: Injects drugs subcutaneously
+      type: any
+    - code: 1V31.00
+      value: Injects drugs intramuscularly
+      type: any
+    - code: 1V3..00
+      value: Drug injection behaviour
+      type: any
+    - code: 1V32.00
+      value: Neck injector
+      type: any
+    - code: 1V35.00
+      value: Shares drug equipment
+      type: any
+    - code: 1V37.00
+      value: Drug injecting equipment hygiene
+      type: any
+    - code: 1V38.00
+      value: Sharing of drug injecting equipment
+      type: any
+    - code: 1V4..00
+      value: Priority of drug-related activities
+      type: any
+    - code: 1V5..00
+      value: Routine of drug-related activities
+      type: any
+    - code: 1V64.00
+      value: Illicit drug use
+      type: any
+    - code: 1V65.00
+      value: Heroin misuse
+      type: any
+    - code: 1V66.00
+      value: Ecstasy misuse
+      type: any
+    - code: 46QB100
+      value: Urine methadone positive
+      type: any
+    - code: 46Qr000
+      value: Urine buprenorphine positive
+      type: any
+    - code: 677T.00
+      value: Substance misuse structured counselling
+      type: any
+    - code: 7P22000
+      value: Delivery of rehabilitation for drug addiction
+      type: any
+    - code: 8AA..00
+      value: Drug abuse monitoring
+      type: prevalent
+    - code: 8B23.00
+      value: Drug addiction therapy
+      type: any
+    - code: 8B23.11
+      value: Drug addictn therap-methadone
+      type: any
+    - code: 8B23.13
+      value: Drug dependence therapy
+      type: any
+    - code: 8B2M.00
+      value: Buprenorphine maintenance therapy
+      type: any
+    - code: 8B2N.00
+      value: Drug addiction detoxification therapy - methadone
+      type: any
+    - code: 8B2P.00
+      value: Drug addiction maintenance therapy - methadone
+      type: any
+    - code: 8B2Q.00
+      value: Drug addiction maintenance therapy - buprenorphine
+      type: any
+    - code: 8B2R.00
+      value: Drug addiction detoxification therapy - buprenorphine
+      type: any
+    - code: 8B2S.00
+      value: Opioid agonist substitution therapy
+      type: any
+    - code: 8B2T.00
+      value: Opioid antagonist therapy
+      type: any
+    - code: 8BA9.00
+      value: Detoxification dependence drug
+      type: any
+    - code: 8BAc.00
+      value: Substance misuse management stopped - self withdrawal
+      type: any
+    - code: 8BAd.00
+      value: Opiate dependence detoxification
+      type: any
+    - code: 8BE0.00
+      value: Reinduction to methadone maintenance therapy
+      type: any
+    - code: 8BE1.00
+      value: Reinduction to buprenorphine maintenance therapy
+      type: any
+    - code: 8H7x.00
+      value: Referral to drug abuse counsellor
+      type: any
+    - code: 8Hh1.00
+      value: Self referral to substance misuse service
+      type: any
+    - code: 8HkF.00
+      value: Referral to substance misuse service
+      type: any
+    - code: 8Hq..00
+      value: Admission to substance misuse detoxification centre
+      type: any
+    - code: 9G21.00
+      value: Drug addict notific to CMO
+      type: any
+    - code: 9G22.00
+      value: Drug addict re-notific due
+      type: any
+    - code: 9G23.00
+      value: Drug addict re-notif to CMO
+      type: any
+    - code: 9G24.00
+      value: Drug addict-notify local SMR22
+      type: any
+    - code: 9G2..00
+      value: Drug addiction notification
+      type: any
+    - code: 9G2..11
+      value: Drug addict notific admin
+      type: any
+    - code: 9G2Z.00
+      value: Drug addiction notif NOS
+      type: any
+    - code: 9HC0.00
+      value: Initial substance misuse assessment
+      type: any
+    - code: 9HC1.00
+      value: Follow up substance misuse assessment
+      type: any
+    - code: 9HC2.00
+      value: Substance misuse clinical management plan agreed
+      type: any
+    - code: 9HC3.00
+      value: Substance misuse clinical management plan reviewed
+      type: any
+    - code: 9HC4.00
+      value: Substance misuse treatment withdrawn
+      type: any
+    - code: 9HC5.00
+      value: Substance misuse treatment programme completed
+      type: any
+    - code: 9HC6.00
+      value: Substance misuse treatment declined
+      type: any
+    - code: 9HC..00
+      value: Substance misuse monitoring
+      type: prevalent
+    - code: 9K4..00
+      value: SMR25a drug misuse initial assessment form
+      type: any
+    - code: 9k50.00
+      value: Drug misuse - enhanced service completed
+      type: any
+    - code: 9k51.00
+      value: Shared care drug misuse treatment - enhanced services admin
+      type: any
+    - code: 9k51.11
+      value: Shared care drug misuse treatment
+      type: any
+    - code: 9k52.00
+      value: Drug misuse treatment primary care - enhanced services admin
+      type: any
+    - code: 9k53.00
+      value: Pharmacy attended for drug misuse - enhanced services admin
+      type: any
+    - code: 9k5..00
+      value: Drug misuse - enhanced services administration
+      type: any
+    - code: 9kS..00
+      value: Drug misuse assessment declined - enhanced services administ
+      type: any
+    - code: 9N1yJ00
+      value: Seen in drug misuse clinic
+      type: any
+    - code: 9N4i.00
+      value: DNA - Did not attend substance misuse clinic
+      type: any
+    - code: 9No5.00
+      value: Seen in substance misuse clinic
+      type: any
+    - code: 9s...00
+      value: Drug misuse clinic administration
+      type: any
+    - code: E020.00
+      value: Drug withdrawal syndrome
+      type: any
+    - code: E021000
+      value: Drug-induced paranoid state
+      type: any
+    - code: E021100
+      value: Drug-induced hallucinosis
+      type: any
+    - code: E021.00
+      value: Drug-induced paranoia or hallucinatory states
+      type: any
+    - code: E021z00
+      value: Drug-induced paranoia or hallucinatory state NOS
+      type: any
+    - code: E022.00
+      value: Pathological drug intoxication
+      type: any
+    - code: E02..00
+      value: Drug psychoses
+      type: any
+    - code: E02y000
+      value: Drug-induced delirium
+      type: any
+    - code: E02y100
+      value: Drug-induced dementia
+      type: any
+    - code: E02y300
+      value: Drug-induced depressive state
+      type: any
+    - code: E02y400
+      value: Drug-induced personality disorder
+      type: any
+    - code: E02y.00
+      value: Other drug psychoses
+      type: any
+    - code: E02yz00
+      value: Other drug psychoses NOS
+      type: any
+    - code: E02z.00
+      value: Drug psychosis NOS
+      type: any
+    - code: E240000
+      value: Unspecified opioid dependence
+      type: any
+    - code: E240100
+      value: Continuous opioid dependence
+      type: any
+    - code: E240200
+      value: Episodic opioid dependence
+      type: any
+    - code: E240300
+      value: Opioid dependence in remission
+      type: any
+    - code: E240.00
+      value: Opioid type drug dependence
+      type: any
+    - code: E240.11
+      value: Heroin dependence
+      type: any
+    - code: E240.12
+      value: Methadone dependence
+      type: any
+    - code: E240.13
+      value: Morphine dependence
+      type: any
+    - code: E240.14
+      value: Opium dependence
+      type: any
+    - code: E240z00
+      value: Opioid drug dependence NOS
+      type: any
+    - code: E241000
+      value: Hypnotic or anxiolytic dependence, unspecified
+      type: any
+    - code: E241100
+      value: Hypnotic or anxiolytic dependence, continuous
+      type: any
+    - code: E241200
+      value: Hypnotic or anxiolytic dependence, episodic
+      type: any
+    - code: E241300
+      value: Hypnotic or anxiolytic dependence in remission
+      type: any
+    - code: E241.00
+      value: Hypnotic or anxiolytic dependence
+      type: any
+    - code: E241.11
+      value: Anxiolytic dependence
+      type: any
+    - code: E241.12
+      value: Barbiturate dependence
+      type: any
+    - code: E241.13
+      value: Benzodiazepine dependence
+      type: any
+    - code: E241.14
+      value: Diazepam dependence
+      type: any
+    - code: E241.15
+      value: Librium dependence
+      type: any
+    - code: E241.16
+      value: Sedative dependence
+      type: any
+    - code: E241.17
+      value: Valium dependence
+      type: any
+    - code: E241z00
+      value: Hypnotic or anxiolytic dependence NOS
+      type: any
+    - code: E242000
+      value: Cocaine dependence, unspecified
+      type: any
+    - code: E242100
+      value: Cocaine dependence, continuous
+      type: any
+    - code: E242200
+      value: Cocaine dependence, episodic
+      type: any
+    - code: E242300
+      value: Cocaine dependence in remission
+      type: any
+    - code: E242.00
+      value: Cocaine type drug dependence
+      type: any
+    - code: E242z00
+      value: Cocaine drug dependence NOS
+      type: any
+    - code: E243000
+      value: Cannabis dependence, unspecified
+      type: any
+    - code: E243100
+      value: Cannabis dependence, continuous
+      type: any
+    - code: E243200
+      value: Cannabis dependence, episodic
+      type: any
+    - code: E243300
+      value: Cannabis dependence in remission
+      type: any
+    - code: E243.00
+      value: Cannabis type drug dependence
+      type: any
+    - code: E243.11
+      value: Hashish dependence
+      type: any
+    - code: E243.12
+      value: Hemp dependence
+      type: any
+    - code: E243.13
+      value: Marihuana dependence
+      type: any
+    - code: E243z00
+      value: Cannabis drug dependence NOS
+      type: any
+    - code: E244000
+      value: Amphetamine or psychostimulant dependence, unspecified
+      type: any
+    - code: E244011
+      value: Amfetamine or psychostimulant dependence, unspecified
+      type: any
+    - code: E244100
+      value: Amphetamine or psychostimulant dependence, continuous
+      type: any
+    - code: E244200
+      value: Amphetamine or psychostimulant dependence, episodic
+      type: any
+    - code: E244300
+      value: Amphetamine or psychostimulant dependence in remission
+      type: any
+    - code: E244.00
+      value: Amphetamine or other psychostimulant dependence
+      type: any
+    - code: E244.11
+      value: Psychostimulant dependence
+      type: any
+    - code: E244.12
+      value: Stimulant dependence
+      type: any
+    - code: E244z00
+      value: Amphetamine or psychostimulant dependence NOS
+      type: any
+    - code: E244z11
+      value: Amfetamine or psychostimulant dependence NOS
+      type: any
+    - code: E245000
+      value: Hallucinogen dependence, unspecified
+      type: any
+    - code: E245100
+      value: Hallucinogen dependence, continuous
+      type: any
+    - code: E245200
+      value: Hallucinogen dependence, episodic
+      type: any
+    - code: E245300
+      value: Hallucinogen dependence in remission
+      type: any
+    - code: E245.00
+      value: Hallucinogen dependence
+      type: any
+    - code: E245.11
+      value: LSD dependence
+      type: any
+    - code: E245.12
+      value: Lysergic acid diethylamide dependence
+      type: any
+    - code: E245z00
+      value: Hallucinogen dependence NOS
+      type: any
+    - code: E246000
+      value: Glue sniffing dependence, unspecified
+      type: any
+    - code: E246100
+      value: Glue sniffing dependence, continuous
+      type: any
+    - code: E246200
+      value: Glue sniffing dependence, episodic
+      type: any
+    - code: E246300
+      value: Glue sniffing dependence in remission
+      type: any
+    - code: E246.00
+      value: Glue sniffing dependence
+      type: any
+    - code: E246z00
+      value: Glue sniffing dependence NOS
+      type: any
+    - code: E247000
+      value: Other specified drug dependence, unspecified
+      type: any
+    - code: E247100
+      value: Other specified drug dependence, continuous
+      type: any
+    - code: E247200
+      value: Other specified drug dependence, episodic
+      type: any
+    - code: E247300
+      value: Other specified drug dependence in remission
+      type: any
+    - code: E247.00
+      value: Other specified drug dependence
+      type: any
+    - code: E247.11
+      value: Absinthe addiction
+      type: any
+    - code: E247z00
+      value: Other specified drug dependence NOS
+      type: any
+    - code: E248000
+      value: Combined opioid with other drug dependence, unspecified
+      type: any
+    - code: E248100
+      value: Combined opioid with other drug dependence, continuous
+      type: any
+    - code: E248200
+      value: Combined opioid with other drug dependence, episodic
+      type: any
+    - code: E248300
+      value: Combined opioid with other drug dependence in remission
+      type: any
+    - code: E248.00
+      value: Combined opioid with other drug dependence
+      type: any
+    - code: E248z00
+      value: Combined opioid with other drug dependence NOS
+      type: any
+    - code: E249000
+      value: Combined drug dependence, excluding opioid, unspecified
+      type: any
+    - code: E249100
+      value: Combined drug dependence, excluding opioid, continuous
+      type: any
+    - code: E249200
+      value: Combined drug dependence, excluding opioid, episodic
+      type: any
+    - code: E249300
+      value: Combined drug dependence, excluding opioid, in remission
+      type: any
+    - code: E249.00
+      value: Combined drug dependence, excluding opioids
+      type: any
+    - code: E249z00
+      value: Combined drug dependence, excluding opioid, NOS
+      type: any
+    - code: E24A.00
+      value: Ecstasy type drug dependence
+      type: any
+    - code: E24..00
+      value: Drug dependence
+      type: any
+    - code: E24..11
+      value: Drug addiction
+      type: any
+    - code: E24z.00
+      value: Drug dependence NOS
+      type: any
+    - code: E252000
+      value: Nondependent cannabis abuse, unspecified
+      type: any
+    - code: E252100
+      value: Nondependent cannabis abuse, continuous
+      type: any
+    - code: E252200
+      value: Nondependent cannabis abuse, episodic
+      type: any
+    - code: E252300
+      value: Nondependent cannabis abuse in remission
+      type: any
+    - code: E252.00
+      value: Nondependent cannabis abuse
+      type: any
+    - code: E252z00
+      value: Nondependent cannabis abuse NOS
+      type: any
+    - code: E253000
+      value: Nondependent hallucinogen abuse, unspecified
+      type: any
+    - code: E253100
+      value: Nondependent hallucinogen abuse, continuous
+      type: any
+    - code: E253200
+      value: Nondependent hallucinogen abuse, episodic
+      type: any
+    - code: E253300
+      value: Nondependent hallucinogen abuse in remission
+      type: any
+    - code: E253.00
+      value: Nondependent hallucinogen abuse
+      type: any
+    - code: E253.11
+      value: '''Bad trips'''
+      type: any
+    - code: E253.12
+      value: LSD reaction
+      type: any
+    - code: E253z00
+      value: Nondependent hallucinogen abuse NOS
+      type: any
+    - code: E254000
+      value: Nondependent hypnotic or anxiolytic abuse, unspecified
+      type: any
+    - code: E254100
+      value: Nondependent hypnotic or anxiolytic abuse, continuous
+      type: any
+    - code: E254200
+      value: Nondependent hypnotic or anxiolytic abuse, episodic
+      type: any
+    - code: E254300
+      value: Nondependent hypnotic or anxiolytic abuse in remission
+      type: any
+    - code: E254.00
+      value: Nondependent hypnotic or anxiolytic abuse
+      type: any
+    - code: E254.11
+      value: Barbiturate abuse
+      type: any
+    - code: E254.12
+      value: Hypnotic or anxiolytic abuse
+      type: any
+    - code: E254.13
+      value: Sedative abuse
+      type: any
+    - code: E254.14
+      value: Tranquilliser abuse
+      type: any
+    - code: E254z00
+      value: Nondependent hypnotic or anxiolytic abuse NOS
+      type: any
+    - code: E255000
+      value: Nondependent opioid abuse, unspecified
+      type: any
+    - code: E255100
+      value: Nondependent opioid abuse, continuous
+      type: any
+    - code: E255200
+      value: Nondependent opioid abuse, episodic
+      type: any
+    - code: E255300
+      value: Nondependent opioid abuse in remission
+      type: any
+    - code: E255.00
+      value: Nondependent opioid abuse
+      type: any
+    - code: E255z00
+      value: Nondependent opioid abuse NOS
+      type: any
+    - code: E256000
+      value: Nondependent cocaine abuse, unspecified
+      type: any
+    - code: E256100
+      value: Nondependent cocaine abuse, continuous
+      type: any
+    - code: E256200
+      value: Nondependent cocaine abuse, episodic
+      type: any
+    - code: E256300
+      value: Nondependent cocaine abuse in remission
+      type: any
+    - code: E256.00
+      value: Nondependent cocaine abuse
+      type: any
+    - code: E256z00
+      value: Nondependent cocaine abuse NOS
+      type: any
+    - code: E257000
+      value: Nondependent amphetamine/psychostimulant abuse, unspecified
+      type: any
+    - code: E257100
+      value: Nondependent amphetamine/psychostimulant abuse, continuous
+      type: any
+    - code: E257200
+      value: Nondependent amphetamine or psychostimulant abuse, episodic
+      type: any
+    - code: E257300
+      value: Nondependent amphetamine/psychostimulant abuse in remission
+      type: any
+    - code: E257.00
+      value: Nondependent amphetamine or other psychostimulant abuse
+      type: any
+    - code: E257.11
+      value: Psychostimulant abuse
+      type: any
+    - code: E257.12
+      value: Stimulant abuse
+      type: any
+    - code: E257z00
+      value: Nondependent amphetamine or psychostimulant abuse NOS
+      type: any
+    - code: E258.00
+      value: Nondependent antidepressant type drug abuse
+      type: any
+    - code: E258z00
+      value: Nondependent antidepressant type drug abuse NOS
+      type: any
+    - code: E259000
+      value: Nondependent mixed drug abuse, unspecified
+      type: any
+    - code: E259100
+      value: Nondependent mixed drug abuse, continuous
+      type: any
+    - code: E259200
+      value: Nondependent mixed drug abuse, episodic
+      type: any
+    - code: E259300
+      value: Nondependent mixed drug abuse in remission
+      type: any
+    - code: E259400
+      value: Misuse of prescription only drugs
+      type: any
+    - code: E259.00
+      value: Nondependent mixed drug abuse
+      type: any
+    - code: E259z00
+      value: Nondependent mixed drug abuse NOS
+      type: any
+    - code: E25..00
+      value: Nondependent abuse of drugs
+      type: any
+    - code: E25y000
+      value: Nondependent other drug abuse, unspecified
+      type: any
+    - code: E25y100
+      value: Nondependent other drug abuse, continuous
+      type: any
+    - code: E25y200
+      value: Nondependent other drug abuse, episodic
+      type: any
+    - code: E25y300
+      value: Nondependent other drug abuse in remission
+      type: any
+    - code: E25y.00
+      value: Nondependent other drug abuse
+      type: any
+    - code: E25y.11
+      value: Analgesic abuse
+      type: any
+    - code: E25yz00
+      value: Nondependent other drug abuse NOS
+      type: any
+    - code: E25z.00
+      value: Misuse of drugs NOS
+      type: any
+    - code: Eu11000
+      value: '[X]Mental & behav dis due to use opioids: acute intoxication'
+      type: any
+    - code: Eu11100
+      value: '[X]Mental and behav dis due to use of opioids: harmful use'
+      type: any
+    - code: Eu11200
+      value: '[X]Mental and behav dis due to use opioids: dependence syndr'
+      type: any
+    - code: Eu11211
+      value: '[X]Drug addiction - opioids'
+      type: any
+    - code: Eu11212
+      value: '[X]Heroin addiction'
+      type: any
+    - code: Eu11300
+      value: '[X]Mental and behav dis due to use opioids: withdrawal state'
+      type: any
+    - code: Eu11311
+      value: '[X]Cold turkey, opiate withdrawal'
+      type: any
+    - code: Eu11400
+      value: '[X]Men & behav dis due opioid: withdrawl state with delirium'
+      type: any
+    - code: Eu11500
+      value: '[X]Mental & behav dis due to use opioids: psychotic disorder'
+      type: any
+    - code: Eu11600
+      value: '[X]Mental and behav dis due to use opioids: amnesic syndrome'
+      type: any
+    - code: Eu11700
+      value: '[X]Men & beh dis due opioids: resid & late-onset psychot dis'
+      type: any
+    - code: Eu11.00
+      value: '[X]Mental and behavioural disorders due to use of opioids'
+      type: any
+    - code: Eu11y00
+      value: '[X]Men & behav dis due to use opioids: oth men & behav dis'
+      type: any
+    - code: Eu11z00
+      value: '[X]Ment & behav dis due use opioids: unsp ment & behav dis'
+      type: any
+    - code: Eu12000
+      value: '[X]Mental & behav dis due cannabinoids: acute intoxication'
+      type: any
+    - code: Eu12100
+      value: '[X]Mental and behav dis due to use cannabinoids: harmful use'
+      type: any
+    - code: Eu12200
+      value: '[X]Mental and behav dis due to cannabinoids: dependence synd'
+      type: any
+    - code: Eu12211
+      value: '[X]Drug addiction - cannabis'
+      type: any
+    - code: Eu12300
+      value: '[X]Mental and behav dis due cannabinoids: withdrawal state'
+      type: any
+    - code: Eu12500
+      value: '[X]Mental & behav dis due to cannabinoids: psychotic disordr'
+      type: any
+    - code: Eu12600
+      value: '[X]Mental and behav dis due to use cannabinoids: amnesic syn'
+      type: any
+    - code: Eu12700
+      value: '[X]Mnt/bh dis due cannabinds: resid & late-onset psychot dis'
+      type: any
+    - code: Eu12.00
+      value: '[X]Mental and behavioural disorders due to use cannabinoids'
+      type: any
+    - code: Eu12y00
+      value: '[X]Men/behav dis due to use cannabinoids: oth men/behav disd'
+      type: any
+    - code: Eu12z00
+      value: '[X]Ment/behav dis due use cannabinoids: unsp ment/behav disd'
+      type: any
+    - code: Eu13000
+      value: '[X]Mental & behav dis due seds/hypntcs: acute intoxication'
+      type: any
+    - code: Eu13100
+      value: '[X]Mental and behav dis due to use seds/hypntcs: harmful use'
+      type: any
+    - code: Eu13200
+      value: '[X]Mental and behav dis due to seds/hypntcs: dependence synd'
+      type: any
+    - code: Eu13211
+      value: '[X]Drug addiction- sedative / hypnotics'
+      type: any
+    - code: Eu13300
+      value: '[X]Mental and behav dis due seds/hypntcs: withdrawal state'
+      type: any
+    - code: Eu13400
+      value: '[X]Men & beh dis due seds/hypns: withdrwl state wth delirium'
+      type: any
+    - code: Eu13500
+      value: '[X]Mental & behav dis due to seds/hypntcs: psychotic disordr'
+      type: any
+    - code: Eu13.00
+      value: '[X]Mental and behavioural dis due use sedatives/hypnotics'
+      type: any
+    - code: Eu14000
+      value: '[X]Mental & behav dis due to use cocaine: acute intoxication'
+      type: any
+    - code: Eu14100
+      value: '[X]Mental and behav dis due to use of cocaine: harmful use'
+      type: any
+    - code: Eu14200
+      value: '[X]Mental and behav dis due to use cocaine: dependence syndr'
+      type: any
+    - code: Eu14211
+      value: '[X]Drug addiction - cocaine'
+      type: any
+    - code: Eu14300
+      value: '[X]Mental and behav dis due to use cocaine: withdrawal state'
+      type: any
+    - code: Eu14500
+      value: '[X]Mental & behav dis due to use cocaine: psychotic disorder'
+      type: any
+    - code: Eu14700
+      value: '[X]Men & beh dis due cocaine: resid & late-onset psychot dis'
+      type: any
+    - code: Eu14.00
+      value: '[X]Mental and behavioural disorders due to use of cocaine'
+      type: any
+    - code: Eu15000
+      value: '[X]Mnt/beh dis due oth stim inc caffein: acute intoxication'
+      type: any
+    - code: Eu15100
+      value: '[X]Ment/behav dis due to use oth stims inc caff: harmful use'
+      type: any
+    - code: Eu15200
+      value: '[X]Mental and behav dis oth stim inc caffein: dependnce synd'
+      type: any
+    - code: Eu15211
+      value: '[X]Drug addiction-other stimul'
+      type: any
+    - code: Eu15300
+      value: '[X]Mnt/behav dis other stimlnts inc caffeine: withdrwl state'
+      type: any
+    - code: Eu15500
+      value: '[X]Mental/behav dis oth stims inc caffeine: psychotic dis'
+      type: any
+    - code: Eu15700
+      value: '[X]Mnt/bh dis oth stm inc caffne resid/late-onset psycht dis'
+      type: any
+    - code: Eu15.00
+      value: '[X]Mental & behav disorder due other stimulants inc caffein'
+      type: any
+    - code: Eu15z00
+      value: '[X]Ment/beh dis oth stims inc caffeine: unsp ment/behav disd'
+      type: any
+    - code: Eu16000
+      value: '[X]Mental & behav dis due hallucinogens: acute intoxicatn'
+      type: any
+    - code: Eu16100
+      value: '[X]Mental and behav dis due to use hallucinogens: harmfl use'
+      type: any
+    - code: Eu16200
+      value: '[X]Mental and behav dis due to hallucinogens: dependence syn'
+      type: any
+    - code: Eu16211
+      value: '[X]Drug addiction - hallucinogen'
+      type: any
+    - code: Eu16300
+      value: '[X]Mental and behav dis due hallucinogens: withdrawal state'
+      type: any
+    - code: Eu16500
+      value: '[X]Mental & behav dis due to hallucinogens: psychotic disord'
+      type: any
+    - code: Eu16700
+      value: '[X]Mnt/bh dis due hallucngns: resid & late-onset psychot dis'
+      type: any
+    - code: Eu16711
+      value: '[X]Post hallucinogen perception disorder'
+      type: any
+    - code: Eu16.00
+      value: '[X]Mental and behavioural disorders due to use hallucinogens'
+      type: any
+    - code: Eu16z00
+      value: '[X]Ment/behav dis due use hallucinogens: unsp ment/behav dis'
+      type: any
+    - code: Eu18000
+      value: '[X]Mental & behav dis due vol solvents: acute intoxication'
+      type: any
+    - code: Eu18100
+      value: '[X]Mental and behav dis due volatile solvents: harmful use'
+      type: any
+    - code: Eu18200
+      value: '[X]Mental and behav dis due to vol solvents: dependence synd'
+      type: any
+    - code: Eu18211
+      value: '[X]Drug addiction - solvent'
+      type: any
+    - code: Eu18400
+      value: '[X]Men & beh dis vol solvents: withdrawal state wth delirium'
+      type: any
+    - code: Eu18500
+      value: '[X]Mental & behav dis due to vol solvents: psychotic disordr'
+      type: any
+    - code: Eu18.00
+      value: '[X]Mental & behav disorders due to use of volatile solvents'
+      type: any
+    - code: Eu18z00
+      value: '[X]Ment/behav dis due use vol solvents: unsp ment/behav dis'
+      type: any
+    - code: Eu19000
+      value: '[X]Mental/behav dis multi drg use/psychoac subs: acute intox'
+      type: any
+    - code: Eu19100
+      value: '[X]Mental and behav dis mlti drg/oth psychoa sbs: harmfl use'
+      type: any
+    - code: Eu19200
+      value: '[X]Mental and behav dis mlti/oth psych sbs: dependence syndr'
+      type: any
+    - code: Eu19211
+      value: '[X]Drug addiction NOS'
+      type: any
+    - code: Eu19300
+      value: '[X]Mental and behav dis mlti/oth psychoa sbs: withdrwl state'
+      type: any
+    - code: Eu19400
+      value: '[X]Mnt/bh dis mlti drg use/oth psy sbs: wthdr state + dlrium'
+      type: any
+    - code: Eu19500
+      value: '[X]Ment/behav dis mlti drug use/oth psyc sbs: psychotc dis'
+      type: any
+    - code: Eu19600
+      value: '[X]Mental/behav dis multi drg use/oth psy sbs: amnesic syndr'
+      type: any
+    - code: Eu19700
+      value: '[X]Men/beh dis mlt drg use/oth subs: resid/late psychot dis'
+      type: any
+    - code: Eu19.00
+      value: '[X]Men & behav disorder multiple drug use/psychoactive subst'
+      type: any
+    - code: Eu19y00
+      value: '[X]Men/beh dis mlt drg use/oth psy sbs: oth men & behav dis'
+      type: any
+    - code: Eu19z00
+      value: '[X]Ment/beh dis multi drug use/oth psy sbs unsp mnt/beh dis'
+      type: any
+    - code: Eu1A000
+      value: '[X]Ment behav dis due use crack cocaine: acute intoxication'
+      type: any
+    - code: Eu1A100
+      value: '[X]Mental behav disorders due use crack cocaine: harmful use'
+      type: any
+    - code: Eu1A200
+      value: '[X]Mental behav disorders due use crack cocaine: depend synd'
+      type: any
+    - code: Eu1A300
+      value: '[X]Mental behav disord due crack cocaine: withdrawal state'
+      type: any
+    - code: Eu1A500
+      value: '[X]Mental behav disord due crack cocaine: psychotic disorder'
+      type: any
+    - code: Eu1A.00
+      value: '[X]Mental and behavioural disorders due use of crack cocaine'
+      type: any
+    - code: Eu1Az00
+      value: '[X]Ment behav dis due crack cocaine: unsp ment and behav dis'
+      type: any
+    - code: Eu1..00
+      value: '[X]Mental and behavioural disorders due to psychoactive subs'
+      type: any
+    - code: TJ51.00
+      value: Adverse reaction to methadone
+      type: any
+    - code: TJ52100
+      value: Adverse reaction to buprenorphine
+      type: any
+    - code: U605012
+      value: '[X] Adverse reaction to methadone'
+      type: any
+    - code: U605015
+      value: '[X] Adverse reaction to buprenorphine'
+      type: any
+    - code: Z1Q6200
+      value: Methadone maintenance
+      type: any
+    - code: Z1Q6212
+      value: Methadone therapy
+      type: any
+    - code: Z1Q6214
+      value: Heroin maintenance
+      type: any
+    - code: Z416.00
+      value: Substance abuse counselling
+      type: any
+    - code: ZV11400
+      value: '[V]Personal history of psychoactive substance abuse'
+      type: prevalent
+    - code: ZV11500
+      value: '[V]Personal history of drug abuse by injection'
+      type: prevalent
+    - code: ZV6D700
+      value: '[V]Drug abuse counselling and surveillance'
+      type: any
+    - code: XaMfY
+      value: Previous history of amphetamine misuse
+      type: prevalent
+    - code: XaMyB
+      value: History of substance misuse
+      type: prevalent
+    - code: Ub0na
+      value: Priority of drug-related activities
+      type: any
+    - code: XaMhO
+      value: Uses heroin on top of substitution therapy
+      type: any
+    - code: Ub0nH
+      value: Sharing of drug injecting equipment
+      type: any
+    - code: XaKUb
+      value: Preoccupied with substance misuse
+      type: any
+    - code: XaMfg
+      value: Previous history of anti-depressant misuse
+      type: prevalent
+    - code: Ub0ms
+      value: Misused drugs in past
+      type: any
+    - code: XaKC4
+      value: '[X]Mental and behavioural disorders due to use of crack cocaine: psychotic
+        disorder'
+      type: any
+    - code: XaLBR
+      value: Drug addiction detoxification therapy - methadone
+      type: any
+    - code: XaMg4
+      value: Previous history of cannabis misuse
+      type: prevalent
+    - code: XE0hi
+      value: Drug addiction therapy
+      type: any
+    - code: XE0hi
+      value: Drug addiction therapy
+      type: any
+    - code: XaMfL
+      value: Previous history of heroin misuse
+      type: prevalent
+    - code: XaJr0
+      value: 'H/O: drug abuse'
+      type: prevalent
+    - code: XaKTo
+      value: Abstinent from drug misuse when receiving blocking therapy
+      type: any
+    - code: XE1YR
+      value: Opioid type drug dependence
+      type: any
+    - code: XE1YY
+      value: Nondependent hallucinogen abuse
+      type: any
+    - code: XaMzY
+      value: Reinduction to methadone maintenance therapy
+      type: any
+    - code: XE1ZH
+      value: '[X]Mental and behavioural disorders due to use of opioids: dependence
+        syndrome'
+      type: any
+    - code: XE1ZH
+      value: '[X]Mental and behavioural disorders due to use of opioids: dependence
+        syndrome'
+      type: any
+    - code: XE1ZH
+      value: '[X]Mental and behavioural disorders due to use of opioids: dependence
+        syndrome'
+      type: any
+    - code: XaNPH
+      value: Self referral to substance misuse service
+      type: any
+    - code: XaKC0
+      value: '[X]Mental and behavioural disorders due to use of crack cocaine: harmful
+        use'
+      type: any
+    - code: XaLQK
+      value: Ecstasy misuse
+      type: any
+    - code: Ub0mv
+      value: Poly-drug misuser
+      type: any
+    - code: XaMhP
+      value: Does not use heroin on top of substitution therapy
+      type: any
+    - code: XaLJG
+      value: Substance misuse treatment programme completed
+      type: any
+    - code: XaLsM
+      value: Drug abuse monitoring
+      type: prevalent
+    - code: Ub0nZ
+      value: Age at starting drug misuse
+      type: any
+    - code: XE1YZ
+      value: Nondependent hypnotic or anxiolytic abuse
+      type: any
+    - code: XaQ0j
+      value: Health problem secondary to drug misuse
+      type: any
+    - code: XaMzZ
+      value: Reinduction to buprenorphine maintenance therapy
+      type: any
+    - code: XE1YS
+      value: Hypnotic or anxiolytic dependence
+      type: any
+    - code: XaLW8
+      value: Opiate dependence detoxification
+      type: any
+    - code: XaMfw
+      value: Previous history of hallucinogen misuse
+      type: prevalent
+    - code: XaLJF
+      value: Substance misuse treatment withdrawn
+      type: any
+    - code: XaLQN
+      value: Heroin misuse
+      type: any
+    - code: Ub0mp
+      value: Drug misuse behaviour
+      type: any
+    - code: Ub0mu
+      value: Long-term drug misuser
+      type: any
+    - code: XaJlb
+      value: '[V]Personal history of drug abuse by injection'
+      type: prevalent
+    - code: XaJxt
+      value: Substance misuse monitoring
+      type: prevalent
+    - code: XaKUa
+      value: Prolonged high dose use of cannabis
+      type: any
+    - code: XaLK3
+      value: Urine methadone positive
+      type: any
+    - code: XaaAd
+      value: Drug misuse clinic administration
+      type: any
+    - code: XE1Yb
+      value: Nondependent other drug abuse
+      type: any
+    - code: XE1Yb
+      value: Nondependent other drug abuse
+      type: any
+    - code: XaMfs
+      value: Previous history of crack cocaine misuse
+      type: prevalent
+    - code: XaJz8
+      value: Substance misuse decreased
+      type: any
+    - code: XaMfQ
+      value: Previous history of methadone misuse
+      type: prevalent
+    - code: Ub0mw
+      value: Drug addict
+      type: any
+    - code: XaAxf
+      value: Illicit drug use
+      type: any
+    - code: XaJy7
+      value: Follow up substance misuse assessment
+      type: any
+    - code: XaMfI
+      value: Previous history of benzodiazepine misuse
+      type: prevalent
+    - code: XaMfo
+      value: Previous history of cocaine misuse
+      type: prevalent
+    - code: XaIvc
+      value: Referral to drug abuse counsellor
+      type: any
+    - code: XaLsw
+      value: Delivery of rehabilitation for drug addiction
+      type: any
+    - code: XaMfk
+      value: Previous history of opiate misuse
+      type: prevalent
+    - code: XaKSC
+      value: Current drug user
+      type: any
+    - code: XE2Mp
+      value: Drug addiction notification
+      type: any
+    - code: XaJy6
+      value: Initial substance misuse assessment
+      type: any
+    - code: XaNH7
+      value: Substance misuse treatment declined
+      type: any
+    - code: XaLKJ
+      value: Referral to substance misuse service
+      type: any
+    - code: XaJz7
+      value: Substance misuse increased
+      type: any
+    - code: Ub0n4
+      value: Sniffs drugs
+      type: any
+    - code: XE1ZI
+      value: '[X]Mental and behavioural disorders due to use of opioids: withdrawal
+        state'
+      type: any
+    - code: XE1ZI
+      value: '[X]Mental and behavioural disorders due to use of opioids: withdrawal
+        state'
+      type: any
+    - code: XaMg0
+      value: Previous history of barbiturate misuse
+      type: prevalent
+    - code: XaLJv
+      value: Drug addiction maintenance therapy - buprenorphine
+      type: any
+    - code: Ub0n8
+      value: Injects drugs subcutaneously
+      type: any
+    - code: XaPXz
+      value: Urine buprenorphine positive
+      type: any
+    - code: XaKC8
+      value: '[X]Mental and behavioural disorders due to use of crack cocaine: unspecified
+        mental and behavioural disorder'
+      type: any
+    - code: Ub0nJ
+      value: Shares drug equipment
+      type: any
+    - code: XaKTR
+      value: Continuous use of drugs
+      type: any
+    - code: XaMAP
+      value: Current non recreational drug user
+      type: any
+    - code: XaMHY
+      value: Neck injector
+      type: any
+    - code: XaLJw
+      value: Drug addiction detoxification therapy - buprenorphine
+      type: any
+    - code: XaNPW
+      value: Opioid agonist substitution therapy
+      type: any
+    - code: Ub0n0
+      value: Smokes drugs
+      type: any
+    - code: XaKBy
+      value: '[X]Mental and behavioural disorders due to use of crack cocaine'
+      type: any
+    - code: XaMfU
+      value: Previous history of ecstasy misuse
+      type: prevalent
+    - code: XE1ZL
+      value: '[X]Mental and behavioural disorders due to multiple drug use and use
+        of other psychoactive substances: dependence syndrome'
+      type: any
+    - code: XaKV9
+      value: Persistent substance misuse
+      type: any
+    - code: XaQE7
+      value: Seen in substance misuse clinic
+      type: any
+    - code: XaKC2
+      value: '[X]Mental and behavioural disorders due to use of crack cocaine: withdrawal
+        state'
+      type: any
+    - code: XaKBz
+      value: '[X]Mental and behavioural disorders due to use of crack cocaine: acute
+        intoxication'
+      type: any
+    - code: XaKSD
+      value: Reduced drugs misuse
+      type: any
+    - code: Ub0n3
+      value: Chases the dragon
+      type: any
+    - code: XaKiw
+      value: Buprenorphine maintenance therapy
+      type: any
+    - code: XaMg8
+      value: Previous history of solvent misuse
+      type: prevalent
+    - code: XE1YW
+      value: Other specified drug dependence
+      type: any
+    - code: Ub0n2
+      value: Smokes drugs through a pipe
+      type: any
+    - code: XaaML
+      value: Seen in drug misuse clinic
+      type: any
+    - code: XE2n9
+      value: '[X]Mental and behavioural disorders due to use of volatile solvents:
+        dependence syndrome'
+      type: any
+    - code: XaKC1
+      value: '[X]Mental and behavioural disorders due to use of crack cocaine: dependence
+        syndrome'
+      type: any
+    - code: Ub0n1
+      value: Smokes drugs in cigarette form
+      type: any
+    - code: Ub0n9
+      value: Injects drugs intramuscularly
+      type: any
+    - code: XS79h
+      value: Occasional drug user
+      type: any
+    - code: XE1YT
+      value: Cannabis type drug dependence
+      type: any
+    - code: XE2um
+      value: '[X]Mental and behavioural disorders due to use of hallucinogens: dependence
+        syndrome'
+      type: any
+    - code: XE1ZJ
+      value: '[X]Mental and behavioural disorders due to use of other stimulants,
+        including caffeine: dependence syndrome'
+      type: any
+    - code: XaRCP
+      value: Admission to substance misuse detoxification centre
+      type: any
+    - code: Ub0nk
+      value: Routine of drug-related activities
+      type: any
+    - code: XaKze
+      value: Substance misuse clinical management plan reviewed
+      type: any
+    - code: XaJzj
+      value: Substance misuse clinical management plan agreed
+      type: any
+    - code: Ub0nX
+      value: Time since stopped drug misuse
+      type: any
+    - code: Ub0mx
+      value: Notified addict
+      type: any
+    - code: Ub0my
+      value: Misuses drugs orally
+      type: any
+    - code: Ub0mt
+      value: Misuses drugs
+      type: any
+    - code: XaLIA
+      value: Substance misuse management stopped - self withdrawal
+      type: any
+    - code: Ub0n6
+      value: Misuses drugs rectally
+      type: any
+    - code: Ub0nG
+      value: Drug injecting equipment hygiene
+      type: any
+    - code: XE1ZK
+      value: '[X]Mental and behavioural disorders due to use of hallucinogens: residual
+        and late-onset psychotic disorder'
+      type: any
+    - code: XaKTS
+      value: Episodic use of drugs
+      type: any
+    - code: XaKTn
+      value: Abstinent from drug misuse on maintenance replacement
+      type: any
+    - code: XaLBS
+      value: Drug addiction maintenance therapy - methadone
+      type: any
+    - code: XaKcY
+      value: Previously injecting drug user
+      type: any
+    - code: XaNH9
+      value: Substance misuse structured counselling
+      type: any
+    - code: Ub0nD
+      value: Drug injection behaviour
+      type: any
+    - code: XE1YV
+      value: Hallucinogen dependence
+      type: any
+    - code: XaNPX
+      value: Opioid antagonist therapy
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

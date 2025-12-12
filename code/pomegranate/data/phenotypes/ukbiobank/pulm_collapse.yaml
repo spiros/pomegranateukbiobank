@@ -1,0 +1,126 @@
+metadata:
+  phenotype: Pulmonary collapse (excl pneumothorax)
+  group: Respiratory
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: pulm_collapse
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: d6f174a3-396c-4e24-9b8c-ef485f222bbb
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: D001261
+    SNOMED-CT: '46621007'
+    FINNGEN: null
+  short_desc: Absence of air in the entire or part of a lung, such as an incompletely
+    inflated neonate lung or a collapsed adult lung.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: J98.1
+      value: Pulmonary collapse
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: J98.1
+      value: Pulmonary collapse
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J98.1
+      value: Pulmonary collapse
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J98.1
+      value: Pulmonary collapse
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 23E4.11
+      value: O/E - collapse - lung
+      type: any
+    - code: H580.00
+      value: Pulmonary collapse with atelectasis
+      type: any
+    - code: H580.11
+      value: Atelectasis
+      type: any
+    - code: H580.12
+      value: Collapse of lung
+      type: any
+    - code: XE0Yc
+      value: Pulmonary collapse with atelectasis
+      type: any
+    - code: XE0Yc
+      value: Pulmonary collapse with atelectasis
+      type: any
+    - code: XE1hI
+      value: O/E - collapse present
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

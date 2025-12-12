@@ -1,0 +1,418 @@
+metadata:
+  phenotype: Myocardial infarction
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: myocardial_infarction
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 6e612160-fcb5-4d10-a8ed-01dfd2d68803
+  ontologies:
+    DOID: DOID_5844
+    GWAS: EFO_0000612
+    MESH: D009203
+    SNOMED-CT: 22298006
+    FINNGEN: I9_MI
+  short_desc: Gross necrosis of the myocardium, as a result of interruption of the
+    blood supply to the area, as in coronary thrombosis.
+  long_desc: null
+  priority: 2
+definitions:
+  6150:
+    metadata:
+      desc: Vascular/heart problems diagnosed by doctor
+      time_qualifier:
+        field_id: 3894
+        type: age
+    values:
+    - code: '1'
+      value: heart attack
+      type: any
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1075'
+      value: heart attack/myocardial infarction
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I25.2
+      value: Old myocardial infarction
+      type: prevalent
+    - code: I21
+      value: Acute myocardial infarction
+      type: any
+    - code: I22
+      value: Subsequent myocardial infarction
+      type: any
+    - code: I23
+      value: Certain current complications following acute myocardial infarction
+      type: any
+    - code: I24.1
+      value: Dressler's syndrome
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I25.2
+      value: Old myocardial infarction
+      type: prevalent
+    - code: I21
+      value: Acute myocardial infarction
+      type: any
+    - code: I22
+      value: Subsequent myocardial infarction
+      type: prevalent
+    - code: I23
+      value: Certain current complications following acute myocardial infarction
+      type: prevalent
+    - code: I24.1
+      value: Dressler's syndrome
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I25.2
+      value: Old myocardial infarction
+      type: any
+    - code: I21
+      value: Acute myocardial infarction
+      type: any
+    - code: I22
+      value: Subsequent myocardial infarction
+      type: any
+    - code: I23
+      value: Certain current complications following acute myocardial infarction
+      type: any
+    - code: I24.1
+      value: Dressler's syndrome
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I25.2
+      value: Old myocardial infarction
+      type: any
+    - code: I21
+      value: Acute myocardial infarction
+      type: any
+    - code: I22
+      value: Subsequent myocardial infarction
+      type: any
+    - code: I23
+      value: Certain current complications following acute myocardial infarction
+      type: any
+    - code: I24.1
+      value: Dressler's syndrome
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14A3.00
+      value: 'H/O: myocardial infarct <60'
+      type: prevalent
+    - code: 14A4.00
+      value: 'H/O: myocardial infarct >60'
+      type: prevalent
+    - code: 14AH.00
+      value: 'H/O: Myocardial infarction in last year'
+      type: prevalent
+    - code: G310.00
+      value: Postmyocardial infarction syndrome
+      type: any
+    - code: G32..00
+      value: Old myocardial infarction
+      type: prevalent
+    - code: G32..11
+      value: Healed myocardial infarction
+      type: prevalent
+    - code: G32..12
+      value: Personal history of myocardial infarction
+      type: prevalent
+    - code: G33z500
+      value: Post infarct angina
+      type: prevalent
+    - code: G30..11
+      value: Attack - heart
+      type: any
+    - code: G30..14
+      value: Heart attack
+      type: any
+    - code: G30..17
+      value: Silent myocardial infarction
+      type: any
+    - code: G30A.00
+      value: Mural thrombosis
+      type: any
+    - code: G30X000
+      value: Acute ST segment elevation myocardial infarction
+      type: any
+    - code: G307100
+      value: Acute non-ST segment elevation myocardial infarction
+      type: any
+    - code: 323..00
+      value: 'ECG: myocardial infarction'
+      type: any
+    - code: '3233'
+      value: 'ECG: antero-septal infarct.'
+      type: any
+    - code: '3234'
+      value: ECG:posterior/inferior infarct
+      type: any
+    - code: '3235'
+      value: 'ECG: subendocardial infarct'
+      type: any
+    - code: '3236'
+      value: 'ECG: lateral infarction'
+      type: any
+    - code: 323Z.00
+      value: 'ECG: myocardial infarct NOS'
+      type: any
+    - code: 889A.00
+      value: Diab mellit insulin-glucose infus acute myocardial infarct
+      type: any
+    - code: G30..00
+      value: Acute myocardial infarction
+      type: any
+    - code: G30..12
+      value: Coronary thrombosis
+      type: any
+    - code: G30..13
+      value: Cardiac rupture following myocardial infarction (MI)
+      type: any
+    - code: G30..15
+      value: MI - acute myocardial infarction
+      type: any
+    - code: G30..16
+      value: Thrombosis - coronary
+      type: any
+    - code: G300.00
+      value: Acute anterolateral infarction
+      type: any
+    - code: G301.00
+      value: Other specified anterior myocardial infarction
+      type: any
+    - code: G301000
+      value: Acute anteroapical infarction
+      type: any
+    - code: G301100
+      value: Acute anteroseptal infarction
+      type: any
+    - code: G301z00
+      value: Anterior myocardial infarction NOS
+      type: any
+    - code: G302.00
+      value: Acute inferolateral infarction
+      type: any
+    - code: G303.00
+      value: Acute inferoposterior infarction
+      type: any
+    - code: G304.00
+      value: Posterior myocardial infarction NOS
+      type: any
+    - code: G305.00
+      value: Lateral myocardial infarction NOS
+      type: any
+    - code: G306.00
+      value: True posterior myocardial infarction
+      type: any
+    - code: G307.00
+      value: Acute subendocardial infarction
+      type: any
+    - code: G307000
+      value: Acute non-Q wave infarction
+      type: any
+    - code: G308.00
+      value: Inferior myocardial infarction NOS
+      type: any
+    - code: G309.00
+      value: Acute Q-wave infarct
+      type: any
+    - code: G30B.00
+      value: Acute posterolateral myocardial infarction
+      type: any
+    - code: G30X.00
+      value: Acute transmural myocardial infarction of unspecif site
+      type: any
+    - code: G30y.00
+      value: Other acute myocardial infarction
+      type: any
+    - code: G30y000
+      value: Acute atrial infarction
+      type: any
+    - code: G30y100
+      value: Acute papillary muscle infarction
+      type: any
+    - code: G30y200
+      value: Acute septal infarction
+      type: any
+    - code: G30yz00
+      value: Other acute myocardial infarction NOS
+      type: any
+    - code: G30z.00
+      value: Acute myocardial infarction NOS
+      type: any
+    - code: G31y100
+      value: Microinfarction of heart
+      type: any
+    - code: G38..00
+      value: Postoperative myocardial infarction
+      type: any
+    - code: G380.00
+      value: Postoperative transmural myocardial infarction anterior wall
+      type: any
+    - code: G381.00
+      value: Postoperative transmural myocardial infarction inferior wall
+      type: any
+    - code: G384.00
+      value: Postoperative subendocardial myocardial infarction
+      type: any
+    - code: G38z.00
+      value: Postoperative myocardial infarction, unspecified
+      type: any
+    - code: Gyu3400
+      value: '[X]Acute transmural myocardial infarction of unspecif site'
+      type: any
+    - code: G35..00
+      value: Subsequent myocardial infarction
+      type: any
+    - code: G350.00
+      value: Subsequent myocardial infarction of anterior wall
+      type: any
+    - code: G351.00
+      value: Subsequent myocardial infarction of inferior wall
+      type: any
+    - code: G353.00
+      value: Subsequent myocardial infarction of other sites
+      type: any
+    - code: G35X.00
+      value: Subsequent myocardial infarction of unspecified site
+      type: any
+    - code: G310.11
+      value: Dressler's syndrome
+      type: any
+    - code: G36..00
+      value: Certain current complication follow acute myocardial infarct
+      type: any
+    - code: G360.00
+      value: Haemopericardium/current comp folow acut myocard infarct
+      type: any
+    - code: G361.00
+      value: Atrial septal defect/curr comp folow acut myocardal infarct
+      type: any
+    - code: G362.00
+      value: Ventric septal defect/curr comp fol acut myocardal infarctn
+      type: any
+    - code: G363.00
+      value: Ruptur cardiac wall w'out haemopericard/cur comp fol ac MI
+      type: any
+    - code: G364.00
+      value: Ruptur chordae tendinae/curr comp fol acute myocard infarct
+      type: any
+    - code: G365.00
+      value: Rupture papillary muscle/curr comp fol acute myocard infarct
+      type: any
+    - code: G366.00
+      value: Thrombosis atrium,auric append&vent/curr comp foll acute MI
+      type: any
+    - code: G501.00
+      value: Post infarction pericarditis
+      type: any
+    - code: XaFx7
+      value: Diabetes mellitus insulin-glucose infusion in acute myocardial infarction
+      type: any
+    - code: XaIwY
+      value: Acute non-ST segment elevation myocardial infarction
+      type: any
+    - code: XE2aA
+      value: Old myocardial infarction
+      type: prevalent
+    - code: XaEXt
+      value: Post infarct angina
+      type: any
+    - code: XaIwM
+      value: Acute ST segment elevation myocardial infarction
+      type: any
+    - code: XaD2i
+      value: Postoperative myocardial infarction, unspecified
+      type: any
+    - code: XaD2d
+      value: Postoperative transmural myocardial infarction of anterior wall
+      type: any
+    - code: XaD2b
+      value: Postoperative myocardial infarction
+      type: any
+    - code: XaAzi
+      value: Acute non-Q wave infarction
+      type: any
+    - code: XaD2e
+      value: Postoperative transmural myocardial infarction of inferior wall
+      type: any
+    - code: XE0Uh
+      value: Acute myocardial infarction
+      type: any
+    - code: XaBL1
+      value: 'H/O: Myocardial infarction in last year'
+      type: prevalent
+    - code: XaD2h
+      value: Postoperative subendocardial myocardial infarction
+      type: any
+    - code: XaJX0
+      value: Acute posterolateral myocardial infarction
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

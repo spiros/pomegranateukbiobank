@@ -1,0 +1,800 @@
+metadata:
+  phenotype: Congenital malformations of cardiac septa
+  group: Perinatal
+  is_cancer: '0'
+  is_adult: '0'
+  variable_name: congenital_septal
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: a5c478e7-156a-4211-9f4f-ef089ccfca5b
+  ontologies:
+    DOID: DOID_1681
+    GWAS: MONDO_0002078
+    MESH: D006343
+    SNOMED-CT: 59494005
+    FINNGEN: Q17_SEPTA_DEFEC
+  short_desc: Abnormalities in any part of the HEART SEPTUM resulting in abnormal
+    communication between the left and the right chambers of the heart. The abnormal
+    blood flow inside the heart may be caused by defects in the ATRIAL SEPTUM, the
+    VENTRICULAR SEPTUM, or both.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: Q21
+      value: Congenital malformations of cardiac septa
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: Q21
+      value: Congenital malformations of cardiac septa
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: K04
+      value: Repair of tetralogy of Fallot
+      type: any
+    - code: K04.1
+      value: Repair of tetralogy of Fallot using valved right ventricular outflow
+        conduit
+      type: any
+    - code: K04.2
+      value: Repair of tetralogy of Fallot using right ventricular outflow conduit
+        NEC
+      type: any
+    - code: K04.3
+      value: Repair of tetralogy of Fallot using transannular patch
+      type: any
+    - code: K04.4
+      value: Revision of repair of tetralogy of Fallot
+      type: any
+    - code: K04.5
+      value: Repair of tetralogy of Fallot with absent pulmonary valve
+      type: any
+    - code: K04.6
+      value: Repair of Fallot-type pulmonary atresia with aortopulmonary collaterals
+      type: any
+    - code: K04.8
+      value: Other specified repair of tetralogy of Fallot
+      type: any
+    - code: K04.9
+      value: Unspecified repair of tetralogy of Fallot
+      type: any
+    - code: K09
+      value: Repair of defect of atrioventricular septum
+      type: any
+    - code: K09.1
+      value: Repair of defect of atrioventricular septum using dual prosthetic patches
+      type: any
+    - code: K09.2
+      value: Repair of defect of atrioventricular septum using prosthetic patch NEC
+      type: any
+    - code: K09.3
+      value: Repair of defect of atrioventricular septum using tissue graft
+      type: any
+    - code: K09.4
+      value: Repair of persistent ostium primum
+      type: any
+    - code: K09.5
+      value: Primary repair of defect of atrioventricular septum NEC
+      type: any
+    - code: K09.6
+      value: Revision of repair of defect of atrioventricular septum
+      type: any
+    - code: K09.8
+      value: Other specified repair of defect of atrioventricular septum
+      type: any
+    - code: K09.9
+      value: Unspecified repair of defect of atrioventricular septum
+      type: any
+    - code: K10
+      value: Repair of defect of interatrial septum
+      type: any
+    - code: K10.1
+      value: Repair of defect of interatrial septum using prosthetic patch
+      type: any
+    - code: K10.2
+      value: Repair of defect of interatrial septum using pericardial patch
+      type: any
+    - code: K10.3
+      value: Repair of defect of interatrial septum using tissue graft NEC
+      type: any
+    - code: K10.4
+      value: Primary repair of defect of interatrial septum NEC
+      type: any
+    - code: K10.5
+      value: Revision of repair of defect of interatrial septum
+      type: any
+    - code: K10.8
+      value: Other specified repair of defect of interatrial septum
+      type: any
+    - code: K10.9
+      value: Unspecified repair of defect of interatrial septum
+      type: any
+    - code: K11
+      value: Repair of defect of interventricular septum
+      type: any
+    - code: K11.1
+      value: Repair of defect of interventricular septum using prosthetic patch
+      type: any
+    - code: K11.2
+      value: Repair of defect of interventricular septum using pericardial patch
+      type: any
+    - code: K11.3
+      value: Repair of defect of interventricular septum using tissue graft NEC
+      type: any
+    - code: K11.4
+      value: Primary repair of defect of interventricular septum NEC
+      type: any
+    - code: K11.5
+      value: Revision of repair of defect of interventricular septum
+      type: any
+    - code: K11.6
+      value: Repair of multiple interventricular septal defects
+      type: any
+    - code: K11.7
+      value: Repair of interventricular septal defect using intraoperative transluminal
+        prosthesis
+      type: any
+    - code: K11.8
+      value: Other specified repair of defect of interventricular septum
+      type: any
+    - code: K11.9
+      value: Unspecified repair of defect of interventricular septum
+      type: any
+    - code: K12
+      value: Repair of defect of unspecified septum of heart
+      type: any
+    - code: K12.1
+      value: Repair of defect of septum of heart using prosthetic patch NEC
+      type: any
+    - code: K12.2
+      value: Repair of defect of septum of heart using pericardial patch NEC
+      type: any
+    - code: K12.3
+      value: Repair of defect of septum of heart using tissue graft NEC
+      type: any
+    - code: K12.4
+      value: Primary repair of defect of septum of heart NEC
+      type: any
+    - code: K12.5
+      value: Revision of repair of septum of heart NEC
+      type: any
+    - code: K12.8
+      value: Other specified repair of defect of unspecified septum of heart
+      type: any
+    - code: K12.9
+      value: Unspecified repair of defect of unspecified septum of heart
+      type: any
+    - code: K13
+      value: Transluminal repair of defect of septum
+      type: any
+    - code: K13.1
+      value: Percutaneous transluminal repair of defect of interventricular septum
+        using prosthesis
+      type: any
+    - code: K13.2
+      value: Percutaneous transluminal repair of defect of interventricular septum
+        NEC
+      type: any
+    - code: K13.3
+      value: Percutaneous transluminal repair of defect of interatrial septum using
+        prosthesis
+      type: any
+    - code: K13.4
+      value: Percutaneous transluminal repair of defect of interatrial septum NEC
+      type: any
+    - code: K13.5
+      value: Percutaneous transluminal repair of defect of unspecified septum using
+        prosthesis
+      type: any
+    - code: K13.8
+      value: Other specified transluminal repair of defect of septum
+      type: any
+    - code: K13.9
+      value: Unspecified transluminal repair of defect of septum
+      type: any
+    - code: K14
+      value: Other open operations on septum of heart
+      type: any
+    - code: K14.1
+      value: Open enlargement of defect of atrial septum
+      type: any
+    - code: K14.2
+      value: Open atrial septostomy
+      type: any
+    - code: K14.3
+      value: Atrial septectomy
+      type: any
+    - code: K14.4
+      value: Surgical atrial septation
+      type: any
+    - code: K14.5
+      value: Open enlargement of defect of interventricular septum
+      type: any
+    - code: K14.8
+      value: Other specified other open operations on septum of heart
+      type: any
+    - code: K14.9
+      value: Unspecified other open operations on septum of heart
+      type: any
+    - code: K15
+      value: Closed operations on septum of heart
+      type: any
+    - code: K15.1
+      value: Closed enlargement of defect of atrial septum
+      type: any
+    - code: K15.2
+      value: Closed atrial septostomy
+      type: any
+    - code: K15.8
+      value: Other specified closed operations on septum of heart
+      type: any
+    - code: K15.9
+      value: Unspecified closed operations on septum of heart
+      type: any
+    - code: K16
+      value: Other therapeutic transluminal operations on septum of heart
+      type: any
+    - code: K16.1
+      value: Percutaneous transluminal balloon atrial septostomy
+      type: any
+    - code: K16.2
+      value: Percutaneous transluminal atrial septostomy NEC
+      type: any
+    - code: K16.3
+      value: Percutaneous transluminal atrial septum fenestration closure with prosthesis
+      type: any
+    - code: K16.4
+      value: Percutaneous transluminal atrial septum fenestration
+      type: any
+    - code: K16.5
+      value: Percutaneous transluminal closure of patent oval foramen with prosthesis
+      type: any
+    - code: K16.6
+      value: Percutaneous transluminal chemical mediated septal ablation
+      type: any
+    - code: K16.8
+      value: Other specified other therapeutic transluminal operations on septum of
+        heart
+      type: any
+    - code: K16.9
+      value: Unspecified other therapeutic transluminal operations on septum of heart
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: K04
+      value: K04
+      type: any
+    - code: K04.1
+      value: K04.1
+      type: any
+    - code: K04.2
+      value: K04.2
+      type: any
+    - code: K04.3
+      value: K04.3
+      type: any
+    - code: K04.4
+      value: K04.4
+      type: any
+    - code: K04.5
+      value: K04.5
+      type: any
+    - code: K04.6
+      value: K04.6
+      type: any
+    - code: K04.8
+      value: K04.8
+      type: any
+    - code: K04.9
+      value: K04.9
+      type: any
+    - code: K09
+      value: K09
+      type: any
+    - code: K09.1
+      value: K09.1
+      type: any
+    - code: K09.2
+      value: K09.2
+      type: any
+    - code: K09.3
+      value: K09.3
+      type: any
+    - code: K09.4
+      value: K09.4
+      type: any
+    - code: K09.5
+      value: K09.5
+      type: any
+    - code: K09.6
+      value: K09.6
+      type: any
+    - code: K09.8
+      value: K09.8
+      type: any
+    - code: K09.9
+      value: K09.9
+      type: any
+    - code: K10
+      value: K10
+      type: any
+    - code: K10.1
+      value: K10.1
+      type: any
+    - code: K10.2
+      value: K10.2
+      type: any
+    - code: K10.3
+      value: K10.3
+      type: any
+    - code: K10.4
+      value: K10.4
+      type: any
+    - code: K10.5
+      value: K10.5
+      type: any
+    - code: K10.8
+      value: K10.8
+      type: any
+    - code: K10.9
+      value: K10.9
+      type: any
+    - code: K11
+      value: K11
+      type: any
+    - code: K11.1
+      value: K11.1
+      type: any
+    - code: K11.2
+      value: K11.2
+      type: any
+    - code: K11.3
+      value: K11.3
+      type: any
+    - code: K11.4
+      value: K11.4
+      type: any
+    - code: K11.5
+      value: K11.5
+      type: any
+    - code: K11.6
+      value: K11.6
+      type: any
+    - code: K11.7
+      value: K11.7
+      type: any
+    - code: K11.8
+      value: K11.8
+      type: any
+    - code: K11.9
+      value: K11.9
+      type: any
+    - code: K12
+      value: K12
+      type: any
+    - code: K12.1
+      value: K12.1
+      type: any
+    - code: K12.2
+      value: K12.2
+      type: any
+    - code: K12.3
+      value: K12.3
+      type: any
+    - code: K12.4
+      value: K12.4
+      type: any
+    - code: K12.5
+      value: K12.5
+      type: any
+    - code: K12.8
+      value: K12.8
+      type: any
+    - code: K12.9
+      value: K12.9
+      type: any
+    - code: K13
+      value: K13
+      type: any
+    - code: K13.1
+      value: K13.1
+      type: any
+    - code: K13.2
+      value: K13.2
+      type: any
+    - code: K13.3
+      value: K13.3
+      type: any
+    - code: K13.4
+      value: K13.4
+      type: any
+    - code: K13.5
+      value: K13.5
+      type: any
+    - code: K13.8
+      value: K13.8
+      type: any
+    - code: K13.9
+      value: K13.9
+      type: any
+    - code: K14
+      value: K14
+      type: any
+    - code: K14.1
+      value: K14.1
+      type: any
+    - code: K14.2
+      value: K14.2
+      type: any
+    - code: K14.3
+      value: K14.3
+      type: any
+    - code: K14.4
+      value: K14.4
+      type: any
+    - code: K14.5
+      value: K14.5
+      type: any
+    - code: K14.8
+      value: K14.8
+      type: any
+    - code: K14.9
+      value: K14.9
+      type: any
+    - code: K15
+      value: K15
+      type: any
+    - code: K15.1
+      value: K15.1
+      type: any
+    - code: K15.2
+      value: K15.2
+      type: any
+    - code: K15.8
+      value: K15.8
+      type: any
+    - code: K15.9
+      value: K15.9
+      type: any
+    - code: K16
+      value: K16
+      type: any
+    - code: K16.1
+      value: K16.1
+      type: any
+    - code: K16.2
+      value: K16.2
+      type: any
+    - code: K16.3
+      value: K16.3
+      type: any
+    - code: K16.4
+      value: K16.4
+      type: any
+    - code: K16.5
+      value: K16.5
+      type: any
+    - code: K16.6
+      value: K16.6
+      type: any
+    - code: K16.8
+      value: K16.8
+      type: any
+    - code: K16.9
+      value: K16.9
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: Q21
+      value: Congenital malformations of cardiac septa
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: Q21
+      value: Congenital malformations of cardiac septa
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14AV.00
+      value: History of ventricular septal defect
+      type: prevalent
+    - code: '2126800.0'
+      value: Ostium secundum atrial septal defect resolved
+      type: any
+    - code: 24M..00
+      value: Spontaneous closure of ventricular septal defect
+      type: any
+    - code: '7902000.0'
+      value: Correct Fallot tetralogy- valved right ventr outflow conduit
+      type: any
+    - code: '7902100.0'
+      value: Correct Fallot tetralogy- right ventric outflow conduit NEC
+      type: any
+    - code: '7902200.0'
+      value: Correct Fallot tetralogy- right ventricular outflow patch
+      type: any
+    - code: '7902300.0'
+      value: Revision of correction of tetralogy of Fallot
+      type: any
+    - code: '7902400.0'
+      value: Repair of tetralogy of Fallot using transannular patch
+      type: any
+    - code: '7902500.0'
+      value: Repair of tetralogy of Fallot with absent pulmonary valve
+      type: any
+    - code: '7902600.0'
+      value: Repair Fallot-type pulmonary atresia aortopulmonary collater
+      type: any
+    - code: '7902.00'
+      value: Correction of tetralogy of Fallot
+      type: any
+    - code: '7902.11'
+      value: Repair of tetralogy of Fallot
+      type: any
+    - code: 7902y00
+      value: Other specified correction of tetralogy of Fallot
+      type: any
+    - code: 7902z00
+      value: Correction of tetralogy of Fallot NOS
+      type: any
+    - code: 7902z11
+      value: Repair of tetralogy of Fallot NOS
+      type: any
+    - code: '7906300.0'
+      value: Closure of persistent ostium primum
+      type: any
+    - code: '7906311.0'
+      value: Repair of persistent ostium primum
+      type: any
+    - code: '7908500.0'
+      value: Closure of multiple interventricular septal defects
+      type: any
+    - code: '7908511.0'
+      value: Repair of multiple interventricular septal defects
+      type: any
+    - code: '7908600.0'
+      value: Closure interventricular septal defect us intraop trans pros
+      type: any
+    - code: '7908611.0'
+      value: Repair interventricular septal defect us intraop trans pros
+      type: any
+    - code: 790K100
+      value: Repair of Fallot-type double outlet right ventricle
+      type: any
+    - code: P500.00
+      value: Absent septum between aorta and pulmonary artery
+      type: any
+    - code: P511300
+      value: Taussig-Bing syndrome
+      type: any
+    - code: P520.00
+      value: Tetralogy of Fallot, unspecified
+      type: any
+    - code: P520.11
+      value: Ventricular septal defect in Fallot's tetralogy
+      type: any
+    - code: P520.12
+      value: Dextraposition of aorta in Fallot's tetralogy
+      type: any
+    - code: P521.00
+      value: Pentalogy of Fallot
+      type: any
+    - code: P52..00
+      value: Tetralogy of Fallot
+      type: any
+    - code: P52z.00
+      value: Tetralogy of Fallot NOS
+      type: any
+    - code: P53..00
+      value: Common ventricle
+      type: any
+    - code: P540.00
+      value: Ventricular septal defect, unspecified
+      type: any
+    - code: P541.00
+      value: Interventricular septal defect
+      type: any
+    - code: P542.00
+      value: Left ventricle to right atrial communication
+      type: any
+    - code: P543.00
+      value: Eisenmenger's complex
+      type: any
+    - code: P544.00
+      value: Gerbode's defect
+      type: any
+    - code: P545.00
+      value: Roger's disease
+      type: any
+    - code: P54..00
+      value: Ventricular septal defect
+      type: any
+    - code: P54y.00
+      value: Other specified ventricular septal defect
+      type: any
+    - code: P54z.00
+      value: Ventricular septal defect NOS
+      type: any
+    - code: P550.00
+      value: Atrial septal defect NOS
+      type: any
+    - code: P550.11
+      value: Auricular septal defect NOS
+      type: any
+    - code: P550.12
+      value: Interatrial septal defect NEC
+      type: any
+    - code: P550.13
+      value: Interauricular septal defect
+      type: any
+    - code: P551.00
+      value: Patent foramen ovale
+      type: any
+    - code: P552.00
+      value: Persistent ostium secundum
+      type: any
+    - code: P552.11
+      value: Patent ostium secundum
+      type: any
+    - code: P553.00
+      value: Lutembacher's syndrome
+      type: any
+    - code: P55..00
+      value: Ostium secundum atrial septal defect
+      type: any
+    - code: P55y.00
+      value: Other specified ostium secundum atrial septal defect
+      type: any
+    - code: P55y.11
+      value: Other specified atrial septal defect
+      type: any
+    - code: P55z.00
+      value: Ostium secundum atrial septal defect NOS
+      type: any
+    - code: P561.00
+      value: Ostium primum defect
+      type: any
+    - code: P561.11
+      value: Persistent ostium primum
+      type: any
+    - code: P56..00
+      value: Endocardial cushion defects
+      type: any
+    - code: P56y.00
+      value: Other specified endocardial cushion defects
+      type: any
+    - code: P56z000
+      value: Common atrium
+      type: any
+    - code: P56z011
+      value: Cor triloculare biventriculare
+      type: any
+    - code: P56z100
+      value: Common atrioventricular canal
+      type: any
+    - code: P56z200
+      value: Common atrioventricular-type ventricular septal defect
+      type: any
+    - code: P56z.00
+      value: Endocardial cushion defects NOS
+      type: any
+    - code: P56zz00
+      value: Endocardial cushion defects NOS
+      type: any
+    - code: P5y..00
+      value: Other heart bulb and septal closure defect
+      type: any
+    - code: P5z..00
+      value: Heart bulb or septal closure defects NOS
+      type: any
+    - code: P60z100
+      value: Fallot's trilogy
+      type: any
+    - code: XaMK7
+      value: Repair of Fallot-type pulmonary atresia with aortopulmonary collaterals
+      type: any
+    - code: XE2vz
+      value: Common atrium
+      type: any
+    - code: XC0MC
+      value: Common ventricle
+      type: any
+    - code: XaMK6
+      value: Repair of tetralogy of Fallot with absent pulmonary valve
+      type: any
+    - code: XaYrl
+      value: Ostium secundum atrial septal defect resolved
+      type: any
+    - code: XaLer
+      value: Closure of interventricular septal defect using intraoperative transluminal
+        prosthesis
+      type: any
+    - code: XaZ7D
+      value: Spontaneous closure of ventricular septal defect
+      type: any
+    - code: XaLeq
+      value: Closure of multiple interventricular septal defects
+      type: any
+    - code: X010U
+      value: Repair of Fallot-type double outlet right ventricle
+      type: any
+    - code: P56z.
+      value: Endocardial cushion defects NOS
+      type: any
+    - code: XE1KE
+      value: Atrial septal defect NOS
+      type: any
+    - code: XaRF7
+      value: History of ventricular septal defect
+      type: prevalent
+    - code: XE1KD
+      value: Tetralogy of Fallot, unspecified
+      type: any
+    - code: XE1KF
+      value: Other specified ostium secundum atrial septal defect
+      type: any
+    - code: XaMK5
+      value: Repair of tetralogy of Fallot using transannular patch
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

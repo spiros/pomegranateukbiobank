@@ -1,0 +1,324 @@
+metadata:
+  phenotype: Anorectal prolapse
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: anorectal_prolapse
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 01bc7f8b-eb06-4cf4-b899-6b08a55fdec5
+  ontologies:
+    DOID: DOID_9307
+    GWAS: MONDO_0004754
+    MESH: D012005
+    SNOMED-CT: 57773001
+    FINNGEN: null
+  short_desc: 'Protrusion of the rectal mucous membrane through the anus. There are
+    various degrees: incomplete with no displacement of the anal sphincter muscle;
+    complete with displacement of the anal sphincter muscle; complete with no displacement
+    of the anal sphincter muscle but with herniation of the bowel; and internal complete
+    with rectosigmoid or upper rectum intussusception into the lower rectum.'
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1603'
+      value: rectal prolapse
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K62.2
+      value: Anal prolapse
+      type: any
+    - code: K62.3
+      value: Rectal prolapse
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K62.2
+      value: Anal prolapse
+      type: any
+    - code: K62.3
+      value: Rectal prolapse
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: H36
+      value: Other abdominal operations for prolapse of rectum
+      type: any
+    - code: H36.1
+      value: Abdominal repair of levator ani muscles
+      type: any
+    - code: H36.8
+      value: Other specified other abdominal operations for prolapse of rectum
+      type: any
+    - code: H36.9
+      value: Unspecified other abdominal operations for prolapse of rectum
+      type: any
+    - code: H42
+      value: Perineal operations for prolapse of rectum
+      type: any
+    - code: H42.1
+      value: Insertion of encircling suture around perianal sphincter
+      type: any
+    - code: H42.2
+      value: Perineal plication of levator ani muscles and anal sphincters
+      type: any
+    - code: H42.3
+      value: Insertion of supralevator sling
+      type: any
+    - code: H42.4
+      value: Removal of encircling suture from around perianal sphincter
+      type: any
+    - code: H42.5
+      value: Excision of mucosal prolapse of rectum NEC
+      type: any
+    - code: H42.6
+      value: Perineal repair of prolapse of rectum NEC
+      type: any
+    - code: H42.8
+      value: Other specified perineal operations for prolapse of rectum
+      type: any
+    - code: H42.9
+      value: Unspecified perineal operations for prolapse of rectum
+      type: any
+    - code: H44.2
+      value: Manual reduction of prolapse of rectum
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: H36
+      value: H36
+      type: any
+    - code: H36.1
+      value: H36.1
+      type: any
+    - code: H36.8
+      value: H36.8
+      type: any
+    - code: H36.9
+      value: H36.9
+      type: any
+    - code: H42
+      value: H42
+      type: any
+    - code: H42.1
+      value: H42.1
+      type: any
+    - code: H42.2
+      value: H42.2
+      type: any
+    - code: H42.3
+      value: H42.3
+      type: any
+    - code: H42.4
+      value: H42.4
+      type: any
+    - code: H42.5
+      value: H42.5
+      type: any
+    - code: H42.6
+      value: H42.6
+      type: any
+    - code: H42.8
+      value: H42.8
+      type: any
+    - code: H42.9
+      value: H42.9
+      type: any
+    - code: H44.2
+      value: H44.2
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K62.2
+      value: Anal prolapse
+      type: any
+    - code: K62.3
+      value: Rectal prolapse
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K62.2
+      value: Anal prolapse
+      type: any
+    - code: K62.3
+      value: Rectal prolapse
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '7720.00'
+      value: Partial excision of rectum and sigmoid colon for prolapse
+      type: any
+    - code: 7720y00
+      value: Partial excision of rectum and sigmoid colon for prolapse OS
+      type: any
+    - code: 7720z00
+      value: Partial excision of rectum & sigmoid colon for prolapse NOS
+      type: any
+    - code: '7723400.0'
+      value: Proctopexy for prolapse of rectum
+      type: any
+    - code: '7723411.0'
+      value: Erickman repair of prolapse of rectum
+      type: any
+    - code: '7723500.0'
+      value: Insertion of sponge for rectal prolapse
+      type: any
+    - code: '7723511.0'
+      value: Insertion of Wells sponge for rectal prolapse
+      type: any
+    - code: '7723.00'
+      value: Fixation of rectum for prolapse
+      type: any
+    - code: '7723.11'
+      value: Proctopexy for prolapse of rectum
+      type: any
+    - code: '7723.12'
+      value: Rectopexy for prolapse
+      type: any
+    - code: 7723y00
+      value: Other specified fixation of rectum for prolapse
+      type: any
+    - code: 7723z00
+      value: Fixation of rectum for prolapse NOS
+      type: any
+    - code: '7724011.0'
+      value: Graham repair for rectal prolapse
+      type: any
+    - code: '7724012.0'
+      value: Roscoe repair for rectal prolapse
+      type: any
+    - code: '7724.00'
+      value: Other abdominal operations for rectal prolapse
+      type: any
+    - code: 7724y00
+      value: Other abdominal operation for rectal prolapse OS
+      type: any
+    - code: 7724y11
+      value: Delorme repair of rectum for prolapse
+      type: any
+    - code: 7724z00
+      value: Other abdominal operation for rectal prolapse NOS
+      type: any
+    - code: '7726400.0'
+      value: Reduction of prolapsed rectum NEC
+      type: any
+    - code: '7727011.0'
+      value: Thiersch wiring for prolapse of rectum
+      type: any
+    - code: '7727400.0'
+      value: Excision of mucosal prolapse of rectum NEC
+      type: any
+    - code: '7727500.0'
+      value: Perineal repair of rectal prolapse NEC
+      type: any
+    - code: '7727.00'
+      value: Perineal operations for rectal prolapse
+      type: any
+    - code: 7727y00
+      value: Other specified perineal operation for rectal prolapse
+      type: any
+    - code: 7727z00
+      value: Perineal operation for rectal prolapse NOS
+      type: any
+    - code: '7728400.0'
+      value: Manual reduction of rectal prolapse
+      type: any
+    - code: J571000
+      value: Partial rectal prolapse
+      type: any
+    - code: J571100
+      value: Complete rectal prolapse
+      type: any
+    - code: J571200
+      value: Anal prolapse
+      type: any
+    - code: J571.00
+      value: Rectal prolapse
+      type: any
+    - code: J571.11
+      value: Procidentia - anus and/or rectum
+      type: any
+    - code: J571.12
+      value: Proctoptosis
+      type: any
+    - code: J571z00
+      value: Rectal prolapse NOS
+      type: any
+    - code: J579.00
+      value: Rectal mucosa prolapse
+      type: any
+    - code: XE0Dk
+      value: Other specified other abdominal operation for rectal prolapse
+      type: any
+    - code: XE0Dj
+      value: Abdominal repair of levator ani muscles
+      type: any
+    - code: XaMym
+      value: Rectal mucosa prolapse
+      type: any
+    - code: XaQbP
+      value: Anal prolapse
+      type: any
+    - code: XE0Dh
+      value: Proctopexy for prolapse of rectum
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

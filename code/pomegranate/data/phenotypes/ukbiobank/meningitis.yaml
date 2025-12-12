@@ -1,0 +1,318 @@
+metadata:
+  phenotype: Meningitis
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: meningitis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 26187c29-7b47-4cd2-90a0-ed4c825fab0d
+  ontologies:
+    DOID: DOID_9471
+    GWAS: EFO_0000584
+    MESH: D008581
+    SNOMED-CT: '7180009'
+    FINNGEN: MENINGITIS
+  short_desc: A central nervous system disease that is characterized by an inflammation
+    of the pia-arachnoid meninges. It can be caused by growth of bacteria, fungi,
+    or parasites within the subarachnoid space or by the growth of bacteria or viruses
+    within the meningeal or ependymal cells.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1247'
+      value: meningitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: A17.0
+      value: Tuberculous meningitis
+      type: any
+    - code: A17.1
+      value: Meningeal tuberculoma
+      type: any
+    - code: A20.3
+      value: Plague meningitis
+      type: any
+    - code: A32.1
+      value: Listerial meningitis and meningoencephalitis
+      type: any
+    - code: A39.0
+      value: Meningococcal meningitis
+      type: any
+    - code: A87
+      value: Viral meningitis
+      type: any
+    - code: B00.3
+      value: Herpesviral meningitis
+      type: any
+    - code: B01.0
+      value: Varicella meningitis
+      type: any
+    - code: B02.1
+      value: Zoster meningitis
+      type: any
+    - code: B05.1
+      value: Measles complicated by meningitis
+      type: any
+    - code: B26.1
+      value: Mumps meningitis
+      type: any
+    - code: B37.5
+      value: Candidal meningitis
+      type: any
+    - code: B38.4
+      value: Coccidioidomycosis meningitis
+      type: any
+    - code: G00
+      value: Bacterial meningitis, not elsewhere classified
+      type: any
+    - code: G01
+      value: Meningitis in bacterial diseases classified elsewhere
+      type: any
+    - code: G02.0
+      value: Meningitis in viral diseases classified elsewhere
+      type: any
+    - code: G02.1
+      value: Meningitis in mycoses
+      type: any
+    - code: G02.8
+      value: Meningitis in other specified infectious and parasitic diseases classified
+        elsewhere
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: A17.0
+      value: Tuberculous meningitis
+      type: any
+    - code: A17.1
+      value: Meningeal tuberculoma
+      type: any
+    - code: A20.3
+      value: Plague meningitis
+      type: any
+    - code: A32.1
+      value: Listerial meningitis and meningoencephalitis
+      type: any
+    - code: A39.0
+      value: Meningococcal meningitis
+      type: any
+    - code: A87
+      value: Viral meningitis
+      type: any
+    - code: B00.3
+      value: Herpesviral meningitis
+      type: any
+    - code: B01.0
+      value: Varicella meningitis
+      type: any
+    - code: B02.1
+      value: Zoster meningitis
+      type: any
+    - code: B05.1
+      value: Measles complicated by meningitis
+      type: any
+    - code: B26.1
+      value: Mumps meningitis
+      type: any
+    - code: B37.5
+      value: Candidal meningitis
+      type: any
+    - code: B38.4
+      value: Coccidioidomycosis meningitis
+      type: any
+    - code: G00
+      value: Bacterial meningitis, not elsewhere classified
+      type: any
+    - code: G01
+      value: Meningitis in bacterial diseases classified elsewhere
+      type: any
+    - code: G02.0
+      value: Meningitis in viral diseases classified elsewhere
+      type: any
+    - code: G02.1
+      value: Meningitis in mycoses
+      type: any
+    - code: G02.8
+      value: Meningitis in other specified infectious and parasitic diseases classified
+        elsewhere
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A17.0
+      value: Tuberculous meningitis
+      type: any
+    - code: A17.1
+      value: Meningeal tuberculoma
+      type: any
+    - code: A20.3
+      value: Plague meningitis
+      type: any
+    - code: A32.1
+      value: Listerial meningitis and meningoencephalitis
+      type: any
+    - code: A39.0
+      value: Meningococcal meningitis
+      type: any
+    - code: A87
+      value: Viral meningitis
+      type: any
+    - code: B00.3
+      value: Herpesviral meningitis
+      type: any
+    - code: B01.0
+      value: Varicella meningitis
+      type: any
+    - code: B02.1
+      value: Zoster meningitis
+      type: any
+    - code: B05.1
+      value: Measles complicated by meningitis
+      type: any
+    - code: B26.1
+      value: Mumps meningitis
+      type: any
+    - code: B37.5
+      value: Candidal meningitis
+      type: any
+    - code: B38.4
+      value: Coccidioidomycosis meningitis
+      type: any
+    - code: G00
+      value: Bacterial meningitis, not elsewhere classified
+      type: any
+    - code: G01
+      value: Meningitis in bacterial diseases classified elsewhere
+      type: any
+    - code: G02.0
+      value: Meningitis in viral diseases classified elsewhere
+      type: any
+    - code: G02.1
+      value: Meningitis in mycoses
+      type: any
+    - code: G02.8
+      value: Meningitis in other specified infectious and parasitic diseases classified
+        elsewhere
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A17.0
+      value: Tuberculous meningitis
+      type: any
+    - code: A17.1
+      value: Meningeal tuberculoma
+      type: any
+    - code: A20.3
+      value: Plague meningitis
+      type: any
+    - code: A32.1
+      value: Listerial meningitis and meningoencephalitis
+      type: any
+    - code: A39.0
+      value: Meningococcal meningitis
+      type: any
+    - code: A87
+      value: Viral meningitis
+      type: any
+    - code: B00.3
+      value: Herpesviral meningitis
+      type: any
+    - code: B01.0
+      value: Varicella meningitis
+      type: any
+    - code: B02.1
+      value: Zoster meningitis
+      type: any
+    - code: B05.1
+      value: Measles complicated by meningitis
+      type: any
+    - code: B26.1
+      value: Mumps meningitis
+      type: any
+    - code: B37.5
+      value: Candidal meningitis
+      type: any
+    - code: B38.4
+      value: Coccidioidomycosis meningitis
+      type: any
+    - code: G00
+      value: Bacterial meningitis, not elsewhere classified
+      type: any
+    - code: G01
+      value: Meningitis in bacterial diseases classified elsewhere
+      type: any
+    - code: G02.0
+      value: Meningitis in viral diseases classified elsewhere
+      type: any
+    - code: G02.1
+      value: Meningitis in mycoses
+      type: any
+    - code: G02.8
+      value: Meningitis in other specified infectious and parasitic diseases classified
+        elsewhere
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

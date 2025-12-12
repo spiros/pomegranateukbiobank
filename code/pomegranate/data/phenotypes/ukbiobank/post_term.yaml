@@ -1,0 +1,113 @@
+metadata:
+  phenotype: Post-term infant
+  group: Perinatal
+  is_cancer: '0'
+  is_adult: '0'
+  variable_name: post_term
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: cdc9508e-4a80-4fae-a7ee-0e5f252000af
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: D007233
+    SNOMED-CT: '16207008'
+    FINNGEN: null
+  short_desc: An infant born at or after 42 weeks of gestation.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: P08.2
+      value: Post-term infant, not heavy for gestational age
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: P08.2
+      value: Post-term infant, not heavy for gestational age
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: P08.2
+      value: Post-term infant, not heavy for gestational age
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: P08.2
+      value: Post-term infant, not heavy for gestational age
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '6355.00'
+      value: Baby post-mature
+      type: any
+    - code: 635..12
+      value: Postmature baby
+      type: any
+    - code: Q122.00
+      value: Postmature infant - greater than 42 weeks gestation, unspec
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

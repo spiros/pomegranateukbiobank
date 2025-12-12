@@ -1,0 +1,165 @@
+metadata:
+  phenotype: Subarachnoid haemorrhage
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: Subarach
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 2ea6d6fa-b07b-4cd2-aab2-5c7b0d0a01e3
+  ontologies:
+    DOID: DOID_0080964
+    GWAS: EFO_0000713
+    MESH: D013345
+    SNOMED-CT: '21454007'
+    FINNGEN: I9_SAH
+  short_desc: Bleeding into the intracranial or spinal subarachnoid space, most resulting
+    from intercranial aneurysm rupture.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1086'
+      value: subarachnoid haemorrhage
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I60
+      value: Subarachnoid haemorrhage
+      type: any
+    - code: I69.0
+      value: Sequelae of subarachnoid haemorrhage
+      type: prevalent
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I60
+      value: Subarachnoid haemorrhage
+      type: any
+    - code: I69.0
+      value: Sequelae of subarachnoid haemorrhage
+      type: prevalent
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I60
+      value: Subarachnoid haemorrhage
+      type: any
+    - code: I69.0
+      value: Sequelae of subarachnoid haemorrhage
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I60
+      value: Subarachnoid haemorrhage
+      type: any
+    - code: I69.0
+      value: Sequelae of subarachnoid haemorrhage
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: G600.00
+      value: Ruptured berry aneurysm
+      type: any
+    - code: G601.00
+      value: Subarachnoid haemorrhage from carotid siphon and bifurcation
+      type: any
+    - code: G602.00
+      value: Subarachnoid haemorrhage from middle cerebral artery
+      type: any
+    - code: G603.00
+      value: Subarachnoid haemorrhage from anterior communicating artery
+      type: any
+    - code: G604.00
+      value: Subarachnoid haemorrhage from posterior communicating artery
+      type: any
+    - code: G605.00
+      value: Subarachnoid haemorrhage from basilar artery
+      type: any
+    - code: G606.00
+      value: Subarachnoid haemorrhage from vertebral artery
+      type: any
+    - code: G60..00
+      value: Subarachnoid haemorrhage
+      type: any
+    - code: G60X.00
+      value: Subarachnoid haemorrh from intracranial artery, unspecif
+      type: any
+    - code: G60z.00
+      value: Subarachnoid haemorrhage NOS
+      type: any
+    - code: G680.00
+      value: Sequelae of subarachnoid haemorrhage
+      type: prevalent
+    - code: Gyu6000
+      value: '[X]Subarachnoid haemorrhage from other intracranial arteries'
+      type: any
+    - code: Gyu6100
+      value: '[X]Other subarachnoid haemorrhage'
+      type: any
+    - code: Gyu6E00
+      value: '[X]Subarachnoid haemorrh from intracranial artery, unspecif'
+      type: any
+    - code: Xa1uW
+      value: Subarachnoid haemorrhage
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,177 @@
+metadata:
+  phenotype: Iron deficiency anaemia
+  group: Haematological or immunological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: IDA
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: a76d9012-7ebf-4e3d-9527-6e95b15433d7
+  ontologies:
+    DOID: DOID_11758
+    GWAS: null
+    MESH: D018798
+    SNOMED-CT: 87522002
+    FINNGEN: D3_ANAEMIA_IRONDEF
+  short_desc: "Iron deficiency anemia is a common type of anemia \xE2\u20AC\u201D\
+    \ a condition in which blood lacks adequate healthy red blood cells."
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1330'
+      value: iron deficiency anaemia
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D50
+      value: Iron deficiency anaemia
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D50
+      value: Iron deficiency anaemia
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D50
+      value: Iron deficiency anaemia
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D50
+      value: Iron deficiency anaemia
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: D000.00
+      value: Iron deficiency anaemia due to chronic blood loss
+      type: any
+    - code: D000.11
+      value: Normocytic anaemia due to chronic blood loss
+      type: any
+    - code: D000.12
+      value: Iron deficiency anaemia due to blood loss
+      type: any
+    - code: D001.00
+      value: Iron deficiency anaemia due to dietary causes
+      type: any
+    - code: D00..00
+      value: Iron deficiency anaemias
+      type: any
+    - code: D00y000
+      value: Sideropenic dysphagia
+      type: any
+    - code: D00y011
+      value: Kelly-Paterson syndrome
+      type: any
+    - code: D00y012
+      value: Plummer-Vinson syndrome
+      type: any
+    - code: D00y.00
+      value: Other specified iron deficiency anaemia
+      type: any
+    - code: D00y.11
+      value: Kelly - Paterson syndrome
+      type: any
+    - code: D00y.12
+      value: Plummer - Vinson syndrome
+      type: any
+    - code: D00yz00
+      value: Other specified iron deficiency anaemia NOS
+      type: any
+    - code: D00z000
+      value: Achlorhydric anaemia
+      type: any
+    - code: D00z100
+      value: Chlorotic anaemia
+      type: any
+    - code: D00z.00
+      value: Unspecified iron deficiency anaemia
+      type: any
+    - code: D00zz00
+      value: Iron deficiency anaemia NOS
+      type: any
+    - code: D0...11
+      value: Asiderotic anaemia
+      type: any
+    - code: D0...12
+      value: Sideropenic anaemia
+      type: any
+    - code: Dyu0000
+      value: '[X]Other iron deficiency anaemias'
+      type: any
+    - code: XE13d
+      value: Iron deficiency anaemia due to chronic blood loss
+      type: any
+    - code: XE13d
+      value: Iron deficiency anaemia due to chronic blood loss
+      type: any
+    - code: XE13b
+      value: Deficiency anaemias
+      type: any
+    - code: XE13e
+      value: Other specified iron deficiency anaemia
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

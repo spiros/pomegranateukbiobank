@@ -1,0 +1,182 @@
+metadata:
+  phenotype: Ulcerative colitis
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: ulc_colitis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 6be5667e-81e9-44ea-bd6c-1054fcbeb2af
+  ontologies:
+    DOID: DOID_8577
+    GWAS: EFO_0000729
+    MESH: D003093
+    SNOMED-CT: 64766004
+    FINNGEN: K11_ULCER
+  short_desc: An inflammatory bowel disease involving the mucosal surface of the large
+    intestine and rectum. It may present with an acute or slow onset and follows an
+    intermittent or continuous course. Signs and symptoms include abdominal pain,
+    diarrhea, fever, weight loss, and intestinal hemorrhage.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1463'
+      value: ulcerative colitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K51
+      value: Ulcerative colitis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K51
+      value: Ulcerative colitis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K51
+      value: Ulcerative colitis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K51
+      value: Ulcerative colitis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14C4.11
+      value: 'H/O: ulcerative colitis'
+      type: prevalent
+    - code: J410000
+      value: Ulcerative ileocolitis
+      type: any
+    - code: J410100
+      value: Ulcerative colitis
+      type: any
+    - code: J410200
+      value: Ulcerative rectosigmoiditis
+      type: any
+    - code: J410300
+      value: Ulcerative proctitis
+      type: any
+    - code: J410400
+      value: Exacerbation of ulcerative colitis
+      type: any
+    - code: J410.00
+      value: Ulcerative proctocolitis
+      type: any
+    - code: J410z00
+      value: Ulcerative proctocolitis NOS
+      type: any
+    - code: J411.00
+      value: Ulcerative (chronic) enterocolitis
+      type: any
+    - code: J412.00
+      value: Ulcerative (chronic) ileocolitis
+      type: any
+    - code: J413.00
+      value: Ulcerative pancolitis
+      type: any
+    - code: J41..00
+      value: Idiopathic proctocolitis
+      type: any
+    - code: J41..11
+      value: Mucous colitis and/or proctitis
+      type: any
+    - code: J41..12
+      value: Ulcerative colitis and/or proctitis
+      type: any
+    - code: J41y.00
+      value: Other idiopathic proctocolitis
+      type: any
+    - code: J41yz00
+      value: Other idiopathic proctocolitis NOS
+      type: any
+    - code: J41z.00
+      value: Idiopathic proctocolitis NOS
+      type: any
+    - code: Jyu4100
+      value: '[X]Other ulcerative colitis'
+      type: any
+    - code: N031000
+      value: Arthropathy in ulcerative colitis
+      type: any
+    - code: N045400
+      value: Juvenile arthritis in ulcerative colitis
+      type: any
+    - code: XaYzX
+      value: Ulcerative pancolitis
+      type: any
+    - code: XE0ag
+      value: Ulcerative colitis
+      type: any
+    - code: XaK6E
+      value: Exacerbation of ulcerative colitis
+      type: any
+    - code: XE0qC
+      value: 'H/O: colitis'
+      type: prevalent
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

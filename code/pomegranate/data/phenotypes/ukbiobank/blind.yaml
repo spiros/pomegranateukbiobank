@@ -1,0 +1,443 @@
+metadata:
+  phenotype: Visual impairment and blindness
+  group: Eye
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: blind
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: c38267dd-113c-4222-94b5-55311e2335c8
+  ontologies:
+    DOID: DOID_1432
+    GWAS: MONDO_0021084
+    MESH: D001766
+    SNOMED-CT: '397540003'
+    FINNGEN: H7_BLINDANDVISIMPAIRMENT
+  short_desc: An eye disease characterized by a lack or loss of vision.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: H54
+      value: Visual impairment including blindness (binocular or monocular)
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: H54
+      value: Visual impairment including blindness (binocular or monocular)
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H54
+      value: Visual impairment including blindness (binocular or monocular)
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H54
+      value: Visual impairment including blindness (binocular or monocular)
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 1B75.00
+      value: Loss of vision
+      type: any
+    - code: 2B6A.11
+      value: O/E - blind R-eye
+      type: any
+    - code: 2B6B.00
+      value: O/E - R-eye completely blind
+      type: any
+    - code: 2B6S.00
+      value: O/E - pinhole R-eye completely blind
+      type: any
+    - code: 2B7A.11
+      value: O/E - blind L-eye
+      type: any
+    - code: 2B7B.00
+      value: O/E - L-eye completely blind
+      type: any
+    - code: 2B7S.00
+      value: O/E - pinhole L-eye completely blind
+      type: any
+    - code: 2BBo.00
+      value: O/E - sight threatening diabetic retinopathy
+      type: any
+    - code: 2BBr.00
+      value: Impaired vision due to diabetic retinopathy
+      type: any
+    - code: '6688'
+      value: Registered partially sighted
+      type: any
+    - code: '6688.11'
+      value: Registered partially blind
+      type: any
+    - code: '6689'
+      value: Registered blind
+      type: any
+    - code: '6689.11'
+      value: Registered severely sight impaired
+      type: any
+    - code: 668D.00
+      value: Registered sight impaired
+      type: any
+    - code: 8F61.00
+      value: Blind rehabilitation
+      type: any
+    - code: 8F62.00
+      value: Blind lead dog rehabilitation
+      type: any
+    - code: 8F6..11
+      value: Blind rehabilitation
+      type: any
+    - code: 8HlE.00
+      value: Referral to visual impairment multidisciplinary team
+      type: any
+    - code: 9m08.00
+      value: Excluded from diabetic retinopathy screening as blind
+      type: any
+    - code: 9NfB.00
+      value: Requires deafblind communicator guide
+      type: any
+    - code: 9NlD.00
+      value: Seen by visual impairment teacher
+      type: any
+    - code: F404100
+      value: Blind hypotensive eye
+      type: any
+    - code: F404200
+      value: Blind hypertensive eye
+      type: any
+    - code: F490000
+      value: Unspecified blindness both eyes
+      type: any
+    - code: F490100
+      value: Both eyes total visual impairment
+      type: any
+    - code: F490200
+      value: 'Better eye: near total VI, Lesser eye: unspecified'
+      type: any
+    - code: F490400
+      value: 'Better eye: near total VI, Lesser eye: near total VI'
+      type: any
+    - code: F490600
+      value: 'Better eye: profound VI, Lesser eye: total VI'
+      type: any
+    - code: F490900
+      value: Acquired blindness, both eyes
+      type: any
+    - code: F490.00
+      value: Blindness, both eyes
+      type: any
+    - code: F490z00
+      value: Blindness both eyes NOS
+      type: any
+    - code: F491000
+      value: One eye blind, one eye low vision
+      type: any
+    - code: F491100
+      value: 'Better eye: severe VI, Lesser eye: blind, unspecified'
+      type: any
+    - code: F491300
+      value: 'Better eye: severe VI, Lesser eye: near total VI'
+      type: any
+    - code: F491400
+      value: 'Better eye: severe VI, Lesser eye: profound VI'
+      type: any
+    - code: F491500
+      value: 'Better eye: moderate VI, Lesser eye: blind, unspecified'
+      type: any
+    - code: F491700
+      value: 'Better eye: moderate VI, Lesser eye: near total VI'
+      type: any
+    - code: F491.00
+      value: 'Better eye: low vision, Lesser eye: profound VI'
+      type: any
+    - code: F491z00
+      value: One eye blind, one eye low vision NOS
+      type: any
+    - code: F492000
+      value: Low vision, both eyes unspecified
+      type: any
+    - code: F492200
+      value: 'Better eye: severe VI, Lesser eye: severe VI'
+      type: any
+    - code: F492300
+      value: 'Better eye: moderate VI, Lesser eye: low vision unspecified'
+      type: any
+    - code: F492400
+      value: 'Better eye: moderate VI, Lesser eye: severe VI'
+      type: any
+    - code: F492500
+      value: 'Better eye: moderate VI, Lesser eye: moderate VI'
+      type: any
+    - code: F492.00
+      value: Low vision, both eyes
+      type: any
+    - code: F492z00
+      value: Low vision, both eyes NOS
+      type: any
+    - code: F493.00
+      value: Visual loss, both eyes unqualified
+      type: any
+    - code: F494.00
+      value: Legal blindness USA
+      type: any
+    - code: F495000
+      value: Blindness, one eye, unspecified
+      type: any
+    - code: F495100
+      value: 'Lesser eye: total visual impairment, Better eye: unspecified'
+      type: any
+    - code: F495200
+      value: 'Lesser eye: total VI, Better eye: near normal vision'
+      type: any
+    - code: F495300
+      value: 'Lesser eye: total VI, Better eye: normal vision'
+      type: any
+    - code: F495400
+      value: 'Lesser eye: near total VI, Better eye: unspecified'
+      type: any
+    - code: F495500
+      value: 'Lesser eye: near total VI, Better eye: near normal vision'
+      type: any
+    - code: F495600
+      value: 'Lesser eye: near total VI, Better eye: normal vision'
+      type: any
+    - code: F495800
+      value: 'Lesser eye: profound VI, Better eye: near normal vision'
+      type: any
+    - code: F495A00
+      value: Acquired blindness, one eye
+      type: any
+    - code: F495.00
+      value: Profound impairment, one eye
+      type: any
+    - code: F495z00
+      value: Profound impairment one eye NOS
+      type: any
+    - code: F496000
+      value: Low vision, one eye, unspecified
+      type: any
+    - code: F496100
+      value: 'Lesser eye: severe VI, Better eye: unspecified'
+      type: any
+    - code: F496200
+      value: 'Lesser eye: severe VI, Better eye: near normal vision'
+      type: any
+    - code: F496300
+      value: 'Lesser eye: severe VI, Better eye: normal vision'
+      type: any
+    - code: F496400
+      value: 'Lesser eye: moderate VI, Better eye: unspecified'
+      type: any
+    - code: F496500
+      value: 'Lesser eye: moderate VI, Better eye: near normal vision'
+      type: any
+    - code: F496600
+      value: 'Lesser eye: moderate VI, Better eye: normal vision'
+      type: any
+    - code: F496.00
+      value: Low vision, one eye
+      type: any
+    - code: F496z00
+      value: Low vision, one eye NOS
+      type: any
+    - code: F497.00
+      value: Severe visual impairment, binocular
+      type: any
+    - code: F498.00
+      value: Moderate visual impairment, binocular
+      type: any
+    - code: F499.00
+      value: Mild or no visual impairment, binocular
+      type: any
+    - code: F49A.00
+      value: Blindness, monocular
+      type: any
+    - code: F49B.00
+      value: Severe visual impairment, monocular
+      type: any
+    - code: F49C.00
+      value: Moderate visual impairment, monocular
+      type: any
+    - code: F49..00
+      value: Blindness and low vision
+      type: any
+    - code: F49..11
+      value: Impaired vision
+      type: any
+    - code: F49..13
+      value: Partial sight
+      type: any
+    - code: F49..14
+      value: Sight impaired
+      type: any
+    - code: F49y.00
+      value: Visual loss, one eye, unqualified
+      type: any
+    - code: F49z000
+      value: Charles Bonnet syndrome
+      type: any
+    - code: F49z.00
+      value: Visual loss NOS
+      type: any
+    - code: F49z.11
+      value: Acquired blindness
+      type: any
+    - code: F4H7300
+      value: Cortical blindness
+      type: any
+    - code: Fy1..00
+      value: Combined visual and hearing impairment
+      type: any
+    - code: FyuL.00
+      value: '[X]Visual disturbances and blindness'
+      type: any
+    - code: SJ0z.11
+      value: Blindness - traumatic - NOS
+      type: any
+    - code: Z961.00
+      value: Provision of guide help for visual and hearing impairment
+      type: any
+    - code: Z962.00
+      value: Provision of communicator for visual and hearing impairment
+      type: any
+    - code: Z96..00
+      value: Provision for visual and hearing impairment
+      type: any
+    - code: ZK74.00
+      value: Issue of local authority blind registration
+      type: any
+    - code: ZN56800
+      value: Blind telephone user
+      type: any
+    - code: ZN56A00
+      value: Deaf-blind telephone user
+      type: any
+    - code: ZRhO.00
+      value: Reynell Zinkin language scale for the visually impaired
+      type: any
+    - code: ZRr6.00
+      value: Vineland maturity scales adapted for the blind
+      type: any
+    - code: ZV41000
+      value: '[V]Problems with sight'
+      type: any
+    - code: XaE6t
+      value: Acquired blindness, one eye
+      type: any
+    - code: XaPjK
+      value: Excluded from diabetic retinopathy screening as blind
+      type: any
+    - code: XaPen
+      value: Impaired vision due to diabetic retinopathy
+      type: any
+    - code: XaE6s
+      value: Acquired blindness, both eyes
+      type: any
+    - code: XaJTV
+      value: O/E - pinhole L-eye completely blind
+      type: any
+    - code: XE1i2
+      value: O/E-L-eye perceives light only
+      type: any
+    - code: XaKcS
+      value: O/E - sight threatening diabetic retinopathy
+      type: any
+    - code: XaW0l
+      value: Registered sight impaired
+      type: any
+    - code: XaPtF
+      value: Seen by visual impairment teacher
+      type: any
+    - code: XaQ8m
+      value: Referral to visual impairment multidisciplinary team
+      type: any
+    - code: XE15r
+      value: Blind hypertensive eye
+      type: any
+    - code: XE16M
+      value: Visual loss NOS
+      type: any
+    - code: XE1i1
+      value: O/E-R-eye perceives light only
+      type: any
+    - code: Ua1f0
+      value: Blindness, monocular
+      type: any
+    - code: XaYB3
+      value: Requires deafblind communicator guide
+      type: any
+    - code: XaJTZ
+      value: O/E - pinhole R-eye completely blind
+      type: any
+    - code: XaYPJ
+      value: Combined visual and hearing impairment
+      type: any
+    - code: XE1o4
+      value: Optic nerve or pathway injury NOS
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,354 @@
+metadata:
+  phenotype: Spondylosis
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: spondylosis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: f3c109fc-d94f-46fe-a3b3-e818f9ba505f
+  ontologies:
+    DOID: DOID_2247
+    GWAS: MONDO_0002253
+    MESH: D055009
+    SNOMED-CT: 8847002
+    FINNGEN: M13_SPONDYLOSIS
+  short_desc: Spondylosis is an umbrella term used to describe pain from degenerative
+    conditions of the spine.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1478'
+      value: cervical spondylosis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: M47
+      value: Spondylosis
+      type: any
+    - code: M47.1
+      value: Other spondylosis with myelopathy
+      type: any
+    - code: M47.2
+      value: Other spondylosis with radiculopathy
+      type: any
+    - code: M47.8
+      value: Other spondylosis
+      type: any
+    - code: M47.9
+      value: Spondylosis, unspecified
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: M47
+      value: Spondylosis
+      type: any
+    - code: M47.1
+      value: Other spondylosis with myelopathy
+      type: any
+    - code: M47.2
+      value: Other spondylosis with radiculopathy
+      type: any
+    - code: M47.8
+      value: Other spondylosis
+      type: any
+    - code: M47.9
+      value: Spondylosis, unspecified
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M47.1
+      value: Other spondylosis with myelopathy
+      type: any
+    - code: M47.2
+      value: Other spondylosis with radiculopathy
+      type: any
+    - code: M47.8
+      value: Other spondylosis
+      type: any
+    - code: M47.9
+      value: Spondylosis, unspecified
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M47.1
+      value: Other spondylosis with myelopathy
+      type: any
+    - code: M47.2
+      value: Other spondylosis with radiculopathy
+      type: any
+    - code: M47.8
+      value: Other spondylosis
+      type: any
+    - code: M47.9
+      value: Spondylosis, unspecified
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: F163200
+      value: Myelopathy due to spondylosis
+      type: any
+    - code: F337200
+      value: Nerve root and plexus compressions in spondylosis
+      type: any
+    - code: N110000
+      value: Single-level cervical spondylosis without myelopathy
+      type: any
+    - code: N110100
+      value: Two-level cervical spondylosis without myelopathy
+      type: any
+    - code: N110200
+      value: Multiple-level cervical spondylosis without myelopathy
+      type: any
+    - code: N110.00
+      value: Cervical spondylosis without myelopathy
+      type: any
+    - code: N110.11
+      value: Cervical spondylosis
+      type: any
+    - code: N110.12
+      value: Osteoarthritis cervical spine
+      type: any
+    - code: N111000
+      value: Single-level cervical spondylosis with myelopathy
+      type: any
+    - code: N111100
+      value: Two-level cervical spondylosis with myelopathy
+      type: any
+    - code: N111200
+      value: Multiple-level cervical spondylosis with myelopathy
+      type: any
+    - code: N111.00
+      value: Cervical spondylosis with myelopathy
+      type: any
+    - code: N112000
+      value: Single-level thoracic spondylosis without myelopathy
+      type: any
+    - code: N112100
+      value: Two-level thoracic spondylosis without myelopathy
+      type: any
+    - code: N112200
+      value: Multiple-level thoracic spondylosis without myelopathy
+      type: any
+    - code: N112300
+      value: Dorsal spondylosis without myelopathy
+      type: any
+    - code: N112.00
+      value: Thoracic spondylosis without myelopathy
+      type: any
+    - code: N112.11
+      value: Thoracic spondylosis
+      type: any
+    - code: N113000
+      value: Single-level thoracic spondylosis with myelopathy
+      type: any
+    - code: N113200
+      value: Multiple-level thoracic spondylosis with myelopathy
+      type: any
+    - code: N113.00
+      value: Thoracic spondylosis with myelopathy
+      type: any
+    - code: N114000
+      value: Single-level lumbosacral spondylosis without myelopathy
+      type: any
+    - code: N114100
+      value: Two-level lumbosacral spondylosis without myelopathy
+      type: any
+    - code: N114200
+      value: Multiple-level lumbosacral spondylosis without myelopathy
+      type: any
+    - code: N114.00
+      value: Lumbosacral spondylosis without myelopathy
+      type: any
+    - code: N114.11
+      value: Degeneration of lumbar spine
+      type: any
+    - code: N114.12
+      value: Lumbar spondylosis
+      type: any
+    - code: N115000
+      value: Single-level lumbosacral spondylosis with myelopathy
+      type: any
+    - code: N115100
+      value: Two-level lumbosacral spondylosis with myelopathy
+      type: any
+    - code: N115200
+      value: Multiple-level lumbosacral spondylosis with myelopathy
+      type: any
+    - code: N115.00
+      value: Lumbosacral spondylosis with myelopathy
+      type: any
+    - code: N119000
+      value: Single-level cervical spondylosis with radiculopathy
+      type: any
+    - code: N119100
+      value: Two-level cervical spondylosis with radiculopathy
+      type: any
+    - code: N119200
+      value: Multiple-level cervical spondylosis with radiculopathy
+      type: any
+    - code: N119.00
+      value: Cervical spondylosis with radiculopathy
+      type: any
+    - code: N11A.00
+      value: Cervical spondylosis with vascular compression
+      type: any
+    - code: N11B000
+      value: Single-level thoracic spondylosis with radiculopathy
+      type: any
+    - code: N11B100
+      value: Two-level thoracic spondylosis with radiculopathy
+      type: any
+    - code: N11B200
+      value: Multiple-level thoracic spondylosis with radiculopathy
+      type: any
+    - code: N11B.00
+      value: Thoracic spondylosis with radiculopathy
+      type: any
+    - code: N11C000
+      value: Single-level lumbosacral spondylosis with radiculopathy
+      type: any
+    - code: N11C100
+      value: Two-level lumbosacral spondylosis with radiculopathy
+      type: any
+    - code: N11C200
+      value: Multiple-level lumbosacral spondylosis with radiculopathy
+      type: any
+    - code: N11C.00
+      value: Lumbosacral spondylosis with radiculopathy
+      type: any
+    - code: N11D000
+      value: Osteoarthritis of cervical spine
+      type: any
+    - code: N11D100
+      value: Osteoarthritis of thoracic spine
+      type: any
+    - code: N11D200
+      value: Osteoarthritis of lumbar spine
+      type: any
+    - code: N11D300
+      value: Osteoarthritis of spine NOS
+      type: any
+    - code: N11D.00
+      value: Osteoarthritis of spine
+      type: any
+    - code: N11E.00
+      value: Cervical spondylosis
+      type: any
+    - code: N11..00
+      value: Spondylosis and allied disorders
+      type: any
+    - code: N11..11
+      value: Arthritis of spine
+      type: any
+    - code: N11..12
+      value: Osteoarthritis of spine
+      type: any
+    - code: N11z000
+      value: Spondylosis without myelopathy, NOS
+      type: any
+    - code: N11z100
+      value: Spondylosis with myelopathy, NOS
+      type: any
+    - code: N11z.00
+      value: Spondylosis NOS
+      type: any
+    - code: N11z.11
+      value: Osteoarthritis spine
+      type: any
+    - code: N11zz00
+      value: Spondylosis NOS
+      type: any
+    - code: Nyu6300
+      value: '[X]Other spondylosis with radiculopathy'
+      type: any
+    - code: Nyu6400
+      value: '[X]Other spondylosis'
+      type: any
+    - code: XE1Ey
+      value: Spondylosis NOS
+      type: any
+    - code: XE1Ey
+      value: Spondylosis NOS
+      type: any
+    - code: XE1Ev
+      value: Cervical spondylosis with myelopathy
+      type: any
+    - code: XE1Ex
+      value: Lumbosacral spondylosis without myelopathy
+      type: any
+    - code: XE1Eu
+      value: Cervical spondylosis without myelopathy
+      type: any
+    - code: XE1Ew
+      value: Thoracic spondylosis without myelopathy
+      type: any
+    - code: X703j
+      value: Cervical spondylosis
+      type: any
+    - code: XE1Et
+      value: Spondylosis and allied disorders
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

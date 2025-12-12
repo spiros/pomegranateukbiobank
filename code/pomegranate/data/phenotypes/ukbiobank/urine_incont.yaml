@@ -1,0 +1,207 @@
+metadata:
+  phenotype: Urinary Incontinence
+  group: Genitourinary
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: urine_incont
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: bff1f523-dc25-4287-bbf0-0276589fea26
+  ontologies:
+    DOID: null
+    GWAS: HP_0000020
+    MESH: D014549
+    SNOMED-CT: '165232002'
+    FINNGEN: R18_UNSPE_URINARY_INCONTINENCE
+  short_desc: Involuntary loss of urine, such as leaking of urine.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1202'
+      value: urinary frequency / incontinence
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: N39.3
+      value: Stress incontinence
+      type: any
+    - code: N39.4
+      value: Other specified urinary incontinence
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: N39.3
+      value: Stress incontinence
+      type: any
+    - code: N39.4
+      value: Other specified urinary incontinence
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N39.3
+      value: Stress incontinence
+      type: any
+    - code: N39.4
+      value: Other specified urinary incontinence
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N39.3
+      value: Stress incontinence
+      type: any
+    - code: N39.4
+      value: Other specified urinary incontinence
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1593.00'
+      value: 'H/O: stress incontinence'
+      type: prevalent
+    - code: 16F..00
+      value: Double incontinence
+      type: any
+    - code: 1A23.00
+      value: Incontinence of urine
+      type: any
+    - code: 1A24.00
+      value: Stress incontinence
+      type: any
+    - code: 1A24.11
+      value: Stress incontinence - symptom
+      type: any
+    - code: 1A26.00
+      value: Urge incontinence of urine
+      type: any
+    - code: '3940.00'
+      value: 'Bladder: incontinent'
+      type: any
+    - code: 7B33800
+      value: Insertion retropubic device stress urinary incontinence NEC
+      type: any
+    - code: 7B33C00
+      value: Insertion retropubic dev fem stress urinary incontinence NEC
+      type: any
+    - code: 7B42111
+      value: Insertion of Kaufman prosthesis for male incontinence
+      type: any
+    - code: 7B42113
+      value: Insertion of Rosen prosthesis for male incontinence
+      type: any
+    - code: 8C14.00
+      value: Incontinence care
+      type: any
+    - code: 8D71.00
+      value: Incontinence control
+      type: any
+    - code: 8D7..12
+      value: Incontinence control
+      type: any
+    - code: 8HTX.00
+      value: Referral to incontinence clinic
+      type: any
+    - code: K198.00
+      value: Stress incontinence
+      type: any
+    - code: K586.00
+      value: Stress incontinence - female
+      type: any
+    - code: Kyu5A00
+      value: '[X]Other specified urinary incontinence'
+      type: any
+    - code: R083100
+      value: '[D]Urethral sphincter incontinence'
+      type: any
+    - code: R083200
+      value: '[D] Urge incontinence'
+      type: any
+    - code: R083.00
+      value: '[D]Incontinence of urine'
+      type: any
+    - code: R083z00
+      value: '[D]Incontinence of urine NOS'
+      type: any
+    - code: Z9EA.00
+      value: Provision of incontinence appliance
+      type: any
+    - code: XE0iC
+      value: Urinary bladder control
+      type: any
+    - code: XaJtx
+      value: Referral to incontinence clinic
+      type: any
+    - code: X30C5
+      value: Double incontinence
+      type: any
+    - code: XaMtf
+      value: Insertion of retropubic device for female stress urinary incontinence
+        NEC
+      type: any
+    - code: XE0kn
+      value: Incontinence control
+      type: any
+    - code: XaMAm
+      value: Insertion of retropubic device for stress urinary incontinence NEC
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

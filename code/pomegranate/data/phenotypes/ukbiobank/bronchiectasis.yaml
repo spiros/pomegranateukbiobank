@@ -1,0 +1,158 @@
+metadata:
+  phenotype: Bronchiectasis
+  group: Respiratory
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: bronchiectasis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 580daec7-7b1b-4458-af6a-f6ffcb55fe2c
+  ontologies:
+    DOID: DOID_9563
+    GWAS: MONDO_0004822
+    MESH: D001987
+    SNOMED-CT: 12295008
+    FINNGEN: J10_BRONCHIECTASIS
+  short_desc: Bronchiectasis is a long-term condition where the airways of the lungs
+    become abnormally widened, leading to a build-up of excess mucus that can make
+    the lungs more vulnerable to infection.
+  long_desc: null
+  priority: 2
+definitions:
+  22174:
+    metadata:
+      desc: Recent medication for bronchiectasis
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: 'Yes'
+      type: any
+  22134:
+    metadata:
+      desc: Doctor diagnosed bronchiectasis
+      time_qualifier:
+        field_id: 22147
+        type: age
+    values:
+    - code: '1'
+      value: 'Yes'
+      type: any
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1114'
+      value: bronchiectasis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: J47
+      value: Bronchiectasis
+      type: any
+    - code: Q33.4
+      value: Congenital bronchiectasis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: J47
+      value: Bronchiectasis
+      type: any
+    - code: Q33.4
+      value: Congenital bronchiectasis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J47
+      value: Bronchiectasis
+      type: any
+    - code: Q33.4
+      value: Congenital bronchiectasis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J47
+      value: Bronchiectasis
+      type: any
+    - code: Q33.4
+      value: Congenital bronchiectasis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: A115.00
+      value: Tuberculous bronchiectasis
+      type: any
+    - code: H340.00
+      value: Recurrent bronchiectasis
+      type: any
+    - code: H341.00
+      value: Post-infective bronchiectasis
+      type: any
+    - code: H34..00
+      value: Bronchiectasis
+      type: any
+    - code: H34z.00
+      value: Bronchiectasis NOS
+      type: any
+    - code: P861.00
+      value: Congenital bronchiectasis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,233 @@
+metadata:
+  phenotype: Endometriosis
+  group: Genitourinary
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: endometriosis
+  gender:
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: b0b27f08-9f3a-4268-a7f3-e770e75675c8
+  ontologies:
+    DOID: DOID_289
+    GWAS: EFO_0001065
+    MESH: D004715
+    SNOMED-CT: 396224008
+    FINNGEN: N14_ENDOMETRIOSIS
+  short_desc: The growth of functional endometrial tissue in anatomic sites outside
+    the uterine body. It most often occurs in the pelvic organs.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1402'
+      value: endometriosis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: N80
+      value: Endometriosis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: N80
+      value: Endometriosis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N80
+      value: Endometriosis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N80
+      value: Endometriosis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 7E0D800
+      value: Laparoscopic laser destruction of endometriosis
+      type: any
+    - code: BBL1.11
+      value: '[M]Stromal endometriosis'
+      type: any
+    - code: K500000
+      value: Internal endometriosis
+      type: any
+    - code: K500100
+      value: Endometriosis of myometrium
+      type: any
+    - code: K500111
+      value: Adenomyosis of endometrium
+      type: any
+    - code: K500200
+      value: Endometriosis of cervix
+      type: any
+    - code: K500.00
+      value: Endometriosis of uterus
+      type: any
+    - code: K500z00
+      value: Endometriosis of uterus NOS
+      type: any
+    - code: K501.00
+      value: Endometriosis of ovary
+      type: any
+    - code: K501.11
+      value: Chocolate cyst of ovary
+      type: any
+    - code: K502.00
+      value: Endometriosis of the fallopian tube
+      type: any
+    - code: K503000
+      value: Endometriosis of the broad ligament
+      type: any
+    - code: K503100
+      value: Endometriosis of the pouch of Douglas
+      type: any
+    - code: K503200
+      value: Endometriosis of the parametrium
+      type: any
+    - code: K503300
+      value: Endometriosis of the round ligament
+      type: any
+    - code: K503.00
+      value: Endometriosis of the pelvic peritoneum
+      type: any
+    - code: K503z00
+      value: Endometriosis of the pelvic peritoneum NOS
+      type: any
+    - code: K504000
+      value: Endometriosis of the rectovaginal septum
+      type: any
+    - code: K504100
+      value: Endometriosis of the vagina
+      type: any
+    - code: K504.00
+      value: Endometriosis of the rectovaginal septum and vagina
+      type: any
+    - code: K504z00
+      value: Endometriosis of the rectovaginal septum and vagina NOS
+      type: any
+    - code: K505000
+      value: Endometriosis of the appendix
+      type: any
+    - code: K505100
+      value: Endometriosis of the colon
+      type: any
+    - code: K505200
+      value: Endometriosis of the rectum
+      type: any
+    - code: K505.00
+      value: Endometriosis of the intestine
+      type: any
+    - code: K505z00
+      value: Endometriosis of the intestine NOS
+      type: any
+    - code: K506.00
+      value: Endometriosis in scar of skin
+      type: any
+    - code: K50..00
+      value: Endometriosis
+      type: any
+    - code: K50..11
+      value: Adenomyosis
+      type: any
+    - code: K50y000
+      value: Endometriosis of the bladder
+      type: any
+    - code: K50y100
+      value: Endometriosis of the lung
+      type: any
+    - code: K50y200
+      value: Endometriosis of the umbilicus
+      type: any
+    - code: K50y300
+      value: Endometriosis of the vulva
+      type: any
+    - code: K50y.00
+      value: Other endometriosis
+      type: any
+    - code: K50yz00
+      value: Other endometriosis NOS
+      type: any
+    - code: K50z.00
+      value: Endometriosis NOS
+      type: any
+    - code: Kyu9000
+      value: '[X]Other endometriosis'
+      type: any
+    - code: XE0eX
+      value: Endometriosis of ovary
+      type: any
+    - code: XaKcc
+      value: Laparoscopic laser destruction of endometriosis
+      type: any
+    - code: X408O
+      value: Endometriosis of myometrium
+      type: any
+    - code: X408O
+      value: Endometriosis of myometrium
+      type: any
+    - code: XE0eW
+      value: Endometriosis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

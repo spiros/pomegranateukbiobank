@@ -1,0 +1,146 @@
+metadata:
+  phenotype: Secondary Malignancy_Brain, Other CNS and Intracranial
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: sec_brain
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: d7d6ed45-0293-4240-bd9d-ec9a5f802f88
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: null
+    SNOMED-CT: '94225005'
+    FINNGEN: null
+  short_desc: Cancer which has spread from a primary site of origin to the brain,
+    cranium, or other site in the central nervous system.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C79.3
+      value: Secondary malignant neoplasm of brain and cerebral meninges
+      type: any
+    - code: C79.4
+      value: Secondary malignant neoplasm of other and unspecified parts of nervous
+        system
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C79.3
+      value: Secondary malignant neoplasm of brain and cerebral meninges
+      type: any
+    - code: C79.4
+      value: Secondary malignant neoplasm of other and unspecified parts of nervous
+        system
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C79.3
+      value: Secondary malignant neoplasm of brain and cerebral meninges
+      type: any
+    - code: C79.4
+      value: Secondary malignant neoplasm of other and unspecified parts of nervous
+        system
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C79.3
+      value: Secondary malignant neoplasm of brain and cerebral meninges
+      type: any
+    - code: C79.4
+      value: Secondary malignant neoplasm of other and unspecified parts of nervous
+        system
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B583000
+      value: Secondary malignant neoplasm of brain
+      type: any
+    - code: B583100
+      value: Secondary malignant neoplasm of spinal cord
+      type: any
+    - code: B583200
+      value: Cerebral metastasis
+      type: any
+    - code: B583.00
+      value: Secondary malignant neoplasm of brain and spinal cord
+      type: any
+    - code: B583z00
+      value: Secondary malignant neoplasm of brain or spinal cord NOS
+      type: any
+    - code: XM1Pr
+      value: Cerebral metastasis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C79.3
+      value: Secondary malignant neoplasm of brain and cerebral meninges
+      type: any
+    - code: C79.4
+      value: Secondary malignant neoplasm of other and unspecified parts of nervous
+        system
+      type: any

@@ -1,0 +1,122 @@
+metadata:
+  phenotype: Sjogren's disease
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: sjogren
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 752378a9-8d4c-4ef8-8e4e-a3b94eba7273
+  ontologies:
+    DOID: DOID_12894
+    GWAS: EFO_0000699
+    MESH: D012859
+    SNOMED-CT: 83901003
+    FINNGEN: M13_SJOGREN
+  short_desc: Sjogren syndrome An autoimmune disorder in which immune cells attack
+    and destroy the glands that produce tears and saliva. Sjogren syndrome is also
+    associated with rheumatic disorders such as rheumatoid arthritis or systemic lupus
+    erythematosus. The hallmark symptoms of Sjogren syndrome are dry mouth and dry
+    eyes. In addition, Sjogren syndrome may cause skin, nose, and vaginal dryness.
+    It also may affect other organs of the body including the kidneys, blood vessels,
+    lungs, liver, pancreas, and brain.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1382'
+      value: sjogren's syndrome/sicca syndrome
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: M35.0
+      value: Sicca syndrome [Sjogren]
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: M35.0
+      value: Sicca syndrome [Sjogren]
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M35.0
+      value: Sicca syndrome [Sjogren]
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M35.0
+      value: Sicca syndrome [Sjogren]
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: F396700
+      value: Myopathy due to Sjogren's disease
+      type: any
+    - code: H57y300
+      value: Lung disease with Sjogren's disease
+      type: any
+    - code: N002.00
+      value: Sicca (Sjogren's) syndrome
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

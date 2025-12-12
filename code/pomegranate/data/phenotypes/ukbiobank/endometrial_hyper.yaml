@@ -1,0 +1,162 @@
+metadata:
+  phenotype: Endometrial hyperplasia and hypertrophy
+  group: Genitourinary
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: endometrial_hyper
+  gender:
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 8ab543f3-c282-4222-9e57-0304530e4721
+  ontologies:
+    DOID: DOID_80365
+    GWAS: MONDO_0041161
+    MESH: D004714
+    SNOMED-CT: 237072009
+    FINNGEN: N14_OTHNONINFUTER
+  short_desc: Endometrial hyperplasia is a condition of the female reproductive system.
+    The lining of the uterus (endometrium) becomes unusually thick because of having
+    too many cells (hyperplasia).
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: N85.0
+      value: Endometrial glandular hyperplasia
+      type: any
+    - code: N85.1
+      value: Endometrial adenomatous hyperplasia
+      type: any
+    - code: N85.2
+      value: Hypertrophy of uterus
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: N85.0
+      value: Endometrial glandular hyperplasia
+      type: any
+    - code: N85.1
+      value: Endometrial adenomatous hyperplasia
+      type: any
+    - code: N85.2
+      value: Hypertrophy of uterus
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N85.0
+      value: Endometrial glandular hyperplasia
+      type: any
+    - code: N85.1
+      value: Endometrial adenomatous hyperplasia
+      type: any
+    - code: N85.2
+      value: Hypertrophy of uterus
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N85.0
+      value: Endometrial glandular hyperplasia
+      type: any
+    - code: N85.1
+      value: Endometrial adenomatous hyperplasia
+      type: any
+    - code: N85.2
+      value: Hypertrophy of uterus
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: K542000
+      value: Hypertrophy of uterus unspecified
+      type: any
+    - code: K542100
+      value: Bulky uterus
+      type: any
+    - code: K542200
+      value: Enlarged uterus
+      type: any
+    - code: K542.00
+      value: Hypertrophy of the uterus
+      type: any
+    - code: K542z00
+      value: Hypertrophy of the uterus NOS
+      type: any
+    - code: K543000
+      value: Adenomatous endometrial hyperplasia
+      type: any
+    - code: K543100
+      value: Cystic endometrial hyperplasia
+      type: any
+    - code: K543200
+      value: Glandular endometrial hyperplasia
+      type: any
+    - code: K543.00
+      value: Endometrial cystic hyperplasia
+      type: any
+    - code: K543z00
+      value: Endometrial cystic hyperplasia NOS
+      type: any
+    - code: XaQbW
+      value: Adenomatous endometrial hyperplasia
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

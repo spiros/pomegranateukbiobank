@@ -1,0 +1,120 @@
+metadata:
+  phenotype: Ankylosing spondylitis
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: ank_spond
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: f969d03e-0f21-44e4-85e3-b30a0e5ea54f
+  ontologies:
+    DOID: DOID_7147
+    GWAS: EFO_0003898
+    MESH: D013167
+    SNOMED-CT: 9631008
+    FINNGEN: M13_ANKYLOSPON_STRICT
+  short_desc: A bone inflammation disease that results in inflammation in the joints
+    of the spine and pelvis
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1313'
+      value: ankylosing spondylitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: M45
+      value: Ankylosing spondylitis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: M45
+      value: Ankylosing spondylitis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M45
+      value: Ankylosing spondylitis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M45
+      value: Ankylosing spondylitis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '2377.00'
+      value: O/E - ankyl.spondyl.chest def.
+      type: any
+    - code: 388p.00
+      value: BASDAI - Bath ankylosing spondylitis disease activity index
+      type: any
+    - code: N100.00
+      value: Ankylosing spondylitis
+      type: any
+    - code: N100.11
+      value: Marie - Strumpell spondylitis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,538 @@
+metadata:
+  phenotype: Heart failure
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: hf
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 078c47bf-92d3-45de-83ae-25bf52cee751
+  ontologies:
+    DOID: DOID_9651
+    GWAS: EFO_1001207
+    MESH: D006333
+    SNOMED-CT: 417996009
+    FINNGEN: I9_HEARTFAIL
+  short_desc: Inability of the heart to pump blood at an adequate rate to meet tissue
+    metabolic requirements. Clinical symptoms of heart failure include unusual dyspnea
+    on light exertion, recurrent dyspnea occurring in the supine position, fluid retention
+    or rales, jugular venous distension, pulmonary edema on physical exam, or pulmonary
+    edema on chest x-ray presumed to be cardiac dysfunction.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1076'
+      value: heart failure/pulmonary odema
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I11.0
+      value: Hypertensive heart disease with (congestive) heart failure
+      type: any
+    - code: I13.0
+      value: Hypertensive heart and renal disease with (congestive) heart failure
+      type: any
+    - code: I13.2
+      value: Hypertensive heart and renal disease with both (congestive) heart failure
+        and renal failure
+      type: any
+    - code: I50
+      value: Heart failure
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I11.0
+      value: Hypertensive heart disease with (congestive) heart failure
+      type: any
+    - code: I13.0
+      value: Hypertensive heart and renal disease with (congestive) heart failure
+      type: any
+    - code: I13.2
+      value: Hypertensive heart and renal disease with both (congestive) heart failure
+        and renal failure
+      type: any
+    - code: I50
+      value: Heart failure
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I11.0
+      value: Hypertensive heart disease with (congestive) heart failure
+      type: any
+    - code: I13.0
+      value: Hypertensive heart and renal disease with (congestive) heart failure
+      type: any
+    - code: I13.2
+      value: Hypertensive heart and renal disease with both (congestive) heart failure
+        and renal failure
+      type: any
+    - code: I50
+      value: Heart failure
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I11.0
+      value: Hypertensive heart disease with (congestive) heart failure
+      type: any
+    - code: I13.0
+      value: Hypertensive heart and renal disease with (congestive) heart failure
+      type: any
+    - code: I13.2
+      value: Hypertensive heart and renal disease with both (congestive) heart failure
+        and renal failure
+      type: any
+    - code: I50
+      value: Heart failure
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14A6.00
+      value: 'H/O: heart failure'
+      type: prevalent
+    - code: 14AM.00
+      value: 'H/O: Heart failure in last year'
+      type: prevalent
+    - code: 1O1..00
+      value: Heart failure confirmed
+      type: any
+    - code: 388D.00
+      value: New York Heart Assoc classification heart failure symptoms
+      type: any
+    - code: 661M500
+      value: Heart failure self-management plan agreed
+      type: any
+    - code: 662f.00
+      value: New York Heart Association classification - class I
+      type: any
+    - code: 662g.00
+      value: New York Heart Association classification - class II
+      type: any
+    - code: 662h.00
+      value: New York Heart Association classification - class III
+      type: any
+    - code: 662i.00
+      value: New York Heart Association classification - class IV
+      type: any
+    - code: 662p.00
+      value: Heart failure 6 month review
+      type: prevalent
+    - code: 662T.00
+      value: Congestive heart failure monitoring
+      type: prevalent
+    - code: 662W.00
+      value: Heart failure annual review
+      type: prevalent
+    - code: 679W100
+      value: Education about deteriorating heart failure
+      type: any
+    - code: 679X.00
+      value: Heart failure education
+      type: any
+    - code: 8B29.00
+      value: Cardiac failure therapy
+      type: any
+    - code: 8CeC.00
+      value: Preferred place of care for next exacerbation heart failure
+      type: any
+    - code: 8CL3.00
+      value: Heart failure care plan discussed with patient
+      type: any
+    - code: 8CMK.00
+      value: Has heart failure management plan
+      type: any
+    - code: 8CMW800
+      value: Heart failure clinical pathway
+      type: any
+    - code: 8H2S.00
+      value: Admit heart failure emergency
+      type: any
+    - code: 8HBE.00
+      value: Heart failure follow-up
+      type: prevalent
+    - code: 8HHz.00
+      value: Referral to heart failure exercise programme
+      type: any
+    - code: 8Hk0.00
+      value: Referred to heart failure education group
+      type: any
+    - code: 9h11.00
+      value: 'Excepted from LVD quality indicators: Patient unsuitable'
+      type: prevalent
+    - code: 9h12.00
+      value: 'Excepted from LVD quality indicators: Informed dissent'
+      type: prevalent
+    - code: 9h1..00
+      value: 'Exception reporting: LVD quality indicators'
+      type: prevalent
+    - code: 9hH0.00
+      value: 'Excepted heart failure quality indicators: Patient unsuitabl'
+      type: any
+    - code: 9hH1.00
+      value: 'Excepted heart failure quality indicators: Informed dissent'
+      type: any
+    - code: 9hH..00
+      value: 'Exception reporting: heart failure quality indicators'
+      type: prevalent
+    - code: 9N2p.00
+      value: Seen by community heart failure nurse
+      type: any
+    - code: 9N6T.00
+      value: Referred by heart failure nurse specialist
+      type: any
+    - code: 9On0.00
+      value: Left ventricular dysfunction monitoring first letter
+      type: prevalent
+    - code: 9On1.00
+      value: Left ventricular dysfunction monitoring second letter
+      type: prevalent
+    - code: 9On2.00
+      value: Left ventricular dysfunction monitoring third letter
+      type: prevalent
+    - code: 9On3.00
+      value: Left ventricular dysfunction monitoring verbal invite
+      type: prevalent
+    - code: 9On4.00
+      value: Left ventricular dysfunction monitoring telephone invite
+      type: prevalent
+    - code: 9On..00
+      value: Left ventricular dysfunction monitoring administration
+      type: prevalent
+    - code: 9Or0.00
+      value: Heart failure review completed
+      type: prevalent
+    - code: 9Or1.00
+      value: Heart failure monitoring telephone invite
+      type: prevalent
+    - code: 9Or2.00
+      value: Heart failure monitoring verbal invite
+      type: prevalent
+    - code: 9Or3.00
+      value: Heart failure monitoring first letter
+      type: prevalent
+    - code: 9Or4.00
+      value: Heart failure monitoring second letter
+      type: prevalent
+    - code: 9Or5.00
+      value: Heart failure monitoring third letter
+      type: prevalent
+    - code: 9Or..00
+      value: Heart failure monitoring administration
+      type: prevalent
+    - code: G1yz100
+      value: Rheumatic left ventricular failure
+      type: any
+    - code: G210100
+      value: Malignant hypertensive heart disease with CCF
+      type: any
+    - code: G211100
+      value: Benign hypertensive heart disease with CCF
+      type: any
+    - code: G21z100
+      value: Hypertensive heart disease NOS with CCF
+      type: any
+    - code: G232.00
+      value: Hypertensive heart&renal dis wth (congestive) heart failure
+      type: any
+    - code: G234.00
+      value: Hyperten heart&renal dis+both(congestv)heart and renal fail
+      type: any
+    - code: G400.00
+      value: Acute cor pulmonale
+      type: any
+    - code: G41z.11
+      value: Chronic cor pulmonale
+      type: any
+    - code: G554000
+      value: Congestive cardiomyopathy
+      type: any
+    - code: G554011
+      value: Congestive obstructive cardiomyopathy
+      type: any
+    - code: G580000
+      value: Acute congestive heart failure
+      type: any
+    - code: G580100
+      value: Chronic congestive heart failure
+      type: any
+    - code: G580200
+      value: Decompensated cardiac failure
+      type: any
+    - code: G580300
+      value: Compensated cardiac failure
+      type: any
+    - code: G580400
+      value: Congestive heart failure due to valvular disease
+      type: any
+    - code: G580.00
+      value: Congestive heart failure
+      type: any
+    - code: G580.11
+      value: Congestive cardiac failure
+      type: any
+    - code: G580.12
+      value: Right heart failure
+      type: any
+    - code: G580.13
+      value: Right ventricular failure
+      type: any
+    - code: G580.14
+      value: Biventricular failure
+      type: any
+    - code: G581000
+      value: Acute left ventricular failure
+      type: any
+    - code: G581.00
+      value: Left ventricular failure
+      type: any
+    - code: G581.11
+      value: Asthma - cardiac
+      type: any
+    - code: G581.13
+      value: Impaired left ventricular function
+      type: any
+    - code: G582.00
+      value: Acute heart failure
+      type: any
+    - code: G584.00
+      value: Right ventricular failure
+      type: any
+    - code: G58..00
+      value: Heart failure
+      type: any
+    - code: G58..11
+      value: Cardiac failure
+      type: any
+    - code: G58z.00
+      value: Heart failure NOS
+      type: any
+    - code: G58z.12
+      value: Cardiac failure NOS
+      type: any
+    - code: G5yy900
+      value: Left ventricular systolic dysfunction
+      type: any
+    - code: G5yyA00
+      value: Left ventricular diastolic dysfunction
+      type: any
+    - code: ZRad.00
+      value: New York Heart Assoc classification heart failure symptoms
+      type: any
+    - code: XaK6W
+      value: Left ventricular dysfunction monitoring administration
+      type: prevalent
+    - code: XaKNa
+      value: Seen by community heart failure nurse
+      type: any
+    - code: XaJ4Y
+      value: 'Excepted from LVD quality indicators: Patient unsuitable'
+      type: prevalent
+    - code: XaMGt
+      value: Heart failure monitoring second letter
+      type: prevalent
+    - code: XaKNW
+      value: Admit heart failure emergency
+      type: any
+    - code: XaIpn
+      value: Heart failure confirmed
+      type: any
+    - code: XaIQN
+      value: Heart failure annual review
+      type: prevalent
+    - code: XaBLt
+      value: Cardiac failure therapy
+      type: any
+    - code: XaK6Z
+      value: Left ventricular dysfunction monitoring second letter
+      type: prevalent
+    - code: XaK6a
+      value: Left ventricular dysfunction monitoring third letter
+      type: prevalent
+    - code: XaJ9I
+      value: New York Heart Association classification - class III
+      type: any
+    - code: XaO5n
+      value: Congestive heart failure due to valvular disease
+      type: any
+    - code: XaIIU
+      value: Congestive heart failure monitoring
+      type: prevalent
+    - code: XaYbC
+      value: Heart failure self-management plan agreed
+      type: any
+    - code: XaKc0
+      value: Left ventricular dysfunction monitoring verbal invite
+      type: prevalent
+    - code: XaJ9G
+      value: New York Heart Association classification - class I
+      type: any
+    - code: XaJ4Z
+      value: 'Excepted from LVD quality indicators: Informed dissent'
+      type: prevalent
+    - code: XaXzw
+      value: Preferred place of care for next exacerbation of heart failure
+      type: any
+    - code: X202l
+      value: Right ventricular failure
+      type: any
+    - code: XE0V9
+      value: Heart failure NOS
+      type: any
+    - code: XaMJ9
+      value: 'Exception reporting: heart failure quality indicators'
+      type: prevalent
+    - code: XaMFr
+      value: Heart failure monitoring telephone invite
+      type: prevalent
+    - code: XaLN7
+      value: Heart failure review completed
+      type: prevalent
+    - code: XaXkR
+      value: Has heart failure management plan
+      type: any
+    - code: XaJ4N
+      value: 'Exception reporting: LVD quality indicators'
+      type: prevalent
+    - code: XaIIq
+      value: Left ventricular systolic dysfunction
+      type: any
+    - code: XaYft
+      value: Education about deteriorating heart failure
+      type: any
+    - code: XaJ9H
+      value: New York Heart Association classification - class II
+      type: any
+    - code: XaIQM
+      value: Heart failure follow-up
+      type: prevalent
+    - code: XaK6Y
+      value: Left ventricular dysfunction monitoring first letter
+      type: prevalent
+    - code: XaMGm
+      value: Left ventricular dysfunction monitoring telephone invite
+      type: prevalent
+    - code: XE0Un
+      value: Chronic pulmonary heart disease NOS
+      type: any
+    - code: XaNUf
+      value: Heart failure education
+      type: any
+    - code: XE0Uz
+      value: Congestive cardiomyopathy
+      type: any
+    - code: XaMJB
+      value: 'Excepted from heart failure quality indicators: Informed dissent'
+      type: prevalent
+    - code: XaLNA
+      value: Heart failure care plan discussed with patient
+      type: any
+    - code: XaBwi
+      value: 'H/O: Heart failure in last year'
+      type: prevalent
+    - code: XaMGu
+      value: Heart failure monitoring third letter
+      type: prevalent
+    - code: XaMGs
+      value: Heart failure monitoring first letter
+      type: prevalent
+    - code: XaIL7
+      value: New York Heart Association classification of heart failure symptoms
+      type: any
+    - code: XaJ9J
+      value: New York Heart Association classification - class IV
+      type: any
+    - code: XaMGo
+      value: Heart failure monitoring verbal invite
+      type: prevalent
+    - code: XaMJA
+      value: 'Excepted from heart failure quality indicators: Patient unsuitable'
+      type: prevalent
+    - code: XaLMx
+      value: Referral to heart failure exercise programme
+      type: any
+    - code: XaItG
+      value: Left ventricular diastolic dysfunction
+      type: any
+    - code: XaLSI
+      value: Referred to heart failure education group
+      type: any
+    - code: XE2QG
+      value: Left ventricular failure
+      type: any
+    - code: XE2QG
+      value: Left ventricular failure
+      type: any
+    - code: XaZih
+      value: Heart failure clinical pathway
+      type: any
+    - code: XaLN6
+      value: Heart failure monitoring administration
+      type: prevalent
+    - code: XaLon
+      value: Heart failure 6 month review
+      type: prevalent
+    - code: XaLCj
+      value: Referred by heart failure nurse specialist
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

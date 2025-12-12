@@ -1,0 +1,371 @@
+metadata:
+  phenotype: Other anaemias
+  group: Haematological or immunological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: oth_anaemia
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 24398bf2-8099-452e-a015-edc7a7cf3fb6
+  ontologies:
+    DOID: DOID_2355
+    GWAS: null
+    MESH: D000740
+    SNOMED-CT: null
+    FINNGEN: D3_OTHERANAEMIA
+  short_desc: null
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D53
+      value: Other nutritional anaemias
+      type: any
+    - code: D62
+      value: Acute posthaemorrhagic anaemia
+      type: any
+    - code: D63
+      value: Anaemia in chronic diseases classified elsewhere
+      type: any
+    - code: D64
+      value: Other anaemias
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D53
+      value: Other nutritional anaemias
+      type: any
+    - code: D62
+      value: Acute posthaemorrhagic anaemia
+      type: any
+    - code: D63
+      value: Anaemia in chronic diseases classified elsewhere
+      type: any
+    - code: D64
+      value: Other anaemias
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D53
+      value: Other nutritional anaemias
+      type: any
+    - code: D62
+      value: Acute posthaemorrhagic anaemia
+      type: any
+    - code: D63
+      value: Anaemia in chronic diseases classified elsewhere
+      type: any
+    - code: D64
+      value: Other anaemias
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D53
+      value: Other nutritional anaemias
+      type: any
+    - code: D62
+      value: Acute posthaemorrhagic anaemia
+      type: any
+    - code: D63
+      value: Anaemia in chronic diseases classified elsewhere
+      type: any
+    - code: D64
+      value: Other anaemias
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 145..11
+      value: 'H/O: anaemia'
+      type: prevalent
+    - code: '1454.00'
+      value: 'H/O: anaemia NOS'
+      type: prevalent
+    - code: '4234.00'
+      value: Haemoglobin very low
+      type: any
+    - code: '4235.00'
+      value: Haemoglobin low
+      type: any
+    - code: D00..11
+      value: Hypochromic - microcytic anaemia
+      type: any
+    - code: D00..12
+      value: Microcytic - hypochromic anaemia
+      type: any
+    - code: D00y100
+      value: Microcytic hypochromic anaemia
+      type: any
+    - code: D00z200
+      value: Idiopathic hypochromic anaemia
+      type: any
+    - code: D012112
+      value: Megaloblastic anaemia due to dietary causes
+      type: any
+    - code: D012500
+      value: Macrocytic anaemia unspecified cause
+      type: any
+    - code: D013.00
+      value: Other specified megaloblastic anaemia NEC
+      type: any
+    - code: D013z00
+      value: Other specified megaloblastic anaemia NEC NOS
+      type: any
+    - code: D014000
+      value: Amino-acid deficiency anaemia
+      type: any
+    - code: D014100
+      value: Oroticaciduria
+      type: any
+    - code: D014.00
+      value: Protein-deficiency anaemia
+      type: any
+    - code: D014z00
+      value: Protein-deficiency anaemia NOS
+      type: any
+    - code: D01..00
+      value: Other deficiency anaemias
+      type: any
+    - code: D01..11
+      value: Megaloblastic anaemia
+      type: any
+    - code: D01y000
+      value: Vitamin C deficiency anaemia
+      type: any
+    - code: D01y100
+      value: Vitamin E deficiency anaemia
+      type: any
+    - code: D01y.00
+      value: Other specified nutritional deficiency anaemia
+      type: any
+    - code: D01yy00
+      value: Other specified other nutritional deficiency anaemia
+      type: any
+    - code: D01yz00
+      value: Other specified nutritional deficiency anaemia NOS
+      type: any
+    - code: D01z000
+      value: '[X]Megaloblastic anaemia NOS'
+      type: any
+    - code: D01z.00
+      value: Other deficiency anaemias NOS
+      type: any
+    - code: D01z.11
+      value: Megaloblastic anaemia NOS
+      type: any
+    - code: D0...00
+      value: Deficiency anaemias
+      type: any
+    - code: D0y..00
+      value: Other specified deficiency anaemias
+      type: any
+    - code: D0z..00
+      value: Deficiency anaemias NOS
+      type: any
+    - code: D210000
+      value: Congenital sideroblastic anaemia
+      type: any
+    - code: D210100
+      value: Acquired sideroblastic anaemia
+      type: any
+    - code: D210200
+      value: Pyridoxine-responsive sideroblastic anaemia
+      type: any
+    - code: D210300
+      value: Secondary sideroblastic anaemia due to disease
+      type: any
+    - code: D210400
+      value: Secondary sideroblastic anaemia due to drugs and toxins
+      type: any
+    - code: D210.00
+      value: Sideroblastic anaemia
+      type: any
+    - code: D210z00
+      value: Sideroblastic anaemia NOS
+      type: any
+    - code: D211.00
+      value: Acute posthaemorrhagic anaemia
+      type: any
+    - code: D211.11
+      value: Normocytic anaemia following acute bleed
+      type: any
+    - code: D212000
+      value: Anaemia in ovarian carcinoma
+      type: any
+    - code: D212.00
+      value: Anaemia in neoplastic disease
+      type: any
+    - code: D213.00
+      value: Refractory Anaemia
+      type: any
+    - code: D214.00
+      value: Chronic anaemia
+      type: any
+    - code: D215000
+      value: Anaemia secondary to chronic renal failure
+      type: any
+    - code: D215.00
+      value: Anaemia secondary to renal failure
+      type: any
+    - code: D21..00
+      value: Other and unspecified anaemias
+      type: any
+    - code: D21y000
+      value: Congenital dyshaematopoietic anaemia
+      type: any
+    - code: D21y011
+      value: Congenital dyserythropoietic anaemia
+      type: any
+    - code: D21y012
+      value: Congenital dyserythropoiesis NEC
+      type: any
+    - code: D21y200
+      value: Leukoerythroblastic anaemia
+      type: any
+    - code: D21y300
+      value: Hereditary erythroblast multinuclearity + positive acid test
+      type: any
+    - code: D21y.00
+      value: Other specified anaemias
+      type: any
+    - code: D21yy00
+      value: Other specified other anaemia
+      type: any
+    - code: D21yz00
+      value: Other specified anaemia NOS
+      type: any
+    - code: D21z.00
+      value: Anaemia unspecified
+      type: any
+    - code: D21z.11
+      value: Secondary anaemia NOS
+      type: any
+    - code: D21z.12
+      value: Normocytic anaemia due to unspecified cause
+      type: any
+    - code: D21z.13
+      value: Macrocytic anaemia of unspecified cause
+      type: any
+    - code: D2...00
+      value: Aplastic and other anaemias
+      type: any
+    - code: D2y..00
+      value: Other specified anaemias
+      type: any
+    - code: D2z..00
+      value: Other anaemias NOS
+      type: any
+    - code: Dyu0.00
+      value: '[X]Nutritional anaemias'
+      type: any
+    - code: Dyu2200
+      value: '[X]Anaemia in other chronic diseases classified elsewhere'
+      type: any
+    - code: Dyu2400
+      value: '[X]Other specified anaemias'
+      type: any
+    - code: Q455000
+      value: Congenital anaemia from fetal blood loss
+      type: any
+    - code: Q455.00
+      value: Congenital anaemia
+      type: any
+    - code: Q456.00
+      value: Anaemia of prematurity
+      type: any
+    - code: Qyu5C00
+      value: '[X]Other congenital anaemias, not elsewhere classified'
+      type: any
+    - code: XaCLy
+      value: Anaemia secondary to chronic renal failure
+      type: any
+    - code: XE13j
+      value: Other deficiency anaemias NOS
+      type: any
+    - code: XE13f
+      value: Other deficiency anaemias
+      type: any
+    - code: XE13x
+      value: Acute posthaemorrhagic anaemia
+      type: any
+    - code: XaCLx
+      value: Anaemia secondary to renal failure
+      type: any
+    - code: XaBDS
+      value: Anaemia in ovarian carcinoma
+      type: any
+    - code: XE140
+      value: Anaemia unspecified
+      type: any
+    - code: XE0q5
+      value: 'H/O: blood disorder'
+      type: prevalent
+    - code: D2y..
+      value: Other specified anaemias
+      type: any
+    - code: XE13b
+      value: Deficiency anaemias
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

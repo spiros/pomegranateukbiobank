@@ -1,0 +1,218 @@
+metadata:
+  phenotype: Benign neoplasm of stomach and duodenum
+  group: Benign neoplasm or Carcinoma in situ
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: benign_stomach
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: c5e928ed-6c0a-486e-9371-e3b27ba66eb9
+  ontologies:
+    DOID: null
+    GWAS: MONDO_0021449
+    MESH: null
+    SNOMED-CT: 92411005
+    FINNGEN: null
+  short_desc: Benign neoplasm of stomach and duodenum
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K31.7
+      value: Polyp of stomach and duodenum
+      type: any
+    - code: D13.1
+      value: 'Benign neoplasm: Stomach'
+      type: any
+    - code: D13.2
+      value: 'Benign neoplasm: Duodenum'
+      type: any
+    - code: D13.3
+      value: 'Benign neoplasm: Other and unspecified parts of small intestine'
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K31.7
+      value: Polyp of stomach and duodenum
+      type: any
+    - code: D13.1
+      value: 'Benign neoplasm: Stomach'
+      type: any
+    - code: D13.2
+      value: 'Benign neoplasm: Duodenum'
+      type: any
+    - code: D13.3
+      value: 'Benign neoplasm: Other and unspecified parts of small intestine'
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K31.7
+      value: Polyp of stomach and duodenum
+      type: any
+    - code: D13.1
+      value: 'Benign neoplasm: Stomach'
+      type: any
+    - code: D13.2
+      value: 'Benign neoplasm: Duodenum'
+      type: any
+    - code: D13.3
+      value: 'Benign neoplasm: Other and unspecified parts of small intestine'
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K31.7
+      value: Polyp of stomach and duodenum
+      type: any
+    - code: D13.1
+      value: 'Benign neoplasm: Stomach'
+      type: any
+    - code: D13.2
+      value: 'Benign neoplasm: Duodenum'
+      type: any
+    - code: D13.3
+      value: 'Benign neoplasm: Other and unspecified parts of small intestine'
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '7612000.0'
+      value: Open excision of polyp of stomach
+      type: any
+    - code: B711000
+      value: Benign neoplasm of stomach cardia
+      type: any
+    - code: B711100
+      value: Benign neoplasm of pylorus of stomach
+      type: any
+    - code: B711200
+      value: Benign neoplasm of fundus of stomach
+      type: any
+    - code: B711300
+      value: Benign neoplasm of body of stomach
+      type: any
+    - code: B711400
+      value: Benign neoplasm of pyloric antrum
+      type: any
+    - code: B711.00
+      value: Benign neoplasm of stomach
+      type: any
+    - code: B711.11
+      value: Gastric polyp
+      type: any
+    - code: B711z00
+      value: Benign neoplasm of stomach NOS
+      type: any
+    - code: B712000
+      value: Benign neoplasm of duodenum
+      type: any
+    - code: B712011
+      value: Duodenal polyp
+      type: any
+    - code: B712100
+      value: Benign neoplasm of jejunum
+      type: any
+    - code: B712111
+      value: Jejunal polyp
+      type: any
+    - code: B712200
+      value: Benign neoplasm of ileum
+      type: any
+    - code: B712.00
+      value: Benign neoplasm of small intestine and duodenum
+      type: any
+    - code: B712z00
+      value: Benign neoplasm of small intestine or duodenum NOS
+      type: any
+    - code: J177.00
+      value: Gastric polyp
+      type: any
+    - code: J177.11
+      value: Polyp of stomach
+      type: any
+    - code: J178.00
+      value: Duodenal polyp
+      type: any
+    - code: J178.11
+      value: Polyp of duodenum
+      type: any
+    - code: X3025
+      value: Gastric polyp
+      type: any
+    - code: X78o1
+      value: Duodenal polyp
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: K31.7
+      value: Polyp of stomach and duodenum
+      type: any
+    - code: D13.1
+      value: 'Benign neoplasm: Stomach'
+      type: any
+    - code: D13.2
+      value: 'Benign neoplasm: Duodenum'
+      type: any
+    - code: D13.3
+      value: 'Benign neoplasm: Other and unspecified parts of small intestine'
+      type: any

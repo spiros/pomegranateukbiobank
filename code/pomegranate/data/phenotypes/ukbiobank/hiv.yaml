@@ -1,0 +1,358 @@
+metadata:
+  phenotype: HIV
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: hiv
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: b210f925-7cca-4ea8-8f40-230e90277cff
+  ontologies:
+    DOID: DOID_526
+    GWAS: EFO_0000764
+    MESH: D006678
+    SNOMED-CT: 86406008
+    FINNGEN: AB1_HIV
+  short_desc: Human immunodeficiency virus.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1439'
+      value: hiv/aids
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: B20
+      value: Human immunodeficiency virus [HIV] disease resulting in infectious and
+        parasitic diseases
+      type: any
+    - code: B21
+      value: Human immunodeficiency virus [HIV] disease resulting in malignant neoplasms
+      type: any
+    - code: B22
+      value: Human immunodeficiency virus [HIV] disease resulting in other specified
+        diseases
+      type: any
+    - code: B23
+      value: Human immunodeficiency virus [HIV] disease resulting in other conditions
+      type: any
+    - code: B24
+      value: Unspecified human immunodeficiency virus [HIV] disease
+      type: any
+    - code: F02.4
+      value: Dementia in human immunodeficiency virus [HIV] disease
+      type: any
+    - code: R75
+      value: Laboratory evidence of human immunodeficiency virus [HIV]
+      type: any
+    - code: Z21
+      value: Asymptomatic human immunodeficiency virus [HIV] infection status
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: B20
+      value: Human immunodeficiency virus [HIV] disease resulting in infectious and
+        parasitic diseases
+      type: any
+    - code: B21
+      value: Human immunodeficiency virus [HIV] disease resulting in malignant neoplasms
+      type: any
+    - code: B22
+      value: Human immunodeficiency virus [HIV] disease resulting in other specified
+        diseases
+      type: any
+    - code: B23
+      value: Human immunodeficiency virus [HIV] disease resulting in other conditions
+      type: any
+    - code: B24
+      value: Unspecified human immunodeficiency virus [HIV] disease
+      type: any
+    - code: F02.4
+      value: Dementia in human immunodeficiency virus [HIV] disease
+      type: any
+    - code: R75
+      value: Laboratory evidence of human immunodeficiency virus [HIV]
+      type: any
+    - code: Z21
+      value: Asymptomatic human immunodeficiency virus [HIV] infection status
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: B20
+      value: Human immunodeficiency virus [HIV] disease resulting in infectious and
+        parasitic diseases
+      type: any
+    - code: B21
+      value: Human immunodeficiency virus [HIV] disease resulting in malignant neoplasms
+      type: any
+    - code: B22
+      value: Human immunodeficiency virus [HIV] disease resulting in other specified
+        diseases
+      type: any
+    - code: B23
+      value: Human immunodeficiency virus [HIV] disease resulting in other conditions
+      type: any
+    - code: B24
+      value: Unspecified human immunodeficiency virus [HIV] disease
+      type: any
+    - code: F02.4
+      value: Dementia in human immunodeficiency virus [HIV] disease
+      type: any
+    - code: R75
+      value: Laboratory evidence of human immunodeficiency virus [HIV]
+      type: any
+    - code: Z21
+      value: Asymptomatic human immunodeficiency virus [HIV] infection status
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: B20
+      value: Human immunodeficiency virus [HIV] disease resulting in infectious and
+        parasitic diseases
+      type: any
+    - code: B21
+      value: Human immunodeficiency virus [HIV] disease resulting in malignant neoplasms
+      type: any
+    - code: B22
+      value: Human immunodeficiency virus [HIV] disease resulting in other specified
+        diseases
+      type: any
+    - code: B23
+      value: Human immunodeficiency virus [HIV] disease resulting in other conditions
+      type: any
+    - code: B24
+      value: Unspecified human immunodeficiency virus [HIV] disease
+      type: any
+    - code: F02.4
+      value: Dementia in human immunodeficiency virus [HIV] disease
+      type: any
+    - code: R75
+      value: Laboratory evidence of human immunodeficiency virus [HIV]
+      type: any
+    - code: Z21
+      value: Asymptomatic human immunodeficiency virus [HIV] infection status
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 43C3.11
+      value: HIV positive
+      type: any
+    - code: 4J34.00
+      value: HIV viral load
+      type: any
+    - code: 4J3F.00
+      value: Human immunodeficiency virus viral load by log rank
+      type: any
+    - code: 65QA.00
+      value: AIDS carrier
+      type: any
+    - code: 65VE.00
+      value: Notification of AIDS
+      type: any
+    - code: 66j0.00
+      value: Human immunodeficiency virus annual review
+      type: prevalent
+    - code: 66j..00
+      value: Human immunodeficiency virus monitoring
+      type: prevalent
+    - code: 9kl..00
+      value: HIV pos gen health check serv declind - enhanc service admin
+      type: any
+    - code: A788000
+      value: Acute human immunodeficiency virus infection
+      type: any
+    - code: A788100
+      value: Asymptomatic human immunodeficiency virus infection
+      type: any
+    - code: A788200
+      value: HIV infection with persistent generalised lymphadenopathy
+      type: any
+    - code: A788300
+      value: Human immunodeficiency virus with constitutional disease
+      type: any
+    - code: A788400
+      value: Human immunodeficiency virus with neurological disease
+      type: any
+    - code: A788500
+      value: Human immunodeficiency virus with secondary infection
+      type: any
+    - code: A788600
+      value: Human immunodeficiency virus with secondary cancers
+      type: any
+    - code: A788.00
+      value: Acquired immune deficiency syndrome
+      type: any
+    - code: A788.11
+      value: Human immunodeficiency virus infection
+      type: any
+    - code: A788U00
+      value: HIV disease result/haematological+immunologic abnorms,NEC
+      type: any
+    - code: A788W00
+      value: HIV disease resulting in unspecified malignant neoplasm
+      type: any
+    - code: A788X00
+      value: HIV disease resulting/unspcf infectious+parasitic disease
+      type: any
+    - code: A788y00
+      value: Human immunodeficiency virus with other clinical findings
+      type: any
+    - code: A788z00
+      value: Acquired human immunodeficiency virus infection syndrome NOS
+      type: any
+    - code: A789000
+      value: HIV disease resulting in mycobacterial infection
+      type: any
+    - code: A789100
+      value: HIV disease resulting in cytomegaloviral disease
+      type: any
+    - code: A789200
+      value: HIV disease resulting in candidiasis
+      type: any
+    - code: A789300
+      value: HIV disease resulting in Pneumocystis carinii pneumonia
+      type: any
+    - code: A789311
+      value: HIV disease resulting in Pneumocystis jirovecii pneumonia
+      type: any
+    - code: A789400
+      value: HIV disease resulting in multiple infections
+      type: any
+    - code: A789500
+      value: HIV disease resulting in Kaposi's sarcoma
+      type: any
+    - code: A789511
+      value: HIV disease resulting in Kaposi sarcoma
+      type: any
+    - code: A789600
+      value: HIV disease resulting in Burkitt's lymphoma
+      type: any
+    - code: A789700
+      value: HIV dis resulting oth types of non-Hodgkin's lymphoma
+      type: any
+    - code: A789800
+      value: HIV disease resulting in multiple malignant neoplasms
+      type: any
+    - code: A789900
+      value: HIV disease resulting in lymphoid interstitial pneumonitis
+      type: any
+    - code: A789.00
+      value: Human immunodef virus resulting in other disease
+      type: any
+    - code: A789A00
+      value: HIV disease resulting in wasting syndrome
+      type: any
+    - code: A789X00
+      value: HIV dis reslt/oth mal neopl/lymph,h'matopoetc+reltd tissu
+      type: any
+    - code: AyuC100
+      value: '[X]HIV disease resulting in other viral infections'
+      type: any
+    - code: AyuC300
+      value: '[X]HIV disease resulting in multiple infections'
+      type: any
+    - code: AyuC400
+      value: '[X]HIV disease resulting/other infectious+parasitic diseases'
+      type: any
+    - code: AyuC600
+      value: '[X]HIV disease resulting in other non-Hodgkin''s lymphoma'
+      type: any
+    - code: AyuC.00
+      value: '[X]Human immunodeficiency virus disease'
+      type: any
+    - code: AyuCB00
+      value: '[X]HIV disease result/haematological+immunologic abnorms,NEC'
+      type: any
+    - code: AyuCC00
+      value: '[X]HIV disease resulting in other specified conditions'
+      type: any
+    - code: AyuCD00
+      value: '[X]Unspecified human immunodeficiency virus [HIV] disease'
+      type: any
+    - code: Eu02400
+      value: '[X]Dementia in human immunodef virus [HIV] disease'
+      type: any
+    - code: R109.00
+      value: '[D]Laboratory evidence of human immunodeficiency virus [HIV]'
+      type: any
+    - code: ZV01A00
+      value: '[V]Asymptomatic human immunodeficency virus infection status'
+      type: any
+    - code: XaO9K
+      value: Human immunodeficiency virus viral load by log rank
+      type: any
+    - code: XaFuL
+      value: HIV viral load
+      type: any
+    - code: XE0RX
+      value: Acquired immune deficiency syndrome
+      type: any
+    - code: XaQOu
+      value: Human immunodeficiency virus annual review
+      type: prevalent
+    - code: XaQOt
+      value: Human immunodeficiency virus monitoring
+      type: prevalent
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,140 @@
+metadata:
+  phenotype: Polymyalgia Rheumatica
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: PMR
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: d3f6966f-5089-45e6-9e25-8cd988d45ced
+  ontologies:
+    DOID: DOID_853
+    GWAS: EFO_0008518
+    MESH: D011111
+    SNOMED-CT: 65323003
+    FINNGEN: M13_POLYMYALGIA
+  short_desc: Polymyalgia rheumatica is a common inflammatory condition that often
+    affects people over the age of 50 years. Characteristic symptoms are shoulder
+    and hip girdle pain and prolonged morning stiffness. Markers of inflammation are
+    often elevated.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1377'
+      value: polymyalgia rheumatica
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: M31.5
+      value: Giant cell arteritis with polymyalgia rheumatica
+      type: any
+    - code: M35.3
+      value: Polymyalgia rheumatica
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: M31.5
+      value: Giant cell arteritis with polymyalgia rheumatica
+      type: any
+    - code: M35.3
+      value: Polymyalgia rheumatica
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M31.5
+      value: Giant cell arteritis with polymyalgia rheumatica
+      type: any
+    - code: M35.3
+      value: Polymyalgia rheumatica
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M31.5
+      value: Giant cell arteritis with polymyalgia rheumatica
+      type: any
+    - code: M35.3
+      value: Polymyalgia rheumatica
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: N200.00
+      value: Giant cell arteritis with polymyalgia rheumatica
+      type: any
+    - code: N20..00
+      value: Polymyalgia rheumatica
+      type: any
+    - code: N20..11
+      value: Polymyalgia
+      type: any
+    - code: XE1FJ
+      value: Polymyalgia rheumatica
+      type: any
+    - code: XE1FJ
+      value: Polymyalgia rheumatica
+      type: any
+    - code: X705l
+      value: Giant cell arteritis with polymyalgia rheumatica
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

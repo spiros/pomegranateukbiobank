@@ -1,0 +1,137 @@
+metadata:
+  phenotype: High birth weight
+  group: Perinatal
+  is_cancer: '0'
+  is_adult: '0'
+  variable_name: HBW
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 0a78a15b-873b-4f51-a676-150330436cdb
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: null
+    SNOMED-CT: '276613009'
+    FINNGEN: null
+  short_desc: A newborn who's much larger than average (above 8 lb 13 oz / 4000 g).
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: P08.0
+      value: Exceptionally large baby
+      type: any
+    - code: P08.1
+      value: Other heavy for gestational age infants
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: P08.0
+      value: Exceptionally large baby
+      type: any
+    - code: P08.1
+      value: Other heavy for gestational age infants
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: P08.0
+      value: Exceptionally large baby
+      type: any
+    - code: P08.1
+      value: Other heavy for gestational age infants
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: P08.0
+      value: Exceptionally large baby
+      type: any
+    - code: P08.1
+      value: Other heavy for gestational age infants
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: L266000
+      value: Large-for-dates unspecified
+      type: any
+    - code: L266100
+      value: Large-for-dates - delivered
+      type: any
+    - code: L266200
+      value: Large-for-dates with antenatal problem
+      type: any
+    - code: L266z00
+      value: Large-for-dates NOS
+      type: any
+    - code: Q120.00
+      value: Very large baby - weight greater than 4500gm
+      type: any
+    - code: Q121.00
+      value: Other 'large-for-dates' infant
+      type: any
+    - code: Q12..11
+      value: Large baby born
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

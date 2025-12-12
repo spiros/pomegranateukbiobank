@@ -1,0 +1,128 @@
+metadata:
+  phenotype: Raynaud's syndrome
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: raynauds
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 529ed786-6bfb-4a91-906d-7fce08d18e91
+  ontologies:
+    DOID: DOID_10300
+    GWAS: EFO_1001145
+    MESH: D011928
+    SNOMED-CT: 195295006
+    FINNGEN: null
+  short_desc: Raynaud's phenomenon is a relatively common but often unrecognized clinical
+    syndrome causing characteristic color changes in the digits as a result of vasospasm.
+    This may occur after exposure to a cold environment, emotional stress, or from
+    other physical or medication exposures.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1561'
+      value: raynaud's phenomenon/disease
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I73.0
+      value: Raynaud's syndrome
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I73.0
+      value: Raynaud's syndrome
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I73.0
+      value: Raynaud's syndrome
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I73.0
+      value: Raynaud's syndrome
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: G730000
+      value: Raynaud's disease
+      type: any
+    - code: G730100
+      value: Raynaud's phenomenon
+      type: any
+    - code: G730111
+      value: Vibratory white finger
+      type: any
+    - code: G730.00
+      value: Raynaud's syndrome
+      type: any
+    - code: G730z00
+      value: Raynaud's syndrome NOS
+      type: any
+    - code: XE0VQ
+      value: Raynaud's phenomenon
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

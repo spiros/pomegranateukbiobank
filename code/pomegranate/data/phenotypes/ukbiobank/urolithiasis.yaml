@@ -1,0 +1,819 @@
+metadata:
+  phenotype: Urolithiasis
+  group: Genitourinary
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: urolithiasis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: b114ada9-1a1c-479e-b5ff-fbfa27df2a3b
+  ontologies:
+    DOID: 0080653
+    GWAS: MONDO_0024647
+    MESH: D052878
+    SNOMED-CT: 95566004
+    FINNGEN: N14_UROLITHIASIS
+  short_desc: A urinary system disease that is characterized by the formation of stony
+    concretions in the bladder or urinary tract.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1197'
+      value: kidney stone/ureter stone/bladder stone
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: N13.2
+      value: Hydronephrosis with renal and ureteral calculous obstruction
+      type: any
+    - code: N20.0
+      value: Calculus of kidney
+      type: any
+    - code: N20.1
+      value: Calculus of ureter
+      type: any
+    - code: N20.2
+      value: Calculus of kidney with calculus of ureter
+      type: any
+    - code: N20.9
+      value: Urinary calculus, unspecified
+      type: any
+    - code: N21.0
+      value: Calculus in bladder
+      type: any
+    - code: N21.1
+      value: Calculus in urethra
+      type: any
+    - code: N21.8
+      value: Other lower urinary tract calculus
+      type: any
+    - code: N21.9
+      value: Calculus of lower urinary tract, unspecified
+      type: any
+    - code: N22.8
+      value: Calculus of urinary tract in other diseases classified elsewhere
+      type: any
+    - code: N23.X
+      value: Unspecified renal colic
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: N13.2
+      value: Hydronephrosis with renal and ureteral calculous obstruction
+      type: any
+    - code: N20.0
+      value: Calculus of kidney
+      type: any
+    - code: N20.1
+      value: Calculus of ureter
+      type: any
+    - code: N20.2
+      value: Calculus of kidney with calculus of ureter
+      type: any
+    - code: N20.9
+      value: Urinary calculus, unspecified
+      type: any
+    - code: N21.0
+      value: Calculus in bladder
+      type: any
+    - code: N21.1
+      value: Calculus in urethra
+      type: any
+    - code: N21.8
+      value: Other lower urinary tract calculus
+      type: any
+    - code: N21.9
+      value: Calculus of lower urinary tract, unspecified
+      type: any
+    - code: N22.8
+      value: Calculus of urinary tract in other diseases classified elsewhere
+      type: any
+    - code: N23.X
+      value: Unspecified renal colic
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: M06.1
+      value: Open removal of calculus from kidney
+      type: any
+    - code: M09
+      value: Therapeutic endoscopic operations on calculus of kidney
+      type: any
+    - code: M09.1
+      value: Endoscopic ultrasound fragmentation of calculus of kidney
+      type: any
+    - code: M09.2
+      value: Endoscopic electrohydraulic shockwave fragmentation of calculus of kidney
+      type: any
+    - code: M09.3
+      value: Endoscopic laser fragmentation of calculus of kidney
+      type: any
+    - code: M09.4
+      value: Endoscopic extraction of calculus of kidney NEC
+      type: any
+    - code: M09.8
+      value: Other specified therapeutic endoscopic operations on calculus of kidney
+      type: any
+    - code: M09.9
+      value: Unspecified therapeutic endoscopic operations on calculus of kidney
+      type: any
+    - code: M14
+      value: Extracorporeal fragmentation of calculus of kidney
+      type: any
+    - code: M14.1
+      value: Extracorporeal shock wave lithotripsy of calculus of kidney
+      type: any
+    - code: M14.8
+      value: Other specified extracorporeal fragmentation of calculus of kidney
+      type: any
+    - code: M14.9
+      value: Unspecified extracorporeal fragmentation of calculus of kidney
+      type: any
+    - code: M16.4
+      value: Percutaneous nephrolithotomy NEC
+      type: any
+    - code: M23.1
+      value: Open ureterolithotomy
+      type: any
+    - code: M26.1
+      value: Nephroscopic laser fragmentation of calculus of ureter
+      type: any
+    - code: M26.2
+      value: Nephroscopic fragmentation of calculus of ureter NEC
+      type: any
+    - code: M26.3
+      value: Nephroscopic extraction of calculus of ureter
+      type: any
+    - code: M27.1
+      value: Ureteroscopic laser fragmentation of calculus of ureter
+      type: any
+    - code: M27.2
+      value: Ureteroscopic fragmentation of calculus of ureter NEC
+      type: any
+    - code: M27.3
+      value: Ureteroscopic extraction of calculus of ureter
+      type: any
+    - code: M28
+      value: Other endoscopic removal of calculus from ureter
+      type: any
+    - code: M28.1
+      value: Endoscopic laser fragmentation of calculus of ureter NEC
+      type: any
+    - code: M28.2
+      value: Endoscopic fragmentation of calculus of ureter NEC
+      type: any
+    - code: M28.3
+      value: Endoscopic extraction of calculus of ureter NEC
+      type: any
+    - code: M28.4
+      value: Endoscopic catheter drainage of calculus of ureter
+      type: any
+    - code: M28.5
+      value: Endoscopic drainage of calculus of ureter by dilation of ureter
+      type: any
+    - code: M28.8
+      value: Other specified other endoscopic removal of calculus from ureter
+      type: any
+    - code: M28.9
+      value: Unspecified other endoscopic removal of calculus from ureter
+      type: any
+    - code: M31
+      value: Extracorporeal fragmentation of calculus of ureter
+      type: any
+    - code: M31.1
+      value: Extracorporeal shockwave lithotripsy of calculus of ureter
+      type: any
+    - code: M31.8
+      value: Other specified extracorporeal fragmentation of calculus of ureter
+      type: any
+    - code: M31.9
+      value: Unspecified extracorporeal fragmentation of calculus of ureter
+      type: any
+    - code: M39.1
+      value: Open removal of calculus from bladder
+      type: any
+    - code: M44.2
+      value: Endoscopic extraction of calculus of bladder NEC
+      type: any
+    - code: M75.4
+      value: Open extraction of calculus from urethra
+      type: any
+    - code: M86.1
+      value: Endoscopic extraction of calculus of urinary diversion
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: M06.1
+      value: M06.1
+      type: any
+    - code: M09
+      value: M09
+      type: any
+    - code: M09.1
+      value: M09.1
+      type: any
+    - code: M09.2
+      value: M09.2
+      type: any
+    - code: M09.3
+      value: M09.3
+      type: any
+    - code: M09.4
+      value: M09.4
+      type: any
+    - code: M09.8
+      value: M09.8
+      type: any
+    - code: M09.9
+      value: M09.9
+      type: any
+    - code: M14
+      value: M14
+      type: any
+    - code: M14.1
+      value: M14.1
+      type: any
+    - code: M14.8
+      value: M14.8
+      type: any
+    - code: M14.9
+      value: M14.9
+      type: any
+    - code: M16.4
+      value: M16.4
+      type: any
+    - code: M23.1
+      value: M23.1
+      type: any
+    - code: M26.1
+      value: M26.1
+      type: any
+    - code: M26.2
+      value: M26.2
+      type: any
+    - code: M26.3
+      value: M26.3
+      type: any
+    - code: M27.1
+      value: M27.1
+      type: any
+    - code: M27.2
+      value: M27.2
+      type: any
+    - code: M27.3
+      value: M27.3
+      type: any
+    - code: M28
+      value: M28
+      type: any
+    - code: M28.1
+      value: M28.1
+      type: any
+    - code: M28.2
+      value: M28.2
+      type: any
+    - code: M28.3
+      value: M28.3
+      type: any
+    - code: M28.4
+      value: M28.4
+      type: any
+    - code: M28.5
+      value: M28.5
+      type: any
+    - code: M28.8
+      value: M28.8
+      type: any
+    - code: M28.9
+      value: M28.9
+      type: any
+    - code: M31
+      value: M31
+      type: any
+    - code: M31.1
+      value: M31.1
+      type: any
+    - code: M31.8
+      value: M31.8
+      type: any
+    - code: M31.9
+      value: M31.9
+      type: any
+    - code: M39.1
+      value: M39.1
+      type: any
+    - code: M44.2
+      value: M44.2
+      type: any
+    - code: M75.4
+      value: M75.4
+      type: any
+    - code: M86.1
+      value: M86.1
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N13.2
+      value: Hydronephrosis with renal and ureteral calculous obstruction
+      type: any
+    - code: N20.0
+      value: Calculus of kidney
+      type: any
+    - code: N20.1
+      value: Calculus of ureter
+      type: any
+    - code: N20.2
+      value: Calculus of kidney with calculus of ureter
+      type: any
+    - code: N20.9
+      value: Urinary calculus, unspecified
+      type: any
+    - code: N21.0
+      value: Calculus in bladder
+      type: any
+    - code: N21.1
+      value: Calculus in urethra
+      type: any
+    - code: N21.8
+      value: Other lower urinary tract calculus
+      type: any
+    - code: N21.9
+      value: Calculus of lower urinary tract, unspecified
+      type: any
+    - code: N22.8
+      value: Calculus of urinary tract in other diseases classified elsewhere
+      type: any
+    - code: N23.X
+      value: Unspecified renal colic
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N13.2
+      value: Hydronephrosis with renal and ureteral calculous obstruction
+      type: any
+    - code: N20.0
+      value: Calculus of kidney
+      type: any
+    - code: N20.1
+      value: Calculus of ureter
+      type: any
+    - code: N20.2
+      value: Calculus of kidney with calculus of ureter
+      type: any
+    - code: N20.9
+      value: Urinary calculus, unspecified
+      type: any
+    - code: N21.0
+      value: Calculus in bladder
+      type: any
+    - code: N21.1
+      value: Calculus in urethra
+      type: any
+    - code: N21.8
+      value: Other lower urinary tract calculus
+      type: any
+    - code: N21.9
+      value: Calculus of lower urinary tract, unspecified
+      type: any
+    - code: N22.8
+      value: Calculus of urinary tract in other diseases classified elsewhere
+      type: any
+    - code: N23.X
+      value: Unspecified renal colic
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14D3.00
+      value: 'H/O: urinary stone'
+      type: prevalent
+    - code: 1A52.00
+      value: Renal colic
+      type: any
+    - code: 1A52.11
+      value: Renal colic, symptom
+      type: any
+    - code: 4G41.00
+      value: 'O/E: oxalate renal calculus'
+      type: any
+    - code: 4G42.00
+      value: 'O/E: phosphate -staghorn-stone'
+      type: any
+    - code: 4G42.11
+      value: Phosphate kidney stone
+      type: any
+    - code: 4G43.00
+      value: 'O/E: uric acid renal calculus'
+      type: any
+    - code: 4G44.00
+      value: 'O/E: cystine renal calculus'
+      type: any
+    - code: 4G4..00
+      value: 'O/E: renal calculus'
+      type: any
+    - code: 4G4..11
+      value: 'O/E: kidney stone'
+      type: any
+    - code: 4G4Z.00
+      value: 'O/E: renal stone NOS'
+      type: any
+    - code: 4G6..00
+      value: O/E - ureteric calculus
+      type: any
+    - code: 4G7..00
+      value: O/E - urethral calculus
+      type: any
+    - code: 4G81.00
+      value: O/E - vesical oxalate calculus
+      type: any
+    - code: 4G81.11
+      value: Oxalate bladder stone
+      type: any
+    - code: 4G82.00
+      value: O/E-vesical uric acid calculus
+      type: any
+    - code: 4G82.11
+      value: Uric acid bladder stone
+      type: any
+    - code: 4G83.00
+      value: O/E-vesical phosphate calculus
+      type: any
+    - code: 4G83.11
+      value: Phosphate bladder stone
+      type: any
+    - code: 4G8..00
+      value: O/E - bladder calculus
+      type: any
+    - code: 4G8Z.00
+      value: O/E - bladder calculus NOS
+      type: any
+    - code: 7B05000
+      value: Unspecified open removal of calculus from kidney
+      type: any
+    - code: 7B07000
+      value: Nephroscopy and ultrasound lithotripsy of renal calculus
+      type: any
+    - code: 7B07011
+      value: Endoscopic ultrasound fragmentation of renal calculus
+      type: any
+    - code: 7B07100
+      value: Nephroscopy & electrohydraulic lithotripsy of renal calculus
+      type: any
+    - code: 7B07200
+      value: Nephroscopy and laser lithotripsy of renal calculus
+      type: any
+    - code: 7B07211
+      value: Endoscopic laser fragmentation of renal calculus
+      type: any
+    - code: 7B07400
+      value: Endoscopic extraction of calculus of kidney nec
+      type: any
+    - code: 7B07.00
+      value: Percutaneous renal stone surgery
+      type: any
+    - code: 7B07.11
+      value: Nephroscopic percutaneous lithotripsy of renal calculus
+      type: any
+    - code: 7B07.12
+      value: Percutaneous lithotripsy of renal calculus
+      type: any
+    - code: 7B07y00
+      value: Other specified percutaneous renal stone surgery
+      type: any
+    - code: 7B07z00
+      value: Percutaneous renal stone surgery NOS
+      type: any
+    - code: 7B0B000
+      value: ESWL for renal calculus of unspecified size
+      type: any
+    - code: 7B0B100
+      value: ESWL for renal calculus less than 2 cm in diameter
+      type: any
+    - code: 7B0B200
+      value: ESWL for renal calculus 2 cm or more in diameter
+      type: any
+    - code: 7B0B.00
+      value: Extracorporeal shockwave lithotripsy for renal calculus
+      type: any
+    - code: 7B0B.11
+      value: Extracorporeal fragmentation of renal calculus
+      type: any
+    - code: 7B0By00
+      value: Extracorporeal shockwave lithotripsy for renal calculus OS
+      type: any
+    - code: 7B0Bz00
+      value: Extracorporeal shockwave lithotripsy for renal calculus NOS
+      type: any
+    - code: 7B17000
+      value: Nephroscopic laser lithotripsy of ureteric calculus
+      type: any
+    - code: 7B17011
+      value: Nephroscopic laser fragmentation of ureteric calculus
+      type: any
+    - code: 7B17100
+      value: Other nephroscopic fragmentation of ureteric calculus
+      type: any
+    - code: 7B17111
+      value: Other nephroscopic lithotripsy of ureteric calculus
+      type: any
+    - code: 7B17200
+      value: Nephroscopic extraction of ureteric calculus
+      type: any
+    - code: 7B18000
+      value: Ureteroscopic laser lithotripsy of ureteric calculus
+      type: any
+    - code: 7B18011
+      value: Ureteroscopic laser fragmentation of ureteric calculus
+      type: any
+    - code: 7B18100
+      value: Other ureteroscopic fragmentation of ureteric calculus
+      type: any
+    - code: 7B18200
+      value: Ureteroscopic extraction of ureteric calculus
+      type: any
+    - code: 7B18.00
+      value: Ureteroscopic operations for ureteric calculus
+      type: any
+    - code: 7B19000
+      value: Cystoscopic laser lithotripsy of ureteric calculus
+      type: any
+    - code: 7B19100
+      value: Other cystoscopic fragmentation of ureteric calculus
+      type: any
+    - code: 7B19200
+      value: Cystoscopic extraction of ureteric calculus
+      type: any
+    - code: 7B19211
+      value: Basket extraction of ureteric calculus
+      type: any
+    - code: 7B19212
+      value: Dormia basket extraction of ureteric calculus
+      type: any
+    - code: 7B19300
+      value: Cystoscopic catheter drainage for ureteric calculus
+      type: any
+    - code: 7B19400
+      value: Cystoscopic dilation of ureter for drainage of calculus
+      type: any
+    - code: 7B19.00
+      value: Cystoscopic removal of ureteric calculus
+      type: any
+    - code: 7B19y00
+      value: Other specified cystoscopic removal of ureteric calculus
+      type: any
+    - code: 7B19z00
+      value: Cystoscopic removal of ureteric calculus NOS
+      type: any
+    - code: 7B1C000
+      value: Extracorp shockwave lithotripsy of unspec ureteric calculus
+      type: any
+    - code: 7B1C100
+      value: Extracorporeal shockwave therapy for stone in upper ureter
+      type: any
+    - code: 7B1C200
+      value: Extracorporeal shockwave lithotripsy for stone in mid-ureter
+      type: any
+    - code: 7B1C300
+      value: Extracorporeal shockwave lithotripsy stone in lower ureter
+      type: any
+    - code: 7B1C.00
+      value: Extracorporeal shockwave lithotripsy of ureteric calculus
+      type: any
+    - code: 7B1Cy00
+      value: Extracorporeal shockwave lithotripsy of ureteric calculus OS
+      type: any
+    - code: 7B1Cz00
+      value: Extracorporeal shockwave lithotripsy ureteric calculus NOS
+      type: any
+    - code: 7B1F000
+      value: Endoscopic extraction of calculus of urinary diversion
+      type: any
+    - code: 7B25000
+      value: Open removal of bladder calculus
+      type: any
+    - code: 7B29100
+      value: Other endoscopic extraction of bladder calculus
+      type: any
+    - code: 7B29400
+      value: Electrokinetic lithotripsy of bladder calculus
+      type: any
+    - code: 7B2B400
+      value: Removal of bladder calculus by urethral catheter suction
+      type: any
+    - code: 7B42300
+      value: Open urethrotomy and removal of calculus
+      type: any
+    - code: 7B42400
+      value: Open extraction of calculus from urethra
+      type: any
+    - code: 7B43900
+      value: Endoscopic removal of urethral calculus
+      type: any
+    - code: C341100
+      value: Uric acid nephrolithiasis
+      type: any
+    - code: C341111
+      value: Renal stone - uric acid
+      type: any
+    - code: K100600
+      value: Calculous pyelonephritis
+      type: any
+    - code: K112.00
+      value: Hydronephrosis with renal and ureteral calculous obstruction
+      type: any
+    - code: K120000
+      value: Staghorn calculus
+      type: any
+    - code: K120.00
+      value: Calculus of kidney
+      type: any
+    - code: K120.11
+      value: Nephrolithiasis NOS
+      type: any
+    - code: K120.12
+      value: Renal calculus
+      type: any
+    - code: K120.13
+      value: Renal stone
+      type: any
+    - code: K120z00
+      value: Renal calculus NOS
+      type: any
+    - code: K121.00
+      value: Calculus of ureter
+      type: any
+    - code: K121.11
+      value: Ureteric calculus
+      type: any
+    - code: K121.12
+      value: Ureteric stone
+      type: any
+    - code: K121.13
+      value: Ureterolithiasis
+      type: any
+    - code: K122.00
+      value: Calculus of kidney with calculus of ureter
+      type: any
+    - code: K12..00
+      value: Calculus of kidney and ureter
+      type: any
+    - code: K12..11
+      value: Kidney calculus
+      type: any
+    - code: K12..12
+      value: Urinary calculus
+      type: any
+    - code: K12z.00
+      value: Urinary calculus NOS
+      type: any
+    - code: K140000
+      value: Calculus in diverticulum of bladder
+      type: any
+    - code: K140100
+      value: Other calculus in bladder
+      type: any
+    - code: K140.00
+      value: Bladder calculus
+      type: any
+    - code: K140.11
+      value: Bladder stone
+      type: any
+    - code: K140z00
+      value: Bladder calculus NOS
+      type: any
+    - code: K141.00
+      value: Calculus in urethra
+      type: any
+    - code: K14..00
+      value: Lower urinary tract calculus
+      type: any
+    - code: K14y.00
+      value: Other lower urinary tract calculus
+      type: any
+    - code: K14z.00
+      value: Lower urinary tract calculus NOS
+      type: any
+    - code: K1A..00
+      value: Urinary calculus in schistosomiasis
+      type: any
+    - code: Kyu3000
+      value: '[X]Other lower urinary tract calculus'
+      type: any
+    - code: Kyu3100
+      value: '[X]Calculus of urinary tract in other diseases CE'
+      type: any
+    - code: Kyu3.00
+      value: '[X]Urolithiasis'
+      type: any
+    - code: R080000
+      value: '[D]Renal colic, unspecified'
+      type: any
+    - code: R080100
+      value: '[D]Ureteric colic'
+      type: any
+    - code: R080.00
+      value: '[D]Renal colic'
+      type: any
+    - code: R080z00
+      value: '[D]Renal colic NOS'
+      type: any
+    - code: XE26R
+      value: O/E - vesical oxalate calculus
+      type: any
+    - code: XaC0P
+      value: Electrokinetic lithotripsy of bladder calculus
+      type: any
+    - code: XE0dj
+      value: Calculus of kidney and ureter
+      type: any
+    - code: XaIlz
+      value: Endoscopic extraction of calculus of kidney nec
+      type: any
+    - code: XE26Q
+      value: 'O/E: phosphate -staghorn-stone'
+      type: any
+    - code: XE26S
+      value: O/E-vesical uric acid calculus
+      type: any
+    - code: XaMBE
+      value: Open extraction of calculus from urethra
+      type: any
+    - code: XE0G8
+      value: Cystoscopic extraction of ureteric calculus
+      type: any
+    - code: XE26T
+      value: O/E-vesical phosphate calculus
+      type: any
+    - code: XE0rV
+      value: Renal colic
+      type: any
+    - code: XE0rV
+      value: Renal colic
+      type: any
+    - code: XE0dk
+      value: Calculus of kidney
+      type: any
+    - code: XaFzI
+      value: Endoscopic removal of urethral calculus
+      type: any
+    - code: XaMtc
+      value: Endoscopic extraction of calculus of urinary diversion
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

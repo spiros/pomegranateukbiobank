@@ -1,0 +1,261 @@
+metadata:
+  phenotype: Diaphragmatic hernia
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: hernia_diaphragm
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 5b4441e9-332c-4084-ac30-058978f6717b
+  ontologies:
+    DOID: DOID_3827
+    GWAS: EFO_0008561
+    MESH: D006548
+    SNOMED-CT: 39839004
+    FINNGEN: K11_DIAHER
+  short_desc: Protrusion of abdominal structures into the THORAX as a result of congenital
+    or traumatic defects in the respiratory DIAPHRAGM.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1474'
+      value: hiatus hernia
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K44
+      value: Diaphragmatic hernia
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K44
+      value: Diaphragmatic hernia
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: G23
+      value: Repair of diaphragmatic hernia
+      type: any
+    - code: G23.1
+      value: Repair of oesophageal hiatus using thoracic approach
+      type: any
+    - code: G23.2
+      value: Repair of diaphragmatic hernia using thoracic approach NEC
+      type: any
+    - code: G23.3
+      value: Repair of oesophageal hiatus using abdominal approach
+      type: any
+    - code: G23.4
+      value: Repair of diaphragmatic hernia using abdominal approach NEC
+      type: any
+    - code: G23.8
+      value: Other specified repair of diaphragmatic hernia
+      type: any
+    - code: G23.9
+      value: Unspecified repair of diaphragmatic hernia
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: G23
+      value: G23
+      type: any
+    - code: G23.1
+      value: G23.1
+      type: any
+    - code: G23.2
+      value: G23.2
+      type: any
+    - code: G23.3
+      value: G23.3
+      type: any
+    - code: G23.4
+      value: G23.4
+      type: any
+    - code: G23.8
+      value: G23.8
+      type: any
+    - code: G23.9
+      value: G23.9
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K44
+      value: Diaphragmatic hernia
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K44
+      value: Diaphragmatic hernia
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 760K011
+      value: Allison repair of oesophageal hiatus hernia
+      type: any
+    - code: 760K012
+      value: Mason repair of oesophageal hiatus hernia
+      type: any
+    - code: 760K100
+      value: Repair of diaphragmatic hernia using thoracic approach NEC
+      type: any
+    - code: 760K300
+      value: Repair of diaphragmatic hernia using abdominal approach NEC
+      type: any
+    - code: 760K400
+      value: Boerema repair of hiatus hernia
+      type: any
+    - code: 760K500
+      value: Laparoscopic repair of hiatus hernia
+      type: any
+    - code: 760K.00
+      value: Repair of diaphragmatic hernia
+      type: any
+    - code: 760K.11
+      value: Repair of oesophageal hiatus hernia
+      type: any
+    - code: 760K.12
+      value: Repair of hiatus hernia
+      type: any
+    - code: 760Ky00
+      value: Other specified repair of diaphragmatic hernia
+      type: any
+    - code: 760Kz00
+      value: Repair of diaphragmatic hernia NOS
+      type: any
+    - code: 760L312
+      value: Hill repair of hiatus hernia and gastropexy
+      type: any
+    - code: J340.00
+      value: Diaphragmatic hernia with gangrene
+      type: any
+    - code: J341.00
+      value: Diaphragmatic hernia with obstruction
+      type: any
+    - code: J342.00
+      value: Diaphragmatic hernia - irreducible
+      type: any
+    - code: J343.00
+      value: Simple diaphragmatic hernia
+      type: any
+    - code: J344.00
+      value: Hiatus hernia with gangrene
+      type: any
+    - code: J345.00
+      value: Hiatus hernia with obstruction
+      type: any
+    - code: J346.00
+      value: Hiatus hernia - irreducible
+      type: any
+    - code: J347.00
+      value: Simple hiatus hernia
+      type: any
+    - code: J348.00
+      value: Sliding hiatus hernia
+      type: any
+    - code: J34..00
+      value: Diaphragmatic hernia
+      type: any
+    - code: J34..11
+      value: Hiatus hernia
+      type: any
+    - code: J34..12
+      value: Parasternal hernia
+      type: any
+    - code: J34..13
+      value: Retrosternal hernia
+      type: any
+    - code: J34y.00
+      value: Unspecified diaphragmatic hernia
+      type: any
+    - code: XaC1B
+      value: Simple hiatus hernia
+      type: any
+    - code: X30BB
+      value: Sliding hiatus hernia
+      type: any
+    - code: XaC19
+      value: Hiatus hernia with gangrene
+      type: any
+    - code: XE0ac
+      value: Unspecified diaphragmatic hernia
+      type: any
+    - code: XE0Cb
+      value: Antireflux gastropexy
+      type: any
+    - code: XaC1A
+      value: Hiatus hernia with obstruction
+      type: any
+    - code: XE0CW
+      value: Repair of diaphragmatic hernia
+      type: any
+    - code: XaC18
+      value: Hiatus hernia - irreducible
+      type: any
+    - code: XaJlJ
+      value: Laparoscopic repair of hiatus hernia
+      type: any
+    - code: XE0ab
+      value: Diaphragmatic hernia
+      type: any
+    - code: XE0CX
+      value: Repair of oesophageal hiatus using thoracic approach
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

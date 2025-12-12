@@ -1,0 +1,145 @@
+metadata:
+  phenotype: Giant Cell arteritis
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: GCA
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 7c01eec4-f868-4174-97d3-95c0b0aa1b3a
+  ontologies:
+    DOID: DOID_13375
+    GWAS: EFO_1001209
+    MESH: D013700
+    SNOMED-CT: 400130008
+    FINNGEN: M13_GIANTCELL
+  short_desc: Giant cell arteritis (GCA) is a large vessel vasculitis predominantly
+    involving the arteries originating from the aortic arch and especially the extracranial
+    branches of the carotid arteries.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1376'
+      value: giant cell/temporal arteritis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: M31.5
+      value: Giant cell arteritis with polymyalgia rheumatica
+      type: any
+    - code: M31.6
+      value: Other giant cell arteritis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: M31.5
+      value: Giant cell arteritis with polymyalgia rheumatica
+      type: any
+    - code: M31.6
+      value: Other giant cell arteritis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M31.5
+      value: Giant cell arteritis with polymyalgia rheumatica
+      type: any
+    - code: M31.6
+      value: Other giant cell arteritis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M31.5
+      value: Giant cell arteritis with polymyalgia rheumatica
+      type: any
+    - code: M31.6
+      value: Other giant cell arteritis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: G755000
+      value: Cranial arteritis
+      type: any
+    - code: G755100
+      value: Temporal arteritis
+      type: any
+    - code: G755200
+      value: Horton's disease
+      type: any
+    - code: G755.00
+      value: Giant cell arteritis
+      type: any
+    - code: G755z00
+      value: Giant cell arteritis NOS
+      type: any
+    - code: N200.00
+      value: Giant cell arteritis with polymyalgia rheumatica
+      type: any
+    - code: Nyu4100
+      value: '[X]Other giant cell arteritis'
+      type: any
+    - code: X705l
+      value: Giant cell arteritis with polymyalgia rheumatica
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

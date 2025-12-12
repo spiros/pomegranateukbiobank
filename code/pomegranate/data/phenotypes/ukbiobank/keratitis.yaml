@@ -1,0 +1,286 @@
+metadata:
+  phenotype: Keratitis
+  group: Skin
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: keratitis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 1f652d03-2fe0-41c5-875d-74a4c09b5603
+  ontologies:
+    DOID: DOID_4677
+    GWAS: EFO_0009449
+    MESH: D007634
+    SNOMED-CT: 5888003
+    FINNGEN: H7_KERATITIS
+  short_desc: "Keratitis is an inflammation of the cornea \xE2\u20AC\u201D the clear,\
+    \ dome-shaped tissue on the front of your eye that covers the pupil and iris."
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: H16
+      value: Keratitis
+      type: any
+    - code: H19.1
+      value: Herpesviral keratitis and keratoconjunctivitis
+      type: any
+    - code: H19.2
+      value: Keratitis and keratoconjunctivitis in other infectious and parasitic
+        diseases classified elsewhere
+      type: any
+    - code: H19.3
+      value: Keratitis and keratoconjunctivitis in other diseases classified elsewhere
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: H16
+      value: Keratitis
+      type: any
+    - code: H19.1
+      value: Herpesviral keratitis and keratoconjunctivitis
+      type: any
+    - code: H19.2
+      value: Keratitis and keratoconjunctivitis in other infectious and parasitic
+        diseases classified elsewhere
+      type: any
+    - code: H19.3
+      value: Keratitis and keratoconjunctivitis in other diseases classified elsewhere
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H16
+      value: Keratitis
+      type: any
+    - code: H19.1
+      value: Herpesviral keratitis and keratoconjunctivitis
+      type: any
+    - code: H19.2
+      value: Keratitis and keratoconjunctivitis in other infectious and parasitic
+        diseases classified elsewhere
+      type: any
+    - code: H19.3
+      value: Keratitis and keratoconjunctivitis in other diseases classified elsewhere
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H16
+      value: Keratitis
+      type: any
+    - code: H19.1
+      value: Herpesviral keratitis and keratoconjunctivitis
+      type: any
+    - code: H19.2
+      value: Keratitis and keratoconjunctivitis in other infectious and parasitic
+        diseases classified elsewhere
+      type: any
+    - code: H19.3
+      value: Keratitis and keratoconjunctivitis in other diseases classified elsewhere
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: A173200
+      value: Tuberculous interstitial keratitis
+      type: any
+    - code: A173400
+      value: Tuberculous keratoconjunctivitis
+      type: any
+    - code: A532100
+      value: Herpes zoster with keratoconjunctivitis
+      type: any
+    - code: A544200
+      value: Herpes simplex dendritic keratitis
+      type: any
+    - code: A544300
+      value: Herpes simplex disciform keratitis
+      type: any
+    - code: A55x000
+      value: Measles keratoconjunctivitis
+      type: any
+    - code: A771.00
+      value: Epidemic keratoconjunctivitis
+      type: any
+    - code: A776.00
+      value: Keratoconjunctivitis due to adenovirus
+      type: any
+    - code: A903.00
+      value: Syphilitic interstitial keratitis
+      type: any
+    - code: A984300
+      value: Gonococcal keratitis
+      type: any
+    - code: AD67000
+      value: Acanthamoeba keratitis
+      type: any
+    - code: F4A1.00
+      value: Dendritic keratitis
+      type: any
+    - code: F4A2000
+      value: Unspecified superficial keratitis
+      type: any
+    - code: F4A2100
+      value: Punctate keratitis
+      type: any
+    - code: F4A2112
+      value: Thygeson's superficial punctate keratitis
+      type: any
+    - code: F4A2200
+      value: Nummular keratitis
+      type: any
+    - code: F4A2300
+      value: Striate keratitis
+      type: any
+    - code: F4A2400
+      value: Macular keratitis NOS
+      type: any
+    - code: F4A2500
+      value: Filamentary keratitis
+      type: any
+    - code: F4A2.00
+      value: Other superficial keratitis without conjunctivitis
+      type: any
+    - code: F4A2z00
+      value: Other superficial keratitis without conjunctivitis NOS
+      type: any
+    - code: F4A3000
+      value: Phlyctenular keratoconjunctivitis
+      type: any
+    - code: F4A3300
+      value: Exposure keratoconjunctivitis
+      type: any
+    - code: F4A3400
+      value: Neurotrophic keratoconjunctivitis
+      type: any
+    - code: F4A3.00
+      value: Specific keratoconjunctivitis
+      type: any
+    - code: F4A3z00
+      value: Specific keratoconjunctivitis NOS
+      type: any
+    - code: F4A4000
+      value: Unspecified keratoconjunctivitis
+      type: any
+    - code: F4A4100
+      value: Keratitis or keratoconjunctivitis in other exanthemata
+      type: any
+    - code: F4A4.00
+      value: Other keratoconjunctivitis
+      type: any
+    - code: F4A4z00
+      value: Other keratoconjunctivitis NOS
+      type: any
+    - code: F4A5000
+      value: Unspecified interstitial keratitis
+      type: any
+    - code: F4A5100
+      value: Diffuse interstitial keratitis
+      type: any
+    - code: F4A5200
+      value: Sclerosing keratitis
+      type: any
+    - code: F4A5400
+      value: Keratitis due to syphilis
+      type: any
+    - code: F4A5500
+      value: Keratitis due to tuberculosis
+      type: any
+    - code: F4A5.00
+      value: Interstitial and deep keratitis
+      type: any
+    - code: F4A5z00
+      value: Interstitial and deep keratitis NOS
+      type: any
+    - code: F4A..00
+      value: Keratitis
+      type: any
+    - code: F4A..11
+      value: Keratoconjunctivitis
+      type: any
+    - code: F4Ay.00
+      value: Other forms of keratitis
+      type: any
+    - code: F4Az.00
+      value: Keratitis NOS
+      type: any
+    - code: FyuD100
+      value: '[X]Other superficial keratitis without conjunctivitis'
+      type: any
+    - code: FyuD200
+      value: '[X]Other keratitis'
+      type: any
+    - code: FyuDA00
+      value: '[X]Keratitis+keratoconjunctivitis in other diseases CE'
+      type: any
+    - code: XE16N
+      value: Keratitis
+      type: any
+    - code: X00ab
+      value: Acanthamoeba keratitis
+      type: any
+    - code: XE16R
+      value: Diffuse interstitial keratitis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

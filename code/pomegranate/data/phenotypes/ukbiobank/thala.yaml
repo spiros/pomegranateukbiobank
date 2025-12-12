@@ -1,0 +1,219 @@
+metadata:
+  phenotype: Thalassaemia
+  group: Haematological or immunological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: thala
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: c3b1d6d9-c6fc-4493-b862-b868c6a06ed9
+  ontologies:
+    DOID: DOID_10241
+    GWAS: null
+    MESH: D013789
+    SNOMED-CT: 40108008
+    FINNGEN: D3_THALASSAEMIA
+  short_desc: An inherited blood disorder characterized by a decreased synthesis of
+    one of the polypeptide chains that form hemoglobin.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1340'
+      value: thalassaemia
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D56.0
+      value: Alpha thalassaemia
+      type: any
+    - code: D56.1
+      value: Beta thalassaemia
+      type: any
+    - code: D56.2
+      value: Delta-beta thalassaemia
+      type: any
+    - code: D56.8
+      value: Other thalassaemias
+      type: any
+    - code: D56.9
+      value: Thalassaemia, unspecified
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D56.0
+      value: Alpha thalassaemia
+      type: any
+    - code: D56.1
+      value: Beta thalassaemia
+      type: any
+    - code: D56.2
+      value: Delta-beta thalassaemia
+      type: any
+    - code: D56.8
+      value: Other thalassaemias
+      type: any
+    - code: D56.9
+      value: Thalassaemia, unspecified
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D56.0
+      value: Alpha thalassaemia
+      type: any
+    - code: D56.1
+      value: Beta thalassaemia
+      type: any
+    - code: D56.2
+      value: Delta-beta thalassaemia
+      type: any
+    - code: D56.8
+      value: Other thalassaemias
+      type: any
+    - code: D56.9
+      value: Thalassaemia, unspecified
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D56.0
+      value: Alpha thalassaemia
+      type: any
+    - code: D56.1
+      value: Beta thalassaemia
+      type: any
+    - code: D56.2
+      value: Delta-beta thalassaemia
+      type: any
+    - code: D56.8
+      value: Other thalassaemias
+      type: any
+    - code: D56.9
+      value: Thalassaemia, unspecified
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: D104000
+      value: Thalassaemia major NEC
+      type: any
+    - code: D104011
+      value: Thalassaemia major - Cooley's anaemia
+      type: any
+    - code: D104200
+      value: Thalassaemia with haemoglobin S disease
+      type: any
+    - code: D104211
+      value: Sickle-cell thalassaemia
+      type: any
+    - code: D104300
+      value: Alpha thalassaemia
+      type: any
+    - code: D104311
+      value: Homozygous alpha thalassaemia
+      type: any
+    - code: D104600
+      value: Beta intermedia thalassaemia
+      type: any
+    - code: D104700
+      value: Beta major thalassaemia
+      type: any
+    - code: D104811
+      value: Beta thalassaemia
+      type: any
+    - code: D104900
+      value: Delta-beta thalassaemia
+      type: any
+    - code: D104A00
+      value: Hereditary leptocytosis
+      type: any
+    - code: D104.00
+      value: Thalassaemia
+      type: any
+    - code: D104.12
+      value: Mediterranean anaemia
+      type: any
+    - code: D104z00
+      value: Thalassaemia NOS
+      type: any
+    - code: D104z11
+      value: Mediterranean anaemia
+      type: any
+    - code: Dyu1100
+      value: '[X]Other thalassaemias'
+      type: any
+    - code: XE13k
+      value: Thalassaemia
+      type: any
+    - code: XE13k
+      value: Thalassaemia
+      type: any
+    - code: XE13l
+      value: Thalassaemia major NEC
+      type: any
+    - code: XE13n
+      value: Thalassaemia NOS
+      type: any
+    - code: X20Cq
+      value: Delta-beta thalassaemia
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

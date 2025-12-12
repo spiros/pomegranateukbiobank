@@ -1,0 +1,263 @@
+metadata:
+  phenotype: Secondary Malignancy_Lymph Nodes
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: sec_LN
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 836574f4-f369-4c8e-8e0c-8436296b3dba
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: null
+    SNOMED-CT: '94392001'
+    FINNGEN: C3_LYMPHNODES_SECONDARY_NAS
+  short_desc: Cancer which has spread from a primary site of origin to the lymph nodes.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C77
+      value: Secondary and unspecified malignant neoplasm of lymph nodes
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C77
+      value: Secondary and unspecified malignant neoplasm of lymph nodes
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C77
+      value: Secondary and unspecified malignant neoplasm of lymph nodes
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C77
+      value: Secondary and unspecified malignant neoplasm of lymph nodes
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B560000
+      value: Secondary and unspec malig neop of superficial parotid LN
+      type: any
+    - code: B560100
+      value: Secondary and unspec malignant neoplasm mastoid lymph nodes
+      type: any
+    - code: B560200
+      value: Secondary and unspec malig neop superficial cervical LN
+      type: any
+    - code: B560300
+      value: Secondary and unspec malignant neoplasm occipital lymph node
+      type: any
+    - code: B560400
+      value: Secondary and unspec malig neop deep parotid lymph nodes
+      type: any
+    - code: B560500
+      value: Secondary and unspec malig neop submandibular lymph nodes
+      type: any
+    - code: B560600
+      value: Secondary and unspec malig neop of facial lymph nodes
+      type: any
+    - code: B560700
+      value: Secondary and unspec malig neop submental lymph nodes
+      type: any
+    - code: B560800
+      value: Secondary and unspec malig neop anterior cervical LN
+      type: any
+    - code: B560900
+      value: Secondary and unspec malig neop deep cervical LN
+      type: any
+    - code: B560.00
+      value: Secondary and unspec malig neop lymph nodes head/face/neck
+      type: any
+    - code: B560z00
+      value: Secondary unspec malig neop lymph nodes head/face/neck NOS
+      type: any
+    - code: B561000
+      value: Secondary and unspec malig neop internal mammary lymph nodes
+      type: any
+    - code: B561100
+      value: Secondary and unspec malig neop intercostal lymph nodes
+      type: any
+    - code: B561200
+      value: Secondary and unspec malig neop diaphragmatic lymph nodes
+      type: any
+    - code: B561300
+      value: Secondary and unspec malig neop ant mediastinal lymph nodes
+      type: any
+    - code: B561400
+      value: Secondary and unspec malig neop post mediastinal lymph nodes
+      type: any
+    - code: B561500
+      value: Secondary and unspec malig neop paratracheal lymph nodes
+      type: any
+    - code: B561600
+      value: Secondary and unspec malig neop superfic tracheobronchial LN
+      type: any
+    - code: B561700
+      value: Secondary and unspec malig neop inferior tracheobronchial LN
+      type: any
+    - code: B561800
+      value: Secondary and unspec malig neop bronchopulmonary lymph nodes
+      type: any
+    - code: B561900
+      value: Secondary and unspec malig neop pulmonary lymph nodes
+      type: any
+    - code: B561.00
+      value: Secondary and unspec malig neop intrathoracic lymph nodes
+      type: any
+    - code: B561z00
+      value: Secondary and unspec malig neop intrathoracic LN NOS
+      type: any
+    - code: B562000
+      value: Secondary and unspec malig neop coeliac lymph nodes
+      type: any
+    - code: B562100
+      value: Secondary and unspec malig neop superficial mesenteric LN
+      type: any
+    - code: B562200
+      value: Secondary and unspec malig neop inferior mesenteric LN
+      type: any
+    - code: B562300
+      value: Secondary and unspec malig neop common iliac lymph nodes
+      type: any
+    - code: B562400
+      value: Secondary and unspec malig neop external iliac lymph nodes
+      type: any
+    - code: B562.00
+      value: Secondary and unspec malig neop intra-abdominal lymph nodes
+      type: any
+    - code: B562z00
+      value: Secondary and unspec malig neop intra-abdominal LN NOS
+      type: any
+    - code: B563000
+      value: Secondary and unspec malig neop axillary lymph nodes
+      type: any
+    - code: B563100
+      value: Secondary and unspec malig neop supratrochlear lymph nodes
+      type: any
+    - code: B563200
+      value: Secondary and unspec malig neop infraclavicular lymph nodes
+      type: any
+    - code: B563300
+      value: Secondary and unspec malig neop pectoral lymph nodes
+      type: any
+    - code: B563.00
+      value: Secondary and unspec malig neop axilla and upper limb LN
+      type: any
+    - code: B563z00
+      value: Secondary and unspec malig neop axilla and upper limb LN NOS
+      type: any
+    - code: B564000
+      value: Secondary and unspec malig neop superficial inguinal LN
+      type: any
+    - code: B564100
+      value: Secondary and unspec malig neop deep inguinal lymph nodes
+      type: any
+    - code: B564.00
+      value: Secondary and unspec malig neop inguinal and lower limb LN
+      type: any
+    - code: B564z00
+      value: Secondary and unspec malig neop of inguinal and leg LN NOS
+      type: any
+    - code: B565000
+      value: Secondary and unspec malig neop internal iliac lymph nodes
+      type: any
+    - code: B565200
+      value: Secondary and unspec malig neop circumflex iliac LN
+      type: any
+    - code: B565300
+      value: Secondary and unspec malig neop sacral lymph nodes
+      type: any
+    - code: B565.00
+      value: Secondary and unspec malig neop intrapelvic lymph nodes
+      type: any
+    - code: B565z00
+      value: Secondary and unspec malig neop intrapelvic LN NOS
+      type: any
+    - code: B56..00
+      value: Secondary and unspecified malignant neoplasm of lymph nodes
+      type: any
+    - code: B56..11
+      value: Lymph node metastases
+      type: any
+    - code: B56y.00
+      value: Secondary and unspec malig neop lymph nodes multiple sites
+      type: any
+    - code: B56z.00
+      value: Secondary and unspec malig neop lymph nodes NOS
+      type: any
+    - code: ByuC200
+      value: '[X]2ndry+unspcf malignant neoplasm lymph nodes/multi regions'
+      type: any
+    - code: XE2xB
+      value: Secondary and unspecified malignant neoplasm of lymph nodes
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C77
+      value: Secondary and unspecified malignant neoplasm of lymph nodes
+      type: any

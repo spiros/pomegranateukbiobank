@@ -1,0 +1,358 @@
+metadata:
+  phenotype: Diabetes Type II
+  group: Endocrine
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: diabetes_t2
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 9969743d-7aa2-4f0a-8c87-e278644210b4
+  ontologies:
+    DOID: null
+    GWAS: MONDO_0005148
+    MESH: null
+    SNOMED-CT: null
+    FINNGEN: null
+  short_desc: null
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1223'
+      value: type 2 diabetes
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: E11
+      value: Non-insulin-dependent diabetes mellitus
+      type: any
+    - code: O24.0
+      value: 'Diabetes mellitus in pregnancy: Pre-existing diabetes mellitus, insulin-dependent'
+      type: prevalent
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: E11
+      value: Non-insulin-dependent diabetes mellitus
+      type: any
+    - code: O24.0
+      value: 'Diabetes mellitus in pregnancy: Pre-existing diabetes mellitus, insulin-dependent'
+      type: prevalent
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: E11
+      value: Non-insulin-dependent diabetes mellitus
+      type: any
+    - code: O24.0
+      value: 'Diabetes mellitus in pregnancy: Pre-existing diabetes mellitus, insulin-dependent'
+      type: prevalent
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: E11
+      value: Non-insulin-dependent diabetes mellitus
+      type: any
+    - code: O24.0
+      value: 'Diabetes mellitus in pregnancy: Pre-existing diabetes mellitus, insulin-dependent'
+      type: prevalent
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: C109.12
+      value: Type 2 diabetes mellitus
+      type: any
+    - code: C109.13
+      value: Type II diabetes mellitus
+      type: any
+    - code: C109011
+      value: Type II diabetes mellitus with renal complications
+      type: any
+    - code: C109012
+      value: Type 2 diabetes mellitus with renal complications
+      type: any
+    - code: C109111
+      value: Type II diabetes mellitus with ophthalmic complications
+      type: any
+    - code: C109112
+      value: Type 2 diabetes mellitus with ophthalmic complications
+      type: any
+    - code: C109211
+      value: Type II diabetes mellitus with neurological complications
+      type: any
+    - code: C109212
+      value: Type 2 diabetes mellitus with neurological complications
+      type: any
+    - code: C109411
+      value: Type II diabetes mellitus with ulcer
+      type: any
+    - code: C109412
+      value: Type 2 diabetes mellitus with ulcer
+      type: any
+    - code: C109511
+      value: Type II diabetes mellitus with gangrene
+      type: any
+    - code: C109512
+      value: Type 2 diabetes mellitus with gangrene
+      type: any
+    - code: C109611
+      value: Type II diabetes mellitus with retinopathy
+      type: any
+    - code: C109612
+      value: Type 2 diabetes mellitus with retinopathy
+      type: any
+    - code: C109711
+      value: Type II diabetes mellitus - poor control
+      type: any
+    - code: C109712
+      value: Type 2 diabetes mellitus - poor control
+      type: any
+    - code: C109A11
+      value: Type II diabetes mellitus with mononeuropathy
+      type: any
+    - code: C109B11
+      value: Type II diabetes mellitus with polyneuropathy
+      type: any
+    - code: C109C11
+      value: Type II diabetes mellitus with nephropathy
+      type: any
+    - code: C109C12
+      value: Type 2 diabetes mellitus with nephropathy
+      type: any
+    - code: C109D11
+      value: Type II diabetes mellitus with hypoglycaemic coma
+      type: any
+    - code: C109D12
+      value: Type 2 diabetes mellitus with hypoglycaemic coma
+      type: any
+    - code: C109E11
+      value: Type II diabetes mellitus with diabetic cataract
+      type: any
+    - code: C109E12
+      value: Type 2 diabetes mellitus with diabetic cataract
+      type: any
+    - code: C109F11
+      value: Type II diabetes mellitus with peripheral angiopathy
+      type: any
+    - code: C109F12
+      value: Type 2 diabetes mellitus with peripheral angiopathy
+      type: any
+    - code: C109G11
+      value: Type II diabetes mellitus with arthropathy
+      type: any
+    - code: C109G12
+      value: Type 2 diabetes mellitus with arthropathy
+      type: any
+    - code: C109H11
+      value: Type II diabetes mellitus with neuropathic arthropathy
+      type: any
+    - code: C109H12
+      value: Type 2 diabetes mellitus with neuropathic arthropathy
+      type: any
+    - code: C109J00
+      value: Insulin treated Type 2 diabetes mellitus
+      type: any
+    - code: C109J12
+      value: Insulin treated Type II diabetes mellitus
+      type: any
+    - code: C109K00
+      value: Hyperosmolar non-ketotic state in type 2 diabetes mellitus
+      type: any
+    - code: C10F.00
+      value: Type 2 diabetes mellitus
+      type: any
+    - code: C10F.11
+      value: Type II diabetes mellitus
+      type: any
+    - code: C10F000
+      value: Type 2 diabetes mellitus with renal complications
+      type: any
+    - code: C10F011
+      value: Type II diabetes mellitus with renal complications
+      type: any
+    - code: C10F100
+      value: Type 2 diabetes mellitus with ophthalmic complications
+      type: any
+    - code: C10F200
+      value: Type 2 diabetes mellitus with neurological complications
+      type: any
+    - code: C10F211
+      value: Type II diabetes mellitus with neurological complications
+      type: any
+    - code: C10F300
+      value: Type 2 diabetes mellitus with multiple complications
+      type: any
+    - code: C10F311
+      value: Type II diabetes mellitus with multiple complications
+      type: any
+    - code: C10F400
+      value: Type 2 diabetes mellitus with ulcer
+      type: any
+    - code: C10F411
+      value: Type II diabetes mellitus with ulcer
+      type: any
+    - code: C10F500
+      value: Type 2 diabetes mellitus with gangrene
+      type: any
+    - code: C10F600
+      value: Type 2 diabetes mellitus with retinopathy
+      type: any
+    - code: C10F611
+      value: Type II diabetes mellitus with retinopathy
+      type: any
+    - code: C10F700
+      value: Type 2 diabetes mellitus - poor control
+      type: any
+    - code: C10F711
+      value: Type II diabetes mellitus - poor control
+      type: any
+    - code: C10F900
+      value: Type 2 diabetes mellitus without complication
+      type: any
+    - code: C10F911
+      value: Type II diabetes mellitus without complication
+      type: any
+    - code: C10FA00
+      value: Type 2 diabetes mellitus with mononeuropathy
+      type: any
+    - code: C10FA11
+      value: Type II diabetes mellitus with mononeuropathy
+      type: any
+    - code: C10FB00
+      value: Type 2 diabetes mellitus with polyneuropathy
+      type: any
+    - code: C10FB11
+      value: Type II diabetes mellitus with polyneuropathy
+      type: any
+    - code: C10FC00
+      value: Type 2 diabetes mellitus with nephropathy
+      type: any
+    - code: C10FD00
+      value: Type 2 diabetes mellitus with hypoglycaemic coma
+      type: any
+    - code: C10FD11
+      value: Type II diabetes mellitus with hypoglycaemic coma
+      type: any
+    - code: C10FE00
+      value: Type 2 diabetes mellitus with diabetic cataract
+      type: any
+    - code: C10FE11
+      value: Type II diabetes mellitus with diabetic cataract
+      type: any
+    - code: C10FF00
+      value: Type 2 diabetes mellitus with peripheral angiopathy
+      type: any
+    - code: C10FG00
+      value: Type 2 diabetes mellitus with arthropathy
+      type: any
+    - code: C10FH00
+      value: Type 2 diabetes mellitus with neuropathic arthropathy
+      type: any
+    - code: C10FJ00
+      value: Insulin treated Type 2 diabetes mellitus
+      type: any
+    - code: C10FJ11
+      value: Insulin treated Type II diabetes mellitus
+      type: any
+    - code: C10FK00
+      value: Hyperosmolar non-ketotic state in type 2 diabetes mellitus
+      type: any
+    - code: C10FL00
+      value: Type 2 diabetes mellitus with persistent proteinuria
+      type: any
+    - code: C10FL11
+      value: Type II diabetes mellitus with persistent proteinuria
+      type: any
+    - code: C10FM00
+      value: Type 2 diabetes mellitus with persistent microalbuminuria
+      type: any
+    - code: C10FM11
+      value: Type II diabetes mellitus with persistent microalbuminuria
+      type: any
+    - code: C10FN00
+      value: Type 2 diabetes mellitus with ketoacidosis
+      type: any
+    - code: C10FP00
+      value: Type 2 diabetes mellitus with ketoacidotic coma
+      type: any
+    - code: C10FQ00
+      value: Type 2 diabetes mellitus with exudative maculopathy
+      type: any
+    - code: C10FR00
+      value: Type 2 diabetes mellitus with gastroparesis
+      type: any
+    - code: X40J6
+      value: Insulin treated Type 2 diabetes mellitus
+      type: any
+    - code: C1011
+      value: Type 2 diabetes mellitus with ketoacidosis
+      type: any
+    - code: X40J6
+      value: Insulin treated Type 2 diabetes mellitus
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []
+  41203:
+    metadata:
+      desc: Diagnoses - main ICD9
+    values: []
+  41205:
+    metadata:
+      desc: Diagnoses - secondary ICD9
+    values: []

@@ -1,0 +1,161 @@
+metadata:
+  phenotype: Tinnitus
+  group: Ear
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: tinnitus
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: a073aa2b-c18f-4caf-a4b5-bd4756bbda2d
+  ontologies:
+    DOID: SYMP_0000393
+    GWAS: HP_0000360
+    MESH: D014012
+    SNOMED-CT: 60862001
+    FINNGEN: H8_TINNITUS
+  short_desc: Tinnitus is the perception of noise or ringing in the ears.
+  long_desc: null
+  priority: 2
+definitions:
+  4803:
+    metadata:
+      desc: Tinnitus
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '11'
+      value: Yes, now most of the time
+      type: any
+    - code: '12'
+      value: Yes, now alot of the time
+      type: any
+    - code: '13'
+      value: Yes, now some of the time
+      type: any
+    - code: '14'
+      value: Yes, but not now, but have in the past
+      type: prevalent
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1597'
+      value: tinnitus / tiniitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: H93.1
+      value: Tinnitus
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: H93.1
+      value: Tinnitus
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H93.1
+      value: Tinnitus
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H93.1
+      value: Tinnitus
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 1C2..00
+      value: Tinnitus symptoms
+      type: any
+    - code: 1C23.00
+      value: Ringing in ear
+      type: any
+    - code: 1C24.00
+      value: Hissing in ear
+      type: any
+    - code: 1C2Z.00
+      value: Tinnitus symptom NOS
+      type: any
+    - code: F583000
+      value: Unspecified tinnitus
+      type: any
+    - code: F583100
+      value: Subjective tinnitus
+      type: any
+    - code: F583200
+      value: Objective tinnitus
+      type: any
+    - code: F583.00
+      value: Tinnitus
+      type: any
+    - code: F583z00
+      value: Tinnitus NOS
+      type: any
+    - code: Z911200
+      value: Fit tinnitus masker
+      type: any
+    - code: ZEB..00
+      value: Observation of tinnitus
+      type: any
+    - code: XE17L
+      value: Tinnitus
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

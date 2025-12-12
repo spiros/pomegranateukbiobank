@@ -1,0 +1,253 @@
+metadata:
+  phenotype: Carcinoma in situ_cervical
+  group: Benign neoplasm or Carcinoma in situ
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: cin_cervical
+  gender:
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 265d93e9-f187-4da3-b7ee-21ea562cff7b
+  ontologies:
+    DOID: DOID_8991
+    GWAS: EFO_0001061
+    MESH: D018290
+    SNOMED-CT: '92564006'
+    FINNGEN: null
+  short_desc: 'A carcinoma arising from either the exocervical squamous epithelium
+    or the endocervical glandular epithelium. The major histologic types of cervical
+    carcinoma are: squamous carcinoma, adenocarcinoma, adenosquamous carcinoma, adenoid
+    cystic carcinoma and undifferentiated carcinoma.'
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1554'
+      value: cervical intra-epithelial neoplasia (cin) / precancerous cells cervix
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D06
+      value: Carcinoma in situ of cervix uteri
+      type: any
+    - code: N87
+      value: Dysplasia of cervix uteri
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D06
+      value: Carcinoma in situ of cervix uteri
+      type: any
+    - code: N87
+      value: Dysplasia of cervix uteri
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D06
+      value: Carcinoma in situ of cervix uteri
+      type: any
+    - code: N87
+      value: Dysplasia of cervix uteri
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D06
+      value: Carcinoma in situ of cervix uteri
+      type: any
+    - code: N87
+      value: Dysplasia of cervix uteri
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 4K2..11
+      value: Dyskaryosis on cervical smear
+      type: any
+    - code: 4K2J.00
+      value: Cervical smear - low grade dyskaryosis
+      type: any
+    - code: 4K2K.00
+      value: Cervical smear - high grade dyskaryosis (moderate)
+      type: any
+    - code: 4K2L.00
+      value: Cervical smear - high grade dyskaryosis (severe)
+      type: any
+    - code: 4K2N.00
+      value: Cervical smear - ?endocervical type glandular neoplasia
+      type: any
+    - code: 4K2P.00
+      value: Cervical smear - ?non-cervical type glandular neoplasia
+      type: any
+    - code: B831000
+      value: Carcinoma in situ of endocervix
+      type: any
+    - code: B831100
+      value: Carcinoma in situ of exocervix
+      type: any
+    - code: B831.00
+      value: Carcinoma in situ of cervix uteri
+      type: any
+    - code: B831.11
+      value: CIN III - carcinoma in situ of cervix
+      type: any
+    - code: B831.12
+      value: Cervical intraepithelial neoplasia
+      type: any
+    - code: B831.13
+      value: Cervical intraepithelial neoplasia grade III
+      type: any
+    - code: ByuFA00
+      value: '[X]Carcinoma in situ of other parts of cervix'
+      type: any
+    - code: K551000
+      value: Anaplasia of cervix
+      type: any
+    - code: K551100
+      value: Epidermidization of cervix
+      type: any
+    - code: K551300
+      value: Mild cervical dysplasia
+      type: any
+    - code: K551311
+      value: Cervical intraepithelial neoplasia grade I
+      type: any
+    - code: K551400
+      value: Moderate cervical dysplasia
+      type: any
+    - code: K551411
+      value: Cervical intraepithelial neoplasia grade II
+      type: any
+    - code: K551.00
+      value: Dysplasia of cervix uteri
+      type: any
+    - code: K551.12
+      value: CIN I - II, cervical dysplasia
+      type: any
+    - code: K551X00
+      value: Severe cervical dysplasia, not elsewhere classified
+      type: any
+    - code: K551z00
+      value: Dysplasia of cervix NOS
+      type: any
+    - code: R150000
+      value: '[D]Dyskaryotic cervical smear'
+      type: any
+    - code: ZV13B00
+      value: '[V]Personal history of mild cervical dysplasia'
+      type: prevalent
+    - code: ZV13B11
+      value: '[V]PH of cervical intraepithelial neoplasia, grade I'
+      type: any
+    - code: ZV13C00
+      value: '[V]Personal history of moderate cervical dysplasia'
+      type: prevalent
+    - code: ZV13C11
+      value: '[V]PH of cervical intraepithelial neoplasia grade II'
+      type: any
+    - code: ZV13D00
+      value: '[V]Personal history of severe cervical dysplasia'
+      type: prevalent
+    - code: ZV13E00
+      value: '[V]PH of cervical intraepithelial neoplasia, grade III'
+      type: any
+    - code: XaIyL
+      value: '[V]Personal history of moderate cervical dysplasia'
+      type: prevalent
+    - code: Xaafj
+      value: Cervical smear - high grade dyskaryosis (severe)
+      type: any
+    - code: Xaafp
+      value: Cervical smear - features of non-cervical type glandular neoplasia
+      type: any
+    - code: Xaafo
+      value: Cervical smear - features of endocervical type glandular neoplasia
+      type: any
+    - code: XE2QO
+      value: Dysplasia of cervix uteri
+      type: any
+    - code: XE2QO
+      value: Dysplasia of cervix uteri
+      type: any
+    - code: XaaU7
+      value: Cervical smear - low grade dyskaryosis
+      type: any
+    - code: XaIyK
+      value: '[V]Personal history of mild cervical dysplasia'
+      type: prevalent
+    - code: Xaafi
+      value: Cervical smear - high grade dyskaryosis (moderate)
+      type: any
+    - code: XaIyM
+      value: '[V]Personal history of severe cervical dysplasia'
+      type: prevalent
+    - code: XaIyN
+      value: '[V]Personal history of cervical intraepithelial neoplasia, grade III'
+      type: prevalent
+    - code: XE277
+      value: Cervical smear result
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: D06
+      value: Carcinoma in situ of cervix uteri
+      type: any
+    - code: N87
+      value: Dysplasia of cervix uteri
+      type: any

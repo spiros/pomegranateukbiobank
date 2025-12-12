@@ -1,0 +1,342 @@
+metadata:
+  phenotype: Dementia (excluding Alzheimer's)
+  group: Psychiatric
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: dementia_ex_Alz
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 43a6b12f-72ea-46f3-a025-3c82247cc707
+  priority: 1
+  ontologies:
+    DOID: DOID_1307
+    GWAS: HP_0000726
+    MESH: D003704
+    SNOMED-CT: 52448006
+    FINNGEN: F5_DEMENTIA
+  short_desc: A cognitive disorder resulting from a loss of brain function affecting
+    memory, thinking, language, judgement and behavior, not including Alzheimer's.
+  long_desc: null
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: F01
+      value: Vascular dementia
+      type: any
+    - code: F03
+      value: Unspecified dementia
+      type: any
+    - code: F05.1
+      value: Delirium superimposed on dementia
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: F01
+      value: Vascular dementia
+      type: any
+    - code: F03
+      value: Unspecified dementia
+      type: any
+    - code: F05.1
+      value: Delirium superimposed on dementia
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F01
+      value: Vascular dementia
+      type: any
+    - code: F03
+      value: Unspecified dementia
+      type: any
+    - code: F05.1
+      value: Delirium superimposed on dementia
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F01
+      value: Vascular dementia
+      type: any
+    - code: F03
+      value: Unspecified dementia
+      type: any
+    - code: F05.1
+      value: Delirium superimposed on dementia
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1461.00'
+      value: 'H/O: dementia'
+      type: prevalent
+    - code: 66h..00
+      value: Dementia monitoring
+      type: prevalent
+    - code: 6AB..00
+      value: Dementia annual review
+      type: prevalent
+    - code: 8CMZ.00
+      value: Dementia care plan
+      type: any
+    - code: 9hD0.00
+      value: 'Excepted from dementia quality indicators: Patient unsuitabl'
+      type: prevalent
+    - code: 9hD1.00
+      value: 'Excepted from dementia quality indicators: Informed dissent'
+      type: prevalent
+    - code: 9hD..00
+      value: 'Exception reporting: dementia quality indicators'
+      type: prevalent
+    - code: 9Ou1.00
+      value: Dementia monitoring first letter
+      type: prevalent
+    - code: 9Ou2.00
+      value: Dementia monitoring second letter
+      type: prevalent
+    - code: 9Ou3.00
+      value: Dementia monitoring third letter
+      type: prevalent
+    - code: 9Ou4.00
+      value: Dementia monitoring verbal invite
+      type: prevalent
+    - code: 9Ou5.00
+      value: Dementia monitoring telephone invite
+      type: prevalent
+    - code: 9Ou..00
+      value: Dementia monitoring administration
+      type: prevalent
+    - code: E000.00
+      value: Uncomplicated senile dementia
+      type: any
+    - code: E001000
+      value: Uncomplicated presenile dementia
+      type: any
+    - code: E001100
+      value: Presenile dementia with delirium
+      type: any
+    - code: E001200
+      value: Presenile dementia with paranoia
+      type: any
+    - code: E001300
+      value: Presenile dementia with depression
+      type: any
+    - code: E001.00
+      value: Presenile dementia
+      type: any
+    - code: E001z00
+      value: Presenile dementia NOS
+      type: any
+    - code: E002000
+      value: Senile dementia with paranoia
+      type: any
+    - code: E002100
+      value: Senile dementia with depression
+      type: any
+    - code: E002.00
+      value: Senile dementia with depressive or paranoid features
+      type: any
+    - code: E002z00
+      value: Senile dementia with depressive or paranoid features NOS
+      type: any
+    - code: E003.00
+      value: Senile dementia with delirium
+      type: any
+    - code: E004000
+      value: Uncomplicated arteriosclerotic dementia
+      type: any
+    - code: E004100
+      value: Arteriosclerotic dementia with delirium
+      type: any
+    - code: E004200
+      value: Arteriosclerotic dementia with paranoia
+      type: any
+    - code: E004300
+      value: Arteriosclerotic dementia with depression
+      type: any
+    - code: E004.00
+      value: Arteriosclerotic dementia
+      type: any
+    - code: E004.11
+      value: Multi infarct dementia
+      type: any
+    - code: E004z00
+      value: Arteriosclerotic dementia NOS
+      type: any
+    - code: E00..00
+      value: Senile and presenile organic psychotic conditions
+      type: any
+    - code: E00..11
+      value: Senile dementia
+      type: any
+    - code: E00..12
+      value: Senile/presenile dementia
+      type: any
+    - code: E00y.00
+      value: Other senile and presenile organic psychoses
+      type: any
+    - code: E00y.11
+      value: Presbyophrenic psychosis
+      type: any
+    - code: E00z.00
+      value: Senile or presenile psychoses NOS
+      type: any
+    - code: E041.00
+      value: Dementia in conditions EC
+      type: any
+    - code: Eu01000
+      value: '[X]Vascular dementia of acute onset'
+      type: any
+    - code: Eu01100
+      value: '[X]Multi-infarct dementia'
+      type: any
+    - code: Eu01111
+      value: '[X]Predominantly cortical dementia'
+      type: any
+    - code: Eu01200
+      value: '[X]Subcortical vascular dementia'
+      type: any
+    - code: Eu01300
+      value: '[X]Mixed cortical and subcortical vascular dementia'
+      type: any
+    - code: Eu01.00
+      value: '[X]Vascular dementia'
+      type: any
+    - code: Eu01.11
+      value: '[X]Arteriosclerotic dementia'
+      type: any
+    - code: Eu01y00
+      value: '[X]Other vascular dementia'
+      type: any
+    - code: Eu01z00
+      value: '[X]Vascular dementia, unspecified'
+      type: any
+    - code: Eu02z00
+      value: '[X] Unspecified dementia'
+      type: any
+    - code: Eu02z11
+      value: '[X] Presenile dementia NOS'
+      type: any
+    - code: Eu02z12
+      value: '[X] Presenile psychosis NOS'
+      type: any
+    - code: Eu02z13
+      value: '[X] Primary degenerative dementia NOS'
+      type: any
+    - code: Eu02z14
+      value: '[X] Senile dementia NOS'
+      type: any
+    - code: Eu02z15
+      value: '[X] Senile psychosis NOS'
+      type: any
+    - code: Eu02z16
+      value: '[X] Senile dementia, depressed or paranoid type'
+      type: any
+    - code: Eu04100
+      value: '[X]Delirium superimposed on dementia'
+      type: any
+    - code: ZS7C500
+      value: Language disorder of dementia
+      type: any
+    - code: XaMG0
+      value: Dementia monitoring first letter
+      type: prevalent
+    - code: XaLFp
+      value: 'Excepted from dementia quality indicators: Informed dissent'
+      type: prevalent
+    - code: XE1Xt
+      value: Other senile and presenile organic psychoses
+      type: any
+    - code: XaMGF
+      value: Dementia annual review
+      type: prevalent
+    - code: XaMGJ
+      value: Dementia monitoring verbal invite
+      type: prevalent
+    - code: XE1Xr
+      value: Senile and presenile organic psychotic conditions
+      type: any
+    - code: XaMFy
+      value: Dementia monitoring administration
+      type: prevalent
+    - code: XaMGG
+      value: Dementia monitoring second letter
+      type: prevalent
+    - code: XaaBZ
+      value: Dementia care plan
+      type: any
+    - code: XaMJC
+      value: Dementia monitoring
+      type: prevalent
+    - code: XaLFf
+      value: 'Exception reporting: dementia quality indicators'
+      type: prevalent
+    - code: XaMGK
+      value: Dementia monitoring telephone invite
+      type: prevalent
+    - code: XaLFo
+      value: 'Excepted from dementia quality indicators: Patient unsuitable'
+      type: prevalent
+    - code: XaMGI
+      value: Dementia monitoring third letter
+      type: prevalent
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

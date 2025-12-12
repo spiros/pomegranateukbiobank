@@ -1,0 +1,326 @@
+metadata:
+  phenotype: Fracture of wrist
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: fracture_wrist
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 3f8e0339-b66f-449f-b1a4-6c2862500224
+  ontologies:
+    DOID: null
+    GWAS: EFO_0009515
+    MESH: D003100
+    SNOMED-CT: 208388003
+    FINNGEN: ST19_FRACT_WRIST_HAND_LEVEL
+  short_desc: A break of the part of the radius bone which is close to the wrist.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1637'
+      value: fracture wrist / colles fracture
+      type: any
+    - code: '1634'
+      value: fracture forearm / wrist
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: S52.5
+      value: Fracture of lower end of radius
+      type: any
+    - code: S52.6
+      value: Fracture of lower end of both ulna and radius
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: S52.5
+      value: Fracture of lower end of radius
+      type: any
+    - code: S52.6
+      value: Fracture of lower end of both ulna and radius
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: S52.5
+      value: Fracture of lower end of radius
+      type: any
+    - code: S52.6
+      value: Fracture of lower end of both ulna and radius
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: S52.5
+      value: Fracture of lower end of radius
+      type: any
+    - code: S52.6
+      value: Fracture of lower end of both ulna and radius
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 7K1LM00
+      value: Closed reduction of fracture of wrist
+      type: any
+    - code: S234000
+      value: Closed fracture of forearm, lower end, unspecified
+      type: any
+    - code: S234100
+      value: Closed Colles' fracture
+      type: any
+    - code: S234111
+      value: Smith's fracture - closed
+      type: any
+    - code: S234200
+      value: Closed fracture of the distal radius, unspecified
+      type: any
+    - code: S234300
+      value: Closed fracture of ulna, styloid process
+      type: any
+    - code: S234400
+      value: Closed fracture of ulna, lower epiphysis
+      type: any
+    - code: S234500
+      value: Closed fracture distal ulna, unspecified
+      type: any
+    - code: S234600
+      value: Closed fracture radius and ulna, distal
+      type: any
+    - code: S234700
+      value: Closed Smith's fracture
+      type: any
+    - code: S234800
+      value: Closed Galeazzi fracture
+      type: any
+    - code: S234900
+      value: Closed volar Barton's fracture
+      type: any
+    - code: S234911
+      value: Closed volar Barton's fracture-dislocation
+      type: any
+    - code: S234912
+      value: Closed volar Barton fracture-subluxation
+      type: any
+    - code: S234A00
+      value: Closd dorsal Barton's fracture
+      type: any
+    - code: S234A11
+      value: Closed dorsal Barton's fracture-dislocation
+      type: any
+    - code: S234A12
+      value: Closed dorsal Barton fracture-subluxation
+      type: any
+    - code: S234B00
+      value: Closed fracture radial styloid
+      type: any
+    - code: S234C00
+      value: Closed fracture distal radius, intra-articular, die-punch
+      type: any
+    - code: S234D00
+      value: Closed fracture distal radius, extra-articular, other type
+      type: any
+    - code: S234E00
+      value: Closed fracture distal radius, intra-articular, other type
+      type: any
+    - code: S234F00
+      value: Closed Barton's fracture
+      type: any
+    - code: S234.00
+      value: Closed fracture of radius and ulna, lower end
+      type: any
+    - code: S234.11
+      value: Wrist fracture - closed
+      type: any
+    - code: S234z00
+      value: Closed fracture of forearm, lower end, NOS
+      type: any
+    - code: S235000
+      value: Open fracture of forearm, lower end, unspecified
+      type: any
+    - code: S235100
+      value: Open Colles' fracture
+      type: any
+    - code: S235111
+      value: Smith's fracture - open
+      type: any
+    - code: S235200
+      value: Open fracture of the distal radius, unspecified
+      type: any
+    - code: S235300
+      value: Open fracture of ulna, styloid process
+      type: any
+    - code: S235400
+      value: Open fracture of ulna, lower epiphysis
+      type: any
+    - code: S235500
+      value: Open fracture distal ulna - other
+      type: any
+    - code: S235600
+      value: Open fracture radius and ulna, distal
+      type: any
+    - code: S235700
+      value: Open Smith's fracture
+      type: any
+    - code: S235800
+      value: Open Galeazzi fracture
+      type: any
+    - code: S235900
+      value: Open volar Barton's fracture
+      type: any
+    - code: S235B00
+      value: Open fracture radial styloid
+      type: any
+    - code: S235C00
+      value: Open fracture distal radius, intra-articular, die-punch
+      type: any
+    - code: S235D00
+      value: Open fracture distal radius, extra-articular other type
+      type: any
+    - code: S235E00
+      value: Open fracture distal radius, intra-articular other type
+      type: any
+    - code: S235F00
+      value: Open Barton's fracture
+      type: any
+    - code: S235.00
+      value: Open fracture of radius and ulna, lower end
+      type: any
+    - code: S235.11
+      value: Wrist fracture - open
+      type: any
+    - code: S235z00
+      value: Open fracture of forearm, lower end, NOS
+      type: any
+    - code: S23B.00
+      value: Fracture of lower end of radius
+      type: any
+    - code: S23C.00
+      value: Fracture of lower end of both ulna and radius
+      type: any
+    - code: S4C0000
+      value: Closed fracture-dislocation distal radio-ulnar joint
+      type: any
+    - code: S4C0100
+      value: Closed fracture-dislocation radiocarpal joint
+      type: any
+    - code: S4C0.00
+      value: Closed fracture dislocation of wrist
+      type: any
+    - code: S4C1000
+      value: Open fracture-dislocation, distal radio-ulnar joint
+      type: any
+    - code: S4C1100
+      value: Open fracture-dislocation radiocarpal joint
+      type: any
+    - code: S4C1.00
+      value: Open fracture dislocation wrist
+      type: any
+    - code: S4C2000
+      value: Closed fracture-subluxation, distal radio-ulnar jt
+      type: any
+    - code: S4C2100
+      value: Closed fracture-subluxation radiocarpal joint
+      type: any
+    - code: S4C2.00
+      value: Closed fracture-subluxation of the wrist
+      type: any
+    - code: S4C3000
+      value: Open fracture-subluxation, distal radio-ulnar joint
+      type: any
+    - code: S4C3100
+      value: Open fracture-subluxation radiocarpal joint
+      type: any
+    - code: S4C3.00
+      value: Open fracture-subluxation of the wrist
+      type: any
+    - code: S4C..00
+      value: Fracture-dislocation or subluxation of wrist
+      type: any
+    - code: SC3C000
+      value: Sequelae of fracture at wrist and hand level
+      type: any
+    - code: XE1kx
+      value: Open Colles' fracture
+      type: any
+    - code: XE1ky
+      value: Open fracture of the distal radius, unspecified
+      type: any
+    - code: XE1kw
+      value: Open fracture of radius and ulna, lower end
+      type: any
+    - code: XaBDD
+      value: Open Barton's fracture
+      type: any
+    - code: XE1kt
+      value: Closed fracture of radius and ulna, lower end
+      type: any
+    - code: XE1kv
+      value: Closed fracture of the distal radius, unspecified
+      type: any
+    - code: XaBDE
+      value: Closed Barton's fracture
+      type: any
+    - code: XE1ku
+      value: Closed Colles' fracture
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

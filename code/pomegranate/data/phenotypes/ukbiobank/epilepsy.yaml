@@ -1,0 +1,666 @@
+metadata:
+  phenotype: Epilepsy
+  group: Neurological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: epilepsy
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 010c6d5a-4fe4-41f1-872e-bde3d48921b1
+  ontologies:
+    DOID: DOID_1826
+    GWAS: EFO_0000474
+    MESH: D004827
+    SNOMED-CT: 84757009
+    FINNGEN: G6_EPLEPSY
+  short_desc: A brain disorder characterized by episodes of abnormally increased neuronal
+    discharge resulting in transient episodes of sensory or motor neurological dysfunction,
+    or psychic dysfunction. These episodes may or may not be associated with loss
+    of consciousness or convulsions.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1264'
+      value: epilepsy
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: G40
+      value: Epilepsy
+      type: any
+    - code: G41
+      value: Status epilepticus
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: G40
+      value: Epilepsy
+      type: any
+    - code: G41
+      value: Status epilepticus
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G40
+      value: Epilepsy
+      type: any
+    - code: G41
+      value: Status epilepticus
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G40
+      value: Epilepsy
+      type: any
+    - code: G41
+      value: Status epilepticus
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1473.00'
+      value: 'H/O: epilepsy'
+      type: prevalent
+    - code: 1B1W.00
+      value: Transient epileptic amnesia
+      type: any
+    - code: 1O30.00
+      value: Epilepsy confirmed
+      type: any
+    - code: '2126000.0'
+      value: Epilepsy resolved
+      type: any
+    - code: 212J.00
+      value: Epilepsy resolved
+      type: any
+    - code: '6110.00'
+      value: Contraceptive advice for patients with epilepsy
+      type: any
+    - code: '6674.00'
+      value: Epilepsy associated problems
+      type: any
+    - code: 667..00
+      value: Epilepsy monitoring
+      type: prevalent
+    - code: '6677.00'
+      value: Epilepsy drug side effects
+      type: any
+    - code: '6678.00'
+      value: Epilepsy treatment changed
+      type: any
+    - code: '6679.00'
+      value: Epilepsy treatment started
+      type: any
+    - code: 667A.00
+      value: Epilepsy treatment stopped
+      type: any
+    - code: 667B.00
+      value: Nocturnal epilepsy
+      type: any
+    - code: 667C.00
+      value: Epilepsy control good
+      type: any
+    - code: 667D.00
+      value: Epilepsy control poor
+      type: any
+    - code: 667E.00
+      value: Epilepsy care arrangement
+      type: any
+    - code: 667F.00
+      value: Seizure free >12 months
+      type: any
+    - code: 667G.00
+      value: Epilepsy restricts employment
+      type: any
+    - code: 667H.00
+      value: Epilepsy prevents employment
+      type: any
+    - code: 667J.00
+      value: Epilepsy impairs education
+      type: any
+    - code: 667K.00
+      value: Epilepsy limits activities
+      type: any
+    - code: 667L.00
+      value: Epilepsy does not limit activities
+      type: any
+    - code: 667M.00
+      value: Epilepsy management plan given
+      type: any
+    - code: 667N.00
+      value: Epilepsy severity
+      type: any
+    - code: 667P.00
+      value: No seizures on treatment
+      type: any
+    - code: 667Q.00
+      value: 1 to 12 seizures a year
+      type: any
+    - code: 667R.00
+      value: 2 to 4 seizures a month
+      type: any
+    - code: 667S.00
+      value: 1 to 7 seizures a week
+      type: any
+    - code: 667T.00
+      value: Daily seizures
+      type: any
+    - code: 667V.00
+      value: Many seizures a day
+      type: any
+    - code: 667W.00
+      value: Emergency epilepsy treatment since last appointment
+      type: any
+    - code: 667X.00
+      value: No epilepsy drug side effects
+      type: any
+    - code: 667Z.00
+      value: Epilepsy monitoring NOS
+      type: prevalent
+    - code: 67AF.00
+      value: Pregnancy advice for patients with epilepsy
+      type: any
+    - code: 67IJ000
+      value: Pre-conception advice for patients with epilepsy
+      type: any
+    - code: 8BIF.00
+      value: Epilepsy medication review
+      type: prevalent
+    - code: 9Of3.00
+      value: Epilepsy monitoring verbal invite
+      type: prevalent
+    - code: 9Of4.00
+      value: Epilepsy monitoring telephone invite
+      type: prevalent
+    - code: 9Of5.00
+      value: Epilepsy monitoring call first letter
+      type: prevalent
+    - code: 9Of6.00
+      value: Epilepsy monitoring call second letter
+      type: prevalent
+    - code: 9Of7.00
+      value: Epilepsy monitoring call third letter
+      type: prevalent
+    - code: Eu05212
+      value: '[X]Schizophrenia-like psychosis in epilepsy'
+      type: any
+    - code: Eu05y11
+      value: '[X]Epileptic psychosis NOS'
+      type: any
+    - code: Eu06013
+      value: '[X]Limbic epilepsy personality'
+      type: any
+    - code: Eu80300
+      value: '[X]Acquired aphasia with epilepsy [Landau - Kleffner]'
+      type: any
+    - code: F132100
+      value: Progressive myoclonic epilepsy
+      type: any
+    - code: F132111
+      value: Unverricht - Lundborg disease
+      type: any
+    - code: F132200
+      value: Myoclonic encephalopathy
+      type: any
+    - code: F142200
+      value: Dyssynergia cerebellaris myoclonica
+      type: any
+    - code: F250000
+      value: Petit mal (minor) epilepsy
+      type: any
+    - code: F250011
+      value: Epileptic absences
+      type: any
+    - code: F250100
+      value: Pykno-epilepsy
+      type: any
+    - code: F250200
+      value: Epileptic seizures - atonic
+      type: any
+    - code: F250300
+      value: Epileptic seizures - akinetic
+      type: any
+    - code: F250400
+      value: Juvenile absence epilepsy
+      type: any
+    - code: F250500
+      value: Lennox-Gastaut syndrome
+      type: any
+    - code: F250.00
+      value: Generalised nonconvulsive epilepsy
+      type: any
+    - code: F250y00
+      value: Other specified generalised nonconvulsive epilepsy
+      type: any
+    - code: F250z00
+      value: Generalised nonconvulsive epilepsy NOS
+      type: any
+    - code: F251000
+      value: Grand mal (major) epilepsy
+      type: any
+    - code: F251011
+      value: Tonic-clonic epilepsy
+      type: any
+    - code: F251100
+      value: Neonatal myoclonic epilepsy
+      type: any
+    - code: F251111
+      value: Otohara syndrome
+      type: any
+    - code: F251200
+      value: Epileptic seizures - clonic
+      type: any
+    - code: F251300
+      value: Epileptic seizures - myoclonic
+      type: any
+    - code: F251400
+      value: Epileptic seizures - tonic
+      type: any
+    - code: F251500
+      value: Tonic-clonic epilepsy
+      type: any
+    - code: F251.00
+      value: Generalised convulsive epilepsy
+      type: any
+    - code: F251y00
+      value: Other specified generalised convulsive epilepsy
+      type: any
+    - code: F251z00
+      value: Generalised convulsive epilepsy NOS
+      type: any
+    - code: F252.00
+      value: Petit mal status
+      type: any
+    - code: F253.00
+      value: Grand mal status
+      type: any
+    - code: F253.11
+      value: Status epilepticus
+      type: any
+    - code: F254000
+      value: Temporal lobe epilepsy
+      type: any
+    - code: F254100
+      value: Psychomotor epilepsy
+      type: any
+    - code: F254200
+      value: Psychosensory epilepsy
+      type: any
+    - code: F254300
+      value: Limbic system epilepsy
+      type: any
+    - code: F254400
+      value: Epileptic automatism
+      type: any
+    - code: F254500
+      value: Complex partial epileptic seizure
+      type: any
+    - code: F254.00
+      value: Partial epilepsy with impairment of consciousness
+      type: any
+    - code: F254z00
+      value: Partial epilepsy with impairment of consciousness NOS
+      type: any
+    - code: F255000
+      value: Jacksonian, focal or motor epilepsy
+      type: any
+    - code: F255011
+      value: Focal epilepsy
+      type: any
+    - code: F255012
+      value: Motor epilepsy
+      type: any
+    - code: F255100
+      value: Sensory induced epilepsy
+      type: any
+    - code: F255200
+      value: Somatosensory epilepsy
+      type: any
+    - code: F255300
+      value: Visceral reflex epilepsy
+      type: any
+    - code: F255311
+      value: Partial epilepsy with autonomic symptoms
+      type: any
+    - code: F255400
+      value: Visual reflex epilepsy
+      type: any
+    - code: F255500
+      value: Unilateral epilepsy
+      type: any
+    - code: F255600
+      value: Simple partial epileptic seizure
+      type: any
+    - code: F255.00
+      value: Partial epilepsy without impairment of consciousness
+      type: any
+    - code: F255y00
+      value: Partial epilepsy without impairment of consciousness OS
+      type: any
+    - code: F255z00
+      value: Partial epilepsy without impairment of consciousness NOS
+      type: any
+    - code: F256000
+      value: Hypsarrhythmia
+      type: any
+    - code: F256100
+      value: Salaam attacks
+      type: any
+    - code: F256.00
+      value: Infantile spasms
+      type: any
+    - code: F256.11
+      value: Lightning spasms
+      type: any
+    - code: F256.12
+      value: West syndrome
+      type: any
+    - code: F256z00
+      value: Infantile spasms NOS
+      type: any
+    - code: F257.00
+      value: Kojevnikov's epilepsy
+      type: any
+    - code: F258.00
+      value: Post-ictal state
+      type: any
+    - code: F259.00
+      value: Early infant epileptic encephalopathy wth suppression bursts
+      type: any
+    - code: F259.11
+      value: Ohtahara syndrome
+      type: any
+    - code: F25A.00
+      value: Juvenile myoclonic epilepsy
+      type: any
+    - code: F25B.00
+      value: Alcohol-induced epilepsy
+      type: any
+    - code: F25C.00
+      value: Drug-induced epilepsy
+      type: any
+    - code: F25D.00
+      value: Menstrual epilepsy
+      type: any
+    - code: F25E.00
+      value: Stress-induced epilepsy
+      type: any
+    - code: F25..00
+      value: Epilepsy
+      type: any
+    - code: F25F.00
+      value: Photosensitive epilepsy
+      type: any
+    - code: F25G.00
+      value: Severe myoclonic epilepsy in infancy
+      type: any
+    - code: F25G.11
+      value: Dravet syndrome
+      type: any
+    - code: F25X.00
+      value: Status epilepticus, unspecified
+      type: any
+    - code: F25y000
+      value: Cursive (running) epilepsy
+      type: any
+    - code: F25y100
+      value: Gelastic epilepsy
+      type: any
+    - code: F25y200
+      value: Locl-rlt(foc)(part)idiop epilep&epilptic syn seiz locl onset
+      type: any
+    - code: F25y300
+      value: Complex partial status epilepticus
+      type: any
+    - code: F25y400
+      value: Benign Rolandic epilepsy
+      type: any
+    - code: F25y500
+      value: Panayiotopoulos syndrome
+      type: any
+    - code: F25y.00
+      value: Other forms of epilepsy
+      type: any
+    - code: F25yz00
+      value: Other forms of epilepsy NOS
+      type: any
+    - code: F25z.00
+      value: Epilepsy NOS
+      type: any
+    - code: F25z.11
+      value: Fit (in known epileptic) NOS
+      type: any
+    - code: Fyu5000
+      value: '[X]Other generalized epilepsy and epileptic syndromes'
+      type: any
+    - code: Fyu5100
+      value: '[X]Other epilepsy'
+      type: any
+    - code: Fyu5200
+      value: '[X]Other status epilepticus'
+      type: any
+    - code: Fyu5900
+      value: '[X]Status epilepticus, unspecified'
+      type: any
+    - code: XaJBn
+      value: Epilepsy confirmed
+      type: any
+    - code: XaJ7s
+      value: Seizure free >12 months
+      type: any
+    - code: Xa3Dv
+      value: Post-ictal state
+      type: any
+    - code: XaMFq
+      value: Epilepsy monitoring telephone invite
+      type: prevalent
+    - code: X006x
+      value: Nocturnal epilepsy
+      type: any
+    - code: XE15a
+      value: Epilepsy NOS
+      type: any
+    - code: XaFji
+      value: Epilepsy control poor
+      type: any
+    - code: XaJBZ
+      value: Epilepsy does not limit activities
+      type: any
+    - code: X007G
+      value: Complex partial status epilepticus
+      type: any
+    - code: X006e
+      value: Early infantile epileptic encephalopathy with suppression bursts
+      type: any
+    - code: XaFjh
+      value: Epilepsy control good
+      type: any
+    - code: XaJgP
+      value: Stress-induced epilepsy
+      type: any
+    - code: X006n
+      value: Severe myoclonic epilepsy in infancy
+      type: any
+    - code: XaRFW
+      value: Pre-conception advice for patients with epilepsy
+      type: any
+    - code: X006t
+      value: Drug-induced epilepsy
+      type: any
+    - code: XaJBa
+      value: Epilepsy management plan given
+      type: any
+    - code: '21260'
+      value: Epilepsy resolved
+      type: any
+    - code: XaJtH
+      value: No epilepsy drug side effects
+      type: any
+    - code: XaJFI
+      value: Complex partial epileptic seizure
+      type: any
+    - code: X006y
+      value: Photosensitive epilepsy
+      type: any
+    - code: XaJBe
+      value: 2 to 4 seizures a month
+      type: any
+    - code: XaJBb
+      value: Epilepsy severity
+      type: any
+    - code: XaJB6
+      value: Epilepsy impairs education
+      type: any
+    - code: XaJBh
+      value: Many seizures a day
+      type: any
+    - code: XaIyV
+      value: Epilepsy medication review
+      type: prevalent
+    - code: XaB4S
+      value: Jacksonian, focal or motor epilepsy
+      type: any
+    - code: X006L
+      value: Juvenile myoclonic epilepsy
+      type: any
+    - code: XaIu1
+      value: Epilepsy care arrangement
+      type: any
+    - code: XaLMp
+      value: Epilepsy monitoring call second letter
+      type: prevalent
+    - code: X006Q
+      value: Lennox-Gastaut syndrome
+      type: any
+    - code: XaJBY
+      value: Epilepsy limits activities
+      type: any
+    - code: XaJB4
+      value: Epilepsy restricts employment
+      type: any
+    - code: XaL2B
+      value: Simple partial epileptic seizure
+      type: any
+    - code: XaJBd
+      value: 1 to 12 seizures a year
+      type: any
+    - code: XaJB5
+      value: Epilepsy prevents employment
+      type: any
+    - code: XaB4T
+      value: Psychomotor epilepsy
+      type: any
+    - code: XaLMo
+      value: Epilepsy monitoring call first letter
+      type: prevalent
+    - code: XaLMq
+      value: Epilepsy monitoring call third letter
+      type: prevalent
+    - code: X006u
+      value: Alcohol-induced epilepsy
+      type: any
+    - code: XaQbJ
+      value: Petit mal (minor) epilepsy
+      type: any
+    - code: XaQbJ
+      value: Petit mal (minor) epilepsy
+      type: any
+    - code: X006K
+      value: Juvenile absence epilepsy
+      type: any
+    - code: XaRFX
+      value: Pregnancy advice for patients with epilepsy
+      type: any
+    - code: XaJBg
+      value: Daily seizures
+      type: any
+    - code: XaOZG
+      value: Panayiotopoulos syndrome
+      type: any
+    - code: X006w
+      value: Menstrual epilepsy
+      type: any
+    - code: XaIt0
+      value: Transient epileptic amnesia
+      type: any
+    - code: XaJBf
+      value: 1 to 7 seizures a week
+      type: any
+    - code: XaJBc
+      value: No seizures on treatment
+      type: any
+    - code: XE15I
+      value: Progressive myoclonic epilepsy
+      type: any
+    - code: XaJBi
+      value: Emergency epilepsy treatment since last appointment
+      type: any
+    - code: XaKby
+      value: Epilepsy monitoring verbal invite
+      type: prevalent
+    - code: XE1Z9
+      value: '[X]Other specified mental disorder due to brain damage and dysfunction
+        and to physical disease'
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,269 @@
+metadata:
+  phenotype: Primary Malignancy_Breast
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: pri_breast
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: b5f4347d-e15a-4850-a4ac-05c35b369b4e
+  ontologies:
+    DOID: DOID_1612
+    GWAS: EFO_0000305
+    MESH: D001943
+    SNOMED-CT: 254837009
+    FINNGEN: C3_BREAST
+  short_desc: A thoracic cancer that originates in the mammary gland.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1002'
+      value: breast cancer
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C50
+      value: Malignant neoplasm of breast
+      type: any
+    - code: D05
+      value: Carcinoma in situ of breast
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C50
+      value: Malignant neoplasm of breast
+      type: any
+    - code: D05
+      value: Carcinoma in situ of breast
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C50
+      value: Malignant neoplasm of breast
+      type: any
+    - code: D05
+      value: Carcinoma in situ of breast
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C50
+      value: Malignant neoplasm of breast
+      type: any
+    - code: D05
+      value: Carcinoma in situ of breast
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B340000
+      value: Malignant neoplasm of nipple of female breast
+      type: any
+    - code: B340100
+      value: Malignant neoplasm of areola of female breast
+      type: any
+    - code: B340.00
+      value: Malignant neoplasm of nipple and areola of female breast
+      type: any
+    - code: B340z00
+      value: Malignant neoplasm of nipple or areola of female breast NOS
+      type: any
+    - code: B341.00
+      value: Malignant neoplasm of central part of female breast
+      type: any
+    - code: B342.00
+      value: Malignant neoplasm of upper-inner quadrant of female breast
+      type: any
+    - code: B343.00
+      value: Malignant neoplasm of lower-inner quadrant of female breast
+      type: any
+    - code: B344.00
+      value: Malignant neoplasm of upper-outer quadrant of female breast
+      type: any
+    - code: B345.00
+      value: Malignant neoplasm of lower-outer quadrant of female breast
+      type: any
+    - code: B346.00
+      value: Malignant neoplasm of axillary tail of female breast
+      type: any
+    - code: B347.00
+      value: Malignant neoplasm, overlapping lesion of breast
+      type: any
+    - code: B34..00
+      value: Malignant neoplasm of female breast
+      type: any
+    - code: B34..11
+      value: Ca female breast
+      type: any
+    - code: B34y000
+      value: Malignant neoplasm of ectopic site of female breast
+      type: any
+    - code: B34y.00
+      value: Malignant neoplasm of other site of female breast
+      type: any
+    - code: B34yz00
+      value: Malignant neoplasm of other site of female breast NOS
+      type: any
+    - code: B34z.00
+      value: Malignant neoplasm of female breast NOS
+      type: any
+    - code: B350000
+      value: Malignant neoplasm of nipple of male breast
+      type: any
+    - code: B350100
+      value: Malignant neoplasm of areola of male breast
+      type: any
+    - code: B350.00
+      value: Malignant neoplasm of nipple and areola of male breast
+      type: any
+    - code: B35..00
+      value: Malignant neoplasm of male breast
+      type: any
+    - code: B35z000
+      value: Malignant neoplasm of ectopic site of male breast
+      type: any
+    - code: B35z.00
+      value: Malignant neoplasm of other site of male breast
+      type: any
+    - code: B35zz00
+      value: Malignant neoplasm of male breast NOS
+      type: any
+    - code: B36..00
+      value: Local recurrence of malignant tumour of breast
+      type: any
+    - code: B830000
+      value: Lobular carcinoma in situ of breast
+      type: any
+    - code: B830100
+      value: Intraductal carcinoma in situ of breast
+      type: any
+    - code: B830.00
+      value: Carcinoma in situ of breast
+      type: any
+    - code: BB91.00
+      value: '[M]Infiltrating duct carcinoma'
+      type: any
+    - code: BB91.11
+      value: '[M]Duct carcinoma NOS'
+      type: any
+    - code: BB91000
+      value: '[M]Intraductal papillary adenocarcinoma with invasion'
+      type: any
+    - code: BB96.00
+      value: '[M]Noninfiltrating intraductal papillary adenocarcinoma'
+      type: any
+    - code: BB91100
+      value: '[M]Infiltrating duct and lobular carcinoma'
+      type: any
+    - code: BB92.00
+      value: '[M]Comedocarcinoma, noninfiltrating'
+      type: any
+    - code: BB93.00
+      value: '[M]Comedocarcinoma NOS'
+      type: any
+    - code: BB94.00
+      value: '[M]Juvenile breast carcinoma'
+      type: any
+    - code: BB94.11
+      value: '[M]Secretory breast carcinoma'
+      type: any
+    - code: BB9J.00
+      value: '[M]Paget''s disease, mammary'
+      type: any
+    - code: BB9J.11
+      value: '[M]Paget''s disease, breast'
+      type: any
+    - code: BB9K000
+      value: '[M]Paget''s disease and intraductal carcinoma of breast'
+      type: any
+    - code: BB9K.00
+      value: '[M]Paget''s disease and infiltrating breast duct carcinoma'
+      type: any
+    - code: BB9M.00
+      value: '[M]Intracystic carcinoma NOS'
+      type: any
+    - code: Byu6.00
+      value: '[X]Malignant neoplasm of breast'
+      type: any
+    - code: ByuFG00
+      value: '[X]Other carcinoma in situ of breast'
+      type: any
+    - code: ZV10300
+      value: '[V]Personal history of malignant neoplasm of breast'
+      type: prevalent
+    - code: X78WW
+      value: Intraductal carcinoma in situ of breast
+      type: any
+    - code: X78WV
+      value: Lobular carcinoma in situ of breast
+      type: any
+    - code: XaFr8
+      value: Local recurrence of malignant tumour of breast
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C50
+      value: Malignant neoplasm of breast
+      type: any
+    - code: D05
+      value: Carcinoma in situ of breast
+      type: any

@@ -1,0 +1,264 @@
+metadata:
+  phenotype: Septicaemia
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: sepsis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: ecd214bc-0b19-4057-a3f4-c330df26ebf6
+  ontologies:
+    DOID: DOID_0040085
+    GWAS: HP_0100806
+    MESH: D018805
+    SNOMED-CT: 91302008
+    FINNGEN: AB1_SEPSIS
+  short_desc: Systemic inflammatory response syndrome with a proven or suspected infectious
+    etiology.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1657'
+      value: septicaemia / sepsis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: A02.1
+      value: Salmonella sepsis
+      type: any
+    - code: A20.7
+      value: Septicaemic plague
+      type: any
+    - code: A22.7
+      value: Anthrax sepsis
+      type: any
+    - code: A26.7
+      value: Erysipelothrix sepsis
+      type: any
+    - code: A32.7
+      value: Listerial sepsis
+      type: any
+    - code: A39.1
+      value: Waterhouse-Friderichsen syndrome
+      type: any
+    - code: A39.2
+      value: Acute meningococcaemia
+      type: any
+    - code: A39.3
+      value: Chronic meningococcaemia
+      type: any
+    - code: A39.4
+      value: Meningococcaemia, unspecified
+      type: any
+    - code: A40
+      value: Streptococcal sepsis
+      type: any
+    - code: A41
+      value: Other sepsis
+      type: any
+    - code: A42.7
+      value: Actinomycotic sepsis
+      type: any
+    - code: B37.7
+      value: Candidal sepsis
+      type: any
+    - code: P36
+      value: Bacterial sepsis of newborn
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: A02.1
+      value: Salmonella sepsis
+      type: any
+    - code: A20.7
+      value: Septicaemic plague
+      type: any
+    - code: A22.7
+      value: Anthrax sepsis
+      type: any
+    - code: A26.7
+      value: Erysipelothrix sepsis
+      type: any
+    - code: A32.7
+      value: Listerial sepsis
+      type: any
+    - code: A39.1
+      value: Waterhouse-Friderichsen syndrome
+      type: any
+    - code: A39.2
+      value: Acute meningococcaemia
+      type: any
+    - code: A39.3
+      value: Chronic meningococcaemia
+      type: any
+    - code: A39.4
+      value: Meningococcaemia, unspecified
+      type: any
+    - code: A40
+      value: Streptococcal sepsis
+      type: any
+    - code: A41
+      value: Other sepsis
+      type: any
+    - code: A42.7
+      value: Actinomycotic sepsis
+      type: any
+    - code: B37.7
+      value: Candidal sepsis
+      type: any
+    - code: P36
+      value: Bacterial sepsis of newborn
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A02.1
+      value: Salmonella sepsis
+      type: any
+    - code: A20.7
+      value: Septicaemic plague
+      type: any
+    - code: A22.7
+      value: Anthrax sepsis
+      type: any
+    - code: A26.7
+      value: Erysipelothrix sepsis
+      type: any
+    - code: A32.7
+      value: Listerial sepsis
+      type: any
+    - code: A39.1
+      value: Waterhouse-Friderichsen syndrome
+      type: any
+    - code: A39.2
+      value: Acute meningococcaemia
+      type: any
+    - code: A39.3
+      value: Chronic meningococcaemia
+      type: any
+    - code: A39.4
+      value: Meningococcaemia, unspecified
+      type: any
+    - code: A40
+      value: Streptococcal sepsis
+      type: any
+    - code: A41
+      value: Other sepsis
+      type: any
+    - code: A42.7
+      value: Actinomycotic sepsis
+      type: any
+    - code: B37.7
+      value: Candidal sepsis
+      type: any
+    - code: P36
+      value: Bacterial sepsis of newborn
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A02.1
+      value: Salmonella sepsis
+      type: any
+    - code: A20.7
+      value: Septicaemic plague
+      type: any
+    - code: A22.7
+      value: Anthrax sepsis
+      type: any
+    - code: A26.7
+      value: Erysipelothrix sepsis
+      type: any
+    - code: A32.7
+      value: Listerial sepsis
+      type: any
+    - code: A39.1
+      value: Waterhouse-Friderichsen syndrome
+      type: any
+    - code: A39.2
+      value: Acute meningococcaemia
+      type: any
+    - code: A39.3
+      value: Chronic meningococcaemia
+      type: any
+    - code: A39.4
+      value: Meningococcaemia, unspecified
+      type: any
+    - code: A40
+      value: Streptococcal sepsis
+      type: any
+    - code: A41
+      value: Other sepsis
+      type: any
+    - code: A42.7
+      value: Actinomycotic sepsis
+      type: any
+    - code: B37.7
+      value: Candidal sepsis
+      type: any
+    - code: P36
+      value: Bacterial sepsis of newborn
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

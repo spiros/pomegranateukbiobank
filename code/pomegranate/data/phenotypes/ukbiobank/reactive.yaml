@@ -1,0 +1,214 @@
+metadata:
+  phenotype: Postinfective and reactive arthropathies
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: reactive
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 88814ec7-4ffd-4d10-9407-5cc62aece4e3
+  ontologies:
+    DOID: DOID_6196
+    GWAS: null
+    MESH: D016918
+    SNOMED-CT: '201736002'
+    FINNGEN: M13_REACTARTH
+  short_desc: An aseptic, inflammatory arthritis developing secondary to a primary
+    extra-articular infection, most typically of the gastrointestinal tract or urogenital
+    system..
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: M02
+      value: Reactive arthropathies
+      type: any
+    - code: M03
+      value: Postinfective and reactive arthropathies in diseases classified elsewhere
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: M02
+      value: Reactive arthropathies
+      type: any
+    - code: M03
+      value: Postinfective and reactive arthropathies in diseases classified elsewhere
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M02
+      value: Reactive arthropathies
+      type: any
+    - code: M03
+      value: Postinfective and reactive arthropathies in diseases classified elsewhere
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M02
+      value: Reactive arthropathies
+      type: any
+    - code: M03
+      value: Postinfective and reactive arthropathies in diseases classified elsewhere
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: A993.00
+      value: Reiter's disease / syndrome
+      type: any
+    - code: A993.11
+      value: Reiter's syndrome
+      type: any
+    - code: M211400
+      value: Keratoderma blennorrhagica
+      type: any
+    - code: N011400
+      value: Sexually acquired reactive arthropathy of the hand
+      type: any
+    - code: N011600
+      value: Sexually acquired reactive arthropathy of the lower leg
+      type: any
+    - code: N011.00
+      value: Sexually acquired reactive arthropathy
+      type: any
+    - code: N011.12
+      value: Arthropathy in Reiter's disease
+      type: any
+    - code: N011x00
+      value: Sexually acquired reactive arthropathy of multiple sites
+      type: any
+    - code: N011z00
+      value: Sexually acquired reactive arthropathy NOS
+      type: any
+    - code: N013400
+      value: Postdysenteric reactive arthropathy of the hand
+      type: any
+    - code: N013700
+      value: Postdysenteric reactive arthropathy of the ankle and foot
+      type: any
+    - code: N013.00
+      value: Postdysenteric reactive arthropathy
+      type: any
+    - code: N013x00
+      value: Postdysenteric reactive arthropathy of multiple sites
+      type: any
+    - code: N01w000
+      value: Reactive arthropathy of shoulder
+      type: any
+    - code: N01w100
+      value: Reactive arthropathy of sternoclavicular joint
+      type: any
+    - code: N01w300
+      value: Reactive arthropathy of elbow
+      type: any
+    - code: N01w500
+      value: Reactive arthropathy of wrist
+      type: any
+    - code: N01w600
+      value: Reactive arthropathy of MCP joint
+      type: any
+    - code: N01w700
+      value: Reactive arthropathy of PIP joint of finger
+      type: any
+    - code: N01w800
+      value: Reactive arthropathy of DIP joint of finger
+      type: any
+    - code: N01w900
+      value: Reactive arthropathy of hip
+      type: any
+    - code: N01wA00
+      value: Reactive arthropathy of sacro-iliac joint
+      type: any
+    - code: N01wB00
+      value: Reactive arthropathy of knee
+      type: any
+    - code: N01wD00
+      value: Reactive arthropathy of ankle
+      type: any
+    - code: N01wH00
+      value: Reactive arthropathy of 1st MTP joint
+      type: any
+    - code: N01wJ00
+      value: Reactive arthropathy of lesser MTP joint
+      type: any
+    - code: N01wK00
+      value: Reactive arthropathy of IP joint of toe
+      type: any
+    - code: N01w.00
+      value: Reactive arthropathy, unspecified
+      type: any
+    - code: N038.00
+      value: Reactive arthropathies
+      type: any
+    - code: Nyu0300
+      value: '[X]Other reactive arthropathies'
+      type: any
+    - code: Nyu0400
+      value: '[X]Other postinfectious arthropathies in diseases CE'
+      type: any
+    - code: Nyu0500
+      value: '[X]Reactive arthropathy in other diseases CE'
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

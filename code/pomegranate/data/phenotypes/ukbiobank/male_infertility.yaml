@@ -1,0 +1,188 @@
+metadata:
+  phenotype: Male infertility
+  group: Genitourinary
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: male_infertility
+  gender:
+  - male
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: fda24d9d-619f-41a3-acf7-9be064fdad9a
+  ontologies:
+    DOID: DOID_12336
+    GWAS: EFO_0004248
+    MESH: D007248
+    SNOMED-CT: 2904007
+    FINNGEN: N14_MALEINFERT
+  short_desc: The inability of the male to effect fertilization of an ovum after a
+    specified period of unprotected intercourse.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1404'
+      value: male infertility
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: N46
+      value: Male infertility
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: N46
+      value: Male infertility
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N46
+      value: Male infertility
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N46
+      value: Male infertility
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '4914.00'
+      value: 'Semen exam.: low fertility'
+      type: any
+    - code: '4915.00'
+      value: Semen exam.:very low fertility
+      type: any
+    - code: '4916.00'
+      value: 'Semen exam.: infertile'
+      type: any
+    - code: '4917.00'
+      value: 'Semen exam: abnormal'
+      type: any
+    - code: K260.00
+      value: Azoospermia
+      type: any
+    - code: K260.11
+      value: Young's syndrome
+      type: any
+    - code: K261000
+      value: Oligoasthenozoospermia
+      type: any
+    - code: K261.00
+      value: Oligospermia
+      type: any
+    - code: K262.00
+      value: Aspermia
+      type: any
+    - code: K26..00
+      value: Male infertility
+      type: any
+    - code: K26y200
+      value: Infertility due to efferent duct obstruction
+      type: any
+    - code: K26y300
+      value: Infertility due to radiation
+      type: any
+    - code: K26y400
+      value: Infertility in systemic disease
+      type: any
+    - code: K26y.00
+      value: Infertility due to extratesticular cause
+      type: any
+    - code: K26yz00
+      value: Infertility due to extratesticular cause NOS
+      type: any
+    - code: K26z.00
+      value: Male infertility NOS
+      type: any
+    - code: K5B1000
+      value: Primary pituitary - hypothalamic infertility
+      type: any
+    - code: K5B1100
+      value: Secondary pituitary - hypothalamic infertility
+      type: any
+    - code: K5B6.00
+      value: Female infertility associated with male factors
+      type: any
+    - code: K5By000
+      value: Primary infertility unspecified
+      type: any
+    - code: K5By100
+      value: Secondary infertility unspecified
+      type: any
+    - code: K5Byz11
+      value: Subfertility
+      type: any
+    - code: XaXbT
+      value: Oligoasthenozoospermia
+      type: any
+    - code: XE0ey
+      value: Other female infertility NOS
+      type: any
+    - code: XE0eA
+      value: Azoospermia
+      type: any
+    - code: X409B
+      value: Female infertility associated with male factors
+      type: any
+    - code: XaXUx
+      value: Aspermia
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

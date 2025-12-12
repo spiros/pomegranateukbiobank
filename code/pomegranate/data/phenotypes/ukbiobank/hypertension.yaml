@@ -1,0 +1,485 @@
+metadata:
+  phenotype: Hypertension
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: hypertension
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 2559e028-2c5f-4270-bca0-2e2aac04a6e5
+  ontologies:
+    DOID: DOID_10763
+    GWAS: EFO_0000537
+    MESH: D006973
+    SNOMED-CT: 38341003
+    FINNGEN: I9_HYPTENS
+  short_desc: Persistently high systemic arterial BLOOD PRESSURE. Based on multiple
+    readings (BLOOD PRESSURE DETERMINATION), hypertension is currently defined as
+    when SYSTOLIC PRESSURE is consistently greater than 140 mm Hg or when DIASTOLIC
+    PRESSURE is consistently 90 mm Hg or more.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1072'
+      value: essential hypertension
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I10
+      value: Essential (primary) hypertension
+      type: any
+    - code: I11
+      value: Hypertensive heart disease
+      type: any
+    - code: I12
+      value: Hypertensive renal disease
+      type: any
+    - code: I13
+      value: Hypertensive heart and renal disease
+      type: any
+    - code: I15
+      value: Secondary hypertension
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I10
+      value: Essential (primary) hypertension
+      type: any
+    - code: I11
+      value: Hypertensive heart disease
+      type: any
+    - code: I12
+      value: Hypertensive renal disease
+      type: any
+    - code: I13
+      value: Hypertensive heart and renal disease
+      type: any
+    - code: I15
+      value: Secondary hypertension
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I10
+      value: Essential (primary) hypertension
+      type: any
+    - code: I11
+      value: Hypertensive heart disease
+      type: any
+    - code: I12
+      value: Hypertensive renal disease
+      type: any
+    - code: I13
+      value: Hypertensive heart and renal disease
+      type: any
+    - code: I15
+      value: Secondary hypertension
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I10
+      value: Essential (primary) hypertension
+      type: any
+    - code: I11
+      value: Hypertensive heart disease
+      type: any
+    - code: I12
+      value: Hypertensive renal disease
+      type: any
+    - code: I13
+      value: Hypertensive heart and renal disease
+      type: any
+    - code: I15
+      value: Secondary hypertension
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14A2.00
+      value: 'H/O: hypertension'
+      type: prevalent
+    - code: '2126100'
+      value: Hypertension resolved
+      type: any
+    - code: 212K.00
+      value: Hypertension resolved
+      type: any
+    - code: 9OI9.00
+      value: Hypertens.monitor deleted
+      type: any
+    - code: '6624'
+      value: Borderline hyperten:yearly obs
+      type: any
+    - code: '6627'
+      value: Good hypertension control
+      type: any
+    - code: '6628'
+      value: Poor hypertension control
+      type: any
+    - code: 662F.00
+      value: Hypertension treatm. started
+      type: any
+    - code: 662G.00
+      value: Hypertensive treatm.changed
+      type: any
+    - code: 662O.00
+      value: On treatment for hypertension
+      type: any
+    - code: 662b.00
+      value: Moderate hypertension control
+      type: any
+    - code: 662c.00
+      value: Hypertension six month review
+      type: prevalent
+    - code: 662d.00
+      value: Hypertension annual review
+      type: prevalent
+    - code: 662r.00
+      value: Trial withdrawal of antihypertensive therapy
+      type: any
+    - code: 7Q01.00
+      value: High cost hypertension drugs
+      type: any
+    - code: 8B26.00
+      value: Antihypertensive therapy
+      type: any
+    - code: 8BL0.00
+      value: Patient on maximal tolerated antihypertensive therapy
+      type: any
+    - code: 8I3N.00
+      value: Hypertension treatment refused
+      type: any
+    - code: F404200
+      value: Blind hypertensive eye
+      type: any
+    - code: F421300
+      value: Hypertensive retinopathy
+      type: any
+    - code: G2...00
+      value: Hypertensive disease
+      type: any
+    - code: G2...11
+      value: BP - hypertensive disease
+      type: any
+    - code: G20..00
+      value: Essential hypertension
+      type: any
+    - code: G200.00
+      value: Malignant essential hypertension
+      type: any
+    - code: G201.00
+      value: Benign essential hypertension
+      type: any
+    - code: G202.00
+      value: Systolic hypertension
+      type: any
+    - code: G203.00
+      value: Diastolic hypertension
+      type: any
+    - code: G20z.00
+      value: Essential hypertension NOS
+      type: any
+    - code: G20z.11
+      value: Hypertension NOS
+      type: any
+    - code: G21..00
+      value: Hypertensive heart disease
+      type: any
+    - code: G210.00
+      value: Malignant hypertensive heart disease
+      type: any
+    - code: G210000
+      value: Malignant hypertensive heart disease without CCF
+      type: any
+    - code: G210100
+      value: Malignant hypertensive heart disease with CCF
+      type: any
+    - code: G211.00
+      value: Benign hypertensive heart disease
+      type: any
+    - code: G211000
+      value: Benign hypertensive heart disease without CCF
+      type: any
+    - code: G211100
+      value: Benign hypertensive heart disease with CCF
+      type: any
+    - code: G21z.00
+      value: Hypertensive heart disease NOS
+      type: any
+    - code: G21z000
+      value: Hypertensive heart disease NOS without CCF
+      type: any
+    - code: G21z011
+      value: Cardiomegaly - hypertensive
+      type: any
+    - code: G21z100
+      value: Hypertensive heart disease NOS with CCF
+      type: any
+    - code: G21zz00
+      value: Hypertensive heart disease NOS
+      type: any
+    - code: G22..00
+      value: Hypertensive renal disease
+      type: any
+    - code: G220.00
+      value: Malignant hypertensive renal disease
+      type: any
+    - code: G221.00
+      value: Benign hypertensive renal disease
+      type: any
+    - code: G222.00
+      value: Hypertensive renal disease with renal failure
+      type: any
+    - code: G22z.00
+      value: Hypertensive renal disease NOS
+      type: any
+    - code: G22z.11
+      value: Renal hypertension
+      type: any
+    - code: G23..00
+      value: Hypertensive heart and renal disease
+      type: any
+    - code: G230.00
+      value: Malignant hypertensive heart and renal disease
+      type: any
+    - code: G231.00
+      value: Benign hypertensive heart and renal disease
+      type: any
+    - code: G232.00
+      value: Hypertensive heart&renal dis wth (congestive) heart failure
+      type: any
+    - code: G233.00
+      value: Hypertensive heart and renal disease with renal failure
+      type: any
+    - code: G234.00
+      value: Hyperten heart&renal dis+both(congestv)heart and renal fail
+      type: any
+    - code: G23z.00
+      value: Hypertensive heart and renal disease NOS
+      type: any
+    - code: G2y..00
+      value: Other specified hypertensive disease
+      type: any
+    - code: G2z..00
+      value: Hypertensive disease NOS
+      type: any
+    - code: G672.00
+      value: Hypertensive encephalopathy
+      type: any
+    - code: G672.11
+      value: Hypertensive crisis
+      type: any
+    - code: Gyu2.00
+      value: '[X]Hypertensive diseases'
+      type: any
+    - code: L122.00
+      value: Other pre-existing hypertension in preg/childbirth/puerp
+      type: any
+    - code: L122000
+      value: Other pre-existing hypertension in preg/childb/puerp unspec
+      type: any
+    - code: L122100
+      value: Other pre-existing hypertension in preg/childb/puerp - deliv
+      type: any
+    - code: L122300
+      value: Other pre-exist hypertension in preg/childb/puerp-not deliv
+      type: any
+    - code: L122z00
+      value: Other pre-existing hypertension in preg/childb/puerp NOS
+      type: any
+    - code: L127.00
+      value: Pre-eclampsia or eclampsia with pre-existing hypertension
+      type: any
+    - code: L127z00
+      value: Pre-eclampsia or eclampsia + pre-existing hypertension NOS
+      type: any
+    - code: L128.00
+      value: Pre-exist hypertension compl preg childbirth and puerperium
+      type: any
+    - code: L128000
+      value: Pre-exist hyperten heart dis compl preg childbth+puerperium
+      type: any
+    - code: L128200
+      value: Pre-exist 2ndry hypertens comp preg childbth and puerperium
+      type: any
+    - code: TJC7.00
+      value: Adverse reaction to other antihypertensives
+      type: any
+    - code: TJC7z00
+      value: Adverse reaction to antihypertensives NOS
+      type: any
+    - code: U60C500
+      value: '[X]Oth antihyperten drug caus advers eff in therap use, NEC'
+      type: any
+    - code: U60C511
+      value: '[X] Adverse reaction to other antihypertensives'
+      type: any
+    - code: U60C51A
+      value: '[X] Adverse reaction to antihypertensives NOS'
+      type: any
+    - code: '6146200'
+      value: Hypertension induced by oral contraceptive pill
+      type: any
+    - code: G24..00
+      value: Secondary hypertension
+      type: any
+    - code: G240.00
+      value: Secondary malignant hypertension
+      type: any
+    - code: G240000
+      value: Secondary malignant renovascular hypertension
+      type: any
+    - code: G240z00
+      value: Secondary malignant hypertension NOS
+      type: any
+    - code: G241.00
+      value: Secondary benign hypertension
+      type: any
+    - code: G241000
+      value: Secondary benign renovascular hypertension
+      type: any
+    - code: G241z00
+      value: Secondary benign hypertension NOS
+      type: any
+    - code: G244.00
+      value: Hypertension secondary to endocrine disorders
+      type: any
+    - code: G24z.00
+      value: Secondary hypertension NOS
+      type: any
+    - code: G24z000
+      value: Secondary renovascular hypertension NOS
+      type: any
+    - code: G24z100
+      value: Hypertension secondary to drug
+      type: any
+    - code: G24zz00
+      value: Secondary hypertension NOS
+      type: any
+    - code: Gyu2100
+      value: '[X]Hypertension secondary to other renal disorders'
+      type: any
+    - code: XE0VM
+      value: Hypertensive encephalopathy
+      type: any
+    - code: XaIyD
+      value: Hypertension six month review
+      type: prevalent
+    - code: F4211
+      value: Hypertensive retinopathy
+      type: any
+    - code: XE0Uc
+      value: Essential hypertension
+      type: any
+    - code: G21z.
+      value: Hypertensive heart disease NOS
+      type: any
+    - code: Xa8HD
+      value: On treatment for hypertension
+      type: any
+    - code: XaBLq
+      value: Antihypertensive therapy
+      type: any
+    - code: XaM5f
+      value: High cost hypertension drugs
+      type: any
+    - code: '21261'
+      value: Hypertension resolved
+      type: any
+    - code: XaNFs
+      value: Trial withdrawal of antihypertensive therapy
+      type: any
+    - code: XSDSb
+      value: Diastolic hypertension
+      type: any
+    - code: G24z.
+      value: Secondary hypertension NOS
+      type: any
+    - code: XaIy8
+      value: Moderate hypertension control
+      type: any
+    - code: XaJ5h
+      value: Patient on maximal tolerated antihypertensive therapy
+      type: any
+    - code: XE0Ud
+      value: Essential hypertension NOS
+      type: any
+    - code: XE0Uf
+      value: Hypertensive renal disease
+      type: any
+    - code: XE0Uf
+      value: Hypertensive renal disease
+      type: any
+    - code: XE15r
+      value: Blind hypertensive eye
+      type: any
+    - code: XE0Ug
+      value: Hypertensive renal disease NOS
+      type: any
+    - code: XaIyC
+      value: Hypertension treatment refused
+      type: any
+    - code: XaIyE
+      value: Hypertension annual review
+      type: prevalent
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

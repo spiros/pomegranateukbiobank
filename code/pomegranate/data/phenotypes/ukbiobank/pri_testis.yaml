@@ -1,0 +1,166 @@
+metadata:
+  phenotype: Primary Malignancy_Testicular
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: pri_testis
+  gender:
+  - male
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 30cc2a27-febf-4adc-adba-bb2fc1873791
+  ontologies:
+    DOID: DOID_2998
+    GWAS: EFO_0005088
+    MESH: D013736
+    SNOMED-CT: 315272007
+    FINNGEN: C3_TESTIS
+  short_desc: A primary or metastatic malignant neoplasm that affects the testis.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1045'
+      value: testicular cancer
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C62
+      value: Malignant neoplasm of testis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C62
+      value: Malignant neoplasm of testis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C62
+      value: Malignant neoplasm of testis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C62
+      value: Malignant neoplasm of testis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B470200
+      value: Seminoma of undescended testis
+      type: any
+    - code: B470300
+      value: Teratoma of undescended testis
+      type: any
+    - code: B470.00
+      value: Malignant neoplasm of undescended testis
+      type: any
+    - code: B470z00
+      value: Malignant neoplasm of undescended testis NOS
+      type: any
+    - code: B471000
+      value: Seminoma of descended testis
+      type: any
+    - code: B471100
+      value: Teratoma of descended testis
+      type: any
+    - code: B471.00
+      value: Malignant neoplasm of descended testis
+      type: any
+    - code: B471z00
+      value: Malignant neoplasm of descended testis NOS
+      type: any
+    - code: B47..00
+      value: Malignant neoplasm of testis
+      type: any
+    - code: B47z.00
+      value: Malignant neoplasm of testis NOS
+      type: any
+    - code: B47z.11
+      value: Seminoma of testis
+      type: any
+    - code: B47z.12
+      value: Teratoma of testis
+      type: any
+    - code: ZV10416
+      value: '[V]Personal history of malignant neoplasm of testis'
+      type: prevalent
+    - code: XaELL
+      value: Teratoma of descended testis
+      type: any
+    - code: XaELK
+      value: Seminoma of descended testis
+      type: any
+    - code: XaMeL
+      value: Malignant neoplasm of descended testis NOS
+      type: any
+    - code: XaELM
+      value: Teratoma of undescended testis
+      type: any
+    - code: XaELJ
+      value: Seminoma of undescended testis
+      type: any
+    - code: XE1vk
+      value: Malignant neoplasm of testis NOS
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C62
+      value: Malignant neoplasm of testis
+      type: any

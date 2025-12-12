@@ -1,0 +1,185 @@
+metadata:
+  phenotype: Primary Malignancy_biliary tract
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: pri_biliary
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: bd9780b7-ba5a-455b-803c-c4b607ddbb4c
+  ontologies:
+    DOID: DOID_4607
+    GWAS: MONDO_0003060
+    MESH: D001661
+    SNOMED-CT: 126853008
+    FINNGEN: C3_BILIARY_TRACT
+  short_desc: A neoplasm that involves the biliary tract.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1025'
+      value: gallbladder/bile duct cancer
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C22.1
+      value: 'Malignant neoplasm: Intrahepatic bile duct carcinoma'
+      type: any
+    - code: C24
+      value: Malignant neoplasm of other and unspecified parts of biliary tract
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C22.1
+      value: 'Malignant neoplasm: Intrahepatic bile duct carcinoma'
+      type: any
+    - code: C24
+      value: Malignant neoplasm of other and unspecified parts of biliary tract
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C22.1
+      value: 'Malignant neoplasm: Intrahepatic bile duct carcinoma'
+      type: any
+    - code: C24
+      value: Malignant neoplasm of other and unspecified parts of biliary tract
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C22.1
+      value: 'Malignant neoplasm: Intrahepatic bile duct carcinoma'
+      type: any
+    - code: C24
+      value: Malignant neoplasm of other and unspecified parts of biliary tract
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B151000
+      value: Malignant neoplasm of interlobular bile ducts
+      type: any
+    - code: B151200
+      value: Malignant neoplasm of intrahepatic biliary passages
+      type: any
+    - code: B151400
+      value: Malignant neoplasm of intrahepatic gall duct
+      type: any
+    - code: B151.00
+      value: Malignant neoplasm of intrahepatic bile ducts
+      type: any
+    - code: B151z00
+      value: Malignant neoplasm of intrahepatic bile ducts NOS
+      type: any
+    - code: B161000
+      value: Malignant neoplasm of cystic duct
+      type: any
+    - code: B161100
+      value: Malignant neoplasm of hepatic duct
+      type: any
+    - code: B161200
+      value: Malignant neoplasm of common bile duct
+      type: any
+    - code: B161211
+      value: Carcinoma common bile duct
+      type: any
+    - code: B161300
+      value: Malignant neoplasm of sphincter of Oddi
+      type: any
+    - code: B161.00
+      value: Malignant neoplasm of extrahepatic bile ducts
+      type: any
+    - code: B161z00
+      value: Malignant neoplasm of extrahepatic bile ducts NOS
+      type: any
+    - code: B162.00
+      value: Malignant neoplasm of ampulla of Vater
+      type: any
+    - code: B163.00
+      value: Malignant neoplasm, overlapping lesion of biliary tract
+      type: any
+    - code: BB5D100
+      value: '[M]Cholangiocarcinoma'
+      type: any
+    - code: BB5D111
+      value: '[M]Bile duct carcinoma'
+      type: any
+    - code: BB5D300
+      value: '[M]Bile duct cystadenocarcinoma'
+      type: any
+    - code: BB5D700
+      value: '[M]Combined hepatocellular carcinoma and cholangiocarcinoma'
+      type: any
+    - code: BB5D711
+      value: '[M]Hepatocholangiocarcinoma'
+      type: any
+    - code: XE2vN
+      value: Malignant neoplasm of common bile duct
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C22.1
+      value: 'Malignant neoplasm: Intrahepatic bile duct carcinoma'
+      type: any
+    - code: C24
+      value: Malignant neoplasm of other and unspecified parts of biliary tract
+      type: any

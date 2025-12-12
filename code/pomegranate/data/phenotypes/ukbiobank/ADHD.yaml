@@ -1,0 +1,175 @@
+metadata:
+  phenotype: Hyperkinetic disorders
+  group: Psychiatric
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: ADHD
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: f28bc923-da20-4b75-a744-327afcb29cc7
+  ontologies:
+    DOID: DOID_1094
+    GWAS: EFO_0003888
+    MESH: D001289
+    SNOMED-CT: 406506008
+    FINNGEN: KRA_PSY_HYPERKIN
+  short_desc: A mental disorder characterized by inattention, easy distraction, careless
+    mistakes and avoidance of tasks that require sustained mental focus. These behaviors
+    can lead to maladaptive consequences in the affected individual's life.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: F90
+      value: Hyperkinetic disorders
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: F90
+      value: Hyperkinetic disorders
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F90
+      value: Hyperkinetic disorders
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F90
+      value: Hyperkinetic disorders
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 6A61.00
+      value: Attention deficit hyperactivity disorder annual review
+      type: prevalent
+    - code: 8BPT.00
+      value: Drug therapy ADHD (attention deficit hyperactivity disorder)
+      type: any
+    - code: 9Ngp.00
+      value: On drug ther ADHD (attention deficit hyperactivity disorder)
+      type: any
+    - code: E2E0100
+      value: Attention deficit with hyperactivity
+      type: any
+    - code: E2E1.00
+      value: Hyperkinesis with developmental delay
+      type: any
+    - code: E2E2.00
+      value: Hyperkinetic conduct disorder
+      type: any
+    - code: E2E..00
+      value: Childhood hyperkinetic syndrome
+      type: any
+    - code: E2E..11
+      value: Overactive child syndrome
+      type: any
+    - code: E2Ey.00
+      value: Other hyperkinetic manifestation
+      type: any
+    - code: E2Ez.00
+      value: Hyperkinetic syndrome NOS
+      type: any
+    - code: Eu84400
+      value: '[X]Overactive disorder assoc mental retard/stereotype movts'
+      type: any
+    - code: Eu90000
+      value: '[X]Disturbance of activity and attention'
+      type: any
+    - code: Eu90011
+      value: '[X]Attention deficit hyperactivity disorder'
+      type: any
+    - code: Eu90100
+      value: '[X]Hyperkinetic conduct disorder'
+      type: any
+    - code: Eu90111
+      value: '[X]Hyperkinetic disorder associated with conduct disorder'
+      type: any
+    - code: Eu90.00
+      value: '[X]Hyperkinetic disorders'
+      type: any
+    - code: Eu90y00
+      value: '[X]Other hyperkinetic disorders'
+      type: any
+    - code: Eu90z00
+      value: '[X]Hyperkinetic disorder, unspecified'
+      type: any
+    - code: Eu90z11
+      value: '[X]Hyperkinetic reaction of childhood or adolescence NOS'
+      type: any
+    - code: Eu90z12
+      value: '[X]Hyperkinetic syndrome NOS'
+      type: any
+    - code: XaVw9
+      value: Attention deficit hyperactivity disorder annual review
+      type: prevalent
+    - code: XaaZA
+      value: Drug therapy for ADHD (attention deficit hyperactivity disorder)
+      type: any
+    - code: Xaae7
+      value: On drug therapy for ADHD (attention deficit hyperactivity disorder)
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

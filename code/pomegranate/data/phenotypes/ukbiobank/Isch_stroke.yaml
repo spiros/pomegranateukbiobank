@@ -1,0 +1,320 @@
+metadata:
+  phenotype: Ischaemic stroke
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: Isch_stroke
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 64cdd7bb-f65f-48c9-b9be-e493c5641344
+  ontologies:
+    DOID: DOID_2316
+    GWAS: EFO_0003763
+    MESH: D020520
+    SNOMED-CT: 422504002
+    FINNGEN: I9_STR_EXH
+  short_desc: Tissue NECROSIS in any area of the brain, including the CEREBRAL HEMISPHERES,
+    the CEREBELLUM, and the BRAIN STEM. Brain infarction is the result of a cascade
+    of events initiated by inadequate blood flow through the brain that is followed
+    by HYPOXIA and HYPOGLYCEMIA in brain tissue. Damage may be temporary, permanent,
+    selective or pan-necrosis.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1583'
+      value: ischaemic stroke
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I63.0
+      value: Cerebral infarction due to thrombosis of precerebral arteries
+      type: any
+    - code: I63.1
+      value: Cerebral infarction due to embolism of precerebral arteries
+      type: any
+    - code: I63.2
+      value: Cerebral infarction due to unspecified occlusion or stenosis of precerebral
+        arteries
+      type: any
+    - code: I63.3
+      value: Cerebral infarction due to thrombosis of cerebral arteries
+      type: any
+    - code: I63.4
+      value: Cerebral infarction due to embolism of cerebral arteries
+      type: any
+    - code: I63.5
+      value: Cerebral infarction due to unspecified occlusion or stenosis of cerebral
+        arteries
+      type: any
+    - code: I63.8
+      value: Other cerebral infarction
+      type: any
+    - code: I63.9
+      value: Cerebral infarction, unspecified
+      type: any
+    - code: I69.3
+      value: Sequelae of cerebral infarction
+      type: prevalent
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I63.0
+      value: Cerebral infarction due to thrombosis of precerebral arteries
+      type: any
+    - code: I63.1
+      value: Cerebral infarction due to embolism of precerebral arteries
+      type: any
+    - code: I63.2
+      value: Cerebral infarction due to unspecified occlusion or stenosis of precerebral
+        arteries
+      type: any
+    - code: I63.3
+      value: Cerebral infarction due to thrombosis of cerebral arteries
+      type: any
+    - code: I63.4
+      value: Cerebral infarction due to embolism of cerebral arteries
+      type: any
+    - code: I63.5
+      value: Cerebral infarction due to unspecified occlusion or stenosis of cerebral
+        arteries
+      type: any
+    - code: I63.8
+      value: Other cerebral infarction
+      type: any
+    - code: I63.9
+      value: Cerebral infarction, unspecified
+      type: any
+    - code: I69.3
+      value: Sequelae of cerebral infarction
+      type: prevalent
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I63.0
+      value: Cerebral infarction due to thrombosis of precerebral arteries
+      type: any
+    - code: I63.1
+      value: Cerebral infarction due to embolism of precerebral arteries
+      type: any
+    - code: I63.2
+      value: Cerebral infarction due to unspecified occlusion or stenosis of precerebral
+        arteries
+      type: any
+    - code: I63.3
+      value: Cerebral infarction due to thrombosis of cerebral arteries
+      type: any
+    - code: I63.4
+      value: Cerebral infarction due to embolism of cerebral arteries
+      type: any
+    - code: I63.5
+      value: Cerebral infarction due to unspecified occlusion or stenosis of cerebral
+        arteries
+      type: any
+    - code: I63.8
+      value: Other cerebral infarction
+      type: any
+    - code: I63.9
+      value: Cerebral infarction, unspecified
+      type: any
+    - code: I69.3
+      value: Sequelae of cerebral infarction
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I63.0
+      value: Cerebral infarction due to thrombosis of precerebral arteries
+      type: any
+    - code: I63.1
+      value: Cerebral infarction due to embolism of precerebral arteries
+      type: any
+    - code: I63.2
+      value: Cerebral infarction due to unspecified occlusion or stenosis of precerebral
+        arteries
+      type: any
+    - code: I63.3
+      value: Cerebral infarction due to thrombosis of cerebral arteries
+      type: any
+    - code: I63.4
+      value: Cerebral infarction due to embolism of cerebral arteries
+      type: any
+    - code: I63.5
+      value: Cerebral infarction due to unspecified occlusion or stenosis of cerebral
+        arteries
+      type: any
+    - code: I63.8
+      value: Other cerebral infarction
+      type: any
+    - code: I63.9
+      value: Cerebral infarction, unspecified
+      type: any
+    - code: I69.3
+      value: Sequelae of cerebral infarction
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: G63..11
+      value: Infarction - precerebral
+      type: any
+    - code: G63y000
+      value: Cerebral infarct due to thrombosis of precerebral arteries
+      type: any
+    - code: G63y100
+      value: Cerebral infarction due to embolism of precerebral arteries
+      type: any
+    - code: G640000
+      value: Cerebral infarction due to thrombosis of cerebral arteries
+      type: any
+    - code: G640.00
+      value: Cerebral thrombosis
+      type: any
+    - code: G641000
+      value: Cerebral infarction due to embolism of cerebral arteries
+      type: any
+    - code: G641.00
+      value: Cerebral embolism
+      type: any
+    - code: G641.11
+      value: Cerebral embolus
+      type: any
+    - code: G64..00
+      value: Cerebral arterial occlusion
+      type: any
+    - code: G64..11
+      value: CVA - cerebral artery occlusion
+      type: any
+    - code: G64..12
+      value: Infarction - cerebral
+      type: any
+    - code: G64..13
+      value: Stroke due to cerebral arterial occlusion
+      type: any
+    - code: G64z000
+      value: Brainstem infarction
+      type: any
+    - code: G64z100
+      value: Wallenberg syndrome
+      type: any
+    - code: G64z111
+      value: Lateral medullary syndrome
+      type: any
+    - code: G64z200
+      value: Left sided cerebral infarction
+      type: any
+    - code: G64z300
+      value: Right sided cerebral infarction
+      type: any
+    - code: G64z400
+      value: Infarction of basal ganglia
+      type: any
+    - code: G64z.00
+      value: Cerebral infarction NOS
+      type: any
+    - code: G64z.11
+      value: Brainstem infarction NOS
+      type: any
+    - code: G64z.12
+      value: Cerebellar infarction
+      type: any
+    - code: G683.00
+      value: Sequelae of cerebral infarction
+      type: prevalent
+    - code: G6W..00
+      value: Cereb infarct due unsp occlus/stenos precerebr arteries
+      type: any
+    - code: G6X..00
+      value: Cerebrl infarctn due/unspcf occlusn or sten/cerebrl artrs
+      type: any
+    - code: Gyu6300
+      value: '[X]Cerebrl infarctn due/unspcf occlusn or sten/cerebrl artrs'
+      type: any
+    - code: Gyu6400
+      value: '[X]Other cerebral infarction'
+      type: any
+    - code: Gyu6G00
+      value: '[X]Cereb infarct due unsp occlus/stenos precerebr arteries'
+      type: any
+    - code: Xa00K
+      value: Brainstem infarction
+      type: any
+    - code: XaJgQ
+      value: Infarction of basal ganglia
+      type: any
+    - code: XaBEC
+      value: Left sided cerebral infarction
+      type: any
+    - code: XE0VG
+      value: Precerebral arterial occlusion
+      type: any
+    - code: XE0VI
+      value: Cerebral arterial occlusion
+      type: any
+    - code: XaBED
+      value: Right sided cerebral infarction
+      type: any
+    - code: XE0VJ
+      value: Cerebral infarction NOS
+      type: any
+    - code: Xa00M
+      value: Wallenberg syndrome
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

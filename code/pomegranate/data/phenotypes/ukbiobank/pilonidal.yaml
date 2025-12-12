@@ -1,0 +1,240 @@
+metadata:
+  phenotype: Pilonidal cyst/sinus
+  group: Skin
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: pilonidal
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 0527be3f-abb0-40c0-a548-71407aa34531
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: D010864
+    SNOMED-CT: 432863009
+    FINNGEN: L12_PILONIDALCYST
+  short_desc: A hair-containing cyst or sinus, occurring chiefly in the coccygeal
+    region.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: L05
+      value: Pilonidal cyst
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: L05
+      value: Pilonidal cyst
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: H59.1
+      value: Excision of pilonidal sinus and Z plasty skin flap HFQ
+      type: any
+    - code: H59.2
+      value: Excision of pilonidal sinus and skin flap NEC
+      type: any
+    - code: H59.3
+      value: Excision of pilonidal sinus and skin graft HFQ
+      type: any
+    - code: H59.4
+      value: Excision of pilonidal sinus and suture HFQ
+      type: any
+    - code: H59.8
+      value: Other specified excision of pilonidal sinus
+      type: any
+    - code: H59.9
+      value: Unspecified excision of pilonidal sinus
+      type: any
+    - code: H60.1
+      value: Destruction of pilonidal sinus
+      type: any
+    - code: H60.2
+      value: Laying open of pilonidal sinus
+      type: any
+    - code: H60.3
+      value: Drainage of pilonidal sinus
+      type: any
+    - code: H60.4
+      value: Injection of radiocontrast substance into pilonidal sinus
+      type: any
+    - code: H60.8
+      value: Other specified other operations on pilonidal sinus
+      type: any
+    - code: H60.9
+      value: Unspecified other operations on pilonidal sinus
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: H59.1
+      value: H59.1
+      type: any
+    - code: H59.2
+      value: H59.2
+      type: any
+    - code: H59.3
+      value: H59.3
+      type: any
+    - code: H59.4
+      value: H59.4
+      type: any
+    - code: H59.8
+      value: H59.8
+      type: any
+    - code: H59.9
+      value: H59.9
+      type: any
+    - code: H60.1
+      value: H60.1
+      type: any
+    - code: H60.2
+      value: H60.2
+      type: any
+    - code: H60.3
+      value: H60.3
+      type: any
+    - code: H60.4
+      value: H60.4
+      type: any
+    - code: H60.8
+      value: H60.8
+      type: any
+    - code: H60.9
+      value: H60.9
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: L05
+      value: Pilonidal cyst
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: L05
+      value: Pilonidal cyst
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 773B000
+      value: Excision of pilonidal sinus and Z plasty skin flap HFQ
+      type: any
+    - code: 773B100
+      value: Excision of pilonidal sinus and skin flap NEC
+      type: any
+    - code: 773B200
+      value: Excision of pilonidal sinus and skin graft HFQ
+      type: any
+    - code: 773B300
+      value: Excision of pilonidal sinus and suture HFQ
+      type: any
+    - code: 773B400
+      value: Excision of pilonidal sinus NEC
+      type: any
+    - code: 773B500
+      value: Laying open of track of pilonidal sinus
+      type: any
+    - code: 773B.00
+      value: Pilonidal sinus operations
+      type: any
+    - code: 773B700
+      value: Drainage of pilonidal sinus
+      type: any
+    - code: 773B800
+      value: Injection of radiocontrast substance into pilonidal sinus
+      type: any
+    - code: 773B900
+      value: Destruction of pilonidal sinus NEC
+      type: any
+    - code: 773BA00
+      value: Other specified excision of pilonidal sinus
+      type: any
+    - code: 773Bx00
+      value: Excision of pilonidal sinus NOS
+      type: any
+    - code: 773By00
+      value: Other specified operation on pilonidal sinus
+      type: any
+    - code: 773Bz00
+      value: Operation on pilonidal sinus NOS
+      type: any
+    - code: M060.00
+      value: Pilonidal cyst with abscess
+      type: any
+    - code: M061.00
+      value: Pilonidal cyst with no abscess
+      type: any
+    - code: M062.00
+      value: Pilonidal sinus with abscess
+      type: any
+    - code: M063.00
+      value: Pilonidal sinus without abscess
+      type: any
+    - code: M06..00
+      value: Pilonidal sinus/cyst
+      type: any
+    - code: M06z.00
+      value: Pilonidal sinus/cyst NOS
+      type: any
+    - code: XE1Ae
+      value: Pilonidal cyst with no abscess
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

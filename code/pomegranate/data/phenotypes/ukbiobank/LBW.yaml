@@ -1,0 +1,237 @@
+metadata:
+  phenotype: Slow fetal growth or low birth weight
+  group: Perinatal
+  is_cancer: '0'
+  is_adult: '0'
+  variable_name: LBW
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 40eb8def-a1d9-4dc1-9cd7-35599fb525c5
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: D007230
+    SNOMED-CT: '206161005'
+    FINNGEN: null
+  short_desc: A condition where the baby is smaller than expected or when a baby's
+    growth slows or stops during pregnancy.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: P05.0
+      value: Light for gestational age
+      type: any
+    - code: P05.1
+      value: Small for gestational age
+      type: any
+    - code: P05.9
+      value: Slow fetal growth, unspecified
+      type: any
+    - code: P07.0
+      value: Extremely low birth weight
+      type: any
+    - code: P07.1
+      value: Other low birth weight
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: P05.0
+      value: Light for gestational age
+      type: any
+    - code: P05.1
+      value: Small for gestational age
+      type: any
+    - code: P05.9
+      value: Slow fetal growth, unspecified
+      type: any
+    - code: P07.0
+      value: Extremely low birth weight
+      type: any
+    - code: P07.1
+      value: Other low birth weight
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: P05.0
+      value: Light for gestational age
+      type: any
+    - code: P05.1
+      value: Small for gestational age
+      type: any
+    - code: P05.9
+      value: Slow fetal growth, unspecified
+      type: any
+    - code: P07.0
+      value: Extremely low birth weight
+      type: any
+    - code: P07.1
+      value: Other low birth weight
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: P05.0
+      value: Light for gestational age
+      type: any
+    - code: P05.1
+      value: Small for gestational age
+      type: any
+    - code: P05.9
+      value: Slow fetal growth, unspecified
+      type: any
+    - code: P07.0
+      value: Extremely low birth weight
+      type: any
+    - code: P07.1
+      value: Other low birth weight
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: L265000
+      value: Small-for-dates unspecified
+      type: any
+    - code: L265100
+      value: Small-for-dates - delivered
+      type: any
+    - code: L265200
+      value: Small-for-dates with antenatal problem
+      type: any
+    - code: L265.00
+      value: Small-for-dates fetus in pregnancy
+      type: any
+    - code: L265z00
+      value: Small-for-dates NOS
+      type: any
+    - code: Q10..00
+      value: Slow fetal growth and fetal malnutrition
+      type: any
+    - code: Q100.00
+      value: Fetus small-for-dates, without mention of malnutrition
+      type: any
+    - code: Q100.11
+      value: Fetus small-for-dates (SFD), without mention of malnutrition
+      type: any
+    - code: Q101.00
+      value: Fetus small-for-dates with signs of malnutrition
+      type: any
+    - code: Q101.11
+      value: Fetus small-for-dates (SFD) with signs of malnutrition
+      type: any
+    - code: Q10z.00
+      value: Fetal growth retardation NOS
+      type: any
+    - code: Q10z.11
+      value: Intrauterine growth retardation
+      type: any
+    - code: Q11..00
+      value: Short gestation and unspecified low birthweight problems
+      type: any
+    - code: Q110.00
+      value: Very premature - less than 1000g or less than 28 weeks
+      type: any
+    - code: Q111.00
+      value: Premature - weight 1000g-2499g or gestation of 28-37weeks
+      type: any
+    - code: Q113.00
+      value: Light for gestational age
+      type: any
+    - code: Q114.00
+      value: Low birthweight
+      type: any
+    - code: Q114000
+      value: Birth weight 1000-2499 g
+      type: any
+    - code: Q115.00
+      value: Extremely low birth weight infant
+      type: any
+    - code: Q115000
+      value: Birth weight 999 g or less
+      type: any
+    - code: Q13..00
+      value: Light for gestational age
+      type: any
+    - code: Qyu1000
+      value: '[X]Other low birth weight'
+      type: any
+    - code: XE1eV
+      value: Fetal growth retardation NOS
+      type: any
+    - code: XE1eX
+      value: Very premature - less than 1000g or less than 28 weeks
+      type: any
+    - code: Xa09Y
+      value: Extremely low birth weight infant
+      type: any
+    - code: XaCMU
+      value: Birth weight 999 g or less
+      type: any
+    - code: XaCMT
+      value: Birth weight 1000-2499 g
+      type: any
+    - code: XE1eU
+      value: Slow fetal growth and fetal malnutrition
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

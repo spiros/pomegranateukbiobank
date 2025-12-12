@@ -1,0 +1,332 @@
+metadata:
+  phenotype: Transient ischaemic attack
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: TIA
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 79b2c4bb-c97a-4e1e-817e-ef81e83193fb
+  ontologies:
+    DOID: DOID_224
+    GWAS: EFO_0003764
+    MESH: D002546
+    SNOMED-CT: 266257000
+    FINNGEN: G6_TIA
+  short_desc: A transient ischaemic attack (TIA) or "mini stroke" is caused by a temporary
+    disruption in the blood supply to part of the brain.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1082'
+      value: transient ischaemic attack (tia)
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: G45.0
+      value: Vertebro-basilar artery syndrome
+      type: any
+    - code: G45.1
+      value: Carotid artery syndrome (hemispheric)
+      type: any
+    - code: G45.2
+      value: Multiple and bilateral precerebral artery syndromes
+      type: any
+    - code: G45.3
+      value: Amaurosis fugax
+      type: any
+    - code: G45.4
+      value: Transient global amnesia
+      type: any
+    - code: G45.8
+      value: Other transient cerebral ischaemic attacks and related syndromes
+      type: any
+    - code: G45.9
+      value: Transient cerebral ischaemic attack, unspecified
+      type: any
+    - code: G46.0
+      value: Middle cerebral artery syndrome
+      type: any
+    - code: G46.1
+      value: Anterior cerebral artery syndrome
+      type: any
+    - code: G46.2
+      value: Posterior cerebral artery syndrome
+      type: any
+    - code: I65
+      value: Occlusion and stenosis of precerebral arteries, not resulting in cerebral
+        infarction
+      type: any
+    - code: I66
+      value: Occlusion and stenosis of cerebral arteries, not resulting in cerebral
+        infarction
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: G45.0
+      value: Vertebro-basilar artery syndrome
+      type: any
+    - code: G45.1
+      value: Carotid artery syndrome (hemispheric)
+      type: any
+    - code: G45.2
+      value: Multiple and bilateral precerebral artery syndromes
+      type: any
+    - code: G45.3
+      value: Amaurosis fugax
+      type: any
+    - code: G45.4
+      value: Transient global amnesia
+      type: any
+    - code: G45.8
+      value: Other transient cerebral ischaemic attacks and related syndromes
+      type: any
+    - code: G45.9
+      value: Transient cerebral ischaemic attack, unspecified
+      type: any
+    - code: G46.0
+      value: Middle cerebral artery syndrome
+      type: any
+    - code: G46.1
+      value: Anterior cerebral artery syndrome
+      type: any
+    - code: G46.2
+      value: Posterior cerebral artery syndrome
+      type: any
+    - code: I65
+      value: Occlusion and stenosis of precerebral arteries, not resulting in cerebral
+        infarction
+      type: any
+    - code: I66
+      value: Occlusion and stenosis of cerebral arteries, not resulting in cerebral
+        infarction
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G45.0
+      value: Vertebro-basilar artery syndrome
+      type: any
+    - code: G45.1
+      value: Carotid artery syndrome (hemispheric)
+      type: any
+    - code: G45.2
+      value: Multiple and bilateral precerebral artery syndromes
+      type: any
+    - code: G45.3
+      value: Amaurosis fugax
+      type: any
+    - code: G45.4
+      value: Transient global amnesia
+      type: any
+    - code: G45.8
+      value: Other transient cerebral ischaemic attacks and related syndromes
+      type: any
+    - code: G45.9
+      value: Transient cerebral ischaemic attack, unspecified
+      type: any
+    - code: G46.0
+      value: Middle cerebral artery syndrome
+      type: any
+    - code: G46.1
+      value: Anterior cerebral artery syndrome
+      type: any
+    - code: G46.2
+      value: Posterior cerebral artery syndrome
+      type: any
+    - code: I65
+      value: Occlusion and stenosis of precerebral arteries, not resulting in cerebral
+        infarction
+      type: any
+    - code: I66
+      value: Occlusion and stenosis of cerebral arteries, not resulting in cerebral
+        infarction
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G45.0
+      value: Vertebro-basilar artery syndrome
+      type: any
+    - code: G45.1
+      value: Carotid artery syndrome (hemispheric)
+      type: any
+    - code: G45.2
+      value: Multiple and bilateral precerebral artery syndromes
+      type: any
+    - code: G45.3
+      value: Amaurosis fugax
+      type: any
+    - code: G45.4
+      value: Transient global amnesia
+      type: any
+    - code: G45.8
+      value: Other transient cerebral ischaemic attacks and related syndromes
+      type: any
+    - code: G45.9
+      value: Transient cerebral ischaemic attack, unspecified
+      type: any
+    - code: G46.0
+      value: Middle cerebral artery syndrome
+      type: any
+    - code: G46.1
+      value: Anterior cerebral artery syndrome
+      type: any
+    - code: G46.2
+      value: Posterior cerebral artery syndrome
+      type: any
+    - code: I65
+      value: Occlusion and stenosis of precerebral arteries, not resulting in cerebral
+        infarction
+      type: any
+    - code: I66
+      value: Occlusion and stenosis of cerebral arteries, not resulting in cerebral
+        infarction
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14AB000
+      value: H/O amaurosis fugax
+      type: prevalent
+    - code: 14AB.00
+      value: 'H/O: TIA'
+      type: prevalent
+    - code: 1B1S.00
+      value: Transient global amnesia
+      type: any
+    - code: 8CRB.00
+      value: Transient ischaemic attack clinical management plan
+      type: any
+    - code: F423600
+      value: Amaurosis fugax
+      type: any
+    - code: Fyu5500
+      value: '[X]Other transnt cerebral ischaemic attacks+related syndroms'
+      type: any
+    - code: G650.11
+      value: Insufficiency - basilar artery
+      type: any
+    - code: G655.00
+      value: Transient global amnesia
+      type: any
+    - code: G656.00
+      value: Vertebrobasilar insufficiency
+      type: any
+    - code: G657.00
+      value: Carotid territory transient ischaemic attack
+      type: any
+    - code: G65..00
+      value: Transient cerebral ischaemia
+      type: any
+    - code: G65..12
+      value: Transient ischaemic attack
+      type: any
+    - code: G65..13
+      value: Vertebro-basilar insufficiency
+      type: any
+    - code: G65y.00
+      value: Other transient cerebral ischaemia
+      type: any
+    - code: G65z100
+      value: Intermittent cerebral ischaemia
+      type: any
+    - code: G65z.00
+      value: Transient cerebral ischaemia NOS
+      type: any
+    - code: G65zz00
+      value: Transient cerebral ischaemia NOS
+      type: any
+    - code: Z7CE700
+      value: Transient global amnesia
+      type: any
+    - code: Z7CE711
+      value: TGA - Transient global amnesia
+      type: any
+    - code: ZV12D00
+      value: '[V]Personal history of transient ischaemic attack'
+      type: prevalent
+    - code: X00DW
+      value: Vertebrobasilar insufficiency
+      type: any
+    - code: XaX16
+      value: '[V]Personal history of transient ischaemic attack'
+      type: prevalent
+    - code: X00E2
+      value: Transient global amnesia
+      type: any
+    - code: XaQve
+      value: Transient ischaemic attack clinical management plan
+      type: any
+    - code: X00E2
+      value: Transient global amnesia
+      type: any
+    - code: X00DU
+      value: Carotid territory transient ischaemic attack
+      type: any
+    - code: G65z.
+      value: Transient cerebral ischaemia NOS
+      type: any
+    - code: XaZIY
+      value: H/O amaurosis fugax
+      type: prevalent
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

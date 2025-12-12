@@ -1,0 +1,163 @@
+metadata:
+  phenotype: Lichen planus
+  group: Skin
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: lichen_planus
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 439420d4-0b24-4543-931d-a355c88a0a03
+  ontologies:
+    DOID: DOID_9201
+    GWAS: EFO_1000726
+    MESH: D008010
+    SNOMED-CT: 4776004
+    FINNGEN: L12_LICHENPLANUS
+  short_desc: A lichen disease that is located in skin, located in tongue or located
+    in oral mucosa, which presents itself in the form of papules, lesions or rashes.
+    The cause is not known.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1549'
+      value: lichen planus
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: L43
+      value: Lichen planus
+      type: any
+    - code: L66.1
+      value: Lichen planopilaris
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: L43
+      value: Lichen planus
+      type: any
+    - code: L66.1
+      value: Lichen planopilaris
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: L43
+      value: Lichen planus
+      type: any
+    - code: L66.1
+      value: Lichen planopilaris
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: L43
+      value: Lichen planus
+      type: any
+    - code: L66.1
+      value: Lichen planopilaris
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: M170000
+      value: Lichen planus actinicus
+      type: any
+    - code: M170100
+      value: Lichen planus annularis
+      type: any
+    - code: M170200
+      value: Lichen planus atrophicus
+      type: any
+    - code: M170300
+      value: Lichen planus bullosus
+      type: any
+    - code: M170400
+      value: Lichen planus hypertrophicus
+      type: any
+    - code: M170500
+      value: Lichen planus linearis
+      type: any
+    - code: M170700
+      value: Lichen planus obtusus
+      type: any
+    - code: M170800
+      value: Subacute active lichen planus
+      type: any
+    - code: M170900
+      value: Follicular lichen planus
+      type: any
+    - code: M170.00
+      value: Lichen planus
+      type: any
+    - code: M170z00
+      value: Lichen planus NOS
+      type: any
+    - code: M240R00
+      value: Lichen planopilaris
+      type: any
+    - code: Myu3200
+      value: '[X]Other lichen planus'
+      type: any
+    - code: X507b
+      value: Follicular lichen planus
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

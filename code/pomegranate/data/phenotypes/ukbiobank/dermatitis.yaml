@@ -1,0 +1,843 @@
+metadata:
+  phenotype: Dermatitis (atopc/contact/other/unspecified)
+  group: Skin
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: dermatitis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 1048f788-6727-4a07-8a7c-71df6eb9d84b
+  priority: 1
+  ontologies:
+    DOID: DOID_2723
+    GWAS: MONDO_0002406
+    MESH: D003872
+    SNOMED-CT: 703938007
+    FINNGEN: L12_DERMATITISNAS
+  short_desc: A skin disease characterized by itchy, erythematous, vesicular, weeping
+    and crusting patches of skin.
+  long_desc: null
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1669'
+      value: contact dermatitis
+      type: any
+    - code: '1452'
+      value: eczema/dermatitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: L20
+      value: Atopic dermatitis
+      type: any
+    - code: L23
+      value: Allergic contact dermatitis
+      type: any
+    - code: L24
+      value: Irritant contact dermatitis
+      type: any
+    - code: L25
+      value: Unspecified contact dermatitis
+      type: any
+    - code: L27
+      value: Dermatitis due to substances taken internally
+      type: any
+    - code: L26
+      value: Exfoliative dermatitis
+      type: any
+    - code: L28
+      value: Lichen simplex chronicus and prurigo
+      type: any
+    - code: L30.0
+      value: Nummular dermatitis
+      type: any
+    - code: L30.1
+      value: Dyshidrosis [pompholyx]
+      type: any
+    - code: L30.2
+      value: Cutaneous autosensitization
+      type: any
+    - code: L30.5
+      value: Pityriasis alba
+      type: any
+    - code: L30.8
+      value: Other specified dermatitis
+      type: any
+    - code: L30.9
+      value: Dermatitis, unspecified
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: L20
+      value: Atopic dermatitis
+      type: any
+    - code: L23
+      value: Allergic contact dermatitis
+      type: any
+    - code: L24
+      value: Irritant contact dermatitis
+      type: any
+    - code: L25
+      value: Unspecified contact dermatitis
+      type: any
+    - code: L27
+      value: Dermatitis due to substances taken internally
+      type: any
+    - code: L26
+      value: Exfoliative dermatitis
+      type: any
+    - code: L28
+      value: Lichen simplex chronicus and prurigo
+      type: any
+    - code: L30.0
+      value: Nummular dermatitis
+      type: any
+    - code: L30.1
+      value: Dyshidrosis [pompholyx]
+      type: any
+    - code: L30.2
+      value: Cutaneous autosensitization
+      type: any
+    - code: L30.5
+      value: Pityriasis alba
+      type: any
+    - code: L30.8
+      value: Other specified dermatitis
+      type: any
+    - code: L30.9
+      value: Dermatitis, unspecified
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: L20
+      value: Atopic dermatitis
+      type: any
+    - code: L23
+      value: Allergic contact dermatitis
+      type: any
+    - code: L24
+      value: Irritant contact dermatitis
+      type: any
+    - code: L25
+      value: Unspecified contact dermatitis
+      type: any
+    - code: L27
+      value: Dermatitis due to substances taken internally
+      type: any
+    - code: L26
+      value: Exfoliative dermatitis
+      type: any
+    - code: L28
+      value: Lichen simplex chronicus and prurigo
+      type: any
+    - code: L30.0
+      value: Nummular dermatitis
+      type: any
+    - code: L30.1
+      value: Dyshidrosis [pompholyx]
+      type: any
+    - code: L30.2
+      value: Cutaneous autosensitization
+      type: any
+    - code: L30.5
+      value: Pityriasis alba
+      type: any
+    - code: L30.8
+      value: Other specified dermatitis
+      type: any
+    - code: L30.9
+      value: Dermatitis, unspecified
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: L20
+      value: Atopic dermatitis
+      type: any
+    - code: L23
+      value: Allergic contact dermatitis
+      type: any
+    - code: L24
+      value: Irritant contact dermatitis
+      type: any
+    - code: L25
+      value: Unspecified contact dermatitis
+      type: any
+    - code: L27
+      value: Dermatitis due to substances taken internally
+      type: any
+    - code: L26
+      value: Exfoliative dermatitis
+      type: any
+    - code: L28
+      value: Lichen simplex chronicus and prurigo
+      type: any
+    - code: L30.0
+      value: Nummular dermatitis
+      type: any
+    - code: L30.1
+      value: Dyshidrosis [pompholyx]
+      type: any
+    - code: L30.2
+      value: Cutaneous autosensitization
+      type: any
+    - code: L30.5
+      value: Pityriasis alba
+      type: any
+    - code: L30.8
+      value: Other specified dermatitis
+      type: any
+    - code: L30.9
+      value: Dermatitis, unspecified
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14F1.00
+      value: 'H/O: eczema'
+      type: prevalent
+    - code: 26C4.00
+      value: Nipple eczema
+      type: any
+    - code: '3355.00'
+      value: Skin:type 1 immediate reaction
+      type: any
+    - code: C391211
+      value: Thrombocytopenic eczema with immunodeficiency
+      type: any
+    - code: F4D3000
+      value: Eczematous eyelid dermatitis
+      type: any
+    - code: F4D3100
+      value: Contact or allergic eyelid dermatitis
+      type: any
+    - code: F4D3111
+      value: Allergic dermatitis - eyelid
+      type: any
+    - code: F4D3112
+      value: Contact eczema - eyelids
+      type: any
+    - code: F4D4.00
+      value: Infective eyelid dermatitis of types resulting in deformity
+      type: any
+    - code: F4D5.00
+      value: Other eyelid infective dermatitis
+      type: any
+    - code: F502400
+      value: Acute eczematoid otitis extern
+      type: any
+    - code: F502411
+      value: Eczema of external ear
+      type: any
+    - code: H330.00
+      value: Extrinsic (atopic) asthma
+      type: any
+    - code: M07y.11
+      value: Pustular eczema
+      type: any
+    - code: M07z.14
+      value: Infected dermatitis
+      type: any
+    - code: M102.00
+      value: Infectious eczematoid dermatitis
+      type: any
+    - code: M102.11
+      value: Pustular eczema
+      type: any
+    - code: M104.00
+      value: Pityriasis simplex
+      type: any
+    - code: M11..00
+      value: Atopic dermatitis and related conditions
+      type: any
+    - code: M111.00
+      value: Atopic dermatitis/eczema
+      type: any
+    - code: M1...11
+      value: Dermatitis/dermatoses
+      type: any
+    - code: M112.00
+      value: Infantile eczema
+      type: any
+    - code: M113.00
+      value: Flexural eczema
+      type: any
+    - code: M114.00
+      value: Allergic (intrinsic) eczema
+      type: any
+    - code: M115.00
+      value: Besnier's prurigo
+      type: any
+    - code: M116.00
+      value: Neurodermatitis - diffuse
+      type: any
+    - code: M116.11
+      value: Brocq's neurodermatitis
+      type: any
+    - code: M117.00
+      value: Neurodermatitis - atopic
+      type: any
+    - code: M119.00
+      value: Discoid eczema
+      type: any
+    - code: M11A.00
+      value: Asteatotic eczema
+      type: any
+    - code: M11z.00
+      value: Atopic dermatitis NOS
+      type: any
+    - code: M120.00
+      value: Contact dermatitis due to detergents
+      type: any
+    - code: M12..00
+      value: Contact dermatitis and other eczemas
+      type: any
+    - code: M121.00
+      value: Contact dermatitis due to oils and greases
+      type: any
+    - code: M12..11
+      value: Contact dermatitis
+      type: any
+    - code: M121.11
+      value: Grease contact dermatitis
+      type: any
+    - code: M121.12
+      value: Oil contact dermatitis
+      type: any
+    - code: M12..12
+      value: Contact eczema
+      type: any
+    - code: M12..13
+      value: Occupational dermatitis
+      type: any
+    - code: M122000
+      value: Contact dermatitis due to chlorocompound
+      type: any
+    - code: M122.00
+      value: Contact dermatitis due to solvents
+      type: any
+    - code: M122100
+      value: Contact dermatitis due to cyclohexane
+      type: any
+    - code: M122300
+      value: Contact dermatitis due to glycol
+      type: any
+    - code: M122z00
+      value: Contact dermatitis due to solvent NOS
+      type: any
+    - code: M123000
+      value: Contact dermatitis due to arnica
+      type: any
+    - code: M123.00
+      value: Contact dermatitis due to drugs and medicaments
+      type: any
+    - code: M123100
+      value: Contact dermatitis due to fungicides
+      type: any
+    - code: M123200
+      value: Contact dermatitis due to iodine
+      type: any
+    - code: M123300
+      value: Contact dermatitis due to keratolytics
+      type: any
+    - code: M123400
+      value: Contact dermatitis due to mercurials
+      type: any
+    - code: M123500
+      value: Contact dermatitis due to neomycin
+      type: any
+    - code: M123600
+      value: Contact dermatitis due to pediculocides
+      type: any
+    - code: M123700
+      value: Contact dermatitis due to phenols
+      type: any
+    - code: M123800
+      value: Contact dermatitis due to scabicides
+      type: any
+    - code: M123z00
+      value: Contact dermatitis due to medicament NOS
+      type: any
+    - code: M124000
+      value: Contact dermatitis due to acids
+      type: any
+    - code: M124.00
+      value: Contact dermatitis due to other chemical products
+      type: any
+    - code: M124100
+      value: Contact dermatitis due to adhesive plaster
+      type: any
+    - code: M124111
+      value: Elastoplast contact dermatitis
+      type: any
+    - code: M124200
+      value: Contact dermatitis due to alkalis
+      type: any
+    - code: M124300
+      value: Contact dermatitis due to caustics
+      type: any
+    - code: M124400
+      value: Contact dermatitis due to dichromate
+      type: any
+    - code: M124500
+      value: Contact dermatitis due to insecticide
+      type: any
+    - code: M124600
+      value: Contact dermatitis due to nylon
+      type: any
+    - code: M124700
+      value: Contact dermatitis due to plastic
+      type: any
+    - code: M124800
+      value: Contact dermatitis due to rubber
+      type: any
+    - code: M124z00
+      value: 'Contact dermatitis: other chemicals NOS'
+      type: any
+    - code: M125000
+      value: Contact dermatitis due to cereals
+      type: any
+    - code: M125.00
+      value: Contact dermatitis due to food in contact with skin
+      type: any
+    - code: M125100
+      value: Contact dermatitis due to fish
+      type: any
+    - code: M125200
+      value: Contact dermatitis due to flour
+      type: any
+    - code: M125300
+      value: Contact dermatitis due to fruit
+      type: any
+    - code: M125400
+      value: Contact dermatitis due to meat
+      type: any
+    - code: M125500
+      value: Contact dermatitis due to milk
+      type: any
+    - code: M125z00
+      value: Contact dermatitis due to food NOS
+      type: any
+    - code: M125z11
+      value: Egg contact dermatitis
+      type: any
+    - code: M126000
+      value: Contact dermatitis due to lacquer tree
+      type: any
+    - code: M126.00
+      value: Contact dermatitis due to plants
+      type: any
+    - code: M126100
+      value: Contact dermatitis due to poison-ivy
+      type: any
+    - code: M126200
+      value: Contact dermatitis due to poison-oak
+      type: any
+    - code: M126300
+      value: Contact dermatitis due to poison-sumac
+      type: any
+    - code: M126500
+      value: Contact dermatitis due to primrose
+      type: any
+    - code: M126600
+      value: Contact dermatitis due to ragweed
+      type: any
+    - code: M126z00
+      value: Contact dermatitis due to plants NOS
+      type: any
+    - code: M128000
+      value: Allergic contact dermatitis due to adhesives
+      type: any
+    - code: M128.00
+      value: Allergic contact dermatitis
+      type: any
+    - code: M128100
+      value: Allergic contact dermatitis due to cosmetics
+      type: any
+    - code: M128200
+      value: Allergic contact dermatitis due drugs in contact with skin
+      type: any
+    - code: M128300
+      value: Allergic contact dermatitis due to dyes
+      type: any
+    - code: M128400
+      value: Allergic contact dermatitis due to other chemical products
+      type: any
+    - code: M128500
+      value: Allergic contact dermatitis due to food in contact with skin
+      type: any
+    - code: M128600
+      value: Allergic contact dermatitis due to plants, except food
+      type: any
+    - code: M129000
+      value: Irritant contact dermatitis due to cosmetics
+      type: any
+    - code: M129.00
+      value: Irritant contact dermatitis
+      type: any
+    - code: M129100
+      value: Irritant contact dermatitis due drugs in contact with skin
+      type: any
+    - code: M129200
+      value: Irritant contact dermatitis due to other chemical products
+      type: any
+    - code: M129300
+      value: Irritant contact dermatitis due to food in contact with skin
+      type: any
+    - code: M129400
+      value: Irritant contact dermatitis due to plants, except food
+      type: any
+    - code: M12y000
+      value: Contact dermatitis due to cosmetics
+      type: any
+    - code: M12y.00
+      value: Contact dermatitis due to other specified agents
+      type: any
+    - code: M12y011
+      value: Lanolin contact dermatitis
+      type: any
+    - code: M12y012
+      value: Perfume contact dermatitis
+      type: any
+    - code: M12y100
+      value: Contact dermatitis due to cold weather
+      type: any
+    - code: M12y200
+      value: Contact dermatitis due to dyes
+      type: any
+    - code: M12y300
+      value: Contact dermatitis due to furs
+      type: any
+    - code: M12y400
+      value: Contact dermatitis due to hot weather
+      type: any
+    - code: M12y500
+      value: Contact dermatitis due to infra-red rays
+      type: any
+    - code: M12y600
+      value: Contact dermatitis due to jewellery
+      type: any
+    - code: M12y700
+      value: Contact dermatitis due to light (excluding sunlight)
+      type: any
+    - code: M12y800
+      value: Contact dermatitis due to metals
+      type: any
+    - code: M12y811
+      value: Nickel sensitivity
+      type: any
+    - code: M12y900
+      value: Contact dermatitis due to preservatives
+      type: any
+    - code: M12yA00
+      value: Contact dermatitis due to radiation NOS
+      type: any
+    - code: M12yB00
+      value: Contact dermatitis due to ultra-violet rays (excluding sun)
+      type: any
+    - code: M12yC00
+      value: Contact dermatitis due to x-rays
+      type: any
+    - code: M12yD00
+      value: Contact dermatitis due to casting materials
+      type: any
+    - code: M12yz00
+      value: 'Contact dermatitis: specified agent NOS'
+      type: any
+    - code: M12z000
+      value: Dermatitis NOS
+      type: any
+    - code: M12z.00
+      value: Contact dermatitis NOS
+      type: any
+    - code: M12z100
+      value: Eczema NOS
+      type: any
+    - code: M12z111
+      value: Discoid eczema
+      type: any
+    - code: M12z200
+      value: Infected eczema
+      type: any
+    - code: M12z300
+      value: Hand eczema
+      type: any
+    - code: M12z400
+      value: Erythrodermic eczema
+      type: any
+    - code: M12zz00
+      value: Contact dermatitis NOS
+      type: any
+    - code: M130000
+      value: Generalized skin eruption due to drugs and medicaments
+      type: any
+    - code: M130.00
+      value: Ingestion dermatitis due to drugs
+      type: any
+    - code: M13..00
+      value: Ingestion dermatitis
+      type: any
+    - code: M130100
+      value: Localized skin eruption due to drugs and medicaments
+      type: any
+    - code: M130.11
+      value: Drug induced rash
+      type: any
+    - code: M130200
+      value: Drug-induced erythroderma
+      type: any
+    - code: M131.00
+      value: Ingestion dermatitis due to food
+      type: any
+    - code: M13y.00
+      value: Ingestion dermatitis due to other specified substance
+      type: any
+    - code: M13z.00
+      value: Ingestion dermatitis NOS
+      type: any
+    - code: M15y200
+      value: Pityriasis rubra (Hebra)
+      type: any
+    - code: M165000
+      value: Pityriasis alba
+      type: any
+    - code: M173.00
+      value: Lichen simplex
+      type: any
+    - code: M182000
+      value: Prurigo aestivalis
+      type: any
+    - code: M182.00
+      value: Prurigo
+      type: any
+    - code: M182200
+      value: Prurigo mitis
+      type: any
+    - code: M182300
+      value: Prurigo simplex
+      type: any
+    - code: M182z00
+      value: Prurigo NOS
+      type: any
+    - code: M183000
+      value: Prurigo nodularis (Hyde's disease)
+      type: any
+    - code: M183.00
+      value: Lichenification and lichen simplex chronicus
+      type: any
+    - code: M183100
+      value: Neurodermatitis circumscripta
+      type: any
+    - code: M183200
+      value: Lichen simplex
+      type: any
+    - code: M183z00
+      value: Lichenification NOS
+      type: any
+    - code: M1B..11
+      value: Juvenile plantar dermatitis
+      type: any
+    - code: M1y0.00
+      value: Nummular dermatitis
+      type: any
+    - code: M1y1.00
+      value: Cutaneous autosensitization
+      type: any
+    - code: M252000
+      value: Dyshidrosis unspecified
+      type: any
+    - code: M252.00
+      value: Dyshidrosis
+      type: any
+    - code: M252100
+      value: Pompholyx unspecified
+      type: any
+    - code: M252200
+      value: Cheiropompholyx
+      type: any
+    - code: M252300
+      value: Podopompholyx
+      type: any
+    - code: M252z00
+      value: Dyshidrosis NOS
+      type: any
+    - code: M2y4100
+      value: Menstrual dermatosis
+      type: any
+    - code: M2y4811
+      value: Juvenile plantar dermatitis
+      type: any
+    - code: Myu2.00
+      value: '[X]Dermatitis and eczema'
+      type: any
+    - code: Myu2100
+      value: '[X]Allergic contact dermatitis due to oth chemical products'
+      type: any
+    - code: Myu2200
+      value: '[X]Exacerbation of eczema'
+      type: any
+    - code: Myu2300
+      value: '[X]Allergic contact dermatitis due to other agents'
+      type: any
+    - code: Myu2400
+      value: '[X]Irritant contact dermatitis due to oth chemical products'
+      type: any
+    - code: Myu2500
+      value: '[X]Irritant contact dermatitis due to other agents'
+      type: any
+    - code: Myu2600
+      value: '[X]Unspcfd contact dermatitis due to other chemical products'
+      type: any
+    - code: Myu2700
+      value: '[X]Unspecified contact dermatitis due to other agents'
+      type: any
+    - code: Myu2A00
+      value: '[X]Other prurigo'
+      type: any
+    - code: Myu2C00
+      value: '[X]Other specified dermatitis'
+      type: any
+    - code: M1831
+      value: Lichen simplex
+      type: any
+    - code: XE17A
+      value: Acute eczematoid otitis extern
+      type: any
+    - code: X40Fx
+      value: Nipple eczema
+      type: any
+    - code: X506Q
+      value: Asteatotic eczema
+      type: any
+    - code: X505j
+      value: Discoid eczema
+      type: any
+    - code: XE1Av
+      value: Eczema NOS
+      type: any
+    - code: X5063
+      value: Irritant contact dermatitis
+      type: any
+    - code: X505L
+      value: Hand eczema
+      type: any
+    - code: XE1Aw
+      value: Ingestion dermatitis due to drugs
+      type: any
+    - code: XE16i
+      value: Contact or allergic eyelid dermatitis
+      type: any
+    - code: XE16i
+      value: Contact or allergic eyelid dermatitis
+      type: any
+    - code: XE1At
+      value: Contact dermatitis due to cosmetics
+      type: any
+    - code: X505x
+      value: Allergic contact dermatitis
+      type: any
+    - code: XE1Aj
+      value: Local infection skin/subcut tissue NOS
+      type: any
+    - code: XE1Am
+      value: Other skin and subcutaneous tissue inflammatory conditions
+      type: any
+    - code: XE1Aq
+      value: Contact dermatitis due to oils and greases
+      type: any
+    - code: X506I
+      value: Juvenile plantar dermatosis
+      type: any
+    - code: XE1Au
+      value: Contact dermatitis due to metals
+      type: any
+    - code: X506I
+      value: Juvenile plantar dermatosis
+      type: any
+    - code: X506I
+      value: Juvenile plantar dermatosis
+      type: any
+    - code: M1831
+      value: Lichen simplex
+      type: any
+    - code: M12z.
+      value: Contact dermatitis NOS
+      type: any
+    - code: X50Gm
+      value: Drug-induced erythroderma
+      type: any
+    - code: XE1As
+      value: Contact dermatitis due to food NOS
+      type: any
+    - code: XE1Ap
+      value: Contact dermatitis and other eczemas
+      type: any
+    - code: XE1Ag
+      value: Other specified local infection of skin or subcutaneous tissue
+      type: any
+    - code: XaY4o
+      value: Infected eczema
+      type: any
+    - code: XE1Ar
+      value: Contact dermatitis due to adhesive plaster
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

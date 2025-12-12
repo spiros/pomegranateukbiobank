@@ -1,0 +1,163 @@
+metadata:
+  phenotype: Primary Malignancy_Prostate
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: pri_prost
+  gender:
+  - male
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: fab450a8-eb00-4d7e-9a06-8d8fd5cea758
+  ontologies:
+    DOID: DOID_10283
+    GWAS: EFO_0001663
+    MESH: D011471
+    SNOMED-CT: 254900004
+    FINNGEN: C3_PROSTATE
+  short_desc: A male reproductive organ cancer that is located_in the prostate.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1044'
+      value: prostate cancer
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C61
+      value: Malignant neoplasm of prostate
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C61
+      value: Malignant neoplasm of prostate
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C61
+      value: Malignant neoplasm of prostate
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C61
+      value: Malignant neoplasm of prostate
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1427000.0'
+      value: 'H/O: prostate cancer'
+      type: prevalent
+    - code: 4M00.00
+      value: Gleason prostate grade 2-4 (low)
+      type: any
+    - code: 4M01.00
+      value: Gleason prostate grade 5-7 (medium)
+      type: any
+    - code: 4M02.00
+      value: Gleason prostate grade 8-10 (high)
+      type: any
+    - code: 4M0..00
+      value: Gleason grading of prostate cancer
+      type: any
+    - code: 7B20000
+      value: Radical cystoprostatourethrectomy
+      type: any
+    - code: 7B20200
+      value: Radical cystoprostatectomy
+      type: any
+    - code: 7B36000
+      value: Radical prostatectomy - unspecified excision of pelvic nodes
+      type: any
+    - code: 7B36500
+      value: Radical prostatectomy without pelvic node excision
+      type: any
+    - code: 7B36600
+      value: Radical prostatectomy with pelvic node sampling
+      type: any
+    - code: 7B36700
+      value: Radical prostatectomy with pelvic lymphadenectomy
+      type: any
+    - code: B46..00
+      value: Malignant neoplasm of prostate
+      type: any
+    - code: ZV10415
+      value: '[V]Personal history of malignant neoplasm of prostate'
+      type: prevalent
+    - code: XaImc
+      value: Gleason prostate grade 5-7 (medium)
+      type: any
+    - code: XaImd
+      value: Gleason prostate grade 8-10 (high)
+      type: any
+    - code: XaImb
+      value: Gleason prostate grade 2-4 (low)
+      type: any
+    - code: XaIma
+      value: Gleason grading of prostate cancer
+      type: any
+    - code: XaXGk
+      value: 'H/O: prostate cancer'
+      type: prevalent
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C61
+      value: Malignant neoplasm of prostate
+      type: any

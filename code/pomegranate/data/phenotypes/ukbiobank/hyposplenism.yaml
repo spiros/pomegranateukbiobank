@@ -1,0 +1,182 @@
+metadata:
+  phenotype: Hyposplenism
+  group: Haematological or immunological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: hyposplenism
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 92becfad-ca7c-42ce-b29e-7b1fb195df4f
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: C563028
+    SNOMED-CT: 23761004
+    FINNGEN: D3_HYPOSPLENISM
+  short_desc: Reduced splenic function that is a dominant cause of primary immunodeficiency.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D73.0
+      value: Hyposplenism
+      type: any
+    - code: D73.5
+      value: Infarction of spleen
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D73.0
+      value: Hyposplenism
+      type: any
+    - code: D73.5
+      value: Infarction of spleen
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D73.0
+      value: Hyposplenism
+      type: any
+    - code: D73.5
+      value: Infarction of spleen
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D73.0
+      value: Hyposplenism
+      type: any
+    - code: D73.5
+      value: Infarction of spleen
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14N7.00
+      value: 'H/O: splenectomy'
+      type: prevalent
+    - code: '7840100.0'
+      value: Total splenectomy
+      type: any
+    - code: '7840300.0'
+      value: Splenectomy NEC
+      type: any
+    - code: '7840400.0'
+      value: Laparoscopic total splenectomy
+      type: any
+    - code: '7840.00'
+      value: Total excision of spleen
+      type: any
+    - code: '7840.11'
+      value: Total splenectomy
+      type: any
+    - code: 7840y00
+      value: Other specified total excision of spleen
+      type: any
+    - code: 7840z00
+      value: Total excision of spleen NOS
+      type: any
+    - code: '7841.00'
+      value: Other excision of spleen
+      type: any
+    - code: 7841y00
+      value: Other specified other excision of spleen
+      type: any
+    - code: 7841z00
+      value: Other excision of spleen NOS
+      type: any
+    - code: D415400
+      value: Splenic atrophy
+      type: any
+    - code: D415600
+      value: Splenic fibrosis
+      type: any
+    - code: D415700
+      value: Splenic infarction
+      type: any
+    - code: D415800
+      value: Non-traumatic rupture of spleen
+      type: any
+    - code: D415A00
+      value: Hyposplenism
+      type: any
+    - code: PK01.00
+      value: Absent spleen
+      type: any
+    - code: PK01.11
+      value: Asplenia
+      type: any
+    - code: PK06.00
+      value: Hypoplasia of spleen
+      type: any
+    - code: Xa0hO
+      value: Hyposplenism
+      type: any
+    - code: '7840.'
+      value: Total splenectomy
+      type: any
+    - code: XaEXw
+      value: Laparoscopic total splenectomy
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

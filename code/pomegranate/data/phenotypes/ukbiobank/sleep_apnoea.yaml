@@ -1,0 +1,144 @@
+metadata:
+  phenotype: Sleep apnoea
+  group: Respiratory
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: sleep_apnoea
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 63b81fce-5b11-4e7c-8bff-6958864ce399
+  ontologies:
+    DOID: 0050847
+    GWAS: EFO_0003918
+    MESH: D012891
+    SNOMED-CT: 73430006
+    FINNGEN: G6_SLEEPAPNO
+  short_desc: A disorder characterized by multiple cessations of respirations during
+    sleep that induce partial arousals and interfere with the maintenance of sleep.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1123'
+      value: sleep apnoea
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: G47.3
+      value: Sleep apnoea
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: G47.3
+      value: Sleep apnoea
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G47.3
+      value: Sleep apnoea
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G47.3
+      value: Sleep apnoea
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: Fy03.00
+      value: Sleep apnoea
+      type: any
+    - code: Fy03.11
+      value: Obstructive sleep apnoea
+      type: any
+    - code: H5B0.00
+      value: Obstructive sleep apnoea
+      type: any
+    - code: H5B..00
+      value: Sleep apnoea
+      type: any
+    - code: R005100
+      value: '[D]Insomnia with sleep apnoea'
+      type: any
+    - code: R005300
+      value: '[D]Hypersomnia with sleep apnoea'
+      type: any
+    - code: R005311
+      value: '[D]Sleep apnoea syndrome'
+      type: any
+    - code: R005312
+      value: '[D]Syndrome sleep apnoea'
+      type: any
+    - code: XE2nU
+      value: '[D]Hypersomnia with sleep apnoea'
+      type: any
+    - code: X0083
+      value: Sleep apnoea
+      type: any
+    - code: X0084
+      value: Obstructive sleep apnoea
+      type: any
+    - code: X0083
+      value: Sleep apnoea
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

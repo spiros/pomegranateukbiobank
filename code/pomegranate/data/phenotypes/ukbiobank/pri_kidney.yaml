@@ -1,0 +1,185 @@
+metadata:
+  phenotype: Primary Malignancy_Kidney and Ureter
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: pri_kidney
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: da606197-ae5f-4af6-b6e7-a82f3554818f
+  ontologies:
+    DOID: DOID_263
+    GWAS: EFO_0000681
+    MESH: D007680
+    SNOMED-CT: 126880001
+    FINNGEN: C3_URETER
+  short_desc: A urinary system cancer that is located_in the kidney.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1034'
+      value: kidney/renal cell cancer
+      type: any
+    - code: '1036'
+      value: other cancer of urinary tract
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C64
+      value: Malignant neoplasm of kidney, except renal pelvis
+      type: any
+    - code: C65
+      value: Malignant neoplasm of renal pelvis
+      type: any
+    - code: C66
+      value: Malignant neoplasm of ureter
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C64
+      value: Malignant neoplasm of kidney, except renal pelvis
+      type: any
+    - code: C65
+      value: Malignant neoplasm of renal pelvis
+      type: any
+    - code: C66
+      value: Malignant neoplasm of ureter
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C64
+      value: Malignant neoplasm of kidney, except renal pelvis
+      type: any
+    - code: C65
+      value: Malignant neoplasm of renal pelvis
+      type: any
+    - code: C66
+      value: Malignant neoplasm of ureter
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C64
+      value: Malignant neoplasm of kidney, except renal pelvis
+      type: any
+    - code: C65
+      value: Malignant neoplasm of renal pelvis
+      type: any
+    - code: C66
+      value: Malignant neoplasm of ureter
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B4A0000
+      value: Hypernephroma
+      type: any
+    - code: B4A0.00
+      value: Malignant neoplasm of kidney parenchyma
+      type: any
+    - code: B4A1000
+      value: Malignant neoplasm of renal calyces
+      type: any
+    - code: B4A1100
+      value: Malignant neoplasm of ureteropelvic junction
+      type: any
+    - code: B4A1.00
+      value: Malignant neoplasm of renal pelvis
+      type: any
+    - code: B4A1z00
+      value: Malignant neoplasm of renal pelvis NOS
+      type: any
+    - code: B4A2.00
+      value: Malignant neoplasm of ureter
+      type: any
+    - code: B4A..11
+      value: Renal malignant neoplasm
+      type: any
+    - code: BB5a000
+      value: '[M]Renal cell carcinoma'
+      type: any
+    - code: BB5a011
+      value: '[M]Grawitz tumour'
+      type: any
+    - code: BB5a012
+      value: '[M]Hypernephroma'
+      type: any
+    - code: ZV10512
+      value: '[V]Personal history of malignant neoplasm of kidney'
+      type: prevalent
+    - code: ZV10513
+      value: '[V]Personal history of malignant neoplasm of kidney'
+      type: prevalent
+    - code: XE2vQ
+      value: Malignant neoplasm of kidney and other unspecified urinary organs
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C64
+      value: Malignant neoplasm of kidney, except renal pelvis
+      type: any
+    - code: C65
+      value: Malignant neoplasm of renal pelvis
+      type: any
+    - code: C66
+      value: Malignant neoplasm of ureter
+      type: any

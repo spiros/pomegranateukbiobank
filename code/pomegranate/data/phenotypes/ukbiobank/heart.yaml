@@ -1,0 +1,276 @@
+metadata:
+  phenotype: Infections of the Heart
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: heart
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: e0d8e0f3-d9ea-4be6-87cc-c9a86a606def
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: null
+    SNOMED-CT: '128403000'
+    FINNGEN: null
+  short_desc: Infections of the Heart
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: A39.5
+      value: Meningococcal heart disease
+      type: any
+    - code: A52.0
+      value: Cardiovascular syphilis
+      type: any
+    - code: B33.2
+      value: Viral carditis
+      type: any
+    - code: B37.6
+      value: Candidal endocarditis
+      type: any
+    - code: I30.1
+      value: Infective pericarditis
+      type: any
+    - code: I32.0
+      value: Pericarditis in bacterial diseases classified elsewhere
+      type: any
+    - code: I32.1
+      value: Pericarditis in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I33.0
+      value: Acute and subacute infective endocarditis
+      type: any
+    - code: I40.0
+      value: Infective myocarditis
+      type: any
+    - code: I41.0
+      value: Myocarditis in bacterial diseases classified elsewhere
+      type: any
+    - code: I41.1
+      value: Myocarditis in viral diseases classified elsewhere
+      type: any
+    - code: I41.2
+      value: Myocarditis in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I43.0
+      value: Cardiomyopathy in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I98.0
+      value: Cardiovascular syphilis
+      type: any
+    - code: I98.1
+      value: Cardiovascular disorders in other infectious and parasitic diseases classified
+        elsewhere
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: A39.5
+      value: Meningococcal heart disease
+      type: any
+    - code: A52.0
+      value: Cardiovascular syphilis
+      type: any
+    - code: B33.2
+      value: Viral carditis
+      type: any
+    - code: B37.6
+      value: Candidal endocarditis
+      type: any
+    - code: I30.1
+      value: Infective pericarditis
+      type: any
+    - code: I32.0
+      value: Pericarditis in bacterial diseases classified elsewhere
+      type: any
+    - code: I32.1
+      value: Pericarditis in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I33.0
+      value: Acute and subacute infective endocarditis
+      type: any
+    - code: I40.0
+      value: Infective myocarditis
+      type: any
+    - code: I41.0
+      value: Myocarditis in bacterial diseases classified elsewhere
+      type: any
+    - code: I41.1
+      value: Myocarditis in viral diseases classified elsewhere
+      type: any
+    - code: I41.2
+      value: Myocarditis in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I43.0
+      value: Cardiomyopathy in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I98.0
+      value: Cardiovascular syphilis
+      type: any
+    - code: I98.1
+      value: Cardiovascular disorders in other infectious and parasitic diseases classified
+        elsewhere
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A39.5
+      value: Meningococcal heart disease
+      type: any
+    - code: A52.0
+      value: Cardiovascular syphilis
+      type: any
+    - code: B33.2
+      value: Viral carditis
+      type: any
+    - code: B37.6
+      value: Candidal endocarditis
+      type: any
+    - code: I30.1
+      value: Infective pericarditis
+      type: any
+    - code: I32.0
+      value: Pericarditis in bacterial diseases classified elsewhere
+      type: any
+    - code: I32.1
+      value: Pericarditis in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I33.0
+      value: Acute and subacute infective endocarditis
+      type: any
+    - code: I40.0
+      value: Infective myocarditis
+      type: any
+    - code: I41.0
+      value: Myocarditis in bacterial diseases classified elsewhere
+      type: any
+    - code: I41.1
+      value: Myocarditis in viral diseases classified elsewhere
+      type: any
+    - code: I41.2
+      value: Myocarditis in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I43.0
+      value: Cardiomyopathy in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I98.0
+      value: Cardiovascular syphilis
+      type: any
+    - code: I98.1
+      value: Cardiovascular disorders in other infectious and parasitic diseases classified
+        elsewhere
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A39.5
+      value: Meningococcal heart disease
+      type: any
+    - code: A52.0
+      value: Cardiovascular syphilis
+      type: any
+    - code: B33.2
+      value: Viral carditis
+      type: any
+    - code: B37.6
+      value: Candidal endocarditis
+      type: any
+    - code: I30.1
+      value: Infective pericarditis
+      type: any
+    - code: I32.0
+      value: Pericarditis in bacterial diseases classified elsewhere
+      type: any
+    - code: I32.1
+      value: Pericarditis in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I33.0
+      value: Acute and subacute infective endocarditis
+      type: any
+    - code: I40.0
+      value: Infective myocarditis
+      type: any
+    - code: I41.0
+      value: Myocarditis in bacterial diseases classified elsewhere
+      type: any
+    - code: I41.1
+      value: Myocarditis in viral diseases classified elsewhere
+      type: any
+    - code: I41.2
+      value: Myocarditis in other infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I43.0
+      value: Cardiomyopathy in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: I98.0
+      value: Cardiovascular syphilis
+      type: any
+    - code: I98.1
+      value: Cardiovascular disorders in other infectious and parasitic diseases classified
+        elsewhere
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

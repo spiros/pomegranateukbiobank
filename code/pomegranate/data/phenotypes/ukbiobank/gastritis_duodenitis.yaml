@@ -1,0 +1,209 @@
+metadata:
+  phenotype: Gastritis and duodenitis
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: gastritis_duodenitis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: c97872c5-a1f5-4f75-84bf-6cd0aef61393
+  ontologies:
+    DOID: DOID_8644
+    GWAS: null
+    MESH: null
+    SNOMED-CT: '196731005'
+    FINNGEN: null
+  short_desc: Inflammation of regions of the digestive tract (stomach lining and duodenum).
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1143'
+      value: gastritis/gastric erosions
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K29
+      value: Gastritis and duodenitis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K29
+      value: Gastritis and duodenitis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K29
+      value: Gastritis and duodenitis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K29
+      value: Gastritis and duodenitis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: A074313
+      value: Helicobacter gastritis
+      type: any
+    - code: J11z.11
+      value: Gastric erosions
+      type: any
+    - code: J123.00
+      value: Duodenal erosion
+      type: any
+    - code: J150000
+      value: Acute haemorrhagic gastritis
+      type: any
+    - code: J150.00
+      value: Acute gastritis
+      type: any
+    - code: J151000
+      value: Chronic atrophic gastritis
+      type: any
+    - code: J151100
+      value: Chronic inflammatory gastritis
+      type: any
+    - code: J151200
+      value: Chronic superficial gastritis
+      type: any
+    - code: J151.00
+      value: Chronic gastritis
+      type: any
+    - code: J151z00
+      value: Chronic gastritis NOS
+      type: any
+    - code: J152.00
+      value: Gastric mucosal hypertrophy
+      type: any
+    - code: J153.00
+      value: Alcoholic gastritis
+      type: any
+    - code: J154000
+      value: Allergic gastritis
+      type: any
+    - code: J154100
+      value: Bile induced gastritis
+      type: any
+    - code: J154200
+      value: Irritant gastritis
+      type: any
+    - code: J154300
+      value: Corrosive gastritis
+      type: any
+    - code: J154400
+      value: Helicobacter gastritis
+      type: any
+    - code: J154.00
+      value: Other specified gastritis
+      type: any
+    - code: J154z00
+      value: Other specified gastritis NOS
+      type: any
+    - code: J155.00
+      value: Gastritis unspecified
+      type: any
+    - code: J156.00
+      value: Gastroduodenitis unspecified
+      type: any
+    - code: J157.00
+      value: Duodenitis
+      type: any
+    - code: J15..00
+      value: Gastritis and duodenitis
+      type: any
+    - code: J15z.00
+      value: Gastritis and duodenitis NOS
+      type: any
+    - code: J4z0.00
+      value: Non-infective gastritis NOS
+      type: any
+    - code: Jyu1200
+      value: '[X]Other acute gastritis'
+      type: any
+    - code: Jyu1300
+      value: '[X]Other gastritis'
+      type: any
+    - code: ZV65316
+      value: '[V]Dietary counselling in gastritis'
+      type: any
+    - code: X302G
+      value: Duodenal erosion
+      type: any
+    - code: X301O
+      value: Acute haemorrhagic gastritis
+      type: any
+    - code: XE0aQ
+      value: Gastric ulcer NOS
+      type: any
+    - code: X301R
+      value: Helicobacter gastritis
+      type: any
+    - code: XE0Ql
+      value: Campylobacter gastrointestinal tract infection
+      type: any
+    - code: XE0Ql
+      value: Campylobacter gastrointestinal tract infection
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

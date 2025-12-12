@@ -1,0 +1,233 @@
+metadata:
+  phenotype: Atrial fibrillation
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: AF
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 39319f3d-9e11-4f39-bb6f-85591dad1041
+  priority: 1
+  ontologies:
+    DOID: DOID_0060224
+    GWAS: EFO_0000275
+    MESH: D001281
+    SNOMED-CT: 49436004
+    FINNGEN: I9_AF
+  short_desc: A heart conduction disease that is characterized by uncoordinated electrical
+    activity in the heart's upper chambers (the atria), which causes the heartbeat
+    to become fast and irregular and has symptoms palpitations, weakness, fatigue,
+    lightheadedness, dizziness, confusion, shortness of breath and chest pain.
+  long_desc: null
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1471'
+      value: atrial fibrillation
+      type: any
+    - code: '1483'
+      value: atrial flutter
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I48
+      value: Atrial fibrillation and flutter
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I48
+      value: Atrial fibrillation and flutter
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I48
+      value: Atrial fibrillation and flutter
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I48
+      value: Atrial fibrillation and flutter
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14AN.00
+      value: 'H/O: atrial fibrillation'
+      type: prevalent
+    - code: 14AR.00
+      value: History of atrial flutter
+      type: prevalent
+    - code: 212R.00
+      value: Atrial fibrillation resolved
+      type: any
+    - code: 662S.00
+      value: Atrial fibrillation monitoring
+      type: prevalent
+    - code: 6A9..00
+      value: Atrial fibrillation annual review
+      type: prevalent
+    - code: 9Os..00
+      value: Atrial fibrillation monitoring administration
+      type: prevalent
+    - code: 9Os0.00
+      value: Atrial fibrillation monitoring first letter
+      type: prevalent
+    - code: 9Os1.00
+      value: Atrial fibrillation monitoring second letter
+      type: prevalent
+    - code: 9Os2.00
+      value: Atrial fibrillation monitoring third letter
+      type: prevalent
+    - code: 9Os3.00
+      value: Atrial fibrillation monitoring verbal invite
+      type: prevalent
+    - code: 9Os4.00
+      value: Atrial fibrillation monitoring telephone invite
+      type: prevalent
+    - code: 9hF..00
+      value: 'Exception reporting: atrial fibrillation quality indicators'
+      type: prevalent
+    - code: 9hF1.00
+      value: 'Excepted from atrial fibrillation qual indic: Inform dissent'
+      type: prevalent
+    - code: G573200
+      value: Paroxysmal atrial fibrillation
+      type: any
+    - code: G573400
+      value: Permanent atrial fibrillation
+      type: any
+    - code: G573500
+      value: Persistent atrial fibrillation
+      type: any
+    - code: '3272.00'
+      value: 'ECG: atrial fibrillation'
+      type: any
+    - code: G573000
+      value: Atrial fibrillation
+      type: any
+    - code: G573300
+      value: Non-rheumatic atrial fibrillation
+      type: any
+    - code: G573.00
+      value: Atrial fibrillation and flutter
+      type: any
+    - code: G573z00
+      value: Atrial fibrillation and flutter NOS
+      type: any
+    - code: '3273.00'
+      value: 'ECG: atrial flutter'
+      type: any
+    - code: G573100
+      value: Atrial flutter
+      type: any
+    - code: XaMGD
+      value: Atrial fibrillation annual review
+      type: prevalent
+    - code: XaOft
+      value: Permanent atrial fibrillation
+      type: any
+    - code: X202S
+      value: Non-rheumatic atrial fibrillation
+      type: any
+    - code: XaMDI
+      value: Atrial fibrillation monitoring third letter
+      type: prevalent
+    - code: XaNRA
+      value: History of atrial flutter
+      type: prevalent
+    - code: XaMFn
+      value: Atrial fibrillation monitoring telephone invite
+      type: prevalent
+    - code: XaDv6
+      value: 'H/O: atrial fibrillation'
+      type: prevalent
+    - code: XaOfa
+      value: Persistent atrial fibrillation
+      type: any
+    - code: XaMDH
+      value: Atrial fibrillation monitoring second letter
+      type: prevalent
+    - code: XaLFj
+      value: 'Excepted from atrial fibrillation quality indicators: Informed dissent'
+      type: prevalent
+    - code: XaMDG
+      value: Atrial fibrillation monitoring first letter
+      type: prevalent
+    - code: XaIIT
+      value: Atrial fibrillation monitoring
+      type: prevalent
+    - code: XaLFz
+      value: Atrial fibrillation resolved
+      type: any
+    - code: Xa2E8
+      value: Paroxysmal atrial fibrillation
+      type: any
+    - code: XaMDK
+      value: Atrial fibrillation monitoring verbal invite
+      type: prevalent
+    - code: XaMDF
+      value: Atrial fibrillation monitoring administration
+      type: prevalent
+    - code: XaLFh
+      value: 'Exception reporting: atrial fibrillation quality indicators'
+      type: prevalent
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

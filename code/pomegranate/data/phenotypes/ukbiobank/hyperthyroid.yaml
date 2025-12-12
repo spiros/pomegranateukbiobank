@@ -1,0 +1,323 @@
+metadata:
+  phenotype: Hyperthyroidism
+  group: Endocrine
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: hyperthyroid
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 06430866-ea2b-4fdf-a90e-8c847e468d2d
+  ontologies:
+    DOID: DOID_7998
+    GWAS: EFO_0009189
+    MESH: D006980
+    SNOMED-CT: 34486009
+    FINNGEN: THYROTOXICOSIS
+  short_desc: null
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1225'
+      value: hyperthyroidism/thyrotoxicosis
+      type: any
+    - code: '1522'
+      value: grave's disease
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: E05.0
+      value: Thyrotoxicosis with diffuse goitre
+      type: any
+    - code: E05.1
+      value: Thyrotoxicosis with toxic single thyroid nodule
+      type: any
+    - code: E05.2
+      value: Thyrotoxicosis with toxic multinodular goitre
+      type: any
+    - code: E05.5
+      value: Thyroid crisis or storm
+      type: any
+    - code: E05.8
+      value: Other thyrotoxicosis
+      type: any
+    - code: E05.9
+      value: Thyrotoxicosis, unspecified
+      type: any
+    - code: E06.2
+      value: Chronic thyroiditis with transient thyrotoxicosis
+      type: any
+    - code: H06.2
+      value: Dysthyroid exophthalmos
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: E05.0
+      value: Thyrotoxicosis with diffuse goitre
+      type: any
+    - code: E05.1
+      value: Thyrotoxicosis with toxic single thyroid nodule
+      type: any
+    - code: E05.2
+      value: Thyrotoxicosis with toxic multinodular goitre
+      type: any
+    - code: E05.5
+      value: Thyroid crisis or storm
+      type: any
+    - code: E05.8
+      value: Other thyrotoxicosis
+      type: any
+    - code: E05.9
+      value: Thyrotoxicosis, unspecified
+      type: any
+    - code: E06.2
+      value: Chronic thyroiditis with transient thyrotoxicosis
+      type: any
+    - code: H06.2
+      value: Dysthyroid exophthalmos
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: E05.0
+      value: Thyrotoxicosis with diffuse goitre
+      type: any
+    - code: E05.1
+      value: Thyrotoxicosis with toxic single thyroid nodule
+      type: any
+    - code: E05.2
+      value: Thyrotoxicosis with toxic multinodular goitre
+      type: any
+    - code: E05.5
+      value: Thyroid crisis or storm
+      type: any
+    - code: E05.8
+      value: Other thyrotoxicosis
+      type: any
+    - code: E05.9
+      value: Thyrotoxicosis, unspecified
+      type: any
+    - code: E06.2
+      value: Chronic thyroiditis with transient thyrotoxicosis
+      type: any
+    - code: H06.2
+      value: Dysthyroid exophthalmos
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: E05.0
+      value: Thyrotoxicosis with diffuse goitre
+      type: any
+    - code: E05.1
+      value: Thyrotoxicosis with toxic single thyroid nodule
+      type: any
+    - code: E05.2
+      value: Thyrotoxicosis with toxic multinodular goitre
+      type: any
+    - code: E05.5
+      value: Thyroid crisis or storm
+      type: any
+    - code: E05.8
+      value: Other thyrotoxicosis
+      type: any
+    - code: E05.9
+      value: Thyrotoxicosis, unspecified
+      type: any
+    - code: E06.2
+      value: Chronic thyroiditis with transient thyrotoxicosis
+      type: any
+    - code: H06.2
+      value: Dysthyroid exophthalmos
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1431.00'
+      value: 'H/O: hyperthyroidism'
+      type: prevalent
+    - code: '1431.11'
+      value: 'H/O: thyrotoxicosis'
+      type: prevalent
+    - code: 212P.00
+      value: Hyperthyroidism resolved
+      type: any
+    - code: C020000
+      value: Toxic diffuse goitre with no crisis
+      type: any
+    - code: C020100
+      value: Toxic diffuse goitre with crisis
+      type: any
+    - code: C020200
+      value: Thyroid-associated dermopathy
+      type: any
+    - code: C020.00
+      value: Toxic diffuse goitre
+      type: any
+    - code: C020.11
+      value: Basedow's disease
+      type: any
+    - code: C020.12
+      value: Graves' disease
+      type: any
+    - code: C020z00
+      value: Toxic diffuse goitre NOS
+      type: any
+    - code: C021000
+      value: Toxic uninodular goitre with no crisis
+      type: any
+    - code: C021.00
+      value: Toxic uninodular goitre
+      type: any
+    - code: C021z00
+      value: Toxic uninodular goitre NOS
+      type: any
+    - code: C022000
+      value: Toxic multinodular goitre with no crisis
+      type: any
+    - code: C022.00
+      value: Toxic multinodular goitre
+      type: any
+    - code: C022z00
+      value: Toxic multinodular goitre NOS
+      type: any
+    - code: C023000
+      value: Toxic nodular goitre unspecified with no crisis
+      type: any
+    - code: C023100
+      value: Toxic nodular goitre unspecified with crisis
+      type: any
+    - code: C023.00
+      value: Toxic nodular goitre unspecified
+      type: any
+    - code: C023z00
+      value: Toxic nodular goitre NOS
+      type: any
+    - code: C02..00
+      value: Thyrotoxicosis
+      type: any
+    - code: C02..11
+      value: Hyperthyroidism
+      type: any
+    - code: C02..12
+      value: Toxic goitre
+      type: any
+    - code: C02y000
+      value: Thyrotoxicosis of other specified origin with no crisis
+      type: any
+    - code: C02y100
+      value: Thyrotoxicosis of other specified origin with crisis
+      type: any
+    - code: C02y300
+      value: Thyroid crisis
+      type: any
+    - code: C02y.00
+      value: Thyrotoxicosis of other specified origin
+      type: any
+    - code: C02yz00
+      value: Thyrotoxicosis of other specified origin NOS
+      type: any
+    - code: C02z000
+      value: Thyrotoxicosis without mention of goitre or cause no crisis
+      type: any
+    - code: C02z100
+      value: Thyrotoxicosis without mention of goitre, cause with crisis
+      type: any
+    - code: C02z.00
+      value: Thyrotoxicosis without mention of goitre or other cause
+      type: any
+    - code: C02zz00
+      value: Thyrotoxicosis NOS
+      type: any
+    - code: Cyu1300
+      value: Myasthenic syndrome due to thyrotoxicosis
+      type: any
+    - code: F395400
+      value: Myopathy due to thyrotoxicosis
+      type: any
+    - code: F4G2000
+      value: Thyrotoxic exophthalmos
+      type: any
+    - code: FyuBD00
+      value: '[X]Dysthyroid exophthalmos'
+      type: any
+    - code: G557500
+      value: Thyrotoxic heart disease
+      type: any
+    - code: XE106
+      value: Thyrotoxicosis of other specified origin
+      type: any
+    - code: XE104
+      value: Thyrotoxicosis
+      type: any
+    - code: XaKcQ
+      value: Hyperthyroidism resolved
+      type: any
+    - code: X40Hd
+      value: Chronic thyroiditis with transient thyrotoxicosis
+      type: any
+    - code: XE105
+      value: Toxic diffuse goitre
+      type: any
+    - code: X40H3
+      value: Thyroid crisis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

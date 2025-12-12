@@ -1,0 +1,174 @@
+metadata:
+  phenotype: Chronic sinusitis
+  group: Respiratory
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: sinusitis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 07f78609-6459-4673-a408-de309d31a9e0
+  ontologies:
+    DOID: DOID_0050127
+    GWAS: EFO_1000024
+    MESH: null
+    SNOMED-CT: 40055000
+    FINNGEN: J10_CHRONSINUSITIS
+  short_desc: An inflammatory process affecting the mucous membranes of any sinus
+    cavity.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1416'
+      value: chronic sinusitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: J32
+      value: Chronic sinusitis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: J32
+      value: Chronic sinusitis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J32
+      value: Chronic sinusitis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J32
+      value: Chronic sinusitis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: H01..11
+      value: Sinusitis
+      type: any
+    - code: H130.00
+      value: Chronic maxillary sinusitis
+      type: any
+    - code: H130.11
+      value: Antritis - chronic
+      type: any
+    - code: H130.12
+      value: Maxillary sinusitis
+      type: any
+    - code: H131.00
+      value: Chronic frontal sinusitis
+      type: any
+    - code: H131.11
+      value: Frontal sinusitis
+      type: any
+    - code: H132.00
+      value: Chronic ethmoidal sinusitis
+      type: any
+    - code: H133.00
+      value: Chronic sphenoidal sinusitis
+      type: any
+    - code: H135.00
+      value: Recurrent sinusitis
+      type: any
+    - code: H13..00
+      value: Chronic sinusitis
+      type: any
+    - code: H13..11
+      value: Chronic rhinosinusitis
+      type: any
+    - code: H13y000
+      value: Chronic pansinusitis
+      type: any
+    - code: H13y100
+      value: Pansinusitis
+      type: any
+    - code: H13y.00
+      value: Other chronic sinusitis
+      type: any
+    - code: H13yz00
+      value: Other chronic sinusitis NOS
+      type: any
+    - code: H13z.00
+      value: Chronic sinusitis NOS
+      type: any
+    - code: H17..12
+      value: Allergic rhinosinusitis
+      type: any
+    - code: Hyu2200
+      value: '[X]Other chronic sinusitis'
+      type: any
+    - code: XE0Y5
+      value: Allergic rhinitis
+      type: any
+    - code: XE0Y0
+      value: Chronic maxillary sinusitis
+      type: any
+    - code: XE0Xm
+      value: Acute sinusitis
+      type: any
+    - code: XE0Y1
+      value: Chronic frontal sinusitis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,367 @@
+metadata:
+  phenotype: COPD_excl_bronchitis_NOS
+  group: Respiratory
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: COPD_excl_bronchitis_NOS
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: c4899d93-0a72-4132-8fc3-b75ab6ac9396
+  priority: 1
+  ontologies:
+    DOID: DOID_3083
+    GWAS: EFO_0000341
+    MESH: D029424
+    SNOMED-CT: 13645005
+    FINNGEN: J10_COPD
+  short_desc: A disease of chronic diffuse irreversible airflow obstruction. As per
+    COPD, however "J40 Bronchitis, not specified as acute or chronic" removed.
+  long_desc: null
+definitions:
+  22170:
+    metadata:
+      desc: Recent medication for COPD
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: 'Yes'
+      type: any
+  22130:
+    metadata:
+      desc: Doctor diagnosed COPD (chronic obstructive pulmonary disease)
+      time_qualifier:
+        field_id: 22150
+        type: age
+    values:
+    - code: '1'
+      value: COPD
+      type: any
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1112'
+      value: chronic obstructive airways disease/copd
+      type: any
+    - code: '1472'
+      value: emphysema
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: J41
+      value: Simple and mucopurulent chronic bronchitis
+      type: any
+    - code: J42
+      value: Unspecified chronic bronchitis
+      type: any
+    - code: J43
+      value: Emphysema
+      type: any
+    - code: J44
+      value: Other chronic obstructive pulmonary disease
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: J41
+      value: Simple and mucopurulent chronic bronchitis
+      type: any
+    - code: J42
+      value: Unspecified chronic bronchitis
+      type: any
+    - code: J43
+      value: Emphysema
+      type: any
+    - code: J44
+      value: Other chronic obstructive pulmonary disease
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J41
+      value: Simple and mucopurulent chronic bronchitis
+      type: any
+    - code: J42
+      value: Unspecified chronic bronchitis
+      type: any
+    - code: J43
+      value: Emphysema
+      type: any
+    - code: J44
+      value: Other chronic obstructive pulmonary disease
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J41
+      value: Simple and mucopurulent chronic bronchitis
+      type: any
+    - code: J42
+      value: Unspecified chronic bronchitis
+      type: any
+    - code: J43
+      value: Emphysema
+      type: any
+    - code: J44
+      value: Other chronic obstructive pulmonary disease
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14B3.12
+      value: History of chronic obstructive pulmonary disease
+      type: prevalent
+    - code: H310000
+      value: Chronic catarrhal bronchitis
+      type: any
+    - code: H310.00
+      value: Simple chronic bronchitis
+      type: any
+    - code: H310z00
+      value: Simple chronic bronchitis NOS
+      type: any
+    - code: H311000
+      value: Purulent chronic bronchitis
+      type: any
+    - code: H311100
+      value: Fetid chronic bronchitis
+      type: any
+    - code: H311.00
+      value: Mucopurulent chronic bronchitis
+      type: any
+    - code: H311z00
+      value: Mucopurulent chronic bronchitis NOS
+      type: any
+    - code: H312000
+      value: Chronic asthmatic bronchitis
+      type: any
+    - code: H312011
+      value: Chronic wheezy bronchitis
+      type: any
+    - code: H312100
+      value: Emphysematous bronchitis
+      type: any
+    - code: H312200
+      value: Acute exacerbation of chronic obstructive airways disease
+      type: any
+    - code: H312300
+      value: Bronchiolitis obliterans
+      type: any
+    - code: H312.00
+      value: Obstructive chronic bronchitis
+      type: any
+    - code: H312z00
+      value: Obstructive chronic bronchitis NOS
+      type: any
+    - code: H313.00
+      value: Mixed simple and mucopurulent chronic bronchitis
+      type: any
+    - code: H31..00
+      value: Chronic bronchitis
+      type: any
+    - code: H31y100
+      value: Chronic tracheobronchitis
+      type: any
+    - code: H31y.00
+      value: Other chronic bronchitis
+      type: any
+    - code: H31yz00
+      value: Other chronic bronchitis NOS
+      type: any
+    - code: H31z.00
+      value: Chronic bronchitis NOS
+      type: any
+    - code: H320000
+      value: Segmental bullous emphysema
+      type: any
+    - code: H320100
+      value: Zonal bullous emphysema
+      type: any
+    - code: H320200
+      value: Giant bullous emphysema
+      type: any
+    - code: H320300
+      value: Bullous emphysema with collapse
+      type: any
+    - code: H320.00
+      value: Chronic bullous emphysema
+      type: any
+    - code: H320z00
+      value: Chronic bullous emphysema NOS
+      type: any
+    - code: H321.00
+      value: Panlobular emphysema
+      type: any
+    - code: H322.00
+      value: Centrilobular emphysema
+      type: any
+    - code: H32..00
+      value: Emphysema
+      type: any
+    - code: H32y000
+      value: Acute vesicular emphysema
+      type: any
+    - code: H32y100
+      value: Atrophic (senile) emphysema
+      type: any
+    - code: H32y111
+      value: Acute interstitial emphysema
+      type: any
+    - code: H32y200
+      value: MacLeod's unilateral emphysema
+      type: any
+    - code: H32y.00
+      value: Other emphysema
+      type: any
+    - code: H32yz00
+      value: Other emphysema NOS
+      type: any
+    - code: H32z.00
+      value: Emphysema NOS
+      type: any
+    - code: H36..00
+      value: Mild chronic obstructive pulmonary disease
+      type: any
+    - code: H37..00
+      value: Moderate chronic obstructive pulmonary disease
+      type: any
+    - code: H38..00
+      value: Severe chronic obstructive pulmonary disease
+      type: any
+    - code: H39..00
+      value: Very severe chronic obstructive pulmonary disease
+      type: any
+    - code: H3A..00
+      value: End stage chronic obstructive airways disease
+      type: any
+    - code: H3...00
+      value: Chronic obstructive pulmonary disease
+      type: any
+    - code: H3...11
+      value: Chronic obstructive airways disease
+      type: any
+    - code: H3y0.00
+      value: Chronic obstruct pulmonary dis with acute lower resp infectn
+      type: any
+    - code: H3y1.00
+      value: Chron obstruct pulmonary dis wth acute exacerbation, unspec
+      type: any
+    - code: H3y..00
+      value: Other specified chronic obstructive airways disease
+      type: any
+    - code: H3y..11
+      value: Other specified chronic obstructive pulmonary disease
+      type: any
+    - code: H3z..00
+      value: Chronic obstructive airways disease NOS
+      type: any
+    - code: H3z..11
+      value: Chronic obstructive pulmonary disease NOS
+      type: any
+    - code: H464000
+      value: Chronic emphysema due to chemical fumes
+      type: any
+    - code: H464100
+      value: Obliterative bronchiolitis due to chemical fumes
+      type: any
+    - code: H583200
+      value: Eosinophilic bronchitis
+      type: any
+    - code: Hyu3000
+      value: '[X]Other emphysema'
+      type: any
+    - code: Hyu3100
+      value: '[X]Other specified chronic obstructive pulmonary disease'
+      type: any
+    - code: XE0YP
+      value: Other emphysema NOS
+      type: any
+    - code: XE0YM
+      value: Purulent chronic bronchitis
+      type: any
+    - code: XaEIY
+      value: Severe chronic obstructive pulmonary disease
+      type: any
+    - code: XaEIW
+      value: Moderate chronic obstructive pulmonary disease
+      type: any
+    - code: XaIND
+      value: End stage chronic obstructive airways disease
+      type: any
+    - code: XaEIV
+      value: Mild chronic obstructive pulmonary disease
+      type: any
+    - code: XE0YN
+      value: Bullous emphysema with collapse
+      type: any
+    - code: X101l
+      value: Bronchiolitis obliterans
+      type: any
+    - code: Xaa7C
+      value: Eosinophilic bronchitis
+      type: any
+    - code: X101i
+      value: Chronic obstructive pulmonary disease with acute exacerbation, unspecified
+      type: any
+    - code: XE0YO
+      value: Atrophic (senile) emphysema
+      type: any
+    - code: XaN4a
+      value: Very severe chronic obstructive pulmonary disease
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

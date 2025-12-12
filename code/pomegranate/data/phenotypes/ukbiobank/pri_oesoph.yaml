@@ -1,0 +1,155 @@
+metadata:
+  phenotype: Primary Malignancy_Oesophageal
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: pri_oesoph
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 0ded7ffa-a2a9-4c5f-a718-586f32da756e
+  ontologies:
+    DOID: DOID_5041
+    GWAS: EFO_0002916
+    MESH: D004938
+    SNOMED-CT: 363402007
+    FINNGEN: C3_OESOPHAGUS
+  short_desc: A gastrointestinal system cancer that is located_in the esophagus.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1017'
+      value: oesophageal cancer
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C15
+      value: Malignant neoplasm of oesophagus
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C15
+      value: Malignant neoplasm of oesophagus
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C15
+      value: Malignant neoplasm of oesophagus
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C15
+      value: Malignant neoplasm of oesophagus
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B100.00
+      value: Malignant neoplasm of cervical oesophagus
+      type: any
+    - code: B101.00
+      value: Malignant neoplasm of thoracic oesophagus
+      type: any
+    - code: B102.00
+      value: Malignant neoplasm of abdominal oesophagus
+      type: any
+    - code: B103.00
+      value: Malignant neoplasm of upper third of oesophagus
+      type: any
+    - code: B104.00
+      value: Malignant neoplasm of middle third of oesophagus
+      type: any
+    - code: B105.00
+      value: Malignant neoplasm of lower third of oesophagus
+      type: any
+    - code: B106.00
+      value: Malignant neoplasm, overlapping lesion of oesophagus
+      type: any
+    - code: B107.00
+      value: Siewert type I adenocarcinoma
+      type: any
+    - code: B10..00
+      value: Malignant neoplasm of oesophagus
+      type: any
+    - code: B10y.00
+      value: Malignant neoplasm of other specified part of oesophagus
+      type: any
+    - code: B10z.00
+      value: Malignant neoplasm of oesophagus NOS
+      type: any
+    - code: B10z.11
+      value: Oesophageal cancer
+      type: any
+    - code: ZV10016
+      value: '[V]Personal history of malignant neoplasm of oesophagus'
+      type: prevalent
+    - code: XE1vQ
+      value: Malignant neoplasm of oesophagus NOS
+      type: any
+    - code: XaOrV
+      value: Siewert type I adenocarcinoma
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C15
+      value: Malignant neoplasm of oesophagus
+      type: any

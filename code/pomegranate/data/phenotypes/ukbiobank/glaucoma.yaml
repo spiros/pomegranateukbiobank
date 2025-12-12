@@ -1,0 +1,460 @@
+metadata:
+  phenotype: Glaucoma
+  group: Eye
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: glaucoma
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 2448260d-7281-427b-b908-71c6341a4f76
+  ontologies:
+    DOID: DOID_1686
+    GWAS: EFO_0000516
+    MESH: D005901
+    SNOMED-CT: 23986001
+    FINNGEN: H7_GLAUCOMA
+  short_desc: Glaucoma is a common eye condition where the optic nerve, which connects
+    the eye to the brain, becomes damaged.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1277'
+      value: glaucoma
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values:
+    - code: '1436'
+      value: glaucoma surgery/trabeculectomy
+      type: any
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: H40.1
+      value: Primary open-angle glaucoma
+      type: any
+    - code: H40.2
+      value: Primary angle-closure glaucoma
+      type: any
+    - code: H40.9
+      value: Glaucoma, unspecified
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: H40.1
+      value: Primary open-angle glaucoma
+      type: any
+    - code: H40.2
+      value: Primary angle-closure glaucoma
+      type: any
+    - code: H40.9
+      value: Glaucoma, unspecified
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: C60.1
+      value: Trabeculectomy
+      type: any
+    - code: C60.2
+      value: Inclusion of iris
+      type: any
+    - code: C60.3
+      value: Fixation of iris
+      type: any
+    - code: C60.4
+      value: Iridoplasty NEC
+      type: any
+    - code: C60.5
+      value: Insertion of tube into anterior chamber of eye to assist drainage of
+        aqueous humour
+      type: any
+    - code: C60.6
+      value: Viscocanulostomy
+      type: any
+    - code: C60.8
+      value: Other specified filtering operations on iris
+      type: any
+    - code: C60.9
+      value: Unspecified filtering operations on iris
+      type: any
+    - code: C61.1
+      value: Laser trabeculoplasty
+      type: any
+    - code: C61.2
+      value: Trabeculotomy
+      type: any
+    - code: C61.3
+      value: Goniotomy
+      type: any
+    - code: C61.4
+      value: Goniopuncture
+      type: any
+    - code: C61.5
+      value: Viscogonioplasty
+      type: any
+    - code: C61.8
+      value: Other specified other operations on trabecular meshwork of eye
+      type: any
+    - code: C61.9
+      value: Unspecified other operations on trabecular meshwork of eye
+      type: any
+    - code: C62.1
+      value: Iridosclerotomy
+      type: any
+    - code: C62.2
+      value: Surgical iridotomy
+      type: any
+    - code: C62.3
+      value: Laser iridotomy
+      type: any
+    - code: C62.4
+      value: Correction iridodialysis NEC
+      type: any
+    - code: C62.8
+      value: Other specified incision of iris
+      type: any
+    - code: C62.9
+      value: Unspecified incision of iris
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: C60.1
+      value: C60.1
+      type: any
+    - code: C60.2
+      value: C60.2
+      type: any
+    - code: C60.3
+      value: C60.3
+      type: any
+    - code: C60.4
+      value: C60.4
+      type: any
+    - code: C60.5
+      value: C60.5
+      type: any
+    - code: C60.6
+      value: C60.6
+      type: any
+    - code: C60.8
+      value: C60.8
+      type: any
+    - code: C60.9
+      value: C60.9
+      type: any
+    - code: C61.1
+      value: C61.1
+      type: any
+    - code: C61.2
+      value: C61.2
+      type: any
+    - code: C61.3
+      value: C61.3
+      type: any
+    - code: C61.4
+      value: C61.4
+      type: any
+    - code: C61.5
+      value: C61.5
+      type: any
+    - code: C61.8
+      value: C61.8
+      type: any
+    - code: C61.9
+      value: C61.9
+      type: any
+    - code: C62.1
+      value: C62.1
+      type: any
+    - code: C62.2
+      value: C62.2
+      type: any
+    - code: C62.3
+      value: C62.3
+      type: any
+    - code: C62.4
+      value: C62.4
+      type: any
+    - code: C62.8
+      value: C62.8
+      type: any
+    - code: C62.9
+      value: C62.9
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H40.1
+      value: Primary open-angle glaucoma
+      type: any
+    - code: H40.2
+      value: Primary angle-closure glaucoma
+      type: any
+    - code: H40.9
+      value: Glaucoma, unspecified
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H40.1
+      value: Primary open-angle glaucoma
+      type: any
+    - code: H40.2
+      value: Primary angle-closure glaucoma
+      type: any
+    - code: H40.9
+      value: Glaucoma, unspecified
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '7259000.0'
+      value: Needling of bleb following glaucoma surgery
+      type: any
+    - code: '7259100.0'
+      value: Injection of bleb following glaucoma surgery
+      type: any
+    - code: '7259200.0'
+      value: Revision of bleb NEC following glaucoma surgery
+      type: any
+    - code: '7259300.0'
+      value: Removal of releasable suture following glaucoma surgery
+      type: any
+    - code: '7259400.0'
+      value: Laser suture lysis following glaucoma surgery
+      type: any
+    - code: '7259.00'
+      value: Operations following glaucoma surgery
+      type: any
+    - code: 7259y00
+      value: Other specified operations following glaucoma surgery
+      type: any
+    - code: 7259z00
+      value: Operations following glaucoma surgery NOS
+      type: any
+    - code: '7275.00'
+      value: Pan retinal photocoagulation for glaucoma
+      type: any
+    - code: F404211
+      value: Glaucoma - absolute
+      type: any
+    - code: F450100
+      value: Open angle glaucoma with borderline intraocular pressure
+      type: any
+    - code: F451000
+      value: Unspecified open-angle glaucoma
+      type: any
+    - code: F451100
+      value: Primary open-angle glaucoma
+      type: any
+    - code: F451111
+      value: Simple chronic glaucoma
+      type: any
+    - code: F451200
+      value: Low tension glaucoma
+      type: any
+    - code: F451211
+      value: Normal pressure glaucoma
+      type: any
+    - code: F451500
+      value: Open-angle glaucoma residual stage
+      type: any
+    - code: F451.00
+      value: Open-angle glaucoma
+      type: any
+    - code: F451z00
+      value: Open-angle glaucoma NOS
+      type: any
+    - code: F452000
+      value: Unspecified primary angle-closure glaucoma
+      type: any
+    - code: F452100
+      value: Intermittent primary angle-closure glaucoma
+      type: any
+    - code: F452200
+      value: Acute primary angle-closure glaucoma
+      type: any
+    - code: F452300
+      value: Chronic primary angle-closure glaucoma
+      type: any
+    - code: F452400
+      value: Primary angle-closure glaucoma residual stage
+      type: any
+    - code: F452500
+      value: Plateau iris
+      type: any
+    - code: F452.00
+      value: Primary angle-closure glaucoma
+      type: any
+    - code: F452.11
+      value: Closed angle glaucoma
+      type: any
+    - code: F452z00
+      value: Primary angle-closure glaucoma NOS
+      type: any
+    - code: F45..00
+      value: Glaucoma
+      type: any
+    - code: F45y200
+      value: Low tension glaucoma
+      type: any
+    - code: F45y.00
+      value: Other specified forms of glaucoma
+      type: any
+    - code: F45yz00
+      value: Other specified glaucoma NOS
+      type: any
+    - code: F45z.00
+      value: Glaucoma NOS
+      type: any
+    - code: F463100
+      value: Glaucomatous subcapsular flecks
+      type: any
+    - code: F4H1400
+      value: Optic disc glaucomatous atrophy
+      type: any
+    - code: FyuG.00
+      value: '[X]Glaucoma'
+      type: any
+    - code: XaL5n
+      value: Injection of bleb following glaucoma surgery
+      type: any
+    - code: XaL5o
+      value: Revision of bleb NEC following glaucoma surgery
+      type: any
+    - code: XaL59
+      value: Removal of releasable suture following glaucoma surgery
+      type: any
+    - code: F4512
+      value: Low tension glaucoma
+      type: any
+    - code: X00ed
+      value: Plateau iris
+      type: any
+    - code: XaL5B
+      value: Other specified operations following glaucoma surgery
+      type: any
+    - code: XaL5C
+      value: Operations following glaucoma surgery NOS
+      type: any
+    - code: XaL5m
+      value: Needling of bleb following glaucoma surgery
+      type: any
+    - code: XaL5A
+      value: Laser suture lysis following glaucoma surgery
+      type: any
+    - code: XE2a8
+      value: Primary angle-closure glaucoma
+      type: any
+    - code: XE2a8
+      value: Primary angle-closure glaucoma
+      type: any
+    - code: XE15r
+      value: Blind hypertensive eye
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []
+  5326:
+    metadata:
+      desc: Ever had surgery for glaucoma or high eye pressure
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '2'
+      value: Right eye only
+      type: any
+    - code: '3'
+      value: Left eye only
+      type: any
+    - code: '4'
+      value: Both eyes
+      type: any
+  5327:
+    metadata:
+      desc: Ever had laser treatment for glaucoma or high eye pressure
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '2'
+      value: Right eye only
+      type: any
+    - code: '3'
+      value: Left eye only
+      type: any
+    - code: '4'
+      value: Both eyes
+      type: any
+  6119:
+    metadata:
+      desc: Which eye(s) affected by glaucoma
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: Right eye
+      type: any
+    - code: '2'
+      value: Left eye
+      type: any
+    - code: '3'
+      value: Both eyes
+      type: any
+  6148:
+    metadata:
+      desc: Eye problems/disorders
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '2'
+      value: Glaucoma
+      type: any

@@ -1,0 +1,178 @@
+metadata:
+  phenotype: Macular degeneration
+  group: Eye
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: macula_degen
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 57aeb75c-924f-48dd-b997-df9436f2984f
+  ontologies:
+    DOID: DOID_4448
+    GWAS: EFO_0001365
+    MESH: D008268
+    SNOMED-CT: 267611002
+    FINNGEN: DRY_AMD
+  short_desc: A retinal degeneration characterized by gradual deterioration of light-sensing
+    cells in the tissues at the back of the eye and has_symptom vision loss.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1528'
+      value: macular degeneration
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: H35.3
+      value: Degeneration of macula and posterior pole
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: H35.3
+      value: Degeneration of macula and posterior pole
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H35.3
+      value: Degeneration of macula and posterior pole
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H35.3
+      value: Degeneration of macula and posterior pole
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 2BBH.00
+      value: Retinal drusen
+      type: any
+    - code: F424200
+      value: Retinal pigment epithelium serous detachment
+      type: any
+    - code: F424300
+      value: Retinal pigment epithelium haemorrhagic detachment
+      type: any
+    - code: F424400
+      value: Retinal pigment epithelial detachment
+      type: any
+    - code: F425000
+      value: Unspecified senile macular degeneration
+      type: any
+    - code: F425100
+      value: Dry senile macular degeneration
+      type: any
+    - code: F425200
+      value: Wet senile macular degeneration
+      type: any
+    - code: F425211
+      value: Kuhnt - Junius degeneration
+      type: any
+    - code: F425700
+      value: Drusen
+      type: any
+    - code: F425.00
+      value: Degeneration of macula and posterior pole
+      type: any
+    - code: F425.11
+      value: Senile macular degeneration
+      type: any
+    - code: F425z00
+      value: Degeneration of macula or posterior pole NOS
+      type: any
+    - code: X00eG
+      value: Retinal pigment epithelial detachment
+      type: any
+    - code: XE15x
+      value: Degeneration of macula and posterior pole
+      type: any
+    - code: X75mo
+      value: Retinal drusen
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []
+  5912:
+    metadata:
+      desc: Which eye(s) affected by macular degeneration
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: Right
+      type: any
+    - code: '2'
+      value: Left
+      type: any
+    - code: '3'
+      value: Right
+      type: Both
+  6148:
+    metadata:
+      desc: Eye problems/disorders
+      time_qualifier:
+        field_id: 5923
+        type: age
+    values:
+    - code: '5'
+      value: Macular degeneration
+      type: any

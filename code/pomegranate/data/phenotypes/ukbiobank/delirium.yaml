@@ -1,0 +1,197 @@
+metadata:
+  phenotype: Delirium, not induced by alcohol and other psychoactive substances
+  group: Psychiatric
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: delirium
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 769336a9-83d1-4ac9-9837-2a3b17d1e1a9
+  ontologies:
+    DOID: DOID_8645
+    GWAS: null
+    MESH: null
+    SNOMED-CT: 191507002
+    FINNGEN: F5_DELIRIUM
+  short_desc: Delirium, not induced by alcohol and other psychoactive substances
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: F05
+      value: Delirium, not induced by alcohol and other psychoactive substances
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: F05
+      value: Delirium, not induced by alcohol and other psychoactive substances
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F05
+      value: Delirium, not induced by alcohol and other psychoactive substances
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F05
+      value: Delirium, not induced by alcohol and other psychoactive substances
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '2233.00'
+      value: O/E - delirious
+      type: any
+    - code: E001100
+      value: Presenile dementia with delirium
+      type: any
+    - code: E003.00
+      value: Senile dementia with delirium
+      type: any
+    - code: E004100
+      value: Arteriosclerotic dementia with delirium
+      type: any
+    - code: E030000
+      value: Acute confusional state, post traumatic
+      type: any
+    - code: E030100
+      value: Acute confusional state, of infective origin
+      type: any
+    - code: E030200
+      value: Acute confusional state, of endocrine origin
+      type: any
+    - code: E030300
+      value: Acute confusional state, of metabolic origin
+      type: any
+    - code: E030400
+      value: Acute confusional state, of cerebrovascular origin
+      type: any
+    - code: E030.00
+      value: Acute confusional state
+      type: any
+    - code: E030.11
+      value: Delirium - acute organic
+      type: any
+    - code: E031000
+      value: Subacute confusional state, post traumatic
+      type: any
+    - code: E031100
+      value: Subacute confusional state, of infective origin
+      type: any
+    - code: E031300
+      value: Subacute confusional state, of metabolic origin
+      type: any
+    - code: E031400
+      value: Subacute confusional state, of cerebrovascular origin
+      type: any
+    - code: E031.00
+      value: Subacute confusional state
+      type: any
+    - code: E031.11
+      value: Delirium - subacute organic
+      type: any
+    - code: E031z00
+      value: Subacute confusional state NOS
+      type: any
+    - code: Eu04000
+      value: '[X]Delirium not superimposed on dementia, so described'
+      type: any
+    - code: Eu04100
+      value: '[X]Delirium superimposed on dementia'
+      type: any
+    - code: Eu04.00
+      value: '[X]Delirium, not induced by alcohol+other psychoactive subs'
+      type: any
+    - code: Eu04.11
+      value: '[X]Acute / subacute brain syndrome'
+      type: any
+    - code: Eu04.12
+      value: '[X]Acute / subacute confusional state, nonalcoholic'
+      type: any
+    - code: Eu04.13
+      value: '[X]Acute / subacute infective psychosis'
+      type: any
+    - code: Eu04.14
+      value: '[X]Acute / subacute organic reaction'
+      type: any
+    - code: Eu04.15
+      value: '[X]Acute / subacute psycho-organic reaction'
+      type: any
+    - code: Eu04y00
+      value: '[X]Other delirium'
+      type: any
+    - code: Eu04z00
+      value: '[X]Delirium, unspecified'
+      type: any
+    - code: XE1Z7
+      value: '[X]Delirium, not induced by alcohol and other psychoactive subs'
+      type: any
+    - code: XE1Z7
+      value: '[X]Delirium, not induced by alcohol and other psychoactive subs'
+      type: any
+    - code: XE1Z8
+      value: '[X]Other delirium'
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

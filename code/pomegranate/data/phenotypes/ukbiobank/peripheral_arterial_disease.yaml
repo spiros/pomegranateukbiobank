@@ -1,0 +1,1325 @@
+metadata:
+  phenotype: Peripheral arterial disease
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: peripheral_arterial_disease
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: e903f4e1-2052-40f6-a1a0-6fa1c92467fb
+  ontologies:
+    DOID: DOID_341
+    GWAS: EFO_0004265
+    MESH: D058729
+    SNOMED-CT: 840580004
+    FINNGEN: I9_PAD
+  short_desc: A disorder of the arteries supplying the upper and lower extremity and
+    the visceral organs. This includes the mesenteric arteries, the renal arteries
+    and the aorta and excludes cerebrovascular arterial disease. Patients experience
+    cramping and pain usually in the calves and thighs while walking. The symptoms
+    subside with rest.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1067'
+      value: peripheral vascular disease
+      type: any
+    - code: '1087'
+      value: leg claudication/ intermittent claudication
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I73.1
+      value: Thromboangiitis obliterans [Buerger]
+      type: any
+    - code: I73.8
+      value: Other specified peripheral vascular diseases
+      type: any
+    - code: I73.9
+      value: Peripheral vascular disease, unspecified
+      type: any
+    - code: I74.3
+      value: Embolism and thrombosis of arteries of lower extremities
+      type: any
+    - code: I74.4
+      value: Embolism and thrombosis of arteries of extremities, unspecified
+      type: any
+    - code: I74.5
+      value: Embolism and thrombosis of iliac artery
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I73.1
+      value: Thromboangiitis obliterans [Buerger]
+      type: any
+    - code: I73.8
+      value: Other specified peripheral vascular diseases
+      type: any
+    - code: I73.9
+      value: Peripheral vascular disease, unspecified
+      type: any
+    - code: I74.3
+      value: Embolism and thrombosis of arteries of lower extremities
+      type: any
+    - code: I74.4
+      value: Embolism and thrombosis of arteries of extremities, unspecified
+      type: any
+    - code: I74.5
+      value: Embolism and thrombosis of iliac artery
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: L50
+      value: Other emergency bypass of iliac artery
+      type: any
+    - code: L50.1
+      value: Emergency bypass of common iliac artery by anastomosis of aorta to common
+        iliac artery NEC
+      type: any
+    - code: L50.2
+      value: Emergency bypass of iliac artery by anastomosis of aorta to external
+        iliac artery NEC
+      type: any
+    - code: L50.3
+      value: Emergency bypass of artery of leg by anastomosis of aorta to common femoral
+        artery NEC
+      type: any
+    - code: L50.4
+      value: Emergency bypass of artery of leg by anastomosis of aorta to deep femoral
+        artery NEC
+      type: any
+    - code: L50.5
+      value: Emergency bypass of iliac artery by anastomosis of iliac artery to iliac
+        artery NEC
+      type: any
+    - code: L50.6
+      value: Emergency bypass of artery of leg by anastomosis of iliac artery to femoral
+        artery NEC
+      type: any
+    - code: L50.8
+      value: Other specified other emergency bypass of iliac artery
+      type: any
+    - code: L50.9
+      value: Unspecified other emergency bypass of iliac artery
+      type: any
+    - code: L51
+      value: Other bypass of iliac artery
+      type: any
+    - code: L51.1
+      value: Bypass of common iliac artery by anastomosis of aorta to common iliac
+        artery NEC
+      type: any
+    - code: L51.2
+      value: Bypass of iliac artery by anastomosis of aorta to external iliac artery
+        NEC
+      type: any
+    - code: L51.3
+      value: Bypass of artery of leg by anastomosis of aorta to common femoral artery
+        NEC
+      type: any
+    - code: L51.4
+      value: Bypass of artery of leg by anastomosis of aorta to deep femoral artery
+        NEC
+      type: any
+    - code: L51.5
+      value: Bypass of iliac artery by anastomosis of iliac artery to iliac artery
+        NEC
+      type: any
+    - code: L51.6
+      value: Bypass of artery of leg by anastomosis of iliac artery to femoral artery
+        NEC
+      type: any
+    - code: L51.8
+      value: Other specified other bypass of iliac artery
+      type: any
+    - code: L51.9
+      value: Unspecified other bypass of iliac artery
+      type: any
+    - code: L52
+      value: Reconstruction of iliac artery
+      type: any
+    - code: L52.1
+      value: Endarterectomy of iliac artery and patch repair of iliac artery
+      type: any
+    - code: L52.2
+      value: Endarterectomy of iliac artery NEC
+      type: any
+    - code: L52.8
+      value: Other specified reconstruction of iliac artery
+      type: any
+    - code: L52.9
+      value: Unspecified reconstruction of iliac artery
+      type: any
+    - code: L53
+      value: Other open operations on iliac artery
+      type: any
+    - code: L53.1
+      value: Repair of iliac artery NEC
+      type: any
+    - code: L53.2
+      value: Open embolectomy of iliac artery
+      type: any
+    - code: L54.1
+      value: Percutaneous transluminal angioplasty of iliac artery
+      type: any
+    - code: L54.2
+      value: Percutaneous transluminal embolectomy of iliac artery
+      type: any
+    - code: L54.4
+      value: Percutaneous transluminal insertion of stent into iliac artery
+      type: any
+    - code: L54.8
+      value: Other specified transluminal operations on iliac artery
+      type: any
+    - code: L54.9
+      value: Unspecified transluminal operations on iliac artery
+      type: any
+    - code: L58
+      value: Other emergency bypass of femoral artery
+      type: any
+    - code: L58.1
+      value: Emergency bypass of femoral artery by anastomosis of femoral artery to
+        femoral artery NEC
+      type: any
+    - code: L58.2
+      value: Emergency bypass of femoral artery by anastomosis of femoral artery to
+        popliteal artery using prosthesis NEC
+      type: any
+    - code: L58.3
+      value: Emergency bypass of femoral artery by anastomosis of femoral artery to
+        popliteal artery using vein graft NEC
+      type: any
+    - code: L58.4
+      value: Emergency bypass of femoral artery by anastomosis of femoral artery to
+        tibial artery using prosthesis NEC
+      type: any
+    - code: L58.5
+      value: Emergency bypass of femoral artery by anastomosis of femoral artery to
+        tibial artery using vein graft NEC
+      type: any
+    - code: L58.6
+      value: Emergency bypass of femoral artery by anastomosis of femoral artery to
+        peroneal artery using prosthesis NEC
+      type: any
+    - code: L58.7
+      value: Emergency bypass of femoral artery by anastomosis of femoral artery to
+        peroneal artery using vein graft NEC
+      type: any
+    - code: L58.8
+      value: Other specified other emergency bypass of femoral artery
+      type: any
+    - code: L58.9
+      value: Unspecified other emergency bypass of femoral artery
+      type: any
+    - code: L59
+      value: Other bypass of femoral artery
+      type: any
+    - code: L59.1
+      value: Bypass of femoral artery by anastomosis of femoral artery to femoral
+        artery NEC
+      type: any
+    - code: L59.2
+      value: Bypass of femoral artery by anastomosis of femoral artery to popliteal
+        artery using prosthesis NEC
+      type: any
+    - code: L59.3
+      value: Bypass of femoral artery by anastomosis of femoral artery to popliteal
+        artery using vein graft NEC
+      type: any
+    - code: L59.4
+      value: Bypass of femoral artery by anastomosis of femoral artery to tibial artery
+        using prosthesis NEC
+      type: any
+    - code: L59.5
+      value: Bypass of femoral artery by anastomosis of femoral artery to tibial artery
+        using vein graft NEC
+      type: any
+    - code: L59.6
+      value: Bypass of femoral artery by anastomosis of femoral artery to peroneal
+        artery using prosthesis NEC
+      type: any
+    - code: L59.7
+      value: Bypass of femoral artery by anastomosis of femoral artery to peroneal
+        artery using vein graft NEC
+      type: any
+    - code: L59.8
+      value: Other specified other bypass of femoral artery
+      type: any
+    - code: L59.9
+      value: Unspecified other bypass of femoral artery
+      type: any
+    - code: L60
+      value: Reconstruction of femoral artery
+      type: any
+    - code: L60.1
+      value: Endarterectomy of femoral artery and patch repair of femoral artery
+      type: any
+    - code: L60.2
+      value: Endarterectomy of femoral artery NEC
+      type: any
+    - code: L60.3
+      value: Profundoplasty of femoral artery and patch repair of deep femoral artery
+      type: any
+    - code: L60.4
+      value: Profundoplasty of femoral artery NEC
+      type: any
+    - code: L60.8
+      value: Other specified reconstruction of femoral artery
+      type: any
+    - code: L60.9
+      value: Unspecified reconstruction of femoral artery
+      type: any
+    - code: L62
+      value: Other open operations on femoral artery
+      type: any
+    - code: L62.1
+      value: Repair of femoral artery NEC
+      type: any
+    - code: L62.2
+      value: Open embolectomy of femoral artery
+      type: any
+    - code: L62.8
+      value: Other specified other open operations on femoral artery
+      type: any
+    - code: L62.9
+      value: Unspecified other open operations on femoral artery
+      type: any
+    - code: L63.1
+      value: Percutaneous transluminal angioplasty of femoral artery
+      type: any
+    - code: L63.2
+      value: Percutaneous transluminal embolectomy of femoral artery
+      type: any
+    - code: L63.3
+      value: Percutaneous transluminal embolisation of femoral artery
+      type: any
+    - code: L63.5
+      value: Percutaneous transluminal insertion of stent into femoral artery
+      type: any
+    - code: L65
+      value: Revision of reconstruction of artery
+      type: any
+    - code: L65.1
+      value: Revision of reconstruction involving aorta
+      type: any
+    - code: L65.2
+      value: Revision of reconstruction involving iliac artery
+      type: any
+    - code: L65.3
+      value: Revision of reconstruction involving femoral artery
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: L50
+      value: L50
+      type: any
+    - code: L50.1
+      value: L50.1
+      type: any
+    - code: L50.2
+      value: L50.2
+      type: any
+    - code: L50.3
+      value: L50.3
+      type: any
+    - code: L50.4
+      value: L50.4
+      type: any
+    - code: L50.5
+      value: L50.5
+      type: any
+    - code: L50.6
+      value: L50.6
+      type: any
+    - code: L50.8
+      value: L50.8
+      type: any
+    - code: L50.9
+      value: L50.9
+      type: any
+    - code: L51
+      value: L51
+      type: any
+    - code: L51.1
+      value: L51.1
+      type: any
+    - code: L51.2
+      value: L51.2
+      type: any
+    - code: L51.3
+      value: L51.3
+      type: any
+    - code: L51.4
+      value: L51.4
+      type: any
+    - code: L51.5
+      value: L51.5
+      type: any
+    - code: L51.6
+      value: L51.6
+      type: any
+    - code: L51.8
+      value: L51.8
+      type: any
+    - code: L51.9
+      value: L51.9
+      type: any
+    - code: L52
+      value: L52
+      type: any
+    - code: L52.1
+      value: L52.1
+      type: any
+    - code: L52.2
+      value: L52.2
+      type: any
+    - code: L52.8
+      value: L52.8
+      type: any
+    - code: L52.9
+      value: L52.9
+      type: any
+    - code: L53
+      value: L53
+      type: any
+    - code: L53.1
+      value: L53.1
+      type: any
+    - code: L53.2
+      value: L53.2
+      type: any
+    - code: L54.1
+      value: L54.1
+      type: any
+    - code: L54.2
+      value: L54.2
+      type: any
+    - code: L54.4
+      value: L54.4
+      type: any
+    - code: L54.8
+      value: L54.8
+      type: any
+    - code: L54.9
+      value: L54.9
+      type: any
+    - code: L58
+      value: L58
+      type: any
+    - code: L58.1
+      value: L58.1
+      type: any
+    - code: L58.2
+      value: L58.2
+      type: any
+    - code: L58.3
+      value: L58.3
+      type: any
+    - code: L58.4
+      value: L58.4
+      type: any
+    - code: L58.5
+      value: L58.5
+      type: any
+    - code: L58.6
+      value: L58.6
+      type: any
+    - code: L58.7
+      value: L58.7
+      type: any
+    - code: L58.8
+      value: L58.8
+      type: any
+    - code: L58.9
+      value: L58.9
+      type: any
+    - code: L59
+      value: L59
+      type: any
+    - code: L59.1
+      value: L59.1
+      type: any
+    - code: L59.2
+      value: L59.2
+      type: any
+    - code: L59.3
+      value: L59.3
+      type: any
+    - code: L59.4
+      value: L59.4
+      type: any
+    - code: L59.5
+      value: L59.5
+      type: any
+    - code: L59.6
+      value: L59.6
+      type: any
+    - code: L59.7
+      value: L59.7
+      type: any
+    - code: L59.8
+      value: L59.8
+      type: any
+    - code: L59.9
+      value: L59.9
+      type: any
+    - code: L60
+      value: L60
+      type: any
+    - code: L60.1
+      value: L60.1
+      type: any
+    - code: L60.2
+      value: L60.2
+      type: any
+    - code: L60.3
+      value: L60.3
+      type: any
+    - code: L60.4
+      value: L60.4
+      type: any
+    - code: L60.8
+      value: L60.8
+      type: any
+    - code: L60.9
+      value: L60.9
+      type: any
+    - code: L62
+      value: L62
+      type: any
+    - code: L62.1
+      value: L62.1
+      type: any
+    - code: L62.2
+      value: L62.2
+      type: any
+    - code: L62.8
+      value: L62.8
+      type: any
+    - code: L62.9
+      value: L62.9
+      type: any
+    - code: L63.1
+      value: L63.1
+      type: any
+    - code: L63.2
+      value: L63.2
+      type: any
+    - code: L63.3
+      value: L63.3
+      type: any
+    - code: L63.5
+      value: L63.5
+      type: any
+    - code: L65
+      value: L65
+      type: any
+    - code: L65.1
+      value: L65.1
+      type: any
+    - code: L65.2
+      value: L65.2
+      type: any
+    - code: L65.3
+      value: L65.3
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I73.1
+      value: Thromboangiitis obliterans [Buerger]
+      type: any
+    - code: I73.8
+      value: Other specified peripheral vascular diseases
+      type: any
+    - code: I73.9
+      value: Peripheral vascular disease, unspecified
+      type: any
+    - code: I74.3
+      value: Embolism and thrombosis of arteries of lower extremities
+      type: any
+    - code: I74.4
+      value: Embolism and thrombosis of arteries of extremities, unspecified
+      type: any
+    - code: I74.5
+      value: Embolism and thrombosis of iliac artery
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I73.1
+      value: Thromboangiitis obliterans [Buerger]
+      type: any
+    - code: I73.8
+      value: Other specified peripheral vascular diseases
+      type: any
+    - code: I73.9
+      value: Peripheral vascular disease, unspecified
+      type: any
+    - code: I74.3
+      value: Embolism and thrombosis of arteries of lower extremities
+      type: any
+    - code: I74.4
+      value: Embolism and thrombosis of arteries of extremities, unspecified
+      type: any
+    - code: I74.5
+      value: Embolism and thrombosis of iliac artery
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14F7.00
+      value: 'H/O: arterial lower limb ulcer'
+      type: prevalent
+    - code: 14NB.00
+      value: 'H/O: Peripheral vascular disease procedure'
+      type: prevalent
+    - code: 2G63.00
+      value: Ischaemic toe
+      type: any
+    - code: A3A0F00
+      value: Gas gangrene-foot
+      type: any
+    - code: C107.00
+      value: Diabetes mellitus with peripheral circulatory disorder
+      type: any
+    - code: C107000
+      value: Diabetes mellitus, juvenile +peripheral circulatory disorder
+      type: any
+    - code: C107100
+      value: Diabetes mellitus, adult, + peripheral circulatory disorder
+      type: any
+    - code: C107300
+      value: IDDM with peripheral circulatory disorder
+      type: any
+    - code: C107400
+      value: NIDDM with peripheral circulatory disorder
+      type: any
+    - code: C107z00
+      value: Diabetes mellitus NOS with peripheral circulatory disorder
+      type: any
+    - code: C108G00
+      value: Insulin dependent diab mell with peripheral angiopathy
+      type: any
+    - code: C109F00
+      value: Non-insulin-dependent d m with peripheral angiopath
+      type: any
+    - code: C109F11
+      value: Type II diabetes mellitus with peripheral angiopathy
+      type: any
+    - code: C109F12
+      value: Type 2 diabetes mellitus with peripheral angiopathy
+      type: any
+    - code: C10EG00
+      value: Type 1 diabetes mellitus with peripheral angiopathy
+      type: any
+    - code: C10FF00
+      value: Type 2 diabetes mellitus with peripheral angiopathy
+      type: any
+    - code: G700.11
+      value: Aorto-iliac disease
+      type: any
+    - code: G702.00
+      value: Extremity artery atheroma
+      type: any
+    - code: G702z00
+      value: Extremity artery atheroma NOS
+      type: any
+    - code: G73..00
+      value: Other peripheral vascular disease
+      type: any
+    - code: G73..11
+      value: Peripheral ischaemic vascular disease
+      type: any
+    - code: G73..12
+      value: Ischaemia of legs
+      type: any
+    - code: G73..13
+      value: Peripheral ischaemia
+      type: any
+    - code: G731.00
+      value: Thromboangiitis obliterans
+      type: any
+    - code: G731000
+      value: Buerger's disease
+      type: any
+    - code: G731z00
+      value: Thromboangiitis obliterans NOS
+      type: any
+    - code: G732.00
+      value: Peripheral gangrene
+      type: any
+    - code: G732000
+      value: Gangrene of toe
+      type: any
+    - code: G732100
+      value: Gangrene of foot
+      type: any
+    - code: G733.00
+      value: Ischaemic foot
+      type: any
+    - code: G73y.00
+      value: Other specified peripheral vascular disease
+      type: any
+    - code: G73y000
+      value: Diabetic peripheral angiopathy
+      type: any
+    - code: G73y100
+      value: Peripheral angiopathic disease EC NOS
+      type: any
+    - code: G73y200
+      value: Acrocyanosis
+      type: any
+    - code: G73y400
+      value: Acroparaesthesia - Schultze's type
+      type: any
+    - code: G73y500
+      value: Acroparaesthesia - Nothnagel's type
+      type: any
+    - code: G73y511
+      value: Nothnagel's vasomotor acroparaesthesia
+      type: any
+    - code: G73y600
+      value: Acroparaesthesia - unspecified
+      type: any
+    - code: G73y700
+      value: Erythrocyanosis
+      type: any
+    - code: G73y800
+      value: Erythromelalgia
+      type: any
+    - code: G73yz00
+      value: Other specified peripheral vascular disease NOS
+      type: any
+    - code: G73z.00
+      value: Peripheral vascular disease NOS
+      type: any
+    - code: G73z000
+      value: Intermittent claudication
+      type: any
+    - code: G73z011
+      value: Claudication
+      type: any
+    - code: G73zz00
+      value: Peripheral vascular disease NOS
+      type: any
+    - code: G740.12
+      value: Aortoiliac obstruction
+      type: any
+    - code: G742z00
+      value: Peripheral arterial embolism and thrombosis NOS
+      type: any
+    - code: Gyu7400
+      value: '[X]Other specified peripheral vascular diseases'
+      type: any
+    - code: M271.12
+      value: Ischaemic leg ulcer
+      type: any
+    - code: M271000
+      value: Ischaemic ulcer diabetic foot
+      type: any
+    - code: M271300
+      value: Arterial leg ulcer
+      type: any
+    - code: M271400
+      value: Mixed venous and arterial leg ulcer
+      type: any
+    - code: R054200
+      value: '[D]Gangrene of toe in diabetic'
+      type: any
+    - code: R054300
+      value: '[D]Widespread diabetic foot gangrene'
+      type: any
+    - code: R055000
+      value: '[D]Failure of peripheral circulation'
+      type: any
+    - code: R055011
+      value: '[D]Peripheral circulatory failure'
+      type: any
+    - code: G742400
+      value: Embolism and thrombosis of the femoral artery
+      type: any
+    - code: G742500
+      value: Embolism and thrombosis of the popliteal artery
+      type: any
+    - code: G742600
+      value: Embolism and thrombosis of the anterior tibial artery
+      type: any
+    - code: G742700
+      value: Embolism and thrombosis of the dorsalis pedis artery
+      type: any
+    - code: G742900
+      value: Embolism and thrombosis of a leg artery NOS
+      type: any
+    - code: G74y000
+      value: Embolism and/or thrombosis of the common iliac artery
+      type: any
+    - code: G74y100
+      value: Embolism and/or thrombosis of the internal iliac artery
+      type: any
+    - code: G74y200
+      value: Embolism and/or thrombosis of the external iliac artery
+      type: any
+    - code: G74y300
+      value: Embolism and thrombosis of the iliac artery unspecified
+      type: any
+    - code: 7A10000
+      value: Emerg aortic bypass by anastomosis axillary to femoral art
+      type: any
+    - code: 7A10100
+      value: Bypass aorta by anastomosis axillary to femoral artery NEC
+      type: any
+    - code: 7A10200
+      value: Axillo-bifemoral bypass graft
+      type: any
+    - code: 7A10300
+      value: Axillo-unifemoral PTFE bypass graft
+      type: any
+    - code: 7A12.00
+      value: Other bypass of bifurcation of aorta
+      type: any
+    - code: 7A12000
+      value: Emerg bypass bifurc aorta by anast aorta to femoral artery
+      type: any
+    - code: 7A12100
+      value: Bypass bifurc aorta by anastom aorta to femoral artery NEC
+      type: any
+    - code: 7A12111
+      value: Aorto bifemoral graft
+      type: any
+    - code: 7A12112
+      value: Dacron aortofemoral Y graft
+      type: any
+    - code: 7A12300
+      value: Bypass bifurcation aorta by anastom aorta to iliac artery
+      type: any
+    - code: 7A12311
+      value: Aorto biiliac graft
+      type: any
+    - code: 7A12312
+      value: Dacron aortoiliac Y graft
+      type: any
+    - code: 7A12y00
+      value: Other specified other bypass of bifurcation of aorta
+      type: any
+    - code: 7A12z00
+      value: Other bypass of bifurcation of aorta NOS
+      type: any
+    - code: 7A19200
+      value: Open embolectomy of bifurcation of aorta
+      type: any
+    - code: 7A41.00
+      value: Other bypass of iliac artery
+      type: any
+    - code: 7A41000
+      value: Emerg bypass iliac art by iliac/femoral art anastomosis NEC
+      type: any
+    - code: 7A41100
+      value: Bypass iliac artery by iliac/femoral artery anastomosis NEC
+      type: any
+    - code: 7A41200
+      value: Emerg bypass iliac artery by femoral/femoral art anast NEC
+      type: any
+    - code: 7A41211
+      value: Emergency femoro-femoral prosthetic cross over graft
+      type: any
+    - code: 7A41300
+      value: Bypass iliac artery by femoral/femoral art anastomosis NEC
+      type: any
+    - code: 7A41311
+      value: Femoro-femoral prosthetic cross over graft
+      type: any
+    - code: 7A41400
+      value: Emerg bypass comm iliac art by aorta/com iliac art anast NEC
+      type: any
+    - code: 7A41600
+      value: Emerg bypass leg artery by aorta/com fem art anastomosis NEC
+      type: any
+    - code: 7A41900
+      value: Bypass common iliac artery by aorta/com iliac art anast NEC
+      type: any
+    - code: 7A41B00
+      value: Bypass leg artery by aorta/com femoral art anastomosis NEC
+      type: any
+    - code: 7A41C00
+      value: Bypass leg artery by aorta/deep femoral art anastomosis NEC
+      type: any
+    - code: 7A41F00
+      value: Ilio-femoral prosthetic cross over graft
+      type: any
+    - code: 7A41y00
+      value: Other specified other bypass of iliac artery
+      type: any
+    - code: 7A41z00
+      value: Other bypass of iliac artery NOS
+      type: any
+    - code: 7A42.00
+      value: Reconstruction of iliac artery
+      type: any
+    - code: 7A42.11
+      value: Reconstruction of common iliac artery
+      type: any
+    - code: 7A42000
+      value: Endarterectomy and patch repair of iliac artery
+      type: any
+    - code: 7A42011
+      value: Endarterectomy and patch repair of common iliac artery
+      type: any
+    - code: 7A42012
+      value: Iliac endarterectomy and patch
+      type: any
+    - code: 7A42100
+      value: Endarterectomy of iliac artery NEC
+      type: any
+    - code: 7A42111
+      value: Endarterectomy of common iliac artery NEC
+      type: any
+    - code: 7A42y00
+      value: Other specified reconstruction of iliac artery
+      type: any
+    - code: 7A42z00
+      value: Reconstruction of iliac artery NOS
+      type: any
+    - code: 7A43.00
+      value: Other open operations on iliac artery
+      type: any
+    - code: 7A43.11
+      value: Other open operations on common iliac artery
+      type: any
+    - code: 7A43000
+      value: Repair of iliac artery NEC
+      type: any
+    - code: 7A43011
+      value: Repair of common iliac artery NEC
+      type: any
+    - code: 7A43100
+      value: Open embolectomy of iliac artery
+      type: any
+    - code: 7A43111
+      value: Open embolectomy of common iliac artery
+      type: any
+    - code: 7A43300
+      value: Open insertion of iliac artery stent
+      type: any
+    - code: 7A44000
+      value: Percutaneous transluminal angioplasty of iliac artery
+      type: any
+    - code: 7A44100
+      value: Percutaneous transluminal embolectomy of iliac artery
+      type: any
+    - code: 7A44300
+      value: Insertion of iliac artery stent
+      type: any
+    - code: 7A44400
+      value: Percutaneous transluminal insertion of iliac artery stent
+      type: any
+    - code: 7A44y00
+      value: Other specified transluminal operation on iliac artery
+      type: any
+    - code: 7A44z00
+      value: Transluminal operation on iliac artery NOS
+      type: any
+    - code: 7A47.00
+      value: Other emergency bypass of femoral artery or popliteal artery
+      type: any
+    - code: 7A47.11
+      value: Other emerg bypass femoral or popliteal art by anastomosis
+      type: any
+    - code: 7A47.13
+      value: Other emergency bypass of deep femoral artery
+      type: any
+    - code: 7A47.14
+      value: Other emergency bypass of popliteal artery
+      type: any
+    - code: 7A47.15
+      value: Other emergency bypass of superficial femoral artery
+      type: any
+    - code: 7A47.16
+      value: Other emergency bypass of femoral artery
+      type: any
+    - code: 7A47000
+      value: Emerg bypass femoral art by fem/pop art anast c prosth NEC
+      type: any
+    - code: 7A47100
+      value: Emerg bypass popliteal art by pop/pop art anast c prosth NEC
+      type: any
+    - code: 7A47200
+      value: Emerg bypass femoral art by fem/pop a anast c vein graft NEC
+      type: any
+    - code: 7A47300
+      value: Emerg bypass pop art by pop/pop art anast c vein graft NEC
+      type: any
+    - code: 7A47400
+      value: Emerg bypass femoral art by fem/tib art anast c prosth NEC
+      type: any
+    - code: 7A47600
+      value: Emerg bypass femoral art by fem/tib a anast c vein graft NEC
+      type: any
+    - code: 7A47700
+      value: Emerg bypass pop art by pop/tib art anast c vein graft NEC
+      type: any
+    - code: 7A47B00
+      value: Emerg bypass pop art by pop/peron art anast c vein graft NEC
+      type: any
+    - code: 7A47C00
+      value: Emerg bypass femoral artery by fem/fem art anastomosis NEC
+      type: any
+    - code: 7A47D00
+      value: Emerg bypass popliteal artery by pop/fem art anastomosis NEC
+      type: any
+    - code: 7A47y00
+      value: Other emergency bypass of femoral or popliteal artery OS
+      type: any
+    - code: 7A47z00
+      value: Other emergency bypass of femoral or popliteal artery NOS
+      type: any
+    - code: 7A48.00
+      value: Other bypass of femoral artery or popliteal artery
+      type: any
+    - code: 7A48.11
+      value: Other bypass of femoral or popliteal artery by anastomosis
+      type: any
+    - code: 7A48.12
+      value: Other bypass of common femoral artery
+      type: any
+    - code: 7A48.14
+      value: Other bypass of femoral artery
+      type: any
+    - code: 7A48.15
+      value: Other bypass of popliteal artery
+      type: any
+    - code: 7A48.16
+      value: Other bypass of superficial femoral artery
+      type: any
+    - code: 7A48000
+      value: Bypass femoral artery by fem/pop art anast c prosthesis NEC
+      type: any
+    - code: 7A48100
+      value: Bypass popliteal artery by pop/pop a anast c prosthesis NEC
+      type: any
+    - code: 7A48200
+      value: Bypass femoral artery by fem/pop art anast c vein graft NEC
+      type: any
+    - code: 7A48300
+      value: Bypass popliteal artery by pop/pop a anast c vein graft NEC
+      type: any
+    - code: 7A48400
+      value: Bypass femoral artery by fem/tib art anast c prosthesis NEC
+      type: any
+    - code: 7A48500
+      value: Bypass popliteal artery by pop/tib a anast c prosthesis NEC
+      type: any
+    - code: 7A48600
+      value: Bypass femoral artery by fem/tib art anast c vein graft NEC
+      type: any
+    - code: 7A48700
+      value: Bypass popliteal artery by pop/tib a anast c vein graft NEC
+      type: any
+    - code: 7A48800
+      value: Bypass femoral artery by fem/peron a anast c prosthesis NEC
+      type: any
+    - code: 7A48A00
+      value: Bypass femoral artery by fem/peron a anast c vein graft NEC
+      type: any
+    - code: 7A48B00
+      value: Bypass popliteal art by pop/peron art anast c vein graft NEC
+      type: any
+    - code: 7A48C00
+      value: Bypass femoral artery by femoral/femoral art anastomosis NEC
+      type: any
+    - code: 7A48D00
+      value: Bypass popliteal artery by pop/fem artery anastomosis NEC
+      type: any
+    - code: 7A48E00
+      value: Femoro-femoral prosthetic cross over graft
+      type: any
+    - code: 7A48y00
+      value: Other bypass of femoral artery or popliteal artery OS
+      type: any
+    - code: 7A48z00
+      value: Other bypass of femoral artery or popliteal artery NOS
+      type: any
+    - code: 7A49.00
+      value: Reconstruction of femoral artery or popliteal artery
+      type: any
+    - code: 7A49.11
+      value: Reconstruction of common femoral artery
+      type: any
+    - code: 7A49.13
+      value: Reconstruction of femoral artery
+      type: any
+    - code: 7A49.14
+      value: Reconstruction of popliteal artery
+      type: any
+    - code: 7A49.15
+      value: Reconstruction of superficial femoral artery
+      type: any
+    - code: 7A49000
+      value: Endarterectomy and patch repair of femoral artery
+      type: any
+    - code: 7A49100
+      value: Endarterectomy and patch repair of popliteal artery
+      type: any
+    - code: 7A49200
+      value: Endarterectomy of femoral artery NEC
+      type: any
+    - code: 7A49300
+      value: Endarterectomy of popliteal artery NEC
+      type: any
+    - code: 7A49400
+      value: Profundoplasty femoral artery & patch repair deep fem artery
+      type: any
+    - code: 7A49500
+      value: Profundoplasty and patch repair of popliteal artery
+      type: any
+    - code: 7A49600
+      value: Profundoplasty of femoral artery NEC
+      type: any
+    - code: 7A49700
+      value: Profundoplasty of popliteal artery NEC
+      type: any
+    - code: 7A49800
+      value: Reconstruction of femoral artery with vein graft
+      type: any
+    - code: 7A49900
+      value: Reconstruction of popliteal artery with vein graft
+      type: any
+    - code: 7A49y00
+      value: Reconstruction of femoral or popliteal artery OS
+      type: any
+    - code: 7A49z00
+      value: Reconstruction of femoral or popliteal artery NOS
+      type: any
+    - code: 7A4A.00
+      value: Other open operations on femoral artery or popliteal artery
+      type: any
+    - code: 7A4A.11
+      value: Other open operations on common femoral artery
+      type: any
+    - code: 7A4A.13
+      value: Other open operations on popliteal artery
+      type: any
+    - code: 7A4A.14
+      value: Other open operations on superficial femoral artery
+      type: any
+    - code: 7A4A000
+      value: Repair of femoral artery NEC
+      type: any
+    - code: 7A4A100
+      value: Repair of popliteal artery NEC
+      type: any
+    - code: 7A4A200
+      value: Open embolectomy of femoral artery
+      type: any
+    - code: 7A4A211
+      value: Open thrombectomy of femoral artery
+      type: any
+    - code: 7A4A212
+      value: Open femoral embolectomy
+      type: any
+    - code: 7A4A300
+      value: Open embolectomy popliteal artery
+      type: any
+    - code: 7A4A311
+      value: Open thrombectomy of popliteal artery
+      type: any
+    - code: 7A4A700
+      value: Repair of femoral artery with temporary silastic shunt
+      type: any
+    - code: 7A4A800
+      value: Repair of popliteal artery with temporary silastic shunt
+      type: any
+    - code: 7A4Ay00
+      value: Other open operation on femoral or popliteal artery OS
+      type: any
+    - code: 7A4B000
+      value: Percutaneous transluminal angioplasty of femoral artery
+      type: any
+    - code: 7A4B100
+      value: Percutaneous transluminal angioplasty of popliteal artery
+      type: any
+    - code: 7A4B200
+      value: Percutaneous transluminal embolectomy of femoral artery
+      type: any
+    - code: 7A4B300
+      value: Percutaneous transluminal embolectomy of popliteal artery
+      type: any
+    - code: 7A4B400
+      value: Percutaneous transluminal embolisation of femoral artery
+      type: any
+    - code: 7A4B500
+      value: Percutaneous transluminal embolisation of popliteal artery
+      type: any
+    - code: 7A4B800
+      value: Percut translum thrombolysis femoral graft streptokinase
+      type: any
+    - code: 7A4B900
+      value: Percutaneous transluminal insertion of stent femoral artery
+      type: any
+    - code: 7A50.00
+      value: Revision of reconstruction of artery
+      type: any
+    - code: 7A50000
+      value: Revision of reconstruction involving aorta
+      type: any
+    - code: 7A50100
+      value: Revision of reconstruction involving iliac artery
+      type: any
+    - code: 7A50200
+      value: Revision of reconstruction involving femoral artery
+      type: any
+    - code: 7A50300
+      value: Revision of reconstruction of popliteal artery
+      type: any
+    - code: XE0F1
+      value: Bypass of bifurcation of aorta by anastomosis of aorta to iliac artery
+      type: any
+    - code: XE0FK
+      value: Other bypass of iliac artery
+      type: any
+    - code: XE0VP
+      value: Other peripheral vascular disease
+      type: any
+    - code: XE0FZ
+      value: Reconstruction of femoral artery or popliteal artery
+      type: any
+    - code: XE0FP
+      value: Endarterectomy of iliac artery NEC
+      type: any
+    - code: Xa84U
+      value: Ischaemic foot
+      type: any
+    - code: XaDmi
+      value: Percutaneous transluminal insertion of iliac artery stent
+      type: any
+    - code: XE0VO
+      value: Aortic atherosclerosis
+      type: any
+    - code: XaBL7
+      value: 'H/O: Peripheral vascular disease procedure'
+      type: prevalent
+    - code: XaBrm
+      value: Percutaneous transluminal thrombolysis of femoral graft using streptokinase
+      type: any
+    - code: XE0FY
+      value: Other bypass of femoral artery or popliteal artery
+      type: any
+    - code: XE10I
+      value: Diabetes mellitus with peripheral circulatory disorder
+      type: any
+    - code: Xaa0J
+      value: 'H/O: arterial lower limb ulcer'
+      type: prevalent
+    - code: XE1BQ
+      value: Non-pressure ulcer lower limb
+      type: any
+    - code: XaMNe
+      value: Percutaneous transluminal insertion of stent into femoral artery
+      type: any
+    - code: XE0FN
+      value: Reconstruction of iliac artery
+      type: any
+    - code: XE0FL
+      value: Emergency bypass of iliac artery by anastomosis of femoral artery to
+        femoral artery NEC
+      type: any
+    - code: XE0FQ
+      value: Other open operations on iliac artery
+      type: any
+    - code: XE0FR
+      value: Repair of iliac artery NEC
+      type: any
+    - code: XE0VR
+      value: Intermittent claudication
+      type: any
+    - code: XE0Fa
+      value: Other open operations on femoral artery or popliteal artery
+      type: any
+    - code: XE0FX
+      value: Other emergency bypass of femoral artery or popliteal artery
+      type: any
+    - code: XE0F0
+      value: Bypass of bifurcation of aorta by anastomosis of aorta to femoral artery
+        NEC
+      type: any
+    - code: G73z.
+      value: Peripheral vascular disease NOS
+      type: any
+    - code: XE0FO
+      value: Endarterectomy of iliac artery and patch repair of iliac artery
+      type: any
+    - code: XaB5X
+      value: Ischaemic toe
+      type: any
+    - code: G7310
+      value: Thromboangiitis obliterans
+      type: any
+    - code: XE0FM
+      value: Bypass of iliac artery by anastomosis of femoral artery to femoral artery
+        NEC
+      type: any
+    - code: XE0VT
+      value: Embolism and thrombosis of the abdominal aorta
+      type: any
+    - code: XaDmh
+      value: Open insertion of iliac artery stent
+      type: any
+    - code: XE0FS
+      value: Open embolectomy of iliac artery
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

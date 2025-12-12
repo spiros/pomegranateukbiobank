@@ -1,0 +1,595 @@
+metadata:
+  phenotype: Parasitic infections
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: parasitic
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: d12b0cba-330d-4e29-ae6e-4a330be88568
+  ontologies:
+    DOID: DOID_1398
+    GWAS: EFO_0001067
+    MESH: D010272
+    SNOMED-CT: '17322007'
+    FINNGEN: AB1_INFECTIONS
+  short_desc: Infections or infestations with parasites. They are often contracted
+    through contact with an intermediate vector, but may occur as the result of direct
+    exposure.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1443'
+      value: schistosomiasis/bilharzia
+      type: any
+    - code: '1675'
+      value: giardia / giardiasis
+      type: any
+    - code: '1441'
+      value: malaria
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: A06
+      value: Amoebiasis
+      type: any
+    - code: A07
+      value: Other protozoal intestinal diseases
+      type: any
+    - code: A59
+      value: Trichomoniasis
+      type: any
+    - code: B50
+      value: Plasmodium falciparum malaria
+      type: any
+    - code: B51
+      value: Plasmodium vivax malaria
+      type: any
+    - code: B52
+      value: Plasmodium malariae malaria
+      type: any
+    - code: B53
+      value: Other parasitologically confirmed malaria
+      type: any
+    - code: B54
+      value: Unspecified malaria
+      type: any
+    - code: B55
+      value: Leishmaniasis
+      type: any
+    - code: B56
+      value: African trypanosomiasis
+      type: any
+    - code: B57
+      value: Chagas' disease
+      type: any
+    - code: B58
+      value: Toxoplasmosis
+      type: any
+    - code: B60
+      value: Other protozoal diseases, not elsewhere classified
+      type: any
+    - code: B64
+      value: Unspecified protozoal disease
+      type: any
+    - code: B65
+      value: Schistosomiasis [bilharziasis]
+      type: any
+    - code: B66
+      value: Other fluke infections
+      type: any
+    - code: B67
+      value: Echinococcosis
+      type: any
+    - code: B68
+      value: Taeniasis
+      type: any
+    - code: B69
+      value: Cysticercosis
+      type: any
+    - code: B70
+      value: Diphyllobothriasis and sparganosis
+      type: any
+    - code: B71
+      value: Other cestode infections
+      type: any
+    - code: B72
+      value: Dracunculiasis
+      type: any
+    - code: B73
+      value: Onchocerciasis
+      type: any
+    - code: B74
+      value: Filariasis
+      type: any
+    - code: B75
+      value: Trichinellosis
+      type: any
+    - code: B76
+      value: Hookworm diseases
+      type: any
+    - code: B77
+      value: Ascariasis
+      type: any
+    - code: B78
+      value: Strongyloidiasis
+      type: any
+    - code: B79
+      value: Trichuriasis
+      type: any
+    - code: B80
+      value: Enterobiasis
+      type: any
+    - code: B81
+      value: Other intestinal helminthiases, not elsewhere classified
+      type: any
+    - code: B82
+      value: Unspecified intestinal parasitism
+      type: any
+    - code: B83
+      value: Other helminthiases
+      type: any
+    - code: B85
+      value: Pediculosis and phthiriasis
+      type: any
+    - code: B86
+      value: Scabies
+      type: any
+    - code: B87
+      value: Myiasis
+      type: any
+    - code: B88
+      value: Other infestations
+      type: any
+    - code: B89
+      value: Unspecified parasitic disease
+      type: any
+    - code: J17.3
+      value: Pneumonia in parasitic diseases
+      type: any
+    - code: K23.1
+      value: Megaoesophagus in Chagas' disease
+      type: any
+    - code: P37.1
+      value: Congenital toxoplasmosis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: A06
+      value: Amoebiasis
+      type: any
+    - code: A07
+      value: Other protozoal intestinal diseases
+      type: any
+    - code: A59
+      value: Trichomoniasis
+      type: any
+    - code: B50
+      value: Plasmodium falciparum malaria
+      type: any
+    - code: B51
+      value: Plasmodium vivax malaria
+      type: any
+    - code: B52
+      value: Plasmodium malariae malaria
+      type: any
+    - code: B53
+      value: Other parasitologically confirmed malaria
+      type: any
+    - code: B54
+      value: Unspecified malaria
+      type: any
+    - code: B55
+      value: Leishmaniasis
+      type: any
+    - code: B56
+      value: African trypanosomiasis
+      type: any
+    - code: B57
+      value: Chagas' disease
+      type: any
+    - code: B58
+      value: Toxoplasmosis
+      type: any
+    - code: B60
+      value: Other protozoal diseases, not elsewhere classified
+      type: any
+    - code: B64
+      value: Unspecified protozoal disease
+      type: any
+    - code: B65
+      value: Schistosomiasis [bilharziasis]
+      type: any
+    - code: B66
+      value: Other fluke infections
+      type: any
+    - code: B67
+      value: Echinococcosis
+      type: any
+    - code: B68
+      value: Taeniasis
+      type: any
+    - code: B69
+      value: Cysticercosis
+      type: any
+    - code: B70
+      value: Diphyllobothriasis and sparganosis
+      type: any
+    - code: B71
+      value: Other cestode infections
+      type: any
+    - code: B72
+      value: Dracunculiasis
+      type: any
+    - code: B73
+      value: Onchocerciasis
+      type: any
+    - code: B74
+      value: Filariasis
+      type: any
+    - code: B75
+      value: Trichinellosis
+      type: any
+    - code: B76
+      value: Hookworm diseases
+      type: any
+    - code: B77
+      value: Ascariasis
+      type: any
+    - code: B78
+      value: Strongyloidiasis
+      type: any
+    - code: B79
+      value: Trichuriasis
+      type: any
+    - code: B80
+      value: Enterobiasis
+      type: any
+    - code: B81
+      value: Other intestinal helminthiases, not elsewhere classified
+      type: any
+    - code: B82
+      value: Unspecified intestinal parasitism
+      type: any
+    - code: B83
+      value: Other helminthiases
+      type: any
+    - code: B85
+      value: Pediculosis and phthiriasis
+      type: any
+    - code: B86
+      value: Scabies
+      type: any
+    - code: B87
+      value: Myiasis
+      type: any
+    - code: B88
+      value: Other infestations
+      type: any
+    - code: B89
+      value: Unspecified parasitic disease
+      type: any
+    - code: J17.3
+      value: Pneumonia in parasitic diseases
+      type: any
+    - code: K23.1
+      value: Megaoesophagus in Chagas' disease
+      type: any
+    - code: P37.1
+      value: Congenital toxoplasmosis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A06
+      value: Amoebiasis
+      type: any
+    - code: A07
+      value: Other protozoal intestinal diseases
+      type: any
+    - code: A59
+      value: Trichomoniasis
+      type: any
+    - code: B50
+      value: Plasmodium falciparum malaria
+      type: any
+    - code: B51
+      value: Plasmodium vivax malaria
+      type: any
+    - code: B52
+      value: Plasmodium malariae malaria
+      type: any
+    - code: B53
+      value: Other parasitologically confirmed malaria
+      type: any
+    - code: B54
+      value: Unspecified malaria
+      type: any
+    - code: B55
+      value: Leishmaniasis
+      type: any
+    - code: B56
+      value: African trypanosomiasis
+      type: any
+    - code: B57
+      value: Chagas' disease
+      type: any
+    - code: B58
+      value: Toxoplasmosis
+      type: any
+    - code: B60
+      value: Other protozoal diseases, not elsewhere classified
+      type: any
+    - code: B64
+      value: Unspecified protozoal disease
+      type: any
+    - code: B65
+      value: Schistosomiasis [bilharziasis]
+      type: any
+    - code: B66
+      value: Other fluke infections
+      type: any
+    - code: B67
+      value: Echinococcosis
+      type: any
+    - code: B68
+      value: Taeniasis
+      type: any
+    - code: B69
+      value: Cysticercosis
+      type: any
+    - code: B70
+      value: Diphyllobothriasis and sparganosis
+      type: any
+    - code: B71
+      value: Other cestode infections
+      type: any
+    - code: B72
+      value: Dracunculiasis
+      type: any
+    - code: B73
+      value: Onchocerciasis
+      type: any
+    - code: B74
+      value: Filariasis
+      type: any
+    - code: B75
+      value: Trichinellosis
+      type: any
+    - code: B76
+      value: Hookworm diseases
+      type: any
+    - code: B77
+      value: Ascariasis
+      type: any
+    - code: B78
+      value: Strongyloidiasis
+      type: any
+    - code: B79
+      value: Trichuriasis
+      type: any
+    - code: B80
+      value: Enterobiasis
+      type: any
+    - code: B81
+      value: Other intestinal helminthiases, not elsewhere classified
+      type: any
+    - code: B82
+      value: Unspecified intestinal parasitism
+      type: any
+    - code: B83
+      value: Other helminthiases
+      type: any
+    - code: B85
+      value: Pediculosis and phthiriasis
+      type: any
+    - code: B86
+      value: Scabies
+      type: any
+    - code: B87
+      value: Myiasis
+      type: any
+    - code: B88
+      value: Other infestations
+      type: any
+    - code: B89
+      value: Unspecified parasitic disease
+      type: any
+    - code: J17.3
+      value: Pneumonia in parasitic diseases
+      type: any
+    - code: K23.1
+      value: Megaoesophagus in Chagas' disease
+      type: any
+    - code: P37.1
+      value: Congenital toxoplasmosis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A06
+      value: Amoebiasis
+      type: any
+    - code: A07
+      value: Other protozoal intestinal diseases
+      type: any
+    - code: A59
+      value: Trichomoniasis
+      type: any
+    - code: B50
+      value: Plasmodium falciparum malaria
+      type: any
+    - code: B51
+      value: Plasmodium vivax malaria
+      type: any
+    - code: B52
+      value: Plasmodium malariae malaria
+      type: any
+    - code: B53
+      value: Other parasitologically confirmed malaria
+      type: any
+    - code: B54
+      value: Unspecified malaria
+      type: any
+    - code: B55
+      value: Leishmaniasis
+      type: any
+    - code: B56
+      value: African trypanosomiasis
+      type: any
+    - code: B57
+      value: Chagas' disease
+      type: any
+    - code: B58
+      value: Toxoplasmosis
+      type: any
+    - code: B60
+      value: Other protozoal diseases, not elsewhere classified
+      type: any
+    - code: B64
+      value: Unspecified protozoal disease
+      type: any
+    - code: B65
+      value: Schistosomiasis [bilharziasis]
+      type: any
+    - code: B66
+      value: Other fluke infections
+      type: any
+    - code: B67
+      value: Echinococcosis
+      type: any
+    - code: B68
+      value: Taeniasis
+      type: any
+    - code: B69
+      value: Cysticercosis
+      type: any
+    - code: B70
+      value: Diphyllobothriasis and sparganosis
+      type: any
+    - code: B71
+      value: Other cestode infections
+      type: any
+    - code: B72
+      value: Dracunculiasis
+      type: any
+    - code: B73
+      value: Onchocerciasis
+      type: any
+    - code: B74
+      value: Filariasis
+      type: any
+    - code: B75
+      value: Trichinellosis
+      type: any
+    - code: B76
+      value: Hookworm diseases
+      type: any
+    - code: B77
+      value: Ascariasis
+      type: any
+    - code: B78
+      value: Strongyloidiasis
+      type: any
+    - code: B79
+      value: Trichuriasis
+      type: any
+    - code: B80
+      value: Enterobiasis
+      type: any
+    - code: B81
+      value: Other intestinal helminthiases, not elsewhere classified
+      type: any
+    - code: B82
+      value: Unspecified intestinal parasitism
+      type: any
+    - code: B83
+      value: Other helminthiases
+      type: any
+    - code: B85
+      value: Pediculosis and phthiriasis
+      type: any
+    - code: B86
+      value: Scabies
+      type: any
+    - code: B87
+      value: Myiasis
+      type: any
+    - code: B88
+      value: Other infestations
+      type: any
+    - code: B89
+      value: Unspecified parasitic disease
+      type: any
+    - code: J17.3
+      value: Pneumonia in parasitic diseases
+      type: any
+    - code: K23.1
+      value: Megaoesophagus in Chagas' disease
+      type: any
+    - code: P37.1
+      value: Congenital toxoplasmosis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

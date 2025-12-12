@@ -1,0 +1,222 @@
+metadata:
+  phenotype: Ptosis of eyelid
+  group: Eye
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: ptosis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: dfe017cd-7b88-4eb6-8290-b2ece715b841
+  ontologies:
+    DOID: DOID_0060260
+    GWAS: MONDO_0000728
+    MESH: D001763
+    SNOMED-CT: 11934000
+    FINNGEN: H7_PTOSIS
+  short_desc: An eye disease characterized by the drooping or falling of the upper
+    or lower eyelid.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: H02.4
+      value: Ptosis of eyelid
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: H02.4
+      value: Ptosis of eyelid
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: C18.1
+      value: Correction of ptosis of eyelid using levator muscle technique
+      type: any
+    - code: C18.2
+      value: Correction of ptosis of eyelid using frontalis muscle technique
+      type: any
+    - code: C18.3
+      value: Correction of ptosis of eyelid using sling of fascia
+      type: any
+    - code: C18.4
+      value: Correction of ptosis of eyelid using superior rectus muscle technique
+      type: any
+    - code: C18.5
+      value: Tarsomullerectomy
+      type: any
+    - code: C18.6
+      value: Correction of ptosis of eyelid using aponeurosis technique
+      type: any
+    - code: C18.8
+      value: Other specified correction of ptosis of eyelid
+      type: any
+    - code: C18.9
+      value: Unspecified correction of ptosis of eyelid
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: C18.1
+      value: C18.1
+      type: any
+    - code: C18.2
+      value: C18.2
+      type: any
+    - code: C18.3
+      value: C18.3
+      type: any
+    - code: C18.4
+      value: C18.4
+      type: any
+    - code: C18.5
+      value: C18.5
+      type: any
+    - code: C18.6
+      value: C18.6
+      type: any
+    - code: C18.8
+      value: C18.8
+      type: any
+    - code: C18.9
+      value: C18.9
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H02.4
+      value: Ptosis of eyelid
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: H02.4
+      value: Ptosis of eyelid
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 2BE2.00
+      value: O/E - ptosis present
+      type: any
+    - code: 2BE..00
+      value: O/E - ptosis
+      type: any
+    - code: 2BE3.00
+      value: O/E - Horner's syndrome
+      type: any
+    - code: 2BEZ.00
+      value: O/E - ptosis NOS
+      type: any
+    - code: '7218000.0'
+      value: Correction of eyelid ptosis using levator muscle technique
+      type: any
+    - code: '7218100.0'
+      value: Correction of eyelid ptosis using frontalis muscle technique
+      type: any
+    - code: '7218200.0'
+      value: Correction of ptosis of eyelid using sling of fascia
+      type: any
+    - code: '7218300.0'
+      value: Correction of eyelid ptosis using superior rectus technique
+      type: any
+    - code: '7218500.0'
+      value: Correction of eyelid ptosis using aponeurosis technique
+      type: any
+    - code: '7218.00'
+      value: Correction of ptosis of eyelid
+      type: any
+    - code: 7218y00
+      value: Other specified correction of ptosis of eyelid
+      type: any
+    - code: 7218z00
+      value: Correction of ptosis of eyelid NOS
+      type: any
+    - code: F4E3000
+      value: Unspecified ptosis of eyelid
+      type: any
+    - code: F4E3100
+      value: Paralytic ptosis
+      type: any
+    - code: F4E3200
+      value: Myogenic ptosis
+      type: any
+    - code: F4E3300
+      value: Mechanical ptosis
+      type: any
+    - code: F4E3.00
+      value: Ptosis of eyelid
+      type: any
+    - code: F4E3z00
+      value: Ptosis of eyelid NOS
+      type: any
+    - code: P360.00
+      value: Congenital ptosis
+      type: any
+    - code: P360.11
+      value: Blepharoptosis
+      type: any
+    - code: XE1Jz
+      value: Congenital ptosis
+      type: any
+    - code: XE0B4
+      value: Correction of ptosis of eyelid using sling of fascia
+      type: any
+    - code: XM050
+      value: Ptosis of eyelid
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

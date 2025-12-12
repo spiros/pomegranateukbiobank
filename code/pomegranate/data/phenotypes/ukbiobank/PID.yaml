@@ -1,0 +1,154 @@
+metadata:
+  phenotype: Female pelvic inflammatory disease
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: PID
+  gender:
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 30159127-f77d-460c-9a41-2a117f868719
+  ontologies:
+    DOID: DOID_1003
+    GWAS: EFO_1001388
+    MESH: D000292
+    SNOMED-CT: 198130006
+    FINNGEN: N14_FEMALEGENINF
+  short_desc: An acute or chronic inflammation in the pelvic cavity.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1557'
+      value: pelvic inflammatory disease/ pid
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: N70
+      value: Salpingitis and oophoritis
+      type: any
+    - code: N71
+      value: Inflammatory disease of uterus, except cervix
+      type: any
+    - code: N72
+      value: Inflammatory disease of cervix uteri
+      type: any
+    - code: N73
+      value: Other female pelvic inflammatory diseases
+      type: any
+    - code: N74
+      value: Female pelvic inflammatory disorders in diseases classified elsewhere
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: N70
+      value: Salpingitis and oophoritis
+      type: any
+    - code: N71
+      value: Inflammatory disease of uterus, except cervix
+      type: any
+    - code: N72
+      value: Inflammatory disease of cervix uteri
+      type: any
+    - code: N73
+      value: Other female pelvic inflammatory diseases
+      type: any
+    - code: N74
+      value: Female pelvic inflammatory disorders in diseases classified elsewhere
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N70
+      value: Salpingitis and oophoritis
+      type: any
+    - code: N71
+      value: Inflammatory disease of uterus, except cervix
+      type: any
+    - code: N72
+      value: Inflammatory disease of cervix uteri
+      type: any
+    - code: N73
+      value: Other female pelvic inflammatory diseases
+      type: any
+    - code: N74
+      value: Female pelvic inflammatory disorders in diseases classified elsewhere
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: N70
+      value: Salpingitis and oophoritis
+      type: any
+    - code: N71
+      value: Inflammatory disease of uterus, except cervix
+      type: any
+    - code: N72
+      value: Inflammatory disease of cervix uteri
+      type: any
+    - code: N73
+      value: Other female pelvic inflammatory diseases
+      type: any
+    - code: N74
+      value: Female pelvic inflammatory disorders in diseases classified elsewhere
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

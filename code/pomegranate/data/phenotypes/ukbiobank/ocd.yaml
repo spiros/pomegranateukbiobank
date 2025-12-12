@@ -1,0 +1,157 @@
+metadata:
+  phenotype: Obsessive-compulsive disorder
+  group: Psychiatric
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: ocd
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 0206f3ef-9b74-4bbc-8fda-fe4aa1651213
+  ontologies:
+    DOID: DOID_10933
+    GWAS: EFO_0004242
+    MESH: D009771
+    SNOMED-CT: 191736004
+    FINNGEN: F5_OCD
+  short_desc: Obsessive-compulsive disorder (OCD) is a mental illness that causes
+    repeated unwanted thoughts or sensations (obsessions) or the urge to do something
+    over and over again (compulsions).
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1615'
+      value: obsessive compulsive disorder (ocd)
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: F42
+      value: Obsessive-compulsive disorder
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: F42
+      value: Obsessive-compulsive disorder
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F42
+      value: Obsessive-compulsive disorder
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F42
+      value: Obsessive-compulsive disorder
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: E203000
+      value: Compulsive neurosis
+      type: any
+    - code: E203100
+      value: Obsessional neurosis
+      type: any
+    - code: E203.00
+      value: Obsessive-compulsive disorders
+      type: any
+    - code: E203.11
+      value: Anancastic neurosis
+      type: any
+    - code: E203z00
+      value: Obsessive-compulsive disorder NOS
+      type: any
+    - code: Eu42000
+      value: '[X]Predominantly obsessional thoughts or ruminations'
+      type: any
+    - code: Eu42100
+      value: '[X]Predominantly compulsive acts [obsessional rituals]'
+      type: any
+    - code: Eu42200
+      value: '[X]Mixed obsessional thoughts and acts'
+      type: any
+    - code: Eu42.00
+      value: '[X]Obsessive - compulsive disorder'
+      type: any
+    - code: Eu42.11
+      value: '[X]Anankastic neurosis'
+      type: any
+    - code: Eu42.12
+      value: '[X]Obsessive-compulsive neurosis'
+      type: any
+    - code: Eu42y00
+      value: '[X]Other obsessive-compulsive disorders'
+      type: any
+    - code: Eu42z00
+      value: '[X]Obsessive-compulsive disorder, unspecified'
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []
+  20544:
+    metadata:
+      desc: Mental health problems ever diagnosed by a professional
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '7'
+      value: OCD
+      type: any

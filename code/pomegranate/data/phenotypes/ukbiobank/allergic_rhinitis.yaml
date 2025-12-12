@@ -1,0 +1,324 @@
+metadata:
+  phenotype: Allergic and chronic rhinitis
+  group: Respiratory
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: allergic_rhinitis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 791075ad-ad39-4309-bfae-6af9ec5d02e3
+  ontologies:
+    DOID: DOID_4481
+    GWAS: EFO_0005854
+    MESH: D065631
+    SNOMED-CT: 61582004
+    FINNGEN: ALLERG_RHINITIS
+  short_desc: Allergic rhinitis is inflammation of the inside of the nose caused by
+    an allergen, such as pollen, dust, mould or flakes of skin from certain animals.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  6152:
+    metadata:
+      desc: Blood clot, DVT, bronchitis, emphysema, asthma, rhinitis, eczema, allergy
+        diagnosed by doctor
+      time_qualifier:
+        field_id: 3761
+        type: age
+    values:
+    - code: '9'
+      value: Hayfever, allergic rhinitis or eczema
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1387'
+      value: hayfever/allergic rhinitis
+      type: any
+    - code: '1668'
+      value: allergy to house dust mite
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: J30.1
+      value: Allergic rhinitis due to pollen
+      type: any
+    - code: J30.2
+      value: Other seasonal allergic rhinitis
+      type: any
+    - code: J30.3
+      value: Other allergic rhinitis
+      type: any
+    - code: J30.4
+      value: Allergic rhinitis, unspecified
+      type: any
+    - code: J31.0
+      value: Chronic rhinitis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: J30.1
+      value: Allergic rhinitis due to pollen
+      type: any
+    - code: J30.2
+      value: Other seasonal allergic rhinitis
+      type: any
+    - code: J30.3
+      value: Other allergic rhinitis
+      type: any
+    - code: J30.4
+      value: Allergic rhinitis, unspecified
+      type: any
+    - code: J31.0
+      value: Chronic rhinitis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J30.1
+      value: Allergic rhinitis due to pollen
+      type: any
+    - code: J30.2
+      value: Other seasonal allergic rhinitis
+      type: any
+    - code: J30.3
+      value: Other allergic rhinitis
+      type: any
+    - code: J30.4
+      value: Allergic rhinitis, unspecified
+      type: any
+    - code: J31.0
+      value: Chronic rhinitis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: J30.1
+      value: Allergic rhinitis due to pollen
+      type: any
+    - code: J30.2
+      value: Other seasonal allergic rhinitis
+      type: any
+    - code: J30.3
+      value: Other allergic rhinitis
+      type: any
+    - code: J30.4
+      value: Allergic rhinitis, unspecified
+      type: any
+    - code: J31.0
+      value: Chronic rhinitis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14B1.00
+      value: 'H/O: hay fever'
+      type: prevalent
+    - code: H120000
+      value: Chronic simple rhinitis
+      type: any
+    - code: H120100
+      value: Chronic catarrhal rhinitis
+      type: any
+    - code: H120200
+      value: Chronic hypertrophic rhinitis
+      type: any
+    - code: H120300
+      value: Chronic atrophic rhinitis
+      type: any
+    - code: H120400
+      value: Chronic infective rhinitis
+      type: any
+    - code: H120500
+      value: Chronic ulcerative rhinitis
+      type: any
+    - code: H120600
+      value: Chronic membranous rhinitis
+      type: any
+    - code: H120700
+      value: Chronic fibrinous rhinitis
+      type: any
+    - code: H120.00
+      value: Chronic rhinitis
+      type: any
+    - code: H120z00
+      value: Chronic rhinitis NOS
+      type: any
+    - code: H13..11
+      value: Chronic rhinosinusitis
+      type: any
+    - code: H170.00
+      value: Allergic rhinitis due to pollens
+      type: any
+    - code: H170.11
+      value: Hay fever - pollens
+      type: any
+    - code: H170.12
+      value: Pollinosis
+      type: any
+    - code: H171000
+      value: Allergy to animal
+      type: any
+    - code: H171100
+      value: Dog allergy
+      type: any
+    - code: H171.00
+      value: Allergic rhinitis due to other allergens
+      type: any
+    - code: H171.11
+      value: Cat allergy
+      type: any
+    - code: H171.12
+      value: Dander (animal) allergy
+      type: any
+    - code: H171.13
+      value: Feather allergy
+      type: any
+    - code: H171.14
+      value: Hay fever - other allergen
+      type: any
+    - code: H171.15
+      value: House dust allergy
+      type: any
+    - code: H171.16
+      value: House dust mite allergy
+      type: any
+    - code: H172.00
+      value: Allergic rhinitis due to unspecified allergen
+      type: any
+    - code: H172.11
+      value: Hay fever - unspecified allergen
+      type: any
+    - code: H17..00
+      value: Allergic rhinitis
+      type: any
+    - code: H17..11
+      value: Perennial rhinitis
+      type: any
+    - code: H17..12
+      value: Allergic rhinosinusitis
+      type: any
+    - code: H17z.00
+      value: Allergic rhinitis NOS
+      type: any
+    - code: H18..00
+      value: Vasomotor rhinitis
+      type: any
+    - code: H330011
+      value: Hay fever with asthma
+      type: any
+    - code: H330.13
+      value: Hay fever with asthma
+      type: any
+    - code: Hyu2000
+      value: '[X]Other seasonal allergic rhinitis'
+      type: any
+    - code: Hyu2100
+      value: '[X]Other allergic rhinitis'
+      type: any
+    - code: XE0Y7
+      value: Allergic rhinitis due to unspecified allergen
+      type: any
+    - code: XE0Y6
+      value: Allergic rhinitis due to other allergens
+      type: any
+    - code: XE0Xy
+      value: Chronic catarrhal rhinitis
+      type: any
+    - code: XE2QI
+      value: Allergic rhinitis due to pollens
+      type: any
+    - code: XE2QI
+      value: Allergic rhinitis due to pollens
+      type: any
+    - code: XaIpW
+      value: Allergy to animal
+      type: any
+    - code: XE0Xx
+      value: Chronic rhinitis
+      type: any
+    - code: XE0Xx
+      value: Chronic rhinitis
+      type: any
+    - code: XE0Y5
+      value: Allergic rhinitis
+      type: any
+    - code: XE0YR
+      value: Extrinsic asthma without status asthmaticus
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []
+  22126:
+    metadata:
+      desc: Doctor diagnosed hayfever or allergic rhinitis
+      time_qualifier:
+        field_id: 22146
+        type: age
+    values:
+    - code: '1'
+      value: 'yes'
+      type: any
+  22166:
+    metadata:
+      desc: Recent medication for hayfever or allergic rhinitis
+      time_qualifier:
+        type: baseline
+    values:
+    - code: '1'
+      value: 'yes'
+      type: any

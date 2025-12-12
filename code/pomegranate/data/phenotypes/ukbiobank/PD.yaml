@@ -1,0 +1,383 @@
+metadata:
+  phenotype: Personality disorders
+  group: Psychiatric
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: PD
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: b2125ad6-dff3-480e-a718-8455f9ff89d7
+  ontologies:
+    DOID: DOID_1510
+    GWAS: HP_0012075
+    MESH: D010554
+    SNOMED-CT: 33449004
+    FINNGEN: F5_PERSONALITY
+  short_desc: A major deviation from normal patterns of behavior.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: F60
+      value: Specific personality disorders
+      type: any
+    - code: F61
+      value: Mixed and other personality disorders
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: F60
+      value: Specific personality disorders
+      type: any
+    - code: F61
+      value: Mixed and other personality disorders
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F60
+      value: Specific personality disorders
+      type: any
+    - code: F61
+      value: Mixed and other personality disorders
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: F60
+      value: Specific personality disorders
+      type: any
+    - code: F61
+      value: Mixed and other personality disorders
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: E210.00
+      value: Paranoid personality disorder
+      type: any
+    - code: E212000
+      value: Unspecified schizoid personality disorder
+      type: any
+    - code: E212100
+      value: Introverted personality
+      type: any
+    - code: E212200
+      value: Schizotypal personality
+      type: any
+    - code: E212.00
+      value: Schizoid personality disorder
+      type: any
+    - code: E212z00
+      value: Schizoid personality disorder NOS
+      type: any
+    - code: E213.00
+      value: Explosive personality disorder
+      type: any
+    - code: E213.11
+      value: Aggressive personality
+      type: any
+    - code: E213.12
+      value: Quarrelsome personality
+      type: any
+    - code: E214000
+      value: Anankastic personality
+      type: any
+    - code: E214100
+      value: Obsessional personality
+      type: any
+    - code: E214.00
+      value: Compulsive personality disorders
+      type: any
+    - code: E214.11
+      value: Anancastic personality
+      type: any
+    - code: E214z00
+      value: Compulsive personality disorder NOS
+      type: any
+    - code: E215000
+      value: Unspecified histrionic personality disorder
+      type: any
+    - code: E215200
+      value: Emotionally unstable personality
+      type: any
+    - code: E215300
+      value: Psychoinfantile personality
+      type: any
+    - code: E215.00
+      value: Histrionic personality disorders
+      type: any
+    - code: E215.11
+      value: Hysterical personality disorders
+      type: any
+    - code: E215z00
+      value: Histrionic personality disorder NOS
+      type: any
+    - code: E216.00
+      value: Inadequate personality disorder
+      type: any
+    - code: E216.11
+      value: Asthenic personality
+      type: any
+    - code: E216.12
+      value: Dependent personality
+      type: any
+    - code: E216.13
+      value: Labile personality
+      type: any
+    - code: E217.00
+      value: Antisocial or sociopathic personality disorder
+      type: any
+    - code: E217.11
+      value: Amoral personality
+      type: any
+    - code: E21..00
+      value: Personality disorders
+      type: any
+    - code: E21..11
+      value: Neurotic personality disorder
+      type: any
+    - code: E21y000
+      value: Narcissistic personality disorder
+      type: any
+    - code: E21y100
+      value: Avoidant personality disorder
+      type: any
+    - code: E21y200
+      value: Borderline personality disorder
+      type: any
+    - code: E21y300
+      value: Passive-aggressive personality disorder
+      type: any
+    - code: E21y400
+      value: Eccentric personality disorder
+      type: any
+    - code: E21y500
+      value: Immature personality disorder
+      type: any
+    - code: E21y600
+      value: Masochistic personality disorder
+      type: any
+    - code: E21y700
+      value: Psychoneurotic personality disorder
+      type: any
+    - code: E21y711
+      value: Neurotic personality
+      type: any
+    - code: E21y.00
+      value: Other personality disorders
+      type: any
+    - code: E21yz00
+      value: Other personality disorder NOS
+      type: any
+    - code: E21yz11
+      value: Manipulative personality
+      type: any
+    - code: E21z.00
+      value: Personality disorder NOS
+      type: any
+    - code: E21z.11
+      value: Psychopathic personality
+      type: any
+    - code: E2C3500
+      value: Isolated explosive disorder
+      type: any
+    - code: Eu60000
+      value: '[X]Paranoid personality disorder'
+      type: any
+    - code: Eu60013
+      value: '[X]Querulant personality disorder'
+      type: any
+    - code: Eu60014
+      value: '[X]Sensitive paranoid personality disorder'
+      type: any
+    - code: Eu60100
+      value: '[X]Schizoid personality disorder'
+      type: any
+    - code: Eu60200
+      value: '[X]Dissocial personality disorder'
+      type: any
+    - code: Eu60211
+      value: '[X]Amoral personality disorder'
+      type: any
+    - code: Eu60212
+      value: '[X]Antisocial personality disorder'
+      type: any
+    - code: Eu60213
+      value: '[X]Asocial personality disorder'
+      type: any
+    - code: Eu60214
+      value: '[X]Psychopathic personality disorder'
+      type: any
+    - code: Eu60215
+      value: '[X]Sociopathic personality disorder'
+      type: any
+    - code: Eu60300
+      value: '[X]Emotionally unstable personality disorder'
+      type: any
+    - code: Eu60311
+      value: '[X]Aggressive personality disorder'
+      type: any
+    - code: Eu60312
+      value: '[X]Borderline personality disorder'
+      type: any
+    - code: Eu60313
+      value: '[X]Explosive personality disorder'
+      type: any
+    - code: Eu60400
+      value: '[X]Histrionic personality disorder'
+      type: any
+    - code: Eu60411
+      value: '[X]Hysterical personality disorder'
+      type: any
+    - code: Eu60412
+      value: '[X]Psychoinfantile personality disorder'
+      type: any
+    - code: Eu60500
+      value: '[X]Anankastic personality disorder'
+      type: any
+    - code: Eu60511
+      value: '[X]Compulsive personality disorder'
+      type: any
+    - code: Eu60512
+      value: '[X]Obsessional personality disorder'
+      type: any
+    - code: Eu60513
+      value: '[X]Obsessive-compulsive personality disorder'
+      type: any
+    - code: Eu60600
+      value: '[X]Anxious [avoidant] personality disorder'
+      type: any
+    - code: Eu60700
+      value: '[X]Dependent personality disorder'
+      type: any
+    - code: Eu60711
+      value: '[X]Asthenic personality disorder'
+      type: any
+    - code: Eu60712
+      value: '[X]Inadequate personality disorder'
+      type: any
+    - code: Eu60713
+      value: '[X]Passive personality disorder'
+      type: any
+    - code: Eu60714
+      value: '[X]Self defeating personality disorder'
+      type: any
+    - code: Eu60800
+      value: '[X]Addictive personality'
+      type: any
+    - code: Eu60.00
+      value: '[X]Specific personality disorders'
+      type: any
+    - code: Eu60y00
+      value: '[X]Other specific personality disorders'
+      type: any
+    - code: Eu60y11
+      value: '[X]Eccentric personality disorder'
+      type: any
+    - code: Eu60y12
+      value: '[X]Haltlose type personality disorder'
+      type: any
+    - code: Eu60y13
+      value: '[X]Immature personality disorder'
+      type: any
+    - code: Eu60y14
+      value: '[X]Narcissistic personality disorder'
+      type: any
+    - code: Eu60y16
+      value: '[X]Psychoneurotic personality disorder'
+      type: any
+    - code: Eu60z00
+      value: '[X]Personality disorder, unspecified'
+      type: any
+    - code: Eu60z11
+      value: '[X]Character neurosis NOS'
+      type: any
+    - code: Eu60z12
+      value: '[X]Pathological personality NOS'
+      type: any
+    - code: Eu61.00
+      value: '[X]Mixed and other personality disorders'
+      type: any
+    - code: XE1YF
+      value: Paranoid personality disorder
+      type: any
+    - code: XE1YL
+      value: Other personality disorder NOS
+      type: any
+    - code: XaJSA
+      value: '[X]Addictive personality'
+      type: any
+    - code: X00T6
+      value: Explosive personality disorder
+      type: any
+    - code: XE1YM
+      value: Personality disorder NOS
+      type: any
+    - code: XE1YK
+      value: Psychoneurotic personality disorder
+      type: any
+    - code: XE1Zy
+      value: '[X]Other specific personality disorders'
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,398 @@
+metadata:
+  phenotype: Liver fibrosis, sclerosis and cirrhosis
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: cirrhosis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: b347e65d-768e-4d9a-8452-b783c80b525c
+  ontologies:
+    DOID: DOID_5082
+    GWAS: EFO_0001422
+    MESH: D008103
+    SNOMED-CT: 19943007
+    FINNGEN: CIRRHOSIS_BROAD
+  short_desc: Cirrhosis, also known as liver cirrhosis or hepatic cirrhosis, is a
+    condition in which the liver does not function properly due to long-term damage.
+    This damage is characterized by the replacement of normal liver tissue by scar
+    tissue.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1158'
+      value: liver failure/cirrhosis
+      type: any
+    - code: '1604'
+      value: alcoholic liver disease / alcoholic cirrhosis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K70.1
+      value: Alcoholic hepatitis
+      type: any
+    - code: K70.2
+      value: Alcoholic fibrosis and sclerosis of liver
+      type: any
+    - code: K70.3
+      value: Alcoholic cirrhosis of liver
+      type: any
+    - code: K71.7
+      value: Toxic liver disease with fibrosis and cirrhosis of liver
+      type: any
+    - code: K74.0
+      value: Hepatic fibrosis
+      type: any
+    - code: K74.1
+      value: Hepatic sclerosis
+      type: any
+    - code: K74.2
+      value: Hepatic fibrosis with hepatic sclerosis
+      type: any
+    - code: K74.4
+      value: Secondary biliary cirrhosis
+      type: any
+    - code: K74.5
+      value: Biliary cirrhosis, unspecified
+      type: any
+    - code: K74.6
+      value: Other and unspecified cirrhosis of liver
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K70.1
+      value: Alcoholic hepatitis
+      type: any
+    - code: K70.2
+      value: Alcoholic fibrosis and sclerosis of liver
+      type: any
+    - code: K70.3
+      value: Alcoholic cirrhosis of liver
+      type: any
+    - code: K71.7
+      value: Toxic liver disease with fibrosis and cirrhosis of liver
+      type: any
+    - code: K74.0
+      value: Hepatic fibrosis
+      type: any
+    - code: K74.1
+      value: Hepatic sclerosis
+      type: any
+    - code: K74.2
+      value: Hepatic fibrosis with hepatic sclerosis
+      type: any
+    - code: K74.4
+      value: Secondary biliary cirrhosis
+      type: any
+    - code: K74.5
+      value: Biliary cirrhosis, unspecified
+      type: any
+    - code: K74.6
+      value: Other and unspecified cirrhosis of liver
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K70.1
+      value: Alcoholic hepatitis
+      type: any
+    - code: K70.2
+      value: Alcoholic fibrosis and sclerosis of liver
+      type: any
+    - code: K70.3
+      value: Alcoholic cirrhosis of liver
+      type: any
+    - code: K71.7
+      value: Toxic liver disease with fibrosis and cirrhosis of liver
+      type: any
+    - code: K74.0
+      value: Hepatic fibrosis
+      type: any
+    - code: K74.1
+      value: Hepatic sclerosis
+      type: any
+    - code: K74.2
+      value: Hepatic fibrosis with hepatic sclerosis
+      type: any
+    - code: K74.4
+      value: Secondary biliary cirrhosis
+      type: any
+    - code: K74.5
+      value: Biliary cirrhosis, unspecified
+      type: any
+    - code: K74.6
+      value: Other and unspecified cirrhosis of liver
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K70.1
+      value: Alcoholic hepatitis
+      type: any
+    - code: K70.2
+      value: Alcoholic fibrosis and sclerosis of liver
+      type: any
+    - code: K70.3
+      value: Alcoholic cirrhosis of liver
+      type: any
+    - code: K71.7
+      value: Toxic liver disease with fibrosis and cirrhosis of liver
+      type: any
+    - code: K74.0
+      value: Hepatic fibrosis
+      type: any
+    - code: K74.1
+      value: Hepatic sclerosis
+      type: any
+    - code: K74.2
+      value: Hepatic fibrosis with hepatic sclerosis
+      type: any
+    - code: K74.4
+      value: Secondary biliary cirrhosis
+      type: any
+    - code: K74.5
+      value: Biliary cirrhosis, unspecified
+      type: any
+    - code: K74.6
+      value: Other and unspecified cirrhosis of liver
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: C310400
+      value: Glycogenosis with hepatic cirrhosis
+      type: any
+    - code: C350012
+      value: Pigmentary cirrhosis of liver
+      type: any
+    - code: C370800
+      value: Cystic fibrosis related cirrhosis
+      type: any
+    - code: G852200
+      value: Oesophageal varices in cirrhosis of the liver
+      type: any
+    - code: G852300
+      value: Oesophageal varices in alcoholic cirrhosis of the liver
+      type: any
+    - code: J612000
+      value: Alcoholic fibrosis and sclerosis of liver
+      type: any
+    - code: J612.00
+      value: Alcoholic cirrhosis of liver
+      type: any
+    - code: J612.11
+      value: Florid cirrhosis
+      type: any
+    - code: J612.12
+      value: Laennec's cirrhosis
+      type: any
+    - code: J613000
+      value: Alcoholic hepatic failure
+      type: any
+    - code: J613.00
+      value: Alcoholic liver damage unspecified
+      type: any
+    - code: J615100
+      value: Multilobular portal cirrhosis
+      type: any
+    - code: J615300
+      value: Diffuse nodular cirrhosis
+      type: any
+    - code: J615400
+      value: Fatty portal cirrhosis
+      type: any
+    - code: J615500
+      value: Hypertrophic portal cirrhosis
+      type: any
+    - code: J615600
+      value: Capsular portal cirrhosis
+      type: any
+    - code: J615700
+      value: Cardiac portal cirrhosis
+      type: any
+    - code: J615711
+      value: Congestive cirrhosis
+      type: any
+    - code: J615800
+      value: Juvenile portal cirrhosis
+      type: any
+    - code: J615812
+      value: Indian childhood cirrhosis
+      type: any
+    - code: J615C00
+      value: Xanthomatous portal cirrhosis
+      type: any
+    - code: J615D00
+      value: Bacterial portal cirrhosis
+      type: any
+    - code: J615G00
+      value: Zooparasitic portal cirrhosis
+      type: any
+    - code: J615H00
+      value: Infectious cirrhosis NOS
+      type: any
+    - code: J615.00
+      value: Cirrhosis - non alcoholic
+      type: any
+    - code: J615.11
+      value: Portal cirrhosis
+      type: any
+    - code: J615y00
+      value: Portal cirrhosis unspecified
+      type: any
+    - code: J615z00
+      value: Non-alcoholic cirrhosis NOS
+      type: any
+    - code: J615z11
+      value: Macronodular cirrhosis of liver
+      type: any
+    - code: J615z12
+      value: Cryptogenic cirrhosis of liver
+      type: any
+    - code: J615z13
+      value: Cirrhosis of liver NOS
+      type: any
+    - code: J615z15
+      value: Hepatic fibrosis
+      type: any
+    - code: J616100
+      value: Secondary biliary cirrhosis
+      type: any
+    - code: J616200
+      value: Biliary cirrhosis of children
+      type: any
+    - code: J616.00
+      value: Biliary cirrhosis
+      type: any
+    - code: J616z00
+      value: Biliary cirrhosis NOS
+      type: any
+    - code: J617000
+      value: Chronic alcoholic hepatitis
+      type: any
+    - code: J617.00
+      value: Alcoholic hepatitis
+      type: any
+    - code: J61..00
+      value: Cirrhosis and chronic liver disease
+      type: any
+    - code: J61y300
+      value: Portal fibrosis without cirrhosis
+      type: any
+    - code: J61y400
+      value: Hepatic fibrosis
+      type: any
+    - code: J61y500
+      value: Hepatic sclerosis
+      type: any
+    - code: J61y600
+      value: Hepatic fibrosis with hepatic sclerosis
+      type: any
+    - code: J635600
+      value: Toxic liver disease with fibrosis and cirrhosis of liver
+      type: any
+    - code: Jyu7100
+      value: '[X]Other and unspecified cirrhosis of liver'
+      type: any
+    - code: XaBE3
+      value: Chronic alcoholic hepatitis
+      type: any
+    - code: XaXi9
+      value: Cystic fibrosis related cirrhosis
+      type: any
+    - code: XE0b4
+      value: Alcoholic cirrhosis of liver
+      type: any
+    - code: X3073
+      value: Alcoholic hepatic failure
+      type: any
+    - code: X307Z
+      value: Hepatic sclerosis
+      type: any
+    - code: X307b
+      value: Hepatic fibrosis with hepatic sclerosis
+      type: any
+    - code: X3072
+      value: Alcoholic fibrosis and sclerosis of liver
+      type: any
+    - code: XE0bA
+      value: Non-alcoholic cirrhosis NOS
+      type: any
+    - code: XE0b7
+      value: Cardiac portal cirrhosis
+      type: any
+    - code: X306r
+      value: Alcoholic hepatitis
+      type: any
+    - code: XE0b8
+      value: Juvenile portal cirrhosis
+      type: any
+    - code: XaC1d
+      value: Oesophageal varices in alcoholic cirrhosis of the liver
+      type: any
+    - code: XE0b6
+      value: Multilobular portal cirrhosis
+      type: any
+    - code: XaBM6
+      value: Oesophageal varices in cirrhosis of the liver
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

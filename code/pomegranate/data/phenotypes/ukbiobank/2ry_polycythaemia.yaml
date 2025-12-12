@@ -1,0 +1,129 @@
+metadata:
+  phenotype: Secondary polycythaemia
+  group: Haematological or immunological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: 2ry_polycythaemia
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: ae441f83-cf86-476a-8206-60f7a867c227
+  ontologies:
+    DOID: null
+    GWAS: Orphanet_98428
+    MESH: null
+    SNOMED-CT: '44865000'
+    FINNGEN: D3_SCNDPOLYCYTHAEMIA
+  short_desc: Abnormally high mass or concentration of red blood cells in the blood,
+    either due to an increase in erythropoiesis or a decrease in plasma volume.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D75.1
+      value: Secondary polycythaemia
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D75.1
+      value: Secondary polycythaemia
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D75.1
+      value: Secondary polycythaemia
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D75.1
+      value: Secondary polycythaemia
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: D410000
+      value: Stress polycythaemia
+      type: any
+    - code: D410011
+      value: Spurious polycythaemia
+      type: any
+    - code: D410100
+      value: High altitude polycythaemia
+      type: any
+    - code: D410200
+      value: Polycythaemia due to cyanotic heart disease
+      type: any
+    - code: D410300
+      value: Polycythaemia due to cyanotic respiratory disease
+      type: any
+    - code: D410400
+      value: Renal polycythaemia
+      type: any
+    - code: D410.00
+      value: Secondary polycythaemia
+      type: any
+    - code: D410z00
+      value: Secondary polycythaemia NOS
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

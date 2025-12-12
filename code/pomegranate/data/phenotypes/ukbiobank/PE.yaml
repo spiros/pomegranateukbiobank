@@ -1,0 +1,147 @@
+metadata:
+  phenotype: Pulmonary embolism
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: PE
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: cda2cd0f-2038-45fd-b77c-e84b59185605
+  ontologies:
+    DOID: DOID_9477
+    GWAS: EFO_0003827
+    MESH: D011655
+    SNOMED-CT: 59282003
+    FINNGEN: I9_PULMEMB
+  short_desc: The obstruction of the pulmonary artery or one of its branches by an
+    embolus, sometimes associated with infarction of the lung.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1093'
+      value: pulmonary embolism +/- dvt
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I26
+      value: Pulmonary embolism
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I26
+      value: Pulmonary embolism
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I26
+      value: Pulmonary embolism
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I26
+      value: Pulmonary embolism
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14AC.00
+      value: 'H/O: pulmonary embolus'
+      type: prevalent
+    - code: 7A09300
+      value: Open embolectomy of pulmonary artery
+      type: any
+    - code: 7A09311
+      value: Trendelenburg pulmonary embolectomy
+      type: any
+    - code: 7A0A100
+      value: Percutaneous transluminal embolectomy of pulmonary artery
+      type: any
+    - code: 7A0B000
+      value: Pulmonary thromboendarterectomy
+      type: any
+    - code: G401000
+      value: Post operative pulmonary embolus
+      type: any
+    - code: G401100
+      value: Recurrent pulmonary embolism
+      type: any
+    - code: G401.00
+      value: Pulmonary embolism
+      type: any
+    - code: G401.12
+      value: Pulmonary embolus
+      type: any
+    - code: ZV12900
+      value: '[V] Personal history of pulmonary embolism'
+      type: prevalent
+    - code: XaLgy
+      value: Pulmonary thromboendarterectomy
+      type: any
+    - code: XaOYV
+      value: Recurrent pulmonary embolism
+      type: any
+    - code: XaBMd
+      value: '[V] Personal history of pulmonary embolism'
+      type: prevalent
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,670 @@
+metadata:
+  phenotype: Peptic ulcer disease
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: ulcer_peptic
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 89b89941-fc76-4fb8-8ef6-4cc3e7cbbf71
+  ontologies:
+    DOID: DOID_750
+    GWAS: MONDO_0004247
+    MESH: D010437
+    SNOMED-CT: 13200003
+    FINNGEN: K11_PULC
+  short_desc: Ulcer that occurs in the regions of the GASTROINTESTINAL TRACT which
+    come into contact with GASTRIC JUICE containing PEPSIN and GASTRIC ACID. It occurs
+    when there are defects in the MUCOSA barrier.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1142'
+      value: gastric/stomach ulcers
+      type: any
+    - code: '1457'
+      value: duodenal ulcer
+      type: any
+    - code: '1400'
+      value: peptic ulcer
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K25
+      value: Gastric ulcer
+      type: any
+    - code: K26
+      value: Duodenal ulcer
+      type: any
+    - code: K27
+      value: Peptic ulcer, site unspecified
+      type: any
+    - code: K28
+      value: Gastrojejunal ulcer
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K25
+      value: Gastric ulcer
+      type: any
+    - code: K26
+      value: Duodenal ulcer
+      type: any
+    - code: K27
+      value: Peptic ulcer, site unspecified
+      type: any
+    - code: K28
+      value: Gastrojejunal ulcer
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: G35
+      value: Operations on ulcer of stomach
+      type: any
+    - code: G35.1
+      value: Closure of perforated ulcer of stomach
+      type: any
+    - code: G35.2
+      value: Closure of ulcer of stomach NEC
+      type: any
+    - code: G35.8
+      value: Other specified operations on ulcer of stomach
+      type: any
+    - code: G35.9
+      value: Unspecified operations on ulcer of stomach
+      type: any
+    - code: G52
+      value: Operations on ulcer of duodenum
+      type: any
+    - code: G52.1
+      value: Closure of perforated ulcer of duodenum
+      type: any
+    - code: G52.2
+      value: Suture of ulcer of duodenum NEC
+      type: any
+    - code: G52.3
+      value: Oversew of blood vessel of duodenal ulcer
+      type: any
+    - code: G52.8
+      value: Other specified operations on ulcer of duodenum
+      type: any
+    - code: G52.9
+      value: Unspecified operations on ulcer of duodenum
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: G35
+      value: G35
+      type: any
+    - code: G35.1
+      value: G35.1
+      type: any
+    - code: G35.2
+      value: G35.2
+      type: any
+    - code: G35.8
+      value: G35.8
+      type: any
+    - code: G35.9
+      value: G35.9
+      type: any
+    - code: G52
+      value: G52
+      type: any
+    - code: G52.1
+      value: G52.1
+      type: any
+    - code: G52.2
+      value: G52.2
+      type: any
+    - code: G52.3
+      value: G52.3
+      type: any
+    - code: G52.8
+      value: G52.8
+      type: any
+    - code: G52.9
+      value: G52.9
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K25
+      value: Gastric ulcer
+      type: any
+    - code: K26
+      value: Duodenal ulcer
+      type: any
+    - code: K27
+      value: Peptic ulcer, site unspecified
+      type: any
+    - code: K28
+      value: Gastrojejunal ulcer
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K25
+      value: Gastric ulcer
+      type: any
+    - code: K26
+      value: Duodenal ulcer
+      type: any
+    - code: K27
+      value: Peptic ulcer, site unspecified
+      type: any
+    - code: K28
+      value: Gastrojejunal ulcer
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14C1.00
+      value: 'H/O: peptic ulcer'
+      type: prevalent
+    - code: 14C1.11
+      value: 'H/O: duodenal ulcer'
+      type: prevalent
+    - code: 14C1.12
+      value: 'H/O: gastric ulcer'
+      type: prevalent
+    - code: '7612111.0'
+      value: Balfour excision of gastric ulcer
+      type: any
+    - code: '7612500.0'
+      value: Resection of gastric ulcer by cautery
+      type: any
+    - code: 761D500
+      value: Endoscopic injection haemostasis of duodenal ulcer
+      type: any
+    - code: 761D600
+      value: Endoscopic injection haemostasis of gastric ulcer
+      type: any
+    - code: 761J000
+      value: Closure of perforated gastric ulcer
+      type: any
+    - code: 761J100
+      value: Closure of gastric ulcer NEC
+      type: any
+    - code: 761J111
+      value: Suture of ulcer of stomach NEC
+      type: any
+    - code: 761J.00
+      value: Operations on gastric ulcer
+      type: any
+    - code: 761J.11
+      value: Stomach ulcer operations
+      type: any
+    - code: 761Jy00
+      value: Other specified operation on gastric ulcer
+      type: any
+    - code: 761Jz00
+      value: Operation on gastric ulcer NOS
+      type: any
+    - code: '7627000.0'
+      value: Closure of perforated duodenal ulcer
+      type: any
+    - code: '7627100.0'
+      value: Suture of duodenal ulcer not elsewhere classified
+      type: any
+    - code: '7627200.0'
+      value: Oversew of blood vessel of duodenal ulcer
+      type: any
+    - code: '7627.00'
+      value: Operations on duodenal ulcer
+      type: any
+    - code: 7627y00
+      value: Other specified operation on duodenal ulcer
+      type: any
+    - code: 7627z00
+      value: Operation on duodenal ulcer NOS
+      type: any
+    - code: J110000
+      value: Acute gastric ulcer without mention of complication
+      type: any
+    - code: J110100
+      value: Acute gastric ulcer with haemorrhage
+      type: any
+    - code: J110111
+      value: Bleeding acute gastric ulcer
+      type: any
+    - code: J110200
+      value: Acute gastric ulcer with perforation
+      type: any
+    - code: J110300
+      value: Acute gastric ulcer with haemorrhage and perforation
+      type: any
+    - code: J110400
+      value: Acute gastric ulcer with obstruction
+      type: any
+    - code: J110.00
+      value: Acute gastric ulcer
+      type: any
+    - code: J110y00
+      value: Acute gastric ulcer unspecified
+      type: any
+    - code: J110z00
+      value: Acute gastric ulcer NOS
+      type: any
+    - code: J111000
+      value: Chronic gastric ulcer without mention of complication
+      type: any
+    - code: J111100
+      value: Chronic gastric ulcer with haemorrhage
+      type: any
+    - code: J111111
+      value: Bleeding chronic gastric ulcer
+      type: any
+    - code: J111200
+      value: Chronic gastric ulcer with perforation
+      type: any
+    - code: J111211
+      value: Perforated chronic gastric ulcer
+      type: any
+    - code: J111300
+      value: Chronic gastric ulcer with haemorrhage and perforation
+      type: any
+    - code: J111400
+      value: Chronic gastric ulcer with obstruction
+      type: any
+    - code: J111.00
+      value: Chronic gastric ulcer
+      type: any
+    - code: J111y00
+      value: Chronic gastric ulcer unspecified
+      type: any
+    - code: J111z00
+      value: Chronic gastric ulcer NOS
+      type: any
+    - code: J112.00
+      value: Anti-platelet induced gastric ulcer
+      type: any
+    - code: J112z00
+      value: Anti-platelet induced gastric ulcer NOS
+      type: any
+    - code: J113.00
+      value: Non steroidal anti inflammatory drug induced gastric ulcer
+      type: any
+    - code: J113z00
+      value: Non steroidal anti inflammatory drug induced gastric ulc NOS
+      type: any
+    - code: J11..00
+      value: Gastric ulcer - (GU)
+      type: any
+    - code: J11..11
+      value: Prepyloric ulcer
+      type: any
+    - code: J11..12
+      value: Pyloric ulcer
+      type: any
+    - code: J11y000
+      value: Unspecified gastric ulcer without mention of complication
+      type: any
+    - code: J11y100
+      value: Unspecified gastric ulcer with haemorrhage
+      type: any
+    - code: J11y200
+      value: Unspecified gastric ulcer with perforation
+      type: any
+    - code: J11y400
+      value: Unspecified gastric ulcer with obstruction
+      type: any
+    - code: J11y.00
+      value: Unspecified gastric ulcer
+      type: any
+    - code: J11yy00
+      value: Unspec gastric ulcer; unspec haemorrhage and/or perforation
+      type: any
+    - code: J11yz00
+      value: Unspecified gastric ulcer NOS
+      type: any
+    - code: J11z.00
+      value: Gastric ulcer NOS
+      type: any
+    - code: J11z.11
+      value: Gastric erosions
+      type: any
+    - code: J11z.12
+      value: Multiple gastric ulcers
+      type: any
+    - code: J120000
+      value: Acute duodenal ulcer without mention of complication
+      type: any
+    - code: J120100
+      value: Acute duodenal ulcer with haemorrhage
+      type: any
+    - code: J120200
+      value: Acute duodenal ulcer with perforation
+      type: any
+    - code: J120300
+      value: Acute duodenal ulcer with haemorrhage and perforation
+      type: any
+    - code: J120400
+      value: Acute duodenal ulcer with obstruction
+      type: any
+    - code: J120.00
+      value: Acute duodenal ulcer
+      type: any
+    - code: J120y00
+      value: Acute duodenal ulcer unspecified
+      type: any
+    - code: J120z00
+      value: Acute duodenal ulcer NOS
+      type: any
+    - code: J121000
+      value: Chronic duodenal ulcer without mention of complication
+      type: any
+    - code: J121100
+      value: Chronic duodenal ulcer with haemorrhage
+      type: any
+    - code: J121111
+      value: Bleeding chronic duodenal ulcer
+      type: any
+    - code: J121200
+      value: Chronic duodenal ulcer with perforation
+      type: any
+    - code: J121211
+      value: Perforated chronic duodenal ulcer
+      type: any
+    - code: J121300
+      value: Chronic duodenal ulcer with haemorrhage and perforation
+      type: any
+    - code: J121400
+      value: Chronic duodenal ulcer with obstruction
+      type: any
+    - code: J121.00
+      value: Chronic duodenal ulcer
+      type: any
+    - code: J121y00
+      value: Chronic duodenal ulcer unspecified
+      type: any
+    - code: J121z00
+      value: Chronic duodenal ulcer NOS
+      type: any
+    - code: J122.00
+      value: Duodenal ulcer disease
+      type: any
+    - code: J123.00
+      value: Duodenal erosion
+      type: any
+    - code: J124.00
+      value: Recurrent duodenal ulcer
+      type: any
+    - code: J125.00
+      value: Anti-platelet induced duodenal ulcer
+      type: any
+    - code: J126.00
+      value: Non steroidal anti inflammatory drug induced duodenal ulcer
+      type: any
+    - code: J12..00
+      value: Duodenal ulcer - (DU)
+      type: any
+    - code: J12y000
+      value: Unspecified duodenal ulcer without mention of complication
+      type: any
+    - code: J12y100
+      value: Unspecified duodenal ulcer with haemorrhage
+      type: any
+    - code: J12y200
+      value: Unspecified duodenal ulcer with perforation
+      type: any
+    - code: J12y300
+      value: Unspecified duodenal ulcer with haemorrhage and perforation
+      type: any
+    - code: J12y400
+      value: Unspecified duodenal ulcer with obstruction
+      type: any
+    - code: J12y.00
+      value: Unspecified duodenal ulcer
+      type: any
+    - code: J12yy00
+      value: Unspec duodenal ulcer; unspec haemorrhage and/or perforation
+      type: any
+    - code: J12yz00
+      value: Unspecified duodenal ulcer NOS
+      type: any
+    - code: J12z.00
+      value: Duodenal ulcer NOS
+      type: any
+    - code: J130000
+      value: Acute peptic ulcer without mention of complication
+      type: any
+    - code: J130100
+      value: Acute peptic ulcer with haemorrhage
+      type: any
+    - code: J130200
+      value: Acute peptic ulcer with perforation
+      type: any
+    - code: J130300
+      value: Acute peptic ulcer with haemorrhage and perforation
+      type: any
+    - code: J130.00
+      value: Acute peptic ulcer
+      type: any
+    - code: J130y00
+      value: Acute peptic ulcer unspecified
+      type: any
+    - code: J130z00
+      value: Acute peptic ulcer NOS
+      type: any
+    - code: J131000
+      value: Chronic peptic ulcer without mention of complication
+      type: any
+    - code: J131100
+      value: Chronic peptic ulcer with haemorrhage
+      type: any
+    - code: J131200
+      value: Chronic peptic ulcer with perforation
+      type: any
+    - code: J131400
+      value: Chronic peptic ulcer with obstruction
+      type: any
+    - code: J131.00
+      value: Chronic peptic ulcer
+      type: any
+    - code: J131y00
+      value: Chronic peptic ulcer unspecified
+      type: any
+    - code: J131z00
+      value: Chronic peptic ulcer NOS
+      type: any
+    - code: J13..00
+      value: Peptic ulcer - (PU) site unspecified
+      type: any
+    - code: J13..11
+      value: Stress ulcer NOS
+      type: any
+    - code: J13y000
+      value: Unspecified peptic ulcer without mention of complication
+      type: any
+    - code: J13y100
+      value: Unspecified peptic ulcer with haemorrhage
+      type: any
+    - code: J13y200
+      value: Unspecified peptic ulcer with perforation
+      type: any
+    - code: J13y300
+      value: Unspecified peptic ulcer with haemorrhage and perforation
+      type: any
+    - code: J13y400
+      value: Unspecified peptic ulcer with obstruction
+      type: any
+    - code: J13y.00
+      value: Unspecified peptic ulcer
+      type: any
+    - code: J13yz00
+      value: Unspecified peptic ulcer NOS
+      type: any
+    - code: J13z.00
+      value: Peptic ulcer NOS
+      type: any
+    - code: J140100
+      value: Acute gastrojejunal ulcer with haemorrhage
+      type: any
+    - code: J140200
+      value: Acute gastrojejunal ulcer with perforation
+      type: any
+    - code: J140300
+      value: Acute gastrojejunal ulcer with haemorrhage and perforation
+      type: any
+    - code: J140.00
+      value: Acute gastrojejunal ulcer
+      type: any
+    - code: J140z00
+      value: Acute gastrojejunal ulcer NOS
+      type: any
+    - code: J141300
+      value: Chronic gastrojejunal ulcer with haemorrhage and perforation
+      type: any
+    - code: J141.00
+      value: Chronic gastrojejunal ulcer
+      type: any
+    - code: J14..00
+      value: Gastrojejunal ulcer (GJU)
+      type: any
+    - code: J14..11
+      value: Anastomotic ulcer
+      type: any
+    - code: J14..12
+      value: Gastrocolic ulcer
+      type: any
+    - code: J14..13
+      value: Jejunal ulcer
+      type: any
+    - code: J14y100
+      value: Unspecified gastrojejunal ulcer with haemorrhage
+      type: any
+    - code: J14y200
+      value: Unspecified gastrojejunal ulcer with perforation
+      type: any
+    - code: J14y.00
+      value: Unspecified gastrojejunal ulcer
+      type: any
+    - code: J14yz00
+      value: Unspecified gastrojejunal ulcer NOS
+      type: any
+    - code: J14z.00
+      value: Gastrojejunal ulcer NOS
+      type: any
+    - code: J17y800
+      value: Healed gastric ulcer leaving a scar
+      type: any
+    - code: ZV12711
+      value: '[V]Personal history of peptic ulcer'
+      type: prevalent
+    - code: ZV12712
+      value: '[V]Personal history of duodenal ulcer'
+      type: prevalent
+    - code: ZV12C00
+      value: '[V] Personal history of gastric ulcer'
+      type: prevalent
+    - code: XaFBs
+      value: Endoscopic injection haemostasis of gastric ulcer
+      type: any
+    - code: XE24Y
+      value: '[V]Personal history of digestive system disease'
+      type: prevalent
+    - code: XaLWs
+      value: Anti-platelet induced duodenal ulcer
+      type: any
+    - code: XaMO5
+      value: Non steroidal anti inflammatory drug induced gastric ulcer
+      type: any
+    - code: XE0aR
+      value: Peptic ulcer - (PU) site unspecified
+      type: any
+    - code: X302G
+      value: Duodenal erosion
+      type: any
+    - code: XaCLu
+      value: '[V] Personal history of gastric ulcer'
+      type: prevalent
+    - code: XE0Cf
+      value: Open excision of lesion of stomach NEC
+      type: any
+    - code: XaMO6
+      value: Non steroidal anti inflammatory drug induced gastric ulcer NOS
+      type: any
+    - code: XE0aQ
+      value: Gastric ulcer NOS
+      type: any
+    - code: XE0qB
+      value: 'H/O: peptic ulcer'
+      type: prevalent
+    - code: X302b
+      value: Duodenal ulcer disease
+      type: any
+    - code: XaFBq
+      value: Endoscopic injection haemostasis of duodenal ulcer
+      type: any
+    - code: XaLWr
+      value: Anti-platelet induced gastric ulcer NOS
+      type: any
+    - code: XaLdV
+      value: Oversew of blood vessel of duodenal ulcer
+      type: any
+    - code: XaMO7
+      value: Non steroidal anti inflammatory drug induced duodenal ulcer
+      type: any
+    - code: XaLWq
+      value: Anti-platelet induced gastric ulcer
+      type: any
+    - code: XE0Cr
+      value: Closure of gastric ulcer NEC
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

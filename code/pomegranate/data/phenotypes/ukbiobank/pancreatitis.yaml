@@ -1,0 +1,252 @@
+metadata:
+  phenotype: Pancreatitis
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: pancreatitis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: fd3132e5-448e-41c3-ac9e-444f3bed28e9
+  ontologies:
+    DOID: DOID_4989
+    GWAS: EFO_0000278
+    MESH: D010195
+    SNOMED-CT: 75694006
+    FINNGEN: K11_ACUTPANC
+  short_desc: An acute inflammatory process that leads to necrosis of the pancreatic
+    parenchyma.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1165'
+      value: pancreatitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K85
+      value: Acute pancreatitis
+      type: any
+    - code: K86.0
+      value: Alcohol-induced chronic pancreatitis
+      type: any
+    - code: K86.1
+      value: Other chronic pancreatitis
+      type: any
+    - code: K86.3
+      value: Pseudocyst of pancreas
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K85
+      value: Acute pancreatitis
+      type: any
+    - code: K86.0
+      value: Alcohol-induced chronic pancreatitis
+      type: any
+    - code: K86.1
+      value: Other chronic pancreatitis
+      type: any
+    - code: K86.3
+      value: Pseudocyst of pancreas
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K85
+      value: Acute pancreatitis
+      type: any
+    - code: K86.0
+      value: Alcohol-induced chronic pancreatitis
+      type: any
+    - code: K86.1
+      value: Other chronic pancreatitis
+      type: any
+    - code: K86.3
+      value: Pseudocyst of pancreas
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K85
+      value: Acute pancreatitis
+      type: any
+    - code: K86.0
+      value: Alcohol-induced chronic pancreatitis
+      type: any
+    - code: K86.1
+      value: Other chronic pancreatitis
+      type: any
+    - code: K86.3
+      value: Pseudocyst of pancreas
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14CG.00
+      value: History of acute pancreatitis
+      type: prevalent
+    - code: 14CH.00
+      value: History of chronic pancreatitis
+      type: prevalent
+    - code: A723.00
+      value: Mumps pancreatitis
+      type: any
+    - code: A785100
+      value: Cytomegaloviral pancreatitis
+      type: any
+    - code: D201612
+      value: Pancytopenia with pancreatitis
+      type: any
+    - code: J670000
+      value: Acute pancreatitis unspecified
+      type: any
+    - code: J670100
+      value: Acute recurrent pancreatitis
+      type: any
+    - code: J670200
+      value: Acute haemorrhagic pancreatitis
+      type: any
+    - code: J670300
+      value: Acute suppurative pancreatitis
+      type: any
+    - code: J670400
+      value: Subacute pancreatitis
+      type: any
+    - code: J670500
+      value: Gallstone acute pancreatitis
+      type: any
+    - code: J670600
+      value: Idiopathic acute pancreatitis
+      type: any
+    - code: J670700
+      value: Biliary acute pancreatitis
+      type: any
+    - code: J670800
+      value: Alcohol-induced acute pancreatitis
+      type: any
+    - code: J670900
+      value: Drug-induced acute pancreatitis
+      type: any
+    - code: J670.00
+      value: Acute pancreatitis
+      type: any
+    - code: J670y00
+      value: Other acute pancreatitis
+      type: any
+    - code: J670z00
+      value: Acute pancreatitis NOS
+      type: any
+    - code: J670z11
+      value: Pancreatitis
+      type: any
+    - code: J671000
+      value: Alcohol-induced chronic pancreatitis
+      type: any
+    - code: J671100
+      value: Gallstone chronic pancreatitis
+      type: any
+    - code: J671.00
+      value: Chronic pancreatitis
+      type: any
+    - code: J672100
+      value: Pseudocyst of pancreas
+      type: any
+    - code: Jyu8400
+      value: '[X]Other chronic pancreatitis'
+      type: any
+    - code: XaYaK
+      value: Biliary acute pancreatitis
+      type: any
+    - code: XE13v
+      value: Pancytopenia NOS
+      type: any
+    - code: X308k
+      value: Idiopathic acute pancreatitis
+      type: any
+    - code: XaLou
+      value: History of acute pancreatitis
+      type: prevalent
+    - code: X308j
+      value: Alcohol-induced acute pancreatitis
+      type: any
+    - code: X308p
+      value: Cytomegaloviral pancreatitis
+      type: any
+    - code: X308l
+      value: Drug-induced acute pancreatitis
+      type: any
+    - code: X308v
+      value: Alcohol-induced chronic pancreatitis
+      type: any
+    - code: XaLov
+      value: History of chronic pancreatitis
+      type: prevalent
+    - code: X308i
+      value: Gallstone acute pancreatitis
+      type: any
+    - code: XE0bH
+      value: Acute pancreatitis NOS
+      type: any
+    - code: X308u
+      value: Gallstone chronic pancreatitis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

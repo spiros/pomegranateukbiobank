@@ -1,0 +1,116 @@
+metadata:
+  phenotype: Polycystic ovarian syndrome
+  group: Endocrine
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: PCOS
+  gender:
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 99013c8a-fae6-4f8a-8448-f477d7c0cabe
+  ontologies:
+    DOID: DOID_11612
+    GWAS: EFO_0000660
+    MESH: D011085
+    SNOMED-CT: 237055002
+    FINNGEN: E4_PCOS
+  short_desc: A complex disorder characterized by infertility, HIRSUTISM; OBESITY;
+    and various menstrual disturbances such as OLIGOMENORRHEA; AMENORRHEA; ANOVULATION.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1350'
+      value: polycystic ovaries/polycystic ovarian syndrome
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: E28.2
+      value: Polycystic ovarian syndrome
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: E28.2
+      value: Polycystic ovarian syndrome
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: E28.2
+      value: Polycystic ovarian syndrome
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: E28.2
+      value: Polycystic ovarian syndrome
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: C164.12
+      value: Stein - Leventhal syndrome
+      type: any
+    - code: C165.00
+      value: Polycystic ovarian syndrome
+      type: any
+    - code: XE10l
+      value: Polycystic ovaries
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

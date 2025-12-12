@@ -1,0 +1,119 @@
+metadata:
+  phenotype: Hidradenitis suppurativa
+  group: Skin
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: hidradenitis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: e189b077-cb53-49a4-96dd-a75feb79e8be
+  ontologies:
+    DOID: DOID_2282
+    GWAS: EFO_1000710
+    MESH: D016575
+    SNOMED-CT: 69741000
+    FINNGEN: L12_HIDRADENITISSUP
+  short_desc: Hidradenitis suppurativa a common (though rarely diagnosed), chronic
+    skin disease characterized by clusters of abscesses or subcutaneous boil-like
+    "infections" (oftentimes free of actual bacteria) that most commonly affects apocrine
+    sweat gland bearing areas, such as the underarms, under the breasts, inner thighs,
+    groin and buttocks.The disease is not contagious. There are indications that it
+    is hereditary among certain ethnic groups and autoimmune in nature. Onset is most
+    common in the late teens and early 20's.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: L73.2
+      value: Hidradenitis suppurativa
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: L73.2
+      value: Hidradenitis suppurativa
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: L73.2
+      value: Hidradenitis suppurativa
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: L73.2
+      value: Hidradenitis suppurativa
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: M25y100
+      value: Hidradenitis
+      type: any
+    - code: M25y111
+      value: Hidradenitis suppurativa
+      type: any
+    - code: XE1BM
+      value: Hidradenitis
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

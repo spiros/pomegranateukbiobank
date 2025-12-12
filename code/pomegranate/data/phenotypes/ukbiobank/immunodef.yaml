@@ -1,0 +1,346 @@
+metadata:
+  phenotype: Immunodeficiencies
+  group: Haematological or immunological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: immunodef
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 6e8701a3-d21e-4d0d-b306-4ed2866240d7
+  ontologies:
+    DOID: DOID_612
+    GWAS: Orphanet_101997
+    MESH: D000081207
+    SNOMED-CT: '58606001'
+    FINNGEN: D3_IMMUDEF
+  short_desc: Genetic immunologic deficiency diseases and syndromes due to mutations
+    in genes involved in immunity generally characterized by an increased susceptibility
+    to infectious diseases. They are often associated with autoimmune disease manifestations.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D80
+      value: Immunodeficiency with predominantly antibody defects
+      type: any
+    - code: D81
+      value: Combined immunodeficiencies
+      type: any
+    - code: D82
+      value: Immunodeficiency associated with other major defects
+      type: any
+    - code: D83
+      value: Common variable immunodeficiency
+      type: any
+    - code: D84.0
+      value: Lymphocyte function antigen-1 [LFA-1] defect
+      type: any
+    - code: D84.8
+      value: Other specified immunodeficiencies
+      type: any
+    - code: D84.9
+      value: Immunodeficiency, unspecified
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D80
+      value: Immunodeficiency with predominantly antibody defects
+      type: any
+    - code: D81
+      value: Combined immunodeficiencies
+      type: any
+    - code: D82
+      value: Immunodeficiency associated with other major defects
+      type: any
+    - code: D83
+      value: Common variable immunodeficiency
+      type: any
+    - code: D84.0
+      value: Lymphocyte function antigen-1 [LFA-1] defect
+      type: any
+    - code: D84.8
+      value: Other specified immunodeficiencies
+      type: any
+    - code: D84.9
+      value: Immunodeficiency, unspecified
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D80
+      value: Immunodeficiency with predominantly antibody defects
+      type: any
+    - code: D81
+      value: Combined immunodeficiencies
+      type: any
+    - code: D82
+      value: Immunodeficiency associated with other major defects
+      type: any
+    - code: D83
+      value: Common variable immunodeficiency
+      type: any
+    - code: D84.0
+      value: Lymphocyte function antigen-1 [LFA-1] defect
+      type: any
+    - code: D84.8
+      value: Other specified immunodeficiencies
+      type: any
+    - code: D84.9
+      value: Immunodeficiency, unspecified
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D80
+      value: Immunodeficiency with predominantly antibody defects
+      type: any
+    - code: D81
+      value: Combined immunodeficiencies
+      type: any
+    - code: D82
+      value: Immunodeficiency associated with other major defects
+      type: any
+    - code: D83
+      value: Common variable immunodeficiency
+      type: any
+    - code: D84.0
+      value: Lymphocyte function antigen-1 [LFA-1] defect
+      type: any
+    - code: D84.8
+      value: Other specified immunodeficiencies
+      type: any
+    - code: D84.9
+      value: Immunodeficiency, unspecified
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: C390000
+      value: Hypogammaglobulinaemia NOS
+      type: any
+    - code: C390100
+      value: Selective IgA immunodeficiency
+      type: any
+    - code: C390200
+      value: Selective IgM immunodeficiency
+      type: any
+    - code: C390300
+      value: Selective IgG immunodeficiency
+      type: any
+    - code: C390400
+      value: Other selective immunoglobulin deficiency
+      type: any
+    - code: C390500
+      value: Congenital hypogammaglobulinaemia
+      type: any
+    - code: C390511
+      value: Bruton's agammaglobulinaemia
+      type: any
+    - code: C390512
+      value: Congenital X-linked agammaglobulinaemia
+      type: any
+    - code: C390600
+      value: Immunodeficiency with IgM hypergammaglobulinaemia
+      type: any
+    - code: C390700
+      value: Common variable immunodeficiency
+      type: any
+    - code: C390800
+      value: Transient infant hypogammaglobulinaemia
+      type: any
+    - code: C390900
+      value: Agammaglobulinaemia NEC
+      type: any
+    - code: C390A00
+      value: Dysimmunoglobulinaemia NEC
+      type: any
+    - code: C390A11
+      value: Dysgammaglobulinaemia NEC
+      type: any
+    - code: C390B00
+      value: Antibod def wth nr-norm imunoglob/or wth hyperimunoglobaemia
+      type: any
+    - code: C390.00
+      value: Deficiencies of humoral immunity
+      type: any
+    - code: C390.11
+      value: Agammaglobulinaemia
+      type: any
+    - code: C390y00
+      value: Other specified deficiency of humoral immunity
+      type: any
+    - code: C390z00
+      value: Deficiency of humoral immunity NOS
+      type: any
+    - code: C391000
+      value: Predominantly T-cell immuno-deficiency NOS
+      type: any
+    - code: C391011
+      value: T-lymphocyte deficiency
+      type: any
+    - code: C391012
+      value: Cellular immunity syndrome
+      type: any
+    - code: C391100
+      value: Di George syndrome
+      type: any
+    - code: C391200
+      value: Wiskott - Aldrich syndrome
+      type: any
+    - code: C391211
+      value: Thrombocytopenic eczema with immunodeficiency
+      type: any
+    - code: C391.00
+      value: Deficiencies of cell-mediated immunity
+      type: any
+    - code: C392100
+      value: Severe combined immunodeficiency
+      type: any
+    - code: C392111
+      value: Swiss type agammaglobulinaemia
+      type: any
+    - code: C392300
+      value: Severe combined immunodefiency with reticular dysgenesis
+      type: any
+    - code: C392400
+      value: Severe combined immunodef with low T- and B-cell numbers
+      type: any
+    - code: C392500
+      value: Severe combined immunodef with low or normal B-cell numbers
+      type: any
+    - code: C392600
+      value: Adenosine deaminase deficiency
+      type: any
+    - code: C392700
+      value: Purine nucleoside phosphorylase deficiency
+      type: any
+    - code: C392800
+      value: Major histocompatibility complex class I deficiency
+      type: any
+    - code: C392900
+      value: Major histocompatibility complex class II deficiency
+      type: any
+    - code: C392.00
+      value: Combined immunity deficiency
+      type: any
+    - code: C392z00
+      value: Combined immunity deficiency NOS
+      type: any
+    - code: C393.00
+      value: Unspecified immunity deficiency
+      type: any
+    - code: C395.00
+      value: Immunodeficiency with short-limbed stature
+      type: any
+    - code: C396.00
+      value: Immunodef follow hereditary defect respon Epstein-Barr vir
+      type: any
+    - code: C397.00
+      value: Hyperimmunoglobulin E syndrome
+      type: any
+    - code: C398000
+      value: Com var immunodef with predom abn B-cell numbers and functns
+      type: any
+    - code: C398200
+      value: Common variable immunodef wth autoantibod to B- or T-cells
+      type: any
+    - code: C398.00
+      value: Common variable immunodeficiency
+      type: any
+    - code: C39X.00
+      value: Immunodeficiency associated+major defect, unspecified
+      type: any
+    - code: C39y000
+      value: Lymphocyte function antigen-1 defect
+      type: any
+    - code: Cyu0000
+      value: '[X]Other immunodeficiencies+predominantly antibody defects'
+      type: any
+    - code: Cyu0400
+      value: '[X]Other common variable immunodeficiencies'
+      type: any
+    - code: Cyu0500
+      value: '[X]Other specified immunodeficiency disorders'
+      type: any
+    - code: XE11v
+      value: Congenital hypogammaglobulinaemia
+      type: any
+    - code: X40Ua
+      value: Adenosine deaminase deficiency
+      type: any
+    - code: X20Dw
+      value: Hyperimmunoglobulin E syndrome
+      type: any
+    - code: XE11u
+      value: Deficiencies of humoral immunity
+      type: any
+    - code: X40Uc
+      value: Purine nucleoside phosphorylase deficiency
+      type: any
+    - code: C3907
+      value: Common variable immunodeficiency
+      type: any
+    - code: XE11w
+      value: Predominantly T-cell immuno-deficiency NOS
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

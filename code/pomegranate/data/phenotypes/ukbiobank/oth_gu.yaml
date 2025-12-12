@@ -1,0 +1,320 @@
+metadata:
+  phenotype: Infection of other or unspecified genitourinary system
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: oth_gu
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: c4feb2f6-d8e7-4067-a109-c2cfa80c0b28
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: null
+    SNOMED-CT: 189176002
+    FINNGEN: null
+  short_desc: Infection of other or unspecified genitourinary system
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: A18.1
+      value: Tuberculosis of genitourinary system
+      type: any
+    - code: A51.0
+      value: Primary genital syphilis
+      type: any
+    - code: A54.0
+      value: Gonococcal infection of lower genitourinary tract without periurethral
+        or accessory gland abscess
+      type: any
+    - code: A54.1
+      value: Gonococcal infection of lower genitourinary tract with periurethral and
+        accessory gland abscess
+      type: any
+    - code: A54.2
+      value: Gonococcal pelviperitonitis and other gonococcal genitourinary infections
+      type: any
+    - code: A56.0
+      value: Chlamydial infection of lower genitourinary tract
+      type: any
+    - code: A56.1
+      value: Chlamydial infection of pelviperitoneum and other genitourinary organs
+      type: any
+    - code: A56.2
+      value: Chlamydial infection of genitourinary tract, unspecified
+      type: any
+    - code: A57
+      value: Chancroid
+      type: any
+    - code: A58
+      value: Granuloma inguinale
+      type: any
+    - code: A59.0
+      value: Urogenital trichomoniasis
+      type: any
+    - code: A60.0
+      value: Herpesviral infection of genitalia and urogenital tract
+      type: any
+    - code: B37.3
+      value: Candidiasis of vulva and vagina
+      type: any
+    - code: B37.4
+      value: Candidiasis of other urogenital sites
+      type: any
+    - code: B90.1
+      value: Sequelae of genitourinary tuberculosis
+      type: any
+    - code: N75.1
+      value: Abscess of Bartholin's gland
+      type: any
+    - code: N77.0
+      value: Ulceration of vulva in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: N77.1
+      value: Vaginitis, vulvitis and vulvovaginitis in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: A18.1
+      value: Tuberculosis of genitourinary system
+      type: any
+    - code: A51.0
+      value: Primary genital syphilis
+      type: any
+    - code: A54.0
+      value: Gonococcal infection of lower genitourinary tract without periurethral
+        or accessory gland abscess
+      type: any
+    - code: A54.1
+      value: Gonococcal infection of lower genitourinary tract with periurethral and
+        accessory gland abscess
+      type: any
+    - code: A54.2
+      value: Gonococcal pelviperitonitis and other gonococcal genitourinary infections
+      type: any
+    - code: A56.0
+      value: Chlamydial infection of lower genitourinary tract
+      type: any
+    - code: A56.1
+      value: Chlamydial infection of pelviperitoneum and other genitourinary organs
+      type: any
+    - code: A56.2
+      value: Chlamydial infection of genitourinary tract, unspecified
+      type: any
+    - code: A57
+      value: Chancroid
+      type: any
+    - code: A58
+      value: Granuloma inguinale
+      type: any
+    - code: A59.0
+      value: Urogenital trichomoniasis
+      type: any
+    - code: A60.0
+      value: Herpesviral infection of genitalia and urogenital tract
+      type: any
+    - code: B37.3
+      value: Candidiasis of vulva and vagina
+      type: any
+    - code: B37.4
+      value: Candidiasis of other urogenital sites
+      type: any
+    - code: B90.1
+      value: Sequelae of genitourinary tuberculosis
+      type: any
+    - code: N75.1
+      value: Abscess of Bartholin's gland
+      type: any
+    - code: N77.0
+      value: Ulceration of vulva in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: N77.1
+      value: Vaginitis, vulvitis and vulvovaginitis in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A18.1
+      value: Tuberculosis of genitourinary system
+      type: any
+    - code: A51.0
+      value: Primary genital syphilis
+      type: any
+    - code: A54.0
+      value: Gonococcal infection of lower genitourinary tract without periurethral
+        or accessory gland abscess
+      type: any
+    - code: A54.1
+      value: Gonococcal infection of lower genitourinary tract with periurethral and
+        accessory gland abscess
+      type: any
+    - code: A54.2
+      value: Gonococcal pelviperitonitis and other gonococcal genitourinary infections
+      type: any
+    - code: A56.0
+      value: Chlamydial infection of lower genitourinary tract
+      type: any
+    - code: A56.1
+      value: Chlamydial infection of pelviperitoneum and other genitourinary organs
+      type: any
+    - code: A56.2
+      value: Chlamydial infection of genitourinary tract, unspecified
+      type: any
+    - code: A57
+      value: Chancroid
+      type: any
+    - code: A58
+      value: Granuloma inguinale
+      type: any
+    - code: A59.0
+      value: Urogenital trichomoniasis
+      type: any
+    - code: A60.0
+      value: Herpesviral infection of genitalia and urogenital tract
+      type: any
+    - code: B37.3
+      value: Candidiasis of vulva and vagina
+      type: any
+    - code: B37.4
+      value: Candidiasis of other urogenital sites
+      type: any
+    - code: B90.1
+      value: Sequelae of genitourinary tuberculosis
+      type: any
+    - code: N75.1
+      value: Abscess of Bartholin's gland
+      type: any
+    - code: N77.0
+      value: Ulceration of vulva in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: N77.1
+      value: Vaginitis, vulvitis and vulvovaginitis in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A18.1
+      value: Tuberculosis of genitourinary system
+      type: any
+    - code: A51.0
+      value: Primary genital syphilis
+      type: any
+    - code: A54.0
+      value: Gonococcal infection of lower genitourinary tract without periurethral
+        or accessory gland abscess
+      type: any
+    - code: A54.1
+      value: Gonococcal infection of lower genitourinary tract with periurethral and
+        accessory gland abscess
+      type: any
+    - code: A54.2
+      value: Gonococcal pelviperitonitis and other gonococcal genitourinary infections
+      type: any
+    - code: A56.0
+      value: Chlamydial infection of lower genitourinary tract
+      type: any
+    - code: A56.1
+      value: Chlamydial infection of pelviperitoneum and other genitourinary organs
+      type: any
+    - code: A56.2
+      value: Chlamydial infection of genitourinary tract, unspecified
+      type: any
+    - code: A57
+      value: Chancroid
+      type: any
+    - code: A58
+      value: Granuloma inguinale
+      type: any
+    - code: A59.0
+      value: Urogenital trichomoniasis
+      type: any
+    - code: A60.0
+      value: Herpesviral infection of genitalia and urogenital tract
+      type: any
+    - code: B37.3
+      value: Candidiasis of vulva and vagina
+      type: any
+    - code: B37.4
+      value: Candidiasis of other urogenital sites
+      type: any
+    - code: B90.1
+      value: Sequelae of genitourinary tuberculosis
+      type: any
+    - code: N75.1
+      value: Abscess of Bartholin's gland
+      type: any
+    - code: N77.0
+      value: Ulceration of vulva in infectious and parasitic diseases classified elsewhere
+      type: any
+    - code: N77.1
+      value: Vaginitis, vulvitis and vulvovaginitis in infectious and parasitic diseases
+        classified elsewhere
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

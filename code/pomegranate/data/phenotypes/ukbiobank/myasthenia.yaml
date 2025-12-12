@@ -1,0 +1,117 @@
+metadata:
+  phenotype: Myasthenia gravis
+  group: Neurological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: myasthenia
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 9962b89a-87bb-4806-aa8e-68de12a894cf
+  ontologies:
+    DOID: DOID_437
+    GWAS: EFO_0004991
+    MESH: D009157
+    SNOMED-CT: 91637004
+    FINNGEN: G6_MYASTHENIA
+  short_desc: A rare, clinically heterogeneous, autoimmune disorder of the neuromuscular
+    junction characterized by fatigable weakness of voluntary muscles.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1260'
+      value: myasthenia gravis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: G70.0
+      value: Myasthenia gravis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: G70.0
+      value: Myasthenia gravis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G70.0
+      value: Myasthenia gravis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G70.0
+      value: Myasthenia gravis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: F380100
+      value: Juvenile or adult myasthenia gravis
+      type: any
+    - code: F380.00
+      value: Myasthenia gravis
+      type: any
+    - code: F380z00
+      value: Myasthenia gravis NOS
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

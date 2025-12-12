@@ -1,0 +1,1439 @@
+metadata:
+  phenotype: Abdominal Hernia
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: hernia_abdo
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: dd4c17d5-0790-4c18-b068-b181be2bdae8
+  ontologies:
+    DOID: null
+    GWAS: HP_0004299
+    MESH: D046449
+    SNOMED-CT: '128545000'
+    FINNGEN: ABDOM_HERNIA
+  short_desc: 'A protrusion of abdominal structures through the retaining abdominal
+    wall. It involves two parts: an opening in the abdominal wall, and a hernia sac
+    consisting of peirotneum and abdominal contents. Abdominal hernias include groin
+    hernia (femoral; inguinal) and ventral hernia.'
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1606'
+      value: incisional hernia
+      type: any
+    - code: '1513'
+      value: inguinal hernia
+      type: any
+    - code: '1605'
+      value: femoral hernia
+      type: any
+    - code: '1512'
+      value: umbilical hernia
+      type: any
+    - code: '1511'
+      value: abdominal hernia
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K40
+      value: Inguinal hernia
+      type: any
+    - code: K41
+      value: Femoral hernia
+      type: any
+    - code: K42
+      value: Umbilical hernia
+      type: any
+    - code: K43
+      value: Ventral hernia
+      type: any
+    - code: K45
+      value: Other abdominal hernia
+      type: any
+    - code: K46
+      value: Unspecified abdominal hernia
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K40
+      value: Inguinal hernia
+      type: any
+    - code: K41
+      value: Femoral hernia
+      type: any
+    - code: K42
+      value: Umbilical hernia
+      type: any
+    - code: K43
+      value: Ventral hernia
+      type: any
+    - code: K45
+      value: Other abdominal hernia
+      type: any
+    - code: K46
+      value: Unspecified abdominal hernia
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: T19
+      value: Simple excision of inguinal hernial sac
+      type: any
+    - code: T19.1
+      value: Bilateral herniotomy
+      type: any
+    - code: T19.2
+      value: Unilateral herniotomy
+      type: any
+    - code: T19.3
+      value: Ligation of patent processus vaginalis
+      type: any
+    - code: T19.8
+      value: Other specified simple excision of inguinal hernial sac
+      type: any
+    - code: T19.9
+      value: Unspecified simple excision of inguinal hernial sac
+      type: any
+    - code: T20
+      value: Primary repair of inguinal hernia
+      type: any
+    - code: T20.1
+      value: Primary repair of inguinal hernia using insert of natural material
+      type: any
+    - code: T20.2
+      value: Primary repair of inguinal hernia using insert of prosthetic material
+      type: any
+    - code: T20.3
+      value: Primary repair of inguinal hernia using sutures
+      type: any
+    - code: T20.4
+      value: Primary repair of inguinal hernia and reduction of sliding hernia
+      type: any
+    - code: T20.8
+      value: Other specified primary repair of inguinal hernia
+      type: any
+    - code: T20.9
+      value: Unspecified primary repair of inguinal hernia
+      type: any
+    - code: T21
+      value: Repair of recurrent inguinal hernia
+      type: any
+    - code: T21.1
+      value: Repair of recurrent inguinal hernia using insert of natural material
+      type: any
+    - code: T21.2
+      value: Repair of recurrent inguinal hernia using insert of prosthetic material
+      type: any
+    - code: T21.3
+      value: Repair of recurrent inguinal hernia using sutures
+      type: any
+    - code: T21.4
+      value: Removal of prosthetic material from previous repair of inguinal hernia
+      type: any
+    - code: T21.8
+      value: Other specified repair of recurrent inguinal hernia
+      type: any
+    - code: T21.9
+      value: Unspecified repair of recurrent inguinal hernia
+      type: any
+    - code: T22
+      value: Primary repair of femoral hernia
+      type: any
+    - code: T22.1
+      value: Primary repair of femoral hernia using insert of natural material
+      type: any
+    - code: T22.2
+      value: Primary repair of femoral hernia using insert of prosthetic material
+      type: any
+    - code: T22.3
+      value: Primary repair of femoral hernia using sutures
+      type: any
+    - code: T22.8
+      value: Other specified primary repair of femoral hernia
+      type: any
+    - code: T22.9
+      value: Unspecified primary repair of femoral hernia
+      type: any
+    - code: T23
+      value: Repair of recurrent femoral hernia
+      type: any
+    - code: T23.1
+      value: Repair of recurrent femoral hernia using insert of natural material
+      type: any
+    - code: T23.2
+      value: Repair of recurrent femoral hernia using insert of prosthetic material
+      type: any
+    - code: T23.3
+      value: Repair of recurrent femoral hernia using sutures
+      type: any
+    - code: T23.4
+      value: Removal of prosthetic material from previous repair of femoral hernia
+      type: any
+    - code: T23.8
+      value: Other specified repair of recurrent femoral hernia
+      type: any
+    - code: T23.9
+      value: Unspecified repair of recurrent femoral hernia
+      type: any
+    - code: T24
+      value: Primary repair of umbilical hernia
+      type: any
+    - code: T24.1
+      value: Repair of umbilical hernia using insert of natural material
+      type: any
+    - code: T24.2
+      value: Repair of umbilical hernia using insert of prosthetic material
+      type: any
+    - code: T24.3
+      value: Repair of umbilical hernia using sutures
+      type: any
+    - code: T24.4
+      value: Removal of prosthetic material from previous repair of umbilical hernia
+      type: any
+    - code: T24.8
+      value: Other specified primary repair of umbilical hernia
+      type: any
+    - code: T24.9
+      value: Unspecified primary repair of umbilical hernia
+      type: any
+    - code: T25
+      value: Primary repair of incisional hernia
+      type: any
+    - code: T25.1
+      value: Primary repair of incisional hernia using insert of natural material
+      type: any
+    - code: T25.2
+      value: Primary repair of incisional hernia using insert of prosthetic material
+      type: any
+    - code: T25.3
+      value: Primary repair of incisional hernia using sutures
+      type: any
+    - code: T25.8
+      value: Other specified primary repair of incisional hernia
+      type: any
+    - code: T25.9
+      value: Unspecified primary repair of incisional hernia
+      type: any
+    - code: T26
+      value: Repair of recurrent incisional hernia
+      type: any
+    - code: T26.1
+      value: Repair of recurrent incisional hernia using insert of natural material
+      type: any
+    - code: T26.2
+      value: Repair of recurrent incisional hernia using insert of prosthetic material
+      type: any
+    - code: T26.3
+      value: Repair of recurrent incisional hernia using sutures
+      type: any
+    - code: T26.4
+      value: Removal of prosthetic material from previous repair of incisional hernia
+      type: any
+    - code: T26.8
+      value: Other specified repair of recurrent incisional hernia
+      type: any
+    - code: T26.9
+      value: Unspecified repair of recurrent incisional hernia
+      type: any
+    - code: T27
+      value: Repair of other hernia of abdominal wall
+      type: any
+    - code: T27.1
+      value: Repair of ventral hernia using insert of natural material
+      type: any
+    - code: T27.2
+      value: Repair of ventral hernia using insert of prosthetic material
+      type: any
+    - code: T27.3
+      value: Repair of ventral hernia using sutures
+      type: any
+    - code: T27.4
+      value: Removal of prosthetic material from previous repair of ventral hernia
+      type: any
+    - code: T27.8
+      value: Other specified repair of other hernia of abdominal wall
+      type: any
+    - code: T27.9
+      value: Unspecified repair of other hernia of abdominal wall
+      type: any
+    - code: T97
+      value: Repair of recurrent umbilical hernia
+      type: any
+    - code: T97.1
+      value: Repair of recurrent umbilical hernia using insert of natural material
+      type: any
+    - code: T97.2
+      value: Repair of recurrent umbilical hernia using insert of prosthetic material
+      type: any
+    - code: T97.3
+      value: Repair of recurrent umbilical hernia using sutures
+      type: any
+    - code: T97.8
+      value: Other specified repair of recurrent umbilical hernia
+      type: any
+    - code: T97.9
+      value: Unspecified repair of recurrent umbilical hernia
+      type: any
+    - code: T98
+      value: Repair of recurrent other hernia of abdominal wall
+      type: any
+    - code: T98.1
+      value: Repair of recurrent ventral hernia using insert of natural material
+      type: any
+    - code: T98.2
+      value: Repair of recurrent ventral hernia using insert of prosthetic material
+      type: any
+    - code: T98.3
+      value: Repair of recurrent ventral hernia using sutures
+      type: any
+    - code: T98.8
+      value: Other specified repair of recurrent other hernia of abdominal wall
+      type: any
+    - code: T98.9
+      value: Unspecified repair of recurrent other hernia of abdominal wall
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: T19
+      value: T19
+      type: any
+    - code: T19.1
+      value: T19.1
+      type: any
+    - code: T19.2
+      value: T19.2
+      type: any
+    - code: T19.3
+      value: T19.3
+      type: any
+    - code: T19.8
+      value: T19.8
+      type: any
+    - code: T19.9
+      value: T19.9
+      type: any
+    - code: T20
+      value: T20
+      type: any
+    - code: T20.1
+      value: T20.1
+      type: any
+    - code: T20.2
+      value: T20.2
+      type: any
+    - code: T20.3
+      value: T20.3
+      type: any
+    - code: T20.4
+      value: T20.4
+      type: any
+    - code: T20.8
+      value: T20.8
+      type: any
+    - code: T20.9
+      value: T20.9
+      type: any
+    - code: T21
+      value: T21
+      type: any
+    - code: T21.1
+      value: T21.1
+      type: any
+    - code: T21.2
+      value: T21.2
+      type: any
+    - code: T21.3
+      value: T21.3
+      type: any
+    - code: T21.4
+      value: T21.4
+      type: any
+    - code: T21.8
+      value: T21.8
+      type: any
+    - code: T21.9
+      value: T21.9
+      type: any
+    - code: T22
+      value: T22
+      type: any
+    - code: T22.1
+      value: T22.1
+      type: any
+    - code: T22.2
+      value: T22.2
+      type: any
+    - code: T22.3
+      value: T22.3
+      type: any
+    - code: T22.8
+      value: T22.8
+      type: any
+    - code: T22.9
+      value: T22.9
+      type: any
+    - code: T23
+      value: T23
+      type: any
+    - code: T23.1
+      value: T23.1
+      type: any
+    - code: T23.2
+      value: T23.2
+      type: any
+    - code: T23.3
+      value: T23.3
+      type: any
+    - code: T23.4
+      value: T23.4
+      type: any
+    - code: T23.8
+      value: T23.8
+      type: any
+    - code: T23.9
+      value: T23.9
+      type: any
+    - code: T24
+      value: T24
+      type: any
+    - code: T24.1
+      value: T24.1
+      type: any
+    - code: T24.2
+      value: T24.2
+      type: any
+    - code: T24.3
+      value: T24.3
+      type: any
+    - code: T24.4
+      value: T24.4
+      type: any
+    - code: T24.8
+      value: T24.8
+      type: any
+    - code: T24.9
+      value: T24.9
+      type: any
+    - code: T25
+      value: T25
+      type: any
+    - code: T25.1
+      value: T25.1
+      type: any
+    - code: T25.2
+      value: T25.2
+      type: any
+    - code: T25.3
+      value: T25.3
+      type: any
+    - code: T25.8
+      value: T25.8
+      type: any
+    - code: T25.9
+      value: T25.9
+      type: any
+    - code: T26
+      value: T26
+      type: any
+    - code: T26.1
+      value: T26.1
+      type: any
+    - code: T26.2
+      value: T26.2
+      type: any
+    - code: T26.3
+      value: T26.3
+      type: any
+    - code: T26.4
+      value: T26.4
+      type: any
+    - code: T26.8
+      value: T26.8
+      type: any
+    - code: T26.9
+      value: T26.9
+      type: any
+    - code: T27
+      value: T27
+      type: any
+    - code: T27.1
+      value: T27.1
+      type: any
+    - code: T27.2
+      value: T27.2
+      type: any
+    - code: T27.3
+      value: T27.3
+      type: any
+    - code: T27.4
+      value: T27.4
+      type: any
+    - code: T27.8
+      value: T27.8
+      type: any
+    - code: T27.9
+      value: T27.9
+      type: any
+    - code: T97
+      value: T97
+      type: any
+    - code: T97.1
+      value: T97.1
+      type: any
+    - code: T97.2
+      value: T97.2
+      type: any
+    - code: T97.3
+      value: T97.3
+      type: any
+    - code: T97.8
+      value: T97.8
+      type: any
+    - code: T97.9
+      value: T97.9
+      type: any
+    - code: T98
+      value: T98
+      type: any
+    - code: T98.1
+      value: T98.1
+      type: any
+    - code: T98.2
+      value: T98.2
+      type: any
+    - code: T98.3
+      value: T98.3
+      type: any
+    - code: T98.8
+      value: T98.8
+      type: any
+    - code: T98.9
+      value: T98.9
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K40
+      value: Inguinal hernia
+      type: any
+    - code: K41
+      value: Femoral hernia
+      type: any
+    - code: K42
+      value: Umbilical hernia
+      type: any
+    - code: K43
+      value: Ventral hernia
+      type: any
+    - code: K45
+      value: Other abdominal hernia
+      type: any
+    - code: K46
+      value: Unspecified abdominal hernia
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K40
+      value: Inguinal hernia
+      type: any
+    - code: K41
+      value: Femoral hernia
+      type: any
+    - code: K42
+      value: Umbilical hernia
+      type: any
+    - code: K43
+      value: Ventral hernia
+      type: any
+    - code: K45
+      value: Other abdominal hernia
+      type: any
+    - code: K46
+      value: Unspecified abdominal hernia
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 14C3.00
+      value: 'H/O: abdominal hernia'
+      type: prevalent
+    - code: 25P2.00
+      value: O/E - reducible hernia
+      type: any
+    - code: 25P..12
+      value: O/E - hernia
+      type: any
+    - code: 25P3.00
+      value: O/E - irreducible hernia
+      type: any
+    - code: 25P4.00
+      value: O/E - strangulated hernia
+      type: any
+    - code: 25P5.00
+      value: O/E-hernia-cough impulse shown
+      type: any
+    - code: 25P6.00
+      value: O/E-hernia descends to scrotum
+      type: any
+    - code: 7H10.00
+      value: Simple excision of inguinal hernial sac
+      type: any
+    - code: 7H10y00
+      value: Other specified simple excision of inguinal hernial sac
+      type: any
+    - code: 7H10z00
+      value: Simple excision of inguinal hernial sac NOS
+      type: any
+    - code: 7H11000
+      value: Primary repair inguinal hernia using insert natural material
+      type: any
+    - code: 7H11100
+      value: Prim repair inguinal hernia using insert prosthet material
+      type: any
+    - code: 7H11111
+      value: Primary mesh repair of inguinal hernia
+      type: any
+    - code: 7H11200
+      value: Primary repair of inguinal hernia using sutures
+      type: any
+    - code: 7H11211
+      value: Bassini repair of inguinal hernia
+      type: any
+    - code: 7H11212
+      value: Ferguson repair of inguinal hernia
+      type: any
+    - code: 7H11213
+      value: McVay repair of inguinal hernia
+      type: any
+    - code: 7H11214
+      value: Shouldice repair of inguinal hernia
+      type: any
+    - code: 7H11300
+      value: Primary repair inguinal hernia & reduction of sliding hernia
+      type: any
+    - code: 7H11400
+      value: Endoscopic primary repair of inguinal hernia
+      type: any
+    - code: 7H11500
+      value: Bilateral inguinal hernia repair
+      type: any
+    - code: 7H11600
+      value: Primary laparoscopic repair of inguinal hernia
+      type: any
+    - code: 7H11.00
+      value: Primary repair of inguinal hernia
+      type: any
+    - code: 7H11y00
+      value: Other specified primary repair of inguinal hernia
+      type: any
+    - code: 7H11y11
+      value: Halsted repair of inguinal hernia
+      type: any
+    - code: 7H11z00
+      value: Primary repair of inguinal hernia NOS
+      type: any
+    - code: 7H12000
+      value: Repair recurr inguinal hernia using insert natural material
+      type: any
+    - code: 7H12100
+      value: Repair recurr inguinal hernia using insert prosthet material
+      type: any
+    - code: 7H12200
+      value: Repair of recurrent inguinal hernia using sutures
+      type: any
+    - code: 7H12300
+      value: Removal prosthet material fr previous repair inguinal hernia
+      type: any
+    - code: 7H12.00
+      value: Repair of recurrent inguinal hernia
+      type: any
+    - code: 7H12.11
+      value: Herniorrhaphy for recurrent inguinal hernia
+      type: any
+    - code: 7H12y00
+      value: Other specified repair of recurrent inguinal hernia
+      type: any
+    - code: 7H12z00
+      value: Repair of recurrent inguinal hernia NOS
+      type: any
+    - code: 7H13000
+      value: Primary repair femoral hernia using insert natural material
+      type: any
+    - code: 7H13100
+      value: Primary repair femoral hernia using insert prosthet material
+      type: any
+    - code: 7H13200
+      value: Primary repair of femoral hernia using sutures
+      type: any
+    - code: 7H13211
+      value: Cheadle repair of femoral hernia
+      type: any
+    - code: 7H13212
+      value: Henry repair of femoral hernia
+      type: any
+    - code: 7H13213
+      value: Lockwood repair of femoral hernia
+      type: any
+    - code: 7H13214
+      value: Lotheissen repair of femoral hernia
+      type: any
+    - code: 7H13215
+      value: McEvedy repair of femoral hernia
+      type: any
+    - code: 7H13300
+      value: Endoscopic primary repair of femoral hernia
+      type: any
+    - code: 7H13.00
+      value: Primary repair of femoral hernia
+      type: any
+    - code: 7H13.11
+      value: Femoral hernia repair NEC
+      type: any
+    - code: 7H13y00
+      value: Other specified primary repair of femoral hernia
+      type: any
+    - code: 7H13z00
+      value: Primary repair of femoral hernia NOS
+      type: any
+    - code: 7H14100
+      value: Repair recurr femoral hernia using insert prosthet material
+      type: any
+    - code: 7H14200
+      value: Repair of recurrent femoral hernia using sutures
+      type: any
+    - code: 7H14300
+      value: Removal prosthet material fr previous repair femoral hernia
+      type: any
+    - code: 7H14.00
+      value: Repair of recurrent femoral hernia
+      type: any
+    - code: 7H14.11
+      value: Herniorrhaphy for recurrent femoral hernia
+      type: any
+    - code: 7H14y00
+      value: Other specified repair of recurrent femoral hernia
+      type: any
+    - code: 7H14z00
+      value: Repair of recurrent femoral hernia NOS
+      type: any
+    - code: 7H15000
+      value: Repair of umbilical hernia using insert of natural material
+      type: any
+    - code: 7H15100
+      value: Repair umbilical hernia using insert of prosthetic material
+      type: any
+    - code: 7H15200
+      value: Repair of umbilical hernia using sutures
+      type: any
+    - code: 7H15300
+      value: Remov prosthet material fr previous repair umbilical hernia
+      type: any
+    - code: 7H15.00
+      value: Repair of umbilical hernia
+      type: any
+    - code: 7H15y00
+      value: Other specified repair of umbilical hernia
+      type: any
+    - code: 7H15z00
+      value: Repair of umbilical hernia NOS
+      type: any
+    - code: 7H16000
+      value: Prim repair incisional hernia using insert natural material
+      type: any
+    - code: 7H16100
+      value: Prim repair incisional hernia using insert prosthet material
+      type: any
+    - code: 7H16111
+      value: Primary mesh repair of incisional hernia
+      type: any
+    - code: 7H16200
+      value: Primary repair of incisional hernia using sutures
+      type: any
+    - code: 7H16.00
+      value: Primary repair of incisional hernia
+      type: any
+    - code: 7H16y00
+      value: Other specified primary repair of incisional hernia
+      type: any
+    - code: 7H16z00
+      value: Primary repair of incisional hernia NOS
+      type: any
+    - code: 7H17000
+      value: Repair recurr incision hernia using insert natural material
+      type: any
+    - code: 7H17100
+      value: Repair recurr incision hernia using insert prosthet material
+      type: any
+    - code: 7H17200
+      value: Repair of recurrent incisional hernia using sutures
+      type: any
+    - code: 7H17300
+      value: Removal prosthetic material fr prev repair incisional hernia
+      type: any
+    - code: 7H17.00
+      value: Repair of recurrent incisional hernia
+      type: any
+    - code: 7H17.11
+      value: Herniorrhaphy for recurrent incisional hernia
+      type: any
+    - code: 7H17y00
+      value: Other specified repair of recurrent incisional hernia
+      type: any
+    - code: 7H17z00
+      value: Repair of recurrent incisional hernia NOS
+      type: any
+    - code: 7H18000
+      value: Repair of ventral hernia using insert of natural material
+      type: any
+    - code: 7H18100
+      value: Repair of ventral hernia using insert of prosthetic material
+      type: any
+    - code: 7H18200
+      value: Repair of ventral hernia using sutures
+      type: any
+    - code: 7H18300
+      value: Removal prosthet material fr previous repair ventral hernia
+      type: any
+    - code: 7H18400
+      value: Repair of epigastric hernia, unspecified
+      type: any
+    - code: 7H18.00
+      value: Repair of other hernia of abdominal wall
+      type: any
+    - code: 7H18.11
+      value: Repair of other ventral hernia
+      type: any
+    - code: 7H18y00
+      value: Other specified repair of other hernia of abdominal wall
+      type: any
+    - code: 7H18z00
+      value: Repair of other hernia of abdominal wall NOS
+      type: any
+    - code: 7H1C000
+      value: Primary rep umbilical hernia using insert natural material
+      type: any
+    - code: 7H1C100
+      value: Prim rep umbilical hernia using insert prosthetic material
+      type: any
+    - code: 7H1C200
+      value: Primary repair of umbilical hernia using sutures
+      type: any
+    - code: 7H1C300
+      value: Remov prosthet material fr previous repair umbilical hernia
+      type: any
+    - code: 7H1C.00
+      value: Primary repair of umbilical hernia
+      type: any
+    - code: 7H1Cy00
+      value: Other specified primary repair of umbilical hernia
+      type: any
+    - code: 7H1Cz00
+      value: Primary repair of umbilical hernia NOS
+      type: any
+    - code: 7H1D100
+      value: Repair recurrent umbilical hernia us insert prosthetic mater
+      type: any
+    - code: 7H1D200
+      value: Repair of recurrent umbilical hernia using sutures
+      type: any
+    - code: 7H1D.00
+      value: Repair of recurrent umbilical hernia
+      type: any
+    - code: 7H1Dy00
+      value: Other specified repair of recurrent umbilical hernia
+      type: any
+    - code: 7H1Dz00
+      value: Repair of recurrent umbilical hernia NOS
+      type: any
+    - code: 7H1E000
+      value: Repair recur ventral hernia using insert natural material
+      type: any
+    - code: 7H1E100
+      value: Repair recurrent ventral hernia insert prosthetic material
+      type: any
+    - code: 7H1E200
+      value: Repair of recurrent ventral hernia using sutures
+      type: any
+    - code: 7H1E.00
+      value: Repair of recurrent other hernia of abdominal wall
+      type: any
+    - code: 7H1Ey00
+      value: Other specified repair recurrent other hernia abdominal wall
+      type: any
+    - code: 7H1Ez00
+      value: Repair of recurrent other hernia of abdominal wall NOS
+      type: any
+    - code: 82B2.00
+      value: Manual reduction of hernia
+      type: any
+    - code: J300000
+      value: Unilateral inguinal hernia with gangrene
+      type: any
+    - code: J300300
+      value: Bilateral recurrent inguinal hernia with gangrene
+      type: any
+    - code: J300.00
+      value: Inguinal hernia with gangrene
+      type: any
+    - code: J300z00
+      value: Inguinal hernia with gangrene NOS
+      type: any
+    - code: J301000
+      value: Unilateral inguinal hernia with obstruction
+      type: any
+    - code: J301100
+      value: Unilateral recurrent inguinal hernia with obstruction
+      type: any
+    - code: J301200
+      value: Bilateral inguinal hernia with obstruction
+      type: any
+    - code: J301.00
+      value: Inguinal hernia with obstruction
+      type: any
+    - code: J301z00
+      value: Inguinal hernia with obstruction NOS
+      type: any
+    - code: J302000
+      value: Unilateral inguinal hernia - irreducible
+      type: any
+    - code: J302100
+      value: Unilateral recurrent inguinal hernia - irreducible
+      type: any
+    - code: J302200
+      value: Bilateral inguinal hernia - irreducible
+      type: any
+    - code: J302300
+      value: Bilateral recurrent inguinal hernia - irreducible
+      type: any
+    - code: J302.00
+      value: Inguinal hernia - irreducible
+      type: any
+    - code: J302z00
+      value: Inguinal hernia - irreducible and NOS
+      type: any
+    - code: J303000
+      value: Unilateral inguinal hernia - simple
+      type: any
+    - code: J303011
+      value: Left inguinal hernia
+      type: any
+    - code: J303012
+      value: Right inguinal hernia
+      type: any
+    - code: J303100
+      value: Unilateral recurrent inguinal hernia - simple
+      type: any
+    - code: J303200
+      value: Bilateral inguinal hernia - simple
+      type: any
+    - code: J303300
+      value: Bilateral recurrent inguinal hernia - simple
+      type: any
+    - code: J303.00
+      value: Simple inguinal hernia
+      type: any
+    - code: J303z00
+      value: Simple inguinal hernia NOS
+      type: any
+    - code: J304.00
+      value: Direct inguinal hernia
+      type: any
+    - code: J305.00
+      value: Indirect inguinal hernia
+      type: any
+    - code: J30..00
+      value: Inguinal hernia
+      type: any
+    - code: J30..11
+      value: Bubonocele
+      type: any
+    - code: J30..12
+      value: Direct inguinal hernia
+      type: any
+    - code: J30..13
+      value: Indirect inguinal hernia
+      type: any
+    - code: J30..14
+      value: Scrotal hernia
+      type: any
+    - code: J30y000
+      value: Unilateral inguinal hernia unspecified
+      type: any
+    - code: J30y100
+      value: Unilateral recurrent inguinal hernia unspecified
+      type: any
+    - code: J30y200
+      value: Bilateral inguinal hernia unspecified
+      type: any
+    - code: J30y300
+      value: Bilateral recurrent inguinal hernia unspecified
+      type: any
+    - code: J30y.00
+      value: Inguinal hernia unspecified
+      type: any
+    - code: J30yz00
+      value: Unspecified inguinal hernia NOS
+      type: any
+    - code: J30z.00
+      value: Inguinal hernia NOS
+      type: any
+    - code: J310000
+      value: Unilateral femoral hernia with gangrene
+      type: any
+    - code: J310.00
+      value: Femoral hernia with gangrene
+      type: any
+    - code: J310z00
+      value: Femoral hernia with gangrene NOS
+      type: any
+    - code: J311000
+      value: Unilateral femoral hernia with obstruction
+      type: any
+    - code: J311.00
+      value: Femoral hernia with obstruction
+      type: any
+    - code: J311z00
+      value: Femoral hernia with obstruction NOS
+      type: any
+    - code: J312000
+      value: Unilateral femoral hernia - irreducible
+      type: any
+    - code: J312100
+      value: Unilateral recurrent femoral hernia - irreducible
+      type: any
+    - code: J312.00
+      value: Femoral hernia - irreducible
+      type: any
+    - code: J312z00
+      value: Femoral hernia - irreducible and NOS
+      type: any
+    - code: J313000
+      value: Unilateral femoral hernia - simple
+      type: any
+    - code: J313100
+      value: Unilateral recurrent femoral hernia - simple
+      type: any
+    - code: J313200
+      value: Bilateral femoral hernia - simple
+      type: any
+    - code: J313.00
+      value: Simple femoral hernia
+      type: any
+    - code: J313z00
+      value: Simple femoral hernia NOS
+      type: any
+    - code: J31..00
+      value: Femoral hernia
+      type: any
+    - code: J31y000
+      value: Unilateral femoral hernia - unspecified
+      type: any
+    - code: J31y100
+      value: Unilateral recurrent femoral hernia - unspecified
+      type: any
+    - code: J31y200
+      value: Bilateral femoral hernia - unspecified
+      type: any
+    - code: J31y.00
+      value: Unspecified femoral hernia
+      type: any
+    - code: J31yz00
+      value: Unspecified femoral hernia NOS
+      type: any
+    - code: J31z.00
+      value: Femoral hernia NOS
+      type: any
+    - code: J320100
+      value: Paraumbilical hernia with gangrene
+      type: any
+    - code: J320z00
+      value: Umbilical hernia with gangrene NOS
+      type: any
+    - code: J321100
+      value: Paraumbilical hernia with obstruction
+      type: any
+    - code: J321.00
+      value: Umbilical hernia with obstruction
+      type: any
+    - code: J321z00
+      value: Umbilical hernia with obstruction NOS
+      type: any
+    - code: J322100
+      value: Paraumbilical hernia - irreducible
+      type: any
+    - code: J322.00
+      value: Umbilical hernia - irreducible
+      type: any
+    - code: J322z00
+      value: Umbilical hernia - irreducible and NOS
+      type: any
+    - code: J323100
+      value: Simple paraumbilical hernia
+      type: any
+    - code: J323.00
+      value: Simple umbilical hernia
+      type: any
+    - code: J323z00
+      value: Simple umbilical hernia NOS
+      type: any
+    - code: J32..00
+      value: Umbilical hernia
+      type: any
+    - code: J32..12
+      value: Paraumbilical hernia
+      type: any
+    - code: J32y100
+      value: Unspecified paraumbilical hernia
+      type: any
+    - code: J32y.00
+      value: Unspecified umbilical hernia
+      type: any
+    - code: J32yz00
+      value: Unspecified umbilical hernia NOS
+      type: any
+    - code: J32z.00
+      value: Umbilical hernia NOS
+      type: any
+    - code: J330100
+      value: Incisional hernia with gangrene
+      type: any
+    - code: J330200
+      value: Epigastric hernia with gangrene
+      type: any
+    - code: J330.00
+      value: Ventral hernia with gangrene
+      type: any
+    - code: J330z00
+      value: Ventral hernia with gangrene NOS
+      type: any
+    - code: J331100
+      value: Incisional hernia with obstruction
+      type: any
+    - code: J331200
+      value: Epigastric hernia with obstruction
+      type: any
+    - code: J331.00
+      value: Ventral hernia with obstruction
+      type: any
+    - code: J331z00
+      value: Ventral hernia with obstruction NOS
+      type: any
+    - code: J332000
+      value: Ventral hernia unspecified - irreducible
+      type: any
+    - code: J332100
+      value: Incisional hernia - irreducible
+      type: any
+    - code: J332200
+      value: Epigastric hernia - irreducible
+      type: any
+    - code: J332.00
+      value: Ventral hernia - irreducible
+      type: any
+    - code: J332z00
+      value: Ventral hernia - irreducible NOS
+      type: any
+    - code: J333000
+      value: Simple ventral hernia unspecified
+      type: any
+    - code: J333100
+      value: Simple incisional hernia
+      type: any
+    - code: J333200
+      value: Simple epigastric hernia
+      type: any
+    - code: J333211
+      value: Epigastric hernia
+      type: any
+    - code: J333.00
+      value: Simple ventral hernia
+      type: any
+    - code: J333z00
+      value: Simple ventral hernia NOS
+      type: any
+    - code: J33..00
+      value: Ventral hernia
+      type: any
+    - code: J33..11
+      value: Epigastric hernia
+      type: any
+    - code: J33..12
+      value: Incisional hernia
+      type: any
+    - code: J33z000
+      value: Unspecified ventral hernia NOS
+      type: any
+    - code: J33z100
+      value: Incisional hernia NOS
+      type: any
+    - code: J33z200
+      value: Epigastric hernia NOS
+      type: any
+    - code: J33z.00
+      value: Ventral hernia NOS
+      type: any
+    - code: J35..00
+      value: Gluteal hernia
+      type: any
+    - code: J36..00
+      value: Ischiorectal hernia
+      type: any
+    - code: J373.00
+      value: Simple lumbar hernia
+      type: any
+    - code: J37..00
+      value: Lumbar hernia
+      type: any
+    - code: J37y.00
+      value: Unspecified lumbar hernia
+      type: any
+    - code: J37z.00
+      value: Lumbar hernia NOS
+      type: any
+    - code: J381.00
+      value: Obturator hernia with obstruction
+      type: any
+    - code: J383.00
+      value: Simple obturator hernia
+      type: any
+    - code: J38..00
+      value: Obturator hernia
+      type: any
+    - code: J38z.00
+      value: Obturator hernia NOS
+      type: any
+    - code: J3A..00
+      value: Sciatic hernia
+      type: any
+    - code: J3B3.00
+      value: Simple retroperitoneal hernia
+      type: any
+    - code: J3B..00
+      value: Retroperitoneal hernia
+      type: any
+    - code: J3C0.00
+      value: Spigelian hernia with gangrene
+      type: any
+    - code: J3C1.00
+      value: Spigelian hernia with obstruction
+      type: any
+    - code: J3C2.00
+      value: Spigelian hernia - irreducible
+      type: any
+    - code: J3C3.00
+      value: Simple Spigelian hernia
+      type: any
+    - code: J3C..00
+      value: Spigelian hernia
+      type: any
+    - code: J3Cy.00
+      value: Unspecified Spigelian hernia
+      type: any
+    - code: J3Cz.00
+      value: Spigelian hernia NOS
+      type: any
+    - code: J3D..00
+      value: Perineal hernia
+      type: any
+    - code: J3...00
+      value: Hernia of abdominal cavity
+      type: any
+    - code: J3y0.00
+      value: Other specified abdominal cavity hernia with gangrene
+      type: any
+    - code: J3y1.00
+      value: Other specified abdominal cavity hernia with obstruction
+      type: any
+    - code: J3y2.00
+      value: Other specified abdominal cavity hernia - irreducible
+      type: any
+    - code: J3y3.00
+      value: Other specified abdominal cavity hernia - simple
+      type: any
+    - code: J3y..00
+      value: Other specified hernias of abdominal cavity
+      type: any
+    - code: J3yy.00
+      value: Other specified abdominal cavity hernia, unspecified
+      type: any
+    - code: J3yz.00
+      value: Other specified abdominal cavity hernia NOS
+      type: any
+    - code: J3yz.11
+      value: Richter's hernia
+      type: any
+    - code: J3z0.00
+      value: Unspecified abdominal cavity hernia with gangrene
+      type: any
+    - code: J3z1.00
+      value: Unspecified abdominal cavity hernia with obstruction
+      type: any
+    - code: J3z2.00
+      value: Unspecified abdominal cavity hernia - irreducible
+      type: any
+    - code: J3z3.00
+      value: Unspecified abdominal cavity hernia - simple
+      type: any
+    - code: J3z..00
+      value: Abdominal cavity hernia NOS
+      type: any
+    - code: J3zz.00
+      value: Unspecified abdominal cavity hernia NOS
+      type: any
+    - code: Jyu3000
+      value: '[X]Other specified abdominal hernia+obstruction,w''o gangrene'
+      type: any
+    - code: Jyu3200
+      value: '[X]Oth spcfd abdominal hernia without obstructn or gangrene'
+      type: any
+    - code: Jyu3.00
+      value: '[X]Hernia'
+      type: any
+    - code: PG8..00
+      value: Congenital inguinal hernia
+      type: any
+    - code: XE0aW
+      value: Inguinal hernia
+      type: any
+    - code: XaMMN
+      value: Primary repair of umbilical hernia using insert of natural material
+      type: any
+    - code: XE04Z
+      value: Primary repair of femoral hernia using sutures
+      type: any
+    - code: XaMMM
+      value: Primary repair of umbilical hernia
+      type: any
+    - code: XaMMS
+      value: Primary repair of umbilical hernia NOS
+      type: any
+    - code: XaMNg
+      value: Repair of recurrent umbilical hernia using insert of prosthetic material
+      type: any
+    - code: X30B4
+      value: Perineal hernia
+      type: any
+    - code: XaXBn
+      value: Repair of recurrent ventral hernia using sutures
+      type: any
+    - code: XM1GR
+      value: Primary repair of inguinal hernia using sutures
+      type: any
+    - code: XaMNi
+      value: Other specified repair of recurrent umbilical hernia
+      type: any
+    - code: XaMNh
+      value: Repair of recurrent umbilical hernia using sutures
+      type: any
+    - code: XE04X
+      value: Other specified primary repair of inguinal hernia
+      type: any
+    - code: XaMNj
+      value: Repair of recurrent umbilical hernia NOS
+      type: any
+    - code: XE1hX
+      value: O/E -hernial orifices examined
+      type: any
+    - code: XaMMR
+      value: Other specified primary repair of umbilical hernia
+      type: any
+    - code: XE04Y
+      value: Primary repair of femoral hernia
+      type: any
+    - code: XE0ad
+      value: Other specified abdominal cavity hernia NOS
+      type: any
+    - code: XaNWv
+      value: Congenital inguinal hernia
+      type: any
+    - code: XE0aY
+      value: Umbilical hernia
+      type: any
+    - code: XaXBl
+      value: Repair of recurrent ventral hernia using insert of natural material
+      type: any
+    - code: XE0aZ
+      value: Ventral hernia
+      type: any
+    - code: XaXBm
+      value: Repair of recurrent ventral hernia using insert of prosthetic material
+      type: any
+    - code: XE04b
+      value: Repair of other hernia of abdominal wall
+      type: any
+    - code: XaMMq
+      value: Repair of recurrent umbilical hernia
+      type: any
+    - code: XaMMO
+      value: Primary repair of umbilical hernia using insert of prosthetic material
+      type: any
+    - code: XaKYh
+      value: Repair of epigastric hernia, unspecified
+      type: any
+    - code: XaJr6
+      value: Primary laparoscopic repair of inguinal hernia
+      type: any
+    - code: XaMMP
+      value: Primary repair of umbilical hernia using sutures
+      type: any
+    - code: 7H153
+      value: Removal of prosthetic material from previous repair of umbilical hernia
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,342 @@
+metadata:
+  phenotype: Benign neoplasm of brain and other parts of central nervous system
+  group: Benign neoplasm or Carcinoma in situ
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: benign_brain
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 28dce8a8-8e09-48fa-ab55-106d83747f62
+  ontologies:
+    DOID: DOID_0060090
+    GWAS: MONDO_0000648
+    MESH: null
+    SNOMED-CT: 92048008
+    FINNGEN: CD2_BENIGN_BRAIN_CNS
+  short_desc: A brain or nervous system benign neoplasm that is characterized by lack
+    of malignancy.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1659'
+      value: meningioma / benign meningeal tumour
+      type: any
+    - code: '1238'
+      value: pituitary adenoma/tumour
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D32
+      value: Benign neoplasm of meninges
+      type: any
+    - code: D33
+      value: Benign neoplasm of brain and other parts of central nervous system
+      type: any
+    - code: D35.2
+      value: 'Benign neoplasm: Pituitary gland'
+      type: any
+    - code: D35.3
+      value: 'Benign neoplasm: Craniopharyngeal duct'
+      type: any
+    - code: D35.4
+      value: 'Benign neoplasm: Pineal gland'
+      type: any
+    - code: D35.5
+      value: 'Benign neoplasm: Carotid body'
+      type: any
+    - code: D35.6
+      value: 'Benign neoplasm: Aortic body and other paraganglia'
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D32
+      value: Benign neoplasm of meninges
+      type: any
+    - code: D33
+      value: Benign neoplasm of brain and other parts of central nervous system
+      type: any
+    - code: D35.2
+      value: 'Benign neoplasm: Pituitary gland'
+      type: any
+    - code: D35.3
+      value: 'Benign neoplasm: Craniopharyngeal duct'
+      type: any
+    - code: D35.4
+      value: 'Benign neoplasm: Pineal gland'
+      type: any
+    - code: D35.5
+      value: 'Benign neoplasm: Carotid body'
+      type: any
+    - code: D35.6
+      value: 'Benign neoplasm: Aortic body and other paraganglia'
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D32
+      value: Benign neoplasm of meninges
+      type: any
+    - code: D33
+      value: Benign neoplasm of brain and other parts of central nervous system
+      type: any
+    - code: D35.2
+      value: 'Benign neoplasm: Pituitary gland'
+      type: any
+    - code: D35.3
+      value: 'Benign neoplasm: Craniopharyngeal duct'
+      type: any
+    - code: D35.4
+      value: 'Benign neoplasm: Pineal gland'
+      type: any
+    - code: D35.5
+      value: 'Benign neoplasm: Carotid body'
+      type: any
+    - code: D35.6
+      value: 'Benign neoplasm: Aortic body and other paraganglia'
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D32
+      value: Benign neoplasm of meninges
+      type: any
+    - code: D33
+      value: Benign neoplasm of brain and other parts of central nervous system
+      type: any
+    - code: D35.2
+      value: 'Benign neoplasm: Pituitary gland'
+      type: any
+    - code: D35.3
+      value: 'Benign neoplasm: Craniopharyngeal duct'
+      type: any
+    - code: D35.4
+      value: 'Benign neoplasm: Pineal gland'
+      type: any
+    - code: D35.5
+      value: 'Benign neoplasm: Carotid body'
+      type: any
+    - code: D35.6
+      value: 'Benign neoplasm: Aortic body and other paraganglia'
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: B7F0000
+      value: Benign neoplasm of brain, supratentorial
+      type: any
+    - code: B7F0.00
+      value: Benign neoplasm of brain
+      type: any
+    - code: B7F0.11
+      value: Cerebral tumour - benign
+      type: any
+    - code: B7F1000
+      value: Acoustic neuroma
+      type: any
+    - code: B7F1.00
+      value: Benign neoplasm of cranial nerves
+      type: any
+    - code: B7F2000
+      value: Cerebral meningioma
+      type: any
+    - code: B7F2.00
+      value: Benign neoplasm of cerebral meninges
+      type: any
+    - code: B7F2z00
+      value: Benign neoplasm of cerebral meninges NOS
+      type: any
+    - code: B7F3.00
+      value: Benign neoplasm of spinal cord
+      type: any
+    - code: B7F4000
+      value: Spinal meningioma
+      type: any
+    - code: B7F4.00
+      value: Benign neoplasm of spinal meninges
+      type: any
+    - code: B7F4z00
+      value: Benign neoplasm of spinal meninges NOS
+      type: any
+    - code: B7F..00
+      value: Benign neoplasm of brain and other parts of nervous system
+      type: any
+    - code: B7FX.00
+      value: Benign neoplasm of meninges, unspecified
+      type: any
+    - code: B7Fz.00
+      value: Benign neoplasm of brain or other nervous system NOS
+      type: any
+    - code: B7H2000
+      value: Benign neoplasm of pituitary gland
+      type: any
+    - code: B7H2100
+      value: Benign neoplasm of Rathke's pouch
+      type: any
+    - code: B7H2200
+      value: Benign neoplasm of sella turcica
+      type: any
+    - code: B7H2300
+      value: Benign neoplasm of craniopharyngeal duct
+      type: any
+    - code: B7H2.00
+      value: Benign neoplasm of pituitary gland and craniopharyngeal duct
+      type: any
+    - code: B7H2.11
+      value: Pituitary adenoma
+      type: any
+    - code: B7H2z00
+      value: Benign neoplasm of pituitary and craniopharyngeal duct NOS
+      type: any
+    - code: B7H3.00
+      value: Benign neoplasm of pineal gland
+      type: any
+    - code: B7H4.00
+      value: Benign neoplasm of carotid body
+      type: any
+    - code: B7H5000
+      value: Benign neoplasm of glomus jugulare
+      type: any
+    - code: B7H5100
+      value: Benign neoplasm of aortic body
+      type: any
+    - code: B7H5200
+      value: Benign neoplasm of coccygeal body
+      type: any
+    - code: B7H5.00
+      value: Benign neoplasm of aortic body and other paraganglia
+      type: any
+    - code: B7H5z00
+      value: Benign neoplasm of aortic body and other paraganglia NOS
+      type: any
+    - code: BBb5.00
+      value: '[M]Choroid plexus papilloma NOS'
+      type: any
+    - code: BBd0.00
+      value: '[M]Meningioma NOS'
+      type: any
+    - code: BBd3.00
+      value: '[M]Meningotheliomatous meningioma'
+      type: any
+    - code: BBd3.11
+      value: '[M]Endotheliomatous meningioma'
+      type: any
+    - code: BBd4.00
+      value: '[M]Fibrous meningioma'
+      type: any
+    - code: BBd5.00
+      value: '[M]Psammomatous meningioma'
+      type: any
+    - code: BBd6.00
+      value: '[M]Angiomatous meningioma'
+      type: any
+    - code: BBd7.00
+      value: '[M]Haemangioblastic meningioma'
+      type: any
+    - code: BBd7.11
+      value: '[M]Angioblastic meningioma'
+      type: any
+    - code: BBd8.00
+      value: '[M]Haemangiopericytic meningioma'
+      type: any
+    - code: BBd9.00
+      value: '[M]Transitional meningioma'
+      type: any
+    - code: BBd..00
+      value: '[M]Meningiomas'
+      type: any
+    - code: BBdz.00
+      value: '[M]Meningioma NOS'
+      type: any
+    - code: BBe5.11
+      value: '[M]Acoustic neuroma'
+      type: any
+    - code: BBdz.
+      value: '[M]Meningioma NOS'
+      type: any
+    - code: XE2vb
+      value: Benign neoplasm of pituitary gland and craniopharyngeal duct
+      type: any
+    - code: XE2va
+      value: Benign neoplasm of brain and other parts of nervous system
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: D32
+      value: Benign neoplasm of meninges
+      type: any
+    - code: D33
+      value: Benign neoplasm of brain and other parts of central nervous system
+      type: any
+    - code: D35.2
+      value: 'Benign neoplasm: Pituitary gland'
+      type: any
+    - code: D35.3
+      value: 'Benign neoplasm: Craniopharyngeal duct'
+      type: any
+    - code: D35.4
+      value: 'Benign neoplasm: Pineal gland'
+      type: any
+    - code: D35.5
+      value: 'Benign neoplasm: Carotid body'
+      type: any
+    - code: D35.6
+      value: 'Benign neoplasm: Aortic body and other paraganglia'
+      type: any

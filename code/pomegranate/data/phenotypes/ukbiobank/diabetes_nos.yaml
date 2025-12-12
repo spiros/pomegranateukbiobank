@@ -1,0 +1,248 @@
+metadata:
+  phenotype: Diabetes NOS
+  group: Endocrine
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: diabetes_nos
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 9969743d-7aa2-4f0a-8c87-e278644210b4
+  ontologies:
+    DOID: null
+    GWAS: EFO_0000400
+    MESH: null
+    SNOMED-CT: null
+    FINNGEN: null
+  short_desc: null
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1276'
+      value: diabetic eye disease
+      type: any
+    - code: '1468'
+      value: diabetic neuropathy/ulcers
+      type: any
+    - code: '1607'
+      value: diabetic nephropathy
+      type: any
+    - code: '1220'
+      value: diabetes
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: E12
+      value: Malnutrition-related diabetes mellitus
+      type: any
+    - code: O24.2
+      value: 'Diabetes mellitus in pregnancy: Pre-existing malnutrition-related diabetes
+        mellitus'
+      type: prevalent
+    - code: E13
+      value: Other specified diabetes mellitus
+      type: any
+    - code: E14
+      value: Unspecified diabetes mellitus
+      type: any
+    - code: G59.0
+      value: Diabetic mononeuropathy
+      type: any
+    - code: G63.2
+      value: Diabetic polyneuropathy
+      type: any
+    - code: H28.0
+      value: Diabetic cataract
+      type: any
+    - code: H36.0
+      value: Diabetic retinopathy
+      type: any
+    - code: M14.2
+      value: Diabetic arthropathy
+      type: any
+    - code: N08.3
+      value: Glomerular disorders in diabetes mellitus
+      type: any
+    - code: O24.3
+      value: 'Diabetes mellitus in pregnancy: Pre-existing diabetes mellitus, unspecified'
+      type: prevalent
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: E12
+      value: Malnutrition-related diabetes mellitus
+      type: any
+    - code: O24.2
+      value: 'Diabetes mellitus in pregnancy: Pre-existing malnutrition-related diabetes
+        mellitus'
+      type: prevalent
+    - code: E13
+      value: Other specified diabetes mellitus
+      type: any
+    - code: E14
+      value: Unspecified diabetes mellitus
+      type: any
+    - code: G59.0
+      value: Diabetic mononeuropathy
+      type: any
+    - code: G63.2
+      value: Diabetic polyneuropathy
+      type: any
+    - code: H28.0
+      value: Diabetic cataract
+      type: any
+    - code: H36.0
+      value: Diabetic retinopathy
+      type: any
+    - code: M14.2
+      value: Diabetic arthropathy
+      type: any
+    - code: N08.3
+      value: Glomerular disorders in diabetes mellitus
+      type: any
+    - code: O24.3
+      value: 'Diabetes mellitus in pregnancy: Pre-existing diabetes mellitus, unspecified'
+      type: prevalent
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: E12
+      value: Malnutrition-related diabetes mellitus
+      type: any
+    - code: O24.2
+      value: 'Diabetes mellitus in pregnancy: Pre-existing malnutrition-related diabetes
+        mellitus'
+      type: prevalent
+    - code: E13
+      value: Other specified diabetes mellitus
+      type: any
+    - code: E14
+      value: Unspecified diabetes mellitus
+      type: any
+    - code: G59.0
+      value: Diabetic mononeuropathy
+      type: any
+    - code: G63.2
+      value: Diabetic polyneuropathy
+      type: any
+    - code: H28.0
+      value: Diabetic cataract
+      type: any
+    - code: H36.0
+      value: Diabetic retinopathy
+      type: any
+    - code: M14.2
+      value: Diabetic arthropathy
+      type: any
+    - code: N08.3
+      value: Glomerular disorders in diabetes mellitus
+      type: any
+    - code: O24.3
+      value: 'Diabetes mellitus in pregnancy: Pre-existing diabetes mellitus, unspecified'
+      type: prevalent
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: E12
+      value: Malnutrition-related diabetes mellitus
+      type: any
+    - code: O24.2
+      value: 'Diabetes mellitus in pregnancy: Pre-existing malnutrition-related diabetes
+        mellitus'
+      type: prevalent
+    - code: E13
+      value: Other specified diabetes mellitus
+      type: any
+    - code: E14
+      value: Unspecified diabetes mellitus
+      type: any
+    - code: G59.0
+      value: Diabetic mononeuropathy
+      type: any
+    - code: G63.2
+      value: Diabetic polyneuropathy
+      type: any
+    - code: H28.0
+      value: Diabetic cataract
+      type: any
+    - code: H36.0
+      value: Diabetic retinopathy
+      type: any
+    - code: M14.2
+      value: Diabetic arthropathy
+      type: any
+    - code: N08.3
+      value: Glomerular disorders in diabetes mellitus
+      type: any
+    - code: O24.3
+      value: 'Diabetes mellitus in pregnancy: Pre-existing diabetes mellitus, unspecified'
+      type: prevalent
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []
+  41203:
+    metadata:
+      desc: Diagnoses - main ICD9
+    values: []
+  41205:
+    metadata:
+      desc: Diagnoses - secondary ICD9
+    values: []

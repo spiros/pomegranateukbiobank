@@ -1,0 +1,201 @@
+metadata:
+  phenotype: Migraine
+  group: Neurological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: migraine
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 865e1810-5c77-4387-9b53-694d76360e6c
+  ontologies:
+    DOID: DOID_12437
+    GWAS: EFO_0003821
+    MESH: D008881
+    SNOMED-CT: 37796009
+    FINNGEN: G6_MIGRAINE
+  short_desc: A common, severe type of vascular headache often associated with increased
+    sympathetic activity, resulting in nausea, vomiting, and light sensitivity.
+  long_desc: null
+  priority: 2
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1265'
+      value: migraine
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: G43
+      value: Migraine
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: G43
+      value: Migraine
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G43
+      value: Migraine
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: G43
+      value: Migraine
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1474000.0'
+      value: H/O migraine with aura
+      type: prevalent
+    - code: '1474.00'
+      value: 'H/O: migraine'
+      type: prevalent
+    - code: 8B6N.00
+      value: Migraine prophylaxis
+      type: any
+    - code: F260.00
+      value: Classical migraine
+      type: any
+    - code: F260.11
+      value: Migraine with aura
+      type: any
+    - code: F261000
+      value: Atypical migraine
+      type: any
+    - code: F261.00
+      value: Common migraine
+      type: any
+    - code: F261.11
+      value: Migraine without aura
+      type: any
+    - code: F261z00
+      value: Common migraine NOS
+      type: any
+    - code: F262200
+      value: Abdominal migraine
+      type: any
+    - code: F262300
+      value: Basilar migraine
+      type: any
+    - code: F262400
+      value: Ophthalmic migraine
+      type: any
+    - code: F262800
+      value: Migraine induced by oestrogen contraceptive
+      type: any
+    - code: F262.00
+      value: Migraine variants
+      type: any
+    - code: F262z00
+      value: Migraine variant NOS
+      type: any
+    - code: F26..00
+      value: Migraine
+      type: any
+    - code: F26y000
+      value: Hemiplegic migraine
+      type: any
+    - code: F26y100
+      value: Ophthalmoplegic migraine
+      type: any
+    - code: F26y111
+      value: Moebius' ophthalmoplegic migraine
+      type: any
+    - code: F26y200
+      value: Status migrainosus
+      type: any
+    - code: F26y300
+      value: Complicated migraine
+      type: any
+    - code: F26y.00
+      value: Other forms of migraine
+      type: any
+    - code: F26yz00
+      value: Other forms of migraine NOS
+      type: any
+    - code: F26z.00
+      value: Migraine NOS
+      type: any
+    - code: Fyu5300
+      value: '[X]Other migraine'
+      type: any
+    - code: K584.11
+      value: Migraine - menstrual
+      type: any
+    - code: XaXkr
+      value: Migraine induced by oestrogen contraceptive
+      type: any
+    - code: X007R
+      value: Status migrainosus
+      type: any
+    - code: XE0el
+      value: Premenstrual tension syndrome
+      type: any
+    - code: XaJLO
+      value: Migraine prophylaxis
+      type: any
+    - code: XaXkv
+      value: H/O migraine with aura
+      type: prevalent
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

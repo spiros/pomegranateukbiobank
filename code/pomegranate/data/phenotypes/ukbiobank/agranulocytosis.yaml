@@ -1,0 +1,184 @@
+metadata:
+  phenotype: Agranulocytosis
+  group: Haematological or immunological
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: agranulocytosis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 68bfae22-ef38-4abc-bfe9-91b44d596855
+  ontologies:
+    DOID: DOID_12987
+    GWAS: HP_0012235
+    MESH: D000380
+    SNOMED-CT: 17182001
+    FINNGEN: D3_AGRANULOCYTOSIS
+  short_desc: Agranulocytosis is a condition in which the absolute neutrophil count
+    (ANC) is less than 100 neutrophils per microlitre of blood. People with this condition
+    are at a very high risk of severe infection.
+  long_desc: null
+  priority: 3
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1448'
+      value: neutropenia/lymphopenia
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: D70
+      value: Agranulocytosis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: D70
+      value: Agranulocytosis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D70
+      value: Agranulocytosis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: D70
+      value: Agranulocytosis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 42H2.00
+      value: Leucopenia - low white count
+      type: any
+    - code: 42H2.11
+      value: Leucopenia
+      type: any
+    - code: 42H4.00
+      value: Agranulocytosis
+      type: any
+    - code: 42J2.00
+      value: Neutropenia
+      type: any
+    - code: D400000
+      value: Idiopathic agranulocytosis
+      type: any
+    - code: D400011
+      value: Idiopathic neutropenia
+      type: any
+    - code: D400100
+      value: Primary splenic neutropenia
+      type: any
+    - code: D400200
+      value: Agranulocytosis - drug induced
+      type: any
+    - code: D400211
+      value: Neutropenia - drug induced
+      type: any
+    - code: D400312
+      value: Neutropenia due to irradiation
+      type: any
+    - code: D400400
+      value: Agranulocytosis due to infection
+      type: any
+    - code: D400411
+      value: Neutropenia due to infection
+      type: any
+    - code: D400600
+      value: Drug-induced neutropenia
+      type: any
+    - code: D400800
+      value: Acquired neutropenia NEC
+      type: any
+    - code: D400811
+      value: Acquired agranulocytosis NEC
+      type: any
+    - code: D400900
+      value: Cyclical neutropenia
+      type: any
+    - code: D400A00
+      value: Leucopenia
+      type: any
+    - code: D400.00
+      value: Agranulocytosis
+      type: any
+    - code: D400.11
+      value: Kostmann's syndrome
+      type: any
+    - code: D400.12
+      value: Neutropenia
+      type: any
+    - code: D400y00
+      value: Other specified agranulocytosis
+      type: any
+    - code: D400z00
+      value: Agranulocytosis NOS
+      type: any
+    - code: 42H4.
+      value: Agranulocytosis
+      type: any
+    - code: 42H2.
+      value: Leucopenia
+      type: any
+    - code: XE14G
+      value: Acquired neutropenia NEC
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

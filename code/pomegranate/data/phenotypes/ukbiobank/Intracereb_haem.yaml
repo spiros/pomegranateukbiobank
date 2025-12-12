@@ -1,0 +1,202 @@
+metadata:
+  phenotype: Intracerebral haemorrhage
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: Intracereb_haem
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 9319dbe0-6188-401a-baba-837595d54cd9
+  ontologies:
+    DOID: null
+    GWAS: EFO_0005669
+    MESH: D002543
+    SNOMED-CT: '274100004'
+    FINNGEN: I9_ICH
+  short_desc: Bleeding into one or both cerebral hemispheres including the basal ganglia
+    and the cerebral cortex. It is often associated with hypertension and craniocerebral
+    trauma.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1491'
+      value: brain haemorrhage
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I61
+      value: Intracerebral haemorrhage
+      type: any
+    - code: I69.1
+      value: Sequelae of intracerebral haemorrhage
+      type: prevalent
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I61
+      value: Intracerebral haemorrhage
+      type: any
+    - code: I69.1
+      value: Sequelae of intracerebral haemorrhage
+      type: prevalent
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I61
+      value: Intracerebral haemorrhage
+      type: any
+    - code: I69.1
+      value: Sequelae of intracerebral haemorrhage
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I61
+      value: Intracerebral haemorrhage
+      type: any
+    - code: I69.1
+      value: Sequelae of intracerebral haemorrhage
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 662o.00
+      value: Haemorrhagic stroke monitoring
+      type: prevalent
+    - code: '7004300.0'
+      value: Evacuation of intracerebral haematoma NEC
+      type: any
+    - code: G610.00
+      value: Cortical haemorrhage
+      type: any
+    - code: G611.00
+      value: Internal capsule haemorrhage
+      type: any
+    - code: G612.00
+      value: Basal nucleus haemorrhage
+      type: any
+    - code: G613.00
+      value: Cerebellar haemorrhage
+      type: any
+    - code: G614.00
+      value: Pontine haemorrhage
+      type: any
+    - code: G615.00
+      value: Bulbar haemorrhage
+      type: any
+    - code: G616.00
+      value: External capsule haemorrhage
+      type: any
+    - code: G617.00
+      value: Intracerebral haemorrhage, intraventricular
+      type: any
+    - code: G618.00
+      value: Intracerebral haemorrhage, multiple localized
+      type: any
+    - code: G619.00
+      value: Lobar cerebral haemorrhage
+      type: any
+    - code: G61..00
+      value: Intracerebral haemorrhage
+      type: any
+    - code: G61..11
+      value: CVA - cerebrovascular accid due to intracerebral haemorrhage
+      type: any
+    - code: G61..12
+      value: Stroke due to intracerebral haemorrhage
+      type: any
+    - code: G61X000
+      value: Left sided intracerebral haemorrhage, unspecified
+      type: any
+    - code: G61X100
+      value: Right sided intracerebral haemorrhage, unspecified
+      type: any
+    - code: G61X.00
+      value: Intracerebral haemorrhage in hemisphere, unspecified
+      type: any
+    - code: G61z.00
+      value: Intracerebral haemorrhage NOS
+      type: any
+    - code: G681.00
+      value: Sequelae of intracerebral haemorrhage
+      type: prevalent
+    - code: G682.00
+      value: Sequelae of other nontraumatic intracranial haemorrhage
+      type: prevalent
+    - code: Gyu6200
+      value: '[X]Other intracerebral haemorrhage'
+      type: any
+    - code: Gyu6F00
+      value: '[X]Intracerebral haemorrhage in hemisphere, unspecified'
+      type: any
+    - code: XaBM4
+      value: Left sided intracerebral haemorrhage, unspecified
+      type: any
+    - code: XaKSH
+      value: Haemorrhagic stroke monitoring
+      type: prevalent
+    - code: X00DM
+      value: Lobar cerebral haemorrhage
+      type: any
+    - code: XaBM5
+      value: Right sided intracerebral haemorrhage, unspecified
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

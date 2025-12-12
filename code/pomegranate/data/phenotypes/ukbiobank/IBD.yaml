@@ -1,0 +1,281 @@
+metadata:
+  phenotype: Inflammatory bowel disease (IBD)
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: IBD
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 80a108a4-3c5b-449d-9634-27259d1ceb96
+  priority: 1
+  ontologies:
+    DOID: DOID_0050589
+    GWAS: EFO_0003767
+    MESH: D015212
+    SNOMED-CT: 24526004
+    FINNGEN: K11_IBD
+  short_desc: A group of chronic inflammatory diseases of the gastrointestinal tract.
+  long_desc: null
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1462'
+      value: crohns disease
+      type: any
+    - code: '1463'
+      value: ulcerative colitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: K50
+      value: Crohn's disease [regional enteritis]
+      type: any
+    - code: K51
+      value: Ulcerative colitis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: K50
+      value: Crohn's disease [regional enteritis]
+      type: any
+    - code: K51
+      value: Ulcerative colitis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K50
+      value: Crohn's disease [regional enteritis]
+      type: any
+    - code: K51
+      value: Ulcerative colitis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: K50
+      value: Crohn's disease [regional enteritis]
+      type: any
+    - code: K51
+      value: Ulcerative colitis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: J08z900
+      value: Orofacial Crohn's disease
+      type: any
+    - code: J400000
+      value: Regional enteritis of the duodenum
+      type: any
+    - code: J400100
+      value: Regional enteritis of the jejunum
+      type: any
+    - code: J400200
+      value: Crohn's disease of the terminal ileum
+      type: any
+    - code: J400300
+      value: Crohn's disease of the ileum unspecified
+      type: any
+    - code: J400400
+      value: Crohn's disease of the ileum NOS
+      type: any
+    - code: J400500
+      value: Exacerbation of Crohn's disease of small intestine
+      type: any
+    - code: J400.00
+      value: Regional enteritis of the small bowel
+      type: any
+    - code: J400z00
+      value: Crohn's disease of the small bowel NOS
+      type: any
+    - code: J401000
+      value: Regional enteritis of the colon
+      type: any
+    - code: J401100
+      value: Regional enteritis of the rectum
+      type: any
+    - code: J401200
+      value: Exacerbation of Crohn's disease of large intestine
+      type: any
+    - code: J401.00
+      value: Regional enteritis of the large bowel
+      type: any
+    - code: J401z00
+      value: Crohn's disease of the large bowel NOS
+      type: any
+    - code: J401z11
+      value: Crohn's colitis
+      type: any
+    - code: J402.00
+      value: Regional ileocolitis
+      type: any
+    - code: J40..00
+      value: Regional enteritis - Crohn's disease
+      type: any
+    - code: J40..11
+      value: Crohn's disease
+      type: any
+    - code: J40..12
+      value: Granulomatous enteritis
+      type: any
+    - code: J40z.00
+      value: Regional enteritis NOS
+      type: any
+    - code: J40z.11
+      value: Crohn's disease NOS
+      type: any
+    - code: Jyu4000
+      value: '[X]Other Crohn''s disease'
+      type: any
+    - code: N031100
+      value: Arthropathy in Crohn's disease
+      type: any
+    - code: N045300
+      value: Juvenile arthritis in Crohn's disease
+      type: any
+    - code: ZR3S.00
+      value: Crohn's disease activity index
+      type: any
+    - code: ZR3S.11
+      value: CDAI - Crohn's disease activity index
+      type: any
+    - code: XaK6D
+      value: Exacerbation of Crohn's disease of large intestine
+      type: any
+    - code: XE0af
+      value: Crohn's disease of the large bowel NOS
+      type: any
+    - code: XaK6C
+      value: Exacerbation of Crohn's disease of small intestine
+      type: any
+    - code: 14C4.11
+      value: 'H/O: ulcerative colitis'
+      type: prevalent
+    - code: J410000
+      value: Ulcerative ileocolitis
+      type: any
+    - code: J410100
+      value: Ulcerative colitis
+      type: any
+    - code: J410200
+      value: Ulcerative rectosigmoiditis
+      type: any
+    - code: J410300
+      value: Ulcerative proctitis
+      type: any
+    - code: J410400
+      value: Exacerbation of ulcerative colitis
+      type: any
+    - code: J410.00
+      value: Ulcerative proctocolitis
+      type: any
+    - code: J410z00
+      value: Ulcerative proctocolitis NOS
+      type: any
+    - code: J411.00
+      value: Ulcerative (chronic) enterocolitis
+      type: any
+    - code: J412.00
+      value: Ulcerative (chronic) ileocolitis
+      type: any
+    - code: J413.00
+      value: Ulcerative pancolitis
+      type: any
+    - code: J41..00
+      value: Idiopathic proctocolitis
+      type: any
+    - code: J41..11
+      value: Mucous colitis and/or proctitis
+      type: any
+    - code: J41..12
+      value: Ulcerative colitis and/or proctitis
+      type: any
+    - code: J41y.00
+      value: Other idiopathic proctocolitis
+      type: any
+    - code: J41yz00
+      value: Other idiopathic proctocolitis NOS
+      type: any
+    - code: J41z.00
+      value: Idiopathic proctocolitis NOS
+      type: any
+    - code: Jyu4100
+      value: '[X]Other ulcerative colitis'
+      type: any
+    - code: N031000
+      value: Arthropathy in ulcerative colitis
+      type: any
+    - code: N045400
+      value: Juvenile arthritis in ulcerative colitis
+      type: any
+    - code: XaYzX
+      value: Ulcerative pancolitis
+      type: any
+    - code: XE0ag
+      value: Ulcerative colitis
+      type: any
+    - code: XaK6E
+      value: Exacerbation of ulcerative colitis
+      type: any
+    - code: XE0qC
+      value: 'H/O: colitis'
+      type: prevalent
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

@@ -1,0 +1,278 @@
+metadata:
+  phenotype: Oesophageal varices
+  group: Digestive
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: varices
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: ca190803-b5b9-493f-9282-25d08a6968b4
+  ontologies:
+    DOID: DOID_112
+    GWAS: EFO_0009545
+    MESH: D004932
+    SNOMED-CT: 28670008
+    FINNGEN: I9_VARICVEOES
+  short_desc: Abnormally dilated veins of the esophagus.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1141'
+      value: oesophageal varicies
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I85
+      value: Oesophageal varices
+      type: any
+    - code: I98.2
+      value: Oesophageal varices without bleeding in diseases classified elsewhere
+      type: any
+    - code: I98.3
+      value: Oesophageal varices with bleeding in diseases classified elsewhere
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I85
+      value: Oesophageal varices
+      type: any
+    - code: I98.2
+      value: Oesophageal varices without bleeding in diseases classified elsewhere
+      type: any
+    - code: I98.3
+      value: Oesophageal varices with bleeding in diseases classified elsewhere
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values:
+    - code: G10
+      value: Open operations on varices of oesophagus
+      type: any
+    - code: G10.1
+      value: Disconnection of azygos vein
+      type: any
+    - code: G10.2
+      value: Transection of oesophagus using staple gun
+      type: any
+    - code: G10.3
+      value: Transection of oesophagus NEC
+      type: any
+    - code: G10.4
+      value: Local ligation of varices of oesophagus
+      type: any
+    - code: G10.5
+      value: Open injection sclerotherapy to varices of oesophagus
+      type: any
+    - code: G10.8
+      value: Other specified open operations on varices of oesophagus
+      type: any
+    - code: G10.9
+      value: Unspecified open operations on varices of oesophagus
+      type: any
+    - code: G17.4
+      value: Endoscopic injection sclerotherapy to varices of oesophagus using rigid
+        oesophagoscope
+      type: any
+    - code: G43.7
+      value: Fibreoptic endoscopic rubber band ligation of upper gastrointestinal
+        tract varices
+      type: any
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values:
+    - code: G10
+      value: G10
+      type: any
+    - code: G10.1
+      value: G10.1
+      type: any
+    - code: G10.2
+      value: G10.2
+      type: any
+    - code: G10.3
+      value: G10.3
+      type: any
+    - code: G10.4
+      value: G10.4
+      type: any
+    - code: G10.5
+      value: G10.5
+      type: any
+    - code: G10.8
+      value: G10.8
+      type: any
+    - code: G10.9
+      value: G10.9
+      type: any
+    - code: G17.4
+      value: G17.4
+      type: any
+    - code: G43.7
+      value: G43.7
+      type: any
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I85
+      value: Oesophageal varices
+      type: any
+    - code: I98.2
+      value: Oesophageal varices without bleeding in diseases classified elsewhere
+      type: any
+    - code: I98.3
+      value: Oesophageal varices with bleeding in diseases classified elsewhere
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I85
+      value: Oesophageal varices
+      type: any
+    - code: I98.2
+      value: Oesophageal varices without bleeding in diseases classified elsewhere
+      type: any
+    - code: I98.3
+      value: Oesophageal varices with bleeding in diseases classified elsewhere
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '7609300.0'
+      value: Local ligation of oesophageal varices
+      type: any
+    - code: '7609400.0'
+      value: Open injection sclerotherapy to oesophageal varices
+      type: any
+    - code: '7609.00'
+      value: Open operations on oesophageal varices
+      type: any
+    - code: 7609y00
+      value: Other specified open operation on oesophageal varices
+      type: any
+    - code: 7609y11
+      value: Tanner devascularisation for bleeding varices
+      type: any
+    - code: 7609z00
+      value: Open operation on oesophageal varices NOS
+      type: any
+    - code: 760C300
+      value: Fibreoptic endoscopic injection sclerotherapy oesoph varices
+      type: any
+    - code: 760C500
+      value: Fibreoptic endoscopic banding of oesophageal varices
+      type: any
+    - code: 760F300
+      value: Rigid oesophagoscopic injection sclerotherapy oesoph varices
+      type: any
+    - code: 760F400
+      value: Rigid oesophagoscopic banding of oesophageal varices
+      type: any
+    - code: 761D800
+      value: Fibreopt endoscop rubber band ligation of upper GIT varices
+      type: any
+    - code: G850.00
+      value: Oesophageal varices with bleeding
+      type: any
+    - code: G851.00
+      value: Oesophageal varices without bleeding
+      type: any
+    - code: G852000
+      value: Oesophageal varices with bleeding in diseases EC
+      type: any
+    - code: G852100
+      value: Oesophageal varices without bleeding in diseases EC
+      type: any
+    - code: G852200
+      value: Oesophageal varices in cirrhosis of the liver
+      type: any
+    - code: G852300
+      value: Oesophageal varices in alcoholic cirrhosis of the liver
+      type: any
+    - code: G852.00
+      value: Oesophageal varices in diseases EC
+      type: any
+    - code: G852z00
+      value: Oesophageal varices in diseases EC NOS
+      type: any
+    - code: G858.00
+      value: Oesophageal varices NOS
+      type: any
+    - code: G85..11
+      value: Oesophageal varices
+      type: any
+    - code: Gyu9400
+      value: '[X]Oesophageal varices in diseases classified elsewhere'
+      type: any
+    - code: XaE6u
+      value: Oesophageal varices NOS
+      type: any
+    - code: XE0CP
+      value: Other specified open operation on oesophageal varices
+      type: any
+    - code: XaLdJ
+      value: Fibreoptic endoscopic rubber band ligation of upper gastrointestinal
+        tract varices
+      type: any
+    - code: XaC1d
+      value: Oesophageal varices in alcoholic cirrhosis of the liver
+      type: any
+    - code: XE0Vc
+      value: Other varicose veins
+      type: any
+    - code: XaBM6
+      value: Oesophageal varices in cirrhosis of the liver
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

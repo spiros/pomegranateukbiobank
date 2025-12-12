@@ -1,0 +1,183 @@
+metadata:
+  phenotype: Scoliosis
+  group: Musculoskeletal
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: scoliosis
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 1bb5dd71-ec8c-4a8b-97d8-b7e712fc3f97
+  ontologies:
+    DOID: DOID_0060249
+    GWAS: EFO_0004273
+    MESH: D012600
+    SNOMED-CT: 298382003
+    FINNGEN: M13_SCOLIOSIS
+  short_desc: An appreciable lateral deviation in the normally straight vertical line
+    of the spine.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1535'
+      value: scoliosis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: M41
+      value: Scoliosis
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: M41
+      value: Scoliosis
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M41
+      value: Scoliosis
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: M41
+      value: Scoliosis
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '2376.00'
+      value: O/E - kyphoscoliotic chest def
+      type: any
+    - code: 7J44111
+      value: Dwyer anterior wiring of spine for scoliosis
+      type: any
+    - code: G411.00
+      value: Kyphoscoliotic heart disease
+      type: any
+    - code: N373000
+      value: Idiopathic scoliosis
+      type: any
+    - code: N373100
+      value: Idiopathic kyphoscoliosis
+      type: any
+    - code: N373200
+      value: Resolving infantile idiopathic scoliosis
+      type: any
+    - code: N373300
+      value: Progressive infantile idiopathic scoliosis
+      type: any
+    - code: N373500
+      value: Thoracogenic scoliosis
+      type: any
+    - code: N373600
+      value: Postural scoliosis
+      type: any
+    - code: N373700
+      value: Adolescent idiopathic scoliosis
+      type: any
+    - code: N373.00
+      value: Kyphoscoliosis and scoliosis
+      type: any
+    - code: N373z00
+      value: Kyphoscoliosis or scoliosis NOS
+      type: any
+    - code: N374300
+      value: Scoliosis associated with other condition
+      type: any
+    - code: N374A00
+      value: Scoliosis in skeletal dysplasia
+      type: any
+    - code: N374B00
+      value: Neuromuscular scoliosis
+      type: any
+    - code: N374C00
+      value: Scoliosis in neurofibromatosis
+      type: any
+    - code: N374D00
+      value: Scoliosis in connective tissue anomalies
+      type: any
+    - code: Nyu5300
+      value: '[X]Other idiopathic scoliosis'
+      type: any
+    - code: Nyu5400
+      value: '[X]Other secondary scoliosis'
+      type: any
+    - code: Nyu5500
+      value: '[X]Other forms of scoliosis'
+      type: any
+    - code: PE22.00
+      value: Congenital postural scoliosis
+      type: any
+    - code: PE23.00
+      value: Congenital scoliosis due to congenital bony malformation
+      type: any
+    - code: PG18.11
+      value: Congenital kyphoscoliosis
+      type: any
+    - code: XE1M4
+      value: Congenital kyphosis
+      type: any
+    - code: XE0Ir
+      value: Correction of spinal deformity and anterior instrumentation
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

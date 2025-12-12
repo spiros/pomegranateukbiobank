@@ -1,0 +1,1802 @@
+metadata:
+  phenotype: Primary Malignancy_Other Organs
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: pri_other
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: ec99533f-5159-4f4c-b6a2-5cb122ee7a78
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: null
+    SNOMED-CT: null
+    FINNGEN: null
+  short_desc: Primary Malignancy_Other Organs
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1019'
+      value: small intestine/small bowel cancer
+      type: any
+    - code: '1025'
+      value: gallbladder/bile duct cancer
+      type: any
+    - code: '1007'
+      value: nasal cavity cancer
+      type: any
+    - code: '1081'
+      value: thymus cancer/malignant thymoma
+      type: any
+    - code: '1082'
+      value: heart/mediastinum cancer
+      type: any
+    - code: '1076'
+      value: kaposis sarcoma
+      type: any
+    - code: '1029'
+      value: peripheral nerve/autonomic nerve cancer
+      type: any
+    - code: '1042'
+      value: vaginal cancer
+      type: any
+    - code: '1043'
+      value: vulval cancer
+      type: any
+    - code: '1046'
+      value: penis cancer
+      type: any
+    - code: '1066'
+      value: parathyroid cancer
+      type: any
+    - code: '1016'
+      value: other salivary gland cancer
+      type: any
+    - code: '1036'
+      value: other cancer of urinary tract
+      type: any
+    - code: '1058'
+      value: other haematological malignancy
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C17
+      value: Malignant neoplasm of small intestine
+      type: any
+    - code: C23
+      value: Malignant neoplasm of gallbladder
+      type: any
+    - code: C26.0
+      value: 'Malignant neoplasm: Intestinal tract, part unspecified'
+      type: any
+    - code: C26.1
+      value: 'Malignant neoplasm: Spleen'
+      type: any
+    - code: C26.8
+      value: 'Malignant neoplasm: Overlapping lesion of digestive system'
+      type: any
+    - code: C26.9
+      value: 'Malignant neoplasm: Ill-defined sites within the digestive system'
+      type: any
+    - code: C30.0
+      value: 'Malignant neoplasm: Nasal cavity'
+      type: any
+    - code: C30.1
+      value: 'Malignant neoplasm: Middle ear'
+      type: any
+    - code: C31
+      value: Malignant neoplasm of accessory sinuses
+      type: any
+    - code: C32
+      value: Malignant neoplasm of larynx
+      type: any
+    - code: C37
+      value: Malignant neoplasm of thymus
+      type: any
+    - code: C38.0
+      value: 'Malignant neoplasm: Heart'
+      type: any
+    - code: C38.1
+      value: 'Malignant neoplasm: Anterior mediastinum'
+      type: any
+    - code: C38.2
+      value: 'Malignant neoplasm: Posterior mediastinum'
+      type: any
+    - code: C38.3
+      value: 'Malignant neoplasm: Mediastinum, part unspecified'
+      type: any
+    - code: C38.4
+      value: 'Malignant neoplasm: Pleura'
+      type: any
+    - code: C38.8
+      value: Overlapping lesion of heart, mediastinum and pleura
+      type: any
+    - code: C39.0
+      value: 'Malignant neoplasm: Upper respiratory tract, part unspecified'
+      type: any
+    - code: C39.8
+      value: 'Malignant neoplasm: Overlapping lesion of respiratory and intrathoracic
+        organs'
+      type: any
+    - code: C39.9
+      value: 'Malignant neoplasm: Ill-defined sites within the respiratory system'
+      type: any
+    - code: C46
+      value: Kaposi sarcoma
+      type: any
+    - code: C47
+      value: Malignant neoplasm of peripheral nerves and autonomic nervous system
+      type: any
+    - code: C48
+      value: Malignant neoplasm of retroperitoneum and peritoneum
+      type: any
+    - code: C49
+      value: Malignant neoplasm of other connective and soft tissue
+      type: any
+    - code: C51
+      value: Malignant neoplasm of vulva
+      type: any
+    - code: C52
+      value: Malignant neoplasm of vagina
+      type: any
+    - code: C57
+      value: Malignant neoplasm of other and unspecified female genital organs
+      type: any
+    - code: C58
+      value: Malignant neoplasm of placenta
+      type: any
+    - code: C60
+      value: Malignant neoplasm of penis
+      type: any
+    - code: C63
+      value: Malignant neoplasm of other and unspecified male genital organs
+      type: any
+    - code: C68
+      value: Malignant neoplasm of other and unspecified urinary organs
+      type: any
+    - code: C69
+      value: Malignant neoplasm of eye and adnexa
+      type: any
+    - code: C75.0
+      value: 'Malignant neoplasm: Parathyroid gland'
+      type: any
+    - code: C75.8
+      value: 'Malignant neoplasm: Pluriglandular involvement, unspecified'
+      type: any
+    - code: C75.9
+      value: 'Malignant neoplasm: Endocrine gland, unspecified'
+      type: any
+    - code: C76
+      value: Malignant neoplasm of other and ill-defined sites
+      type: any
+    - code: C80
+      value: Malignant neoplasm without specification of site
+      type: any
+    - code: C88.3
+      value: Immunoproliferative small intestinal disease
+      type: any
+    - code: C88.4
+      value: Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid
+        tissue [MALT-lymphoma]
+      type: any
+    - code: C88.7
+      value: Other malignant immunoproliferative diseases
+      type: any
+    - code: C88.9
+      value: Malignant immunoproliferative disease, unspecified
+      type: any
+    - code: C96
+      value: Other and unspecified malignant neoplasms of lymphoid, haematopoietic
+        and related tissue
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C17
+      value: Malignant neoplasm of small intestine
+      type: any
+    - code: C23
+      value: Malignant neoplasm of gallbladder
+      type: any
+    - code: C26.0
+      value: 'Malignant neoplasm: Intestinal tract, part unspecified'
+      type: any
+    - code: C26.1
+      value: 'Malignant neoplasm: Spleen'
+      type: any
+    - code: C26.8
+      value: 'Malignant neoplasm: Overlapping lesion of digestive system'
+      type: any
+    - code: C26.9
+      value: 'Malignant neoplasm: Ill-defined sites within the digestive system'
+      type: any
+    - code: C30.0
+      value: 'Malignant neoplasm: Nasal cavity'
+      type: any
+    - code: C30.1
+      value: 'Malignant neoplasm: Middle ear'
+      type: any
+    - code: C31
+      value: Malignant neoplasm of accessory sinuses
+      type: any
+    - code: C32
+      value: Malignant neoplasm of larynx
+      type: any
+    - code: C37
+      value: Malignant neoplasm of thymus
+      type: any
+    - code: C38.0
+      value: 'Malignant neoplasm: Heart'
+      type: any
+    - code: C38.1
+      value: 'Malignant neoplasm: Anterior mediastinum'
+      type: any
+    - code: C38.2
+      value: 'Malignant neoplasm: Posterior mediastinum'
+      type: any
+    - code: C38.3
+      value: 'Malignant neoplasm: Mediastinum, part unspecified'
+      type: any
+    - code: C38.4
+      value: 'Malignant neoplasm: Pleura'
+      type: any
+    - code: C38.8
+      value: Overlapping lesion of heart, mediastinum and pleura
+      type: any
+    - code: C39.0
+      value: 'Malignant neoplasm: Upper respiratory tract, part unspecified'
+      type: any
+    - code: C39.8
+      value: 'Malignant neoplasm: Overlapping lesion of respiratory and intrathoracic
+        organs'
+      type: any
+    - code: C39.9
+      value: 'Malignant neoplasm: Ill-defined sites within the respiratory system'
+      type: any
+    - code: C46
+      value: Kaposi sarcoma
+      type: any
+    - code: C47
+      value: Malignant neoplasm of peripheral nerves and autonomic nervous system
+      type: any
+    - code: C48
+      value: Malignant neoplasm of retroperitoneum and peritoneum
+      type: any
+    - code: C49
+      value: Malignant neoplasm of other connective and soft tissue
+      type: any
+    - code: C51
+      value: Malignant neoplasm of vulva
+      type: any
+    - code: C52
+      value: Malignant neoplasm of vagina
+      type: any
+    - code: C57
+      value: Malignant neoplasm of other and unspecified female genital organs
+      type: any
+    - code: C58
+      value: Malignant neoplasm of placenta
+      type: any
+    - code: C60
+      value: Malignant neoplasm of penis
+      type: any
+    - code: C63
+      value: Malignant neoplasm of other and unspecified male genital organs
+      type: any
+    - code: C68
+      value: Malignant neoplasm of other and unspecified urinary organs
+      type: any
+    - code: C69
+      value: Malignant neoplasm of eye and adnexa
+      type: any
+    - code: C75.0
+      value: 'Malignant neoplasm: Parathyroid gland'
+      type: any
+    - code: C75.8
+      value: 'Malignant neoplasm: Pluriglandular involvement, unspecified'
+      type: any
+    - code: C75.9
+      value: 'Malignant neoplasm: Endocrine gland, unspecified'
+      type: any
+    - code: C76
+      value: Malignant neoplasm of other and ill-defined sites
+      type: any
+    - code: C80
+      value: Malignant neoplasm without specification of site
+      type: any
+    - code: C88.3
+      value: Immunoproliferative small intestinal disease
+      type: any
+    - code: C88.4
+      value: Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid
+        tissue [MALT-lymphoma]
+      type: any
+    - code: C88.7
+      value: Other malignant immunoproliferative diseases
+      type: any
+    - code: C88.9
+      value: Malignant immunoproliferative disease, unspecified
+      type: any
+    - code: C96
+      value: Other and unspecified malignant neoplasms of lymphoid, haematopoietic
+        and related tissue
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C17
+      value: Malignant neoplasm of small intestine
+      type: any
+    - code: C23
+      value: Malignant neoplasm of gallbladder
+      type: any
+    - code: C26.0
+      value: 'Malignant neoplasm: Intestinal tract, part unspecified'
+      type: any
+    - code: C26.1
+      value: 'Malignant neoplasm: Spleen'
+      type: any
+    - code: C26.8
+      value: 'Malignant neoplasm: Overlapping lesion of digestive system'
+      type: any
+    - code: C26.9
+      value: 'Malignant neoplasm: Ill-defined sites within the digestive system'
+      type: any
+    - code: C30.0
+      value: 'Malignant neoplasm: Nasal cavity'
+      type: any
+    - code: C30.1
+      value: 'Malignant neoplasm: Middle ear'
+      type: any
+    - code: C31
+      value: Malignant neoplasm of accessory sinuses
+      type: any
+    - code: C32
+      value: Malignant neoplasm of larynx
+      type: any
+    - code: C37
+      value: Malignant neoplasm of thymus
+      type: any
+    - code: C38.0
+      value: 'Malignant neoplasm: Heart'
+      type: any
+    - code: C38.1
+      value: 'Malignant neoplasm: Anterior mediastinum'
+      type: any
+    - code: C38.2
+      value: 'Malignant neoplasm: Posterior mediastinum'
+      type: any
+    - code: C38.3
+      value: 'Malignant neoplasm: Mediastinum, part unspecified'
+      type: any
+    - code: C38.4
+      value: 'Malignant neoplasm: Pleura'
+      type: any
+    - code: C38.8
+      value: Overlapping lesion of heart, mediastinum and pleura
+      type: any
+    - code: C39.0
+      value: 'Malignant neoplasm: Upper respiratory tract, part unspecified'
+      type: any
+    - code: C39.8
+      value: 'Malignant neoplasm: Overlapping lesion of respiratory and intrathoracic
+        organs'
+      type: any
+    - code: C39.9
+      value: 'Malignant neoplasm: Ill-defined sites within the respiratory system'
+      type: any
+    - code: C46
+      value: Kaposi sarcoma
+      type: any
+    - code: C47
+      value: Malignant neoplasm of peripheral nerves and autonomic nervous system
+      type: any
+    - code: C48
+      value: Malignant neoplasm of retroperitoneum and peritoneum
+      type: any
+    - code: C49
+      value: Malignant neoplasm of other connective and soft tissue
+      type: any
+    - code: C51
+      value: Malignant neoplasm of vulva
+      type: any
+    - code: C52
+      value: Malignant neoplasm of vagina
+      type: any
+    - code: C57
+      value: Malignant neoplasm of other and unspecified female genital organs
+      type: any
+    - code: C58
+      value: Malignant neoplasm of placenta
+      type: any
+    - code: C60
+      value: Malignant neoplasm of penis
+      type: any
+    - code: C63
+      value: Malignant neoplasm of other and unspecified male genital organs
+      type: any
+    - code: C68
+      value: Malignant neoplasm of other and unspecified urinary organs
+      type: any
+    - code: C69
+      value: Malignant neoplasm of eye and adnexa
+      type: any
+    - code: C75.0
+      value: 'Malignant neoplasm: Parathyroid gland'
+      type: any
+    - code: C75.8
+      value: 'Malignant neoplasm: Pluriglandular involvement, unspecified'
+      type: any
+    - code: C75.9
+      value: 'Malignant neoplasm: Endocrine gland, unspecified'
+      type: any
+    - code: C76
+      value: Malignant neoplasm of other and ill-defined sites
+      type: any
+    - code: C80
+      value: Malignant neoplasm without specification of site
+      type: any
+    - code: C88.3
+      value: Immunoproliferative small intestinal disease
+      type: any
+    - code: C88.4
+      value: Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid
+        tissue [MALT-lymphoma]
+      type: any
+    - code: C88.7
+      value: Other malignant immunoproliferative diseases
+      type: any
+    - code: C88.9
+      value: Malignant immunoproliferative disease, unspecified
+      type: any
+    - code: C96
+      value: Other and unspecified malignant neoplasms of lymphoid, haematopoietic
+        and related tissue
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C17
+      value: Malignant neoplasm of small intestine
+      type: any
+    - code: C23
+      value: Malignant neoplasm of gallbladder
+      type: any
+    - code: C26.0
+      value: 'Malignant neoplasm: Intestinal tract, part unspecified'
+      type: any
+    - code: C26.1
+      value: 'Malignant neoplasm: Spleen'
+      type: any
+    - code: C26.8
+      value: 'Malignant neoplasm: Overlapping lesion of digestive system'
+      type: any
+    - code: C26.9
+      value: 'Malignant neoplasm: Ill-defined sites within the digestive system'
+      type: any
+    - code: C30.0
+      value: 'Malignant neoplasm: Nasal cavity'
+      type: any
+    - code: C30.1
+      value: 'Malignant neoplasm: Middle ear'
+      type: any
+    - code: C31
+      value: Malignant neoplasm of accessory sinuses
+      type: any
+    - code: C32
+      value: Malignant neoplasm of larynx
+      type: any
+    - code: C37
+      value: Malignant neoplasm of thymus
+      type: any
+    - code: C38.0
+      value: 'Malignant neoplasm: Heart'
+      type: any
+    - code: C38.1
+      value: 'Malignant neoplasm: Anterior mediastinum'
+      type: any
+    - code: C38.2
+      value: 'Malignant neoplasm: Posterior mediastinum'
+      type: any
+    - code: C38.3
+      value: 'Malignant neoplasm: Mediastinum, part unspecified'
+      type: any
+    - code: C38.4
+      value: 'Malignant neoplasm: Pleura'
+      type: any
+    - code: C38.8
+      value: Overlapping lesion of heart, mediastinum and pleura
+      type: any
+    - code: C39.0
+      value: 'Malignant neoplasm: Upper respiratory tract, part unspecified'
+      type: any
+    - code: C39.8
+      value: 'Malignant neoplasm: Overlapping lesion of respiratory and intrathoracic
+        organs'
+      type: any
+    - code: C39.9
+      value: 'Malignant neoplasm: Ill-defined sites within the respiratory system'
+      type: any
+    - code: C46
+      value: Kaposi sarcoma
+      type: any
+    - code: C47
+      value: Malignant neoplasm of peripheral nerves and autonomic nervous system
+      type: any
+    - code: C48
+      value: Malignant neoplasm of retroperitoneum and peritoneum
+      type: any
+    - code: C49
+      value: Malignant neoplasm of other connective and soft tissue
+      type: any
+    - code: C51
+      value: Malignant neoplasm of vulva
+      type: any
+    - code: C52
+      value: Malignant neoplasm of vagina
+      type: any
+    - code: C57
+      value: Malignant neoplasm of other and unspecified female genital organs
+      type: any
+    - code: C58
+      value: Malignant neoplasm of placenta
+      type: any
+    - code: C60
+      value: Malignant neoplasm of penis
+      type: any
+    - code: C63
+      value: Malignant neoplasm of other and unspecified male genital organs
+      type: any
+    - code: C68
+      value: Malignant neoplasm of other and unspecified urinary organs
+      type: any
+    - code: C69
+      value: Malignant neoplasm of eye and adnexa
+      type: any
+    - code: C75.0
+      value: 'Malignant neoplasm: Parathyroid gland'
+      type: any
+    - code: C75.8
+      value: 'Malignant neoplasm: Pluriglandular involvement, unspecified'
+      type: any
+    - code: C75.9
+      value: 'Malignant neoplasm: Endocrine gland, unspecified'
+      type: any
+    - code: C76
+      value: Malignant neoplasm of other and ill-defined sites
+      type: any
+    - code: C80
+      value: Malignant neoplasm without specification of site
+      type: any
+    - code: C88.3
+      value: Immunoproliferative small intestinal disease
+      type: any
+    - code: C88.4
+      value: Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid
+        tissue [MALT-lymphoma]
+      type: any
+    - code: C88.7
+      value: Other malignant immunoproliferative diseases
+      type: any
+    - code: C88.9
+      value: Malignant immunoproliferative disease, unspecified
+      type: any
+    - code: C96
+      value: Other and unspecified malignant neoplasms of lymphoid, haematopoietic
+        and related tissue
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: 4M20.00
+      value: Lymphoma stage I
+      type: any
+    - code: 4M21.00
+      value: Lymphoma stage II
+      type: any
+    - code: 4M22.00
+      value: Lymphoma stage III
+      type: any
+    - code: 4M23.00
+      value: Lymphoma stage IV
+      type: any
+    - code: 7G03K00
+      value: Excision malignant skin tumour
+      type: any
+    - code: A789500
+      value: HIV disease resulting in Kaposi's sarcoma
+      type: any
+    - code: A789511
+      value: HIV disease resulting in Kaposi sarcoma
+      type: any
+    - code: B120.00
+      value: Malignant neoplasm of duodenum
+      type: any
+    - code: B121.00
+      value: Malignant neoplasm of jejunum
+      type: any
+    - code: B122.00
+      value: Malignant neoplasm of ileum
+      type: any
+    - code: B123.00
+      value: Malignant neoplasm of Meckel's diverticulum
+      type: any
+    - code: B124.00
+      value: Malignant neoplasm, overlapping lesion of small intestine
+      type: any
+    - code: B12..00
+      value: Malignant neoplasm of small intestine and duodenum
+      type: any
+    - code: B12y.00
+      value: Malignant neoplasm of other specified site small intestine
+      type: any
+    - code: B12z.00
+      value: Malignant neoplasm of small intestine NOS
+      type: any
+    - code: B15..00
+      value: Malignant neoplasm of liver and intrahepatic bile ducts
+      type: any
+    - code: B15z.00
+      value: Malignant neoplasm of liver and intrahepatic bile ducts NOS
+      type: any
+    - code: B160.00
+      value: Malignant neoplasm of gallbladder
+      type: any
+    - code: B160.11
+      value: Carcinoma gallbladder
+      type: any
+    - code: B16..00
+      value: Malignant neoplasm gallbladder and extrahepatic bile ducts
+      type: any
+    - code: B16y.00
+      value: Malignant neoplasm other gallbladder/extrahepatic bile duct
+      type: any
+    - code: B16z.00
+      value: Malignant neoplasm gallbladder/extrahepatic bile ducts NOS
+      type: any
+    - code: B180100
+      value: Malignant neoplasm of perinephric tissue
+      type: any
+    - code: B180200
+      value: Malignant neoplasm of retrocaecal tissue
+      type: any
+    - code: B180.00
+      value: Malignant neoplasm of retroperitoneum
+      type: any
+    - code: B180z00
+      value: Malignant neoplasm of retroperitoneum NOS
+      type: any
+    - code: B182.00
+      value: Overlapping malign lesion of retroperitoneum and peritoneum
+      type: any
+    - code: B18..00
+      value: Malignant neoplasm of retroperitoneum and peritoneum
+      type: any
+    - code: B18y100
+      value: Malignant neoplasm of mesocaecum
+      type: any
+    - code: B18y200
+      value: Malignant neoplasm of mesorectum
+      type: any
+    - code: B18y300
+      value: Malignant neoplasm of omentum
+      type: any
+    - code: B18y400
+      value: Malignant neoplasm of parietal peritoneum
+      type: any
+    - code: B18y500
+      value: Malignant neoplasm of pelvic peritoneum
+      type: any
+    - code: B18y600
+      value: Malignant neoplasm of the pouch of Douglas
+      type: any
+    - code: B18y700
+      value: Malignant neoplasm of mesentery
+      type: any
+    - code: B18y.00
+      value: Malignant neoplasm of specified parts of peritoneum
+      type: any
+    - code: B18yz00
+      value: Malignant neoplasm of specified parts of peritoneum NOS
+      type: any
+    - code: B18z.00
+      value: Malignant neoplasm of retroperitoneum and peritoneum NOS
+      type: any
+    - code: B1z0.00
+      value: Malignant neoplasm of intestinal tract, part unspecified
+      type: any
+    - code: B1z1000
+      value: Angiosarcoma of spleen
+      type: any
+    - code: B1z1100
+      value: Fibrosarcoma of spleen
+      type: any
+    - code: B1z1.00
+      value: Malignant neoplasm of spleen NEC
+      type: any
+    - code: B1z1z00
+      value: Malignant neoplasm of spleen NOS
+      type: any
+    - code: B1z2.00
+      value: Malignant neoplasm, overlapping lesion of digestive system
+      type: any
+    - code: B1z..00
+      value: Malig neop oth/ill-defined sites digestive tract/peritoneum
+      type: any
+    - code: B1zy.00
+      value: Malignant neoplasm other spec digestive tract and peritoneum
+      type: any
+    - code: B1zz.00
+      value: Malignant neoplasm of digestive tract and peritoneum NOS
+      type: any
+    - code: B200000
+      value: Malignant neoplasm of cartilage of nose
+      type: any
+    - code: B200100
+      value: Malignant neoplasm of nasal conchae
+      type: any
+    - code: B200200
+      value: Malignant neoplasm of septum of nose
+      type: any
+    - code: B200300
+      value: Malignant neoplasm of vestibule of nose
+      type: any
+    - code: B200.00
+      value: Malignant neoplasm of nasal cavities
+      type: any
+    - code: B200z00
+      value: Malignant neoplasm of nasal cavities NOS
+      type: any
+    - code: B201000
+      value: Malignant neoplasm of auditory (Eustachian) tube
+      type: any
+    - code: B201100
+      value: Malignant neoplasm of tympanic cavity
+      type: any
+    - code: B201200
+      value: Malignant neoplasm of tympanic antrum
+      type: any
+    - code: B201300
+      value: Malignant neoplasm of mastoid air cells
+      type: any
+    - code: B201.00
+      value: Malig neop auditory tube, middle ear and mastoid air cells
+      type: any
+    - code: B201z00
+      value: Malig neop auditory tube, middle ear, mastoid air cells NOS
+      type: any
+    - code: B202.00
+      value: Malignant neoplasm of maxillary sinus
+      type: any
+    - code: B203.00
+      value: Malignant neoplasm of ethmoid sinus
+      type: any
+    - code: B204.00
+      value: Malignant neoplasm of frontal sinus
+      type: any
+    - code: B205.00
+      value: Malignant neoplasm of sphenoidal sinus
+      type: any
+    - code: B206.00
+      value: Malignant neoplasm, overlapping lesion of accessory sinuses
+      type: any
+    - code: B20..00
+      value: Malig neop nasal cavities, middle ear and accessory sinuses
+      type: any
+    - code: B20y.00
+      value: Malig neop other site nasal cavity, middle ear and sinuses
+      type: any
+    - code: B20z.00
+      value: Malignant neoplasm of accessory sinus NOS
+      type: any
+    - code: B210.00
+      value: Malignant neoplasm of glottis
+      type: any
+    - code: B211.00
+      value: Malignant neoplasm of supraglottis
+      type: any
+    - code: B212.00
+      value: Malignant neoplasm of subglottis
+      type: any
+    - code: B213000
+      value: Malignant neoplasm of arytenoid cartilage
+      type: any
+    - code: B213100
+      value: Malignant neoplasm of cricoid cartilage
+      type: any
+    - code: B213200
+      value: Malignant neoplasm of cuneiform cartilage
+      type: any
+    - code: B213300
+      value: Malignant neoplasm of thyroid cartilage
+      type: any
+    - code: B213.00
+      value: Malignant neoplasm of laryngeal cartilage
+      type: any
+    - code: B213z00
+      value: Malignant neoplasm of laryngeal cartilage NOS
+      type: any
+    - code: B214.00
+      value: Malignant neoplasm, overlapping lesion of larynx
+      type: any
+    - code: B215.00
+      value: Malignant neoplasm of epiglottis NOS
+      type: any
+    - code: B21..00
+      value: Malignant neoplasm of larynx
+      type: any
+    - code: B21y.00
+      value: Malignant neoplasm of larynx, other specified site
+      type: any
+    - code: B21z.00
+      value: Malignant neoplasm of larynx NOS
+      type: any
+    - code: B230.00
+      value: Malignant neoplasm of parietal pleura
+      type: any
+    - code: B231.00
+      value: Malignant neoplasm of visceral pleura
+      type: any
+    - code: B23..00
+      value: Malignant neoplasm of pleura
+      type: any
+    - code: B23y.00
+      value: Malignant neoplasm of other specified pleura
+      type: any
+    - code: B23z.00
+      value: Malignant neoplasm of pleura NOS
+      type: any
+    - code: B240.00
+      value: Malignant neoplasm of thymus
+      type: any
+    - code: B241000
+      value: Malignant neoplasm of endocardium
+      type: any
+    - code: B241200
+      value: Malignant neoplasm of myocardium
+      type: any
+    - code: B241300
+      value: Malignant neoplasm of pericardium
+      type: any
+    - code: B241.00
+      value: Malignant neoplasm of heart
+      type: any
+    - code: B241z00
+      value: Malignant neoplasm of heart NOS
+      type: any
+    - code: B242.00
+      value: Malignant neoplasm of anterior mediastinum
+      type: any
+    - code: B243.00
+      value: Malignant neoplasm of posterior mediastinum
+      type: any
+    - code: B24..00
+      value: Malignant neoplasm of thymus, heart and mediastinum
+      type: any
+    - code: B24X.00
+      value: Malignant neoplasm of mediastinum, part unspecified
+      type: any
+    - code: B24y.00
+      value: Malig neop of other site of heart, thymus and mediastinum
+      type: any
+    - code: B24z.00
+      value: Malignant neoplasm of heart, thymus and mediastinum NOS
+      type: any
+    - code: B25..00
+      value: Malig neo, overlapping lesion of heart, mediastinum & pleura
+      type: any
+    - code: B26..00
+      value: Malignant neoplasm, overlap lesion of resp & intrathor orgs
+      type: any
+    - code: B2z0.00
+      value: Malig neop of upper respiratory tract, part unspecified
+      type: any
+    - code: B2z..00
+      value: Malig neop other/ill-defined sites resp/intrathoracic organs
+      type: any
+    - code: B2zy.00
+      value: Malignant neoplasm of other site of respiratory tract
+      type: any
+    - code: B2zz.00
+      value: Malignant neoplasm of respiratory tract NOS
+      type: any
+    - code: B310000
+      value: Malignant neoplasm of soft tissue of head
+      type: any
+    - code: B310100
+      value: Malignant neoplasm of soft tissue of face
+      type: any
+    - code: B310200
+      value: Malignant neoplasm of soft tissue of neck
+      type: any
+    - code: B310300
+      value: Malignant neoplasm of cartilage of ear
+      type: any
+    - code: B310400
+      value: Malignant neoplasm of tarsus of eyelid
+      type: any
+    - code: B310500
+      value: Malignant neoplasm soft tissues of cervical spine
+      type: any
+    - code: B310.00
+      value: Malig neop of connective and soft tissue head, face and neck
+      type: any
+    - code: B310z00
+      value: Malig neop connective and soft tissue head, face, neck NOS
+      type: any
+    - code: B311000
+      value: Malignant neoplasm of connective and soft tissue of shoulder
+      type: any
+    - code: B311100
+      value: Malignant neoplasm of connective and soft tissue, upper arm
+      type: any
+    - code: B311200
+      value: Malignant neoplasm of connective and soft tissue of fore-arm
+      type: any
+    - code: B311300
+      value: Malignant neoplasm of connective and soft tissue of hand
+      type: any
+    - code: B311400
+      value: Malignant neoplasm of connective and soft tissue of finger
+      type: any
+    - code: B311500
+      value: Malignant neoplasm of connective and soft tissue of thumb
+      type: any
+    - code: B311.00
+      value: Malig neop connective and soft tissue upper limb/shoulder
+      type: any
+    - code: B311z00
+      value: Malig neop connective soft tissue upper limb/shoulder NOS
+      type: any
+    - code: B312000
+      value: Malignant neoplasm of connective and soft tissue of hip
+      type: any
+    - code: B312100
+      value: Malig neop of connective and soft tissue thigh and upper leg
+      type: any
+    - code: B312200
+      value: Malig neop connective and soft tissue of popliteal space
+      type: any
+    - code: B312300
+      value: Malig neop of connective and soft tissue of lower leg
+      type: any
+    - code: B312400
+      value: Malignant neoplasm of connective and soft tissue of foot
+      type: any
+    - code: B312500
+      value: Malignant neoplasm of connective and soft tissue of toe
+      type: any
+    - code: B312.00
+      value: Malig neop of connective and soft tissue of hip and leg
+      type: any
+    - code: B312z00
+      value: Malig neop connective and soft tissue hip and leg NOS
+      type: any
+    - code: B313000
+      value: Malignant neoplasm of connective and soft tissue of axilla
+      type: any
+    - code: B313100
+      value: Malignant neoplasm of diaphragm
+      type: any
+    - code: B313200
+      value: Malignant neoplasm of great vessels
+      type: any
+    - code: B313300
+      value: Malig neoplasm of connective and soft tissues of thor spine
+      type: any
+    - code: B313.00
+      value: Malignant neoplasm of connective and soft tissue of thorax
+      type: any
+    - code: B313z00
+      value: Malig neop of connective and soft tissue of thorax NOS
+      type: any
+    - code: B314000
+      value: Malig neop of connective and soft tissue of abdominal wall
+      type: any
+    - code: B314100
+      value: Malig neoplasm of connective and soft tissues of lumb spine
+      type: any
+    - code: B314.00
+      value: Malignant neoplasm of connective and soft tissue of abdomen
+      type: any
+    - code: B314z00
+      value: Malig neop of connective and soft tissue of abdomen NOS
+      type: any
+    - code: B315000
+      value: Malignant neoplasm of connective and soft tissue of buttock
+      type: any
+    - code: B315100
+      value: Malig neop of connective and soft tissue of inguinal region
+      type: any
+    - code: B315200
+      value: Malignant neoplasm of connective and soft tissue of perineum
+      type: any
+    - code: B315300
+      value: Malig neopl of connective and soft tissue - sacrum or coccyx
+      type: any
+    - code: B315.00
+      value: Malignant neoplasm of connective and soft tissue of pelvis
+      type: any
+    - code: B315z00
+      value: Malig neop of connective and soft tissue of pelvis NOS
+      type: any
+    - code: B316.00
+      value: Malig neop of connective and soft tissue trunk unspecified
+      type: any
+    - code: B31y.00
+      value: Malig neop connective and soft tissue other specified site
+      type: any
+    - code: B31z000
+      value: Kaposi's sarcoma of soft tissue
+      type: any
+    - code: B31z.00
+      value: Malignant neoplasm of connective and soft tissue, site NOS
+      type: any
+    - code: B420.00
+      value: Choriocarcinoma
+      type: any
+    - code: B42..00
+      value: Malignant neoplasm of placenta
+      type: any
+    - code: B441.00
+      value: Malignant neoplasm of fallopian tube
+      type: any
+    - code: B442.00
+      value: Malignant neoplasm of broad ligament
+      type: any
+    - code: B443.00
+      value: Malignant neoplasm of parametrium
+      type: any
+    - code: B44..00
+      value: Malignant neoplasm of ovary and other uterine adnexa
+      type: any
+    - code: B44y.00
+      value: Malignant neoplasm of other site of uterine adnexa
+      type: any
+    - code: B44z.00
+      value: Malignant neoplasm of uterine adnexa NOS
+      type: any
+    - code: B450100
+      value: Malignant neoplasm of vaginal vault
+      type: any
+    - code: B450.00
+      value: Malignant neoplasm of vagina
+      type: any
+    - code: B450z00
+      value: Malignant neoplasm of vagina NOS
+      type: any
+    - code: B451000
+      value: Malignant neoplasm of greater vestibular (Bartholin's) gland
+      type: any
+    - code: B451.00
+      value: Malignant neoplasm of labia majora
+      type: any
+    - code: B451z00
+      value: Malignant neoplasm of labia majora NOS
+      type: any
+    - code: B452.00
+      value: Malignant neoplasm of labia minora
+      type: any
+    - code: B453.00
+      value: Malignant neoplasm of clitoris
+      type: any
+    - code: B454.00
+      value: Malignant neoplasm of vulva unspecified
+      type: any
+    - code: B454.11
+      value: Primary vulval cancer
+      type: any
+    - code: B45..00
+      value: Malig neop of other and unspecified female genital organs
+      type: any
+    - code: B45X.00
+      value: Malignant neoplasm/overlapping lesion/feml genital organs
+      type: any
+    - code: B45y000
+      value: Malignant neoplasm of overlapping lesion of vulva
+      type: any
+    - code: B45y.00
+      value: Malignant neoplasm of other specified female genital organ
+      type: any
+    - code: B45z.00
+      value: Malignant neoplasm of female genital organ NOS
+      type: any
+    - code: B480.00
+      value: Malignant neoplasm of prepuce (foreskin)
+      type: any
+    - code: B481.00
+      value: Malignant neoplasm of glans penis
+      type: any
+    - code: B482.00
+      value: Malignant neoplasm of body of penis
+      type: any
+    - code: B483.00
+      value: Malignant neoplasm of penis, part unspecified
+      type: any
+    - code: B484.00
+      value: Malignant neoplasm of epididymis
+      type: any
+    - code: B485.00
+      value: Malignant neoplasm of spermatic cord
+      type: any
+    - code: B486.00
+      value: Malignant neoplasm of scrotum
+      type: any
+    - code: B487.00
+      value: Malignant neoplasm, overlapping lesion of penis
+      type: any
+    - code: B48y000
+      value: Malignant neoplasm of seminal vesicle
+      type: any
+    - code: B48y100
+      value: Malignant neoplasm of tunica vaginalis
+      type: any
+    - code: B48y200
+      value: Malignant neoplasm, overlapping lesion male genital orgs
+      type: any
+    - code: B48y.00
+      value: Malignant neoplasm of other male genital organ
+      type: any
+    - code: B48yz00
+      value: Malignant neoplasm of other male genital organ NOS
+      type: any
+    - code: B48z.00
+      value: Malignant neoplasm of penis and other male genital organ NOS
+      type: any
+    - code: B4A3.00
+      value: Malignant neoplasm of urethra
+      type: any
+    - code: B4A4.00
+      value: Malignant neoplasm of paraurethral glands
+      type: any
+    - code: B4A..00
+      value: Malig neop of kidney and other unspecified urinary organs
+      type: any
+    - code: B4Ay000
+      value: Malignant neoplasm of overlapping lesion of urinary organs
+      type: any
+    - code: B4Ay.00
+      value: Malignant neoplasm of other urinary organs
+      type: any
+    - code: B4Az.00
+      value: Malignant neoplasm of kidney or urinary organs NOS
+      type: any
+    - code: B500000
+      value: Malignant neoplasm of ciliary body
+      type: any
+    - code: B500100
+      value: Malignant neoplasm of iris
+      type: any
+    - code: B500200
+      value: Malignant neoplasm of crystalline lens
+      type: any
+    - code: B500.00
+      value: Malig neop eyeball excl conjunctiva, cornea, retina, choroid
+      type: any
+    - code: B500z00
+      value: Malignant neoplasm of eyeball NOS
+      type: any
+    - code: B501000
+      value: Malignant neoplasm of connective tissue of orbit
+      type: any
+    - code: B501.00
+      value: Malignant neoplasm of orbit
+      type: any
+    - code: B501z00
+      value: Malignant neoplasm of orbit NOS
+      type: any
+    - code: B502.00
+      value: Malignant neoplasm of lacrimal gland
+      type: any
+    - code: B503.00
+      value: Malignant neoplasm of conjunctiva
+      type: any
+    - code: B504.00
+      value: Malignant neoplasm of cornea
+      type: any
+    - code: B505.00
+      value: Malignant neoplasm of retina
+      type: any
+    - code: B506.00
+      value: Malignant neoplasm of choroid
+      type: any
+    - code: B507000
+      value: Malignant neoplasm of lacrimal sac
+      type: any
+    - code: B507100
+      value: Malignant neoplasm of nasolacrimal duct
+      type: any
+    - code: B507.00
+      value: Malignant neoplasm of lacrimal duct
+      type: any
+    - code: B508.00
+      value: Malignant neoplasm, overlapping lesion of eye and adnexa
+      type: any
+    - code: B50..00
+      value: Malignant neoplasm of eye
+      type: any
+    - code: B50y.00
+      value: Malignant neoplasm of other specified site of eye
+      type: any
+    - code: B50z.00
+      value: Malignant neoplasm of eye NOS
+      type: any
+    - code: B524000
+      value: Malignant neoplasm of peripheral nerves of head, face & neck
+      type: any
+    - code: B524100
+      value: Malignant neoplasm of peripheral nerve,upp limb,incl should
+      type: any
+    - code: B524200
+      value: Malignant neoplasm of peripheral nerve of low limb, incl hip
+      type: any
+    - code: B524300
+      value: Malignant neoplasm of peripheral nerve of thorax
+      type: any
+    - code: B524400
+      value: Malignant neoplasm of peripheral nerve of abdomen
+      type: any
+    - code: B524500
+      value: Malignant neoplasm of peripheral nerve of pelvis
+      type: any
+    - code: B524600
+      value: Malignant neoplasm,overlap lesion periph nerve & auton ns
+      type: any
+    - code: B524.00
+      value: Malig neopl peripheral nerves and autonomic nervous system
+      type: any
+    - code: B524W00
+      value: Mal neoplasm/periph nerves+autonomic nervous system,unspc
+      type: any
+    - code: B52y.00
+      value: Malignant neoplasm of other specified part of nervous system
+      type: any
+    - code: B52z.00
+      value: Malignant neoplasm of nervous system NOS
+      type: any
+    - code: B52..00
+      value: Malig neop of other and unspecified parts of nervous system
+      type: any
+    - code: B541.00
+      value: Malignant neoplasm of parathyroid gland
+      type: any
+    - code: B54X.00
+      value: Malignant neoplasm-pluriglandular involvement,unspecified
+      type: any
+    - code: B54y.00
+      value: Malignant neoplasm of other specified endocrine gland
+      type: any
+    - code: B54z.00
+      value: Malig neop of endocrine gland or related structure NOS
+      type: any
+    - code: B550000
+      value: Malignant neoplasm of head NOS
+      type: any
+    - code: B550100
+      value: Malignant neoplasm of cheek NOS
+      type: any
+    - code: B550200
+      value: Malignant neoplasm of nose NOS
+      type: any
+    - code: B550300
+      value: Malignant neoplasm of jaw NOS
+      type: any
+    - code: B550400
+      value: Malignant neoplasm of neck NOS
+      type: any
+    - code: B550500
+      value: Malignant neoplasm of supraclavicular fossa NOS
+      type: any
+    - code: B550.00
+      value: Malignant neoplasm of head, neck and face
+      type: any
+    - code: B550z00
+      value: Malignant neoplasm of head, neck and face NOS
+      type: any
+    - code: B551000
+      value: Malignant neoplasm of axilla NOS
+      type: any
+    - code: B551100
+      value: Malignant neoplasm of chest wall NOS
+      type: any
+    - code: B551200
+      value: Malignant neoplasm of intrathoracic site NOS
+      type: any
+    - code: B551.00
+      value: Malignant neoplasm of thorax
+      type: any
+    - code: B551z00
+      value: Malignant neoplasm of thorax NOS
+      type: any
+    - code: B552.00
+      value: Malignant neoplasm of abdomen
+      type: any
+    - code: B553000
+      value: Malignant neoplasm of inguinal region NOS
+      type: any
+    - code: B553100
+      value: Malignant neoplasm of presacral region
+      type: any
+    - code: B553200
+      value: Malignant neoplasm of sacrococcygeal region
+      type: any
+    - code: B553.00
+      value: Malignant neoplasm of pelvis
+      type: any
+    - code: B553z00
+      value: Malignant neoplasm of pelvis NOS
+      type: any
+    - code: B554.00
+      value: Malignant neoplasm of upper limb NOS
+      type: any
+    - code: B555.00
+      value: Malignant neoplasm of lower limb NOS
+      type: any
+    - code: B55y000
+      value: Malignant neoplasm of back NOS
+      type: any
+    - code: B55y100
+      value: Malignant neoplasm of trunk NOS
+      type: any
+    - code: B55y200
+      value: Malignant neoplasm of flank NOS
+      type: any
+    - code: B55y.00
+      value: Malignant neoplasm of other specified sites
+      type: any
+    - code: B55yz00
+      value: Malignant neoplasm of specified site NOS
+      type: any
+    - code: B55z.00
+      value: Malignant neoplasm of other and ill defined site NOS
+      type: any
+    - code: B591.00
+      value: Other malignant neoplasm NOS
+      type: any
+    - code: B592X00
+      value: Kaposi's sarcoma of multiple organs
+      type: any
+    - code: B593.00
+      value: Primary malignant neoplasm of unknown site
+      type: any
+    - code: B595.00
+      value: Malignant tumour of unknown origin
+      type: any
+    - code: B59..00
+      value: Malignant neoplasm of unspecified site
+      type: any
+    - code: B59z.00
+      value: Malignant neoplasm of unspecified site NOS
+      type: any
+    - code: B59zX00
+      value: Kaposi's sarcoma, unspecified
+      type: any
+    - code: B5...00
+      value: Malignant neoplasm of other and unspecified sites
+      type: any
+    - code: B5...11
+      value: Carcinoma of other and unspecified sites
+      type: any
+    - code: B5y..00
+      value: Malignant neoplasm of other and unspecified site OS
+      type: any
+    - code: B5z..00
+      value: Malignant neoplasm of other and unspecified site NOS
+      type: any
+    - code: B623000
+      value: Malignant histiocytosis of unspecified site
+      type: any
+    - code: B623100
+      value: Malignant histiocytosis of lymph nodes head, face and neck
+      type: any
+    - code: B623300
+      value: Malignant histiocytosis of intra-abdominal lymph nodes
+      type: any
+    - code: B623.00
+      value: Malignant histiocytosis
+      type: any
+    - code: B623z00
+      value: Malignant histiocytosis NOS
+      type: any
+    - code: B625000
+      value: Letterer-Siwe disease of unspecified sites
+      type: any
+    - code: B625200
+      value: Letterer-Siwe disease of intrathoracic lymph nodes
+      type: any
+    - code: B625800
+      value: Letterer-Siwe disease of lymph nodes of multiple sites
+      type: any
+    - code: B625.00
+      value: Letterer-Siwe disease
+      type: any
+    - code: B625.11
+      value: Histiocytosis X (acute, progressive)
+      type: any
+    - code: B625z00
+      value: Letterer-Siwe disease NOS
+      type: any
+    - code: B626000
+      value: Mast cell malignancy of unspecified site
+      type: any
+    - code: B626500
+      value: Mast cell malignancy of lymph nodes inguinal region and leg
+      type: any
+    - code: B626800
+      value: Mast cell malignancy of lymph nodes of multiple sites
+      type: any
+    - code: B626.00
+      value: Malignant mast cell tumours
+      type: any
+    - code: B626z00
+      value: Malignant mast cell tumour NOS
+      type: any
+    - code: B62x500
+      value: Malignant immunoproliferative small intestinal disease
+      type: any
+    - code: B62x600
+      value: True histiocytic lymphoma
+      type: any
+    - code: B63y.00
+      value: Other immunoproliferative neoplasms
+      type: any
+    - code: B63z.00
+      value: Immunoproliferative neoplasm or myeloma NOS
+      type: any
+    - code: BB5h100
+      value: '[M]Adrenal cortical carcinoma'
+      type: any
+    - code: BB57.00
+      value: '[M]Adenocarcinoma, intestinal type'
+      type: any
+    - code: BBcC.00
+      value: '[M]Aesthesioneuroblastoma'
+      type: any
+    - code: BBcC.11
+      value: '[M]Olfactory neuroblastoma'
+      type: any
+    - code: BBcD.11
+      value: '[M]Olfactory neuroepithelioma'
+      type: any
+    - code: BBm4.00
+      value: '[M]True histiocytic lymphoma'
+      type: any
+    - code: BBT1.00
+      value: '[M]Haemangiosarcoma'
+      type: any
+    - code: BBT7100
+      value: '[M]Haemangioendothelioma, malignant'
+      type: any
+    - code: Byu1200
+      value: '[X]Malignant neoplasm of intestinal tract, part unspecified'
+      type: any
+    - code: Byu1300
+      value: '[X]Malignant neoplsm/ill-defin sites within digestive system'
+      type: any
+    - code: Byu2400
+      value: '[X]Malignant neoplasm/ill-defined sites within resp system'
+      type: any
+    - code: Byu2500
+      value: '[X]Malignant neoplasm of mediastinum, part unspecified'
+      type: any
+    - code: Byu4.00
+      value: '[X]Melanoma and other malignant neoplasms of skin'
+      type: any
+    - code: Byu5300
+      value: '[X]Kaposi''s sarcoma, unspecified'
+      type: any
+    - code: Byu5400
+      value: '[X]Malignant neoplasm/peripheral nerves of trunk,unspecified'
+      type: any
+    - code: Byu5500
+      value: '[X]Mal neoplasm/overlap les/periph nerv+autonomic nerv systm'
+      type: any
+    - code: Byu5700
+      value: '[X]Malignant neoplasm of peritoneum, unspecified'
+      type: any
+    - code: Byu5800
+      value: '[X]Mal neoplasm/connective+soft tissue of trunk,unspecified'
+      type: any
+    - code: Byu5900
+      value: '[X]Malignant neoplasm/connective + soft tissue,unspecified'
+      type: any
+    - code: Byu5B00
+      value: '[X]Kaposi''s sarcoma of other sites'
+      type: any
+    - code: Byu7000
+      value: '[X]Malignant neoplasm of uterine adnexa, unspecified'
+      type: any
+    - code: Byu7100
+      value: '[X]Malignant neoplasm/other specified female genital organs'
+      type: any
+    - code: Byu7300
+      value: '[X]Malignant neoplasm of female genital organ, unspecified'
+      type: any
+    - code: Byu8000
+      value: '[X]Malignant neoplasm/other specified male genital organs'
+      type: any
+    - code: Byu8200
+      value: '[X]Malignant neoplasm of male genital organ, unspecified'
+      type: any
+    - code: Byu9000
+      value: '[X]Malignant neoplasm of urinary organ, unspecified'
+      type: any
+    - code: ByuB100
+      value: '[X]Malignant neoplasm of endocrine gland, unspecified'
+      type: any
+    - code: ByuB.00
+      value: '[X]Malignant neoplasm of thyroid and other endocrine glands'
+      type: any
+    - code: ByuC000
+      value: '[X]Malignant neoplasm of other specified sites'
+      type: any
+    - code: ByuC100
+      value: '[X]Malignant neoplasm/overlap lesion/other+ill-defined sites'
+      type: any
+    - code: ByuC600
+      value: '[X]2ndry malignant neoplasm/oth+unspec parts/nervous system'
+      type: any
+    - code: ByuC800
+      value: '[X]Malignant neoplasm without specification of site'
+      type: any
+    - code: ByuC.00
+      value: '[X]Malignant neoplasm of ill-defined, secondary and unspeci'
+      type: any
+    - code: ByuD400
+      value: '[X]Other malignant immunoproliferative diseases'
+      type: any
+    - code: ByuDA00
+      value: '[X]Oth spcf mal neoplsm/lymphoid,haematopoietic+rltd tissue'
+      type: any
+    - code: ByuDB00
+      value: '[X]Mal neoplasm/lymphoid,haematopoietic+related tissu,unspcf'
+      type: any
+    - code: C37y000
+      value: Hand - Schuller - Christian disease
+      type: any
+    - code: C37y100
+      value: Eosinophilic granuloma
+      type: any
+    - code: C37y500
+      value: Histiocytosis X , chronic
+      type: any
+    - code: C37y600
+      value: Histiocytosis X , unspecified
+      type: any
+    - code: ZV10000
+      value: '[V]Personal history of malig neop of gastrointestinal tract'
+      type: prevalent
+    - code: ZV10012
+      value: '[V]Personal history of malig neop of gastrointestinal tract'
+      type: prevalent
+    - code: XE1vq
+      value: Lymphoid and histiocytic malignancy NOS
+      type: any
+    - code: Xa0Ty
+      value: True histiocytic lymphoma
+      type: any
+    - code: XE2vR
+      value: Malignant neoplasm of other and unspecified sites
+      type: any
+    - code: XaImr
+      value: Lymphoma stage III
+      type: any
+    - code: XaIms
+      value: Lymphoma stage IV
+      type: any
+    - code: XaBLv
+      value: Malignant neoplasm of epiglottis NOS
+      type: any
+    - code: XaCJ1
+      value: Primary malignant neoplasm of unknown site
+      type: any
+    - code: XE2vQ
+      value: Malignant neoplasm of kidney and other unspecified urinary organs
+      type: any
+    - code: XaImp
+      value: Lymphoma stage I
+      type: any
+    - code: X78e9
+      value: Malignant tumour of unknown origin
+      type: any
+    - code: XE1vj
+      value: Malignant neoplasm of vulva unspecified
+      type: any
+    - code: XaEY9
+      value: Malignant neoplasm of mesentery
+      type: any
+    - code: XaImq
+      value: Lymphoma stage II
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C17
+      value: Malignant neoplasm of small intestine
+      type: any
+    - code: C23
+      value: Malignant neoplasm of gallbladder
+      type: any
+    - code: C26.0
+      value: 'Malignant neoplasm: Intestinal tract, part unspecified'
+      type: any
+    - code: C26.1
+      value: 'Malignant neoplasm: Spleen'
+      type: any
+    - code: C26.8
+      value: 'Malignant neoplasm: Overlapping lesion of digestive system'
+      type: any
+    - code: C26.9
+      value: 'Malignant neoplasm: Ill-defined sites within the digestive system'
+      type: any
+    - code: C30.0
+      value: 'Malignant neoplasm: Nasal cavity'
+      type: any
+    - code: C30.1
+      value: 'Malignant neoplasm: Middle ear'
+      type: any
+    - code: C31
+      value: Malignant neoplasm of accessory sinuses
+      type: any
+    - code: C32
+      value: Malignant neoplasm of larynx
+      type: any
+    - code: C37
+      value: Malignant neoplasm of thymus
+      type: any
+    - code: C38.0
+      value: 'Malignant neoplasm: Heart'
+      type: any
+    - code: C38.1
+      value: 'Malignant neoplasm: Anterior mediastinum'
+      type: any
+    - code: C38.2
+      value: 'Malignant neoplasm: Posterior mediastinum'
+      type: any
+    - code: C38.3
+      value: 'Malignant neoplasm: Mediastinum, part unspecified'
+      type: any
+    - code: C38.4
+      value: 'Malignant neoplasm: Pleura'
+      type: any
+    - code: C38.8
+      value: Overlapping lesion of heart, mediastinum and pleura
+      type: any
+    - code: C39.0
+      value: 'Malignant neoplasm: Upper respiratory tract, part unspecified'
+      type: any
+    - code: C39.8
+      value: 'Malignant neoplasm: Overlapping lesion of respiratory and intrathoracic
+        organs'
+      type: any
+    - code: C39.9
+      value: 'Malignant neoplasm: Ill-defined sites within the respiratory system'
+      type: any
+    - code: C46
+      value: Kaposi sarcoma
+      type: any
+    - code: C47
+      value: Malignant neoplasm of peripheral nerves and autonomic nervous system
+      type: any
+    - code: C48
+      value: Malignant neoplasm of retroperitoneum and peritoneum
+      type: any
+    - code: C49
+      value: Malignant neoplasm of other connective and soft tissue
+      type: any
+    - code: C51
+      value: Malignant neoplasm of vulva
+      type: any
+    - code: C52
+      value: Malignant neoplasm of vagina
+      type: any
+    - code: C57
+      value: Malignant neoplasm of other and unspecified female genital organs
+      type: any
+    - code: C58
+      value: Malignant neoplasm of placenta
+      type: any
+    - code: C60
+      value: Malignant neoplasm of penis
+      type: any
+    - code: C63
+      value: Malignant neoplasm of other and unspecified male genital organs
+      type: any
+    - code: C68
+      value: Malignant neoplasm of other and unspecified urinary organs
+      type: any
+    - code: C69
+      value: Malignant neoplasm of eye and adnexa
+      type: any
+    - code: C74
+      value: Malignant neoplasm of adrenal gland
+      type: any
+    - code: C75.0
+      value: 'Malignant neoplasm: Parathyroid gland'
+      type: any
+    - code: C75.8
+      value: 'Malignant neoplasm: Pluriglandular involvement, unspecified'
+      type: any
+    - code: C75.9
+      value: 'Malignant neoplasm: Endocrine gland, unspecified'
+      type: any
+    - code: C76
+      value: Malignant neoplasm of other and ill-defined sites
+      type: any
+    - code: C80
+      value: Malignant neoplasm without specification of site
+      type: any
+    - code: C88.3
+      value: Immunoproliferative small intestinal disease
+      type: any
+    - code: C88.4
+      value: Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid
+        tissue [MALT-lymphoma]
+      type: any
+    - code: C88.7
+      value: Other malignant immunoproliferative diseases
+      type: any
+    - code: C88.9
+      value: Malignant immunoproliferative disease, unspecified
+      type: any
+    - code: C96
+      value: Other and unspecified malignant neoplasms of lymphoid, haematopoietic
+        and related tissue
+      type: any

@@ -1,0 +1,141 @@
+metadata:
+  phenotype: Atrioventricular block, second degree
+  group: Cardiovascular
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: av_block_2
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 2d9dfc35-e6ad-4321-94e0-99da8fd9bae3
+  ontologies:
+    DOID: DOID_0050822
+    GWAS: HP_0011706
+    MESH: null
+    SNOMED-CT: '195042002'
+    FINNGEN: null
+  short_desc: An atrioventricular block that is characterized by progressive prolongation
+    of the PR interval on consecutive beats followed by a blocked P wave on electrocardiogram
+    or intermittently non-conducted P waves not preceded by PR changes on electrocardiogram
+    caused by a conduction block between the atria and the ventricles through the
+    atrioventricular node.
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: I44.1
+      value: Atrioventricular block, second degree
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: I44.1
+      value: Atrioventricular block, second degree
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I44.1
+      value: Atrioventricular block, second degree
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: I44.1
+      value: Atrioventricular block, second degree
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '3295.00'
+      value: 'ECG: partial A-V block - 2:1'
+      type: any
+    - code: '3296.00'
+      value: 'ECG: partial A-V block - 3:1'
+      type: any
+    - code: '3297.00'
+      value: 'ECG: Wenckebach phenomenon'
+      type: any
+    - code: '3297.11'
+      value: 'Electrocardiogram: Mobitz type 1 second degree AV block'
+      type: any
+    - code: 329H.00
+      value: 'Electrocardiogram: Mobitz type 2 second degree AV block'
+      type: any
+    - code: G561200
+      value: Mobitz type II atrioventricular block
+      type: any
+    - code: G561300
+      value: Mobitz type I (Wenckebach) atrioventricular block
+      type: any
+    - code: G561311
+      value: Mobitz type 1 second degree atrioventricular block
+      type: any
+    - code: G561400
+      value: Second degree atrioventricular block
+      type: any
+    - code: XaXGh
+      value: 'Electrocardiogram: Mobitz type 2 second degree atrioventricular block'
+      type: any
+    - code: X202a
+      value: Second degree atrioventricular block
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

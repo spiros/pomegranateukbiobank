@@ -1,0 +1,606 @@
+metadata:
+  phenotype: Leukaemia
+  group: Cancers
+  is_cancer: '1'
+  is_adult: '1'
+  variable_name: leukaemia
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: 857995a1-a553-4310-8928-92f3fc97abc1
+  ontologies:
+    DOID: DOID_1240
+    GWAS: EFO_0000565
+    MESH: D007938
+    SNOMED-CT: 128931003
+    FINNGEN: null
+  short_desc: A cancer that affects the blood or bone marrow characterized by an abnormal
+    proliferation of blood cells.
+  long_desc: null
+  priority: 4
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values:
+    - code: '1048'
+      value: leukaemia
+      type: any
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values: []
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: C91
+      value: Lymphoid leukaemia
+      type: any
+    - code: C92
+      value: Myeloid leukaemia
+      type: any
+    - code: C93
+      value: Monocytic leukaemia
+      type: any
+    - code: C94
+      value: Other leukaemias of specified cell type
+      type: any
+    - code: C95
+      value: Leukaemia of unspecified cell type
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: C91
+      value: Lymphoid leukaemia
+      type: any
+    - code: C92
+      value: Myeloid leukaemia
+      type: any
+    - code: C93
+      value: Monocytic leukaemia
+      type: any
+    - code: C94
+      value: Other leukaemias of specified cell type
+      type: any
+    - code: C95
+      value: Leukaemia of unspecified cell type
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C91
+      value: Lymphoid leukaemia
+      type: any
+    - code: C92
+      value: Myeloid leukaemia
+      type: any
+    - code: C93
+      value: Monocytic leukaemia
+      type: any
+    - code: C94
+      value: Other leukaemias of specified cell type
+      type: any
+    - code: C95
+      value: Leukaemia of unspecified cell type
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: C91
+      value: Lymphoid leukaemia
+      type: any
+    - code: C92
+      value: Myeloid leukaemia
+      type: any
+    - code: C93
+      value: Monocytic leukaemia
+      type: any
+    - code: C94
+      value: Other leukaemias of specified cell type
+      type: any
+    - code: C95
+      value: Leukaemia of unspecified cell type
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values:
+    - code: '1429.00'
+      value: 'H/O: * leukaemia'
+      type: prevalent
+    - code: B624000
+      value: Leukaemic reticuloendotheliosis of unspecified sites
+      type: any
+    - code: B624300
+      value: Leukaemic reticuloend of intra-abdominal lymph nodes
+      type: any
+    - code: B624.00
+      value: Leukaemic reticuloendotheliosis
+      type: any
+    - code: B624.11
+      value: Leukaemic reticuloendotheliosis
+      type: any
+    - code: B624.12
+      value: Hairy cell leukaemia
+      type: any
+    - code: B624z00
+      value: Leukaemic reticuloendotheliosis NOS
+      type: any
+    - code: B640000
+      value: B-cell acute lymphoblastic leukaemia
+      type: any
+    - code: B640.00
+      value: Acute lymphoid leukaemia
+      type: any
+    - code: B641000
+      value: B-cell chronic lymphocytic leukaemia
+      type: any
+    - code: B641011
+      value: Chronic lymphocytic leukaemia of B-cell type
+      type: any
+    - code: B641100
+      value: Clinical stage A chronic lymphocytic leukaemia
+      type: any
+    - code: B641200
+      value: Clinical stage B chronic lymphocytic leukaemia
+      type: any
+    - code: B641300
+      value: Clinical stage C chronic lymphocytic leukaemia
+      type: any
+    - code: B641.00
+      value: Chronic lymphoid leukaemia
+      type: any
+    - code: B641.11
+      value: Chronic lymphatic leukaemia
+      type: any
+    - code: B642.00
+      value: Subacute lymphoid leukaemia
+      type: any
+    - code: B64..00
+      value: Lymphoid leukaemia
+      type: any
+    - code: B64..11
+      value: Lymphatic leukaemia
+      type: any
+    - code: B64y100
+      value: Prolymphocytic leukaemia
+      type: any
+    - code: B64y200
+      value: Adult T-cell leukaemia
+      type: any
+    - code: B64y300
+      value: B-cell prolymphocytic leukaemia
+      type: any
+    - code: B64y400
+      value: T-cell prolymphocytic leukaemia
+      type: any
+    - code: B64y500
+      value: Adult T-cell lymphoma/leukaemia (HTLV-1-associated)
+      type: any
+    - code: B64y.00
+      value: Other lymphoid leukaemia
+      type: any
+    - code: B64yz00
+      value: Other lymphoid leukaemia NOS
+      type: any
+    - code: B64z.00
+      value: Lymphoid leukaemia NOS
+      type: any
+    - code: B650.00
+      value: Acute myeloid leukaemia
+      type: any
+    - code: B651100
+      value: Chronic myeloid leukaemia, BCR/ABL positive
+      type: any
+    - code: B651200
+      value: Chronic neutrophilic leukaemia
+      type: any
+    - code: B651300
+      value: Atypical chronic myeloid leukaemia, BCR/ABL negative
+      type: any
+    - code: B651.00
+      value: Chronic myeloid leukaemia
+      type: any
+    - code: B651.11
+      value: Chronic granulocytic leukaemia
+      type: any
+    - code: B651z00
+      value: Chronic myeloid leukaemia NOS
+      type: any
+    - code: B652.00
+      value: Subacute myeloid leukaemia
+      type: any
+    - code: B653000
+      value: Chloroma
+      type: any
+    - code: B653100
+      value: Granulocytic sarcoma
+      type: any
+    - code: B653.00
+      value: Myeloid sarcoma
+      type: any
+    - code: B654.00
+      value: Acute myeloblastic leukaemia
+      type: any
+    - code: B65..00
+      value: Myeloid leukaemia
+      type: any
+    - code: B65y100
+      value: Acute promyelocytic leukaemia
+      type: any
+    - code: B65yz00
+      value: Other myeloid leukaemia NOS
+      type: any
+    - code: B65z.00
+      value: Myeloid leukaemia NOS
+      type: any
+    - code: B660.00
+      value: Acute monocytic leukaemia
+      type: any
+    - code: B661.00
+      value: Chronic monocytic leukaemia
+      type: any
+    - code: B662.00
+      value: Subacute monocytic leukaemia
+      type: any
+    - code: B663.00
+      value: Acute monoblastic leukaemia
+      type: any
+    - code: B66..00
+      value: Monocytic leukaemia
+      type: any
+    - code: B66..11
+      value: Histiocytic leukaemia
+      type: any
+    - code: B66..12
+      value: Monoblastic leukaemia
+      type: any
+    - code: B66y.00
+      value: Other monocytic leukaemia
+      type: any
+    - code: B66yz00
+      value: Other monocytic leukaemia NOS
+      type: any
+    - code: B66z.00
+      value: Monocytic leukaemia NOS
+      type: any
+    - code: B670.00
+      value: Acute erythraemia and erythroleukaemia
+      type: any
+    - code: B670.11
+      value: Di Guglielmo's disease
+      type: any
+    - code: B672.00
+      value: Megakaryocytic leukaemia
+      type: any
+    - code: B672.11
+      value: Thrombocytic leukaemia
+      type: any
+    - code: B673.00
+      value: Mast cell leukaemia
+      type: any
+    - code: B674.00
+      value: Acute panmyelosis
+      type: any
+    - code: B675.00
+      value: Acute myelofibrosis
+      type: any
+    - code: B677.00
+      value: Myelodysplastic and myeloproliferative disease
+      type: any
+    - code: B67..00
+      value: Other specified leukaemia
+      type: any
+    - code: B67y000
+      value: Lymphosarcoma cell leukaemia
+      type: any
+    - code: B67y.00
+      value: Other and unspecified leukaemia
+      type: any
+    - code: B67yz00
+      value: Other and unspecified leukaemia NOS
+      type: any
+    - code: B67z.00
+      value: Other specified leukaemia NOS
+      type: any
+    - code: B680.00
+      value: Acute leukaemia NOS
+      type: any
+    - code: B681.00
+      value: Chronic leukaemia NOS
+      type: any
+    - code: B682.00
+      value: Subacute leukaemia NOS
+      type: any
+    - code: B68..00
+      value: Leukaemia of unspecified cell type
+      type: any
+    - code: B68y.00
+      value: Other leukaemia of unspecified cell type
+      type: any
+    - code: B68z.00
+      value: Leukaemia NOS
+      type: any
+    - code: B690.00
+      value: Acute myelomonocytic leukaemia
+      type: any
+    - code: B691.00
+      value: Chronic myelomonocytic leukaemia
+      type: any
+    - code: B692.00
+      value: Subacute myelomonocytic leukaemia
+      type: any
+    - code: B693.00
+      value: Juvenile myelomonocytic leukaemia
+      type: any
+    - code: B69..00
+      value: Myelomonocytic leukaemia
+      type: any
+    - code: BBr0000
+      value: '[M]Leukaemia NOS'
+      type: any
+    - code: BBr0100
+      value: '[M]Acute leukaemia NOS'
+      type: any
+    - code: BBr0111
+      value: '[M]Blast cell leukaemia'
+      type: any
+    - code: BBr0112
+      value: '[M]Blastic leukaemia'
+      type: any
+    - code: BBr0113
+      value: '[M]Stem cell leukaemia'
+      type: any
+    - code: BBr0200
+      value: '[M]Subacute leukaemia NOS'
+      type: any
+    - code: BBr0300
+      value: '[M]Chronic leukaemia NOS'
+      type: any
+    - code: BBr0400
+      value: '[M]Aleukaemic leukaemia NOS'
+      type: any
+    - code: BBr0.00
+      value: '[M]Leukaemias unspecified'
+      type: any
+    - code: BBr0z00
+      value: '[M]Leukaemia unspecified, NOS'
+      type: any
+    - code: BBr2000
+      value: '[M]Lymphoid leukaemia NOS'
+      type: any
+    - code: BBr2011
+      value: '[M]Lymphatic leukaemia'
+      type: any
+    - code: BBr2100
+      value: '[M]Acute lymphoid leukaemia'
+      type: any
+    - code: BBr2300
+      value: '[M]Chronic lymphoid leukaemia'
+      type: any
+    - code: BBr2500
+      value: '[M]Prolymphocytic leukaemia'
+      type: any
+    - code: BBr2600
+      value: '[M]Burkitt''s cell leukaemia'
+      type: any
+    - code: BBr2700
+      value: '[M]Adult T-cell leukaemia/lymphoma'
+      type: any
+    - code: BBr2.00
+      value: '[M]Lymphoid leukaemias'
+      type: any
+    - code: BBr4000
+      value: '[M]Erythroleukaemia'
+      type: any
+    - code: BBr4.00
+      value: '[M]Erythroleukaemias'
+      type: any
+    - code: BBr4z00
+      value: '[M]Erythroleukaemia NOS'
+      type: any
+    - code: BBr6000
+      value: '[M]Myeloid leukaemia NOS'
+      type: any
+    - code: BBr6011
+      value: '[M]Granulocytic leukaemia NOS'
+      type: any
+    - code: BBr6100
+      value: '[M]Acute myeloid leukaemia'
+      type: any
+    - code: BBr6200
+      value: '[M]Subacute myeloid leukaemia'
+      type: any
+    - code: BBr6300
+      value: '[M]Chronic myeloid leukaemia'
+      type: any
+    - code: BBr6311
+      value: '[M]Naegeli-type monocytic leukaemia'
+      type: any
+    - code: BBr6600
+      value: '[M]Acute promyelocytic leukaemia'
+      type: any
+    - code: BBr6700
+      value: '[M]Acute myelomonocytic leukaemia'
+      type: any
+    - code: BBr6800
+      value: '[M]Chronic myelomonocytic leukaemia'
+      type: any
+    - code: BBr6900
+      value: '[M]Juvenile myelomonocytic leukaemia'
+      type: any
+    - code: BBr6.00
+      value: '[M]Myeloid leukaemias'
+      type: any
+    - code: BBr6z00
+      value: '[M]Other myeloid leukaemia NOS'
+      type: any
+    - code: BBr7000
+      value: '[M]Basophilic leukaemia'
+      type: any
+    - code: BBr9000
+      value: '[M]Monocytic leukaemia NOS'
+      type: any
+    - code: BBrA100
+      value: '[M]Megakaryocytic leukaemia'
+      type: any
+    - code: BBrA111
+      value: '[M]Thrombocytic leukaemia'
+      type: any
+    - code: BBrA400
+      value: '[M]Hairy cell leukaemia'
+      type: any
+    - code: BBrA500
+      value: '[M]Acute megakaryoblastic leukaemia'
+      type: any
+    - code: BBrA.00
+      value: '[M]Miscellaneous leukaemias'
+      type: any
+    - code: BBrAz00
+      value: '[M]Miscellaneous leukaemia NOS'
+      type: any
+    - code: BBr..00
+      value: '[M]Leukaemias'
+      type: any
+    - code: BBrz.00
+      value: '[M]Leukaemia NOS'
+      type: any
+    - code: ByuD500
+      value: '[X]Other lymphoid leukaemia'
+      type: any
+    - code: ByuD600
+      value: '[X]Other myeloid leukaemia'
+      type: any
+    - code: ByuD700
+      value: '[X]Other monocytic leukaemia'
+      type: any
+    - code: ByuD800
+      value: '[X]Other specified leukaemias'
+      type: any
+    - code: ByuD900
+      value: '[X]Other leukaemia of unspecified cell type'
+      type: any
+    - code: ZV10600
+      value: '[V]Personal history of leukaemia'
+      type: prevalent
+    - code: ZV10611
+      value: '[V]Personal history of lymphoid leukaemia'
+      type: prevalent
+    - code: ZV10613
+      value: '[V]Personal history of myeloid leukaemia'
+      type: prevalent
+    - code: ZV67811
+      value: '[V]Follow-up examination after chemotherapy for leukaemia'
+      type: prevalent
+    - code: XE2vi
+      value: Acute erythraemia and erythroleukaemia
+      type: any
+    - code: XaYis
+      value: Atypical chronic myeloid leukaemia, BCR/ABL negative
+      type: any
+    - code: Xaa8z
+      value: '[M]Juvenile myelomonocytic leukaemia'
+      type: any
+    - code: Xaa1O
+      value: Clinical stage B chronic lymphocytic leukaemia
+      type: any
+    - code: BBr00
+      value: '[M]Leukaemia NOS'
+      type: any
+    - code: XaYiK
+      value: Myelodysplastic and myeloproliferative disease
+      type: any
+    - code: Xaa1N
+      value: Clinical stage A chronic lymphocytic leukaemia
+      type: any
+    - code: Xaa1P
+      value: Clinical stage C chronic lymphocytic leukaemia
+      type: any
+    - code: Xa0Sk
+      value: Acute myeloblastic leukaemia
+      type: any
+    - code: Xa0S9
+      value: T-cell prolymphocytic leukaemia
+      type: any
+    - code: Xa0SD
+      value: B-cell acute lymphoblastic leukaemia
+      type: any
+    - code: XaYdL
+      value: Juvenile myelomonocytic leukaemia
+      type: any
+    - code: Xa0So
+      value: Acute myelofibrosis
+      type: any
+    - code: Xa0T5
+      value: B-cell prolymphocytic leukaemia
+      type: any
+    - code: Xa0QP
+      value: B-cell chronic lymphocytic leukaemia
+      type: any
+    - code: Xa0Sl
+      value: Acute monoblastic leukaemia
+      type: any
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values:
+    - code: C91
+      value: Lymphoid leukaemia
+      type: any
+    - code: C92
+      value: Myeloid leukaemia
+      type: any
+    - code: C93
+      value: Monocytic leukaemia
+      type: any
+    - code: C94
+      value: Other leukaemias of specified cell type
+      type: any
+    - code: C95
+      value: Leukaemia of unspecified cell type
+      type: any

@@ -1,0 +1,619 @@
+metadata:
+  phenotype: Infection of skin and subcutaneous tissues
+  group: Infections
+  is_cancer: '0'
+  is_adult: '1'
+  variable_name: skin
+  gender:
+  - male
+  - female
+  authors: Torralbo, A; Davitte, J M; Croteau-Chonka, D C; Ytsma, C; Tomlinson, C;
+    Fitzpatrick, N K; Chung, S C; Fatemifar, G; Cortes, A S; Richardson, T G; Barclay,
+    M; Carrasco Zanini, J; Finan, C; Hemingway, H; Hingorani, A; Kuan, V; Langenberg,
+    C; Lyratzopoulos, G; Lumbers, R T; Pietzner, M; Shah, A D; Thygesen, J H; Zelenka,
+    N; Whittaker, J C; Ehm, M G; Denaxas, S
+  uuid: ddee9853-c8ed-4809-b96e-c023e7d88552
+  ontologies:
+    DOID: null
+    GWAS: null
+    MESH: D012874
+    SNOMED-CT: '19824006'
+    FINNGEN: L12_INFECT_SKIN
+  short_desc: Infection of skin and subcutaneous tissues
+  long_desc: null
+  priority: 5
+definitions:
+  20001:
+    metadata:
+      desc: Cancer code, self-reported
+      time_qualifier:
+        field_id: 20006
+        type: year
+    values: []
+  20002:
+    metadata:
+      desc: Non-cancer illness code, self-reported
+      time_qualifier:
+        field_id: 20008
+        type: year
+    values:
+    - code: '1625'
+      value: cellulitis
+      type: any
+  20003:
+    metadata:
+      desc: Treatment/medication code
+    values: []
+  20004:
+    metadata:
+      desc: Operation code
+    values: []
+  41202:
+    metadata:
+      desc: Diagnoses - main ICD10
+    values:
+    - code: A06.7
+      value: Cutaneous amoebiasis
+      type: any
+    - code: A18.4
+      value: Tuberculosis of skin and subcutaneous tissue
+      type: any
+    - code: A20.1
+      value: Cellulocutaneous plague
+      type: any
+    - code: A21.0
+      value: Ulceroglandular tularaemia
+      type: any
+    - code: A22.0
+      value: Cutaneous anthrax
+      type: any
+    - code: A26.0
+      value: Cutaneous erysipeloid
+      type: any
+    - code: A31.1
+      value: Cutaneous mycobacterial infection
+      type: any
+    - code: A32.0
+      value: Cutaneous listeriosis
+      type: any
+    - code: A36.3
+      value: Cutaneous diphtheria
+      type: any
+    - code: A43.1
+      value: Cutaneous nocardiosis
+      type: any
+    - code: A46
+      value: Erysipelas
+      type: any
+    - code: A51.3
+      value: Secondary syphilis of skin and mucous membranes
+      type: any
+    - code: B00.0
+      value: Eczema herpeticum
+      type: any
+    - code: B00.1
+      value: Herpesviral vesicular dermatitis
+      type: any
+    - code: B07
+      value: Viral warts
+      type: any
+    - code: B08
+      value: Other viral infections characterized by skin and mucous membrane lesions,
+        not elsewhere classified
+      type: any
+    - code: B09
+      value: Unspecified viral infection characterized by skin and mucous membrane
+        lesions
+      type: any
+    - code: B35
+      value: Dermatophytosis
+      type: any
+    - code: B36
+      value: Other superficial mycoses
+      type: any
+    - code: B37.2
+      value: Candidiasis of skin and nail
+      type: any
+    - code: B38.3
+      value: Cutaneous coccidioidomycosis
+      type: any
+    - code: B40.3
+      value: Cutaneous blastomycosis
+      type: any
+    - code: B42.1
+      value: Lymphocutaneous sporotrichosis
+      type: any
+    - code: B43.0
+      value: Cutaneous chromomycosis
+      type: any
+    - code: B43.2
+      value: Subcutaneous phaeomycotic abscess and cyst
+      type: any
+    - code: B45.2
+      value: Cutaneous cryptococcosis
+      type: any
+    - code: B46.3
+      value: Cutaneous mucormycosis
+      type: any
+    - code: B55.1
+      value: Cutaneous leishmaniasis
+      type: any
+    - code: B78.1
+      value: Cutaneous strongyloidiasis
+      type: any
+    - code: B85
+      value: Pediculosis and phthiriasis
+      type: any
+    - code: B86
+      value: Scabies
+      type: any
+    - code: B87.0
+      value: Cutaneous myiasis
+      type: any
+    - code: B87.1
+      value: Wound myiasis
+      type: any
+    - code: B88
+      value: Other infestations
+      type: any
+    - code: L00
+      value: Staphylococcal scalded skin syndrome
+      type: any
+    - code: L01
+      value: Impetigo
+      type: any
+    - code: L02
+      value: Cutaneous abscess, furuncle and carbuncle
+      type: any
+    - code: L03
+      value: Cellulitis
+      type: any
+    - code: L05.0
+      value: Pilonidal cyst with abscess
+      type: any
+    - code: L08
+      value: Other local infections of skin and subcutaneous tissue
+      type: any
+    - code: L30.3
+      value: Infective dermatitis
+      type: any
+    - code: P38
+      value: Omphalitis of newborn with or without mild haemorrhage
+      type: any
+    - code: P39.4
+      value: Neonatal skin infection
+      type: any
+  41204:
+    metadata:
+      desc: Diagnoses - secondary ICD10
+    values:
+    - code: A06.7
+      value: Cutaneous amoebiasis
+      type: any
+    - code: A18.4
+      value: Tuberculosis of skin and subcutaneous tissue
+      type: any
+    - code: A20.1
+      value: Cellulocutaneous plague
+      type: any
+    - code: A21.0
+      value: Ulceroglandular tularaemia
+      type: any
+    - code: A22.0
+      value: Cutaneous anthrax
+      type: any
+    - code: A26.0
+      value: Cutaneous erysipeloid
+      type: any
+    - code: A31.1
+      value: Cutaneous mycobacterial infection
+      type: any
+    - code: A32.0
+      value: Cutaneous listeriosis
+      type: any
+    - code: A36.3
+      value: Cutaneous diphtheria
+      type: any
+    - code: A43.1
+      value: Cutaneous nocardiosis
+      type: any
+    - code: A46
+      value: Erysipelas
+      type: any
+    - code: A51.3
+      value: Secondary syphilis of skin and mucous membranes
+      type: any
+    - code: B00.0
+      value: Eczema herpeticum
+      type: any
+    - code: B00.1
+      value: Herpesviral vesicular dermatitis
+      type: any
+    - code: B07
+      value: Viral warts
+      type: any
+    - code: B08
+      value: Other viral infections characterized by skin and mucous membrane lesions,
+        not elsewhere classified
+      type: any
+    - code: B09
+      value: Unspecified viral infection characterized by skin and mucous membrane
+        lesions
+      type: any
+    - code: B35
+      value: Dermatophytosis
+      type: any
+    - code: B36
+      value: Other superficial mycoses
+      type: any
+    - code: B37.2
+      value: Candidiasis of skin and nail
+      type: any
+    - code: B38.3
+      value: Cutaneous coccidioidomycosis
+      type: any
+    - code: B40.3
+      value: Cutaneous blastomycosis
+      type: any
+    - code: B42.1
+      value: Lymphocutaneous sporotrichosis
+      type: any
+    - code: B43.0
+      value: Cutaneous chromomycosis
+      type: any
+    - code: B43.2
+      value: Subcutaneous phaeomycotic abscess and cyst
+      type: any
+    - code: B45.2
+      value: Cutaneous cryptococcosis
+      type: any
+    - code: B46.3
+      value: Cutaneous mucormycosis
+      type: any
+    - code: B55.1
+      value: Cutaneous leishmaniasis
+      type: any
+    - code: B78.1
+      value: Cutaneous strongyloidiasis
+      type: any
+    - code: B85
+      value: Pediculosis and phthiriasis
+      type: any
+    - code: B86
+      value: Scabies
+      type: any
+    - code: B87.0
+      value: Cutaneous myiasis
+      type: any
+    - code: B87.1
+      value: Wound myiasis
+      type: any
+    - code: B88
+      value: Other infestations
+      type: any
+    - code: L00
+      value: Staphylococcal scalded skin syndrome
+      type: any
+    - code: L01
+      value: Impetigo
+      type: any
+    - code: L02
+      value: Cutaneous abscess, furuncle and carbuncle
+      type: any
+    - code: L03
+      value: Cellulitis
+      type: any
+    - code: L05.0
+      value: Pilonidal cyst with abscess
+      type: any
+    - code: L08
+      value: Other local infections of skin and subcutaneous tissue
+      type: any
+    - code: L30.3
+      value: Infective dermatitis
+      type: any
+    - code: P38
+      value: Omphalitis of newborn with or without mild haemorrhage
+      type: any
+    - code: P39.4
+      value: Neonatal skin infection
+      type: any
+  41200:
+    metadata:
+      desc: Operative procedures - main OPCS4
+    values: []
+  41210:
+    metadata:
+      desc: Operative procedures - secondary OPCS4
+    values: []
+  40001:
+    metadata:
+      desc: 'Underlying (primary) cause of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A06.7
+      value: Cutaneous amoebiasis
+      type: any
+    - code: A18.4
+      value: Tuberculosis of skin and subcutaneous tissue
+      type: any
+    - code: A20.1
+      value: Cellulocutaneous plague
+      type: any
+    - code: A21.0
+      value: Ulceroglandular tularaemia
+      type: any
+    - code: A22.0
+      value: Cutaneous anthrax
+      type: any
+    - code: A26.0
+      value: Cutaneous erysipeloid
+      type: any
+    - code: A31.1
+      value: Cutaneous mycobacterial infection
+      type: any
+    - code: A32.0
+      value: Cutaneous listeriosis
+      type: any
+    - code: A36.3
+      value: Cutaneous diphtheria
+      type: any
+    - code: A43.1
+      value: Cutaneous nocardiosis
+      type: any
+    - code: A46
+      value: Erysipelas
+      type: any
+    - code: A51.3
+      value: Secondary syphilis of skin and mucous membranes
+      type: any
+    - code: B00.0
+      value: Eczema herpeticum
+      type: any
+    - code: B00.1
+      value: Herpesviral vesicular dermatitis
+      type: any
+    - code: B07
+      value: Viral warts
+      type: any
+    - code: B08
+      value: Other viral infections characterized by skin and mucous membrane lesions,
+        not elsewhere classified
+      type: any
+    - code: B09
+      value: Unspecified viral infection characterized by skin and mucous membrane
+        lesions
+      type: any
+    - code: B35
+      value: Dermatophytosis
+      type: any
+    - code: B36
+      value: Other superficial mycoses
+      type: any
+    - code: B37.2
+      value: Candidiasis of skin and nail
+      type: any
+    - code: B38.3
+      value: Cutaneous coccidioidomycosis
+      type: any
+    - code: B40.3
+      value: Cutaneous blastomycosis
+      type: any
+    - code: B42.1
+      value: Lymphocutaneous sporotrichosis
+      type: any
+    - code: B43.0
+      value: Cutaneous chromomycosis
+      type: any
+    - code: B43.2
+      value: Subcutaneous phaeomycotic abscess and cyst
+      type: any
+    - code: B45.2
+      value: Cutaneous cryptococcosis
+      type: any
+    - code: B46.3
+      value: Cutaneous mucormycosis
+      type: any
+    - code: B55.1
+      value: Cutaneous leishmaniasis
+      type: any
+    - code: B78.1
+      value: Cutaneous strongyloidiasis
+      type: any
+    - code: B85
+      value: Pediculosis and phthiriasis
+      type: any
+    - code: B86
+      value: Scabies
+      type: any
+    - code: B87.0
+      value: Cutaneous myiasis
+      type: any
+    - code: B87.1
+      value: Wound myiasis
+      type: any
+    - code: B88
+      value: Other infestations
+      type: any
+    - code: L00
+      value: Staphylococcal scalded skin syndrome
+      type: any
+    - code: L01
+      value: Impetigo
+      type: any
+    - code: L02
+      value: Cutaneous abscess, furuncle and carbuncle
+      type: any
+    - code: L03
+      value: Cellulitis
+      type: any
+    - code: L05.0
+      value: Pilonidal cyst with abscess
+      type: any
+    - code: L08
+      value: Other local infections of skin and subcutaneous tissue
+      type: any
+    - code: L30.3
+      value: Infective dermatitis
+      type: any
+    - code: P38
+      value: Omphalitis of newborn with or without mild haemorrhage
+      type: any
+    - code: P39.4
+      value: Neonatal skin infection
+      type: any
+  40002:
+    metadata:
+      desc: 'Contributory (secondary) causes of death: ICD10'
+      time_qualifier:
+        field_id: 40000
+        type: date
+    values:
+    - code: A06.7
+      value: Cutaneous amoebiasis
+      type: any
+    - code: A18.4
+      value: Tuberculosis of skin and subcutaneous tissue
+      type: any
+    - code: A20.1
+      value: Cellulocutaneous plague
+      type: any
+    - code: A21.0
+      value: Ulceroglandular tularaemia
+      type: any
+    - code: A22.0
+      value: Cutaneous anthrax
+      type: any
+    - code: A26.0
+      value: Cutaneous erysipeloid
+      type: any
+    - code: A31.1
+      value: Cutaneous mycobacterial infection
+      type: any
+    - code: A32.0
+      value: Cutaneous listeriosis
+      type: any
+    - code: A36.3
+      value: Cutaneous diphtheria
+      type: any
+    - code: A43.1
+      value: Cutaneous nocardiosis
+      type: any
+    - code: A46
+      value: Erysipelas
+      type: any
+    - code: A51.3
+      value: Secondary syphilis of skin and mucous membranes
+      type: any
+    - code: B00.0
+      value: Eczema herpeticum
+      type: any
+    - code: B00.1
+      value: Herpesviral vesicular dermatitis
+      type: any
+    - code: B07
+      value: Viral warts
+      type: any
+    - code: B08
+      value: Other viral infections characterized by skin and mucous membrane lesions,
+        not elsewhere classified
+      type: any
+    - code: B09
+      value: Unspecified viral infection characterized by skin and mucous membrane
+        lesions
+      type: any
+    - code: B35
+      value: Dermatophytosis
+      type: any
+    - code: B36
+      value: Other superficial mycoses
+      type: any
+    - code: B37.2
+      value: Candidiasis of skin and nail
+      type: any
+    - code: B38.3
+      value: Cutaneous coccidioidomycosis
+      type: any
+    - code: B40.3
+      value: Cutaneous blastomycosis
+      type: any
+    - code: B42.1
+      value: Lymphocutaneous sporotrichosis
+      type: any
+    - code: B43.0
+      value: Cutaneous chromomycosis
+      type: any
+    - code: B43.2
+      value: Subcutaneous phaeomycotic abscess and cyst
+      type: any
+    - code: B45.2
+      value: Cutaneous cryptococcosis
+      type: any
+    - code: B46.3
+      value: Cutaneous mucormycosis
+      type: any
+    - code: B55.1
+      value: Cutaneous leishmaniasis
+      type: any
+    - code: B78.1
+      value: Cutaneous strongyloidiasis
+      type: any
+    - code: B85
+      value: Pediculosis and phthiriasis
+      type: any
+    - code: B86
+      value: Scabies
+      type: any
+    - code: B87.0
+      value: Cutaneous myiasis
+      type: any
+    - code: B87.1
+      value: Wound myiasis
+      type: any
+    - code: B88
+      value: Other infestations
+      type: any
+    - code: L00
+      value: Staphylococcal scalded skin syndrome
+      type: any
+    - code: L01
+      value: Impetigo
+      type: any
+    - code: L02
+      value: Cutaneous abscess, furuncle and carbuncle
+      type: any
+    - code: L03
+      value: Cellulitis
+      type: any
+    - code: L05.0
+      value: Pilonidal cyst with abscess
+      type: any
+    - code: L08
+      value: Other local infections of skin and subcutaneous tissue
+      type: any
+    - code: L30.3
+      value: Infective dermatitis
+      type: any
+    - code: P38
+      value: Omphalitis of newborn with or without mild haemorrhage
+      type: any
+    - code: P39.4
+      value: Neonatal skin infection
+      type: any
+  42040:
+    metadata:
+      desc: GP clinical event records
+    values: []
+  42039:
+    metadata:
+      desc: GP prescription records
+    values: []
+  40006:
+    metadata:
+      desc: 'Type of cancer: ICD10'
+      time_qualifier:
+        field_id: 40005
+        type: date
+    values: []

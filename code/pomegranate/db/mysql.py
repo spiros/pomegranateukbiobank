@@ -42,7 +42,7 @@ class MySQLDatabase:
             "host", os.getenv("POMEGRANATE_DB_HOST", "xxx.x.x.x")
         )
         self.config["port"] = kwargs.get(
-            "port", int(os.getenv("POMEGRANATE_DB_PORT", xxxx))
+            "port", int(os.getenv("POMEGRANATE_DB_PORT", "xxxx"))
         )
         self.config["db"] = kwargs.get("db", os.getenv("POMEGRANATE_DB_DB", "xxx"))
         self.config["user"] = kwargs.get(

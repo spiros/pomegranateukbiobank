@@ -40,7 +40,7 @@ class UKBDatabase(MySQLDatabase):
         """
 
         if insert is True:
-            sql_list = ["INSERT INTO {table} " + sql for sql in sql_list]
+            sql_list = [f "INSERT INTO {table} " + sql for sql in sql_list]
             return sum([self.query(sql).rowcount for sql in sql_list])
         else:
             return sum([self.query(sql).fetchall() for sql in sql_list], ())
